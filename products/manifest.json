@@ -1,104 +1,6 @@
 {
   "products": [
     {
-      "slug": "150-prompt-ai-umkm-indonesia",
-      "title": "150 Prompt AI untuk Bisnis dan UMKM Indonesia",
-      "outputs": [
-        {
-          "file": "products\\150-prompt-ai-umkm-indonesia.pdf",
-          "kind": "pdf",
-          "bytes": 1357910
-        },
-        {
-          "file": "products\\150-prompt-ai-umkm-indonesia.xlsx",
-          "kind": "excel",
-          "bytes": 53396
-        }
-      ],
-      "wordCount": 25089,
-      "pages": 105,
-      "producedAt": "2026-10-22T07:15:28.500Z",
-      "status": "produced"
-    },
-    {
-      "slug": "300-prompt-copywriting-basic",
-      "title": "300 Prompt AI untuk Copywriting dan Iklan Digital [BASIC]",
-      "tier": "basic",
-      "pricing": {
-        "normal": 49000,
-        "launch": 19000,
-        "flash": 10000
-      },
-      "outputs": [
-        {
-          "file": "products\\300-prompt-copywriting-basic-basic.pdf",
-          "kind": "pdf",
-          "bytes": 3005003
-        },
-        {
-          "file": "products\\300-prompt-copywriting-basic-basic-flyer.pdf",
-          "kind": "flyer",
-          "bytes": 1032262
-        }
-      ],
-      "wordCount": 36690,
-      "pages": 217,
-      "producedAt": "2026-10-22T17:14:21.272Z",
-      "status": "produced"
-    },
-    {
-      "slug": "300-prompt-copywriting-premium",
-      "title": "300 Prompt AI untuk Copywriting dan Iklan Digital [PREMIUM]",
-      "tier": "premium",
-      "pricing": {
-        "normal": 149000,
-        "launch": 69000,
-        "flash": 49000
-      },
-      "outputs": [
-        {
-          "file": "products\\300-prompt-copywriting-premium-premium.pdf",
-          "kind": "pdf",
-          "bytes": 1345790
-        },
-        {
-          "file": "products\\300-prompt-copywriting-premium-premium-flyer.pdf",
-          "kind": "flyer",
-          "bytes": 1163488
-        }
-      ],
-      "wordCount": 11892,
-      "pages": 64,
-      "producedAt": "2026-10-22T17:13:50.321Z",
-      "status": "produced"
-    },
-    {
-      "slug": "300-prompt-copywriting-ultimate",
-      "title": "300 Prompt AI untuk Copywriting dan Iklan Digital [ULTIMATE]",
-      "tier": "ultimate",
-      "pricing": {
-        "normal": 299000,
-        "launch": 149000,
-        "flash": 99000
-      },
-      "outputs": [
-        {
-          "file": "products\\300-prompt-copywriting-ultimate-ultimate.pdf",
-          "kind": "pdf",
-          "bytes": 776766
-        },
-        {
-          "file": "products\\300-prompt-copywriting-ultimate-ultimate-flyer.pdf",
-          "kind": "flyer",
-          "bytes": 1164771
-        }
-      ],
-      "wordCount": 9271,
-      "pages": 56,
-      "producedAt": "2026-10-22T17:19:26.180Z",
-      "status": "produced"
-    },
-    {
       "slug": "150-prompt-umkm-basic-basic",
       "title": "150 Prompt AI untuk Bisnis dan UMKM Indonesia [BASIC]",
       "tier": "basic",
@@ -140,6 +42,11 @@
           "bytes": 403784
         },
         {
+          "file": "products\\150-prompt-umkm-premium-premium.xlsx",
+          "kind": "excel",
+          "bytes": 53396
+        },
+        {
           "file": "products\\150-prompt-umkm-premium-premium-flyer.pdf",
           "kind": "flyer",
           "bytes": 1035247
@@ -147,7 +54,7 @@
       ],
       "wordCount": 3814,
       "pages": 18,
-      "producedAt": "2026-10-22T18:08:29.040Z",
+      "producedAt": "2026-10-22T18:17:44.400Z",
       "status": "produced"
     },
     {
@@ -163,7 +70,12 @@
         {
           "file": "products\\150-prompt-umkm-ultimate-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 608402
+          "bytes": 413549
+        },
+        {
+          "file": "products\\150-prompt-umkm-ultimate-ultimate.xlsx",
+          "kind": "excel",
+          "bytes": 53396
         },
         {
           "file": "products\\150-prompt-umkm-ultimate-ultimate-flyer.pdf",
@@ -172,8 +84,96 @@
         }
       ],
       "wordCount": 4217,
-      "pages": 28,
-      "producedAt": "2026-10-22T18:08:39.679Z",
+      "pages": 30,
+      "producedAt": "2026-10-22T18:17:58.420Z",
+      "status": "produced"
+    },
+    {
+      "slug": "300-prompt-copywriting-basic-basic",
+      "title": "300 Prompt AI untuk Copywriting dan Iklan Digital [BASIC]",
+      "tier": "basic",
+      "pricing": {
+        "normal": 49000,
+        "launch": 19000,
+        "flash": 10000
+      },
+      "outputs": [
+        {
+          "file": "products\\300-prompt-copywriting-basic-basic.pdf",
+          "kind": "pdf",
+          "bytes": 2844530
+        },
+        {
+          "file": "products\\300-prompt-copywriting-basic-basic-flyer.pdf",
+          "kind": "flyer",
+          "bytes": 1032262
+        }
+      ],
+      "wordCount": 36690,
+      "pages": 190,
+      "producedAt": "2026-10-22T18:17:00.849Z",
+      "status": "produced"
+    },
+    {
+      "slug": "300-prompt-copywriting-premium-premium",
+      "title": "300 Prompt AI untuk Copywriting dan Iklan Digital - PREMIUM [PREMIUM]",
+      "tier": "premium",
+      "pricing": {
+        "normal": 149000,
+        "launch": 69000,
+        "flash": 49000
+      },
+      "outputs": [
+        {
+          "file": "products\\300-prompt-copywriting-premium-premium.pdf",
+          "kind": "pdf",
+          "bytes": 1104385
+        },
+        {
+          "file": "products\\300-prompt-copywriting-premium-premium.xlsx",
+          "kind": "excel",
+          "bytes": 61893
+        },
+        {
+          "file": "products\\300-prompt-copywriting-premium-premium-flyer.pdf",
+          "kind": "flyer",
+          "bytes": 1035527
+        }
+      ],
+      "wordCount": 11892,
+      "pages": 58,
+      "producedAt": "2026-10-22T18:17:17.474Z",
+      "status": "produced"
+    },
+    {
+      "slug": "300-prompt-copywriting-ultimate-ultimate",
+      "title": "300 Prompt AI untuk Copywriting dan Iklan Digital [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\300-prompt-copywriting-ultimate-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 768457
+        },
+        {
+          "file": "products\\300-prompt-copywriting-ultimate-ultimate.xlsx",
+          "kind": "excel",
+          "bytes": 61894
+        },
+        {
+          "file": "products\\300-prompt-copywriting-ultimate-ultimate-flyer.pdf",
+          "kind": "flyer",
+          "bytes": 1034906
+        }
+      ],
+      "wordCount": 9271,
+      "pages": 51,
+      "producedAt": "2026-10-22T18:17:30.918Z",
       "status": "produced"
     },
     {
@@ -218,6 +218,11 @@
           "bytes": 494213
         },
         {
+          "file": "products\\200-template-sosmed-premium-premium.xlsx",
+          "kind": "excel",
+          "bytes": 18960
+        },
+        {
           "file": "products\\200-template-sosmed-premium-premium-flyer.pdf",
           "kind": "flyer",
           "bytes": 1034941
@@ -225,7 +230,7 @@
       ],
       "wordCount": 4599,
       "pages": 20,
-      "producedAt": "2026-10-22T18:09:04.722Z",
+      "producedAt": "2026-10-22T18:19:07.203Z",
       "status": "produced"
     },
     {
@@ -241,7 +246,12 @@
         {
           "file": "products\\200-template-sosmed-ultimate-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 500412
+          "bytes": 359361
+        },
+        {
+          "file": "products\\200-template-sosmed-ultimate-ultimate.xlsx",
+          "kind": "excel",
+          "bytes": 18960
         },
         {
           "file": "products\\200-template-sosmed-ultimate-ultimate-flyer.pdf",
@@ -250,86 +260,8 @@
         }
       ],
       "wordCount": 3849,
-      "pages": 27,
-      "producedAt": "2026-10-22T18:09:14.998Z",
-      "status": "produced"
-    },
-    {
-      "slug": "300-prompt-copywriting-basic-basic",
-      "title": "300 Prompt AI untuk Copywriting dan Iklan Digital [BASIC]",
-      "tier": "basic",
-      "pricing": {
-        "normal": 49000,
-        "launch": 19000,
-        "flash": 10000
-      },
-      "outputs": [
-        {
-          "file": "products\\300-prompt-copywriting-basic-basic.pdf",
-          "kind": "pdf",
-          "bytes": 3176821
-        },
-        {
-          "file": "products\\300-prompt-copywriting-basic-basic-flyer.pdf",
-          "kind": "flyer",
-          "bytes": 1158900
-        }
-      ],
-      "wordCount": 36690,
-      "pages": 194,
-      "producedAt": "2026-10-22T18:07:41.352Z",
-      "status": "produced"
-    },
-    {
-      "slug": "300-prompt-copywriting-premium-premium",
-      "title": "300 Prompt AI untuk Copywriting dan Iklan Digital - PREMIUM [PREMIUM]",
-      "tier": "premium",
-      "pricing": {
-        "normal": 149000,
-        "launch": 69000,
-        "flash": 49000
-      },
-      "outputs": [
-        {
-          "file": "products\\300-prompt-copywriting-premium-premium.pdf",
-          "kind": "pdf",
-          "bytes": 1104385
-        },
-        {
-          "file": "products\\300-prompt-copywriting-premium-premium-flyer.pdf",
-          "kind": "flyer",
-          "bytes": 1035527
-        }
-      ],
-      "wordCount": 11892,
-      "pages": 58,
-      "producedAt": "2026-10-22T18:07:51.009Z",
-      "status": "produced"
-    },
-    {
-      "slug": "300-prompt-copywriting-ultimate-ultimate",
-      "title": "300 Prompt AI untuk Copywriting dan Iklan Digital [ULTIMATE]",
-      "tier": "ultimate",
-      "pricing": {
-        "normal": 299000,
-        "launch": 149000,
-        "flash": 99000
-      },
-      "outputs": [
-        {
-          "file": "products\\300-prompt-copywriting-ultimate-ultimate.pdf",
-          "kind": "pdf",
-          "bytes": 768457
-        },
-        {
-          "file": "products\\300-prompt-copywriting-ultimate-ultimate-flyer.pdf",
-          "kind": "flyer",
-          "bytes": 1034906
-        }
-      ],
-      "wordCount": 9271,
-      "pages": 51,
-      "producedAt": "2026-10-22T18:08:00.709Z",
+      "pages": 28,
+      "producedAt": "2026-10-22T18:19:21.120Z",
       "status": "produced"
     }
   ]

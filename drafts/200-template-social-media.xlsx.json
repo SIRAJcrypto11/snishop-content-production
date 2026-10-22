@@ -1,0 +1,467 @@
+{
+  "title": "200 Template AI untuk Social Media Management",
+  "sheets": [
+    {
+      "name": "Library Template",
+      "headers": [
+        "Kode",
+        "Bagian",
+        "Judul",
+        "Kapan Pakai",
+        "Template",
+        "Variabel",
+        "Hasil yang Diharapkan"
+      ],
+      "rows": [
+        [
+          "T-001",
+          "Content Planning",
+          "Content Calendar Bulanan",
+          "Membuat planning konten untuk 1 bulan penuh",
+          "Sebagai social media strategist, buatkan content calendar 30 hari untuk [BISNIS] di [PLATFORM]. Posting [FREKUENSI] kali per minggu dengan goal [GOAL]. Content pillar: [PILLAR]. Buat tabel dengan kolom: Tanggal, Hari, Content Pillar, Ide Konten, Format (image/video/carousel/story), Caption Hook, dan CTA. Variasikan format dan pastikan ada minimal 2 konten edukatif, 1 konten promosi, dan 1 konten engagement per minggu.",
+          "[BISNIS]: jenis bisnis Anda; [PLATFORM]: platform yang digunakan (Instagram/Facebook/TikTok); [FREKUENSI]: berapa kali posting per minggu; [GOAL]: tujuan bulan ini (awareness/sales/engagement); [PILLAR]: 3-5 content pillar bisnis Anda",
+          "Tabel content calendar 30 hari lengkap dengan detail setiap posting"
+        ],
+        [
+          "T-002",
+          "Content Planning",
+          "Content Pillar Development",
+          "Menentukan 3-5 topik utama untuk konten Anda",
+          "Sebagai brand strategist, tentukan 5 content pillar untuk [BISNIS] yang menjual [PRODUK] kepada [TARGET]. Keahlian kami adalah [KEAHLIAN]. Setiap pillar harus: (1) relevan dengan audience, (2) menunjukkan expertise, (3) mendukung goal bisnis, (4) bisa diproduksi konsisten. Untuk setiap pillar, berikan: nama pillar, deskripsi, contoh 5 ide konten, dan persentase alokasi dari total konten bulanan.",
+          "[BISNIS]: jenis bisnis Anda; [PRODUK]: produk/jasa yang dijual; [TARGET]: target audience; [KEAHLIAN]: keahlian atau unique selling point",
+          "5 content pillar lengkap dengan contoh ide dan alokasi persentase"
+        ],
+        [
+          "T-003",
+          "Content Planning",
+          "Audience Research Summary",
+          "Memahami karakteristik dan kebutuhan audience Anda",
+          "Sebagai market researcher, buatkan profil audience untuk [BISNIS] yang menjual [PRODUK] kepada usia [USIA] di [LOKASI]. Include: (1) demographic profile, (2) psychographic traits, (3) pain points dan challenges, (4) goals dan aspirations, (5) social media behavior (platform favorit, waktu aktif, jenis konten yang disukai), (6) buying triggers dan objections, (7) 5 persona berbeda dengan nama dan cerita singkat.",
+          "[BISNIS]: jenis bisnis Anda; [PRODUK]: produk/jasa yang dijual; [USIA]: range usia target audience; [LOKASI]: lokasi geografis target",
+          "Profil audience lengkap dengan 5 persona berbeda"
+        ],
+        [
+          "T-004",
+          "Content Planning",
+          "Competitor Analysis",
+          "Menganalisis strategi social media kompetitor",
+          "Sebagai competitive intelligence analyst, analisis strategi social media [KOMPETITOR_1], [KOMPETITOR_2], dan [KOMPETITOR_3] di [PLATFORM] untuk bisnis [BISNIS]. Buat tabel perbandingan dengan kolom: Nama Kompetitor, Followers, Engagement Rate, Frekuensi Posting, Jenis Konten Dominan, Tone of Voice, Hashtag Strategy, Kekuatan, Kelemahan, dan Peluang untuk [BISNIS]. Berikan 5 rekomendasi strategi yang bisa kita adopsi atau diferensiasi.",
+          "[BISNIS]: jenis bisnis Anda; [KOMPETITOR_1]: nama kompetitor pertama; [KOMPETITOR_2]: nama kompetitor kedua; [KOMPETITOR_3]: nama kompetitor ketiga; [PLATFORM]: platform yang dianalisis",
+          "Tabel analisis kompetitor lengkap dengan rekomendasi strategi"
+        ],
+        [
+          "T-005",
+          "Content Planning",
+          "Weekly Content Batch",
+          "Membuat 7 ide konten dalam sekali duduk",
+          "Sebagai content creator, buatkan 7 ide konten untuk [BISNIS] minggu ini. Content pillar: [PILLAR]. Goal: [GOAL]. Event: [EVENT]. Untuk setiap ide, berikan: (1) judul/hook, (2) format (image/video/carousel/story), (3) angle unik, (4) CTA yang sesuai, (5) estimasi waktu produksi. Variasikan antara konten edukatif, inspiratif, entertaining, dan promotif.",
+          "[BISNIS]: jenis bisnis Anda; [PILLAR]: content pillar minggu ini; [GOAL]: tujuan minggu ini; [EVENT]: event atau momen spesial (jika ada)",
+          "7 ide konten lengkap dengan detail produksi"
+        ],
+        [
+          "T-040",
+          "Content Planning",
+          "Seasonal Content Planner",
+          "Merencanakan konten untuk momen spesial sepanjang tahun",
+          "Sebagai marketing strategist, buatkan seasonal content calendar untuk [BISNIS] di industri [INDUSTRI] tahun [TAHUN]. Include: (1) hari besar nasional dan internasional, (2) momen industri spesifik, (3) season belanja (Ramadhan, Lebaran, Natal, Tahun Baru, dll), (4) event olahraga atau entertainment besar. Untuk setiap momen, berikan: tanggal, nama event, ide konten 7 hari sebelum-sesudah, rekomendasi format, dan estimated engagement boost.",
+          "[BISNIS]: jenis bisnis Anda; [INDUSTRI]: industri bisnis Anda; [TAHUN]: tahun yang direncanakan",
+          "Calendar lengkap dengan 50+ momen dan strategi konten"
+        ],
+        [
+          "T-041",
+          "Caption Writing",
+          "Instagram Caption yang Storytelling",
+          "Membuat caption Instagram yang menceritakan kisah brand",
+          "Sebagai Instagram copywriter, tulis caption 150 kata untuk [PRODUK] dengan cerita [STORY]. Bangkitkan emosi [EMOSI] dan akhiri dengan [CTA]. Struktur: (1) hook di 2 kalimat pertama yang bikin penasaran, (2) story di paragraf kedua, (3) value proposition di paragraf ketiga, (4) CTA yang jelas. Gunakan bahasa conversational, tambahkan 3-5 emoji yang relevan, dan 10 hashtag di akhir.",
+          "[PRODUK]: produk yang dipromosikan; [STORY]: cerita di balik produk; [EMOSI]: emosi yang ingin dibangkitkan; [CTA]: call-to-action",
+          "Caption Instagram storytelling lengkap dengan emoji dan hashtag"
+        ],
+        [
+          "T-042",
+          "Caption Writing",
+          "Facebook Post yang Shareable",
+          "Membuat post Facebook yang mendorong sharing",
+          "Sebagai Facebook content strategist, tulis post 200 kata tentang [TOPIK] dengan insight [INSIGHT] untuk [AUDIENCE]. Goal: [GOAL]. Buat post yang: (1) relatable dengan masalah audience, (2) memberikan value nyata, (3) mudah dipahami, (4) mendorong sharing. Gunakan format: question di awal, story atau contoh di tengah, takeaway di akhir. Tambahkan 1 CTA yang tidak salesy.",
+          "[TOPIK]: topik post; [INSIGHT]: insight atau tips yang dibagikan; [AUDIENCE]: target audience; [GOAL]: goal post (awareness/engagement/traffic)",
+          "Post Facebook yang engaging dan shareable"
+        ],
+        [
+          "T-043",
+          "Caption Writing",
+          "TikTok Script yang Viral",
+          "Membuat script TikTok yang berpotensi viral",
+          "Sebagai TikTok content creator, buatkan script video [DURASI] detik tentang [TOPIK] yang incorporate trend [TREND]. Jika ada produk [PRODUCT], integrate secara natural. Struktur: (1) hook 3 detik pertama yang stop scroll, (2) setup 5 detik, (3) main content, (4) plot twist atau surprise, (5) CTA. Sertakan: text overlay untuk setiap scene, rekomendasi music/sound, camera angles, dan transition ideas.",
+          "[TOPIK]: topik video; [DURASI]: durasi video (15/30/60 detik); [TREND]: trend yang sedang viral; [PRODUCT]: produk yang ingin dipromosikan (opsional)",
+          "Script TikTok lengkap dengan visual directions"
+        ],
+        [
+          "T-044",
+          "Caption Writing",
+          "Twitter/X Thread yang Informative",
+          "Membuat thread Twitter/X yang educational",
+          "Sebagai Twitter/X strategist, buatkan thread 7 tweets tentang [TOPIK]. Poin utama: [POINTS]. Target: [AUDIENCE]. Akhiri dengan [CTA]. Setiap tweet harus: (1) standalone yang bisa dipahami, (2) max 280 karakter, (3) hook di tweet pertama, (4) numbering (1/7, 2/7, dst), (5) 1-2 hashtag relevan per tweet. Buat flow yang logical dan engaging.",
+          "[TOPIK]: topik thread; [POINTS]: 5-7 poin utama yang ingin disampaikan; [AUDIENCE]: target reader; [CTA]: call-to-action di akhir",
+          "Thread 7 tweets yang cohesive dan informative"
+        ],
+        [
+          "T-045",
+          "Caption Writing",
+          "LinkedIn Post yang Professional",
+          "Membuat post LinkedIn untuk personal branding",
+          "Sebagai LinkedIn ghostwriter, tulis post 300 kata tentang [TOPIK] dari perspektif [EXPERTISE]. Lesson: [LESSON]. Target: [AUDIENCE]. Tone: professional namun conversational. Struktur: (1) hook yang provocative atau surprising, (2) personal story atau case study, (3) 3-5 key takeaways dalam bullet points, (4) reflection atau forward-looking statement, (5) question untuk mendorong engagement. Hindari jargon berlebihan.",
+          "[TOPIK]: topik post; [EXPERTISE]: bidang keahlian Anda; [LESSON]: pelajaran atau insight yang dibagikan; [AUDIENCE]: target reader (recruiter/client/peer)",
+          "Post LinkedIn yang professional dan engaging"
+        ],
+        [
+          "T-080",
+          "Caption Writing",
+          "Multi-Platform Caption Adapter",
+          "Mengadaptasi 1 konten untuk berbagai platform",
+          "Sebagai multi-platform content strategist, adaptasi konten inti [KONTEN_INTI] untuk [PLATFORMS]. Brand voice: [BRAND_VOICE]. Untuk setiap platform, berikan: (1) panjang optimal caption, (2) format yang sesuai, (3) hashtag strategy, (4) CTA yang platform-specific, (5) best posting time. Pastikan pesan konsisten tapi format disesuaikan dengan karakter setiap platform.",
+          "[KONTEN_INTI]: pesan utama yang ingin disampaikan; [PLATFORMS]: platform target (Instagram, Facebook, Twitter, LinkedIn, TikTok); [BRAND_VOICE]: tone dan style brand Anda",
+          "5 variasi caption untuk platform berbeda dengan pesan konsisten"
+        ],
+        [
+          "T-081",
+          "Visual Content",
+          "Instagram Carousel Structure",
+          "Membuat struktur carousel yang engaging",
+          "Sebagai visual content designer, buatkan struktur carousel Instagram [SLIDES] slide tentang [TOPIK]. Goal: [GOAL]. Akhiri dengan [CTA]. Untuk setiap slide, berikan: (1) headline/title, (2) 2-3 bullet points atau visual element, (3) design suggestion (warna, layout, imagery). Slide 1 harus hook yang stop scroll. Slide terakhir harus CTA yang clear. Buat flow yang logical dan visually appealing.",
+          "[TOPIK]: topik carousel; [SLIDES]: jumlah slide (5-10); [GOAL]: tujuan (educate/entertain/promote); [CTA]: call-to-action di slide terakhir",
+          "Struktur carousel lengkap dengan design directions"
+        ],
+        [
+          "T-082",
+          "Visual Content",
+          "Reel Concept Generator",
+          "Membuat konsep Reels yang engaging",
+          "Sebagai Reels creator, buatkan 5 konsep video [DURASI] detik tentang [TOPIK] dengan style [STYLE]. Jika ada produk [PRODUCT], integrate secara natural. Untuk setiap konsep, berikan: (1) hook 3 detik pertama, (2) main content flow, (3) transition ideas, (4) music/sound recommendation, (5) text overlay suggestions, (6) CTA. Pastikan konsep sesuai dengan trend Reels saat ini.",
+          "[TOPIK]: topik Reels; [DURASI]: durasi (15/30/60 detik); [STYLE]: gaya (tutorial/entertaining/inspirational); [PRODUCT]: produk yang ingin ditampilkan (opsional)",
+          "5 konsep Reels lengkap dengan production details"
+        ],
+        [
+          "T-083",
+          "Visual Content",
+          "Story Series Planner",
+          "Merencanakan series Instagram Stories",
+          "Sebagai Instagram strategist, buatkan [DURASI] hari Instagram Story series tentang [TOPIK]. Goal: [GOAL]. Include interactive elements: [INTERACTIVE]. Untuk setiap hari, berikan: (1) theme hari itu, (2) 3-5 story slides dengan konten, (3) interactive element (poll/quiz/question slider), (4) CTA untuk ke hari berikutnya atau ke link. Buat narrative arc yang membuat orang follow terus.",
+          "[TOPIK]: topik series; [DURASI]: berapa hari (3-7 hari); [GOAL]: tujuan (engagement/sales/awareness); [INTERACTIVE]: elemen interaktif yang ingin digunakan",
+          "Plan series Stories lengkap dengan interactive elements"
+        ],
+        [
+          "T-084",
+          "Visual Content",
+          "Infographic Content Structure",
+          "Membuat struktur infographic yang informative",
+          "Sebagai infographic designer, buatkan struktur infographic tentang [DATA] untuk [AUDIENCE]. Key message: [KEY_MESSAGE]. Format: [FORMAT]. Include: (1) headline yang catchy, (2) 5-7 section dengan data points, (3) visual hierarchy suggestions, (4) color palette recommendation, (5) icon/imagery ideas. Pastikan informasi mudah dipahami dalam 30 detik.",
+          "[DATA]: data atau informasi yang ingin divisualkan; [AUDIENCE]: target audience; [KEY_MESSAGE]: pesan utama yang ingin disampaikan; [FORMAT]: format (list/comparison/timeline/process)",
+          "Struktur infographic lengkap dengan design guidelines"
+        ],
+        [
+          "T-085",
+          "Visual Content",
+          "Meme Concept Generator",
+          "Membuat konsep meme yang relatable dan shareable",
+          "Sebagai meme creator, buatkan 5 konsep meme tentang [SITUASI] di industri [INDUSTRI]. Tone: [TONE]. Jika ada produk [PRODUCT], integrate secara subtle tidak hard-sell. Untuk setiap konsep, berikan: (1) meme format (Drake/Distracted Boyfriend/Two Buttons/etc), (2) top text, (3) bottom text, (4) why it's relatable, (5) caption untuk post. Pastikan meme appropriate dan tidak offensive.",
+          "[SITUASI]: situasi atau masalah yang dihadapi audience; [INDUSTRI]: industri bisnis Anda; [TONE]: tone humor (sarcastic/wholesome/self-deprecating); [PRODUCT]: produk yang ingin dipromosikan secara subtle",
+          "5 konsep meme lengkap dengan caption"
+        ],
+        [
+          "T-120",
+          "Visual Content",
+          "User-Generated Content Campaign",
+          "Merencanakan campaign yang mendorong UGC",
+          "Sebagai campaign strategist, buatkan UGC campaign untuk [BRAND] yang mempromosikan [PRODUCT]. Goal: [GOAL]. Insentif: [INCENTIVE]. Include: (1) nama campaign yang catchy, (2) hashtag campaign, (3) mekanisme partisipasi, (4) kriteria konten yang diharapkan, (5) timeline campaign (2-4 minggu), (6) cara seleksi pemenang, (7) strategi amplifikasi, (8) template announcement post. Pastikan campaign mudah diikuti dan motivating.",
+          "[BRAND]: nama brand Anda; [PRODUCT]: produk yang ingin dipromosikan; [GOAL]: tujuan campaign (awareness/sales/engagement); [INCENTIVE]: insentif untuk partisipan",
+          "Plan UGC campaign lengkap dengan mekanisme dan timeline"
+        ],
+        [
+          "T-121",
+          "Engagement",
+          "Comment Response Templates",
+          "Membalas komentar followers dengan konsisten",
+          "Sebagai community manager, buatkan 5 template balasan untuk komentar [JENIS_KOMENTAR] di social media [BRAND_VOICE]. Jika terkait [PRODUCT], mention secara natural. Akhiri dengan [CTA] jika appropriate. Setiap template harus: (1) personal dan authentic, (2) max 50 kata, (3) sesuai brand voice, (4) mendorong conversation lanjut. Include variasi untuk situasi berbeda.",
+          "[JENIS_KOMENTAR]: jenis komentar (positive/question/complaint/compliment); [BRAND_VOICE]: tone dan style brand Anda; [PRODUCT]: produk yang terkait (jika ada); [CTA]: call-to-action yang ingin disampaikan",
+          "5 template balasan komentar yang versatile"
+        ],
+        [
+          "T-122",
+          "Engagement",
+          "DM Response Templates",
+          "Membalas direct message dengan professional",
+          "Sebagai customer service specialist, buatkan 3 template balasan DM [JENIS_DM] untuk [BRAND]. Goal: [GOAL]. Tone: [TONE]. Setiap template harus: (1) acknowledge pesan dengan nama customer, (2) jawab pertanyaan atau address concern, (3) berikan next step yang jelas, (4) akhiri dengan question atau CTA yang mendorong response. Include bagian yang bisa dipersonalisasi.",
+          "[JENIS_DM]: jenis DM (inquiry/complaint/collaboration/general); [BRAND]: nama brand Anda; [GOAL]: tujuan balasan (convert/retain/inform); [TONE]: tone komunikasi (friendly/professional/casual)",
+          "3 template DM yang professional dan personal"
+        ],
+        [
+          "T-123",
+          "Engagement",
+          "Poll dan Question Ideas",
+          "Membuat interactive content untuk Stories",
+          "Sebagai engagement strategist, buatkan 10 ide poll dan question untuk Stories tentang [TOPIK] untuk [AUDIENCE]. Goal: [GOAL]. Funnel stage: [FUNNEL]. Untuk setiap ide, berikan: (1) type (poll/quiz/question slider/emoji slider), (2) question text, (3) options (untuk poll/quiz), (4) follow-up action berdasarkan jawaban. Variasikan antara fun, insightful, dan actionable questions.",
+          "[TOPIK]: topik yang ingin didiskusikan; [AUDIENCE]: target audience; [GOAL]: tujuan (engagement/research/feedback); [FUNNEL]: tahap funnel (awareness/consideration/decision)",
+          "10 ide interactive content yang engaging"
+        ],
+        [
+          "T-124",
+          "Engagement",
+          "Contest dan Giveaway Mechanics",
+          "Merencanakan contest atau giveaway",
+          "Sebagai campaign manager, buatkan mechanics untuk contest [PRIZE] dengan goal [GOAL]. Durasi: [DURASI]. Mechanics: [MECHANICS]. Include: (1) nama contest yang catchy, (2) rules dan syarat partisipasi (5-7 poin), (3) step-by-step cara ikut, (4) kriteria pemenang, (5) timeline announcement, (6) disclaimer dan legal notes, (7) caption announcement post, (8) reminder posts (3 variasi), (9) winner announcement template. Pastikan mechanics mudah dipahami dan motivating.",
+          "[PRIZE]: hadiah yang diberikan; [GOAL]: tujuan (followers/engagement/UGC/sales); [DURASI]: lama contest (3-14 hari); [MECHANICS]: mekanisme yang diinginkan (like+comment/share/UGC)",
+          "Plan contest lengkap dengan semua template komunikasi"
+        ],
+        [
+          "T-125",
+          "Engagement",
+          "Community Building Strategy",
+          "Membangun komunitas yang engaged dan loyal",
+          "Sebagai community builder, buatkan strategy untuk membangun komunitas [BRAND] di niche [NICHE] menggunakan [PLATFORM]. Goal: [GOAL]. Include: (1) nama komunitas yang memorable, (2) value proposition untuk member, (3) onboarding process untuk member baru, (4) weekly activities dan rituals, (5) moderation guidelines, (6) engagement triggers, (7) growth tactics, (8) metrics untuk track success. Fokus pada building genuine connections, bukan hanya numbers.",
+          "[BRAND]: nama brand Anda; [NICHE]: niche atau industri; [PLATFORM]: platform utama (Instagram Group/Facebook Group/Discord/Telegram); [GOAL]: tujuan komunitas (support/feedback/advocacy)",
+          "Strategy komunitas lengkap dengan implementation plan"
+        ],
+        [
+          "T-160",
+          "Engagement",
+          "Crisis Communication Templates",
+          "Menangani situasi krisis atau komplain viral",
+          "Sebagai PR specialist, buatkan crisis communication plan untuk [SITUASI] dengan severity [SEVERITY] di [PLATFORM]. Stakeholder: [STAKEHOLDER]. Include: (1) holding statement (50 kata) untuk immediate response, (2) detailed apology letter (200 kata), (3) FAQ untuk anticipated questions (5-7 Q&A), (4) internal memo untuk tim, (5) follow-up update template, (6) recovery content ideas. Tone harus empathetic, accountable, dan solution-oriented. Hindari defensive language.",
+          "[SITUASI]: jenis krisis (product issue/service failure/miscommunication/public complaint); [SEVERITY]: tingkat keparahan (minor/moderate/major); [PLATFORM]: platform dimana krisis terjadi; [STAKEHOLDER]: pihak yang terdampak",
+          "Crisis communication kit lengkap dengan semua template"
+        ],
+        [
+          "T-161",
+          "Analytics & Optimization",
+          "Monthly Performance Report",
+          "Membuat laporan performa social media bulanan",
+          "Sebagai social media analyst, buatkan template laporan performa [PLATFORM] untuk periode [PERIODE]. Metrics: [METRICS]. Goal: [GOAL]. Include: (1) executive summary (3-5 kalimat), (2) key metrics overview dengan comparison vs bulan lalu, (3) top performing content analysis (5 posts terbaik), (4) underperforming content analysis (3 posts terburuk), (5) audience insights, (6) competitor benchmarking, (7) recommendations untuk bulan depan (5 action items), (8) next month goals. Format dalam bahasa yang mudah dipahami non-technical stakeholders.",
+          "[PERIODE]: bulan yang dilaporkan; [PLATFORM]: platform yang dianalisis; [METRICS]: metrics yang di-track (followers/engagement/reach/conversions); [GOAL]: goal bulanan",
+          "Template laporan bulanan lengkap dengan analisis dan rekomendasi"
+        ],
+        [
+          "T-162",
+          "Analytics & Optimization",
+          "A/B Testing Ideas Generator",
+          "Merencanakan eksperimen untuk optimasi konten",
+          "Sebagai growth hacker, buatkan 5 A/B testing ideas untuk [ELEMENT] dengan hypothesis [HYPOTHESIS]. Success metric: [METRIC]. Durasi: [DURASI]. Untuk setiap test, berikan: (1) test name, (2) variable A description, (3) variable B description, (4) sample size needed, (5) success criteria, (6) implementation steps, (7) potential insights. Prioritaskan tests yang high-impact dan easy-to-implement.",
+          "[ELEMENT]: element yang ingin di-test (caption/image/timing/hashtag/format); [HYPOTHESIS]: hipotesis yang ingin dibuktikan; [METRIC]: metric sukses (engagement rate/click-through/conversion); [DURASI]: lama test (1-4 minggu)",
+          "5 A/B testing ideas lengkap dengan implementation plan"
+        ],
+        [
+          "T-163",
+          "Analytics & Optimization",
+          "Growth Strategy Planner",
+          "Merencanakan strategi pertumbuhan followers",
+          "Sebagai growth strategist, buatkan 90-day growth plan untuk [PLATFORM] dari [CURRENT_FOLLOWERS] ke [TARGET_FOLLOWERS]. Resources: [RESOURCES]. Include: (1) current state analysis (strengths/weaknesses/opportunities), (2) growth levers (organic/paid/partnerships), (3) monthly milestones, (4) weekly action items, (5) content strategy adjustments, (6) engagement tactics, (7) collaboration opportunities, (8) budget allocation (jika ada), (9) KPIs untuk track progress, (10) risk mitigation plan. Fokus pada sustainable growth, bukan vanity metrics.",
+          "[PLATFORM]: platform yang ingin ditumbuhkan; [CURRENT_FOLLOWERS]: jumlah followers saat ini; [TARGET_FOLLOWERS]: target followers dalam 3-6 bulan; [RESOURCES]: resources yang tersedia (time/budget/team)",
+          "90-day growth plan lengkap dengan action items"
+        ],
+        [
+          "T-164",
+          "Analytics & Optimization",
+          "Content Performance Analysis",
+          "Menganalisis kenapa konten tertentu perform baik/buruk",
+          "Sebagai content strategist, analisis performa konten [PERIODE]. Top content: [TOP_CONTENT]. Bottom content: [BOTTOM_CONTENT]. Metrics: [METRICS]. Berikan: (1) pattern analysis (apa persamaan top content), (2) anti-pattern analysis (apa persamaan bottom content), (3) audience behavior insights, (4) content format preferences, (5) optimal posting times, (6) hashtag effectiveness, (7) caption length correlation, (8) 5 actionable recommendations untuk improve future content. Gunakan data-driven approach.",
+          "[TOP_CONTENT]: 3-5 konten top performing; [BOTTOM_CONTENT]: 3-5 konten bottom performing; [METRICS]: metrics yang dianalisis (reach/engagement/saves/shares); [PERIODE]: periode analisis",
+          "Analisis mendalam dengan actionable insights"
+        ],
+        [
+          "T-165",
+          "Analytics & Optimization",
+          "ROI Calculation Template",
+          "Menghitung return on investment dari social media efforts",
+          "Sebagai marketing analyst, buatkan ROI calculation untuk social media efforts [PERIODE]. Costs: [COSTS]. Revenue: [REVENUE]. Goals: [GOALS]. Include: (1) direct ROI calculation (revenue - costs) / costs x 100%, (2) cost per acquisition (CPA), (3) customer lifetime value (CLV) dari social media, (4) brand value metrics (reach/impressions/mentions), (5) engagement value estimation, (6) comparison vs industry benchmarks, (7) recommendations untuk optimize ROI, (8) projection untuk next period. Present dalam format yang mudah dipahami stakeholders.",
+          "[PERIODE]: periode perhitungan (bulanan/kuartalan/tahunan); [COSTS]: biaya yang dikeluarkan (ads/tools/time); [REVENUE]: revenue yang di-generate (sales/leads/valuasi brand); [GOALS]: goal bisnis utama",
+          "ROI report lengkap dengan financial metrics dan recommendations"
+        ],
+        [
+          "T-200",
+          "Analytics & Optimization",
+          "Annual Strategy Review",
+          "Melakukan review strategi tahunan dan planning tahun depan",
+          "Sebagai marketing director, buatkan annual strategy review untuk social media [TAHUN_INI] dan planning [TAHUN_DEPAN]. Achievements: [ACHIEVEMENTS]. Challenges: [CHALLENGES]. Goals: [GOALS_DEPAN]. Include: (1) year in review (key metrics dan milestones), (2) what worked well (5 success factors), (3) what didn't work (5 lessons learned), (4) competitive landscape changes, (5) industry trends untuk tahun depan, (6) strategic priorities (3-5 focus areas), (7) quarterly goals dan initiatives, (8) resource requirements (budget/team/tools), (9) risk assessment dan mitigation, (10) success metrics dan tracking plan. Make it comprehensive yet actionable.",
+          "[TAHUN_INI]: tahun yang di-review; [TAHUN_DEPAN]: tahun yang direncanakan; [ACHIEVEMENTS]: pencapaian tahun ini; [CHALLENGES]: tantangan yang dihadapi; [GOALS_DEPAN]: goal tahun depan",
+          "Annual review dan strategic plan lengkap"
+        ]
+      ]
+    },
+    {
+      "name": "Content Calendar",
+      "headers": [
+        "Minggu",
+        "Hari",
+        "Content Pillar",
+        "Ide Konten",
+        "Format",
+        "Caption Hook",
+        "CTA",
+        "Status"
+      ],
+      "rows": [
+        [
+          "Minggu 1",
+          "Senin",
+          "Edukasi",
+          "",
+          "Carousel",
+          "",
+          "",
+          "Draft"
+        ],
+        [
+          "Minggu 1",
+          "Rabu",
+          "Promosi",
+          "",
+          "Image",
+          "",
+          "",
+          "Draft"
+        ],
+        [
+          "Minggu 1",
+          "Jumat",
+          "Engagement",
+          "",
+          "Video",
+          "",
+          "",
+          "Draft"
+        ],
+        [
+          "Minggu 2",
+          "Senin",
+          "Edukasi",
+          "",
+          "Carousel",
+          "",
+          "",
+          "Draft"
+        ],
+        [
+          "Minggu 2",
+          "Rabu",
+          "Behind the Scene",
+          "",
+          "Story",
+          "",
+          "",
+          "Draft"
+        ],
+        [
+          "Minggu 2",
+          "Jumat",
+          "Promosi",
+          "",
+          "Image",
+          "",
+          "",
+          "Draft"
+        ]
+      ]
+    },
+    {
+      "name": "Platform Best Practices",
+      "headers": [
+        "Platform",
+        "Best Posting Time",
+        "Content Type",
+        "Caption Length",
+        "Hashtag Strategy",
+        "Engagement Tip"
+      ],
+      "rows": [
+        [
+          "Instagram",
+          "11:00-13:00, 19:00-21:00",
+          "Carousel, Reels, Story",
+          "125-200 kata",
+          "5-10 hashtag relevan",
+          "Gunakan question sticker di Story"
+        ],
+        [
+          "Facebook",
+          "13:00-16:00",
+          "Video, Link Post",
+          "40-80 kata",
+          "2-3 hashtag",
+          "Posting di jam istirahat siang"
+        ],
+        [
+          "TikTok",
+          "19:00-23:00",
+          "Video pendek 15-60 detik",
+          "Caption singkat",
+          "3-5 hashtag trending",
+          "Gunakan sound yang sedang viral"
+        ],
+        [
+          "Twitter/X",
+          "08:00-10:00, 12:00-13:00",
+          "Thread, Single tweet",
+          "Max 280 karakter",
+          "1-2 hashtag",
+          "Thread 5-7 tweet untuk edukasi"
+        ],
+        [
+          "LinkedIn",
+          "07:30-08:30, 12:00-13:00",
+          "Article, Professional post",
+          "1300 karakter optimal",
+          "3-5 hashtag profesional",
+          "Share insight industri"
+        ]
+      ]
+    },
+    {
+      "name": "Quality Checklist",
+      "headers": [
+        "Check Item",
+        "Kriteria",
+        "Status"
+      ],
+      "rows": [
+        [
+          "Hook kuat",
+          "3 detik pertama menarik perhatian",
+          ""
+        ],
+        [
+          "Value jelas",
+          "Audience mendapat insight atau solusi",
+          ""
+        ],
+        [
+          "CTA spesifik",
+          "Satu aksi yang diinginkan dari audience",
+          ""
+        ],
+        [
+          "Visual berkualitas",
+          "Resolusi tinggi, branding konsisten",
+          ""
+        ],
+        [
+          "Caption engaging",
+          "Ada pertanyaan atau call to comment",
+          ""
+        ],
+        [
+          "Hashtag relevan",
+          "5-10 hashtag sesuai niche",
+          ""
+        ],
+        [
+          "Timing tepat",
+          "Posting di jam aktif audience",
+          ""
+        ],
+        [
+          "Anti AI-slop",
+          "Bahasa natural, contoh konkret, no emoji",
+          ""
+        ]
+      ]
+    }
+  ]
+}
