@@ -13,7 +13,7 @@
         {
           "file": "products\\150-prompt-umkm-basic-basic.pdf",
           "kind": "pdf",
-          "bytes": 1688184
+          "bytes": 1513691
         },
         {
           "file": "products\\150-prompt-umkm-basic-basic-flyer.pdf",
@@ -22,8 +22,8 @@
         }
       ],
       "wordCount": 25089,
-      "pages": 82,
-      "producedAt": "2026-10-22T19:54:08.679Z",
+      "pages": 78,
+      "producedAt": "2026-10-22T20:09:27.025Z",
       "status": "produced"
     },
     {
@@ -39,7 +39,7 @@
         {
           "file": "products\\150-prompt-umkm-premium-premium.pdf",
           "kind": "pdf",
-          "bytes": 1724783
+          "bytes": 1967709
         },
         {
           "file": "products\\150-prompt-umkm-premium-premium.xlsx",
@@ -53,8 +53,8 @@
         }
       ],
       "wordCount": 32847,
-      "pages": 106,
-      "producedAt": "2026-10-22T19:54:21.400Z",
+      "pages": 110,
+      "producedAt": "2026-10-22T20:09:37.843Z",
       "status": "produced"
     },
     {
@@ -75,7 +75,7 @@
         {
           "file": "products\\150-prompt-umkm-ultimate-ultimate.xlsx",
           "kind": "excel",
-          "bytes": 53396
+          "bytes": 53397
         },
         {
           "file": "products\\150-prompt-umkm-ultimate-ultimate-flyer.pdf",
@@ -85,7 +85,7 @@
       ],
       "wordCount": 35637,
       "pages": 117,
-      "producedAt": "2026-10-22T19:54:35.066Z",
+      "producedAt": "2026-10-22T20:09:51.199Z",
       "status": "produced"
     },
     {
@@ -101,7 +101,7 @@
         {
           "file": "products\\300-prompt-copywriting-basic-basic.pdf",
           "kind": "pdf",
-          "bytes": 2838176
+          "bytes": 3167320
         },
         {
           "file": "products\\300-prompt-copywriting-basic-basic-flyer.pdf",
@@ -109,9 +109,9 @@
           "bytes": 1032262
         }
       ],
-      "wordCount": 36690,
-      "pages": 190,
-      "producedAt": "2026-10-22T19:54:47.690Z",
+      "wordCount": 36785,
+      "pages": 194,
+      "producedAt": "2026-10-22T20:15:04.104Z",
       "status": "produced"
     },
     {
@@ -127,12 +127,12 @@
         {
           "file": "products\\300-prompt-copywriting-premium-premium.pdf",
           "kind": "pdf",
-          "bytes": 2918967
+          "bytes": 2918458
         },
         {
           "file": "products\\300-prompt-copywriting-premium-premium.xlsx",
           "kind": "excel",
-          "bytes": 61894
+          "bytes": 61959
         },
         {
           "file": "products\\300-prompt-copywriting-premium-premium-flyer.pdf",
@@ -140,9 +140,9 @@
           "bytes": 1035088
         }
       ],
-      "wordCount": 39277,
+      "wordCount": 39371,
       "pages": 202,
-      "producedAt": "2026-10-22T19:54:59.771Z",
+      "producedAt": "2026-10-22T20:15:15.569Z",
       "status": "produced"
     },
     {
@@ -158,12 +158,12 @@
         {
           "file": "products\\300-prompt-copywriting-ultimate-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 3060844
+          "bytes": 3060336
         },
         {
           "file": "products\\300-prompt-copywriting-ultimate-ultimate.xlsx",
           "kind": "excel",
-          "bytes": 61894
+          "bytes": 61960
         },
         {
           "file": "products\\300-prompt-copywriting-ultimate-ultimate-flyer.pdf",
@@ -171,9 +171,9 @@
           "bytes": 1034906
         }
       ],
-      "wordCount": 41489,
+      "wordCount": 41584,
       "pages": 215,
-      "producedAt": "2026-10-22T19:55:12.337Z",
+      "producedAt": "2026-10-22T20:15:26.249Z",
       "status": "produced"
     },
     {

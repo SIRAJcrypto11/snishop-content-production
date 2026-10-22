@@ -37,7 +37,7 @@ Bayangkan pagi hari dengan aroma kopi yang baru digiling, dari biji yang dipetik
 
 ---
 
-### P-009. Value Proposition Statement
+### P-009. Pernyataan Proposisi Nilai
 
 **Input yang dipakai:**
 Bisnis: Jasa desain logo untuk UMKM, harga mulai Rp 500.000, 3 revisi, selesai 5 hari kerja, sudah 200+ klien UMKM.
@@ -100,7 +100,7 @@ Rp 120.000. Link di bio ya!
 
 ---
 
-### P-060. Facebook Ads Primary Text
+### P-060. Teks Utama Facebook Ads
 
 **Input yang dipakai:**
 Produk: Kursus online digital marketing untuk pemilik UMKM, harga Rp 299.000 (diskon dari Rp 599.000), 12 modul video, sertifikat, akses selamanya.
@@ -188,7 +188,7 @@ Tim [Nama Brand]
 
 ---
 
-### P-115. Abandoned Cart Email
+### P-115. Balasan Otomatis Facebook Messenger
 
 **Input yang dipakai:**
 Toko online elektronik, customer meninggalkan keranjang berisi headphone wireless Rp 450.000, email dikirim 2 jam setelah abandonment.
@@ -241,7 +241,7 @@ Tim [Nama Toko]
     content: `
 ## Contoh Output AI untuk Bagian 4
 
-### P-151. Landing Page Hero Section
+### P-151. Email Ucapan Hari Besar
 
 **Input yang dipakai:**
 Produk: Software akuntansi untuk UMKM, harga Rp 99.000/bulan, fitur: invoice otomatis, laporan keuangan, integrasi bank, target pemilik UMKM yang belum pakai software akuntansi.
@@ -272,7 +272,7 @@ Social proof: 5.000+ UMKM sudah pakai. Rating 4.8/5.
 
 ---
 
-### P-165. Landing Page Testimonial Section
+### P-165. Email Langkah Onboarding
 
 **Input yang dipakai:**
 Produk: Kursus online copywriting, 3 testimoni dari alumni yang berhasil dapat klien setelah lulus.
@@ -313,7 +313,7 @@ Produk: Kursus online copywriting, 3 testimoni dari alumni yang berhasil dapat k
     content: `
 ## Contoh Output AI untuk Bagian 5
 
-### P-221. YouTube Video Script Structure
+### P-221. Struktur Naskah Video YouTube
 
 **Input yang dipakai:**
 Topik: Cara membuat kopi manual brew yang enak di rumah, durasi target 8 menit, target audience pecinta kopi pemula, tone edukatif tapi santai.
@@ -368,7 +368,7 @@ Tasting, bandingkan dengan kopi coffee shop.
 
 ---
 
-### P-233. Webinar Script Structure
+### P-233. Struktur Naskah Webinar
 
 **Input yang dipakai:**
 Topik: Cara mulai bisnis online dari nol untuk ibu rumah tangga, durasi 60 menit, target wanita usia 25-45 tahun yang ingin punya penghasilan tambahan.
@@ -435,7 +435,7 @@ Checklist 7 hari pertama: hari 1 daftar, hari 2 foto produk, hari 3 posting, dst
     content: `
 ## Contoh Output AI untuk Bagian 6
 
-### P-261. A/B Testing Headline Variations
+### P-261. Variasi Headline untuk Pengujian A/B
 
 **Input yang dipakai:**
 Produk: Aplikasi budgeting untuk milenial, target usia 22-35 tahun, goal: signup free trial.
@@ -480,7 +480,7 @@ Variasi 5:
 
 ---
 
-### P-275. Persuasion Sequence
+### P-275. Sekuens Persuasi
 
 **Input yang dipakai:**
 Produk: Membership komunitas belajar copywriting, harga Rp 199.000/bulan, benefit: materi mingguan, feedback copy, networking dengan copywriter lain.

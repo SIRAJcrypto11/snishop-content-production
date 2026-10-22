@@ -127,7 +127,7 @@ function buildSpec(markdown, title) {
     title,
     sheets: [
       {
-        name: 'Library',
+        name: 'Perpustakaan',
         headers: ['Kode', 'Bab', 'Judul', 'Kapan Pakai', 'Isi Prompt', 'Variabel', 'Hasil yang Diharapkan'],
         rows: library,
       },

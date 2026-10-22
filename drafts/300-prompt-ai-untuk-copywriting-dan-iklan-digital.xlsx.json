@@ -2,7 +2,7 @@
   "title": "300 Prompt AI untuk Copywriting dan Iklan Digital",
   "sheets": [
     {
-      "name": "Library",
+      "name": "Perpustakaan",
       "headers": [
         "Kode",
         "Bab",
@@ -13,15 +13,6 @@
         "Hasil yang Diharapkan"
       ],
       "rows": [
-        [
-          "P-001",
-          "Cara Menggunakan Buku Ini",
-          "Judul Prompt",
-          "",
-          "Deskripsi situasi ketika prompt ini berguna",
-          "",
-          ""
-        ],
         [
           "P-001",
           "Bagian 1: Copywriting Dasar",
@@ -79,7 +70,7 @@
         [
           "P-007",
           "Bagian 1: Copywriting Dasar",
-          "Storytelling Brand Origin",
+          "Storytelling Asal-Usul Merek",
           "",
           "Membuat cerita asal-usul brand untuk halaman About atau konten marketing Tulis cerita asal-usul [NAMA_BRAND] dalam 4 paragraf (total 200-250 kata). Paragraf pertama memperkenalkan [PENDIRI] dan situasi sebelum mendirikan bisnis. Paragraf kedua menjelaskan [MOMEN_INSPIRASI] yang memicu pendirian. Paragraf ketiga menjelaskan tantangan awal dan bagaimana bisnis berkembang. Paragraf keempat menjelaskan [MISI] dan visi ke depan. Gunakan sudut pandang orang pertama atau ketiga secara konsisten. Buat cerita yang relatable dan inspiratif tanpa terkesan dramatis.",
           "",
@@ -97,7 +88,7 @@
         [
           "P-009",
           "Bagian 1: Copywriting Dasar",
-          "Value Proposition Statement",
+          "Pernyataan Proposisi Nilai",
           "",
           "Membuat pernyataan nilai inti untuk positioning brand Buat value proposition statement untuk [PRODUK_LAYANAN] yang ditujukan kepada [TARGET_AUDIENCE] yang mengalami [MASALAH_UTAMA]. Gunakan formula: \"Untuk [target] yang [masalah], [produk] adalah [kategori] yang [differentiator]\". Buat 5 variasi dengan sudut pandang berbeda: (1) fokus pada hasil, (2) fokus pada proses, (3) fokus pada kecepatan, (4) fokus pada kemudahan, (5) fokus pada kualitas. Setiap statement 20-30 kata.",
           "",
@@ -115,7 +106,7 @@
         [
           "P-011",
           "Bagian 1: Copywriting Dasar",
-          "Tagline Brand",
+          "Tagline Merek",
           "",
           "Membuat slogan atau tagline untuk brand identity Buat 10 variasi tagline untuk [NAMA_BRAND] yang mencerminkan [NILAI_INTI] dengan [PERSONALITAS_BRAND]. Lima tagline menggunakan 3-5 kata, lima tagline menggunakan 6-8 kata. Hindari klise seperti \"terbaik untuk Anda\" atau \"solusi lengkap\". Gunakan kata kerja aktif atau kata sifat yang kuat. Setiap tagline harus mudah diingat dan mencerminkan esensi brand.",
           "",
@@ -124,7 +115,7 @@
         [
           "P-012",
           "Bagian 1: Copywriting Dasar",
-          "Mission Statement",
+          "Pernyataan Misi",
           "",
           "Membuat pernyataan misi untuk website atau dokumen perusahaan Tulis mission statement untuk [NAMA_PERUSAHAAN] dalam 2-3 kalimat (40-60 kata total). Kalimat pertama menjelaskan apa yang dilakukan perusahaan di [BIDANG_USAHA]. Kalimat kedua menjelaskan [TUJUAN_PERUSAHAAN] dan dampaknya bagi pelanggan atau masyarakat. Kalimat ketiga (opsional) menjelaskan [NILAI_YANG_DIPEGANG] yang menjadi panduan dalam beroperasi. Gunakan bahasa yang inspiratif namun konkret, hindari kata-kata kosong seperti \"terdepan\" atau \"inovatif\" tanpa konteks.",
           "",
@@ -133,7 +124,7 @@
         [
           "P-013",
           "Bagian 1: Copywriting Dasar",
-          "Vision Statement",
+          "Pernyataan Visi",
           "",
           "Membuat pernyataan visi untuk jangka panjang perusahaan Tulis vision statement untuk [NAMA_PERUSAHAAN] dalam 1-2 kalimat (25-40 kata). Kalimat pertama menjelaskan [VISI_JANGKA_PANJANG] sebagai tujuan masa depan. Kalimat kedua (opsional) menjelaskan [DAMPAK_YANG_INGIN_DICAPAI] bagi pelanggan, industri, atau masyarakat. Gunakan bahasa yang visioner namun tetap dapat dibayangkan pencapaiannya. Hindari kata \"menjadi yang terbaik\" tanpa spesifikasi bidang atau standar.",
           "",
@@ -142,7 +133,7 @@
         [
           "P-014",
           "Bagian 1: Copywriting Dasar",
-          "Brand Promise",
+          "Janji Merek",
           "",
           "Membuat janji brand kepada pelanggan Buat brand promise untuk [NAMA_BRAND] dalam 1 kalimat (15-25 kata) yang menyatakan [JANJI_UTAMA]. Janji harus spesifik, dapat diukur, dan didukung oleh [BUKTI_JANJI]. Hindari janji yang tidak dapat dipenuhi atau terlalu umum seperti \"kepuasan terbaik\". Gunakan kata kerja aktif dan bahasa yang meyakinkan tanpa berlebihan.",
           "",
@@ -160,7 +151,7 @@
         [
           "P-016",
           "Bagian 1: Copywriting Dasar",
-          "Product Benefit List",
+          "Daftar Manfaat Produk",
           "",
           "Membuat daftar manfaat produk untuk marketing material Buat daftar 10 manfaat [NAMA_PRODUK] untuk [TARGET_USER]. Setiap manfaat menjelaskan bagaimana satu [FITUR_TEKNIS] membantu pengguna dalam situasi nyata. Format: \"Manfaat [angka]: [Fitur] membantu Anda [manfaat konkret] sehingga [hasil yang didapat]\". Gunakan bahasa yang berfokus pada pengguna (\"Anda\"), bukan pada produk. Hindari pengulangan manfaat yang sama dengan kata berbeda.",
           "",
@@ -169,7 +160,7 @@
         [
           "P-017",
           "Bagian 1: Copywriting Dasar",
-          "Feature-to-Benefit Translation",
+          "Penerjemahan Fitur ke Manfaat",
           "",
           "Mengubah spesifikasi teknis menjadi bahasa manfaat Terjemahkan 5 fitur teknis berikut menjadi bahasa manfaat untuk [TARGET_AUDIENCE]: 1. [FITUR_TEKNIS_1] 2. [FITUR_TEKNIS_2] 3. [FITUR_TEKNIS_3] 4. [FITUR_TEKNIS_4] 5. [FITUR_TEKNIS_5] Untuk setiap fitur, tulis: \"Fitur: [spesifikasi] → Manfaat: [apa yang didapat pengguna] → Hasil: [dampak pada kehidupan atau bisnis pengguna]\". Gunakan analogi atau contoh jika target audiens awam.",
           "",
@@ -178,7 +169,7 @@
         [
           "P-018",
           "Bagian 1: Copywriting Dasar",
-          "Objection Handling FAQ",
+          "FAQ Penanganan Keberatan",
           "",
           "Membuat FAQ untuk mengatasi keraguan calon pembeli Buat 5 pertanyaan FAQ yang mengatasi [OBJEKSI_UMUM] untuk [PRODUK_LAYANAN] seharga [HARGA]. Setiap pertanyaan dimulai dengan keraguan pelanggan (\"Apakah...\", \"Bagaimana jika...\", \"Mengapa...\"). Jawaban harus: (1) mengakui keraguan tersebut valid, (2) memberikan penjelasan atau bukti, (3) mengarahkan pada manfaat atau solusi. Gunakan bahasa yang empatik dan tidak defensif. Setiap jawaban 40-60 kata.",
           "",
@@ -187,7 +178,7 @@
         [
           "P-019",
           "Bagian 1: Copywriting Dasar",
-          "Pricing Justification",
+          "Alasan di Balik Harga",
           "",
           "Menjelaskan mengapa harga produk layak Tulis penjelasan mengapa [NAMA_PRODUK] seharga [HARGA] layak dibeli, meskipun [KOMPETITOR] menawarkan harga lebih murah. Fokus pada [NILAI_TAMBAH] yang tidak dimiliki kompetitor. Gunakan struktur: (1) Akui bahwa ada opsi lebih murah, (2) Jelaskan apa yang membuat produk ini berbeda, (3) Hitung ROI atau nilai yang didapat pelanggan dalam jangka panjang, (4) Berikan jaminan atau garansi untuk mengurangi risiko. Total 150-200 kata.",
           "",
@@ -196,7 +187,7 @@
         [
           "P-020",
           "Bagian 1: Copywriting Dasar",
-          "Limited Offer Announcement",
+          "Pengumuman Penawaran Terbatas",
           "",
           "Mengumumkan penawaran terbatas untuk meningkatkan urgency Tulis pengumuman penawaran terbatas untuk [PRODUK] dengan [DISKON] hingga [BATAS_WAKTU]. Jelaskan [ALASAN_PENAWARAN] secara singkat untuk membuat penawaran terasa legitimate. Gunakan struktur: (1) Headline yang menarik perhatian, (2) Penjelasan penawaran dan nilainya, (3) Batas waktu yang jelas, (4) Call-to-action untuk memanfaatkan penawaran. Hindari tekanan berlebihan atau manipulasi. Total 100-120 kata.",
           "",
@@ -205,7 +196,7 @@
         [
           "P-021",
           "Bagian 1: Copywriting Dasar",
-          "Product Launch Announcement",
+          "Pengumuman Peluncuran Produk",
           "",
           "Mengumumkan peluncuran produk baru Tulis pengumuman peluncuran [NAMA_PRODUK] yang menyelesaikan [MASALAH_YANG_DISELESAIKAN]. Soroti [FITUR_UTAMA] sebagai keunggulan utama. Sebutkan [HARGA_PERKENALAN] yang berlaku hingga 2 minggu setelah [TANGGAL_PELUNCURAN]. Gunakan struktur: (1) Headline yang mengumumkan peluncuran, (2) Penjelasan masalah yang diselesaikan, (3) Tiga fitur utama dengan manfaatnya, (4) Informasi harga perkenalan dan cara membeli. Total 200-250 kata.",
           "",
@@ -214,7 +205,7 @@
         [
           "P-022",
           "Bagian 1: Copywriting Dasar",
-          "Product Update Announcement",
+          "Pengumuman Pembaruan Produk",
           "",
           "Mengumumkan pembaruan atau fitur baru pada produk yang sudah ada Tulis pengumuman pembaruan [NAMA_PRODUK] yang memperkenalkan [FITUR_BARU]. Jelaskan [MANFAAT_FITUR_BARU] dengan contoh penggunaan nyata. Berikan instruksi [CARA_MENGAKSES] fitur baru tersebut. Gunakan nada yang antusias namun tidak berlebihan. Fokus pada nilai yang didapat pengguna, bukan hanya daftar perubahan teknis. Total 120-150 kata.",
           "",
@@ -223,7 +214,7 @@
         [
           "P-023",
           "Bagian 1: Copywriting Dasar",
-          "Seasonal Promotion Copy",
+          "Copy Promosi Musiman",
           "",
           "Membuat konten promosi untuk momen tertentu (lebaran, natal, tahun baru) Buat konten promosi untuk [MOMEN] yang mempromosikan [PRODUK] dengan [PENAWARAN_KHUSUS] untuk [TARGET_AUDIENCE]. Hubungkan produk dengan semangat atau kebutuhan momen tersebut. Gunakan bahasa yang sesuai dengan suasana momen (hangat untuk lebaran, meriah untuk tahun baru, dll). Struktur: (1) Headline yang menghubungkan momen dengan penawaran, (2) Penjelasan relevansi produk dengan momen, (3) Detail penawaran khusus, (4) Call-to-action dengan batas waktu. Total 150-180 kata.",
           "",
@@ -232,7 +223,7 @@
         [
           "P-024",
           "Bagian 1: Copywriting Dasar",
-          "Bundle Offer Description",
+          "Deskripsi Penawaran Bundling",
           "",
           "Menjelaskan penawaran bundel produk Tulis deskripsi bundel yang berisi [PRODUK_DALAM_BUNDEL]. Bandingkan [HARGA_NORMAL] dengan [HARGA_BUNDEL] untuk menunjukkan [PENGHEMATAN]. Jelaskan mengapa bundel ini menguntungkan: (1) Lebih hemat, (2) Produk-produk saling melengkapi, (3) Nilai tambah yang didapat. Gunakan tabel atau perbandingan visual jika memungkinkan. Akhiri dengan call-to-action untuk membeli bundel. Total 180-220 kata.",
           "",
@@ -241,7 +232,7 @@
         [
           "P-025",
           "Bagian 1: Copywriting Dasar",
-          "Cross-Sell Suggestion",
+          "Saran Cross-Sell",
           "",
           "Menyarankan produk pelengkap setelah pembelian Tulis saran cross-sell untuk pelanggan yang baru membeli [PRODUK_UTAMA]. Sarankan [PRODUK_PELENGAP] sebagai pelengkap. Jelaskan [MANFAAT_KOMBINASI] secara konkret dengan contoh penggunaan. Gunakan pendekatan \"pelanggan yang membeli X juga membutuhkan Y\" atau \"untuk hasil optimal, kombinasikan dengan...\". Hindari tekanan berlebihan. Total 80-100 kata.",
           "",
@@ -259,7 +250,7 @@
         [
           "P-027",
           "Bagian 1: Copywriting Dasar",
-          "Guarantee Statement",
+          "Pernyataan Jaminan",
           "",
           "Membuat pernyataan garansi untuk mengurangi risiko pembelian Tulis pernyataan garansi untuk [NAMA_PRODUK] dengan [JENIS_GARANSI] selama [DURASI_GARANSI]. Jelaskan [SYARAT_GARANSI] secara sederhana dan transparan. Gunakan bahasa yang meyakinkan dan mengurangi keraguan. Struktur: (1) Pernyataan garansi yang jelas, (2) Apa yang dicakup garansi, (3) Cara mengklaim garansi, (4) Komitmen perusahaan terhadap kepuasan pelanggan. Total 100-120 kata.",
           "",
@@ -268,7 +259,7 @@
         [
           "P-028",
           "Bagian 1: Copywriting Dasar",
-          "Risk Reversal Statement",
+          "Pernyataan Pembalikan Risiko",
           "",
           "Menghilangkan risiko dari perspektif pelanggan Tulis pernyataan risk reversal untuk [PRODUK_LAYANAN] dengan [JAMINAN]. Jelaskan [ALASAN_JAMINAN] untuk membangun kepercayaan. Gunakan pendekatan \"kami yakin Anda akan puas karena...\" atau \"kami memberikan jaminan ini karena...\". Fokus pada kepercayaan diri perusahaan terhadap kualitas produk, bukan pada keraguan pelanggan. Total 80-100 kata.",
           "",
@@ -277,7 +268,7 @@
         [
           "P-029",
           "Bagian 1: Copywriting Dasar",
-          "Social Proof Summary",
+          "Ringkasan Social Proof",
           "",
           "Merangkum bukti sosial untuk konten marketing Tulis ringkasan social proof untuk [PRODUK_LAYANAN] dengan [JUMLAH_PELANGGAN] pelanggan dan [RATING] rating. Sertakan [TESTIMONI_NYATA] dalam 1-2 kalimat masing-masing. Jika ada, sebutkan [KLIEN_TERKENAL] yang menggunakan produk. Gunakan struktur: (1) Angka pencapaian yang mengesankan, (2) Rating atau ulasan rata-rata, (3) Dua testimoni singkat, (4) Nama klien terkenal (jika ada). Total 120-150 kata.",
           "",
@@ -286,7 +277,7 @@
         [
           "P-030",
           "Bagian 1: Copywriting Dasar",
-          "Authority Building Statement",
+          "Pernyataan Membangun Otoritas",
           "",
           "Membangun otoritas dan kredibilitas brand Tulis pernyataan otoritas untuk [NAMA_PERUSAHAAN] dengan [PENGALAMAN] pengalaman di industri. Soroti [PRESTASI] sebagai bukti keahlian. Sebutkan [MEDIA_YANG_PERNAH_MEMBERITAKAN] untuk meningkatkan kredibilitas. Gunakan nada yang percaya diri namun tidak arogan. Fokus pada nilai yang diberikan kepada pelanggan, bukan hanya pencapaian perusahaan. Total 100-120 kata.",
           "",
@@ -322,7 +313,7 @@
         [
           "P-034",
           "Bagian 1: Copywriting Dasar",
-          "4U Headline Formula",
+          "Formula Headline 4U",
           "",
           "Membuat headline yang Urgent, Unique, Ultra-specific, Useful Buat 5 headline dengan formula 4U (Urgent, Unique, Ultra-specific, Useful) untuk [TOPIK]. Setiap headline harus mengandung: (1) Urgency: kata yang menciptakan urgensi waktu atau tindakan, (2) Uniqueness: sudut pandang yang tidak umum, (3) Ultra-specific: [ANGKA_SPESIFIK] atau data konkret, (4) Usefulness: [MANFAAT] yang jelas bagi pembaca. Setiap headline 8-12 kata.",
           "",
@@ -331,7 +322,7 @@
         [
           "P-035",
           "Bagian 1: Copywriting Dasar",
-          "Power Words List for CTA",
+          "Daftar Power Words untuk CTA",
           "",
           "Memilih kata-kata kuat untuk call-to-action Buat daftar 20 power words untuk [JENIS_CTA] yang membangkitkan [TARGET_EMOSI]. Bagi menjadi 4 kategori: (1) 5 kata yang menciptakan urgency, (2) 5 kata yang membangkitkan rasa ingin tahu, (3) 5 kata yang memberikan kepercayaan, (4) 5 kata yang menciptakan eksklusivitas. Untuk setiap kata, berikan contoh penggunaan dalam CTA 5-7 kata.",
           "",
@@ -340,7 +331,7 @@
         [
           "P-036",
           "Bagian 1: Copywriting Dasar",
-          "Emotional Trigger Copy",
+          "Copy Pemicu Emosi",
           "",
           "Membuat konten yang menyentuh emosi target audiens Tulis konten 150-180 kata untuk [PRODUK_LAYANAN] yang menyentuh [EMOSI_TARGET] melalui [SITUASI]. Mulai dengan cerita atau gambaran yang memancing emosi. Hubungkan emosi tersebut dengan kebutuhan akan produk. Akhiri dengan solusi yang ditawarkan produk tanpa terkesan mengeksploitasi emosi. Gunakan bahasa yang empatik dan manusiawi.",
           "",
@@ -349,7 +340,7 @@
         [
           "P-037",
           "Bagian 1: Copywriting Dasar",
-          "Logical Appeal Copy",
+          "Copy Daya Tarik Logis",
           "",
           "Membuat konten yang berfokus pada logika dan data Tulis konten 180-220 kata untuk [PRODUK_LAYANAN] yang berfokus pada logika. Sertakan [DATA_PENDUKUNG] sebagai bukti. Hitung [ROI] atau manfaat terukur yang didapat pelanggan. Gunakan struktur: (1) Pernyataan masalah dengan data, (2) Solusi yang ditawarkan, (3) Perhitungan ROI atau manfaat terukur, (4) Kesimpulan logis mengapa ini keputusan tepat. Hindari bahasa emosional berlebihan.",
           "",
@@ -358,7 +349,7 @@
         [
           "P-038",
           "Bagian 1: Copywriting Dasar",
-          "Comparison Copy (Us vs Them)",
+          "Copy Perbandingan (Kami vs Mereka)",
           "",
           "Membandingkan produk dengan kompetitor Tulis perbandingan [PRODUK_KITA] dengan [KOMPETITOR] dalam format tabel atau daftar. Soroti [KEUNGGULAN_KITA] dan [KELEMAHAN_KOMPETITOR] secara objektif. Gunakan nada yang profesional dan tidak menyerang kompetitor secara personal. Fokus pada fakta dan perbedaan konkret. Akhiri dengan kesimpulan mengapa pelanggan memilih produk kita berdasarkan kebutuhan mereka. Total 200-250 kata.",
           "",
@@ -367,7 +358,7 @@
         [
           "P-039",
           "Bagian 1: Copywriting Dasar",
-          "Scarcity Copy",
+          "Copy Kelangkaan",
           "",
           "Menciptakan kelangkaan untuk meningkatkan urgency Tulis konten 100-120 kata untuk [PRODUK] dengan [JENIS_KELANGKAAN] sebanyak [JUMLAH_TERBATAS]. Jelaskan mengapa kelangkaan ini terjadi (produksi terbatas, permintaan tinggi, dll). Berikan alasan legitimate mengapa pelanggan harus bertindak cepat. Hindari manipulasi atau kelangkaan palsu. Gunakan bahasa yang informatif dan transparan.",
           "",
@@ -376,7 +367,7 @@
         [
           "P-040",
           "Bagian 1: Copywriting Dasar",
-          "Urgency Copy",
+          "Copy Urgensi",
           "",
           "Menciptakan urgensi waktu untuk mendorong tindakan Tulis konten 120-150 kata untuk [PENAWARAN] dengan [DEADLINE]. Jelaskan [ALASAN_DEADLINE] secara transparan. Hitung waktu tersisa atau langkah yang harus diambil. Berikan call-to-action yang jelas. Hindari tekanan berlebihan atau deadline palsu. Gunakan bahasa yang mendesak namun tetap profesional.",
           "",
@@ -385,7 +376,7 @@
         [
           "P-041",
           "Bagian 1: Copywriting Dasar",
-          "Curiosity Gap Headline",
+          "Headline Celah Rasa Ingin Tahu",
           "",
           "Membuat headline yang memancing rasa ingin tahu Buat 8 headline curiosity gap untuk [TOPIK] yang akan mengungkap [INFORMASI_MENARIK] kepada [TARGET_AUDIENCE]. Setiap headline harus: (1) Memberikan petunjuk tentang informasi menarik, (2) Tidak memberikan jawaban lengkap, (3) Menggunakan kata \"rahasia\", \"cara\", \"mengapa\", atau \"yang tidak diketahui\". Setiap headline 8-12 kata. Hindari clickbait yang tidak sesuai dengan isi konten.",
           "",
@@ -394,7 +385,7 @@
         [
           "P-042",
           "Bagian 1: Copywriting Dasar",
-          "How-To Headline",
+          "Headline Cara Melakukan",
           "",
           "Membuat headline untuk konten tutorial atau panduan Buat 10 headline how-to untuk [TOPIK_TUTORIAL] yang menjanjikan [HASIL_YANG_DIJANJIKAN] dalam [DURASI]. Gunakan variasi formula: (1) \"Cara [hasil] dalam [durasi]\", (2) \"Panduan lengkap [topik]\", (3) \"[Angka] langkah untuk [hasil]\", (4) \"Tutorial [topik] untuk pemula\", (5) \"Langkah mudah [hasil]\". Setiap headline 8-12 kata.",
           "",
@@ -403,7 +394,7 @@
         [
           "P-043",
           "Bagian 1: Copywriting Dasar",
-          "Listicle Headline",
+          "Headline Format Daftar",
           "",
           "Membuat headline untuk konten berbentuk daftar Buat 8 headline listicle untuk [TOPIK] dengan [JUMLAH_ITEM] [JENIS_DAFTAR]. Gunakan variasi: (1) \"[Jumlah] [jenis] yang...\", (2) \"[Jumlah] [jenis] terbaik untuk...\", (3) \"[Jumlah] [jenis] yang harus Anda...\", (4) \"[Jumlah] [jenis] teratas dalam...\". Setiap headline 8-12 kata. Pastikan angka spesifik dan jenis daftar jelas.",
           "",
@@ -412,7 +403,7 @@
         [
           "P-044",
           "Bagian 1: Copywriting Dasar",
-          "Question Headline",
+          "Headline Pertanyaan",
           "",
           "Membuat headline berbentuk pertanyaan Buat 10 headline pertanyaan untuk [TOPIK] yang menyentuh [MASALAH_TARGET] dan mengarah pada [SOLUSI]. Gunakan variasi: (1) \"Apakah Anda...?\", (2) \"Bagaimana jika...?\", (3) \"Mengapa...?\", (4) \"Sudahkah Anda...?\", (5) \"Ingin tahu cara...?\". Setiap headline 8-12 kata. Pertanyaan harus relevan dan memancing pembaca untuk mencari jawaban dalam konten.",
           "",
@@ -421,7 +412,7 @@
         [
           "P-045",
           "Bagian 1: Copywriting Dasar",
-          "Command Headline",
+          "Headline Perintah",
           "",
           "Membuat headline berbentuk perintah atau ajakan Buat 8 headline command untuk [TOPIK] yang mengajak [TINDAKAN_YANG_DIINGINKAN] untuk mendapatkan [MANFAAT]. Gunakan kata kerja imperatif di awal: \"Temukan\", \"Pelajari\", \"Dapatkan\", \"Mulai\", \"Buat\", \"Hindari\", \"Tingkatkan\", \"Kuasi\". Setiap headline 6-10 kata. Hindari kata \"sekarang\" yang berlebihan.",
           "",
@@ -430,7 +421,7 @@
         [
           "P-046",
           "Bagian 1: Copywriting Dasar",
-          "Testimonial Request Template",
+          "Templat Permintaan Testimoni",
           "",
           "Meminta testimoni dari pelanggan Tulis template permintaan testimoni untuk [NAMA_PELANGGAN] yang membeli [PRODUK_YANG_DIBELI] dan menggunakannya selama [DURASI_PENGGUNAAN]. Minta mereka berbagi: (1) Masalah yang mereka hadapi sebelum menggunakan produk, (2) Bagaimana produk membantu menyelesaikan masalah, (3) Hasil yang mereka dapatkan, (4) Apakah mereka merekomendasikan produk ke orang lain. Berikan panduan pertanyaan spesifik. Gunakan nada yang sopan dan tidak memaksa. Total 120-150 kata.",
           "",
@@ -439,7 +430,7 @@
         [
           "P-047",
           "Bagian 1: Copywriting Dasar",
-          "Case Study Outline",
+          "Kerangka Studi Kasus",
           "",
           "Membuat outline case study untuk konten marketing Buat outline case study untuk [NAMA_KLIEN] dari [INDUSTRI_KLIEN] yang menghadapi [MASALAH_AWAL]. Struktur outline: (1) Ringkasan eksekutif (50 kata), (2) Latar belakang klien dan industri, (3) Tantangan yang dihadapi, (4) Solusi yang diterapkan, (5) Hasil yang dicapai dengan [HASIL_KONKRET], (6) Testimoni klien, (7) Kesimpulan dan pelajaran yang bisa diambil. Untuk setiap bagian, berikan 3-5 bullet point tentang apa yang harus dicakup.",
           "",
@@ -448,7 +439,7 @@
         [
           "P-048",
           "Bagian 1: Copywriting Dasar",
-          "White Paper Abstract",
+          "Abstrak White Paper",
           "",
           "Membuat abstrak untuk white paper atau laporan Tulis abstrak white paper tentang [TOPIK_WHITE_PAPER] yang membahas [MASALAH_YANG_DIBAHAS] untuk [TARGET_PEMBACA]. Soroti [TEMUAN_UTAMA] sebagai kontribusi utama. Gunakan bahasa formal dan akademis namun tetap mudah dipahami. Struktur: (1) Latar belakang masalah, (2) Tujuan white paper, (3) Metodologi atau pendekatan, (4) Temuan utama, (5) Implikasi atau rekomendasi. Total 200-250 kata.",
           "",
@@ -457,7 +448,7 @@
         [
           "P-049",
           "Bagian 1: Copywriting Dasar",
-          "Executive Summary",
+          "Ringkasan Eksekutif",
           "",
           "Membuat ringkasan eksekutif untuk laporan atau proposal Tulis executive summary untuk [DOKUMEN] dengan [TUJUAN_DOKUMEN]. Soroti [POIN_PENTING] sebagai informasi kunci. Sertakan [REKOMENDASI] sebagai kesimpulan. Gunakan bahasa yang ringkas dan langsung pada inti. Struktur: (1) Tujuan dan latar belakang (2 kalimat), (2) Poin-poin penting (3-5 bullet), (3) Rekomendasi atau kesimpulan (2-3 kalimat). Total 250-300 kata.",
           "",
@@ -466,7 +457,7 @@
         [
           "P-050",
           "Bagian 1: Copywriting Dasar",
-          "Press Release Lead",
+          "Lead Siaran Pers",
           "",
           "Membuat paragraf pembuka press release Tulis paragraf pembuka press release untuk [NAMA_PERUSAHAAN] yang mengumumkan [BERITA] pada [TANGGAL] dari [KOTA]. Jelaskan [SIGNIFIKANSI] secara singkat. Gunakan format standar press release: \"[KOTA], [Tanggal] - [Nama Perusahaan] mengumumkan [berita] yang [signifikansi].\" Paragraf pembuka harus menjawab 5W+1H (Who, What, When, Where, Why, How) dalam 2-3 kalimat. Total 60-80 kata.",
           "",
@@ -484,7 +475,7 @@
         [
           "P-052",
           "Bagian 2: Iklan Media Sosial",
-          "Instagram Story Script",
+          "Naskah Instagram Story",
           "",
           "Membuat script untuk Instagram Story promosi Buat script Instagram Story 5 slide untuk [PRODUK] yang menonjolkan [FITUR_UNIK] dengan [PENAWARAN]. Struktur per slide: (1) Slide 1: Hook visual + teks pembuka yang memancing rasa ingin tahu, (2) Slide 2: Masalah yang dihadapi target audiens, (3) Slide 3: Solusi dengan [PRODUK] dan [FITUR_UNIK], (4) Slide 4: Testimoni atau bukti sosial, (5) Slide 5: [PENAWARAN] + CTA dengan link sticker. Setiap slide 15-25 kata teks. Sertakan saran visual untuk setiap slide.",
           "",
@@ -493,7 +484,7 @@
         [
           "P-053",
           "Bagian 2: Iklan Media Sosial",
-          "Instagram Reel Hook",
+          "Hook Instagram Reel",
           "",
           "Membuat 3 detik pertama video Reel yang menarik Buat 10 variasi hook 3 detik pertama untuk Reel tentang [TOPIK_VIDEO] yang ditujukan kepada [TARGET_AUDIENCE] dengan janji [JANJI_KONTEN]. Hook harus: (1) Langsung menangkap perhatian dalam 1 detik pertama, (2) Menggunakan pola \"Apakah Anda...\", \"Ternyata...\", \"Kesalahan yang...\", \"Cara tercepat...\", (3) Menciptakan curiosity gap atau urgency, (4) Relevan dengan target audiens. Setiap hook 8-15 kata. Sertakan saran visual atau teks on-screen untuk setiap hook.",
           "",
@@ -502,7 +493,7 @@
         [
           "P-054",
           "Bagian 2: Iklan Media Sosial",
-          "Instagram Carousel Structure",
+          "Struktur Carousel Instagram",
           "",
           "Membuat struktur konten carousel Instagram Buat struktur carousel Instagram [JUMLAH_SLIDE] slide tentang [TOPIK] dengan tujuan [TUJUAN]. Untuk setiap slide, tentukan: (1) Headline slide (5-8 kata), (2) Isi konten (30-50 kata), (3) Saran visual atau layout. Slide pertama harus hook yang menarik, slide terakhir harus CTA yang jelas. Slide tengah berisi konten utama yang terstruktur. Total konten 200-300 kata untuk seluruh carousel.",
           "",
@@ -511,7 +502,7 @@
         [
           "P-055",
           "Bagian 2: Iklan Media Sosial",
-          "Instagram Bio Optimization",
+          "Optimasi Bio Instagram",
           "",
           "Mengoptimalkan bio Instagram untuk bisnis Buat 5 variasi bio Instagram untuk [NAMA_BUSINESS] yang melakukan [APA_YANG_DILAKUKAN] untuk [TARGET_AUDIENCE] dengan [UNIQUE_VALUE]. Setiap bio harus: (1) Nama: gunakan kata kunci yang mudah dicari, (2) Deskripsi: maksimal 2 baris yang menjelaskan apa yang dilakukan dan untuk siapa, (3) Unique value: apa yang membedakan, (4) CTA: ajakan untuk [CTA], (5) Link: saran link yang sesuai. Total bio maksimal 150 karakter. Gunakan emoji sebagai bullet point jika perlu.",
           "",
@@ -520,7 +511,7 @@
         [
           "P-056",
           "Bagian 2: Iklan Media Sosial",
-          "TikTok Video Script Pendek",
+          "Naskah Video Pendek TikTok",
           "",
           "Membuat script video TikTok 15-30 detik Buat script TikTok 15-30 detik untuk [TOPIK] dengan [HOOK] di 3 detik pertama, [KONTEN_UTAMA] di bagian tengah, dan [CTA] di akhir. Format: (1) Detik 0-3: Hook visual + teks on-screen, (2) Detik 3-15: Konten utama dengan transisi cepat, (3) Detik 15-30: CTA + saran sound atau musik. Script harus: (a) Menggunakan bahasa casual dan relatable, (b) Satu ide per kalimat, (c) Tidak ada basa-basi, (d) Teks on-screen sinkron dengan voiceover. Total 40-60 kata.",
           "",
@@ -529,7 +520,7 @@
         [
           "P-057",
           "Bagian 2: Iklan Media Sosial",
-          "TikTok Trend Adaptation",
+          "Adaptasi Tren TikTok",
           "",
           "Mengadaptasi tren TikTok untuk konten bisnis Buat 5 ide adaptasi [TREND] untuk [BISNIS] yang mempromosikan [PRODUK_LAYANAN]. Setiap ide harus: (1) Menjelaskan bagaimana tren bisa disesuaikan dengan bisnis, (2) Script atau konsep video 15-30 detik, (3) Teks on-screen yang relevan, (4) Saran sound atau musik yang sesuai tren, (5) Hashtag yang relevan. Pastikan adaptasi tetap autentik dan tidak terkesan memaksa. Hindari tren yang tidak sesuai dengan nilai brand.",
           "",
@@ -538,7 +529,7 @@
         [
           "P-058",
           "Bagian 2: Iklan Media Sosial",
-          "TikTok Hook Variations",
+          "Variasi Hook TikTok",
           "",
           "Membuat variasi hook untuk video TikTok Buat 15 variasi hook TikTok untuk [NICHE] yang menyelesaikan [MASALAH_AUDIENCE] dengan [SOLUSI]. Bagi menjadi 5 kategori: (1) 3 hook pertanyaan retoris (\"Pernahkah Anda...\"), (2) 3 hook pernyataan kontroversial (\"Kebanyakan orang salah tentang...\"), (3) 3 hook angka spesifik (\"3 cara dalam 30 detik...\"), (4) 3 hook story time (\"Cerita tentang...\"), (5) 3 hook tutorial (\"Cara termudah...\"). Setiap hook 5-10 kata. Hook harus memancing penonton untuk menonton sampai habis.",
           "",
@@ -556,7 +547,7 @@
         [
           "P-060",
           "Bagian 2: Iklan Media Sosial",
-          "Facebook Ads Primary Text",
+          "Teks Utama Facebook Ads",
           "",
           "Membuat teks utama untuk iklan Facebook Buat 3 variasi primary text Facebook Ads untuk [PRODUK_LAYANAN] yang ditujukan kepada [TARGET_AUDIENCE] yang mengalami [MASALAH]. Setiap teks harus: (1) Hook 1-2 kalimat pertama yang langsung relevan (ini yang muncul sebelum \"Selengkapnya\"), (2) Body yang menjelaskan [SOLUSI] dan manfaat, (3) [OFFER] disebutkan secara jelas, (4) CTA yang mengarah ke [CTA], (5) Total 125-150 kata. Gunakan bahasa yang conversational dan empatik. Hindari klaim berlebihan atau bahasa yang terlalu salesy.",
           "",
@@ -574,7 +565,7 @@
         [
           "P-062",
           "Bagian 2: Iklan Media Sosial",
-          "Facebook Ads Description",
+          "Deskripsi Facebook Ads",
           "",
           "Membuat deskripsi singkat di bawah headline iklan Facebook Buat 5 variasi deskripsi Facebook Ads untuk [PRODUK] dengan [KEUNGGULAN] dan [SOCIAL_PROOF]. Setiap deskripsi harus: (1) Maksimal 30 kata, (2) Melengkapi headline dengan informasi tambahan, (3) Mengandung social proof atau keunggulan spesifik, (4) Menggunakan bahasa yang ringkas dan jelas. Deskripsi muncul di bawah headline, jadi jangan mengulang informasi dari headline.",
           "",
@@ -601,7 +592,7 @@
         [
           "P-065",
           "Bagian 2: Iklan Media Sosial",
-          "Twitter/X Single Tweet",
+          "Satu Tweet Twitter/X",
           "",
           "Membuat tweet tunggal yang impactful Buat 10 variasi tweet tunggal tentang [TOPIK] dengan jenis [JENIS] untuk [TARGET_AUDIENCE]. Setiap tweet harus: (1) Maksimal 280 karakter, (2) Langsung pada inti tanpa basa-basi, (3) Menggunakan angka, pertanyaan, atau pernyataan kuat, (4) Memancing interaksi (like, retweet, reply). Hindari hashtag berlebihan (maksimal 2). Gunakan bahasa yang conversational dan autentik.",
           "",
@@ -619,7 +610,7 @@
         [
           "P-067",
           "Bagian 2: Iklan Media Sosial",
-          "LinkedIn Article",
+          "Artikel LinkedIn",
           "",
           "Membuat artikel panjang untuk LinkedIn Tulis artikel LinkedIn tentang [TOPIK] untuk [TARGET_AUDIENCE] dengan tujuan [TUJUAN] dalam [PANJANG] kata. Struktur: (1) Judul yang menarik dan profesional, (2) Pembuka 2-3 paragraf yang menjelaskan mengapa topik ini relevan, (3) Body dengan 3-5 subheading dan penjelasan mendalam, (4) Kesimpulan dengan takeaway utama, (5) CTA untuk komentar, share, atau koneksi. Gunakan bahasa yang informatif dan otoritatif namun tetap accessible.",
           "",
@@ -628,7 +619,7 @@
         [
           "P-068",
           "Bagian 2: Iklan Media Sosial",
-          "YouTube Video Title",
+          "Judul Video YouTube",
           "",
           "Membuat judul video YouTube yang menarik dan SEO-friendly Buat 10 variasi judul YouTube untuk [TOPIK_VIDEO] dengan kata kunci [KATA_KUNCI_UTAMA] untuk [JENIS_VIDEO] yang ditujukan kepada [TARGET_AUDIENCE]. Setiap judul harus: (1) Maksimal 60 karakter (agar tidak terpotong di search), (2) Mengandung kata kunci utama di awal, (3) Menggunakan angka atau kata sifat yang kuat, (4) Menciptakan curiosity gap atau janji nilai, (5) Relevan dengan isi video. Hindari clickbait yang menyesatkan.",
           "",
@@ -637,7 +628,7 @@
         [
           "P-069",
           "Bagian 2: Iklan Media Sosial",
-          "YouTube Video Description",
+          "Deskripsi Video YouTube",
           "",
           "Membuat deskripsi video YouTube yang optimal Buat deskripsi YouTube untuk [JUDUL_VIDEO] dengan struktur: (1) 2-3 kalimat pertama yang menjelaskan [RINGKASAN] dan mengandung [KATA_KUNCI] (ini yang muncul di search results), (2) [TIMESTAMP] dengan format \"00:00 - Judul Bagian\", (3) [LINK_RELEVAN] dengan label yang jelas, (4) Paragraf penutup 2-3 kalimat yang merangkum video, (5) 5-10 hashtag relevan. Total deskripsi 200-300 kata. Optimalkan untuk SEO YouTube dengan kata kunci natural.",
           "",
@@ -646,7 +637,7 @@
         [
           "P-070",
           "Bagian 2: Iklan Media Sosial",
-          "YouTube Shorts Script",
+          "Naskah YouTube Shorts",
           "",
           "Membuat script untuk YouTube Shorts (video vertikal pendek) Buat script YouTube Shorts [DURASI] detik tentang [TOPIK] dengan [HOOK] di 3 detik pertama, [KONTEN_UTAMA] di tengah, dan [CTA] di akhir. Format: (1) Detik 0-3: Hook visual + teks on-screen yang menangkap perhatian, (2) Detik 3-[DURASI]-5: Konten utama dengan transisi cepat dan visual menarik, (3) Detik terakhir: CTA untuk subscribe atau like. Script harus: (a) Satu ide per kalimat, (b) Bahasa casual dan energik, (c) Teks on-screen sinkron dengan voiceover. Total 30-80 kata tergantung durasi.",
           "",
@@ -655,7 +646,7 @@
         [
           "P-071",
           "Bagian 2: Iklan Media Sosial",
-          "WhatsApp Broadcast Message",
+          "Pesan Broadcast WhatsApp",
           "",
           "Membuat pesan broadcast WhatsApp untuk promosi Buat 3 variasi pesan broadcast WhatsApp untuk [PRODUK_LAYANAN] dengan [PENAWARAN] untuk [TARGET_AUDIENCE] hingga [BATAS_WAKTU]. Setiap pesan harus: (1) Pembuka yang personal (gunakan sapaan), (2) Isi 2-3 kalimat yang menjelaskan penawaran, (3) CTA yang jelas (balas pesan, klik link, atau hubungi nomor), (4) Penutup yang sopan. Total 50-80 kata per pesan. Hindari bahasa yang terlalu formal atau salesy. WhatsApp butuh pendekatan personal.",
           "",
@@ -664,16 +655,16 @@
         [
           "P-072",
           "Bagian 2: Iklan Media Sosial",
-          "Telegram Channel Post",
+          "Post Kanal Telegram",
           "",
-          "Membuat postingan untuk channel Telegram Buat postingan Telegram tentang [TOPIK] dengan jenis [JENIS_KONTEN] untuk [TARGET_AUDIENCE]. Struktur: (1) Judul atau headline yang menarik (gunakan bold atau emoji), (2) Isi 3-5 paragraf pendek (total 150-250 kata), (3) Link atau CTA jika relevan, (4) Hashtag 2-3 di akhir. Telegram mendukung format markdown, jadi gunakan **bold**, *italic*, atau [link](url) jika perlu. Bahasa bisa lebih kasual dibanding platform lain.",
+          "Membuat postingan untuk channel Telegram Buat postingan Telegram tentang [TOPIK] dengan jenis [JENIS_KONTEN] untuk [TARGET_AUDIENCE]. Struktur: (1) Judul atau headline yang menarik (gunakan bold atau emoji), (2) Isi 3-5 paragraf pendek (total 150-250 kata), (3) Link atau CTA jika relevan, (4) Hashtag 2-3 di akhir. Telegram mendukung format markdown, jadi gunakan **bold**, format italic, atau [link](url) jika perlu. Bahasa bisa lebih kasual dibanding platform lain.",
           "",
           ""
         ],
         [
           "P-073",
           "Bagian 2: Iklan Media Sosial",
-          "Pinterest Pin Description",
+          "Deskripsi Pin Pinterest",
           "",
           "Membuat deskripsi pin Pinterest yang SEO-friendly Buat 5 variasi deskripsi Pinterest pin untuk [JUDUL_PIN] yang mendeskripsikan [DESKRIPSI_PRODUK] dengan kata kunci [KATA_KUNCI]. Setiap deskripsi harus: (1) 2-3 kalimat (50-100 kata), (2) Mengandung kata kunci secara natural, (3) Menjelaskan nilai atau manfaat bagi pembaca, (4) Call-to-action untuk klik [LINK_TUJUAN], (5) 3-5 hashtag relevan. Pinterest adalah search engine visual, jadi optimalkan untuk kata kunci tanpa terlihat spammy.",
           "",
@@ -682,7 +673,7 @@
         [
           "P-074",
           "Bagian 2: Iklan Media Sosial",
-          "Social Media Content Calendar",
+          "Kalender Konten Media Sosial",
           "",
           "Membuat kalender konten media sosial untuk satu minggu Buat content calendar [PLATFORM] untuk 7 hari dengan [FREKUENSI] posting per hari dan campuran [JENIS_KONTEN] untuk mencapai [TUJUAN]. Untuk setiap hari, tentukan: (1) Jenis konten (edukasi/promosi/engagement/BTS), (2) Topik atau ide konten, (3) Format (gambar, video, carousel, story, reel), (4) Caption atau script singkat (50-80 kata), (5) Waktu posting optimal, (6) Hashtag atau kata kunci. Pastikan variasi konten seimbang dan tidak monoton.",
           "",
@@ -691,7 +682,7 @@
         [
           "P-075",
           "Bagian 2: Iklan Media Sosial",
-          "Social Media Bio Link Page",
+          "Halaman Tautan Bio Media Sosial",
           "",
           "Membuat konten untuk halaman bio link (Linktree, dll) Buat konten untuk halaman bio link [NAMA_BRAND] dengan [DESKRIPSI_BRAND] dan [CTA_UTAMA]. Struktur: (1) Headline atau nama brand (5-10 kata), (2) Deskripsi singkat 1-2 kalimat (20-30 kata), (3) Daftar [LINK_UTAMA] dengan label yang menarik dan jelas (5-10 link), (4) CTA utama yang menonjol. Setiap label link harus: (a) Menggunakan kata kerja aktif, (b) Menjelaskan apa yang didapat pengguna, (c) Maksimal 5-7 kata. Total konten 100-150 kata.",
           "",
@@ -700,7 +691,7 @@
         [
           "P-076",
           "Bagian 2: Iklan Media Sosial",
-          "Instagram Reel Script Edukasi",
+          "Naskah Reel Edukasi Instagram",
           "",
           "Membuat script Reel Instagram untuk konten edukasi Buat script Reel Instagram [DURASI] detik tentang [TOPIK_EDUKASI] dengan [JUMLAH_TIPS] tips untuk [TARGET_AUDIENCE]. Struktur: (1) Detik 0-3: Hook \"Tahukah Anda...\" atau \"Kesalahan yang sering...\", (2) Detik 3-[DURASI]-10: Tips pertama dengan penjelasan singkat, (3) Detik berikutnya: Tips kedua hingga [JUMLAH_TIPS], (4) Detik terakhir: CTA \"Save postingan ini\" atau \"Follow untuk tips lainnya\". Setiap tips 10-15 kata. Gunakan transisi visual antar tips. Total script 60-100 kata.",
           "",
@@ -709,7 +700,7 @@
         [
           "P-077",
           "Bagian 2: Iklan Media Sosial",
-          "TikTok Duet/Stitch Response",
+          "Balasan Duet/Stitch TikTok",
           "",
           "Membuat script untuk duet atau stitch TikTok Buat script TikTok duet/stitch [DURASI] detik untuk merespons [VIDEO_ASAL] dengan [PESAN_YANG_INGIN_DISAMPAIKAN] dan mempromosikan [PRODUK_LAYANAN] jika relevan. Struktur: (1) Detik 0-3: Reaksi atau komentar terhadap video asal, (2) Detik 3-15: Respons atau tambahan informasi, (3) Detik 15-30: Kesimpulan atau CTA. Script harus: (a) Terhubung natural dengan video asal, (b) Menambahkan nilai atau perspektif baru, (c) Tidak terkesan memotong atau menyinggung pembuat video asal. Total 40-60 kata.",
           "",
@@ -718,7 +709,7 @@
         [
           "P-078",
           "Bagian 2: Iklan Media Sosial",
-          "Instagram Live Announcement",
+          "Pengumuman Instagram Live",
           "",
           "Mengumumkan Instagram Live yang akan datang Buat pengumuman Instagram Live untuk [TOPIK_LIVE] dengan [NARASUMBER] pada [WAKTU_LIVE] yang akan memberikan [MANFAAT]. Buat 3 variasi: (1) Postingan feed dengan caption 100-120 kata, (2) Story 3 slide dengan teks total 60-80 kata, (3) Reminder H-1 dengan caption 80-100 kata. Setiap variasi harus: (a) Menjelaskan topik dan narasumber, (b) Menyebutkan waktu dengan jelas, (c) Memberikan alasan mengapa harus menonton, (d) CTA untuk set reminder atau share. Gunakan countdown sticker untuk story.",
           "",
@@ -727,7 +718,7 @@
         [
           "P-079",
           "Bagian 2: Iklan Media Sosial",
-          "Social Media Contest Announcement",
+          "Pengumuman Kontes Media Sosial",
           "",
           "Mengumumkan kontes atau giveaway di media sosial Buat pengumuman kontes [JENIS_KONTES] di [PLATFORM] dengan [HADIAH] dan [SYARAT] hingga [DEADLINE]. Struktur: (1) Headline yang menarik perhatian (\"GIVEAWAY!\", \"KONTES BERBAUANG!\", dll), (2) Penjelasan hadiah dengan detail, (3) Syarat mengikuti dalam format numbered list, (4) Deadline dan cara pengumuman pemenang, (5) CTA untuk mengikuti dan share. Total 150-200 kata. Pastikan syarat jelas dan tidak ambigu. Gunakan emoji untuk membuat postingan lebih menarik.",
           "",
@@ -736,7 +727,7 @@
         [
           "P-080",
           "Bagian 2: Iklan Media Sosial",
-          "User-Generated Content Request",
+          "Permintaan UGC",
           "",
           "Meminta pelanggan untuk membuat konten tentang produk Buat permintaan UGC untuk [PRODUK] dengan meminta [JENIS_KONTEN] dan memberikan [INSENTIF] menggunakan [HASHTAG_BRAND]. Struktur: (1) Pembuka yang menjelaskan mengapa brand menghargai pelanggan, (2) Penjelasan jenis konten yang diminta dengan contoh, (3) Insentif yang akan didapat, (4) Cara berpartisipasi (tag, hashtag, kirim DM), (5) Deadline jika ada. Total 120-150 kata. Gunakan bahasa yang apresiatif dan tidak memaksa.",
           "",
@@ -745,7 +736,7 @@
         [
           "P-081",
           "Bagian 2: Iklan Media Sosial",
-          "Influencer Collaboration Pitch",
+          "Pitch Kolaborasi Influencer",
           "",
           "Menghubungi influencer untuk kolaborasi Buat pesan pitch kolaborasi untuk [NAMA_INFLUENCER] dari [BRAND] yang menawarkan [JENIS_KOLABORASI] untuk [PRODUK] dengan [KOMPENSASI]. Struktur: (1) Pembuka yang personal dan menunjukkan apresiasi terhadap konten influencer, (2) Penjelasan singkat tentang brand dan produk, (3) Proposal kolaborasi yang spesifik, (4) Kompensasi yang ditawarkan, (5) CTA untuk diskusi lebih lanjut. Total 150-200 kata. Gunakan bahasa yang profesional namun friendly.",
           "",
@@ -754,7 +745,7 @@
         [
           "P-082",
           "Bagian 2: Iklan Media Sosial",
-          "Social Media Crisis Response",
+          "Respons Krisis Media Sosial",
           "",
           "Merespons krisis atau komplain viral di media sosial Buat pernyataan respons krisis [JENIS_KRISIS] untuk [BRAND] dengan [FAKTA], menawarkan [SOLUSI], dan mencerminkan [NILAI_BRAND]. Struktur: (1) Pengakuan atas masalah dan empati, (2) Penjelasan fakta secara transparan, (3) Solusi yang ditawarkan, (4) Komitmen untuk perbaikan, (5) Kontak untuk komunikasi lebih lanjut. Total 200-250 kata. Gunakan bahasa yang empatik, transparan, dan tidak defensif. Hindari menyalahkan pihak lain.",
           "",
@@ -763,7 +754,7 @@
         [
           "P-083",
           "Bagian 2: Iklan Media Sosial",
-          "Platform-Specific Content Adaptation",
+          "Adaptasi Konten Khas Platform",
           "",
           "Mengadaptasi konten yang sama untuk platform berbeda Adaptasi [KONTEN_ASAL] untuk [PLATFORM_TUJUAN] dengan mempertimbangkan [KARAKTERISTIK_PLATFORM]. Sesuaikan: (1) Panjang konten (Instagram 100-150 kata, TikTok 40-60 kata, LinkedIn 200-300 kata, Twitter 280 karakter), (2) Nada bahasa (Instagram visual, TikTok kasual, LinkedIn profesional, Twitter ringkas), (3) Format (caption, script, thread), (4) Hashtag (Instagram 5-8, TikTok 3-5, LinkedIn 3-5, Twitter 1-2), (5) CTA yang sesuai platform. Berikan versi adaptasi lengkap dengan penjelasan perubahan.",
           "",
@@ -772,7 +763,7 @@
         [
           "P-084",
           "Bagian 2: Iklan Media Sosial",
-          "Social Media Analytics Report Summary",
+          "Ringkasan Laporan Analitik Media Sosial",
           "",
           "Merangkum laporan analitik media sosial Buat ringkasan laporan analitik [PERIODE] dengan [METRIK_UTAMA], [PERUBAHAN], dan [INSIGHT]. Struktur: (1) Overview performa keseluruhan dalam 2-3 kalimat, (2) Highlight metrik terbaik dengan angka spesifik, (3) Area yang perlu perbaikan dengan data pendukung, (4) Insight utama dan pelajaran yang didapat, (5) Rekomendasi untuk periode berikutnya. Total 250-300 kata. Gunakan bahasa yang jelas dan actionable.",
           "",
@@ -781,7 +772,7 @@
         [
           "P-085",
           "Bagian 2: Iklan Media Sosial",
-          "A/B Testing Copy Variations",
+          "Variasi Copy untuk Pengujian A/B",
           "",
           "Membuat variasi copy untuk A/B testing Buat [VARIASI] variasi [ELEMEN_YANG_DITEST] untuk A/B testing dengan [HIPOTESIS]. Setiap variasi harus: (1) Menguji satu variabel berbeda (misalnya: angka vs kata, pertanyaan vs pernyataan, pendek vs panjang), (2) Tetap konsisten dengan brand voice, (3) Dapat diukur efektivitasnya. Jelaskan hipotesis untuk setiap variasi dan metrik apa yang akan diukur. Format tabel untuk memudahkan perbandingan.",
           "",
@@ -790,7 +781,7 @@
         [
           "P-086",
           "Bagian 2: Iklan Media Sosial",
-          "Retargeting Ad Copy",
+          "Copy Iklan Retargeting",
           "",
           "Membuat copy iklan retargeting untuk pengunjung yang belum konversi Buat 3 variasi copy retargeting ad untuk [PRODUK] dengan asumsi [ALASAN_TIDAK_KONVERSI], menawarkan [INSENTIF], dan menambahkan [URGENCY]. Setiap copy harus: (1) Mengingatkan tentang produk yang dilihat, (2) Menawarkan insentif atau solusi atas keraguan, (3) Menciptakan urgensi untuk bertindak sekarang, (4) CTA yang jelas. Total 80-100 kata per variasi. Gunakan bahasa yang personal dan tidak agresif.",
           "",
@@ -799,7 +790,7 @@
         [
           "P-087",
           "Bagian 2: Iklan Media Sosial",
-          "Lookalike Audience Messaging",
+          "Pesan untuk Audiens Lookalike",
           "",
           "Membuat pesan untuk audiens yang mirip dengan pelanggan terbaik Buat copy iklan untuk lookalike audience yang mirip dengan [CUSTOMER_PROFILE] untuk [PRODUK_LAYANAN] dengan [VALUE_PROPOSITION]. Pesan harus: (1) Berasumsi bahwa audiens sudah memiliki karakteristik serupa dengan pelanggan terbaik, (2) Menyoroti value proposition yang paling relevan dengan profil tersebut, (3) Menggunakan bahasa dan tone yang sesuai dengan demografis target, (4) Social proof yang relevan. Total 120-150 kata.",
           "",
@@ -808,7 +799,7 @@
         [
           "P-088",
           "Bagian 2: Iklan Media Sosial",
-          "Seasonal Content Ideas",
+          "Ide Konten Musiman",
           "",
           "Membuat ide konten untuk momen tertentu Buat 10 ide konten [MOMEN] untuk [INDUSTRI] yang mempromosikan [PRODUK]. Bagi menjadi: (1) 3 ide konten edukasi (tips, tutorial, informasi), (2) 3 ide konten promosi (penawaran, bundle, diskon), (3) 2 ide konten engagement (kontes, quiz, polling), (4) 2 ide konten behind-the-scene (proses, tim, cerita). Untuk setiap ide, berikan: judul, format, caption singkat (50-80 kata), dan waktu posting optimal.",
           "",
@@ -817,7 +808,7 @@
         [
           "P-089",
           "Bagian 2: Iklan Media Sosial",
-          "Hashtag Strategy",
+          "Strategi Hashtag",
           "",
           "Membuat strategi hashtag untuk platform tertentu Buat strategi hashtag [PLATFORM] untuk [INDUSTRI] yang menargetkan [TARGET_AUDIENCE] dengan tujuan [TUJUAN]. Struktur: (1) 5 hashtag branded (nama brand atau campaign), (2) 10 hashtag industri (relevan dengan niche), (3) 10 hashtag trending (sedang populer), (4) 5 hashtag komunitas (komunitas target), (5) Panduan penggunaan (berapa per posting, kombinasi optimal). Jelaskan mengapa setiap kategori penting.",
           "",
@@ -826,7 +817,7 @@
         [
           "P-090",
           "Bagian 2: Iklan Media Sosial",
-          "Content Repurposing Plan",
+          "Rencana Daur Ulang Konten",
           "",
           "Merencanakan penggunaan ulang konten untuk platform berbeda Buat rencana repurposing [KONTEN_ASAL] untuk [PLATFORM_TUJUAN] dengan [JUMLAH_VARIASI] konten turunan. Untuk setiap platform, tentukan: (1) Format konten (carousel, reel, thread, dll), (2) Bagian mana dari konten asal yang akan digunakan, (3) Penyesuaian yang perlu dilakukan (panjang, tone, format), (4) Timeline posting. Buat tabel yang memudahkan eksekusi.",
           "",
@@ -835,7 +826,7 @@
         [
           "P-091",
           "Bagian 2: Iklan Media Sosial",
-          "Engagement Bait Post",
+          "Post Umpan Interaksi",
           "",
           "Membuat postingan yang memancing interaksi Buat 5 variasi engagement bait post tentang [TOPIK] untuk [TARGET_AUDIENCE] yang memancing [JENIS_INTERAKSI]. Setiap post harus: (1) Mengandung pertanyaan terbuka atau pernyataan provokatif (tidak kontroversial negatif), (2) Relevan dengan minat target audiens, (3) Mudah direspons (tidak butuh pemikiran panjang), (4) Menggunakan format yang mendorong interaksi (poll, quiz, \"tag teman kamu\"). Total 50-80 kata per post.",
           "",
@@ -844,7 +835,7 @@
         [
           "P-092",
           "Bagian 2: Iklan Media Sosial",
-          "Storytelling Post Series",
+          "Seri Post Storytelling",
           "",
           "Membuat serial postingan dengan narasi berkelanjutan Buat outline serial postingan [JUMLAH_POSTING] tentang [TEMA_SERI] di [PLATFORM] dengan tujuan [TUJUAN]. Untuk setiap posting: (1) Judul atau hook, (2) Bagian cerita yang akan dibahas, (3) Caption 100-150 kata, (4) Visual atau format yang sesuai, (5) CTA yang mengarah ke posting berikutnya. Pastikan serial memiliki alur yang koheren dan setiap posting bisa berdiri sendiri.",
           "",
@@ -853,7 +844,7 @@
         [
           "P-093",
           "Bagian 2: Iklan Media Sosial",
-          "Meme Marketing Copy",
+          "Copy Meme Marketing",
           "",
           "Membuat caption untuk konten meme marketing Buat 5 caption meme marketing untuk [TOPIK_MEME] dari [BRAND] dengan pesan [PESAN] untuk [TARGET_AUDIENCE]. Setiap caption harus: (1) Relevan dengan format meme yang populer, (2) Menyampaikan pesan brand secara subtil, (3) Menggunakan bahasa yang sesuai dengan audiens (casual, slang jika perlu), (4) Tidak ofensif atau kontroversial negatif, (5) Maksimal 50 kata. Jelaskan format meme yang cocok untuk setiap caption.",
           "",
@@ -871,7 +862,7 @@
         [
           "P-095",
           "Bagian 2: Iklan Media Sosial",
-          "Testimonial Share Post",
+          "Post Berbagi Testimoni",
           "",
           "Membagikan testimoni pelanggan di media sosial Buat postingan untuk membagikan [TESTIMONI] dari [NAMA_PELANGGAN] tentang [PRODUK] di [PLATFORM]. Struktur: (1) Headline yang menarik (\"Pelanggan kami berkata...\", \"Cerita sukses dari...\"), (2) Testimoni lengkap dalam format kutipan, (3) Foto atau visual pelanggan (dengan izin), (4) Penjelasan singkat tentang bagaimana produk membantu, (5) CTA untuk pelanggan lain berbagi cerita. Total 120-150 kata. Gunakan bahasa yang apresiatif dan autentik.",
           "",
@@ -880,7 +871,7 @@
         [
           "P-096",
           "Bagian 2: Iklan Media Sosial",
-          "Behind-the-Scenes Content",
+          "Konten Di Balik Layar",
           "",
           "Membuat konten behind-the-scene untuk membangun koneksi Buat konten behind-the-scene [AKTIVITAS] untuk [BRAND] dengan pesan [PESAN] di [PLATFORM]. Struktur: (1) Hook yang memancing rasa ingin tahu (\"Inilah cara kami...\", \"Di balik layar...\"), (2) Deskripsi aktivitas 3-5 kalimat, (3) Foto atau video yang mendukung, (4) Pesan tentang nilai atau prinsip brand yang tercermin, (5) CTA untuk interaksi. Total 100-150 kata. Gunakan bahasa yang personal dan transparan.",
           "",
@@ -889,7 +880,7 @@
         [
           "P-097",
           "Bagian 2: Iklan Media Sosial",
-          "Educational Carousel",
+          "Carousel Edukasi",
           "",
           "Membuat carousel edukasi untuk Instagram atau LinkedIn Buat carousel edukasi [JUMLAH_POIN] slide tentang [TOPIK] untuk [TARGET_AUDIENCE] level [LEVEL] di Instagram/LinkedIn. Struktur: (1) Slide 1: Headline yang menarik + subtitle, (2) Slide 2-[JUMLAH_POIN]+1: Satu poin per slide dengan judul, penjelasan 30-50 kata, dan visual suggestion, (3) Slide terakhir: Kesimpulan + CTA. Total konten 200-300 kata. Gunakan bahasa yang jelas dan mudah dipahami.",
           "",
@@ -898,7 +889,7 @@
         [
           "P-098",
           "Bagian 2: Iklan Media Sosial",
-          "Live Shopping Script",
+          "Naskah Live Shopping",
           "",
           "Membuat script untuk live shopping di platform e-commerce Buat script live shopping [DURASI_LIVE] menit untuk [PRODUK] dengan [FITUR_UTAMA], [HARGA_NORMAL], dan [HARGA_LIVE]. Struktur: (1) Pembuka 5 menit: sapaan, perkenalan, teaser produk, (2) Segmen 1 (10 menit): Demo produk dan penjelasan fitur, (3) Segmen 2 (10 menit): Testimoni atau review, (4) Segmen 3 (10 menit): Pengumuman harga live dan cara order, (5) Segmen 4 (10 menit): Q&A dan closing. Setiap segmen berisi talking points 50-80 kata. Total script 300-400 kata.",
           "",
@@ -907,7 +898,7 @@
         [
           "P-099",
           "Bagian 2: Iklan Media Sosial",
-          "Social Media Bio Update",
+          "Pembaruan Bio Media Sosial",
           "",
           "Memperbarui bio media sosial untuk campaign tertentu Buat 3 variasi bio [PLATFORM] untuk [CAMPAIGN] dengan [LINK_TUJUAN] dan [CTA_UTAMA]. Setiap bio harus: (1) Nama: mengandung kata kunci campaign, (2) Deskripsi: 1-2 kalimat tentang campaign (20-30 kata), (3) CTA: ajakan untuk klik link, (4) Emoji: 1-2 emoji relevan. Total bio maksimal 150 karakter. Pastikan bio tetap profesional dan sesuai dengan brand identity.",
           "",
@@ -916,7 +907,7 @@
         [
           "P-100",
           "Bagian 2: Iklan Media Sosial",
-          "Cross-Platform Promotion Strategy",
+          "Strategi Promosi Lintas Platform",
           "",
           "Merencanakan promosi lintas platform Buat strategi promosi lintas platform untuk [CAMPAIGN] di [PLATFORM] yang menargetkan [TARGET_AUDIENCE] dengan tujuan [TUJUAN]. Untuk setiap platform: (1) Peran platform dalam strategi, (2) Jenis konten yang sesuai, (3) Frekuensi posting, (4) Caption atau script singkat (50-80 kata), (5) Hashtag atau kata kunci, (6) Timeline posting. Pastikan pesan konsisten namun disesuaikan dengan karakteristik setiap platform.",
           "",
@@ -934,7 +925,7 @@
         [
           "P-102",
           "Bagian 2: Iklan Media Sosial",
-          "TikTok Series Concept",
+          "Konsep Seri TikTok",
           "",
           "Merencanakan serial konten TikTok Buat konsep serial TikTok [JUMLAH_EPISODE] episode tentang [TEMA_SERI] dengan [DURASI_PER_EPISODE] per episode untuk [TARGET_AUDIENCE]. Untuk setiap episode: (1) Judul episode, (2) Hook 3 detik pertama, (3) Konten utama 50-80 kata, (4) CTA di akhir, (5) Hashtag serial yang konsisten. Pastikan setiap episode bisa berdiri sendiri namun terhubung dalam narasi serial.",
           "",
@@ -943,7 +934,7 @@
         [
           "P-103",
           "Bagian 2: Iklan Media Sosial",
-          "Facebook Group Post",
+          "Post Grup Facebook",
           "",
           "Membuat postingan untuk grup Facebook Buat postingan grup Facebook tentang [TOPIK] untuk [JENIS_GRUP] dengan tujuan [TUJUAN] untuk [TARGET_AUDIENCE]. Struktur: (1) Pertanyaan atau pernyataan pembuka yang memancing diskusi, (2) Konten utama 150-200 kata yang memberikan nilai, (3) Pertanyaan lanjutan untuk engagement, (4) CTA subtil jika relevan. Gunakan bahasa yang conversational dan sesuai dengan norma grup. Hindari hard selling.",
           "",
@@ -952,7 +943,7 @@
         [
           "P-104",
           "Bagian 2: Iklan Media Sosial",
-          "LinkedIn Recommendation Request",
+          "Permintaan Rekomendasi LinkedIn",
           "",
           "Meminta rekomendasi LinkedIn dari klien atau kolega Buat pesan permintaan rekomendasi LinkedIn untuk [NAMA_PEMBERI_REKOMENDASI] yang memiliki [HUBUNGAN] melalui [PROYEK_KOLABORASI] dengan menonjolkan [KEAHLIAN_YANG_INGIN_DITONJOLKAN]. Struktur: (1) Pembuka yang personal dan mengingatkan kolaborasi, (2) Permintaan rekomendasi dengan sopan, (3) Panduan singkat tentang apa yang bisa ditonjolkan, (4) Apresiasi dan tawaran untuk memberikan rekomendasi balik. Total 120-150 kata. Gunakan bahasa profesional namun hangat.",
           "",
@@ -961,7 +952,7 @@
         [
           "P-105",
           "Bagian 2: Iklan Media Sosial",
-          "Social Media Quote Graphic",
+          "Grafis Kutipan Media Sosial",
           "",
           "Membuat teks untuk graphic quote di media sosial Buat 10 variasi quote tentang [TOPIK] dari [SUMBER] untuk [TARGET_AUDIENCE] dengan [BRAND_VOICE]. Setiap quote harus: (1) Maksimal 20 kata, (2) Inspiratif atau insightful, (3) Relevan dengan target audiens, (4) Sesuai dengan brand voice, (5) Mudah dibaca dalam format graphic. Sertakan saran visual untuk setiap quote (warna, font style, layout).",
           "",
@@ -988,7 +979,7 @@
         [
           "P-108",
           "Bagian 2: Iklan Media Sosial",
-          "Facebook Event Description",
+          "Deskripsi Acara Facebook",
           "",
           "Membuat deskripsi event Facebook Buat deskripsi event Facebook untuk [NAMA_EVENT] pada [TANGGAL_WAKTU] di [LOKASI] dengan [AGENDA], [SPEAKER], dan [BIAYA]. Struktur: (1) Hook 2-3 kalimat yang menjelaskan mengapa event ini penting, (2) Detail event (tanggal, waktu, lokasi), (3) Agenda atau rundown, (4) Profil pembicara, (5) Informasi pendaftaran dan biaya, (6) FAQ singkat (3-5 pertanyaan umum). Total 300-400 kata. Gunakan bahasa yang antusias dan informatif.",
           "",
@@ -997,7 +988,7 @@
         [
           "P-109",
           "Bagian 2: Iklan Media Sosial",
-          "LinkedIn Article Series",
+          "Seri Artikel LinkedIn",
           "",
           "Merencanakan serial artikel LinkedIn Buat outline serial artikel LinkedIn [JUMLAH_ARTIKEL] tentang [TEMA_SERI] untuk [TARGET_AUDIENCE] dengan tujuan [TUJUAN]. Untuk setiap artikel: (1) Judul yang menarik, (2) Subtitle 1 kalimat, (3) 3-5 poin utama yang akan dibahas, (4) Key takeaway, (5) CTA untuk artikel berikutnya. Pastikan serial memiliki alur yang koheren dan setiap artikel memberikan nilai mandiri.",
           "",
@@ -1006,7 +997,7 @@
         [
           "P-110",
           "Bagian 2: Iklan Media Sosial",
-          "YouTube Community Post",
+          "Post Komunitas YouTube",
           "",
           "Membuat postingan untuk tab Community YouTube Buat postingan Community YouTube tentang [TOPIK] dengan jenis [JENIS] untuk [TARGET_AUDIENCE] dengan tujuan [TUJUAN]. Struktur: (1) Hook 1-2 kalimat pertama, (2) Isi postingan 100-150 kata, (3) Gambar atau poll jika relevan, (4) CTA untuk subscribe, like, atau komentar. Gunakan bahasa yang casual dan personal. Community post adalah cara menjaga engagement antar video.",
           "",
@@ -1015,7 +1006,7 @@
         [
           "P-111",
           "Bagian 2: Iklan Media Sosial",
-          "Instagram Highlight Cover Text",
+          "Teks Sampul Highlight Instagram",
           "",
           "Membuat teks untuk cover highlight Instagram Buat 10 variasi teks cover highlight Instagram untuk [KATEGORI_HIGHLIGHT] dari [BRAND] dengan [STYLE]. Setiap teks harus: (1) Maksimal 3 kata, (2) Jelas dan mudah dipahami, (3) Konsisten dengan brand style, (4) Menggunakan emoji jika sesuai. Berikan alternatif dengan dan tanpa emoji.",
           "",
@@ -1024,7 +1015,7 @@
         [
           "P-112",
           "Bagian 2: Iklan Media Sosial",
-          "Social Media Ad Hook",
+          "Hook Iklan Media Sosial",
           "",
           "Membuat hook untuk iklan media sosial Buat 10 variasi hook iklan [PLATFORM] untuk [PRODUK] yang menyelesaikan [MASALAH] bagi [TARGET_AUDIENCE]. Setiap hook harus: (1) 3-5 detik pertama yang menangkap perhatian, (2) Menggunakan pola yang terbukti efektif (pertanyaan, pernyataan kontroversial, angka spesifik, story time), (3) Relevan dengan masalah target, (4) Menciptakan curiosity gap. Setiap hook 10-15 kata. Sertakan saran visual untuk setiap hook.",
           "",
@@ -1042,7 +1033,7 @@
         [
           "P-114",
           "Bagian 2: Iklan Media Sosial",
-          "TikTok Comment Response Template",
+          "Templat Balasan Komentar TikTok",
           "",
           "Merespons komentar di TikTok dengan konsisten Buat 5 template respons TikTok untuk [JENIS_KOMENTAR] dari [BRAND] dengan [TONE]. Setiap respons harus: (1) Singkat (20-40 kata), (2) Personal dan autentik, (3) Menjawab atau mengakui komentar, (4) Mendorong interaksi lanjutan jika relevan, (5) Sesuai dengan brand tone. Hindari respons yang terlihat seperti bot atau template kaku.",
           "",
@@ -1051,7 +1042,7 @@
         [
           "P-115",
           "Bagian 2: Iklan Media Sosial",
-          "Facebook Messenger Auto-Response",
+          "Balasan Otomatis Facebook Messenger",
           "",
           "Membuat auto-response untuk Facebook Messenger Buat auto-response Messenger untuk [JENIS_PESAN] yang memberikan [INFORMASI_YANG_PERLU] dengan [CTA]. Struktur: (1) Sapaan personal, (2) Acknowledgment pesan, (3) Informasi yang diminta atau estimasi waktu respons, (4) CTA atau quick reply options, (5) Penutup yang ramah. Total 60-80 kata. Gunakan bahasa yang conversational dan helpful.",
           "",
@@ -1060,7 +1051,7 @@
         [
           "P-116",
           "Bagian 2: Iklan Media Sosial",
-          "Social Media Content Pillar",
+          "Pilar Konten Media Sosial",
           "",
           "Merencanakan content pillar untuk media sosial Buat 5 content pillar untuk [BRAND] di [INDUSTRI] yang menargetkan [TARGET_AUDIENCE] dengan tujuan [TUJUAN]. Untuk setiap pillar: (1) Nama pillar, (2) Deskripsi 1-2 kalimat, (3) Jenis konten yang sesuai (edukasi, promosi, engagement, BTS, UGC), (4) Frekuensi posting per minggu, (5) Contoh 3 ide konten. Pastikan pillar seimbang dan mencakup seluruh funnel (awareness, consideration, conversion).",
           "",
@@ -1069,7 +1060,7 @@
         [
           "P-117",
           "Bagian 2: Iklan Media Sosial",
-          "Instagram Story Sequence",
+          "Sekuens Instagram Story",
           "",
           "Membuat sequence story Instagram untuk storytelling Buat sequence Instagram Story [JUMLAH_SLIDE] slide tentang [TOPIK] dengan tujuan [TUJUAN] dan [CTA] di akhir. Untuk setiap slide: (1) Teks 15-25 kata, (2) Saran visual atau background, (3) Stiker atau fitur interaktif (poll, quiz, question box, link). Pastikan alur cerita mengalir natural dari slide pertama hingga terakhir. Total 80-120 kata untuk seluruh sequence.",
           "",
@@ -1078,7 +1069,7 @@
         [
           "P-118",
           "Bagian 2: Iklan Media Sosial",
-          "LinkedIn Post Engagement Booster",
+          "Peningkat Interaksi Post LinkedIn",
           "",
           "Meningkatkan engagement postingan LinkedIn Buat postingan LinkedIn tentang [TOPIK_POSTING] dengan [INSIGHT_UTAMA] untuk [TARGET_AUDIENCE] yang memancing [JENIS_ENGAGEMENT]. Struktur: (1) Hook 1-2 kalimat pertama yang provokatif atau surprising, (2) Story atau konteks personal 2-3 paragraf, (3) Insight utama dalam 3-5 bullet point, (4) Pertanyaan terbuka untuk memancing komentar, (5) Tag orang atau perusahaan yang relevan. Total 250-300 kata. Gunakan formatting yang mudah dibaca (spasi, bullet, emoji secukupnya).",
           "",
@@ -1087,7 +1078,7 @@
         [
           "P-119",
           "Bagian 2: Iklan Media Sosial",
-          "TikTok Video Description SEO",
+          "SEO Deskripsi Video TikTok",
           "",
           "Membuat deskripsi video TikTok yang SEO-friendly Buat 5 variasi deskripsi TikTok untuk [TOPIK_VIDEO] dengan kata kunci [KATA_KUNCI] untuk [TARGET_AUDIENCE] menggunakan [TRENDING_SOUND]. Setiap deskripsi harus: (1) Kalimat pertama mengandung kata kunci utama, (2) 2-3 kalimat penjelasan yang natural, (3) CTA untuk follow atau like, (4) 3-5 hashtag relevan (mix antara trending dan niche), (5) Mention @akun terkait jika ada. Total 50-80 kata. Optimalkan untuk pencarian TikTok.",
           "",
@@ -1096,7 +1087,7 @@
         [
           "P-120",
           "Bagian 2: Iklan Media Sosial",
-          "Multi-Platform Campaign Brief",
+          "Brief Kampanye Lintas Platform",
           "",
           "Membuat brief campaign lintas platform Buat brief campaign [NAMA_CAMPAIGN] dengan tujuan [TUJUAN] untuk [TARGET_AUDIENCE] di [PLATFORM] selama [DURASI] dengan [BUDGET]. Struktur brief: (1) Executive summary 2-3 kalimat, (2) Target audience profile, (3) Key message dan value proposition, (4) Platform strategy (peran masing-masing platform), (5) Content calendar singkat, (6) KPI dan metrik keberhasilan, (7) Budget allocation jika ada. Total 400-500 kata. Brief harus jelas dan actionable.",
           "",
@@ -1105,7 +1096,7 @@
         [
           "P-121",
           "Bagian 3: Email Marketing",
-          "Welcome Email Sequence",
+          "Sekuens Email Sambutan",
           "",
           "Membuat rangkaian email selamat datang untuk subscriber baru Buat welcome email sequence [Jumlah_EMAIL] email untuk [NAMA_BRAND] yang bergerak di [JENIS_BUSINESS] dengan tujuan [TUJUAN]. Untuk setiap email: (1) Subjek email (5-8 kata, memancing open), (2) Preview text (8-10 kata), (3) Body email 150-200 kata, (4) CTA yang jelas, (5) Timing pengiriman (hari ke-berapa setelah subscribe). Sequence harus: (a) Email 1: ucapan terima kasih + nilai instan, (b) Email 2-3: edukasi tentang brand dan produk, (c) Email 4-5: soft sell atau penawaran khusus, (d) Email selanjutnya: engagement atau upsell.",
           "",
@@ -1114,7 +1105,7 @@
         [
           "P-122",
           "Bagian 3: Email Marketing",
-          "Promotional Email",
+          "Email Promosi",
           "",
           "Membuat email promosi untuk penawaran khusus Buat email promosi untuk [PRODUK_LAYANAN] dengan [PENAWARAN] untuk [TARGET_AUDIENCE] hingga [DEADLINE] dengan [CTA_UTAMA]. Struktur: (1) Subjek email yang urgent dan menarik (5-8 kata), (2) Preview text yang melengkapi subjek (8-10 kata), (3) Pembuka 2-3 kalimat yang langsung pada penawaran, (4) Body 150-200 kata yang menjelaskan nilai produk dan penawaran, (5) CTA yang jelas dan menonjol, (6) P.S. dengan reminder deadline atau bonus tambahan. Gunakan bahasa yang antusias namun tidak spammy.",
           "",
@@ -1123,7 +1114,7 @@
         [
           "P-123",
           "Bagian 3: Email Marketing",
-          "Newsletter Content",
+          "Konten Newsletter",
           "",
           "Membuat konten newsletter berkala Buat konten newsletter [NAMA_NEWSLETTER] edisi [FREKUENSI] dengan [TOPIK_UTAMA] dan [TOPIK_SEKUNDER] untuk [TARGET_AUDIENCE]. Struktur: (1) Subjek email yang menarik (5-8 kata), (2) Preview text (8-10 kata), (3) Pembuka personal 2-3 kalimat, (4) Bagian utama tentang [TOPIK_UTAMA] 200-250 kata, (5) 2-3 bagian singkat tentang [TOPIK_SEKUNDER] masing-masing 50-80 kata, (6) CTA untuk setiap bagian, (7) Penutup personal. Total 400-500 kata. Gunakan format yang mudah di-scan (heading, bullet, spasi).",
           "",
@@ -1132,7 +1123,7 @@
         [
           "P-124",
           "Bagian 3: Email Marketing",
-          "Abandoned Cart Email",
+          "Email Keranjang Ditinggalkan",
           "",
           "Mengingatkan pelanggan yang meninggalkan keranjang belanja Buat 3 variasi abandoned cart email untuk [NAMA_PELANGGAN] yang meninggalkan [PRODUK_DIKERANJANG] senilai [NILAI_KERANJANG] dengan [INSENTIF] hingga [BATAS_WAKTU]. Setiap email: (1) Subjek yang personal dan urgent (5-8 kata), (2) Preview text (8-10 kata), (3) Pembuka yang mengingatkan tentang keranjang, (4) Body 100-150 kata yang menjelaskan produk dan insentif, (5) CTA yang jelas \"Selesaikan Pembelian\", (6) P.S. dengan reminder batas waktu. Variasikan pendekatan: email 1 reminder lembut, email 2 insentif, email 3 urgency.",
           "",
@@ -1150,7 +1141,7 @@
         [
           "P-126",
           "Bagian 3: Email Marketing",
-          "Post-Purchase Follow-Up",
+          "Tindak Lanjut Setelah Pembelian",
           "",
           "Email tindak lanjut setelah pembelian Buat post-purchase follow-up email untuk [NAMA_PELANGGAN] yang membeli [PRODUK_YANG_DIBELI] setelah [DURASI_PENGGUNAAN] dengan [REQUEST_REVIEW] dan [CROSS_SELL]. Struktur: (1) Subjek yang personal (\"Bagaimana [produk] Anda?\" atau \"Terima kasih telah membeli...\"), (2) Preview text (8-10 kata), (3) Ucapan terima kasih dan konfirmasi pembelian, (4) Tips penggunaan produk 100-150 kata, (5) Permintaan review jika [REQUEST_REVIEW] dengan link, (6) Saran [CROSS_SELL] yang relevan, (7) CTA untuk kontak jika ada pertanyaan. Total 250-300 kata.",
           "",
@@ -1159,7 +1150,7 @@
         [
           "P-127",
           "Bagian 3: Email Marketing",
-          "Product Launch Email",
+          "Email Peluncuran Produk",
           "",
           "Mengumumkan peluncuran produk baru via email Buat rangkaian 3 email peluncuran [NAMA_PRODUK] yang menyelesaikan [MASALAH_YANG_DISELESAIKAN] dengan [FITUR_UTAMA], [HARGA_PERKENALAN], [BONUS_EARLY_BIRD], dan [TANGGAL_PELUNCURAN]. Email 1 (H-7): Teaser \"Sesuatu yang besar akan datang\" dengan hint tentang produk. Email 2 (H-3): Pengumuman resmi dengan detail fitur dan harga. Email 3 (Hari-H): \"Sekarang tersedia\" dengan urgency bonus early bird. Setiap email: subjek 5-8 kata, preview 8-10 kata, body 150-200 kata, CTA jelas.",
           "",
@@ -1177,7 +1168,7 @@
         [
           "P-129",
           "Bagian 3: Email Marketing",
-          "Educational Email Sequence",
+          "Sekuens Email Edukasi",
           "",
           "Membuat rangkaian email edukasi untuk membangun otoritas Buat educational email sequence [JUMLAH_EMAIL] email tentang [TOPIK_EDUKASI] untuk [LEVEL_AUDIENCE] yang mengarah pada [PRODUK_RELEVAN]. Untuk setiap email: (1) Subjek yang memancing rasa ingin tahu, (2) Preview text, (3) Body 200-250 kata dengan satu konsep atau tips, (4) Contoh atau studi kasus singkat, (5) CTA untuk membaca email berikutnya atau melihat produk. Sequence harus: (a) Email 1: Konsep dasar, (b) Email 2-3: Tips atau strategi, (c) Email 4-5: Studi kasus atau contoh, (d) Email selanjutnya: Advanced tips + soft sell produk.",
           "",
@@ -1186,7 +1177,7 @@
         [
           "P-130",
           "Bagian 3: Email Marketing",
-          "Testimonial Request Email",
+          "Email Permintaan Testimoni",
           "",
           "Meminta testimoni dari pelanggan via email Buat email permintaan testimoni untuk [NAMA_PELANGGAN] yang menggunakan [PRODUK_YANG_DIBELI] selama [DURASI_PENGGUNAAN] dengan [INSENTIF_TESTIMONI]. Struktur: (1) Subjek yang personal (\"Bagaimana pengalaman Anda dengan [produk]?\" atau \"Kami ingin mendengar dari Anda\"), (2) Preview text, (3) Pembuka yang mengapresiasi pembelian mereka, (4) Body 120-150 kata yang menjelaskan mengapa testimoni penting dan apa yang ingin diketahui, (5) 3-5 pertanyaan spesifik untuk memandu testimoni, (6) Informasi [INSENTIF_TESTIMONI], (7) Link atau cara memberikan testimoni, (8) Penutup yang berterima kasih. Total 200-250 kata.",
           "",
@@ -1204,7 +1195,7 @@
         [
           "P-132",
           "Bagian 3: Email Marketing",
-          "Seasonal Campaign Email",
+          "Email Kampanye Musiman",
           "",
           "Membuat email untuk campaign musiman (Ramadan, Natal, Tahun Baru) Buat email campaign [MOMEN] untuk [PRODUK_RELEVAN] dengan [PENAWARAN_KHUSUS] untuk [TARGET_AUDIENCE]. Struktur: (1) Subjek yang relevan dengan momen (\"Spesial [Momen] untuk Anda\" atau \"Rayakan [Momen] dengan...\"), (2) Preview text yang hangat dan relevan, (3) Pembuka yang menghubungkan momen dengan produk, (4) Body 150-200 kata dengan penawaran khusus dan produk relevan, (5) CTA yang jelas, (6) Penutup yang sesuai dengan semangat momen. Gunakan bahasa yang hangat dan sesuai dengan budaya momen tersebut. Total 200-250 kata.",
           "",
@@ -1213,7 +1204,7 @@
         [
           "P-133",
           "Bagian 3: Email Marketing",
-          "Win-Back Email Sequence",
+          "Sekuens Email Win-Back",
           "",
           "Rangkaian email untuk memenangkan kembali pelanggan yang hilang Buat win-back email sequence [JUMLAH_EMAIL] email untuk pelanggan yang tidak membeli selama [DURASI_TIDAK_BELI] dengan [INSENTIF_KEMBALI] dan [PRODUK_BARU]. Email 1: \"Kami rindu Anda\" dengan [INSENTIF_KEMBALI]. Email 2: \"Lihat apa yang baru\" dengan [PRODUK_BARU]. Email 3: \"Kesempatan terakhir\" dengan urgency insentif berakhir. Setiap email: subjek personal, preview text, body 120-150 kata, CTA jelas. Sequence harus empatik dan tidak menyalahkan.",
           "",
@@ -1240,7 +1231,7 @@
         [
           "P-136",
           "Bagian 3: Email Marketing",
-          "Birthday Email",
+          "Email Ulang Tahun",
           "",
           "Mengirim email ucapan ulang tahun dengan penawaran Buat birthday email untuk [NAMA_PELANGGAN] yang berusia [USIA] dengan [PENAWARAN_ULTAH] berlaku hingga [BERLAKU_HINGGA]. Struktur: (1) Subjek yang personal dan ceria (\"Selamat Ulang Tahun, [Nama]!\" atau \"Hadiah ulang tahun untuk Anda\"), (2) Preview text yang hangat, (3) Ucapan ulang tahun yang tulus 2-3 kalimat, (4) Penawaran khusus sebagai hadiah, (5) Cara mengklaim penawaran, (6) CTA \"Klaim Hadiah Anda\", (7) Penutup hangat. Gunakan bahasa yang personal dan ceria. Total 150-200 kata.",
           "",
@@ -1249,7 +1240,7 @@
         [
           "P-137",
           "Bagian 3: Email Marketing",
-          "Milestone Celebration Email",
+          "Email Perayaan Tonggak Capaian",
           "",
           "Merayakan milestone pelanggan (1 tahun, 100 pembelian, dll) Buat milestone celebration email untuk [NAMA_PELANGGAN] yang mencapai [MILESTONE] dengan [PENGHARGAAN] dan [STATISTIK]. Struktur: (1) Subjek yang celebratif (\"Anda mencapai [milestone]!\" atau \"Terima kasih telah bersama kami\"), (2) Preview text, (3) Ucapan selamat dan apresiasi, (4) Statistik pencapaian mereka dalam format visual atau list, (5) Penghargaan atau hadiah yang ditawarkan, (6) Cara mengklaim hadiah, (7) CTA \"Lihat Pencapaian Anda\" atau \"Klaim Hadiah\", (8) Penutup yang tulus. Total 200-250 kata.",
           "",
@@ -1258,7 +1249,7 @@
         [
           "P-138",
           "Bagian 3: Email Marketing",
-          "Survey Request Email",
+          "Email Permintaan Survei",
           "",
           "Meminta pelanggan mengisi survei kepuasan Buat survey request email untuk [NAMA_PELANGGAN] tentang [PRODUK_LAYANAN] dengan [DURASI_SURVEY] dan [INSENTIF_SURVEY]. Struktur: (1) Subjek yang personal (\"Pendapat Anda penting bagi kami\" atau \"Bantu kami menjadi lebih baik\"), (2) Preview text, (3) Pembuka yang menjelaskan mengapa feedback mereka berharga, (4) Body 100-150 kata tentang survei dan [DURASI_SURVEY], (5) Informasi [INSENTIF_SURVEY], (6) CTA besar \"Isi Survei Sekarang\", (7) Penutup yang berterima kasih. Total 150-200 kata. Gunakan bahasa yang menghargai waktu mereka.",
           "",
@@ -1267,7 +1258,7 @@
         [
           "P-139",
           "Bagian 3: Email Marketing",
-          "Event Invitation Email",
+          "Email Undangan Acara",
           "",
           "Mengundang pelanggan ke event (webinar, workshop, peluncuran) Buat event invitation email untuk [NAMA_EVENT] ([JENIS_EVENT]) pada [TANGGAL_WAKTU] di [LOKASI] dengan [SPEAKER] yang memberikan [BENEFIT] dengan [BIAYA]. Struktur: (1) Subjek yang menarik (\"Undangan: [Nama Event]\" atau \"Bergabunglah dengan kami di...\"), (2) Preview text, (3) Pembuka yang menjelaskan event dan mengapa penting, (4) Detail event (tanggal, waktu, lokasi, durasi), (5) Profil pembicara atau highlight acara, (6) Benefit yang didapat peserta, (7) Informasi biaya dan cara daftar, (8) CTA \"Daftar Sekarang\", (9) P.S. dengan urgency (kuota terbatas atau diskon early bird). Total 250-300 kata.",
           "",
@@ -1276,7 +1267,7 @@
         [
           "P-140",
           "Bagian 3: Email Marketing",
-          "Product Update Email",
+          "Email Pembaruan Produk",
           "",
           "Mengumumkan update atau fitur baru produk Buat product update email untuk [NAMA_PRODUK] yang memperkenalkan [FITUR_BARU] dengan [MANFAAT_FITUR] dan [CARA_MENGAKSES]. Struktur: (1) Subjek yang exciting (\"Fitur baru untuk Anda!\" atau \"[Produk] kini lebih baik\"), (2) Preview text, (3) Pembuka yang mengumumkan update, (4) Body 150-200 kata yang menjelaskan fitur baru dan manfaatnya, (5) Screenshot atau visual fitur jika memungkinkan, (6) Cara mengakses fitur, (7) CTA \"Coba Sekarang\" atau \"Pelajari Lebih Lanjut\", (8) Penutup yang antusias. Total 200-250 kata.",
           "",
@@ -1285,7 +1276,7 @@
         [
           "P-141",
           "Bagian 3: Email Marketing",
-          "Maintenance Notification Email",
+          "Email Notifikasi Pemeliharaan",
           "",
           "Memberitahu tentang maintenance atau downtime Buat maintenance notification email untuk [NAMA_LAYANAN] dengan [JENIS_MAINTENANCE] pada [WAKTU_MULAI] selama [DURASI] dengan [DAMPAK] dan [KONTAK_DARURAT]. Struktur: (1) Subjek yang jelas (\"Pemberitahuan Maintenance: [Tanggal]\" atau \"[Layanan] akan mengalami downtime\"), (2) Preview text, (3) Pembuka langsung ke informasi maintenance, (4) Detail: waktu mulai, durasi, dampak, (5) Alasan maintenance dan manfaat setelah selesai, (6) Langkah yang perlu disiapkan pengguna, (7) Kontak untuk pertanyaan, (8) Penutup yang apologis dan apresiatif. Total 150-200 kata. Gunakan bahasa yang jelas dan transparan.",
           "",
@@ -1294,7 +1285,7 @@
         [
           "P-142",
           "Bagian 3: Email Marketing",
-          "Security Alert Email",
+          "Email Peringatan Keamanan",
           "",
           "Memberitahu tentang aktivitas keamanan yang mencurigakan Buat security alert email untuk [NAMA_PENGGUNA] tentang [JENIS_AKTIVITAS] pada [WAKTU_AKTIVITAS] dari [LOKASI_AKTIVITAS] dengan [LANGKAH_KEAMANAN]. Struktur: (1) Subjek yang urgent (\"Peringatan Keamanan: Aktivitas Tidak Dikenal\" atau \"Login dari Perangkat Baru\"), (2) Preview text, (3) Pembuka langsung ke alert, (4) Detail aktivitas (jenis, waktu, lokasi), (5) Jika ini Anda, abaikan email ini, (6) Jika bukan Anda, [LANGKAH_KEAMANAN] segera, (7) Link ke halaman keamanan atau dukungan, (8) Penutup yang serius dan suportif. Total 150-200 kata. Gunakan bahasa yang jelas dan tidak panik.",
           "",
@@ -1303,7 +1294,7 @@
         [
           "P-143",
           "Bagian 3: Email Marketing",
-          "Invoice Email",
+          "Email Invoice",
           "",
           "Mengirim invoice atau tagihan Buat invoice email untuk [NAMA_PELANGGAN] dengan [NOMOR_INVOICE] sebesar [JUMLAH_TAGIHAN] jatuh tempo [TANGGAL_JATUH_TEMPO] dengan [METODE_PEMBAYARAN] dan [KONTAK_KEUANGAN]. Struktur: (1) Subjek yang jelas (\"Invoice #[Nomor] - [Jumlah]\" atau \"Tagihan Anda dari [Brand]\"), (2) Preview text, (3) Pembuka profesional, (4) Detail invoice: nomor, jumlah, deskripsi layanan/produk, tanggal jatuh tempo, (5) Instruksi pembayaran dengan metode yang tersedia, (6) Link untuk download invoice PDF, (7) Kontak untuk pertanyaan, (8) Penutup yang profesional. Total 150-200 kata. Gunakan bahasa yang profesional dan jelas.",
           "",
@@ -1312,7 +1303,7 @@
         [
           "P-144",
           "Bagian 3: Email Marketing",
-          "Payment Reminder Email",
+          "Email Pengingat Pembayaran",
           "",
           "Mengingatkan tentang pembayaran yang belum diterima Buat payment reminder email untuk [NAMA_PELANGGAN] dengan [NOMOR_INVOICE] sebesar [JUMLAH_TERTUNGGAK] yang jatuh tempo pada [TANGGAL_JATUH_TEMPO] ([HARI_TERLAMBAT] hari terlambat) dengan [METODE_PEMBAYARAN] dan [KONTAK_KEUANGAN]. Struktur: (1) Subjek yang sopan namun firm (\"Reminder: Invoice #[Nomor] Jatuh Tempo\" atau \"Pembayaran Tertunggak\"), (2) Preview text, (3) Pembuka yang sopan dan memahami mungkin lupa, (4) Detail invoice dan jumlah tertunggak, (5) Instruksi pembayaran, (6) Tawaran bantuan jika ada masalah, (7) CTA \"Bayar Sekarang\", (8) Penutup yang profesional. Total 150-200 kata. Gunakan bahasa yang sopan namun jelas.",
           "",
@@ -1321,7 +1312,7 @@
         [
           "P-145",
           "Bagian 3: Email Marketing",
-          "Subscription Renewal Email",
+          "Email Perpanjangan Langganan",
           "",
           "Mengingatkan tentang perpanjangan langganan Buat subscription renewal email untuk [NAMA_PELANGGAN] dengan [JENIS_LANGGANAN] yang akan diperpanjang pada [TANGGAL_PERPANJANGAN] seharga [HARGA_PERPANJANGAN] dengan [BENEFIT_LANGGANAN] dan [OPSI_UPGRADE]. Struktur: (1) Subjek yang jelas (\"Langganan Anda akan diperpanjang\" atau \"Perpanjangan [Jenis Langganan]\"), (2) Preview text, (3) Pembuka yang mengingatkan tentang perpanjangan, (4) Detail: tanggal perpanjangan, harga, benefit, (5) Cara membatalkan jika tidak ingin perpanjang, (6) Opsi upgrade dengan benefit tambahan, (7) CTA \"Kelola Langganan\" atau \"Upgrade Sekarang\", (8) Penutup yang apresiatif. Total 200-250 kata.",
           "",
@@ -1330,7 +1321,7 @@
         [
           "P-146",
           "Bagian 3: Email Marketing",
-          "Cancellation Confirmation Email",
+          "Email Konfirmasi Pembatalan",
           "",
           "Mengkonfirmasi pembatalan langganan atau pesanan Buat cancellation confirmation email untuk [NAMA_PELANGGAN] yang membatalkan [JENIS_PEMBATARAN] efektif [TANGGAL_EFEKTIF] dengan akses hingga [AKSES_HINGGA], [ALASAN_MEMINTA], dan [PENAWARAN_KEMBALI]. Struktur: (1) Subjek yang jelas (\"Konfirmasi Pembatalan\" atau \"Langganan Anda telah dibatalkan\"), (2) Preview text, (3) Konfirmasi pembatalan dengan empati, (4) Detail: tanggal efektif, akses hingga kapan, (5) Permintaan feedback jika [ALASAN_MEMINTA] dengan link survei singkat, (6) Penawaran kembali jika [PENAWARAN_KEMBALI], (7) Cara mengaktifkan kembali jika berubah pikiran, (8) Penutup yang menghargai keputusan mereka. Total 200-250 kata.",
           "",
@@ -1339,7 +1330,7 @@
         [
           "P-147",
           "Bagian 3: Email Marketing",
-          "Loyalty Program Email",
+          "Email Program Loyalitas",
           "",
           "Mempromosikan program loyalitas Buat loyalty program email untuk [NAMA_PROGRAM] dengan [BENEFIT_PROGRAM], [CARA_BERGABUNG], [POIN_Saat_INI], dan [REWARD_TERSEDIA]. Struktur: (1) Subjek yang menarik (\"Anda punya [poin] poin!\" atau \"Bergabung dengan program loyalitas kami\"), (2) Preview text, (3) Pembuka yang mengumumkan program atau poin mereka, (4) Penjelasan benefit program, (5) Status poin mereka jika [POIN_Saat_INI], (6) Reward yang bisa ditukar, (7) Cara bergabung atau menukar poin, (8) CTA \"Bergabung Sekarang\" atau \"Tukar Poin\", (9) P.S. dengan deadline atau reward terbatas. Total 200-250 kata.",
           "",
@@ -1348,7 +1339,7 @@
         [
           "P-148",
           "Bagian 3: Email Marketing",
-          "VIP Early Access Email",
+          "Email Akses Awal VIP",
           "",
           "Memberikan akses awal untuk pelanggan VIP Buat VIP early access email untuk [NAMA_PELANGGAN] dengan [STATUS_VIP] untuk [PRODUK_AKSES_AWAL] selama [PERIODE_AKES_AWAL] dengan [BENEFIT_TAMBAHAN]. Struktur: (1) Subjek yang eksklusif (\"Akses awal eksklusif untuk Anda\" atau \"VIP Early Access: [Produk]\"), (2) Preview text, (3) Pembuka yang membuat mereka merasa spesial, (4) Detail produk dan akses awal, (5) Periode akses awal, (6) Benefit tambahan sebagai VIP, (7) CTA \"Akses Sekarang\", (8) Penutup yang apresiatif. Total 150-200 kata. Gunakan bahasa yang eksklusif dan apresiatif.",
           "",
@@ -1357,7 +1348,7 @@
         [
           "P-149",
           "Bagian 3: Email Marketing",
-          "Feedback Request Email",
+          "Email Permintaan Masukan",
           "",
           "Meminta feedback tentang produk atau layanan Buat feedback request email untuk [NAMA_PELANGGAN] tentang [PRODUK_LAYANAN] yang digunakan selama [DURASI_PENGGUNAAN] dengan fokus pada [ASPEK_YANG_DINILAI] dan [INSENTIF_FEEDBACK]. Struktur: (1) Subjek yang personal (\"Pendapat Anda tentang [produk]?\" atau \"Bantu kami menjadi lebih baik\"), (2) Preview text, (3) Pembuka yang menjelaskan mengapa feedback mereka berharga, (4) Body 100-150 kata dengan 3-5 pertanyaan spesifik tentang [ASPEK_YANG_DINILAI], (5) Informasi [INSENTIF_FEEDBACK], (6) CTA \"Berikan Feedback\", (7) Penutup yang berterima kasih. Total 150-200 kata.",
           "",
@@ -1366,7 +1357,7 @@
         [
           "P-150",
           "Bagian 3: Email Marketing",
-          "Announcement Email",
+          "Email Pengumuman",
           "",
           "Mengumumkan perubahan atau berita penting Buat announcement email tentang [JENIS_PENGUMUMAN] dengan [DAMPAK_PADA_PELANGGAN] berlaku [TANGGAL_BERLAKU], [AKSI_YANG_DIPERLUKAN], dan [KONTAK_QUESTIONS]. Struktur: (1) Subjek yang jelas (\"Pengumuman Penting: [Topik]\" atau \"Perubahan [Kebijakan/Layanan]\"), (2) Preview text, (3) Pembuka langsung ke pengumuman, (4) Penjelasan detail pengumuman, (5) Dampak pada pelanggan, (6) Tanggal berlaku, (7) Aksi yang perlu dilakukan jika ada, (8) Kontak untuk pertanyaan, (9) Penutup yang transparan. Total 200-250 kata. Gunakan bahasa yang jelas dan transparan.",
           "",
@@ -1375,7 +1366,7 @@
         [
           "P-151",
           "Bagian 3: Email Marketing",
-          "Holiday Greeting Email",
+          "Email Ucapan Hari Besar",
           "",
           "Mengirim ucapan hari raya atau liburan Buat holiday greeting email untuk [HARI_RAYA] kepada [NAMA_PELANGGAN] dengan [PENAWARAN_LIBURAN] dan [NILAI_BRAND]. Struktur: (1) Subjek yang hangat (\"Selamat [Hari Raya]!\" atau \"Ucapan dari [Brand]\"), (2) Preview text, (3) Ucapan tulus untuk hari raya, (4) Pesan yang mencerminkan [NILAI_BRAND], (5) Penawaran liburan jika ada, (6) CTA subtil jika relevan, (7) Penutup yang hangat. Total 100-150 kata. Gunakan bahasa yang hangat dan tulus, tidak terlalu salesy.",
           "",
@@ -1384,7 +1375,7 @@
         [
           "P-152",
           "Bagian 3: Email Marketing",
-          "Year-in-Review Email",
+          "Email Rekap Setahun",
           "",
           "Merangkum pencapaian pelanggan dalam setahun Buat year-in-review email untuk [NAMA_PELANGGAN] dengan [STATISTIK_PENGGUNAAN], [PENCAPAIAN], dan [REKOMENDASI]. Struktur: (1) Subjek yang celebratif (\"Tahun Anda di [Brand]\" atau \"2025: Pencapaian Anda\"), (2) Preview text, (3) Pembuka yang appreciative, (4) Statistik penggunaan dalam format visual atau list, (5) Pencapaian atau milestone mereka, (6) Rekomendasi untuk tahun depan, (7) CTA untuk melihat detail atau melanjutkan, (8) Penutup yang inspiratif. Total 250-300 kata. Gunakan data yang personal dan celebratif.",
           "",
@@ -1393,7 +1384,7 @@
         [
           "P-153",
           "Bagian 3: Email Marketing",
-          "Limited Stock Alert Email",
+          "Email Peringatan Stok Terbatas",
           "",
           "Memberitahu tentang stok terbatas Buat limited stock alert email untuk [PRODUK] dengan hanya [JUMLAH_TERISA] tersisa karena [DEMAND_TINGGI] dengan [CTA]. Struktur: (1) Subjek yang urgent (\"Stok hampir habis: [Produk]\" atau \"Tinggal [jumlah] lagi!\"), (2) Preview text, (3) Pembuka langsung ke alert, (4) Detail produk dan jumlah tersisa, (5) Alasan demand tinggi, (6) CTA \"Beli Sekarang\" atau \"Amankan Sebelum Habis\", (7) P.S. dengan reminder urgency. Total 100-150 kata. Gunakan bahasa yang urgent namun tidak manipulatif.",
           "",
@@ -1402,7 +1393,7 @@
         [
           "P-154",
           "Bagian 3: Email Marketing",
-          "Back-in-Stock Email",
+          "Email Stok Kembali Tersedia",
           "",
           "Memberitahu produk yang kembali tersedia Buat back-in-stock email untuk [PRODUK] kepada [NAMA_PELANGGAN] yang menunggu dengan [FITUR_PRODUK], [STOK_TERBATAS], dan [CTA]. Struktur: (1) Subjek yang exciting (\"Kabar baik: [Produk] kembali tersedia!\" atau \"Yang Anda tunggu sudah kembali\"), (2) Preview text, (3) Pembuka yang mengumumkan ketersediaan, (4) Detail produk dan fitur utama, (5) Informasi stok terbatas jika ada, (6) CTA \"Beli Sekarang\" atau \"Lihat Produk\", (7) P.S. dengan reminder untuk tidak menunggu terlalu lama. Total 120-150 kata.",
           "",
@@ -1411,7 +1402,7 @@
         [
           "P-155",
           "Bagian 3: Email Marketing",
-          "Price Increase Notification Email",
+          "Email Notifikasi Kenaikan Harga",
           "",
           "Memberitahu tentang kenaikan harga Buat price increase notification email untuk [PRODUK_LAYANAN] dari [HARGA_LAMA] menjadi [HARGA_BARU] berlaku [TANGGAL_BERLAKU] dengan [ALASAN_KENAIKAN] dan [BENEFIT_TAMBAHAN]. Struktur: (1) Subjek yang jelas (\"Perubahan Harga [Produk]\" atau \"Update Penting tentang Langganan Anda\"), (2) Preview text, (3) Pembuka yang transparan, (4) Detail perubahan harga dan tanggal berlaku, (5) Alasan kenaikan, (6) Benefit tambahan yang didapat, (7) Cara lock harga lama jika ada opsi, (8) Kontak untuk pertanyaan, (9) Penutup yang appreciative. Total 200-250 kata. Gunakan bahasa yang transparan dan respectful.",
           "",
@@ -1420,7 +1411,7 @@
         [
           "P-156",
           "Bagian 3: Email Marketing",
-          "Feature Request Follow-Up Email",
+          "Email Tindak Lanjut Permintaan Fitur",
           "",
           "Menindaklanjuti permintaan fitur dari pelanggan Buat feature request follow-up email untuk [NAMA_PELANGGAN] tentang [FITUR_YANG_DIMINTA] dengan status [STATUS], [TIMELINE], dan [ALTERNATIF]. Struktur: (1) Subjek yang personal (\"Update tentang permintaan fitur Anda\" atau \"Terima kasih atas saran Anda\"), (2) Preview text, (3) Ucapan terima kasih atas feedback, (4) Status permintaan, (5) Timeline jika akan dikembangkan, (6) Alternatif atau work-around jika ditolak, (7) Cara memberikan feedback lebih lanjut, (8) Penutup yang appreciative. Total 150-200 kata. Gunakan bahasa yang appreciative dan transparan.",
           "",
@@ -1429,7 +1420,7 @@
         [
           "P-157",
           "Bagian 3: Email Marketing",
-          "Bug Fix Notification Email",
+          "Email Notifikasi Perbaikan Bug",
           "",
           "Memberitahu tentang perbaikan bug Buat bug fix notification email untuk [NAMA_PELANGGAN] tentang [BUG_YANG_DIPERBAIKI] dengan [DAMPAK_PERBAIKAN] dan [CARA_UPDATE]. Struktur: (1) Subjek yang informatif (\"Bug yang Anda laporkan telah diperbaiki\" atau \"Update: Perbaikan [bug]\"), (2) Preview text, (3) Ucapan terima kasih atas laporan, (4) Detail bug yang diperbaiki, (5) Dampak perbaikan, (6) Cara mendapatkan update, (7) Kontak jika masih mengalami masalah, (8) Penutup yang appreciative. Total 120-150 kata.",
           "",
@@ -1438,7 +1429,7 @@
         [
           "P-158",
           "Bagian 3: Email Marketing",
-          "Account Verification Email",
+          "Email Verifikasi Akun",
           "",
           "Mengirim email verifikasi akun Buat account verification email untuk [NAMA_PENGGUNA] dengan [LINK_VERIFIKASI] berlaku [BATAS_WAKTU] dan [KONTAK_SUPPORT]. Struktur: (1) Subjek yang jelas (\"Verifikasi akun Anda\" atau \"Konfirmasi email Anda\"), (2) Preview text, (3) Pembuka yang menjelaskan tujuan email, (4) Tombol atau link verifikasi yang menonjol, (5) Informasi batas waktu, (6) Instruksi jika link tidak bekerja, (7) Kontak support, (8) Penutup yang helpful. Total 80-100 kata. Gunakan bahasa yang jelas dan langsung.",
           "",
@@ -1447,7 +1438,7 @@
         [
           "P-159",
           "Bagian 3: Email Marketing",
-          "Password Reset Email",
+          "Email Atur Ulang Kata Sandi",
           "",
           "Mengirim email reset password Buat password reset email untuk [NAMA_PENGGUNA] dengan [LINK_RESET] berlaku [BATAS_WAKTU] dan [KONTAK_SUPPORT] jika tidak meminta reset. Struktur: (1) Subjek yang jelas (\"Reset password Anda\" atau \"Permintaan perubahan password\"), (2) Preview text, (3) Pembuka yang mengkonfirmasi permintaan, (4) Tombol atau link reset yang menonjol, (5) Informasi batas waktu, (6) Peringatan jika tidak meminta reset, (7) Kontak support, (8) Penutup yang secure. Total 80-100 kata.",
           "",
@@ -1456,7 +1447,7 @@
         [
           "P-160",
           "Bagian 3: Email Marketing",
-          "Two-Factor Authentication Code Email",
+          "Email Kode Verifikasi Dua Langkah",
           "",
           "Mengirim kode 2FA via email Buat 2FA code email untuk [NAMA_PENGGUNA] dengan [KODE_2FA] berlaku [BATAS_WAKTU] dan [KONTAK_SUPPORT]. Struktur: (1) Subjek yang jelas (\"Kode verifikasi Anda\" atau \"Kode keamanan [Brand]\"), (2) Preview text, (3) Kode yang ditampilkan dengan jelas dan besar, (4) Informasi batas waktu, (5) Peringatan untuk tidak membagikan kode, (6) Kontak support jika tidak meminta kode, (7) Penutup yang secure. Total 50-80 kata. Gunakan format yang sangat jelas dan mudah dibaca.",
           "",
@@ -1465,7 +1456,7 @@
         [
           "P-161",
           "Bagian 3: Email Marketing",
-          "Login Alert Email",
+          "Email Peringatan Login",
           "",
           "Memberitahu tentang login dari perangkat atau lokasi baru Buat login alert email untuk [NAMA_PENGGUNA] tentang login dari [PERANGKAT] di [LOKASI] pada [WAKTU] dengan [AKSI_JIKA_BUKAN_ANDA]. Struktur: (1) Subjek yang urgent (\"Login baru terdeteksi\" atau \"Aktivitas login dari [lokasi]\"), (2) Preview text, (3) Detail login (perangkat, lokasi, waktu), (4) Jika ini Anda, abaikan email ini, (5) Jika bukan Anda, [AKSI_JIKA_BUKAN_ANDA] segera, (6) Link ke halaman keamanan akun, (7) Kontak support, (8) Penutup yang secure. Total 100-150 kata.",
           "",
@@ -1474,7 +1465,7 @@
         [
           "P-162",
           "Bagian 3: Email Marketing",
-          "Data Export Ready Email",
+          "Email Ekspor Data Siap",
           "",
           "Memberitahu bahwa ekspor data siap diunduh Buat data export ready email untuk [NAMA_PENGGUNA] dengan [JENIS_DATA] dalam format [FORMAT], [LINK_DOWNLOAD], dan [BATAS_WAKTU]. Struktur: (1) Subjek yang jelas (\"Ekspor data Anda siap\" atau \"[Jenis data] siap diunduh\"), (2) Preview text, (3) Konfirmasi ekspor selesai, (4) Detail: jenis data, format, ukuran file, (5) Tombol download yang menonjol, (6) Informasi batas waktu, (7) Instruksi jika link tidak bekerja, (8) Kontak support. Total 80-120 kata.",
           "",
@@ -1483,7 +1474,7 @@
         [
           "P-163",
           "Bagian 3: Email Marketing",
-          "Trial Expiration Reminder Email",
+          "Email Pengingat Akhir Masa Trial",
           "",
           "Mengingatkan tentang trial yang akan berakhir Buat trial expiration reminder email untuk [NAMA_PENGGUNA] dengan [PRODUK_TRIAL] berakhir [TANGGAL_KEDALUWARSA] ([HARI_TERSISA] hari lagi), [OPSI_UPGRADE], dan [BENEFIT_UPGRADE]. Struktur: (1) Subjek yang urgent (\"Trial Anda berakhir dalam [jumlah] hari\" atau \"Jangan kehilangan akses ke [produk]\"), (2) Preview text, (3) Reminder tanggal kedaluwarsa, (4) Ringkasan apa yang sudah mereka coba, (5) Benefit jika upgrade, (6) Opsi upgrade dan harga, (7) CTA \"Upgrade Sekarang\", (8) P.S. dengan urgency. Total 150-200 kata.",
           "",
@@ -1492,7 +1483,7 @@
         [
           "P-164",
           "Bagian 3: Email Marketing",
-          "Trial Conversion Email",
+          "Email Konversi Trial",
           "",
           "Mengonversi pengguna trial menjadi pelanggan berbayar Buat trial conversion email untuk [NAMA_PENGGUNA] dengan [PRODUK_TRIAL], [PENCAPAIAN_DURING_TRIAL], [HARGA_SUBSCRIPTION], [BENEFIT_PAID], dan [DISKON_KONVERSI]. Struktur: (1) Subjek yang celebratif (\"Lanjutkan perjalanan Anda di [produk]!\" atau \"Anda sudah mencapai [pencapaian]!\"), (2) Preview text, (3) Apresiasi atas apa yang sudah mereka capai, (4) Ringkasan pencapaian selama trial, (5) Benefit versi berbayar yang akan mereka dapatkan, (6) Harga dan diskon konversi, (7) CTA \"Upgrade Sekarang\", (8) P.S. dengan testimonial. Total 200-250 kata.",
           "",
@@ -1501,7 +1492,7 @@
         [
           "P-165",
           "Bagian 3: Email Marketing",
-          "Onboarding Step Email",
+          "Email Langkah Onboarding",
           "",
           "Email panduan onboarding bertahap Buat onboarding step email untuk [NAMA_PENGGUNA] langkah [NOMOR_LANGKAH] tentang [TOPIK_LANGKAH] dengan [TUGAS_LANGKAH], [LANGKAH_SELANJUTNYA], dan [ESTIMASI_WAKTU]. Struktur: (1) Subjek yang jelas (\"Langkah [nomor]: [Topik]\" atau \"Selanjutnya: [Topik]\"), (2) Preview text, (3) Progress indicator (langkah [nomor] dari [total]), (4) Penjelasan topik langkah ini, (5) Tugas yang harus dilakukan dengan instruksi jelas, (6) Preview langkah berikutnya, (7) Estimasi waktu, (8) CTA \"Mulai Langkah Ini\", (9) Kontak jika butuh bantuan. Total 150-200 kata.",
           "",
@@ -1510,7 +1501,7 @@
         [
           "P-166",
           "Bagian 3: Email Marketing",
-          "Milestone Achievement Email",
+          "Email Pencapaian Tonggak",
           "",
           "Merayakan pencapaian pengguna dalam produk Buat milestone achievement email untuk [NAMA_PENGGUNA] yang mencapai [PENCAPAIAN] dengan [STATISTIK], [BADGE_REWARD], dan [LANGKAH_SELANJUTNYA]. Struktur: (1) Subjek yang celebratif (\"Selamat! Anda mencapai [pencapaian]!\" atau \"Milestone baru: [pencapaian]\"), (2) Preview text, (3) Ucapan selamat yang tulus, (4) Detail pencapaian dengan statistik, (5) Badge atau reward yang didapat, (6) Tantangan berikutnya, (7) CTA untuk melihat pencapaian atau mulai tantangan baru, (8) Penutup yang inspiratif. Total 150-200 kata.",
           "",
@@ -1519,7 +1510,7 @@
         [
           "P-167",
           "Bagian 3: Email Marketing",
-          "Inactivity Check-In Email",
+          "Email Sapaan Setelah Lama Tidak Aktif",
           "",
           "Check-in dengan pengguna yang tidak aktif Buat inactivity check-in email untuk [NAMA_PENGGUNA] yang tidak aktif selama [DURASI_TIDAK_AKTIF] dengan [FITUR_BARU], [BANTUAN], dan [INSENTIF_KEMBALI]. Struktur: (1) Subjek yang personal (\"Kami rindu Anda!\" atau \"Ada yang baru di [produk]\"), (2) Preview text, (3) Pembuka yang empatik, (4) Ringkasan apa yang mereka lewatkan, (5) Fitur baru yang mungkin menarik, (6) Tawaran bantuan, (7) Insentif untuk kembali, (8) CTA \"Kembali ke [Produk]\" atau \"Dapatkan Bantuan\", (9) Opsi untuk pause atau unsubscribe jika tidak tertarik. Total 150-200 kata.",
           "",
@@ -1528,7 +1519,7 @@
         [
           "P-168",
           "Bagian 3: Email Marketing",
-          "Feature Announcement Email",
+          "Email Pengumuman Fitur",
           "",
           "Mengumumkan fitur baru Buat feature announcement email untuk [NAMA_FITUR] yang menyelesaikan [MASALAH_YANG_DISELESAIKAN] dengan [CARA_MENGGUNAKAN], [BENEFIT], dan [VIDEO_TUTORIAL]. Struktur: (1) Subjek yang exciting (\"Fitur baru: [Nama Fitur]!\" atau \"Sekarang Anda bisa [benefit]\"), (2) Preview text, (3) Pembuka yang mengumumkan fitur, (4) Masalah yang diselesaikan, (5) Cara menggunakan dengan langkah sederhana, (6) Benefit yang didapat, (7) Link video tutorial, (8) CTA \"Coba Sekarang\", (9) Penutup yang antusias. Total 150-200 kata.",
           "",
@@ -1537,7 +1528,7 @@
         [
           "P-169",
           "Bagian 3: Email Marketing",
-          "Integration Announcement Email",
+          "Email Pengumuman Integrasi",
           "",
           "Mengumumkan integrasi baru Buat integration announcement email untuk [NAMA_INTEGRASI] dengan [PLATFORM_TERINTEGRASI], [BENEFIT_INTEGRASI], dan [CARA_MENGAKTIFKAN]. Struktur: (1) Subjek yang exciting (\"Integrasi baru: [Platform]!\" atau \"Kini terintegrasi dengan [Platform]\"), (2) Preview text, (3) Pembuka yang mengumumkan integrasi, (4) Platform yang terintegrasi, (5) Benefit integrasi dengan contoh penggunaan, (6) Cara mengaktifkan, (7) CTA \"Aktifkan Sekarang\" atau \"Pelajari Lebih Lanjut\", (8) Penutup yang antusias. Total 120-150 kata.",
           "",
@@ -1546,7 +1537,7 @@
         [
           "P-170",
           "Bagian 3: Email Marketing",
-          "Customer Success Story Email",
+          "Email Kisah Sukses Pelanggan",
           "",
           "Membagikan cerita sukses pelanggan Buat customer success story email tentang [NAMA_PELANGGAN_SUCCES] dari [INDUSTRI_PELANGGAN] yang menghadapi [MASALAH_AWAL], menggunakan [SOLUSI_YANG_DIGUNAKAN], mencapai [HASIL_KONKRET], dengan [TESTIMONI]. Struktur: (1) Subjek yang menarik (\"Cerita sukses: [Nama] mencapai [hasil]\" atau \"Bagaimana [nama] menyelesaikan [masalah]\"), (2) Preview text, (3) Pembuka yang memperkenalkan pelanggan, (4) Latar belakang dan masalah awal, (5) Solusi yang digunakan, (6) Hasil konkret dengan angka, (7) Testimoni langsung, (8) CTA untuk melihat case study lengkap atau mencoba solusi, (9) Penutup yang inspiratif. Total 250-300 kata.",
           "",
@@ -1555,7 +1546,7 @@
         [
           "P-171",
           "Bagian 4: Landing Page dan Website",
-          "Landing Page Hero Section",
+          "Hero Section Landing Page",
           "",
           "Membuat bagian hero landing page yang menarik Buat hero section landing page untuk [NAMA_PRODUK] dengan [VALUE_PROPOSITION] untuk [TARGET_AUDIENCE] dengan [CTA_UTAMA] dan [CTA_SEKUNDER]. Struktur: (1) Headline utama 6-10 kata yang menonjolkan value proposition, (2) Subheadline 15-20 kata yang menjelaskan manfaat atau target audiens, (3) CTA utama dengan teks tombol yang jelas (5-7 kata), (4) CTA sekunder jika ada (teks alternatif), (5) Saran visual untuk background atau ilustrasi. Headline harus langsung menjawab \"Apa yang saya dapatkan?\" dalam 3 detik pertama.",
           "",
@@ -1564,7 +1555,7 @@
         [
           "P-172",
           "Bagian 4: Landing Page dan Website",
-          "Landing Page Problem Section",
+          "Bagian Masalah Landing Page",
           "",
           "Membuat bagian yang menjelaskan masalah yang diselesaikan Buat problem section landing page untuk [PRODUK] yang menyelesaikan [MASALAH_UTAMA] dan [MASALAH_SEKUNDER] dengan [DAMPAK_MASALAH]. Struktur: (1) Headline yang empatik (\"Pernahkah Anda mengalami...\" atau \"Apakah Anda frustrasi karena...\"), (2) Paragraf pembuka 50-80 kata yang mendeskripsikan masalah dengan detail yang relatable, (3) 3-5 bullet point masalah spesifik, (4) Paragraf transisi 30-50 kata tentang dampak jika tidak diselesaikan, (5) CTA untuk melihat solusi. Gunakan bahasa yang empatik dan menunjukkan pemahaman mendalam tentang masalah audiens.",
           "",
@@ -1573,7 +1564,7 @@
         [
           "P-173",
           "Bagian 4: Landing Page dan Website",
-          "Landing Page Solution Section",
+          "Bagian Solusi Landing Page",
           "",
           "Membuat bagian yang memperkenalkan solusi Buat solution section landing page untuk [NAMA_PRODUK] dengan [CARA_KERJA], [FITUR_UTAMA], [MANFAAT], dan [CTA]. Struktur: (1) Headline yang jelas (\"Inilah cara [produk] membantu Anda...\" atau \"Solusi lengkap untuk...\"), (2) Paragraf pembuka 50-80 kata yang memperkenalkan produk, (3) 3-5 fitur utama dengan penjelasan manfaat masing-masing (total 150-200 kata), (4) Visual suggestion untuk setiap fitur, (5) CTA yang mengarah ke langkah selanjutnya. Gunakan bahasa yang jelas dan fokus pada manfaat, bukan fitur teknis.",
           "",
@@ -1582,7 +1573,7 @@
         [
           "P-174",
           "Bagian 4: Landing Page dan Website",
-          "Landing Page Social Proof Section",
+          "Bagian Social Proof Landing Page",
           "",
           "Membuat bagian social proof untuk membangun kepercayaan Buat social proof section landing page dengan [JUMLAH_PELANGGAN], [RATING], [LOGO_KLIEN], [TESTIMONI_SINGKAT], dan [STATISTIK]. Struktur: (1) Headline yang membangun kepercayaan (\"Dipercaya oleh [jumlah] profesional\" atau \"Rating [rating] dari [jumlah] ulasan\"), (2) Statistik utama dalam format visual (3-4 angka besar), (3) Logo klien atau media yang meliput, (4) 2-3 testimoni singkat dengan nama, jabatan, dan foto, (5) Rating atau badge penghargaan. Total 200-250 kata. Gunakan layout yang mudah di-scan.",
           "",
@@ -1591,7 +1582,7 @@
         [
           "P-175",
           "Bagian 4: Landing Page dan Website",
-          "Landing Page Feature Deep Dive",
+          "Bedah Mendalam Fitur Landing Page",
           "",
           "Membuat bagian detail fitur produk Buat feature deep dive section untuk [NAMA_FITUR] yang menyelesaikan [MASALAH_YANG_DISELESAIKAN] dengan [CARA_KERJA], [BENEFIT], dan [SCREENSHOT]. Struktur: (1) Headline fitur yang menarik (\"[Nama Fitur]: [manfaat utama]\"), (2) Paragraf pembuka 50-80 kata yang menjelaskan masalah dan solusi, (3) 3-5 bullet point cara kerja atau kemampuan fitur, (4) Paragraf benefit 50-80 kata yang menjelaskan dampak positif, (5) Saran screenshot atau visual yang mendukung, (6) CTA untuk mencoba fitur. Total 200-250 kata per fitur. Buat untuk 3 fitur utama.",
           "",
@@ -1600,7 +1591,7 @@
         [
           "P-176",
           "Bagian 4: Landing Page dan Website",
-          "Landing Page Pricing Section",
+          "Bagian Harga Landing Page",
           "",
           "Membuat bagian harga dan paket Buat pricing section landing page dengan [JUMLAH_PAKET] paket: [NAMA_PAKET] dengan harga [HARGA], [FITUR_PER_PAKET], [PAKET_REKOMENDASI], dan [GARANSI]. Struktur: (1) Headline yang jelas (\"Pilih paket yang sesuai untuk bisnis Anda\"), (2) Subheadline 20-30 kata yang menjelaskan fleksibilitas, (3) Tabel atau card harga untuk setiap paket dengan: nama paket, harga (bulan/tahun), daftar fitur, CTA, (4) Highlight paket rekomendasi, (5) Informasi garansi atau jaminan, (6) FAQ singkat tentang pricing. Total 300-400 kata. Gunakan format yang mudah dibandingkan.",
           "",
@@ -1609,7 +1600,7 @@
         [
           "P-177",
           "Bagian 4: Landing Page dan Website",
-          "Landing Page FAQ Section",
+          "Bagian FAQ Landing Page",
           "",
           "Membuat bagian FAQ untuk menjawab pertanyaan umum Buat FAQ section landing page dengan [JUMLAH_PERTANYAAN] pertanyaan dalam kategori [KATEGORI] termasuk [PERTANYAAN_UTAMA]. Struktur: (1) Headline \"Pertanyaan yang Sering Diajukan\" atau \"FAQ\", (2) 5-10 pertanyaan dengan jawaban 40-60 kata masing-masing, (3) Gunakan format accordion atau expandable, (4) Kelompokkan pertanyaan berdasarkan kategori jika lebih dari 5, (5) Akhiri dengan CTA \"Masih ada pertanyaan? Hubungi kami\". Total 400-600 kata. Jawaban harus jelas, ringkas, dan menyelesaikan keraguan.",
           "",
@@ -1618,7 +1609,7 @@
         [
           "P-178",
           "Bagian 4: Landing Page dan Website",
-          "Landing Page Testimonial Section",
+          "Bagian Testimoni Landing Page",
           "",
           "Membuat bagian testimoni pelanggan Buat testimonial section landing page dengan [JUMLAH_TESTIMONI] testimoni dalam format [FORMAT] dengan [DETAIL_TESTIMONI], [RATING], dan [HASIL_KONKRET]. Struktur: (1) Headline yang menarik (\"Apa kata pelanggan kami\" atau \"Cerita sukses dari pengguna\"), (2) 3-6 testimoni dengan: kutipan 50-80 kata, nama, jabatan, perusahaan, foto, rating bintang, (3) Highlight hasil konkret dengan angka, (4) Visual layout yang mudah di-scan, (5) CTA untuk membaca lebih banyak testimoni atau bergabung. Total 300-400 kata. Gunakan testimoni yang autentik dan spesifik.",
           "",
@@ -1627,7 +1618,7 @@
         [
           "P-179",
           "Bagian 4: Landing Page dan Website",
-          "Landing Page CTA Section",
+          "Bagian CTA Landing Page",
           "",
           "Membuat bagian CTA yang mendorong konversi Buat CTA section landing page dengan tujuan [TUJUAN_CTA], [INSENTIF], [URGENCY], dan [RISK_REVERSAL]. Struktur: (1) Headline yang kuat dan langsung (\"Mulai sekarang\" atau \"Dapatkan [manfaat] hari ini\"), (2) Subheadline 20-30 kata yang memperkuat value, (3) Tombol CTA besar dengan teks yang jelas (5-7 kata), (4) Insentif atau bonus jika bertindak sekarang, (5) Elemen urgency (countdown, stok terbatas), (6) Risk reversal (garansi, free trial), (7) Social proof singkat (jumlah pengguna, rating). Total 150-200 kata. CTA harus menonjol dan tidak ambigu.",
           "",
@@ -1636,7 +1627,7 @@
         [
           "P-180",
           "Bagian 4: Landing Page dan Website",
-          "Landing Page About Section",
+          "Bagian Tentang Kami Landing Page",
           "",
           "Membuat bagian tentang perusahaan atau tim Buat about section landing page untuk [NAMA_PERUSAHAAN] dengan [MISI], [NILAI], [TIM], dan [PENCAPAIAN]. Struktur: (1) Headline yang personal (\"Tentang [Perusahaan]\" atau \"Cerita kami\"), (2) Paragraf pembuka 80-100 kata tentang misi dan visi, (3) 3-5 nilai inti dengan penjelasan singkat masing-masing, (4) Informasi tim (jumlah anggota, latar belakang, foto jika ada), (5) Pencapaian atau milestone dalam format timeline atau angka, (6) CTA untuk menghubungi atau bergabung. Total 300-400 kata. Gunakan bahasa yang personal dan autentik.",
           "",
@@ -1645,7 +1636,7 @@
         [
           "P-181",
           "Bagian 4: Landing Page dan Website",
-          "Homepage Hero Section",
+          "Hero Section Beranda",
           "",
           "Membuat hero section untuk homepage website Buat homepage hero section untuk [NAMA_BRAND] dengan [TAGLINE], [VALUE_PROPOSITION], [CTA_UTAMA], dan [CTA_SEKUNDER]. Struktur: (1) Headline 6-10 kata yang mencerminkan tagline dan value, (2) Subheadline 15-20 kata yang menjelaskan apa yang dilakukan brand, (3) CTA utama dengan teks tombol yang jelas, (4) CTA sekunder (pelajari lebih lanjut, lihat demo), (5) Saran visual untuk hero image atau video background. Homepage hero harus menjawab 3 pertanyaan dalam 5 detik: Apa ini? Untuk siapa? Apa yang saya lakukan selanjutnya?",
           "",
@@ -1654,7 +1645,7 @@
         [
           "P-182",
           "Bagian 4: Landing Page dan Website",
-          "Homepage Feature Overview",
+          "Ringkasan Fitur Beranda",
           "",
           "Membuat overview fitur untuk homepage Buat feature overview section homepage dengan [JUMLAH_FITUR] fitur: [NAMA_FITUR] dengan [DESKRIPSI_SINGKAT] dan [ICON]. Struktur: (1) Headline section (\"Fitur unggulan kami\" atau \"Semua yang Anda butuhkan\"), (2) Subheadline 20-30 kata, (3) Grid atau list fitur dengan: icon, nama fitur (3-5 kata), deskripsi (20-30 kata), (4) Visual layout yang konsisten, (5) CTA untuk melihat semua fitur. Total 200-300 kata. Setiap fitur harus mudah di-scan dalam 2-3 detik.",
           "",
@@ -1663,7 +1654,7 @@
         [
           "P-183",
           "Bagian 4: Landing Page dan Website",
-          "Homepage Benefit Section",
+          "Bagian Manfaat Beranda",
           "",
           "Membuat section manfaat untuk homepage Buat benefit section homepage dengan [JUMLAH_MANFAAT] manfaat untuk [TARGET_AUDIENCE] dengan [MANFAAT_UTAMA] dan [VISUAL]. Struktur: (1) Headline yang berfokus pada hasil (\"Tingkatkan [hasil] dengan [produk]\" atau \"Rasakan manfaat [produk]\"), (2) Subheadline 20-30 kata, (3) 3-5 manfaat dengan: judul (5-7 kata), deskripsi (40-50 kata), visual suggestion, (4) Layout alternating (teks-kiri-gambar-kanan, lalu sebaliknya), (5) CTA untuk mencoba atau mempelajari lebih lanjut. Total 300-400 kata. Fokus pada transformasi, bukan fitur.",
           "",
@@ -1672,7 +1663,7 @@
         [
           "P-184",
           "Bagian 4: Landing Page dan Website",
-          "Homepage Testimonial Preview",
+          "Pratinjau Testimoni Beranda",
           "",
           "Membuat preview testimoni untuk homepage Buat testimonial preview section homepage dengan [JUMLAH_TESTIMONI] testimoni dalam format [FORMAT] dari [SUMBER]. Struktur: (1) Headline (\"Apa kata pelanggan\" atau \"Testimoni\"), (2) 3-6 testimoni singkat (30-50 kata masing-masing) dengan nama dan rating, (3) Logo platform review jika dari sumber eksternal, (4) Link untuk melihat semua testimoni, (5) Visual layout yang clean. Total 200-300 kata. Testimoni harus autentik dan beragam.",
           "",
@@ -1681,7 +1672,7 @@
         [
           "P-185",
           "Bagian 4: Landing Page dan Website",
-          "Homepage CTA Section",
+          "Bagian CTA Beranda",
           "",
           "Membuat CTA section untuk homepage Buat CTA section homepage dengan tujuan [TUJUAN], [INSENTIF], dan [URGENCY]. Struktur: (1) Headline yang kuat (\"Mulai sekarang\" atau \"Bergabung dengan [jumlah] pengguna\"), (2) Subheadline 15-20 kata, (3) Tombol CTA besar, (4) Insentif jika ada, (5) Urgency element, (6) Trust badge atau social proof. Total 100-150 kata. CTA harus menonjol dan mudah ditemukan.",
           "",
@@ -1690,7 +1681,7 @@
         [
           "P-186",
           "Bagian 4: Landing Page dan Website",
-          "Pricing Page Header",
+          "Header Halaman Harga",
           "",
           "Membuat header untuk halaman pricing Buat header pricing page untuk [NAMA_PRODUK] dengan [MODEL_HARGA] dan [FLEKSIBILITAS]. Struktur: (1) Headline yang jelas (\"Harga [Produk]\" atau \"Pilih paket yang tepat\"), (2) Subheadline 30-40 kata yang menjelaskan model harga dan fleksibilitas, (3) Toggle bulanan/tahunan jika ada, (4) Saran visual untuk layout. Total 50-80 kata. Header harus langsung menjelaskan struktur harga.",
           "",
@@ -1699,7 +1690,7 @@
         [
           "P-187",
           "Bagian 4: Landing Page dan Website",
-          "Pricing Package Card",
+          "Kartu Paket Harga",
           "",
           "Membuat card untuk setiap paket harga Buat pricing package card untuk [NAMA_PAKET] dengan harga [HARGA], [DESKRIPSI_SINGKAT], [FITUR], [CTA], dan [BADGE]. Struktur: (1) Nama paket yang jelas, (2) Harga besar dan menonjol, (3) Periode harga (per bulan/tahun), (4) Deskripsi singkat 15-20 kata, (5) Daftar 5-10 fitur dengan checkmark, (6) Tombol CTA dengan teks yang jelas, (7) Badge \"Recommended\" atau \"Popular\" jika relevan. Total 100-150 kata per card. Card harus mudah dibandingkan.",
           "",
@@ -1708,7 +1699,7 @@
         [
           "P-188",
           "Bagian 4: Landing Page dan Website",
-          "Pricing Comparison Table",
+          "Tabel Perbandingan Harga",
           "",
           "Membuat tabel perbandingan paket Buat pricing comparison table dengan [JUMLAH_PAKET] paket ([NAMA_PAKET]) dan [JUMLAH_FITUR] fitur ([FITUR_LIST]). Struktur: (1) Header tabel dengan nama paket, (2) Baris fitur dengan checkmark atau X untuk setiap paket, (3) Kelompokkan fitur berdasarkan kategori jika lebih dari 10, (4) Highlight kolom paket yang direkomendasikan, (5) Footer dengan CTA untuk setiap paket. Total 200-300 kata. Tabel harus mudah di-scan dan dibandingkan.",
           "",
@@ -1717,7 +1708,7 @@
         [
           "P-189",
           "Bagian 4: Landing Page dan Website",
-          "Pricing FAQ Section",
+          "Bagian FAQ Halaman Harga",
           "",
           "Membuat FAQ khusus untuk halaman pricing Buat pricing FAQ section dengan [JUMLAH_PERTANYAAN] pertanyaan tentang [TOPIK]. Struktur: (1) Headline \"Pertanyaan tentang harga\" atau \"FAQ Pricing\", (2) 5-10 pertanyaan dengan jawaban 40-60 kata masing-masing, (3) Topik: billing, upgrade/downgrade, refund, trial, diskon, (4) Format accordion, (5) CTA untuk menghubungi sales jika ada pertanyaan lain. Total 300-500 kata. Jawaban harus jelas dan menyelesaikan keraguan.",
           "",
@@ -1726,7 +1717,7 @@
         [
           "P-190",
           "Bagian 4: Landing Page dan Website",
-          "Feature Page Hero",
+          "Hero Halaman Fitur",
           "",
           "Membuat hero section untuk halaman fitur spesifik Buat feature page hero untuk [NAMA_FITUR] dengan [MANFAAT_UTAMA] untuk [TARGET_USER] dan [CTA]. Struktur: (1) Headline 6-10 kata yang menonjolkan manfaat, (2) Subheadline 15-20 kata yang menjelaskan untuk siapa, (3) Tombol CTA yang jelas, (4) Visual suggestion (screenshot fitur atau ilustrasi). Total 50-80 kata. Hero harus langsung menjelaskan value fitur.",
           "",
@@ -1735,7 +1726,7 @@
         [
           "P-191",
           "Bagian 4: Landing Page dan Website",
-          "Feature Page Benefits",
+          "Manfaat di Halaman Fitur",
           "",
           "Membuat section manfaat untuk halaman fitur Buat feature benefits section untuk [NAMA_FITUR] dengan [JUMLAH_MANFAAT] manfaat ([MANFAAT]) dan [EXAMPLE]. Struktur: (1) Headline \"Manfaat [Fitur]\" atau \"Mengapa [Fitur] penting\", (2) 3-5 manfaat dengan: judul (5-7 kata), deskripsi (40-50 kata), icon atau visual, (3) Contoh penggunaan nyata, (4) CTA untuk mencoba fitur. Total 250-350 kata. Fokus pada outcome, bukan feature.",
           "",
@@ -1744,7 +1735,7 @@
         [
           "P-192",
           "Bagian 4: Landing Page dan Website",
-          "Feature Page How It Works",
+          "Cara Kerja di Halaman Fitur",
           "",
           "Membuat section cara kerja untuk halaman fitur Buat how it works section untuk [NAMA_FITUR] dengan [JUMLAH_LANGKAH] langkah ([LANGKAH]) dan [VISUAL]. Struktur: (1) Headline \"Cara kerja [Fitur]\" atau \"Mulai dalam [jumlah] langkah\", (2) 3-5 langkah dengan: nomor, judul (5-7 kata), deskripsi (30-40 kata), visual suggestion, (3) Layout horizontal atau vertikal, (4) CTA untuk mencoba. Total 200-300 kata. Langkah harus jelas dan mudah diikuti.",
           "",
@@ -1753,7 +1744,7 @@
         [
           "P-193",
           "Bagian 4: Landing Page dan Website",
-          "Feature Page Use Cases",
+          "Studi Pemakaian di Halaman Fitur",
           "",
           "Membuat section use case untuk halaman fitur Buat use cases section untuk [NAMA_FITUR] dengan [JUMLAH_USE_CASE] use case ([USE_CASE]) untuk [INDUSTRI]. Struktur: (1) Headline \"Use case [Fitur]\" atau \"Bagaimana [Fitur] digunakan\", (2) 3-5 use case dengan: judul (5-7 kata), deskripsi skenario (50-60 kata), hasil yang dicapai, (3) Filter berdasarkan industri jika relevan, (4) CTA untuk melihat case study lengkap. Total 300-400 kata. Use case harus spesifik dan relatable.",
           "",
@@ -1762,7 +1753,7 @@
         [
           "P-194",
           "Bagian 4: Landing Page dan Website",
-          "About Page Hero",
+          "Hero Halaman Tentang Kami",
           "",
           "Membuat hero section untuk halaman about Buat about page hero untuk [NAMA_PERUSAHAAN] dengan [TAGLINE], [MISI], dan [VISUAL]. Struktur: (1) Headline 6-10 kata yang mencerminkan tagline, (2) Subheadline 20-30 kata tentang misi, (3) Visual suggestion (foto tim, kantor, atau ilustrasi), (4) Tone: personal, autentik, dan inspiratif. Total 50-80 kata. Hero harus langsung menyampaikan esensi perusahaan.",
           "",
@@ -1771,7 +1762,7 @@
         [
           "P-195",
           "Bagian 4: Landing Page dan Website",
-          "About Page Story",
+          "Kisah di Halaman Tentang Kami",
           "",
           "Membuat section cerita perusahaan Buat about page story untuk [NAMA_PERUSAHAAN] yang berdiri [TAHUN_BERDIRI] oleh [PENDIRI] dengan [MOMEN_INSPIRASI], [PERKEMBANGAN], dan [VISI]. Struktur: (1) Headline \"Cerita kami\" atau \"Perjalanan [Perusahaan]\", (2) Paragraf pembuka tentang momen inspirasi, (3) Timeline perkembangan dengan tahun dan milestone, (4) Paragraf tentang visi ke depan, (5) Visual suggestion untuk timeline. Total 300-400 kata. Cerita harus autentik dan inspiratif.",
           "",
@@ -1780,7 +1771,7 @@
         [
           "P-196",
           "Bagian 4: Landing Page dan Website",
-          "About Page Team",
+          "Tim di Halaman Tentang Kami",
           "",
           "Membuat section tim perusahaan Buat about page team section dengan [JUMLAH_ANGGOTA] anggota ([NAMA_ANGGOTA], [JABATAN], [BIO_SINGKAT], [FOTO]). Struktur: (1) Headline \"Tim kami\" atau \"Orang-orang di balik [Perusahaan]\", (2) Subheadline 20-30 kata tentang budaya atau nilai tim, (3) Grid anggota tim dengan: foto, nama, jabatan, bio 30-40 kata, link sosial media jika ada, (4) Layout yang konsisten dan profesional. Total 200-300 kata. Tim harus terlihat approachable dan profesional.",
           "",
@@ -1789,7 +1780,7 @@
         [
           "P-197",
           "Bagian 4: Landing Page dan Website",
-          "About Page Values",
+          "Nilai di Halaman Tentang Kami",
           "",
           "Membuat section nilai-nilai perusahaan Buat about page values section dengan [JUMLAH_NILAI] nilai inti ([NAMA_NILAI], [DESKRIPSI_NILAI], [ICON]). Struktur: (1) Headline \"Nilai-nilai kami\" atau \"Apa yang kami percayai\", (2) Subheadline 20-30 kata, (3) Grid nilai dengan: icon, nama nilai (3-5 kata), deskripsi 40-50 kata, (4) Layout yang clean dan mudah di-scan. Total 200-300 kata. Nilai harus autentik dan mencerminkan budaya perusahaan.",
           "",
@@ -1798,7 +1789,7 @@
         [
           "P-198",
           "Bagian 4: Landing Page dan Website",
-          "Contact Page Hero",
+          "Hero Halaman Kontak",
           "",
           "Membuat hero section untuk halaman contact Buat contact page hero dengan [HEADLINE], [SUBHEADLINE], dan [METODE_KONTAK]. Struktur: (1) Headline 6-10 kata yang welcoming (\"Hubungi kami\" atau \"Kami siap membantu\"), (2) Subheadline 20-30 kata yang menjelaskan metode kontak, (3) Icon atau visual untuk setiap metode kontak. Total 40-60 kata. Hero harus inviting dan jelas.",
           "",
@@ -1807,16 +1798,16 @@
         [
           "P-199",
           "Bagian 4: Landing Page dan Website",
-          "Contact Page Form",
+          "Formulir Halaman Kontak",
           "",
-          "Membuat section form kontak Buat contact page form section dengan [FIELD_FORM], [INFORMASI_KONTAK], dan [JAM_OPERASIONAL]. Struktur: (1) Headline \"Kirim pesan\" atau \"Formulir kontak\", (2) Deskripsi form 20-30 kata, (3) Daftar field form dengan label dan placeholder, (4) Informasi kontak tambahan (email, telepon, alamat), (5) Jam operasional, (6) Tombol submit dengan teks yang jelas. Total 150-200 kata. Form harus jelas dan mudah diisi.",
+          "Membuat section form kontak Buat contact page form section dengan [FIELD_FORM], [INFORMASI_KONTAK], dan [JAM_OPERASIONAL]. Struktur: (1) Headline \"Kirim pesan\" atau \"Formulir kontak\", (2) Deskripsi form 20-30 kata, (3) Daftar field form dengan label dan teks contoh, (4) Informasi kontak tambahan (email, telepon, alamat), (5) Jam operasional, (6) Tombol submit dengan teks yang jelas. Total 150-200 kata. Form harus jelas dan mudah diisi.",
           "",
           ""
         ],
         [
           "P-200",
           "Bagian 4: Landing Page dan Website",
-          "Contact Page Map",
+          "Peta di Halaman Kontak",
           "",
           "Membuat section peta lokasi Buat contact page map section dengan [ALAMAT], [PETUNJUK_ARAH], [TRANSPORTASI_UMUM], dan [PARKIR]. Struktur: (1) Headline \"Lokasi kami\" atau \"Kunjungi kantor kami\", (2) Alamat lengkap, (3) Embed peta atau link ke Google Maps, (4) Petunjuk arah singkat, (5) Informasi transportasi umum, (6) Informasi parkir. Total 100-150 kata. Lokasi harus mudah ditemukan.",
           "",
@@ -1825,7 +1816,7 @@
         [
           "P-201",
           "Bagian 4: Landing Page dan Website",
-          "Blog Post Hero",
+          "Hero Artikel Blog",
           "",
           "Membuat hero section untuk blog post Buat blog post hero untuk [JUDUL_POST] dalam kategori [KATEGORI] oleh [PENULIS] pada [TANGGAL] dengan [BACA_WAKTU] dan [FEATURED_IMAGE]. Struktur: (1) Kategori badge, (2) Judul H1 yang menarik, (3) Meta informasi: penulis, tanggal, waktu baca, (4) Featured image atau ilustrasi, (5) Optional: tombol share social media. Total 30-50 kata. Hero harus menarik dan informatif.",
           "",
@@ -1834,7 +1825,7 @@
         [
           "P-202",
           "Bagian 4: Landing Page dan Website",
-          "Blog Post Introduction",
+          "Pengantar Artikel Blog",
           "",
           "Membuat pembuka blog post Buat blog post introduction untuk [TOPIK] yang membahas [MASALAH] dengan janji [JANJI] menggunakan [HOOK]. Struktur: (1) Hook pembuka 1-2 kalimat yang menangkap perhatian, (2) Konteks masalah 2-3 kalimat, (3) Janji apa yang akan didapat pembaca 1-2 kalimat, (4) Overview struktur post 1 kalimat. Total 100-150 kata. Introduction harus membuat pembaca ingin terus membaca.",
           "",
@@ -1843,7 +1834,7 @@
         [
           "P-203",
           "Bagian 4: Landing Page dan Website",
-          "Blog Post Conclusion",
+          "Penutup Artikel Blog",
           "",
           "Membuat penutup blog post Buat blog post conclusion untuk [TOPIK] dengan [POIN_UTAMA], [CTA], dan [RESOURCE_TAMBAHAN]. Struktur: (1) Ringkasan poin utama 2-3 kalimat, (2) Key takeaway 1 kalimat, (3) CTA yang jelas, (4) Link ke resource tambahan atau post terkait, (5) Pertanyaan untuk memancing komentar. Total 100-150 kata. Conclusion harus memorable dan actionable.",
           "",
@@ -1852,7 +1843,7 @@
         [
           "P-204",
           "Bagian 4: Landing Page dan Website",
-          "Product Page Hero",
+          "Hero Halaman Produk",
           "",
           "Membuat hero section untuk halaman produk Buat product page hero untuk [NAMA_PRODUK] dengan [TAGLINE], [HARGA], [RATING], [CTA_UTAMA], dan [CTA_SEKUNDER]. Struktur: (1) Nama produk H1, (2) Tagline 10-15 kata, (3) Harga dan rating, (4) Tombol CTA utama yang menonjol, (5) Link CTA sekunder, (6) Gambar produk atau visual. Total 50-80 kata. Hero harus langsung menunjukkan value dan cara membeli.",
           "",
@@ -1861,7 +1852,7 @@
         [
           "P-205",
           "Bagian 4: Landing Page dan Website",
-          "Product Page Description",
+          "Deskripsi Halaman Produk",
           "",
           "Membuat deskripsi produk Buat product page description untuk [NAMA_PRODUK] dengan [FITUR_UTAMA], [MANFAAT], [SPESIFIKASI], dan [KEUNGGULAN]. Struktur: (1) Paragraf pembuka 50-80 kata tentang produk, (2) Daftar fitur utama dengan manfaat, (3) Spesifikasi teknis dalam format tabel atau list, (4) Keunggulan dibanding kompetitor, (5) CTA untuk membeli. Total 300-400 kata. Deskripsi harus informatif dan persuasif.",
           "",
@@ -1870,7 +1861,7 @@
         [
           "P-206",
           "Bagian 4: Landing Page dan Website",
-          "Product Page Gallery",
+          "Galeri Halaman Produk",
           "",
           "Membuat galeri gambar produk Buat product page gallery dengan [JUMLAH_GAMBAR] gambar ([JENIS_GAMBAR], [ANGLE]). Struktur: (1) Gambar utama yang menonjol, (2) Thumbnail gambar tambahan, (3) Saran angle untuk setiap gambar, (4) Zoom atau lightbox feature, (5) Label atau caption untuk setiap gambar. Total 50-100 kata. Gallery harus menampilkan produk dari berbagai sudut.",
           "",
@@ -1879,7 +1870,7 @@
         [
           "P-207",
           "Bagian 4: Landing Page dan Website",
-          "Product Page Reviews",
+          "Ulasan di Halaman Produk",
           "",
           "Membuat section review produk Buat product page reviews section dengan [JUMLAH_REVIEW] review, [RATING_RATA_RATA], [DISTRIBUSI_RATING], dan [REVIEW_TERBAIK]. Struktur: (1) Rating rata-rata besar dan menonjol, (2) Distribusi rating dalam format bar chart, (3) 3-5 review terbaik dengan: rating, judul review, isi review 50-80 kata, nama reviewer, tanggal, (4) Tombol untuk melihat semua review, (5) CTA untuk menulis review. Total 300-400 kata. Reviews harus autentik dan membantu keputusan pembelian.",
           "",
@@ -1888,7 +1879,7 @@
         [
           "P-208",
           "Bagian 4: Landing Page dan Website",
-          "Checkout Page Header",
+          "Header Halaman Checkout",
           "",
           "Membuat header untuk halaman checkout Buat checkout page header dengan [JUMLAH_ITEM] item, [SUBTOTAL], dan [PROGRESS]. Struktur: (1) Progress indicator (step 1 dari 3, dll), (2) Ringkasan keranjang: jumlah item dan subtotal, (3) Tombol kembali ke keranjang, (4) Trust badge (secure checkout, garansi). Total 30-50 kata. Header harus jelas dan membangun kepercayaan.",
           "",
@@ -1897,7 +1888,7 @@
         [
           "P-209",
           "Bagian 4: Landing Page dan Website",
-          "Checkout Page Form",
+          "Formulir Halaman Checkout",
           "",
           "Membuat form untuk halaman checkout Buat checkout page form dengan [FIELD_BILLING], [FIELD_SHIPPING], [METODE_PEMBAYARAN], dan [FIELD_TAMBAHAN]. Struktur: (1) Section informasi billing dengan field-field, (2) Section informasi shipping (sama dengan billing atau berbeda), (3) Pilihan metode pembayaran, (4) Field tambahan (catatan, kode promo), (5) Tombol \"Lanjutkan\" atau \"Bayar\". Total 100-150 kata. Form harus simple dan mudah diisi.",
           "",
@@ -1906,7 +1897,7 @@
         [
           "P-210",
           "Bagian 4: Landing Page dan Website",
-          "Checkout Page Summary",
+          "Ringkasan Halaman Checkout",
           "",
           "Membuat ringkasan pesanan di halaman checkout Buat checkout page summary dengan [DAFTAR_PRODUK], [SUBTOTAL], [DISKON], [ONGKIR], [PAJAK], dan [TOTAL]. Struktur: (1) Daftar produk dengan: nama, jumlah, harga, (2) Subtotal, (3) Diskon (jika ada), (4) Ongkos kirim, (5) Pajak, (6) Total harga besar dan menonjol, (7) Tombol \"Place Order\" atau \"Bayar\". Total 80-120 kata. Summary harus jelas dan transparan.",
           "",
@@ -1915,7 +1906,7 @@
         [
           "P-211",
           "Bagian 4: Landing Page dan Website",
-          "404 Page Content",
+          "Konten Halaman 404",
           "",
           "Membuat konten untuk halaman 404 Buat 404 page content untuk [NAMA_BRAND] dengan [TONE], [CTA], dan [SEARCH]. Struktur: (1) Headline yang sesuai tone (\"Oops! Halaman tidak ditemukan\" atau \"404: Halaman yang Anda cari tidak ada\"), (2) Pesan 30-50 kata yang menjelaskan error, (3) Tombol CTA kembali ke homepage, (4) Link ke halaman populer, (5) Form pencarian, (6) Ilustrasi atau visual yang sesuai tone. Total 80-120 kata. 404 page harus helpful dan tidak frustrating.",
           "",
@@ -1924,16 +1915,16 @@
         [
           "P-212",
           "Bagian 4: Landing Page dan Website",
-          "Thank You Page Content",
+          "Konten Halaman Terima Kasih",
           "",
-          "Membuat konten untuk halaman terima kasih setelah pembelian Buat thank you page content untuk [NAMA_PELANGGAN] dengan [NOMOR_PESANAN], [NEXT_STEP], [RECOMMENDATION], dan [SOCIAL_SHARE]. Struktur: (1) Headline \"Terima kasih!\" atau \"Pesanan Anda berhasil\", (2) Pesan personal 30-50 kata, (3) Nomor pesanan dan detail, (4) Langkah selanjutnya (konfirmasi email, pengiriman, dll), (5) Rekomendasi produk atau konten, (6) Tombol share ke sosial media. Total 150-200 kata. Thank you page harus celebratif dan informatif.",
+          "Membuat konten untuk halaman terima kasih setelah pembelian Buat konten halaman ucapan terima kasih (thank you page) untuk [NAMA_PELANGGAN] dengan [NOMOR_PESANAN], [NEXT_STEP], [RECOMMENDATION], dan [SOCIAL_SHARE]. Struktur: (1) Headline \"Terima kasih!\" atau \"Pesanan Anda berhasil\", (2) Pesan personal 30-50 kata, (3) Nomor pesanan dan detail, (4) Langkah selanjutnya (konfirmasi email, pengiriman, dll), (5) Rekomendasi produk atau konten, (6) Tombol share ke sosial media. Total 150-200 kata. Halaman ini harus celebratif dan informatif.",
           "",
           ""
         ],
         [
           "P-213",
           "Bagian 4: Landing Page dan Website",
-          "Landing Page Comparison Section",
+          "Bagian Perbandingan Landing Page",
           "",
           "Membuat section perbandingan dengan kompetitor Buat comparison section landing page untuk [NAMA_PRODUK] vs [KOMPETITOR] dengan [KEUNGGULAN_KITA] dalam format [FORMAT]. Struktur: (1) Headline \"Mengapa memilih [Produk]?\" atau \"[Produk] vs [Kompetitor]\", (2) Tabel atau list perbandingan fitur, (3) Highlight keunggulan produk kita, (4) Testimoni atau data pendukung, (5) CTA untuk memilih produk kita. Total 200-300 kata. Perbandingan harus fair dan faktual.",
           "",
@@ -1942,7 +1933,7 @@
         [
           "P-214",
           "Bagian 4: Landing Page dan Website",
-          "Landing Page Guarantee Section",
+          "Bagian Jaminan Landing Page",
           "",
           "Membuat section jaminan atau garansi Buat guarantee section landing page dengan [JENIS_GARANSI] selama [DURASI], [SYARAT], dan [VISUAL]. Struktur: (1) Headline \"Garansi [Jenis]\" atau \"Jaminan [Durasi]\", (2) Badge atau icon garansi, (3) Penjelasan garansi 50-80 kata, (4) Syarat dan ketentuan singkat, (5) CTA untuk membeli dengan jaminan. Total 100-150 kata. Garansi harus jelas dan membangun kepercayaan.",
           "",
@@ -1951,7 +1942,7 @@
         [
           "P-215",
           "Bagian 4: Landing Page dan Website",
-          "Landing Page Urgency Section",
+          "Bagian Urgensi Landing Page",
           "",
           "Membuat section urgency untuk mendorong tindakan cepat Buat urgency section landing page dengan [JENIS_URGENCY], [COUNTDOWN], [INSENTIF], dan [CTA]. Struktur: (1) Headline yang urgent \"Penawaran berakhir dalam...\" atau \"Stok terbatas!\", (2) Countdown timer atau indikator stok, (3) Penjelasan insentif 30-50 kata, (4) Tombol CTA yang menonjol, (5) P.S. dengan reminder urgency. Total 80-120 kata. Urgency harus legitimate dan tidak manipulatif.",
           "",
@@ -1960,7 +1951,7 @@
         [
           "P-216",
           "Bagian 4: Landing Page dan Website",
-          "Landing Page Video Section",
+          "Bagian Video Landing Page",
           "",
           "Membuat section video untuk landing page Buat video section landing page dengan [JUDUL_VIDEO], [DESKRIPSI], [DURASI], [TRANSCRIPT], dan [CTA]. Struktur: (1) Headline \"Tonton video ini\" atau \"Lihat [Produk] beraksi\", (2) Embed video player, (3) Deskripsi video 30-50 kata, (4) Durasi dan link transcript, (5) CTA setelah video. Total 80-120 kata. Video section harus engaging dan informatif.",
           "",
@@ -1969,7 +1960,7 @@
         [
           "P-217",
           "Bagian 4: Landing Page dan Website",
-          "Landing Page Demo Request",
+          "Permintaan Demo Landing Page",
           "",
           "Membuat section permintaan demo Buat demo request section untuk [NAMA_PRODUK] dengan [BENEFIT_DEMO], [FORM_FIELD], dan [NEXT_STEP]. Struktur: (1) Headline \"Request demo\" atau \"Lihat [Produk] beraksi\", (2) Penjelasan benefit demo 30-50 kata, (3) Form dengan field-field yang diperlukan, (4) Informasi langkah selanjutnya, (5) Tombol submit. Total 100-150 kata. Demo request harus jelas dan mudah.",
           "",
@@ -1978,7 +1969,7 @@
         [
           "P-218",
           "Bagian 4: Landing Page dan Website",
-          "Landing Page Newsletter Signup",
+          "Pendaftaran Newsletter Landing Page",
           "",
           "Membuat section signup newsletter Buat newsletter signup section untuk [NAMA_NEWSLETTER] dengan [FREKUENSI], [BENEFIT], dan [INSENTIF]. Struktur: (1) Headline \"Subscribe newsletter kami\" atau \"Dapatkan [Benefit]\", (2) Penjelasan benefit 30-50 kata, (3) Form email input, (4) Insentif jika ada, (5) Tombol subscribe, (6) Privacy notice. Total 80-120 kata. Signup harus simple dan menarik.",
           "",
@@ -1987,7 +1978,7 @@
         [
           "P-219",
           "Bagian 4: Landing Page dan Website",
-          "Landing Page Exit Intent Popup",
+          "Popup Exit Intent Landing Page",
           "",
           "Membuat popup exit intent Buat exit intent popup dengan [PENAWARAN], [HEADLINE], [CTA], dan [URGENCY]. Struktur: (1) Headline yang menangkap perhatian \"Tunggu!\" atau \"Jangan pergi dulu!\", (2) Penawaran khusus 20-30 kata, (3) Tombol CTA yang menonjol, (4) Urgency element, (5) Tombol close yang jelas. Total 50-80 kata. Popup harus compelling tanpa annoying.",
           "",
@@ -1996,7 +1987,7 @@
         [
           "P-220",
           "Bagian 4: Landing Page dan Website",
-          "Landing Page Live Chat Widget",
+          "Widget Live Chat Landing Page",
           "",
           "Membuat widget live chat Buat live chat widget dengan [SAPAAN], [JAM_OPERASIONAL], [RESPONSE_TIME], dan [FAQ_QUICK]. Struktur: (1) Bubble chat dengan icon dan label, (2) Sapaan awal 20-30 kata, (3) Informasi jam operasional dan response time, (4) Quick access FAQ 3-5 pertanyaan, (5) Form input pesan. Total 60-100 kata. Widget harus welcoming dan helpful.",
           "",
@@ -2005,7 +1996,7 @@
         [
           "P-221",
           "Bagian 5: Konten Video dan Podcast",
-          "YouTube Video Script Structure",
+          "Struktur Naskah Video YouTube",
           "",
           "Membuat script video YouTube lengkap Buat script video YouTube [DURASI_TARGET] menit tentang [TOPIK_VIDEO] untuk [TARGET_AUDIENCE] dengan [CTA_UTAMA] dan [CTA_SEKUNDER]. Struktur: (1) Hook 0-15 detik yang menangkap perhatian, (2) Intro 15-30 detik menjelaskan apa yang akan dipelajari, (3) Body dengan 3-5 poin utama masing-masing 1-2 menit, (4) Transisi antar poin, (5) Kesimpulan 30-60 detik merangkum poin utama, (6) CTA untuk subscribe, like, dan komentar. Total script 800-1500 kata tergantung durasi. Gunakan bahasa conversational dan energik.",
           "",
@@ -2014,7 +2005,7 @@
         [
           "P-222",
           "Bagian 5: Konten Video dan Podcast",
-          "YouTube Hook Variations",
+          "Variasi Hook YouTube",
           "",
           "Membuat variasi hook 15 detik pertama video YouTube Buat 10 variasi hook 15 detik pertama untuk video YouTube tentang [TOPIK_VIDEO] dengan janji [JANJI_KONTEN] untuk [TARGET_AUDIENCE]. Setiap hook harus: (1) Langsung menangkap perhatian dalam 3 detik pertama, (2) Menggunakan pola yang terbukti efektif (pertanyaan, pernyataan kontroversial, angka spesifik, story time, dll), (3) Menciptakan curiosity gap, (4) Relevan dengan target audiens. Setiap hook 30-50 kata. Sertakan saran visual untuk setiap hook.",
           "",
@@ -2023,7 +2014,7 @@
         [
           "P-223",
           "Bagian 5: Konten Video dan Podcast",
-          "YouTube Intro Script",
+          "Naskah Intro YouTube",
           "",
           "Membuat intro video YouTube yang konsisten Buat 5 variasi intro script YouTube untuk [NAMA_CHANNEL] tentang [TOPIK_CHANNEL] yang upload [FREKUENSI_UPLOAD] dengan [CTA_SUBSCRIBE]. Setiap intro harus: (1) Sapaan personal, (2) Perkenalan channel singkat, (3) Preview apa yang akan dibahas di video ini, (4) CTA subscribe, (5) Total 15-30 detik (50-80 kata). Gunakan energi dan enthusiasm yang konsisten dengan brand channel.",
           "",
@@ -2032,7 +2023,7 @@
         [
           "P-224",
           "Bagian 5: Konten Video dan Podcast",
-          "YouTube Outro Script",
+          "Naskah Outro YouTube",
           "",
           "Membuat outro video YouTube Buat 5 variasi outro script YouTube untuk video tentang [TOPIK_VIDEO] dengan rekomendasi [VIDEO_SELANJUTNYA], [CTA_UTAMA], dan [CTA_SEKUNDER]. Setiap outro harus: (1) Ringkasan singkat apa yang baru dibahas, (2) Teaser untuk video selanjutnya, (3) CTA untuk subscribe, like, dan comment, (4) Reminder untuk check description, (5) Penutup personal. Total 30-60 detik (80-120 kata).",
           "",
@@ -2041,7 +2032,7 @@
         [
           "P-225",
           "Bagian 5: Konten Video dan Podcast",
-          "YouTube Video Title",
+          "Judul Video YouTube",
           "",
           "Membuat judul video YouTube yang SEO-friendly Buat 10 variasi judul YouTube untuk [TOPIK_VIDEO] dengan kata kunci [KATA_KUNCI_UTAMA] untuk [JENIS_VIDEO] yang ditujukan kepada [TARGET_AUDIENCE]. Setiap judul harus: (1) Maksimal 60 karakter, (2) Mengandung kata kunci utama di awal, (3) Menggunakan angka atau kata sifat yang kuat, (4) Menciptakan curiosity gap atau janji nilai, (5) Relevan dengan isi video. Hindari clickbait yang menyesatkan.",
           "",
@@ -2050,7 +2041,7 @@
         [
           "P-226",
           "Bagian 5: Konten Video dan Podcast",
-          "YouTube Video Description",
+          "Deskripsi Video YouTube",
           "",
           "Membuat deskripsi video YouTube yang optimal Buat deskripsi YouTube untuk [JUDUL_VIDEO] dengan [RINGKASAN], [TIMESTAMP], [LINK_RELEVAN], dan [KATA_KUNCI]. Struktur: (1) 2-3 kalimat pertama yang menjelaskan [RINGKASAN] dan mengandung [KATA_KUNCI], (2) [TIMESTAMP] dengan format \"00:00 - Judul Bagian\", (3) [LINK_RELEVAN] dengan label yang jelas, (4) Paragraf penutup 2-3 kalimat, (5) 5-10 hashtag relevan. Total 200-300 kata. Optimalkan untuk SEO YouTube.",
           "",
@@ -2059,7 +2050,7 @@
         [
           "P-227",
           "Bagian 5: Konten Video dan Podcast",
-          "YouTube Shorts Script",
+          "Naskah YouTube Shorts",
           "",
           "Membuat script YouTube Shorts (video vertikal pendek) Buat script YouTube Shorts [DURASI] detik tentang [TOPIK] dengan [HOOK] di 3 detik pertama, [KONTEN_UTAMA] di tengah, dan [CTA] di akhir. Format: (1) Detik 0-3: Hook visual + teks on-screen, (2) Detik 3-[DURASI]-5: Konten utama dengan transisi cepat, (3) Detik terakhir: CTA untuk subscribe atau like. Script harus: (a) Satu ide per kalimat, (b) Bahasa casual dan energik, (c) Teks on-screen sinkron dengan voiceover. Total 30-80 kata.",
           "",
@@ -2068,7 +2059,7 @@
         [
           "P-228",
           "Bagian 5: Konten Video dan Podcast",
-          "Podcast Episode Outline",
+          "Kerangka Episode Podcast",
           "",
           "Membuat outline episode podcast Buat outline episode [NAMA_PODCAST] tentang [TOPIK_EPISODE] dengan [DURASI_TARGET] dalam format [FORMAT] untuk [TARGET_AUDIENCE]. Struktur: (1) Intro 2-3 menit: hook, perkenalan topik, preview apa yang akan dibahas, (2) Segment 1: Poin utama pertama dengan durasi, (3) Segment 2: Poin utama kedua dengan durasi, (4) Segment 3: Poin utama ketiga dengan durasi, (5) Q&A atau interaksi pendengar jika ada, (6) Outro 2-3 menit: ringkasan, CTA, teaser episode selanjutnya. Total outline 300-400 kata.",
           "",
@@ -2077,7 +2068,7 @@
         [
           "P-229",
           "Bagian 5: Konten Video dan Podcast",
-          "Podcast Intro Script",
+          "Naskah Intro Podcast",
           "",
           "Membuat script intro podcast Buat 3 variasi intro script podcast untuk [NAMA_PODCAST] dengan [TAGLINE], host [HOST], topik [TOPIK_EPISODE], dan [SPONSOR]. Setiap intro harus: (1) Theme music cue, (2) Sapaan dan perkenalan podcast, (3) Tagline, (4) Perkenalan host, (5) Preview topik episode, (6) Sponsor read jika ada, (7) Transisi ke konten utama. Total 60-90 detik (150-200 kata). Gunakan energi dan tone yang konsisten dengan brand podcast.",
           "",
@@ -2086,7 +2077,7 @@
         [
           "P-230",
           "Bagian 5: Konten Video dan Podcast",
-          "Podcast Outro Script",
+          "Naskah Outro Podcast",
           "",
           "Membuat script outro podcast Buat 3 variasi outro script podcast untuk [NAMA_PODCAST] setelah membahas [TOPIK_EPISODE] dengan teaser [EPISODE_SELANJUTNYA], [CTA], dan [LINK]. Setiap outro harus: (1) Ringkasan singkat apa yang baru dibahas, (2) Teaser episode selanjutnya, (3) CTA untuk subscribe, review, dan share, (4) Link ke show notes atau resource, (5) Ucapan terima kasih, (6) Sign-off personal. Total 60-90 detik (150-200 kata).",
           "",
@@ -2095,7 +2086,7 @@
         [
           "P-231",
           "Bagian 5: Konten Video dan Podcast",
-          "Podcast Interview Questions",
+          "Pertanyaan Wawancara Podcast",
           "",
           "Membuat daftar pertanyaan untuk interview podcast Buat [JUMLAH_PERTANYAAN] pertanyaan interview podcast untuk [NAMA_TAMU] dengan [LATAR_BELAKANG_TAMU] tentang [TOPIK_INTERVIEW] dengan [DURASI_INTERVIEW]. Struktur pertanyaan: (1) 2-3 pertanyaan pembuka untuk membangun rapport, (2) 5-7 pertanyaan inti tentang topik, (3) 2-3 pertanyaan deep dive atau follow-up, (4) 1-2 pertanyaan reflektif atau pelajaran, (5) 1 pertanyaan rapid fire atau fun. Setiap pertanyaan harus: (a) Terbuka dan mendorong cerita, (b) Relevan dengan audiens, (c) Tidak terlalu umum. Total 300-400 kata.",
           "",
@@ -2104,7 +2095,7 @@
         [
           "P-232",
           "Bagian 5: Konten Video dan Podcast",
-          "Podcast Solo Episode Script",
+          "Naskah Episode Solo Podcast",
           "",
           "Membuat script untuk episode podcast solo Buat script podcast solo [DURASI] menit untuk [NAMA_PODCAST] tentang [TOPIK] dengan [POIN_UTAMA] dan [STORY_PERSONAL]. Struktur: (1) Intro 2-3 menit: hook dan preview, (2) Poin 1 dengan durasi dan talking points, (3) Poin 2 dengan durasi dan talking points, (4) Poin 3 dengan durasi dan talking points, (5) Story personal 2-3 menit, (6) Kesimpulan dan CTA 2-3 menit. Total script 1000-2000 kata tergantung durasi. Gunakan bahasa conversational seperti berbicara dengan teman.",
           "",
@@ -2113,7 +2104,7 @@
         [
           "P-233",
           "Bagian 5: Konten Video dan Podcast",
-          "Webinar Script Structure",
+          "Struktur Naskah Webinar",
           "",
           "Membuat script webinar lengkap Buat script webinar [DURASI] menit tentang [TOPIK_WEBINAR] untuk [TARGET_AUDIENCE] yang mempromosikan [PRODUK_YANG_DIPROMOSIKAN] dengan [Q&A]. Struktur: (1) Welcome dan housekeeping 5 menit, (2) Intro host dan credibility 5 menit, (3) Konten utama 20-30 menit dengan 3-5 poin, (4) Transition ke pitch 5 menit, (5) Product pitch 10 menit, (6) Q&A 10 menit jika ada, (7) Closing dan CTA 5 menit. Total script 2000-4000 kata. Gunakan pendekatan edukatif 80% dan promosi 20%.",
           "",
@@ -2122,7 +2113,7 @@
         [
           "P-234",
           "Bagian 5: Konten Video dan Podcast",
-          "Webinar Opening Hook",
+          "Hook Pembuka Webinar",
           "",
           "Membuat opening hook untuk webinar Buat 5 variasi opening hook webinar untuk [TOPIK_WEBINAR] dengan janji [JANJI_WEBINAR] untuk [TARGET_AUDIENCE] menggunakan [STATISTIK]. Setiap hook harus: (1) Menangkap perhatian dalam 30 detik pertama, (2) Menjelaskan mengapa topik ini penting sekarang, (3) Memberikan preview apa yang akan dipelajari, (4) Membangun credibility host, (5) Menciptakan expectation yang jelas. Total 80-120 kata per hook.",
           "",
@@ -2131,7 +2122,7 @@
         [
           "P-235",
           "Bagian 5: Konten Video dan Podcast",
-          "Webinar Pitch Script",
+          "Naskah Pitch Webinar",
           "",
           "Membuat script pitch produk di webinar Buat webinar pitch script untuk [NAMA_PRODUK] yang menyelesaikan [MASALAH_YANG_DISELESAIKAN] dengan [FITUR_UTAMA], [HARGA], [BONUS], [GUARANTEE], dan [URGENCY]. Struktur: (1) Transition dari konten ke pitch, (2) Recap masalah yang sudah dibahas, (3) Perkenalan produk sebagai solusi, (4) Demo atau walkthrough fitur, (5) Testimoni atau case study, (6) Penawaran khusus untuk peserta webinar, (7) Bonus dan guarantee, (8) Urgency dan scarcity, (9) CTA dan cara mendaftar, (10) Handling objections umum. Total 500-800 kata. Gunakan pendekatan consultative selling.",
           "",
@@ -2140,7 +2131,7 @@
         [
           "P-236",
           "Bagian 5: Konten Video dan Podcast",
-          "Live Streaming Script",
+          "Naskah Live Streaming",
           "",
           "Membuat script untuk live streaming Buat script live streaming [PLATFORM] [DURASI] menit tentang [TOPIK] dengan [INTERAKSI] dan [CTA]. Struktur: (1) Pre-live countdown dan waiting room, (2) Opening 5 menit: sapaan, perkenalan, preview topik, (3) Konten utama dengan checkpoint setiap 10 menit untuk interaksi, (4) Q&A session atau respond comments, (5) CTA dan closing. Sertakan: (a) Talking points per section, (b) Prompt untuk interaksi (\"Ketik 1 jika...\", \"Comment di bawah...\"), (c) Backup plan jika tidak ada yang comment. Total 800-1500 kata.",
           "",
@@ -2149,7 +2140,7 @@
         [
           "P-237",
           "Bagian 5: Konten Video dan Podcast",
-          "Video Tutorial Script",
+          "Naskah Video Tutorial",
           "",
           "Membuat script video tutorial Buat script video tutorial [DURASI] menit tentang [TOPIK_TUTORIAL] level [LEVEL] dengan [TOOLS_YANG_DIBUTUHKAN] dan [HASIL_AKHIR]. Struktur: (1) Intro: apa yang akan dipelajari dan prerequisites, (2) Setup: persiapan tools dan environment, (3) Step-by-step tutorial dengan numbering, (4) Common mistakes dan cara menghindarinya, (5) Final result dan next steps. Setiap step harus: (a) Clear instruction, (b) Visual cue (\"Perhatikan layar...\"), (c) Checkpoint untuk memastikan penonton mengikuti. Total 600-1200 kata.",
           "",
@@ -2158,7 +2149,7 @@
         [
           "P-238",
           "Bagian 5: Konten Video dan Podcast",
-          "Product Demo Video Script",
+          "Naskah Video Demo Produk",
           "",
           "Membuat script video demo produk Buat script product demo video untuk [NAMA_PRODUK] yang mendemokan [FITUR_YANG_DIDEMOKAN] dalam [USE_CASE] untuk [TARGET_AUDIENCE] dengan [CTA]. Struktur: (1) Intro: masalah yang dihadapi target audiens, (2) Perkenalan produk sebagai solusi, (3) Demo fitur 1 dengan use case, (4) Demo fitur 2 dengan use case, (5) Demo fitur 3 dengan use case, (6) Recap benefit, (7) CTA. Total 400-800 kata. Fokus pada \"how it helps\" bukan hanya \"what it does\".",
           "",
@@ -2167,7 +2158,7 @@
         [
           "P-239",
           "Bagian 5: Konten Video dan Podcast",
-          "Testimonial Video Script",
+          "Naskah Video Testimoni",
           "",
           "Membuat script video testimoni pelanggan Buat script video testimoni [DURASI] menit untuk [NAMA_PELANGGAN] yang menggunakan [PRODUK_YANG_DIGUNAKAN], menghadapi [MASALAH_SEBELUM], mendapatkan [SOLUSI], dan mencapai [HASIL_KONKRET]. Struktur pertanyaan: (1) \"Bisa ceritakan latar belakang Anda?\", (2) \"Apa masalah yang Anda hadapi sebelum menggunakan [produk]?\", (3) \"Bagaimana Anda menemukan [produk]?\", (4) \"Bagaimana pengalaman Anda menggunakan [produk]?\", (5) \"Hasil konkret apa yang Anda dapatkan?\", (6) \"Apakah Anda merekomendasikan [produk] ke orang lain?\". Total script 200-400 kata. Gunakan pertanyaan terbuka yang mendorong cerita.",
           "",
@@ -2176,7 +2167,7 @@
         [
           "P-240",
           "Bagian 5: Konten Video dan Podcast",
-          "Case Study Video Script",
+          "Naskah Video Studi Kasus",
           "",
           "Membuat script video case study Buat script video case study [DURASI] menit tentang [NAMA_KLIEN] dari [INDUSTRI] yang menghadapi [TANTANGAN], menerapkan [SOLUSI], dan mencapai [HASIL]. Struktur: (1) Intro: overview klien dan industri, (2) Tantangan: masalah yang dihadapi dengan data, (3) Solusi: pendekatan yang diterapkan, (4) Implementasi: bagaimana solusi dijalankan, (5) Hasil: outcome dengan angka konkret, (6) Testimoni dari klien, (7) Kesimpulan dan pelajaran. Total 500-1000 kata. Gunakan pendekatan storytelling.",
           "",
@@ -2185,7 +2176,7 @@
         [
           "P-241",
           "Bagian 5: Konten Video dan Podcast",
-          "Explainer Video Script",
+          "Naskah Explainer Video",
           "",
           "Membuat script explainer video Buat script explainer video [DURASI] detik tentang [KONSEP_YANG_DIJELASKAN] untuk [TARGET_AUDIENCE] menggunakan [ANALOGI] dengan [CTA]. Struktur: (1) Problem statement 10-15 detik, (2) Agitasi masalah 10-15 detik, (3) Solusi diperkenalkan 15-20 detik, (4) Cara kerja dengan analogi 30-60 detik, (5) Benefit 15-20 detik, (6) CTA 10-15 detik. Total 150-300 kata. Gunakan bahasa sederhana dan visual.",
           "",
@@ -2194,7 +2185,7 @@
         [
           "P-242",
           "Bagian 5: Konten Video dan Podcast",
-          "Video Ad Script (15 detik)",
+          "Naskah Iklan Video (15 detik)",
           "",
           "Membuat script iklan video 15 detik Buat 5 variasi script iklan video 15 detik untuk [PRODUK] dengan [MANFAAT_UTAMA] untuk [TARGET_AUDIENCE] dan [CTA]. Setiap script harus: (1) Detik 0-3: Hook yang menangkap perhatian, (2) Detik 3-10: Manfaat utama dengan visual, (3) Detik 10-15: CTA yang jelas. Total 30-40 kata per script. Setiap detik harus impactful.",
           "",
@@ -2203,7 +2194,7 @@
         [
           "P-243",
           "Bagian 5: Konten Video dan Podcast",
-          "Video Ad Script (30 detik)",
+          "Naskah Iklan Video (30 detik)",
           "",
           "Membuat script iklan video 30 detik Buat 5 variasi script iklan video 30 detik untuk [PRODUK] yang menyelesaikan [MASALAH] dengan [SOLUSI], memberikan [BENEFIT], dan [CTA]. Setiap script harus: (1) Detik 0-5: Hook dengan masalah, (2) Detik 5-15: Solusi diperkenalkan, (3) Detik 15-25: Benefit dengan bukti, (4) Detik 25-30: CTA. Total 60-80 kata per script.",
           "",
@@ -2212,7 +2203,7 @@
         [
           "P-244",
           "Bagian 5: Konten Video dan Podcast",
-          "Video Ad Script (60 detik)",
+          "Naskah Iklan Video (60 detik)",
           "",
           "Membuat script iklan video 60 detik Buat 3 variasi script iklan video 60 detik untuk [PRODUK] dengan [STORY], menyentuh [EMOSI], memberikan [BENEFIT], menggunakan [SOCIAL_PROOF], dan [CTA]. Setiap script harus: (1) Detik 0-10: Hook dengan story atau masalah, (2) Detik 10-30: Pengembangan cerita dan solusi, (3) Detik 30-45: Benefit dan social proof, (4) Detik 45-60: CTA. Total 120-150 kata per script.",
           "",
@@ -2221,7 +2212,7 @@
         [
           "P-245",
           "Bagian 5: Konten Video dan Podcast",
-          "Podcast Show Notes",
+          "Show Notes Podcast",
           "",
           "Membuat show notes untuk episode podcast Buat show notes untuk [NAMA_PODCAST] episode [NOMOR_EPISODE] \"[JUDUL_EPISODE]\" tentang [TOPIK] dengan [TAMU], [LINK], dan [TIMESTAMP]. Struktur: (1) Judul episode, (2) Ringkasan episode 100-150 kata, (3) Timestamp untuk section penting, (4) Link dan resource yang disebutkan, (5) Bio tamu jika ada, (6) CTA untuk subscribe dan review, (7) Social media links. Total 300-400 kata.",
           "",
@@ -2239,7 +2230,7 @@
         [
           "P-247",
           "Bagian 5: Konten Video dan Podcast",
-          "Podcast Teaser Script",
+          "Naskah Teaser Podcast",
           "",
           "Membuat teaser untuk episode podcast yang akan datang Buat 3 variasi teaser script podcast untuk [NAMA_PODCAST] episode tentang [TOPIK_EPISODE] dengan [TAMU] rilis [TANGGAL_RILIS] menggunakan [HOOK]. Setiap teaser harus: (1) Hook yang menarik perhatian, (2) Preview topik tanpa spoiler, (3) Mention tamu jika ada, (4) Tanggal rilis, (5) CTA untuk subscribe agar tidak ketinggalan. Total 30-60 detik (80-120 kata). Gunakan untuk social media promotion.",
           "",
@@ -2248,7 +2239,7 @@
         [
           "P-248",
           "Bagian 5: Konten Video dan Podcast",
-          "Video Script untuk Testimoni Text",
+          "Naskah Video untuk Testimoni Teks",
           "",
           "Membuat script untuk video yang menampilkan testimoni teks Buat script video [DURASI] detik yang menampilkan [JUMLAH_TESTIMONI] testimoni tentang [PRODUK] dengan tema [THEMA], [MUSIC], dan [CTA]. Struktur: (1) Opening text: \"Apa kata mereka tentang [produk]?\", (2) Testimoni 1 dengan nama dan foto, (3) Testimoni 2, (4) Testimoni 3, (5) Closing dengan CTA. Setiap testimoni ditampilkan 3-5 detik. Total teks 50-80 kata. Gunakan musik yang uplifting.",
           "",
@@ -2257,7 +2248,7 @@
         [
           "P-249",
           "Bagian 5: Konten Video dan Podcast",
-          "Podcast Ad Read Script",
+          "Naskah Bacaan Iklan Podcast",
           "",
           "Membuat script iklan di dalam podcast Buat [DURASI] detik ad read script untuk [NAMA_PODCAST] yang mensponsori [SPONSOR] dengan [PRODUK_SPONSOR], [MANFAAT], [OFFER], dan [CODE]. Struktur: (1) Transition dari konten, (2) Perkenalan sponsor, (3) Personal story atau pengalaman dengan produk, (4) Manfaat produk, (5) Penawaran khusus dan kode promo, (6) CTA dan link, (7) Transition kembali ke konten. Total 80-150 kata. Gunakan tone yang natural dan personal.",
           "",
@@ -2266,7 +2257,7 @@
         [
           "P-250",
           "Bagian 5: Konten Video dan Podcast",
-          "Video B-Roll Narration",
+          "Narasi B-Roll Video",
           "",
           "Membuat narasi untuk B-roll footage Buat narasi [DURASI] detik untuk B-roll footage [SCENE_BROLL] dalam video tentang [TOPIK_VIDEO] dengan [MOOD]. Narasi harus: (1) Melengkapi visual bukan mengulanginya, (2) Menggunakan bahasa yang evocative dan visual, (3) Sesuai dengan mood yang diinginkan, (4) Tidak terlalu panjang agar visual bisa berbicara. Total 30-60 kata.",
           "",
@@ -2275,7 +2266,7 @@
         [
           "P-251",
           "Bagian 5: Konten Video dan Podcast",
-          "Podcast Episode Title",
+          "Judul Episode Podcast",
           "",
           "Membuat judul episode podcast Buat 10 variasi judul episode podcast tentang [TOPIK_EPISODE] dengan [TAMU], [ANGLE], untuk [TARGET_AUDIENCE]. Setiap judul harus: (1) Menarik dan memancing rasa ingin tahu, (2) Menjelaskan apa yang akan dipelajari, (3) Maksimal 60 karakter, (4) SEO-friendly untuk podcast directory. Hindari judul yang terlalu umum.",
           "",
@@ -2284,7 +2275,7 @@
         [
           "P-252",
           "Bagian 5: Konten Video dan Podcast",
-          "Video Thumbnail Text",
+          "Teks Thumbnail Video",
           "",
           "Membuat teks untuk thumbnail video Buat 10 variasi teks thumbnail untuk video tentang [TOPIK_VIDEO] dengan janji [JANJI_VIDEO] untuk [TARGET_AUDIENCE] dengan [STYLE]. Setiap teks harus: (1) Maksimal 5-7 kata, (2) Besar dan mudah dibaca di ukuran kecil, (3) Menarik perhatian dan memancing klik, (4) Relevan dengan isi video. Hindari clickbait yang menyesatkan.",
           "",
@@ -2293,7 +2284,7 @@
         [
           "P-253",
           "Bagian 5: Konten Video dan Podcast",
-          "Podcast Guest Introduction",
+          "Perkenalan Tamu Podcast",
           "",
           "Membuat script perkenalan tamu podcast Buat 3 variasi guest introduction script untuk [NAMA_TAMU] dengan [LATAR_BELAKANG], [PENCAPAIAN], yang akan membahas [TOPIK_YANG_AKAN_DIBAHAS] dengan [TONE]. Setiap intro harus: (1) Nama dan title, (2) Latar belakang singkat, (3) Pencapaian yang relevan, (4) Mengapa tamu ini penting untuk topik ini, (5) Welcome dan transition ke interview. Total 60-90 detik (150-200 kata).",
           "",
@@ -2302,7 +2293,7 @@
         [
           "P-254",
           "Bagian 5: Konten Video dan Podcast",
-          "Video Call-to-Action Variations",
+          "Variasi Call-to-Action Video",
           "",
           "Membuat variasi CTA untuk video Buat 10 variasi CTA untuk [JENIS_CTA] di [PLATFORM] dengan [TONE]. Setiap CTA harus: (1) Singkat dan jelas (10-20 kata), (2) Menggunakan kata kerja imperatif, (3) Menjelaskan benefit dari tindakan, (4) Sesuai dengan tone yang diinginkan. Hindari CTA yang terlalu agresif.",
           "",
@@ -2311,7 +2302,7 @@
         [
           "P-255",
           "Bagian 5: Konten Video dan Podcast",
-          "Podcast Listener Engagement",
+          "Interaksi Pendengar Podcast",
           "",
           "Membuat script untuk mengajak pendengar berinteraksi Buat 5 variasi listener engagement script untuk [NAMA_PODCAST] yang mengajak [JENIS_ENGAGEMENT] di [PLATFORM] dengan [INSENTIF]. Setiap script harus: (1) Menjelaskan cara berinteraksi, (2) Memberikan alasan mengapa engagement penting, (3) Menyebutkan insentif jika ada, (4) Menggunakan tone yang welcoming. Total 30-60 detik (80-120 kata) per script.",
           "",
@@ -2320,7 +2311,7 @@
         [
           "P-256",
           "Bagian 5: Konten Video dan Podcast",
-          "Video Series Introduction",
+          "Pengantar Seri Video",
           "",
           "Membuat intro untuk video series Buat 3 variasi series introduction untuk [NAMA_SERIES] tentang [TOPIK_SERIES] dengan [JUMLAH_EPISODE] untuk [TARGET_AUDIENCE] dengan janji [JANJI_SERIES]. Setiap intro harus: (1) Menjelaskan konsep series, (2) Preview apa yang akan dipelajari di setiap episode, (3) Mengapa series ini penting, (4) CTA untuk subscribe dan nonton episode pertama. Total 60-90 detik (150-200 kata).",
           "",
@@ -2329,7 +2320,7 @@
         [
           "P-257",
           "Bagian 5: Konten Video dan Podcast",
-          "Podcast Season Preview",
+          "Pratinjau Musim Podcast",
           "",
           "Membuat preview untuk season podcast baru Buat season preview script untuk [NAMA_PODCAST] season [NOMOR_SEASON] dengan tema [TEMA_SEASON], [JUMLAH_EPISODE], mulai [TANGGAL_MULAI]. Struktur: (1) Recap season sebelumnya, (2) Pengumuman season baru, (3) Tema dan apa yang akan dibahas, (4) Preview episode-episode, (5) Tanggal rilis, (6) CTA untuk subscribe. Total 90-120 detik (200-250 kata).",
           "",
@@ -2338,16 +2329,16 @@
         [
           "P-258",
           "Bagian 5: Konten Video dan Podcast",
-          "Video Recap Montage Script",
+          "Naskah Montase Rekap Video",
           "",
-          "Membuat script untuk video recap atau montage Buat script video recap [DURASI] detik untuk [PERIODE] dengan [HIGHLIGHT], [MOOD], dan [MUSIC]. Struktur: (1) Opening text: \"Best of [periode]\", (2) Highlight 1 dengan caption, (3) Highlight 2, (4) Highlight 3, (5) dst, (6) Closing dengan thank you atau CTA. Setiap highlight ditampilkan 3-5 detik dengan caption 10-15 kata. Total 50-100 kata. Gunakan musik yang sesuai mood.",
+          "Membuat script untuk video recap atau montage Buat script video recap [DURASI] detik untuk [PERIODE] dengan [HIGHLIGHT], [MOOD], dan [MUSIC]. Struktur: (1) Teks pembuka: \"Best of [periode]\", (2) Highlight 1 dengan caption, (3) Highlight 2, (4) Highlight 3, (5) dst, (6) Penutup dengan ucapan terima kasih atau CTA. Setiap highlight ditampilkan 3-5 detik dengan caption 10-15 kata. Total 50-100 kata. Gunakan musik yang sesuai mood.",
           "",
           ""
         ],
         [
           "P-259",
           "Bagian 5: Konten Video dan Podcast",
-          "Podcast Q&A Segment Script",
+          "Naskah Segmen Tanya Jawab Podcast",
           "",
           "Membuat script untuk segment Q&A podcast Buat Q&A segment script untuk [NAMA_PODCAST] dengan [SUMBER_PERTANYAAN], [JUMLAH_PERTANYAAN], dan [TONE]. Struktur: (1) Intro segment: \"Sekarang saatnya menjawab pertanyaan dari pendengar\", (2) Pertanyaan 1 dengan nama penanya, (3) Jawaban 60-90 detik, (4) Pertanyaan 2, (5) Jawaban, (6) dst, (7) Closing segment dan CTA untuk mengirim pertanyaan. Total 400-600 kata.",
           "",
@@ -2356,7 +2347,7 @@
         [
           "P-260",
           "Bagian 5: Konten Video dan Podcast",
-          "Video End Screen Script",
+          "Naskah Layar Akhir Video",
           "",
           "Membuat script untuk end screen video Buat 5 variasi end screen script untuk video tentang [TOPIK_VIDEO] dengan rekomendasi [VIDEO_REKOMENDASI], [PLAYLIST], [CTA_UTAMA], dan [CTA_SEKUNDER]. Setiap script harus: (1) Thank you untuk menonton, (2) Quick recap 1 kalimat, (3) Rekomendasi video atau playlist, (4) CTA subscribe, (5) Total 20-30 detik (50-80 kata). Gunakan tone yang appreciative.",
           "",
@@ -2364,8 +2355,8 @@
         ],
         [
           "P-261",
-          "Bagian 6: Advanced Copywriting",
-          "A/B Testing Headline Variations",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Variasi Headline untuk Pengujian A/B",
           "",
           "Membuat variasi headline untuk A/B testing Buat [VARIASI_YANG_DIINGINKAN] variasi [HEADLINE_ASAL] dengan memvariasikan [ELEMENT_YANG_DIVARIASI]. Setiap variasi harus: (1) Mempertahankan inti pesan, (2) Mengubah satu elemen saja untuk isolasi testing, (3) Dapat diukur efektivitasnya. Jelaskan hipotesis untuk setiap variasi dan metrik apa yang akan diukur (CTR, conversion rate, time on page). Format tabel dengan kolom: variasi, perubahan, hipotesis, metrik.",
           "",
@@ -2373,8 +2364,8 @@
         ],
         [
           "P-262",
-          "Bagian 6: Advanced Copywriting",
-          "A/B Testing CTA Variations",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Variasi CTA untuk Pengujian A/B",
           "",
           "Membuat variasi CTA untuk A/B testing Buat [VARIASI] variasi [CTA_ASAL] dengan memvariasikan [ASPEK]. Setiap variasi harus: (1) Mengubah satu aspek saja, (2) Tetap konsisten dengan brand, (3) Dapat diukur. Jelaskan hipotesis dan metrik (click rate, conversion rate). Format tabel.",
           "",
@@ -2382,8 +2373,8 @@
         ],
         [
           "P-263",
-          "Bagian 6: Advanced Copywriting",
-          "Scarcity Copy yang Etis",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Copy Kelangkaan yang Etis",
           "",
           "Membuat copy scarcity yang legitimate Buat 5 variasi scarcity copy untuk [PRODUK] dengan [JENIS_SCARCITY] yang didukung [BUKTI_SCARCITY]. Setiap copy harus: (1) Jujur dan dapat dibuktikan, (2) Tidak manipulatif, (3) Menjelaskan alasan scarcity, (4) Menciptakan urgency tanpa tekanan berlebihan. Total 50-80 kata per variasi.",
           "",
@@ -2391,8 +2382,8 @@
         ],
         [
           "P-264",
-          "Bagian 6: Advanced Copywriting",
-          "Urgency Copy yang Etis",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Copy Urgensi yang Etis",
           "",
           "Membuat copy urgency yang legitimate Buat 5 variasi urgency copy untuk [PENAWARAN] dengan [DEADLINE] dan [ALASAN_DEADLINE]. Setiap copy harus: (1) Menggunakan deadline yang nyata, (2) Menjelaskan alasan deadline, (3) Tidak menggunakan tekanan berlebihan, (4) Memberikan cukup waktu untuk keputusan. Total 60-80 kata per variasi.",
           "",
@@ -2400,7 +2391,7 @@
         ],
         [
           "P-265",
-          "Bagian 6: Advanced Copywriting",
+          "Bagian 6: Copywriting Tingkat Lanjut",
           "Social Proof yang Spesifik",
           "",
           "Membuat social proof yang detail dan meyakinkan Buat 5 variasi social proof menggunakan [JENIS_SOCIAL_PROOF] dengan [DATA_SPESIFIK] untuk [TARGET_AUDIENCE]. Setiap variasi harus: (1) Menggunakan angka atau data konkret, (2) Relevan dengan target audiens, (3) Dapat diverifikasi, (4) Tidak berlebihan. Total 40-60 kata per variasi.",
@@ -2409,8 +2400,8 @@
         ],
         [
           "P-266",
-          "Bagian 6: Advanced Copywriting",
-          "Authority Building Copy",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Copy Membangun Otoritas",
           "",
           "Membuat copy yang membangun otoritas Buat 5 variasi authority building copy untuk [NAMA_BRAND] dengan [KREDensial], [PENGALAMAN], dan [MEDIA_LIPUTAN]. Setiap variasi harus: (1) Menonjolkan kredensial secara natural, (2) Tidak arogan, (3) Fokus pada value yang diberikan, (4) Menggunakan bahasa yang percaya diri namun humble. Total 60-80 kata per variasi.",
           "",
@@ -2418,8 +2409,8 @@
         ],
         [
           "P-267",
-          "Bagian 6: Advanced Copywriting",
-          "Reciprocity Trigger Copy",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Copy Pemicu Resiprositas",
           "",
           "Membuat copy yang memanfaatkan prinsip timbal balik Buat 5 variasi reciprocity trigger copy yang memberikan [FREE_VALUE] dan mempromosikan [PRODUK] untuk [TARGET_AUDIENCE]. Setiap copy harus: (1) Memberikan nilai nyata di awal, (2) Tidak terasa transaksional, (3) Membangun goodwill, (4) Mengarahkan ke produk secara natural. Total 80-100 kata per variasi.",
           "",
@@ -2427,8 +2418,8 @@
         ],
         [
           "P-268",
-          "Bagian 6: Advanced Copywriting",
-          "Commitment and Consistency Copy",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Copy Komitmen dan Konsistensi",
           "",
           "Membuat copy yang memanfaatkan prinsip komitmen dan konsistensi Buat 5 variasi commitment and consistency copy yang memulai dengan [KOMITMEN_KECIL] dan mengarah ke [KOMITMEN_BESAR] untuk [PRODUK]. Setiap copy harus: (1) Memulai dengan komitmen kecil yang mudah disetujui, (2) Membangun momentum, (3) Mengarahkan ke komitmen besar secara natural, (4) Tidak manipulatif. Total 80-100 kata per variasi.",
           "",
@@ -2436,8 +2427,8 @@
         ],
         [
           "P-269",
-          "Bagian 6: Advanced Copywriting",
-          "Liking Trigger Copy",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Copy Pemicu Rasa Suka",
           "",
           "Membuat copy yang memanfaatkan prinsip kesukaan Buat 5 variasi liking trigger copy untuk [KARAKTERISTIK_TARGET] dengan menonjolkan [KESAMAAN], memberikan [PRAISE], dan membangun [FAMILIARITY]. Setiap copy harus: (1) Menunjukkan kesamaan atau pemahaman, (2) Memberikan pujian yang tulus, (3) Menggunakan elemen familiar, (4) Tidak terasa palsu. Total 60-80 kata per variasi.",
           "",
@@ -2445,8 +2436,8 @@
         ],
         [
           "P-270",
-          "Bagian 6: Advanced Copywriting",
-          "Consistency Framework Copy",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Copy Kerangka Konsistensi",
           "",
           "Membuat copy dengan framework konsistensi Buat framework copy untuk [PESAN_UTAMA] yang konsisten di [CHANNELS] dengan [TONE]. Struktur: (1) Core message 1 kalimat, (2) Variasi untuk setiap channel dengan mempertahankan inti pesan, (3) Tone guideline 3-5 poin, (4) Do dan don't list. Total 300-400 kata.",
           "",
@@ -2454,8 +2445,8 @@
         ],
         [
           "P-271",
-          "Bagian 6: Advanced Copywriting",
-          "Brand Voice Guideline",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Panduan Gaya Bahasa Merek",
           "",
           "Membuat guideline brand voice Buat brand voice guideline untuk [NAMA_BRAND] dengan [PERSONALITAS], [NILAI], untuk [TARGET_AUDIENCE]. Struktur: (1) Brand personality 3-5 kata sifat, (2) Tone of voice description 50-80 kata, (3) Do list 5-7 poin, (4) Don't list 5-7 poin, (5) Contoh kalimat yang sesuai dan tidak sesuai, (6) Vocabulary list (kata yang sering digunakan dan dihindari). Total 400-500 kata.",
           "",
@@ -2463,8 +2454,8 @@
         ],
         [
           "P-272",
-          "Bagian 6: Advanced Copywriting",
-          "Emotional Appeal Copy",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Copy Daya Tarik Emosi",
           "",
           "Membuat copy yang menyentuh emosi Buat 5 variasi emotional appeal copy untuk [PRODUK] yang menyentuh [EMOSI_TARGET] melalui [SITUASI] untuk [TARGET_AUDIENCE]. Setiap copy harus: (1) Menggambarkan situasi yang relatable, (2) Menyentuh emosi secara subtil, (3) Menghubungkan emosi dengan produk, (4) Tidak mengeksploitasi emosi. Total 80-100 kata per variasi.",
           "",
@@ -2472,8 +2463,8 @@
         ],
         [
           "P-273",
-          "Bagian 6: Advanced Copywriting",
-          "Logical Appeal Copy",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Copy Daya Tarik Logis",
           "",
           "Membuat copy yang berfokus pada logika Buat 5 variasi logical appeal copy untuk [PRODUK] dengan [DATA_PENDUKUNG] dan [ROI] untuk [TARGET_AUDIENCE]. Setiap copy harus: (1) Menggunakan data konkret, (2) Menghitung ROI atau benefit terukur, (3) Berfokus pada fakta, (4) Tidak menggunakan bahasa emosional berlebihan. Total 80-100 kata per variasi.",
           "",
@@ -2481,8 +2472,8 @@
         ],
         [
           "P-274",
-          "Bagian 6: Advanced Copywriting",
-          "Storytelling Framework",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Kerangka Storytelling",
           "",
           "Membuat framework storytelling untuk copy Buat storytelling framework dengan [JENIS_STORY] menggunakan [STRUKTUR] untuk [TUJUAN]. Struktur: (1) Opening hook, (2) Rising action, (3) Climax, (4) Falling action, (5) Resolution, (6) Call-to-action. Berikan template untuk setiap bagian dengan panduan 30-50 kata. Total 300-400 kata.",
           "",
@@ -2490,8 +2481,8 @@
         ],
         [
           "P-275",
-          "Bagian 6: Advanced Copywriting",
-          "Persuasion Sequence",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Sekuens Persuasi",
           "",
           "Membuat sequence persuasi bertahap Buat persuasion sequence [JUMLAH_STEP] langkah menuju [TUJUAN_AKHIR] untuk [TARGET_AUDIENCE]. Setiap langkah: (1) Tujuan langkah, (2) Jenis konten yang sesuai, (3) Pesan utama, (4) CTA, (5) Transisi ke langkah berikutnya. Total 400-500 kata.",
           "",
@@ -2499,8 +2490,8 @@
         ],
         [
           "P-276",
-          "Bagian 6: Advanced Copywriting",
-          "Objection Handling Matrix",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Matriks Penanganan Keberatan",
           "",
           "Membuat matriks penanganan keberatan Buat objection handling matrix untuk [PRODUK_LAYANAN] dengan [OBJEKSI_UMUM] dan [BUKTI_PENANGANAN]. Format tabel dengan kolom: keberatan, acknowledgment, reframing, bukti, response 40-60 kata. Total 500-600 kata.",
           "",
@@ -2508,8 +2499,8 @@
         ],
         [
           "P-277",
-          "Bagian 6: Advanced Copywriting",
-          "Value Proposition Canvas",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Kanvas Proposisi Nilai",
           "",
           "Membuat value proposition canvas Buat value proposition canvas untuk [CUSTOMER_PROFILE] dengan [VALUE_MAP] dan [FIT]. Struktur: (1) Customer jobs 3-5 poin, (2) Pains 3-5 poin, (3) Gains 3-5 poin, (4) Products/services 3-5 poin, (5) Pain relievers 3-5 poin, (6) Gain creators 3-5 poin, (7) Fit statement 50-80 kata. Total 400-500 kata.",
           "",
@@ -2517,8 +2508,8 @@
         ],
         [
           "P-278",
-          "Bagian 6: Advanced Copywriting",
-          "Customer Journey Map Copy",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Copy Peta Perjalanan Pelanggan",
           "",
           "Membuat copy untuk setiap tahap customer journey Buat customer journey map copy untuk [TAHAP_JOURNEY] dengan [TUJUAN_PER_TAHP] dan [TOUCHPOINT]. Untuk setiap tahap: (1) Tujuan tahap, (2) Pesan utama, (3) Jenis konten, (4) CTA, (5) Metrik keberhasilan. Total 400-500 kata.",
           "",
@@ -2526,8 +2517,8 @@
         ],
         [
           "P-279",
-          "Bagian 6: Advanced Copywriting",
-          "Conversion Copy Optimization",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Optimasi Copy Konversi",
           "",
           "Mengoptimalkan copy untuk konversi Buat optimization plan untuk [HALAMAN] dengan [METRIK_SAAT_INI], tujuan [TUJUAN_OPTIMASI], dan [VARIASI]. Struktur: (1) Analisis masalah saat ini, (2) Hipotesis optimasi, (3) Variasi copy yang akan di-test, (4) Metrik keberhasilan, (5) Timeline testing. Total 300-400 kata.",
           "",
@@ -2535,8 +2526,8 @@
         ],
         [
           "P-280",
-          "Bagian 6: Advanced Copywriting",
-          "Headline Formula Master List",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Daftar Induk Formula Headline",
           "",
           "Membuat daftar master formula headline Buat master list [JUMLAH_FORMULA] headline formula dalam kategori [KATEGORI]. Untuk setiap formula: (1) Nama formula, (2) Struktur formula, (3) Contoh penggunaan, (4) Kapan menggunakan, (5) Variasi. Total 500-600 kata.",
           "",
@@ -2544,8 +2535,8 @@
         ],
         [
           "P-281",
-          "Bagian 6: Advanced Copywriting",
-          "Power Words Dictionary",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Kamus Power Words",
           "",
           "Membuat kamus power words Buat power words dictionary dengan [KATEGORI_EMOSI] dan [JUMLAH_WORDS] kata per kategori. Untuk setiap kata: (1) Kata, (2) Arti atau nuansa, (3) Contoh penggunaan dalam CTA, (4) Kapan menggunakan. Total 500-600 kata.",
           "",
@@ -2553,8 +2544,8 @@
         ],
         [
           "P-282",
-          "Bagian 6: Advanced Copywriting",
-          "Copy Editing Checklist",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Checklist Penyuntingan Copy",
           "",
           "Membuat checklist editing copy Buat copy editing checklist untuk [JENIS_COPY] dengan [STANDAR_QUALITY]. Checklist harus mencakup: (1) Clarity (5-7 poin), (2) Conciseness (5-7 poin), (3) Persuasion (5-7 poin), (4) Grammar dan mechanics (5-7 poin), (5) Brand consistency (5-7 poin), (6) CTA effectiveness (3-5 poin). Total 300-400 kata.",
           "",
@@ -2562,8 +2553,8 @@
         ],
         [
           "P-283",
-          "Bagian 6: Advanced Copywriting",
-          "Copy Swipe File Organizer",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Pengelola Arsip Swipe File",
           "",
           "Membuat sistem organisasi swipe file Buat copy swipe file organizer dengan [KATEGORI], [SUMBER], dan [TAGS]. Struktur: (1) Kategori utama (headline, CTA, email, dll), (2) Sub-kategori, (3) Tag system, (4) Cara menambahkan swipe baru, (5) Cara menggunakan swipe file. Total 300-400 kata.",
           "",
@@ -2571,8 +2562,8 @@
         ],
         [
           "P-284",
-          "Bagian 6: Advanced Copywriting",
-          "Copy Performance Analysis",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Analisis Performa Copy",
           "",
           "Menganalisis performa copy Buat performance analysis untuk copy dengan [METRIK_PERFORMA], [DATA], dan tujuan [TUJUAN_ANALISIS]. Struktur: (1) Overview performa, (2) Highlight kekuatan, (3) Area perbaikan, (4) Rekomendasi optimasi, (5) Action plan. Total 300-400 kata.",
           "",
@@ -2580,8 +2571,8 @@
         ],
         [
           "P-285",
-          "Bagian 6: Advanced Copywriting",
-          "Competitor Copy Analysis",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Analisis Copy Kompetitor",
           "",
           "Menganalisis copy kompetitor Buat competitor copy analysis untuk [KOMPETITOR] dengan menganalisis [ELEMEN_YANG_DIANALISIS], [KEKUATAN_KOMPETITOR], dan [KELEMAHAN_KOMPETITOR]. Struktur: (1) Overview messaging kompetitor, (2) Analisis kekuatan, (3) Analisis kelemahan, (4) Peluang diferensiasi, (5) Rekomendasi untuk copy kita. Total 400-500 kata.",
           "",
@@ -2589,8 +2580,8 @@
         ],
         [
           "P-286",
-          "Bagian 6: Advanced Copywriting",
-          "Copy Localization Guide",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Panduan Lokalisasi Copy",
           "",
           "Membuat panduan lokalisasi copy Buat copy localization guide untuk [BAHASA_TARGET] dengan [BUDAYA_TARGET] dan [ADAPTASI_YANG_DIPERLUKAN]. Struktur: (1) Cultural considerations, (2) Language nuances, (3) Do dan don't, (4) Contoh adaptasi, (5) Resources untuk lokalisasi. Total 400-500 kata.",
           "",
@@ -2598,8 +2589,8 @@
         ],
         [
           "P-287",
-          "Bagian 6: Advanced Copywriting",
-          "Accessibility Copy Guidelines",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Pedoman Copy Aksesibilitas",
           "",
           "Membuat panduan copy yang accessible Buat accessibility copy guidelines untuk [JENIS_KONTEN] dengan [STANDAR_ACCESSIBILITY] untuk [AUDIENCE]. Struktur: (1) Prinsip dasar, (2) Language guidelines, (3) Formatting guidelines, (4) Alt text guidelines, (5) Testing checklist. Total 400-500 kata.",
           "",
@@ -2607,8 +2598,8 @@
         ],
         [
           "P-288",
-          "Bagian 6: Advanced Copywriting",
-          "Multilingual Copy Strategy",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Strategi Copy Multibahasa",
           "",
           "Membuat strategi copy multibahasa Buat multilingual copy strategy untuk [BAHASA] di [MARKET] dengan menjaga [KONSISTENSI_BRAND]. Struktur: (1) Core message dalam bahasa utama, (2) Adaptasi per bahasa, (3) Tone consistency, (4) Translation workflow, (5) Quality assurance. Total 400-500 kata.",
           "",
@@ -2616,8 +2607,8 @@
         ],
         [
           "P-289",
-          "Bagian 6: Advanced Copywriting",
-          "Copy Testing Framework",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Kerangka Pengujian Copy",
           "",
           "Membuat framework testing copy Buat copy testing framework untuk [JENIS_TEST] dengan [ELEMEN_YANG_DITEST], [SAMPLE_SIZE], dan [DURASI_TEST]. Struktur: (1) Hypothesis formulation, (2) Test design, (3) Variable isolation, (4) Success metrics, (5) Statistical significance, (6) Implementation plan. Total 400-500 kata.",
           "",
@@ -2625,8 +2616,8 @@
         ],
         [
           "P-290",
-          "Bagian 6: Advanced Copywriting",
-          "Copy ROI Calculator",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Kalkulator ROI Copy",
           "",
           "Membuat calculator ROI copy Buat copy ROI calculator dengan [METRIK_INPUT], [COST], dan [EXPECTED_IMPROVEMENT]. Struktur: (1) Input variables, (2) Calculation formula, (3) Example calculation, (4) Interpretation guide, (5) Optimization recommendations based on ROI. Total 300-400 kata.",
           "",
@@ -2634,8 +2625,8 @@
         ],
         [
           "P-291",
-          "Bagian 6: Advanced Copywriting",
-          "Copy Persona Development",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Pengembangan Persona Copy",
           "",
           "Membuat persona untuk copy Buat copy persona [NAMA_PERSONA] dengan [DEMOGRAFI], [PSIKOGRAFI], [PAIN_POINTS], dan [GOALS]. Struktur: (1) Background story 100-150 kata, (2) Demographics detail, (3) Psychographics detail, (4) Pain points 3-5 poin, (5) Goals 3-5 poin, (6) Messaging that resonates, (7) Copy examples untuk persona ini. Total 500-600 kata.",
           "",
@@ -2643,8 +2634,8 @@
         ],
         [
           "P-292",
-          "Bagian 6: Advanced Copywriting",
-          "Copy Messaging Hierarchy",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Hierarki Pesan Copy",
           "",
           "Membuat hierarki messaging Buat copy messaging hierarchy dengan [BRAND_MESSAGE], [SUPPORTING_MESSAGES], dan [EVIDENCE]. Struktur: (1) Primary message (1 kalimat), (2) Secondary messages (3-5 poin), (3) Supporting points (5-7 poin), (4) Evidence untuk setiap level, (5) Application guide untuk berbagai format. Total 400-500 kata.",
           "",
@@ -2652,8 +2643,8 @@
         ],
         [
           "P-293",
-          "Bagian 6: Advanced Copywriting",
-          "Copy Tone Variation Guide",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Panduan Variasi Nada Copy",
           "",
           "Membuat panduan variasi tone Buat copy tone variation guide dengan [BASE_TONE] untuk [SITUASI] dengan [VARIASI_TONE]. Struktur: (1) Base tone description, (2) Situation-based variations (5-7 situasi), (3) Contoh copy untuk setiap variasi, (4) Do dan don't, (5) Transition guidelines. Total 400-500 kata.",
           "",
@@ -2661,8 +2652,8 @@
         ],
         [
           "P-294",
-          "Bagian 6: Advanced Copywriting",
-          "Copy Framework Selection Guide",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Panduan Memilih Kerangka Copy",
           "",
           "Membuat panduan pemilihan framework copy Buat copy framework selection guide untuk [TUJUAN], [AUDIENCE], [CHANNEL] dengan [FRAMEWORK_TERSEDIA]. Struktur: (1) Framework overview (AIDA, PAS, BAB, dll), (2) Decision matrix berdasarkan tujuan, (3) Decision matrix berdasarkan audience, (4) Decision matrix berdasarkan channel, (5) Contoh penggunaan setiap framework. Total 500-600 kata.",
           "",
@@ -2670,8 +2661,8 @@
         ],
         [
           "P-295",
-          "Bagian 6: Advanced Copywriting",
-          "Copy Optimization Playbook",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Buku Panduan Optimasi Copy",
           "",
           "Membuat playbook optimasi copy Buat copy optimization playbook untuk [AREA_OPTIMASI] dengan [TEKNIK_OPTIMASI] dan [METRIK]. Struktur: (1) Overview area, (2) 5-7 teknik optimasi, (3) Step-by-step implementation, (4) Testing plan, (5) Success metrics, (6) Case study atau contoh. Total 500-600 kata.",
           "",
@@ -2679,8 +2670,8 @@
         ],
         [
           "P-296",
-          "Bagian 6: Advanced Copywriting",
-          "Copy Quality Assurance Checklist",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Checklist Jaminan Mutu Copy",
           "",
           "Membuat checklist quality assurance Buat copy QA checklist untuk [JENIS_COPY] dengan [STANDAR_QUALITY] dan [REVIEW_PROCESS]. Checklist: (1) Pre-writing checklist (5-7 poin), (2) Writing checklist (10-15 poin), (3) Editing checklist (10-15 poin), (4) Final review checklist (5-7 poin), (5) Approval process. Total 400-500 kata.",
           "",
@@ -2688,8 +2679,8 @@
         ],
         [
           "P-297",
-          "Bagian 6: Advanced Copywriting",
-          "Copy Handoff Document",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Dokumen Serah Terima Copy",
           "",
           "Membuat dokumen handoff copy Buat copy handoff document untuk [PROJEK] dengan [STAKEHOLDERS], [DELIVERABLES], dan [TIMELINE]. Struktur: (1) Project overview, (2) Scope dan deliverables, (3) Stakeholder roles, (4) Timeline dan milestones, (5) Approval process, (6) Handoff checklist. Total 400-500 kata.",
           "",
@@ -2697,8 +2688,8 @@
         ],
         [
           "P-298",
-          "Bagian 6: Advanced Copywriting",
-          "Copy Style Guide",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Panduan Gaya Copy",
           "",
           "Membuat style guide copy Buat copy style guide untuk [BRAND] dengan [STANDAR] mencakup [ELEMENT]. Struktur: (1) Grammar guidelines, (2) Punctuation rules, (3) Formatting standards, (4) Brand-specific rules, (5) Common mistakes dan corrections, (6) Examples. Total 500-600 kata.",
           "",
@@ -2706,8 +2697,8 @@
         ],
         [
           "P-299",
-          "Bagian 6: Advanced Copywriting",
-          "Copy Performance Dashboard",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Dasbor Performa Copy",
           "",
           "Membuat dashboard performa copy Buat copy performance dashboard dengan [METRIK], [CHANNELS], dan [FREKUENSI_REPORTING]. Struktur: (1) Key metrics overview, (2) Channel breakdown, (3) Trend analysis, (4) Top performing copy, (5) Underperforming copy, (6) Action items. Total 400-500 kata.",
           "",
@@ -2715,8 +2706,8 @@
         ],
         [
           "P-300",
-          "Bagian 6: Advanced Copywriting",
-          "Copy Portfolio Presentation",
+          "Bagian 6: Copywriting Tingkat Lanjut",
+          "Presentasi Portofolio Copy",
           "",
           "Membuat presentasi portfolio copy Buat copy portfolio presentation dengan [JUMLAH_PROJEK] projek ([JENIS_PROJEK]), [HASIL], untuk [TARGET_AUDIENCE_PRESENTASI]. Struktur: (1) Introduction dan background, (2) Project overview (untuk setiap projek: brief, approach, result), (3) Case study mendalam untuk 2-3 projek terbaik, (4) Skills dan expertise, (5) Testimonials, (6) Contact information. Total 600-800 kata.",
           "",
@@ -2732,11 +2723,6 @@
         "Kode"
       ],
       "rows": [
-        [
-          "Cara Menggunakan Buku Ini",
-          1,
-          "P-001"
-        ],
         [
           "Bagian 1: Copywriting Dasar",
           50,
@@ -2763,7 +2749,7 @@
           "P-221, P-222, P-223, P-224, P-225, P-226, P-227, P-228, P-229, P-230, P-231, P-232, P-233, P-234, P-235, P-236, P-237, P-238, P-239, P-240, P-241, P-242, P-243, P-244, P-245, P-246, P-247, P-248, P-249, P-250, P-251, P-252, P-253, P-254, P-255, P-256, P-257, P-258, P-259, P-260"
         ],
         [
-          "Bagian 6: Advanced Copywriting",
+          "Bagian 6: Copywriting Tingkat Lanjut",
           40,
           "P-261, P-262, P-263, P-264, P-265, P-266, P-267, P-268, P-269, P-270, P-271, P-272, P-273, P-274, P-275, P-276, P-277, P-278, P-279, P-280, P-281, P-282, P-283, P-284, P-285, P-286, P-287, P-288, P-289, P-290, P-291, P-292, P-293, P-294, P-295, P-296, P-297, P-298, P-299, P-300"
         ]

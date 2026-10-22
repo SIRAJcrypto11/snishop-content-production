@@ -23,7 +23,7 @@ Prompt-prompt ini cocok untuk:
 
 Setiap prompt mengikuti format yang konsisten:
 
-### P-001. Judul Prompt
+### Contoh Format Prompt
 
 Kapan pakai:
 > Deskripsi situasi ketika prompt ini berguna
@@ -43,37 +43,37 @@ Deskripsi output yang akan dihasilkan
 - Headline dan judul yang menarik
 - Deskripsi produk dan layanan
 - Call-to-action yang efektif
-- Storytelling untuk brand
+- Storytelling untuk merek
 
 **Bagian 2: Iklan Media Sosial (P-051 hingga P-120)**
 - Instagram caption dan story
-- TikTok script dan hook
-- Facebook ads copy
-- Twitter/X thread marketing
+- Naskah dan hook TikTok
+- Copy iklan Facebook
+- Pemasaran thread Twitter/X
 
 **Bagian 3: Email Marketing (P-121 hingga P-170)**
-- Welcome sequence
-- Promotional email
-- Newsletter content
-- Re-engagement campaign
+- Sekuens sambutan
+- Email promosi
+- Konten newsletter
+- Kampanye pengaktifan ulang
 
 **Bagian 4: Landing Page dan Website (P-171 hingga P-220)**
-- Hero section copy
-- Feature description
+- Copy hero section
+- Deskripsi fitur
 - Testimonial dan social proof
-- FAQ dan objection handling
+- FAQ dan penanganan keberatan
 
 **Bagian 5: Konten Video dan Podcast (P-221 hingga P-260)**
-- Video script structure
+- Struktur naskah video
 - Podcast intro dan outro
-- YouTube description
-- Hook dan retention tactics
+- Deskripsi YouTube
+- Hook dan taktik retensi
 
-**Bagian 6: Advanced Copywriting (P-261 hingga P-300)**
-- A/B testing variations
-- Urgency dan scarcity
-- Emotional triggers
-- Brand voice consistency
+**Bagian 6: Copywriting Tingkat Lanjut (P-261 hingga P-300)**
+- Variasi A/B testing
+- Urgensi dan kelangkaan
+- Pemicu emosi
+- Konsistensi gaya bahasa merek
 
 **Lampiran**
 - A. Cara memakai workbook Excel pendamping
@@ -215,7 +215,7 @@ Delapan CTA dengan pendekatan edukatif, masing-masing 6-10 kata, menggunakan kat
 
 ---
 
-### P-007. Storytelling Brand Origin
+### P-007. Storytelling Asal-Usul Merek
 
 Kapan pakai:
 > Membuat cerita asal-usul brand untuk halaman About atau konten marketing
@@ -254,7 +254,7 @@ Testimoni 3 paragraf dengan total 150-180 kata, berisi kutipan langsung, menjela
 
 ---
 
-### P-009. Value Proposition Statement
+### P-009. Pernyataan Proposisi Nilai
 
 Kapan pakai:
 > Membuat pernyataan nilai inti untuk positioning brand
@@ -293,7 +293,7 @@ Pitch 75-90 kata dengan struktur pertanyaan-masalah-solusi-CTA, menggunakan baha
 
 ---
 
-### P-011. Tagline Brand
+### P-011. Tagline Merek
 
 Kapan pakai:
 > Membuat slogan atau tagline untuk brand identity
@@ -311,7 +311,7 @@ Sepuluh tagline dengan 5 pendek (3-5 kata) dan 5 sedang (6-8 kata), menggunakan 
 
 ---
 
-### P-012. Mission Statement
+### P-012. Pernyataan Misi
 
 Kapan pakai:
 > Membuat pernyataan misi untuk website atau dokumen perusahaan
@@ -330,7 +330,7 @@ Mission statement 2-3 kalimat dengan 40-60 kata, menjelaskan apa-tujuan-nilai se
 
 ---
 
-### P-013. Vision Statement
+### P-013. Pernyataan Visi
 
 Kapan pakai:
 > Membuat pernyataan visi untuk jangka panjang perusahaan
@@ -348,7 +348,7 @@ Vision statement 1-2 kalimat dengan 25-40 kata, menjelaskan visi masa depan dan 
 
 ---
 
-### P-014. Brand Promise
+### P-014. Janji Merek
 
 Kapan pakai:
 > Membuat janji brand kepada pelanggan
@@ -385,7 +385,7 @@ USP 2-3 kalimat dengan 40-60 kata, menjelaskan fitur unik, manfaat, dan bukti pe
 
 ---
 
-### P-016. Product Benefit List
+### P-016. Daftar Manfaat Produk
 
 Kapan pakai:
 > Membuat daftar manfaat produk untuk marketing material
@@ -403,7 +403,7 @@ Daftar 10 manfaat dengan format yang konsisten, masing-masing menghubungkan fitu
 
 ---
 
-### P-017. Feature-to-Benefit Translation
+### P-017. Penerjemahan Fitur ke Manfaat
 
 Kapan pakai:
 > Mengubah spesifikasi teknis menjadi bahasa manfaat
@@ -426,7 +426,7 @@ Lima translasi fitur-manfaat-hasil yang sesuai dengan level teknis target audien
 
 ---
 
-### P-018. Objection Handling FAQ
+### P-018. FAQ Penanganan Keberatan
 
 Kapan pakai:
 > Membuat FAQ untuk mengatasi keraguan calon pembeli
@@ -444,7 +444,7 @@ Lima FAQ dengan struktur keraguan-pengakuan-penjelasan-solusi, masing-masing 40-
 
 ---
 
-### P-019. Pricing Justification
+### P-019. Alasan di Balik Harga
 
 Kapan pakai:
 > Menjelaskan mengapa harga produk layak
@@ -463,7 +463,7 @@ Penjelasan 150-200 kata dengan struktur pengakuan-diferensiasi-ROI-jaminan.
 
 ---
 
-### P-020. Limited Offer Announcement
+### P-020. Pengumuman Penawaran Terbatas
 
 Kapan pakai:
 > Mengumumkan penawaran terbatas untuk meningkatkan urgency
@@ -482,7 +482,7 @@ Pengumuman 100-120 kata dengan headline, penjelasan, batas waktu, dan CTA yang j
 
 ---
 
-### P-021. Product Launch Announcement
+### P-021. Pengumuman Peluncuran Produk
 
 Kapan pakai:
 > Mengumumkan peluncuran produk baru
@@ -502,7 +502,7 @@ Pengumuman 200-250 kata dengan struktur headline-masalah-fitur-harga-CTA.
 
 ---
 
-### P-022. Product Update Announcement
+### P-022. Pengumuman Pembaruan Produk
 
 Kapan pakai:
 > Mengumumkan pembaruan atau fitur baru pada produk yang sudah ada
@@ -521,7 +521,7 @@ Pengumuman 120-150 kata yang menjelaskan fitur baru, manfaat, dan cara mengakses
 
 ---
 
-### P-023. Seasonal Promotion Copy
+### P-023. Copy Promosi Musiman
 
 Kapan pakai:
 > Membuat konten promosi untuk momen tertentu (lebaran, natal, tahun baru)
@@ -540,7 +540,7 @@ Konten promosi 150-180 kata yang relevan dengan momen, menggunakan nada yang ses
 
 ---
 
-### P-024. Bundle Offer Description
+### P-024. Deskripsi Penawaran Bundling
 
 Kapan pakai:
 > Menjelaskan penawaran bundel produk
@@ -559,7 +559,7 @@ Deskripsi 180-220 kata dengan perbandingan harga, penjelasan nilai, dan CTA yang
 
 ---
 
-### P-025. Cross-Sell Suggestion
+### P-025. Saran Cross-Sell
 
 Kapan pakai:
 > Menyarankan produk pelengkap setelah pembelian
@@ -596,7 +596,7 @@ Pitch 120-150 kata yang menjelaskan nilai upgrade tanpa mendiskreditkan versi da
 
 ---
 
-### P-027. Guarantee Statement
+### P-027. Pernyataan Jaminan
 
 Kapan pakai:
 > Membuat pernyataan garansi untuk mengurangi risiko pembelian
@@ -615,7 +615,7 @@ Pernyataan garansi 100-120 kata yang jelas, transparan, dan meyakinkan.
 
 ---
 
-### P-028. Risk Reversal Statement
+### P-028. Pernyataan Pembalikan Risiko
 
 Kapan pakai:
 > Menghilangkan risiko dari perspektif pelanggan
@@ -633,7 +633,7 @@ Pernyataan 80-100 kata yang membangun kepercayaan melalui jaminan dan penjelasan
 
 ---
 
-### P-029. Social Proof Summary
+### P-029. Ringkasan Social Proof
 
 Kapan pakai:
 > Merangkum bukti sosial untuk konten marketing
@@ -652,7 +652,7 @@ Ringkasan 120-150 kata dengan angka, rating, testimoni, dan nama klien yang memb
 
 ---
 
-### P-030. Authority Building Statement
+### P-030. Pernyataan Membangun Otoritas
 
 Kapan pakai:
 > Membangun otoritas dan kredibilitas brand
@@ -705,7 +705,7 @@ Variabel:
 - [PRODUK]: produk atau layanan yang menjembatani
 
 Prompt:
-> Tulis konten dengan framework Before-After-Bridge untuk [PRODUK]. Bagian Before: Gambarkan [SITUASI_SEBELUM] dengan detail yang relatable. Bagian After: Gambarkan [SITUASI_SETELAH] yang diinginkan. Bagian Bridge: Jelaskan bagaimana [PRODUK] membawa pelanggan dari before ke after. Gunakan bahasa yang visual dan emosional. Total 200-250 kata.
+> Tulis konten dengan framework Before-After-Bridge untuk [PRODUK]. Bagian Before: Gambarkan [SITUASI_SEBELUM] dengan detail yang relatable. Bagian After: Gambarkan [SITUASI_SETELAH] yang diinginkan. Bagian Bridge: Jelaskan bagaimana [PRODUK] membawa pelanggan dari kondisi sebelum ke kondisi sesudah. Gunakan bahasa yang visual dan emosional. Total 200-250 kata.
 
 Hasil yang diharapkan:
 Konten 200-250 kata dengan struktur before-after-bridge yang menunjukkan transformasi jelas.
@@ -730,7 +730,7 @@ Konten 250-300 kata dengan struktur AIDA yang lengkap dan mengalir.
 
 ---
 
-### P-034. 4U Headline Formula
+### P-034. Formula Headline 4U
 
 Kapan pakai:
 > Membuat headline yang Urgent, Unique, Ultra-specific, Useful
@@ -748,7 +748,7 @@ Lima headline 8-12 kata yang memenuhi keempat kriteria 4U.
 
 ---
 
-### P-035. Power Words List for CTA
+### P-035. Daftar Power Words untuk CTA
 
 Kapan pakai:
 > Memilih kata-kata kuat untuk call-to-action
@@ -765,7 +765,7 @@ Daftar 20 power words dalam 4 kategori dengan contoh CTA untuk masing-masing kat
 
 ---
 
-### P-036. Emotional Trigger Copy
+### P-036. Copy Pemicu Emosi
 
 Kapan pakai:
 > Membuat konten yang menyentuh emosi target audiens
@@ -783,7 +783,7 @@ Konten 150-180 kata yang menyentuh emosi secara etis dan menghubungkannya dengan
 
 ---
 
-### P-037. Logical Appeal Copy
+### P-037. Copy Daya Tarik Logis
 
 Kapan pakai:
 > Membuat konten yang berfokus pada logika dan data
@@ -801,7 +801,7 @@ Konten 180-220 kata yang berfokus pada data, logika, dan perhitungan ROI.
 
 ---
 
-### P-038. Comparison Copy (Us vs Them)
+### P-038. Copy Perbandingan (Kami vs Mereka)
 
 Kapan pakai:
 > Membandingkan produk dengan kompetitor
@@ -820,7 +820,7 @@ Perbandingan 200-250 kata yang objektif, profesional, dan berfokus pada fakta.
 
 ---
 
-### P-039. Scarcity Copy
+### P-039. Copy Kelangkaan
 
 Kapan pakai:
 > Menciptakan kelangkaan untuk meningkatkan urgency
@@ -838,7 +838,7 @@ Konten 100-120 kata yang menciptakan urgency melalui kelangkaan legitimate dan t
 
 ---
 
-### P-040. Urgency Copy
+### P-040. Copy Urgensi
 
 Kapan pakai:
 > Menciptakan urgensi waktu untuk mendorong tindakan
@@ -856,7 +856,7 @@ Konten 120-150 kata yang menciptakan urgensi melalui deadline legitimate dan tra
 
 ---
 
-### P-041. Curiosity Gap Headline
+### P-041. Headline Celah Rasa Ingin Tahu
 
 Kapan pakai:
 > Membuat headline yang memancing rasa ingin tahu
@@ -874,7 +874,7 @@ Delapan headline 8-12 kata yang memancing rasa ingin tahu tanpa clickbait.
 
 ---
 
-### P-042. How-To Headline
+### P-042. Headline Cara Melakukan
 
 Kapan pakai:
 > Membuat headline untuk konten tutorial atau panduan
@@ -892,7 +892,7 @@ Sepuluh headline 8-12 kata dengan variasi formula how-to yang jelas.
 
 ---
 
-### P-043. Listicle Headline
+### P-043. Headline Format Daftar
 
 Kapan pakai:
 > Membuat headline untuk konten berbentuk daftar
@@ -910,7 +910,7 @@ Delapan headline 8-12 kata dengan variasi formula listicle yang menarik.
 
 ---
 
-### P-044. Question Headline
+### P-044. Headline Pertanyaan
 
 Kapan pakai:
 > Membuat headline berbentuk pertanyaan
@@ -928,7 +928,7 @@ Sepuluh headline pertanyaan 8-12 kata yang relevan dan memancing rasa ingin tahu
 
 ---
 
-### P-045. Command Headline
+### P-045. Headline Perintah
 
 Kapan pakai:
 > Membuat headline berbentuk perintah atau ajakan
@@ -946,7 +946,7 @@ Delapan headline 6-10 kata dengan kata kerja imperatif yang kuat.
 
 ---
 
-### P-046. Testimonial Request Template
+### P-046. Templat Permintaan Testimoni
 
 Kapan pakai:
 > Meminta testimoni dari pelanggan
@@ -964,7 +964,7 @@ Template 120-150 kata dengan panduan pertanyaan spesifik dan nada yang sopan.
 
 ---
 
-### P-047. Case Study Outline
+### P-047. Kerangka Studi Kasus
 
 Kapan pakai:
 > Membuat outline case study untuk konten marketing
@@ -984,7 +984,7 @@ Outline case study terstruktur dengan 7 bagian dan bullet point untuk masing-mas
 
 ---
 
-### P-048. White Paper Abstract
+### P-048. Abstrak White Paper
 
 Kapan pakai:
 > Membuat abstrak untuk white paper atau laporan
@@ -1003,7 +1003,7 @@ Abstrak 200-250 kata dengan struktur formal yang menjelaskan latar belakang, tuj
 
 ---
 
-### P-049. Executive Summary
+### P-049. Ringkasan Eksekutif
 
 Kapan pakai:
 > Membuat ringkasan eksekutif untuk laporan atau proposal
@@ -1022,10 +1022,10 @@ Executive summary 250-300 kata dengan struktur tujuan-poin-rekomendasi yang ring
 
 ---
 
-### P-050. Press Release Lead
+### P-050. Lead Siaran Pers
 
 Kapan pakai:
-> Membuat paragraf pembuka press release
+> Membuat paragraf pembuka siaran pers
 
 Variabel:
 - [NAMA_PERUSAHAAN]: nama perusahaan
@@ -1035,10 +1035,10 @@ Variabel:
 - [SIGNIFIKANSI]: mengapa berita ini penting
 
 Prompt:
-> Tulis paragraf pembuka press release untuk [NAMA_PERUSAHAAN] yang mengumumkan [BERITA] pada [TANGGAL] dari [KOTA]. Jelaskan [SIGNIFIKANSI] secara singkat. Gunakan format standar press release: "[KOTA], [Tanggal] - [Nama Perusahaan] mengumumkan [berita] yang [signifikansi]." Paragraf pembuka harus menjawab 5W+1H (Who, What, When, Where, Why, How) dalam 2-3 kalimat. Total 60-80 kata.
+> Tulis paragraf pembuka siaran pers untuk [NAMA_PERUSAHAAN] yang mengumumkan [BERITA] pada [TANGGAL] dari [KOTA]. Jelaskan [SIGNIFIKANSI] secara singkat. Gunakan format standar siaran pers: "[KOTA], [Tanggal] - [Nama Perusahaan] mengumumkan [berita] yang [signifikansi]." Paragraf pembuka harus menjawab 5W+1H (Who, What, When, Where, Why, How) dalam 2-3 kalimat. Total 60-80 kata.
 
 Hasil yang diharapkan:
-Paragraf pembuka 60-80 kata yang menjawab 5W+1H dalam format standar press release.
+Paragraf pembuka 60-80 kata yang menjawab 5W+1H dalam format standar siaran pers.
 
 ---
 
@@ -1048,17 +1048,17 @@ Paragraf pembuka 60-80 kata yang menjawab 5W+1H dalam format standar press relea
 |----|--------------|---------------|
 | P-001 s/d P-002 | Headline | Membuat judul produk/jasa |
 | P-003 s/d P-004 | Deskripsi Produk | Katalog, marketplace, landing page |
-| P-005 s/d P-006 | Call-to-Action | Tombol pembelian atau nurturing |
-| P-007 s/d P-008 | Storytelling | About page, testimoni |
-| P-009 s/d P-014 | Brand Messaging | Positioning, tagline, mission |
-| P-015 s/d P-017 | Value Proposition | USP, benefit list, feature translation |
-| P-018 s/d P-020 | Objection Handling | FAQ, pricing justification, offers |
-| P-021 s/d P-024 | Announcements | Launch, update, promotion, bundle |
-| P-025 s/d P-028 | Sales Tactics | Cross-sell, upsell, guarantee |
-| P-029 s/d P-030 | Trust Building | Social proof, authority |
-| P-031 s/d P-040 | Framework Copy | PAS, BAB, AIDA, emotional, logical |
-| P-041 s/d P-045 | Headline Formulas | Curiosity, how-to, listicle, question |
-| P-046 s/d P-050 | Advanced Content | Testimonial, case study, press release |
+| P-005 s/d P-006 | Call-to-Action | Tombol pembelian atau merawat prospek |
+| P-007 s/d P-008 | Storytelling | Halaman tentang kami, testimoni |
+| P-009 s/d P-014 | Pesan Merek | Positioning, tagline, misi |
+| P-015 s/d P-017 | Proposisi Nilai | USP, daftar manfaat, penerjemahan fitur |
+| P-018 s/d P-020 | Penanganan Keberatan | FAQ, justifikasi harga, penawaran |
+| P-021 s/d P-024 | Pengumuman | Peluncuran, pembaruan, promosi, bundel |
+| P-025 s/d P-028 | Taktik Penjualan | Cross-sell, upsell, jaminan |
+| P-029 s/d P-030 | Membangun Kepercayaan | Social proof, otoritas |
+| P-031 s/d P-040 | Kerangka Copy | PAS, BAB, AIDA, emosional, logis |
+| P-041 s/d P-045 | Rumus Headline | Rasa penasaran, how-to, listicle, pertanyaan |
+| P-046 s/d P-050 | Konten Tingkat Lanjut | Testimoni, studi kasus, siaran pers |
 
 ---
 
@@ -1112,7 +1112,7 @@ Lima caption Instagram 100-150 kata dengan hook, body, harga, CTA, dan hashtag.
 
 ---
 
-### P-052. Instagram Story Script
+### P-052. Naskah Instagram Story
 
 Kapan pakai:
 > Membuat script untuk Instagram Story promosi
@@ -1130,7 +1130,7 @@ Script 5 slide dengan total 75-125 kata, masing-masing slide berisi teks dan sar
 
 ---
 
-### P-053. Instagram Reel Hook
+### P-053. Hook Instagram Reel
 
 Kapan pakai:
 > Membuat 3 detik pertama video Reel yang menarik
@@ -1148,7 +1148,7 @@ Sepuluh hook 8-15 kata dengan saran visual untuk masing-masing.
 
 ---
 
-### P-054. Instagram Carousel Structure
+### P-054. Struktur Carousel Instagram
 
 Kapan pakai:
 > Membuat struktur konten carousel Instagram
@@ -1166,7 +1166,7 @@ Struktur carousel dengan headline, isi, dan saran visual untuk setiap slide.
 
 ---
 
-### P-055. Instagram Bio Optimization
+### P-055. Optimasi Bio Instagram
 
 Kapan pakai:
 > Mengoptimalkan bio Instagram untuk bisnis
@@ -1186,7 +1186,7 @@ Lima variasi bio Instagram maksimal 150 karakter dengan struktur nama-deskripsi-
 
 ---
 
-### P-056. TikTok Video Script Pendek
+### P-056. Naskah Video Pendek TikTok
 
 Kapan pakai:
 > Membuat script video TikTok 15-30 detik
@@ -1205,7 +1205,7 @@ Script 40-60 kata dengan timing per bagian dan saran visual/audio.
 
 ---
 
-### P-057. TikTok Trend Adaptation
+### P-057. Adaptasi Tren TikTok
 
 Kapan pakai:
 > Mengadaptasi tren TikTok untuk konten bisnis
@@ -1223,7 +1223,7 @@ Lima ide adaptasi tren dengan konsep, script, teks, sound, dan hashtag.
 
 ---
 
-### P-058. TikTok Hook Variations
+### P-058. Variasi Hook TikTok
 
 Kapan pakai:
 > Membuat variasi hook untuk video TikTok
@@ -1259,7 +1259,7 @@ Lima caption 50-80 kata dengan struktur hook-penjelasan-CTA-hashtag.
 
 ---
 
-### P-060. Facebook Ads Primary Text
+### P-060. Teks Utama Facebook Ads
 
 Kapan pakai:
 > Membuat teks utama untuk iklan Facebook
@@ -1298,7 +1298,7 @@ Sepuluh headline maksimal 40 karakter yang spesifik dan relevan.
 
 ---
 
-### P-062. Facebook Ads Description
+### P-062. Deskripsi Facebook Ads
 
 Kapan pakai:
 > Membuat deskripsi singkat di bawah headline iklan Facebook
@@ -1352,7 +1352,7 @@ Thread dengan hook, isi terstruktur, dan kesimpulan-CTA, masing-masing tweet mak
 
 ---
 
-### P-065. Twitter/X Single Tweet
+### P-065. Satu Tweet Twitter/X
 
 Kapan pakai:
 > Membuat tweet tunggal yang impactful
@@ -1389,7 +1389,7 @@ Postingan 200-300 kata dengan hook-story-insight-refleksi-hashtag.
 
 ---
 
-### P-067. LinkedIn Article
+### P-067. Artikel LinkedIn
 
 Kapan pakai:
 > Membuat artikel panjang untuk LinkedIn
@@ -1408,7 +1408,7 @@ Artikel dengan judul, pembuka, body terstruktur, kesimpulan, dan CTA.
 
 ---
 
-### P-068. YouTube Video Title
+### P-068. Judul Video YouTube
 
 Kapan pakai:
 > Membuat judul video YouTube yang menarik dan SEO-friendly
@@ -1427,7 +1427,7 @@ Sepuluh judul maksimal 60 karakter yang SEO-friendly dan menarik.
 
 ---
 
-### P-069. YouTube Video Description
+### P-069. Deskripsi Video YouTube
 
 Kapan pakai:
 > Membuat deskripsi video YouTube yang optimal
@@ -1447,7 +1447,7 @@ Deskripsi 200-300 kata dengan ringkasan, timestamp, link, dan hashtag.
 
 ---
 
-### P-070. YouTube Shorts Script
+### P-070. Naskah YouTube Shorts
 
 Kapan pakai:
 > Membuat script untuk YouTube Shorts (video vertikal pendek)
@@ -1467,7 +1467,7 @@ Script 30-80 kata dengan timing per bagian dan saran visual.
 
 ---
 
-### P-071. WhatsApp Broadcast Message
+### P-071. Pesan Broadcast WhatsApp
 
 Kapan pakai:
 > Membuat pesan broadcast WhatsApp untuk promosi
@@ -1486,7 +1486,7 @@ Tiga pesan 50-80 kata dengan pembuka personal, isi, CTA, dan penutup.
 
 ---
 
-### P-072. Telegram Channel Post
+### P-072. Post Kanal Telegram
 
 Kapan pakai:
 > Membuat postingan untuk channel Telegram
@@ -1504,7 +1504,7 @@ Postingan 150-250 kata dengan format markdown dan hashtag.
 
 ---
 
-### P-073. Pinterest Pin Description
+### P-073. Deskripsi Pin Pinterest
 
 Kapan pakai:
 > Membuat deskripsi pin Pinterest yang SEO-friendly
@@ -1523,7 +1523,7 @@ Lima deskripsi 50-100 kata dengan kata kunci natural dan hashtag.
 
 ---
 
-### P-074. Social Media Content Calendar
+### P-074. Kalender Konten Media Sosial
 
 Kapan pakai:
 > Membuat kalender konten media sosial untuk satu minggu
@@ -1542,7 +1542,7 @@ Content calendar 7 hari dengan detail per posting.
 
 ---
 
-### P-075. Social Media Bio Link Page
+### P-075. Halaman Tautan Bio Media Sosial
 
 Kapan pakai:
 > Membuat konten untuk halaman bio link (Linktree, dll)
@@ -1561,7 +1561,7 @@ Konten bio link dengan headline, deskripsi, label link, dan CTA.
 
 ---
 
-### P-076. Instagram Reel Script Edukasi
+### P-076. Naskah Reel Edukasi Instagram
 
 Kapan pakai:
 > Membuat script Reel Instagram untuk konten edukasi
@@ -1580,7 +1580,7 @@ Script 60-100 kata dengan hook, tips terstruktur, dan CTA.
 
 ---
 
-### P-077. TikTok Duet/Stitch Response
+### P-077. Balasan Duet/Stitch TikTok
 
 Kapan pakai:
 > Membuat script untuk duet atau stitch TikTok
@@ -1598,7 +1598,7 @@ Script 40-60 kata yang responsif dan menambahkan nilai.
 
 ---
 
-### P-078. Instagram Live Announcement
+### P-078. Pengumuman Instagram Live
 
 Kapan pakai:
 > Mengumumkan Instagram Live yang akan datang
@@ -1617,7 +1617,7 @@ Tiga variasi pengumuman (feed, story, reminder) dengan informasi lengkap.
 
 ---
 
-### P-079. Social Media Contest Announcement
+### P-079. Pengumuman Kontes Media Sosial
 
 Kapan pakai:
 > Mengumumkan kontes atau giveaway di media sosial
@@ -1637,7 +1637,7 @@ Pengumuman 150-200 kata dengan headline, hadiah, syarat, deadline, dan CTA.
 
 ---
 
-### P-080. User-Generated Content Request
+### P-080. Permintaan UGC
 
 Kapan pakai:
 > Meminta pelanggan untuk membuat konten tentang produk
@@ -1656,7 +1656,7 @@ Permintaan 120-150 kata yang jelas dan apresiatif.
 
 ---
 
-### P-081. Influencer Collaboration Pitch
+### P-081. Pitch Kolaborasi Influencer
 
 Kapan pakai:
 > Menghubungi influencer untuk kolaborasi
@@ -1676,7 +1676,7 @@ Pitch 150-200 kata yang personal, jelas, dan profesional.
 
 ---
 
-### P-082. Social Media Crisis Response
+### P-082. Respons Krisis Media Sosial
 
 Kapan pakai:
 > Merespons krisis atau komplain viral di media sosial
@@ -1695,7 +1695,7 @@ Pernyataan 200-250 kata yang empatik dan transparan.
 
 ---
 
-### P-083. Platform-Specific Content Adaptation
+### P-083. Adaptasi Konten Khas Platform
 
 Kapan pakai:
 > Mengadaptasi konten yang sama untuk platform berbeda
@@ -1713,7 +1713,7 @@ Versi adaptasi lengkap dengan penjelasan penyesuaian.
 
 ---
 
-### P-084. Social Media Analytics Report Summary
+### P-084. Ringkasan Laporan Analitik Media Sosial
 
 Kapan pakai:
 > Merangkum laporan analitik media sosial
@@ -1732,7 +1732,7 @@ Ringkasan 250-300 kata dengan overview, highlight, area perbaikan, insight, dan 
 
 ---
 
-### P-085. A/B Testing Copy Variations
+### P-085. Variasi Copy untuk Pengujian A/B
 
 Kapan pakai:
 > Membuat variasi copy untuk A/B testing
@@ -1750,7 +1750,7 @@ Tabel variasi dengan hipotesis dan metrik pengukuran.
 
 ---
 
-### P-086. Retargeting Ad Copy
+### P-086. Copy Iklan Retargeting
 
 Kapan pakai:
 > Membuat copy iklan retargeting untuk pengunjung yang belum konversi
@@ -1769,7 +1769,7 @@ Tiga variasi 80-100 kata dengan reminder, insentif, urgency, dan CTA.
 
 ---
 
-### P-087. Lookalike Audience Messaging
+### P-087. Pesan untuk Audiens Lookalike
 
 Kapan pakai:
 > Membuat pesan untuk audiens yang mirip dengan pelanggan terbaik
@@ -1787,7 +1787,7 @@ Copy 120-150 kata yang ditargetkan untuk lookalike audience.
 
 ---
 
-### P-088. Seasonal Content Ideas
+### P-088. Ide Konten Musiman
 
 Kapan pakai:
 > Membuat ide konten untuk momen tertentu
@@ -1805,7 +1805,7 @@ Sepuluh ide konten dengan detail lengkap.
 
 ---
 
-### P-089. Hashtag Strategy
+### P-089. Strategi Hashtag
 
 Kapan pakai:
 > Membuat strategi hashtag untuk platform tertentu
@@ -1824,7 +1824,7 @@ Strategi hashtag dengan 30 hashtag dalam 5 kategori dan panduan penggunaan.
 
 ---
 
-### P-090. Content Repurposing Plan
+### P-090. Rencana Daur Ulang Konten
 
 Kapan pakai:
 > Merencanakan penggunaan ulang konten untuk platform berbeda
@@ -1842,7 +1842,7 @@ Tabel repurposing plan dengan detail per platform.
 
 ---
 
-### P-091. Engagement Bait Post
+### P-091. Post Umpan Interaksi
 
 Kapan pakai:
 > Membuat postingan yang memancing interaksi
@@ -1860,7 +1860,7 @@ Lima post 50-80 kata yang memancing interaksi.
 
 ---
 
-### P-092. Storytelling Post Series
+### P-092. Seri Post Storytelling
 
 Kapan pakai:
 > Membuat serial postingan dengan narasi berkelanjutan
@@ -1879,7 +1879,7 @@ Outline serial dengan detail per posting.
 
 ---
 
-### P-093. Meme Marketing Copy
+### P-093. Copy Meme Marketing
 
 Kapan pakai:
 > Membuat caption untuk konten meme marketing
@@ -1917,7 +1917,7 @@ Poll atau quiz lengkap dengan caption.
 
 ---
 
-### P-095. Testimonial Share Post
+### P-095. Post Berbagi Testimoni
 
 Kapan pakai:
 > Membagikan testimoni pelanggan di media sosial
@@ -1936,7 +1936,7 @@ Postingan 120-150 kata yang mengapresiasi pelanggan.
 
 ---
 
-### P-096. Behind-the-Scenes Content
+### P-096. Konten Di Balik Layar
 
 Kapan pakai:
 > Membuat konten behind-the-scene untuk membangun koneksi
@@ -1955,7 +1955,7 @@ Konten 100-150 kata yang personal dan transparan.
 
 ---
 
-### P-097. Educational Carousel
+### P-097. Carousel Edukasi
 
 Kapan pakai:
 > Membuat carousel edukasi untuk Instagram atau LinkedIn
@@ -1974,7 +1974,7 @@ Carousel dengan headline, poin-poin terstruktur, dan kesimpulan.
 
 ---
 
-### P-098. Live Shopping Script
+### P-098. Naskah Live Shopping
 
 Kapan pakai:
 > Membuat script untuk live shopping di platform e-commerce
@@ -1994,7 +1994,7 @@ Script 300-400 kata dengan struktur segmen dan talking points.
 
 ---
 
-### P-099. Social Media Bio Update
+### P-099. Pembaruan Bio Media Sosial
 
 Kapan pakai:
 > Memperbarui bio media sosial untuk campaign tertentu
@@ -2013,7 +2013,7 @@ Tiga variasi bio maksimal 150 karakter.
 
 ---
 
-### P-100. Cross-Platform Promotion Strategy
+### P-100. Strategi Promosi Lintas Platform
 
 Kapan pakai:
 > Merencanakan promosi lintas platform
@@ -2051,7 +2051,7 @@ Lima caption 80-120 kata yang singkat dan langsung.
 
 ---
 
-### P-102. TikTok Series Concept
+### P-102. Konsep Seri TikTok
 
 Kapan pakai:
 > Merencanakan serial konten TikTok
@@ -2070,7 +2070,7 @@ Konsep serial dengan detail per episode.
 
 ---
 
-### P-103. Facebook Group Post
+### P-103. Post Grup Facebook
 
 Kapan pakai:
 > Membuat postingan untuk grup Facebook
@@ -2089,7 +2089,7 @@ Postingan 150-200 kata yang memancing diskusi.
 
 ---
 
-### P-104. LinkedIn Recommendation Request
+### P-104. Permintaan Rekomendasi LinkedIn
 
 Kapan pakai:
 > Meminta rekomendasi LinkedIn dari klien atau kolega
@@ -2108,7 +2108,7 @@ Pesan 120-150 kata yang personal dan profesional.
 
 ---
 
-### P-105. Social Media Quote Graphic
+### P-105. Grafis Kutipan Media Sosial
 
 Kapan pakai:
 > Membuat teks untuk graphic quote di media sosial
@@ -2165,7 +2165,7 @@ Konsep challenge 150-200 kata yang mudah diikuti.
 
 ---
 
-### P-108. Facebook Event Description
+### P-108. Deskripsi Acara Facebook
 
 Kapan pakai:
 > Membuat deskripsi event Facebook
@@ -2186,7 +2186,7 @@ Deskripsi 300-400 kata dengan struktur lengkap.
 
 ---
 
-### P-109. LinkedIn Article Series
+### P-109. Seri Artikel LinkedIn
 
 Kapan pakai:
 > Merencanakan serial artikel LinkedIn
@@ -2205,7 +2205,7 @@ Outline serial dengan detail per artikel.
 
 ---
 
-### P-110. YouTube Community Post
+### P-110. Post Komunitas YouTube
 
 Kapan pakai:
 > Membuat postingan untuk tab Community YouTube
@@ -2224,7 +2224,7 @@ Postingan 100-150 kata dengan hook, isi, dan CTA.
 
 ---
 
-### P-111. Instagram Highlight Cover Text
+### P-111. Teks Sampul Highlight Instagram
 
 Kapan pakai:
 > Membuat teks untuk cover highlight Instagram
@@ -2242,7 +2242,7 @@ Sepuluh variasi 3 kata dengan opsi emoji.
 
 ---
 
-### P-112. Social Media Ad Hook
+### P-112. Hook Iklan Media Sosial
 
 Kapan pakai:
 > Membuat hook untuk iklan media sosial
@@ -2280,7 +2280,7 @@ Caption 150-200 kata dengan struktur hook-tips-CTA-hashtag.
 
 ---
 
-### P-114. TikTok Comment Response Template
+### P-114. Templat Balasan Komentar TikTok
 
 Kapan pakai:
 > Merespons komentar di TikTok dengan konsisten
@@ -2298,7 +2298,7 @@ Lima template 20-40 kata yang personal dan autentik.
 
 ---
 
-### P-115. Facebook Messenger Auto-Response
+### P-115. Balasan Otomatis Facebook Messenger
 
 Kapan pakai:
 > Membuat auto-response untuk Facebook Messenger
@@ -2316,7 +2316,7 @@ Auto-response 60-80 kata yang helpful dan friendly.
 
 ---
 
-### P-116. Social Media Content Pillar
+### P-116. Pilar Konten Media Sosial
 
 Kapan pakai:
 > Merencanakan content pillar untuk media sosial
@@ -2335,7 +2335,7 @@ Lima content pillar dengan detail lengkap.
 
 ---
 
-### P-117. Instagram Story Sequence
+### P-117. Sekuens Instagram Story
 
 Kapan pakai:
 > Membuat sequence story Instagram untuk storytelling
@@ -2354,7 +2354,7 @@ Sequence dengan teks, visual, dan stiker per slide.
 
 ---
 
-### P-118. LinkedIn Post Engagement Booster
+### P-118. Peningkat Interaksi Post LinkedIn
 
 Kapan pakai:
 > Meningkatkan engagement postingan LinkedIn
@@ -2373,7 +2373,7 @@ Postingan 250-300 kata yang memancing engagement.
 
 ---
 
-### P-119. TikTok Video Description SEO
+### P-119. SEO Deskripsi Video TikTok
 
 Kapan pakai:
 > Membuat deskripsi video TikTok yang SEO-friendly
@@ -2392,7 +2392,7 @@ Lima deskripsi 50-80 kata yang SEO-friendly.
 
 ---
 
-### P-120. Multi-Platform Campaign Brief
+### P-120. Brief Kampanye Lintas Platform
 
 Kapan pakai:
 > Membuat brief campaign lintas platform
@@ -2418,15 +2418,15 @@ Brief 400-500 kata dengan struktur lengkap.
 | No | Platform | Jenis Prompt |
 |----|----------|--------------|
 | P-051 s/d P-055 | Instagram | Caption, Story, Reel, Carousel, Bio |
-| P-056 s/d P-059 | TikTok | Script, Trend, Hook, Caption |
-| P-060 s/d P-063 | Facebook | Ads, Post Organik |
-| P-064 s/d P-065 | Twitter/X | Thread, Single Tweet |
-| P-066 s/d P-067 | LinkedIn | Post, Article |
-| P-068 s/d P-070 | YouTube | Title, Description, Shorts |
-| P-071 s/d P-072 | Messaging | WhatsApp, Telegram |
-| P-073 s/d P-075 | Lainnya | Pinterest, Calendar, Bio Link |
-| P-076 s/d P-100 | Advanced | Edukasi, Series, Group, Event |
-| P-101 s/d P-120 | Specialized | Cross-platform, SEO, Campaign |
+| P-056 s/d P-059 | TikTok | Naskah, Tren, Hook, Caption |
+| P-060 s/d P-063 | Facebook | Iklan, Post Organik |
+| P-064 s/d P-065 | Twitter/X | Thread, Tweet Tunggal |
+| P-066 s/d P-067 | LinkedIn | Post, Artikel |
+| P-068 s/d P-070 | YouTube | Judul, Deskripsi, Shorts |
+| P-071 s/d P-072 | Pesan Langsung | WhatsApp, Telegram |
+| P-073 s/d P-075 | Lainnya | Pinterest, Kalender, Bio Link |
+| P-076 s/d P-100 | Tingkat Lanjut | Edukasi, Seri, Grup, Acara |
+| P-101 s/d P-120 | Terkhusus | Lintas platform, SEO, Kampanye |
 
 ---
 
@@ -2461,7 +2461,7 @@ Bagian ini berisi 50 prompt untuk email marketing: welcome sequence, promotional
 
 ---
 
-### P-121. Welcome Email Sequence
+### P-121. Sekuens Email Sambutan
 
 Kapan pakai:
 > Membuat rangkaian email selamat datang untuk subscriber baru
@@ -2480,7 +2480,7 @@ Sequence lengkap dengan subjek, preview, body, CTA, dan timing untuk setiap emai
 
 ---
 
-### P-122. Promotional Email
+### P-122. Email Promosi
 
 Kapan pakai:
 > Membuat email promosi untuk penawaran khusus
@@ -2500,7 +2500,7 @@ Email lengkap dengan subjek, preview, body, CTA, dan P.S.
 
 ---
 
-### P-123. Newsletter Content
+### P-123. Konten Newsletter
 
 Kapan pakai:
 > Membuat konten newsletter berkala
@@ -2520,7 +2520,7 @@ Konten newsletter 400-500 kata dengan struktur lengkap.
 
 ---
 
-### P-124. Abandoned Cart Email
+### P-124. Email Keranjang Ditinggalkan
 
 Kapan pakai:
 > Mengingatkan pelanggan yang meninggalkan keranjang belanja
@@ -2559,7 +2559,7 @@ Email 200-250 kata dengan opsi jelas untuk tetap atau unsubscribe.
 
 ---
 
-### P-126. Post-Purchase Follow-Up
+### P-126. Tindak Lanjut Setelah Pembelian
 
 Kapan pakai:
 > Email tindak lanjut setelah pembelian
@@ -2579,7 +2579,7 @@ Email 250-300 kata dengan tips, review request, dan cross-sell.
 
 ---
 
-### P-127. Product Launch Email
+### P-127. Email Peluncuran Produk
 
 Kapan pakai:
 > Mengumumkan peluncuran produk baru via email
@@ -2619,7 +2619,7 @@ Email 150-200 kata dengan urgency tinggi dan CTA yang jelas.
 
 ---
 
-### P-129. Educational Email Sequence
+### P-129. Sekuens Email Edukasi
 
 Kapan pakai:
 > Membuat rangkaian email edukasi untuk membangun otoritas
@@ -2638,7 +2638,7 @@ Sequence edukasi yang mengalir dari dasar ke advanced dengan soft sell natural.
 
 ---
 
-### P-130. Testimonial Request Email
+### P-130. Email Permintaan Testimoni
 
 Kapan pakai:
 > Meminta testimoni dari pelanggan via email
@@ -2676,7 +2676,7 @@ Email 250-300 kata yang jelas dan memotivasi partisipasi.
 
 ---
 
-### P-132. Seasonal Campaign Email
+### P-132. Email Kampanye Musiman
 
 Kapan pakai:
 > Membuat email untuk campaign musiman (Ramadan, Natal, Tahun Baru)
@@ -2695,7 +2695,7 @@ Email 200-250 kata yang relevan dengan momen dan hangat.
 
 ---
 
-### P-133. Win-Back Email Sequence
+### P-133. Sekuens Email Win-Back
 
 Kapan pakai:
 > Rangkaian email untuk memenangkan kembali pelanggan yang hilang
@@ -2753,7 +2753,7 @@ Email 200-250 kata yang menunjukkan nilai kombinasi produk.
 
 ---
 
-### P-136. Birthday Email
+### P-136. Email Ulang Tahun
 
 Kapan pakai:
 > Mengirim email ucapan ulang tahun dengan penawaran
@@ -2772,7 +2772,7 @@ Email 150-200 kata yang personal dan hangat.
 
 ---
 
-### P-137. Milestone Celebration Email
+### P-137. Email Perayaan Tonggak Capaian
 
 Kapan pakai:
 > Merayakan milestone pelanggan (1 tahun, 100 pembelian, dll)
@@ -2791,7 +2791,7 @@ Email 200-250 kata yang celebratif dan apresiatif.
 
 ---
 
-### P-138. Survey Request Email
+### P-138. Email Permintaan Survei
 
 Kapan pakai:
 > Meminta pelanggan mengisi survei kepuasan
@@ -2810,7 +2810,7 @@ Email 150-200 kata yang menghargai waktu pelanggan.
 
 ---
 
-### P-139. Event Invitation Email
+### P-139. Email Undangan Acara
 
 Kapan pakai:
 > Mengundang pelanggan ke event (webinar, workshop, peluncuran)
@@ -2832,7 +2832,7 @@ Email 250-300 kata dengan detail lengkap dan CTA jelas.
 
 ---
 
-### P-140. Product Update Email
+### P-140. Email Pembaruan Produk
 
 Kapan pakai:
 > Mengumumkan update atau fitur baru produk
@@ -2851,7 +2851,7 @@ Email 200-250 kata yang exciting dan informatif.
 
 ---
 
-### P-141. Maintenance Notification Email
+### P-141. Email Notifikasi Pemeliharaan
 
 Kapan pakai:
 > Memberitahu tentang maintenance atau downtime
@@ -2872,7 +2872,7 @@ Email 150-200 kata yang jelas dan transparan.
 
 ---
 
-### P-142. Security Alert Email
+### P-142. Email Peringatan Keamanan
 
 Kapan pakai:
 > Memberitahu tentang aktivitas keamanan yang mencurigakan
@@ -2892,7 +2892,7 @@ Email 150-200 kata yang urgent namun tidak panik.
 
 ---
 
-### P-143. Invoice Email
+### P-143. Email Invoice
 
 Kapan pakai:
 > Mengirim invoice atau tagihan
@@ -2913,7 +2913,7 @@ Email 150-200 kata yang profesional dengan detail lengkap.
 
 ---
 
-### P-144. Payment Reminder Email
+### P-144. Email Pengingat Pembayaran
 
 Kapan pakai:
 > Mengingatkan tentang pembayaran yang belum diterima
@@ -2935,7 +2935,7 @@ Email 150-200 kata yang sopan namun firm.
 
 ---
 
-### P-145. Subscription Renewal Email
+### P-145. Email Perpanjangan Langganan
 
 Kapan pakai:
 > Mengingatkan tentang perpanjangan langganan
@@ -2956,7 +2956,7 @@ Email 200-250 kata yang jelas dengan opsi manage dan upgrade.
 
 ---
 
-### P-146. Cancellation Confirmation Email
+### P-146. Email Konfirmasi Pembatalan
 
 Kapan pakai:
 > Mengkonfirmasi pembatalan langganan atau pesanan
@@ -2977,7 +2977,7 @@ Email 200-250 kata yang empatik dan profesional.
 
 ---
 
-### P-147. Loyalty Program Email
+### P-147. Email Program Loyalitas
 
 Kapan pakai:
 > Mempromosikan program loyalitas
@@ -2997,7 +2997,7 @@ Email 200-250 kata yang memotivasi partisipasi.
 
 ---
 
-### P-148. VIP Early Access Email
+### P-148. Email Akses Awal VIP
 
 Kapan pakai:
 > Memberikan akses awal untuk pelanggan VIP
@@ -3017,7 +3017,7 @@ Email 150-200 kata yang eksklusif.
 
 ---
 
-### P-149. Feedback Request Email
+### P-149. Email Permintaan Masukan
 
 Kapan pakai:
 > Meminta feedback tentang produk atau layanan
@@ -3037,7 +3037,7 @@ Email 150-200 kata dengan pertanyaan spesifik.
 
 ---
 
-### P-150. Announcement Email
+### P-150. Email Pengumuman
 
 Kapan pakai:
 > Mengumumkan perubahan atau berita penting
@@ -3057,7 +3057,7 @@ Email 200-250 kata yang jelas dan transparan.
 
 ---
 
-### P-151. Holiday Greeting Email
+### P-151. Email Ucapan Hari Besar
 
 Kapan pakai:
 > Mengirim ucapan hari raya atau liburan
@@ -3076,7 +3076,7 @@ Email 100-150 kata yang hangat dan tulus.
 
 ---
 
-### P-152. Year-in-Review Email
+### P-152. Email Rekap Setahun
 
 Kapan pakai:
 > Merangkum pencapaian pelanggan dalam setahun
@@ -3095,7 +3095,7 @@ Email 250-300 kata yang personal dan celebratif.
 
 ---
 
-### P-153. Limited Stock Alert Email
+### P-153. Email Peringatan Stok Terbatas
 
 Kapan pakai:
 > Memberitahu tentang stok terbatas
@@ -3114,7 +3114,7 @@ Email 100-150 kata yang urgent.
 
 ---
 
-### P-154. Back-in-Stock Email
+### P-154. Email Stok Kembali Tersedia
 
 Kapan pakai:
 > Memberitahu produk yang kembali tersedia
@@ -3134,7 +3134,7 @@ Email 120-150 kata yang exciting.
 
 ---
 
-### P-155. Price Increase Notification Email
+### P-155. Email Notifikasi Kenaikan Harga
 
 Kapan pakai:
 > Memberitahu tentang kenaikan harga
@@ -3155,7 +3155,7 @@ Email 200-250 kata yang transparan.
 
 ---
 
-### P-156. Feature Request Follow-Up Email
+### P-156. Email Tindak Lanjut Permintaan Fitur
 
 Kapan pakai:
 > Menindaklanjuti permintaan fitur dari pelanggan
@@ -3175,7 +3175,7 @@ Email 150-200 kata yang appreciative.
 
 ---
 
-### P-157. Bug Fix Notification Email
+### P-157. Email Notifikasi Perbaikan Bug
 
 Kapan pakai:
 > Memberitahu tentang perbaikan bug
@@ -3194,7 +3194,7 @@ Email 120-150 kata yang appreciative.
 
 ---
 
-### P-158. Account Verification Email
+### P-158. Email Verifikasi Akun
 
 Kapan pakai:
 > Mengirim email verifikasi akun
@@ -3213,7 +3213,7 @@ Email 80-100 kata yang jelas.
 
 ---
 
-### P-159. Password Reset Email
+### P-159. Email Atur Ulang Kata Sandi
 
 Kapan pakai:
 > Mengirim email reset password
@@ -3232,7 +3232,7 @@ Email 80-100 kata yang secure.
 
 ---
 
-### P-160. Two-Factor Authentication Code Email
+### P-160. Email Kode Verifikasi Dua Langkah
 
 Kapan pakai:
 > Mengirim kode 2FA via email
@@ -3251,7 +3251,7 @@ Email 50-80 kata yang sangat jelas.
 
 ---
 
-### P-161. Login Alert Email
+### P-161. Email Peringatan Login
 
 Kapan pakai:
 > Memberitahu tentang login dari perangkat atau lokasi baru
@@ -3271,7 +3271,7 @@ Email 100-150 kata yang urgent dan secure.
 
 ---
 
-### P-162. Data Export Ready Email
+### P-162. Email Ekspor Data Siap
 
 Kapan pakai:
 > Memberitahu bahwa ekspor data siap diunduh
@@ -3291,7 +3291,7 @@ Email 80-120 kata yang jelas.
 
 ---
 
-### P-163. Trial Expiration Reminder Email
+### P-163. Email Pengingat Akhir Masa Trial
 
 Kapan pakai:
 > Mengingatkan tentang trial yang akan berakhir
@@ -3312,7 +3312,7 @@ Email 150-200 kata yang urgent.
 
 ---
 
-### P-164. Trial Conversion Email
+### P-164. Email Konversi Trial
 
 Kapan pakai:
 > Mengonversi pengguna trial menjadi pelanggan berbayar
@@ -3333,7 +3333,7 @@ Email 200-250 kata yang celebratif.
 
 ---
 
-### P-165. Onboarding Step Email
+### P-165. Email Langkah Onboarding
 
 Kapan pakai:
 > Email panduan onboarding bertahap
@@ -3354,7 +3354,7 @@ Email 150-200 kata dengan progress indicator.
 
 ---
 
-### P-166. Milestone Achievement Email
+### P-166. Email Pencapaian Tonggak
 
 Kapan pakai:
 > Merayakan pencapaian pengguna dalam produk
@@ -3374,7 +3374,7 @@ Email 150-200 kata yang celebratif.
 
 ---
 
-### P-167. Inactivity Check-In Email
+### P-167. Email Sapaan Setelah Lama Tidak Aktif
 
 Kapan pakai:
 > Check-in dengan pengguna yang tidak aktif
@@ -3394,7 +3394,7 @@ Email 150-200 kata yang empatik.
 
 ---
 
-### P-168. Feature Announcement Email
+### P-168. Email Pengumuman Fitur
 
 Kapan pakai:
 > Mengumumkan fitur baru
@@ -3414,7 +3414,7 @@ Email 150-200 kata yang exciting.
 
 ---
 
-### P-169. Integration Announcement Email
+### P-169. Email Pengumuman Integrasi
 
 Kapan pakai:
 > Mengumumkan integrasi baru
@@ -3433,7 +3433,7 @@ Email 120-150 kata yang exciting.
 
 ---
 
-### P-170. Customer Success Story Email
+### P-170. Email Kisah Sukses Pelanggan
 
 Kapan pakai:
 > Membagikan cerita sukses pelanggan
@@ -3447,7 +3447,7 @@ Variabel:
 - [TESTIMONI]: testimoni pelanggan
 
 Prompt:
-> Buat customer success story email tentang [NAMA_PELANGGAN_SUCCES] dari [INDUSTRI_PELANGGAN] yang menghadapi [MASALAH_AWAL], menggunakan [SOLUSI_YANG_DIGUNAKAN], mencapai [HASIL_KONKRET], dengan [TESTIMONI]. Struktur: (1) Subjek yang menarik ("Cerita sukses: [Nama] mencapai [hasil]" atau "Bagaimana [nama] menyelesaikan [masalah]"), (2) Preview text, (3) Pembuka yang memperkenalkan pelanggan, (4) Latar belakang dan masalah awal, (5) Solusi yang digunakan, (6) Hasil konkret dengan angka, (7) Testimoni langsung, (8) CTA untuk melihat case study lengkap atau mencoba solusi, (9) Penutup yang inspiratif. Total 250-300 kata.
+> Buat customer success story email tentang [NAMA_PELANGGAN_SUCCES] dari [INDUSTRI_PELANGGAN] yang menghadapi [MASALAH_AWAL], menggunakan [SOLUSI_YANG_DIGUNAKAN], mencapai [HASIL_KONKRET], dengan [TESTIMONI]. Struktur: (1) Subjek yang menarik ("Cerita sukses: [Nama] mencapai [hasil]" atau "Bagaimana [nama] menyelesaikan [masalah]"), (2) Preview text, (3) Pembuka yang memperkenalkan pelanggan, (4) Latar belakang dan masalah awal, (5) Solusi yang digunakan, (6) Hasil konkret dengan angka, (7) Testimoni langsung, (8) CTA untuk melihat studi kasus lengkap atau mencoba solusi, (9) Penutup yang inspiratif. Total 250-300 kata.
 
 Hasil yang diharapkan:
 Email 250-300 kata yang inspiratif.
@@ -3458,16 +3458,16 @@ Email 250-300 kata yang inspiratif.
 
 | No | Jenis Email | Kapan Gunakan |
 |----|-------------|---------------|
-| P-121 s/d P-125 | Lifecycle | Welcome, promo, newsletter, cart, re-engagement |
-| P-126 s/d P-130 | Post-Purchase | Follow-up, launch, flash sale, edukasi, testimoni |
-| P-131 s/d P-135 | Growth | Referral, seasonal, win-back, upsell, cross-sell |
-| P-136 s/d P-140 | Relationship | Birthday, milestone, survey, event, update |
-| P-141 s/d P-145 | Operational | Maintenance, security, invoice, reminder, renewal |
-| P-146 s/d P-150 | Administrative | Cancellation, loyalty, VIP, feedback, announcement |
-| P-151 s/d P-155 | Special | Holiday, year review, stock alert, back stock, price |
-| P-156 s/d P-160 | Support | Feature request, bug fix, verification, password, 2FA |
-| P-161 s/d P-165 | Security & Data | Login alert, export, trial, onboarding, achievement |
-| P-166 s/d P-170 | Engagement | Milestone, inactivity, feature, integration, success story |
+| P-121 s/d P-125 | Siklus Hidup | Sambutan, promo, newsletter, keranjang, pengaktifan ulang |
+| P-126 s/d P-130 | Pascabeli | Tindak lanjut, peluncuran, flash sale, edukasi, testimoni |
+| P-131 s/d P-135 | Pertumbuhan | Referral, musiman, win-back, upsell, cross-sell |
+| P-136 s/d P-140 | Relasi | Ulang tahun, tonggak pencapaian, survei, acara, pembaruan |
+| P-141 s/d P-145 | Operasional | Pemeliharaan, keamanan, invoice, pengingat, perpanjangan |
+| P-146 s/d P-150 | Administratif | Pembatalan, loyalitas, VIP, umpan balik, pengumuman |
+| P-151 s/d P-155 | Khusus | Liburan, rekap tahun, peringatan stok, stok kembali, harga |
+| P-156 s/d P-160 | Dukungan | Permintaan fitur, perbaikan bug, verifikasi, kata sandi, 2FA |
+| P-161 s/d P-165 | Keamanan & Data | Peringatan login, ekspor, uji coba, onboarding, pencapaian |
+| P-166 s/d P-170 | Keterlibatan | Tonggak pencapaian, tidak aktif, fitur, integrasi, kisah sukses |
 
 ---
 
@@ -3498,11 +3498,11 @@ Solusi: Gunakan nama pelanggan, segmentasi berdasarkan perilaku, dan konten yang
 Solusi: Kirim email pada waktu yang tepat berdasarkan timezone dan perilaku pelanggan.
 ## Bagian 4: Landing Page dan Website
 
-Bagian ini berisi 50 prompt untuk konten website: landing page, homepage, about page, pricing page, feature page, testimonial section, FAQ, dan elemen website lainnya. Setiap prompt dirancang untuk meningkatkan konversi dan user experience.
+Bagian ini berisi 50 prompt untuk konten website: landing page, homepage, about page, pricing page, feature page, bagian testimoni, FAQ, dan elemen website lainnya. Setiap prompt dirancang untuk meningkatkan konversi dan pengalaman pengguna.
 
 ---
 
-### P-171. Landing Page Hero Section
+### P-171. Hero Section Landing Page
 
 Kapan pakai:
 > Membuat bagian hero landing page yang menarik
@@ -3522,7 +3522,7 @@ Hero section dengan headline, subheadline, CTA, dan saran visual.
 
 ---
 
-### P-172. Landing Page Problem Section
+### P-172. Bagian Masalah Landing Page
 
 Kapan pakai:
 > Membuat bagian yang menjelaskan masalah yang diselesaikan
@@ -3541,7 +3541,7 @@ Problem section dengan headline, deskripsi, bullet point, dan transisi.
 
 ---
 
-### P-173. Landing Page Solution Section
+### P-173. Bagian Solusi Landing Page
 
 Kapan pakai:
 > Membuat bagian yang memperkenalkan solusi
@@ -3561,7 +3561,7 @@ Solution section dengan headline, intro, fitur-manfaat, dan CTA.
 
 ---
 
-### P-174. Landing Page Social Proof Section
+### P-174. Bagian Social Proof Landing Page
 
 Kapan pakai:
 > Membuat bagian social proof untuk membangun kepercayaan
@@ -3581,7 +3581,7 @@ Social proof section dengan statistik, logo, testimoni, dan rating.
 
 ---
 
-### P-175. Landing Page Feature Deep Dive
+### P-175. Bedah Mendalam Fitur Landing Page
 
 Kapan pakai:
 > Membuat bagian detail fitur produk
@@ -3601,7 +3601,7 @@ Tiga feature deep dive section dengan struktur lengkap.
 
 ---
 
-### P-176. Landing Page Pricing Section
+### P-176. Bagian Harga Landing Page
 
 Kapan pakai:
 > Membuat bagian harga dan paket
@@ -3622,7 +3622,7 @@ Pricing section dengan tabel harga, highlight, dan FAQ.
 
 ---
 
-### P-177. Landing Page FAQ Section
+### P-177. Bagian FAQ Landing Page
 
 Kapan pakai:
 > Membuat bagian FAQ untuk menjawab pertanyaan umum
@@ -3640,7 +3640,7 @@ FAQ section dengan 5-10 pertanyaan dan jawaban lengkap.
 
 ---
 
-### P-178. Landing Page Testimonial Section
+### P-178. Bagian Testimoni Landing Page
 
 Kapan pakai:
 > Membuat bagian testimoni pelanggan
@@ -3660,7 +3660,7 @@ Testimonial section dengan kutipan, detail, dan hasil konkret.
 
 ---
 
-### P-179. Landing Page CTA Section
+### P-179. Bagian CTA Landing Page
 
 Kapan pakai:
 > Membuat bagian CTA yang mendorong konversi
@@ -3679,7 +3679,7 @@ CTA section dengan headline, tombol, insentif, urgency, dan jaminan.
 
 ---
 
-### P-180. Landing Page About Section
+### P-180. Bagian Tentang Kami Landing Page
 
 Kapan pakai:
 > Membuat bagian tentang perusahaan atau tim
@@ -3699,7 +3699,7 @@ About section dengan misi, nilai, tim, dan pencapaian.
 
 ---
 
-### P-181. Homepage Hero Section
+### P-181. Hero Section Beranda
 
 Kapan pakai:
 > Membuat hero section untuk homepage website
@@ -3719,7 +3719,7 @@ Hero section dengan headline, subheadline, dual CTA, dan saran visual.
 
 ---
 
-### P-182. Homepage Feature Overview
+### P-182. Ringkasan Fitur Beranda
 
 Kapan pakai:
 > Membuat overview fitur untuk homepage
@@ -3738,7 +3738,7 @@ Feature overview dengan grid fitur dan deskripsi singkat.
 
 ---
 
-### P-183. Homepage Benefit Section
+### P-183. Bagian Manfaat Beranda
 
 Kapan pakai:
 > Membuat section manfaat untuk homepage
@@ -3757,7 +3757,7 @@ Benefit section dengan manfaat dan visual yang jelas.
 
 ---
 
-### P-184. Homepage Testimonial Preview
+### P-184. Pratinjau Testimoni Beranda
 
 Kapan pakai:
 > Membuat preview testimoni untuk homepage
@@ -3775,7 +3775,7 @@ Testimonial preview dengan testimoni singkat dan link.
 
 ---
 
-### P-185. Homepage CTA Section
+### P-185. Bagian CTA Beranda
 
 Kapan pakai:
 > Membuat CTA section untuk homepage
@@ -3793,7 +3793,7 @@ CTA section dengan headline, tombol, dan trust elements.
 
 ---
 
-### P-186. Pricing Page Header
+### P-186. Header Halaman Harga
 
 Kapan pakai:
 > Membuat header untuk halaman pricing
@@ -3811,7 +3811,7 @@ Header pricing dengan headline, subheadline, dan toggle.
 
 ---
 
-### P-187. Pricing Package Card
+### P-187. Kartu Paket Harga
 
 Kapan pakai:
 > Membuat card untuk setiap paket harga
@@ -3832,7 +3832,7 @@ Package card dengan harga, fitur, dan CTA yang jelas.
 
 ---
 
-### P-188. Pricing Comparison Table
+### P-188. Tabel Perbandingan Harga
 
 Kapan pakai:
 > Membuat tabel perbandingan paket
@@ -3851,7 +3851,7 @@ Comparison table yang jelas dan mudah dibandingkan.
 
 ---
 
-### P-189. Pricing FAQ Section
+### P-189. Bagian FAQ Halaman Harga
 
 Kapan pakai:
 > Membuat FAQ khusus untuk halaman pricing
@@ -3868,7 +3868,7 @@ Pricing FAQ dengan pertanyaan dan jawaban lengkap.
 
 ---
 
-### P-190. Feature Page Hero
+### P-190. Hero Halaman Fitur
 
 Kapan pakai:
 > Membuat hero section untuk halaman fitur spesifik
@@ -3887,7 +3887,7 @@ Feature hero dengan headline, subheadline, CTA, dan visual.
 
 ---
 
-### P-191. Feature Page Benefits
+### P-191. Manfaat di Halaman Fitur
 
 Kapan pakai:
 > Membuat section manfaat untuk halaman fitur
@@ -3906,7 +3906,7 @@ Benefits section dengan manfaat dan contoh penggunaan.
 
 ---
 
-### P-192. Feature Page How It Works
+### P-192. Cara Kerja di Halaman Fitur
 
 Kapan pakai:
 > Membuat section cara kerja untuk halaman fitur
@@ -3925,7 +3925,7 @@ How it works section dengan langkah-langkah dan visual.
 
 ---
 
-### P-193. Feature Page Use Cases
+### P-193. Studi Pemakaian di Halaman Fitur
 
 Kapan pakai:
 > Membuat section use case untuk halaman fitur
@@ -3937,14 +3937,14 @@ Variabel:
 - [INDUSTRI]: industri yang relevan
 
 Prompt:
-> Buat use cases section untuk [NAMA_FITUR] dengan [JUMLAH_USE_CASE] use case ([USE_CASE]) untuk [INDUSTRI]. Struktur: (1) Headline "Use case [Fitur]" atau "Bagaimana [Fitur] digunakan", (2) 3-5 use case dengan: judul (5-7 kata), deskripsi skenario (50-60 kata), hasil yang dicapai, (3) Filter berdasarkan industri jika relevan, (4) CTA untuk melihat case study lengkap. Total 300-400 kata. Use case harus spesifik dan relatable.
+> Buat bagian use case untuk [NAMA_FITUR] dengan [JUMLAH_USE_CASE] use case ([USE_CASE]) untuk [INDUSTRI]. Struktur: (1) Headline "Use case [Fitur]" atau "Bagaimana [Fitur] digunakan", (2) 3-5 use case dengan: judul (5-7 kata), deskripsi skenario (50-60 kata), hasil yang dicapai, (3) Filter berdasarkan industri jika relevan, (4) CTA untuk melihat studi kasus lengkap. Total 300-400 kata. Use case harus spesifik dan relatable.
 
 Hasil yang diharapkan:
 Use cases section dengan skenario dan hasil.
 
 ---
 
-### P-194. About Page Hero
+### P-194. Hero Halaman Tentang Kami
 
 Kapan pakai:
 > Membuat hero section untuk halaman about
@@ -3963,7 +3963,7 @@ About hero dengan headline, misi, dan visual.
 
 ---
 
-### P-195. About Page Story
+### P-195. Kisah di Halaman Tentang Kami
 
 Kapan pakai:
 > Membuat section cerita perusahaan
@@ -3984,7 +3984,7 @@ About story dengan cerita, timeline, dan visi.
 
 ---
 
-### P-196. About Page Team
+### P-196. Tim di Halaman Tentang Kami
 
 Kapan pakai:
 > Membuat section tim perusahaan
@@ -4004,7 +4004,7 @@ Team section dengan profil anggota dan bio.
 
 ---
 
-### P-197. About Page Values
+### P-197. Nilai di Halaman Tentang Kami
 
 Kapan pakai:
 > Membuat section nilai-nilai perusahaan
@@ -4023,7 +4023,7 @@ Values section dengan icon, nama, dan deskripsi.
 
 ---
 
-### P-198. Contact Page Hero
+### P-198. Hero Halaman Kontak
 
 Kapan pakai:
 > Membuat hero section untuk halaman contact
@@ -4041,7 +4041,7 @@ Contact hero dengan headline dan metode kontak.
 
 ---
 
-### P-199. Contact Page Form
+### P-199. Formulir Halaman Kontak
 
 Kapan pakai:
 > Membuat section form kontak
@@ -4059,7 +4059,7 @@ Contact form dengan field dan informasi kontak.
 
 ---
 
-### P-200. Contact Page Map
+### P-200. Peta di Halaman Kontak
 
 Kapan pakai:
 > Membuat section peta lokasi
@@ -4078,7 +4078,7 @@ Map section dengan alamat dan petunjuk.
 
 ---
 
-### P-201. Blog Post Hero
+### P-201. Hero Artikel Blog
 
 Kapan pakai:
 > Membuat hero section untuk blog post
@@ -4099,7 +4099,7 @@ Blog hero dengan judul, meta, dan gambar.
 
 ---
 
-### P-202. Blog Post Introduction
+### P-202. Pengantar Artikel Blog
 
 Kapan pakai:
 > Membuat pembuka blog post
@@ -4118,7 +4118,7 @@ Introduction dengan hook, konteks, janji, dan overview.
 
 ---
 
-### P-203. Blog Post Conclusion
+### P-203. Penutup Artikel Blog
 
 Kapan pakai:
 > Membuat penutup blog post
@@ -4137,7 +4137,7 @@ Conclusion dengan ringkasan, takeaway, dan CTA.
 
 ---
 
-### P-204. Product Page Hero
+### P-204. Hero Halaman Produk
 
 Kapan pakai:
 > Membuat hero section untuk halaman produk
@@ -4158,7 +4158,7 @@ Product hero dengan nama, harga, rating, dan CTA.
 
 ---
 
-### P-205. Product Page Description
+### P-205. Deskripsi Halaman Produk
 
 Kapan pakai:
 > Membuat deskripsi produk
@@ -4178,7 +4178,7 @@ Product description dengan fitur, spesifikasi, dan keunggulan.
 
 ---
 
-### P-206. Product Page Gallery
+### P-206. Galeri Halaman Produk
 
 Kapan pakai:
 > Membuat galeri gambar produk
@@ -4196,7 +4196,7 @@ Gallery dengan gambar utama dan thumbnail.
 
 ---
 
-### P-207. Product Page Reviews
+### P-207. Ulasan di Halaman Produk
 
 Kapan pakai:
 > Membuat section review produk
@@ -4215,7 +4215,7 @@ Reviews section dengan rating, distribusi, dan review terbaik.
 
 ---
 
-### P-208. Checkout Page Header
+### P-208. Header Halaman Checkout
 
 Kapan pakai:
 > Membuat header untuk halaman checkout
@@ -4233,7 +4233,7 @@ Checkout header dengan progress dan ringkasan.
 
 ---
 
-### P-209. Checkout Page Form
+### P-209. Formulir Halaman Checkout
 
 Kapan pakai:
 > Membuat form untuk halaman checkout
@@ -4252,7 +4252,7 @@ Checkout form dengan section billing, shipping, dan payment.
 
 ---
 
-### P-210. Checkout Page Summary
+### P-210. Ringkasan Halaman Checkout
 
 Kapan pakai:
 > Membuat ringkasan pesanan di halaman checkout
@@ -4273,7 +4273,7 @@ Checkout summary dengan daftar produk dan total.
 
 ---
 
-### P-211. 404 Page Content
+### P-211. Konten Halaman 404
 
 Kapan pakai:
 > Membuat konten untuk halaman 404
@@ -4292,7 +4292,7 @@ Hasil yang diharapkan:
 
 ---
 
-### P-212. Thank You Page Content
+### P-212. Konten Halaman Terima Kasih
 
 Kapan pakai:
 > Membuat konten untuk halaman terima kasih setelah pembelian
@@ -4305,14 +4305,14 @@ Variabel:
 - [SOCIAL_SHARE]: link share ke sosial media
 
 Prompt:
-> Buat thank you page content untuk [NAMA_PELANGGAN] dengan [NOMOR_PESANAN], [NEXT_STEP], [RECOMMENDATION], dan [SOCIAL_SHARE]. Struktur: (1) Headline "Terima kasih!" atau "Pesanan Anda berhasil", (2) Pesan personal 30-50 kata, (3) Nomor pesanan dan detail, (4) Langkah selanjutnya (konfirmasi email, pengiriman, dll), (5) Rekomendasi produk atau konten, (6) Tombol share ke sosial media. Total 150-200 kata. Thank you page harus celebratif dan informatif.
+> Buat konten halaman ucapan terima kasih (thank you page) untuk [NAMA_PELANGGAN] dengan [NOMOR_PESANAN], [NEXT_STEP], [RECOMMENDATION], dan [SOCIAL_SHARE]. Struktur: (1) Headline "Terima kasih!" atau "Pesanan Anda berhasil", (2) Pesan personal 30-50 kata, (3) Nomor pesanan dan detail, (4) Langkah selanjutnya (konfirmasi email, pengiriman, dll), (5) Rekomendasi produk atau konten, (6) Tombol share ke sosial media. Total 150-200 kata. Halaman ini harus celebratif dan informatif.
 
 Hasil yang diharapkan:
 Thank you page dengan pesan personal dan next step.
 
 ---
 
-### P-213. Landing Page Comparison Section
+### P-213. Bagian Perbandingan Landing Page
 
 Kapan pakai:
 > Membuat section perbandingan dengan kompetitor
@@ -4331,7 +4331,7 @@ Comparison section dengan tabel dan keunggulan.
 
 ---
 
-### P-214. Landing Page Guarantee Section
+### P-214. Bagian Jaminan Landing Page
 
 Kapan pakai:
 > Membuat section jaminan atau garansi
@@ -4350,7 +4350,7 @@ Guarantee section dengan badge dan penjelasan.
 
 ---
 
-### P-215. Landing Page Urgency Section
+### P-215. Bagian Urgensi Landing Page
 
 Kapan pakai:
 > Membuat section urgency untuk mendorong tindakan cepat
@@ -4369,7 +4369,7 @@ Urgency section dengan countdown dan insentif.
 
 ---
 
-### P-216. Landing Page Video Section
+### P-216. Bagian Video Landing Page
 
 Kapan pakai:
 > Membuat section video untuk landing page
@@ -4389,7 +4389,7 @@ Video section dengan player dan deskripsi.
 
 ---
 
-### P-217. Landing Page Demo Request
+### P-217. Permintaan Demo Landing Page
 
 Kapan pakai:
 > Membuat section permintaan demo
@@ -4408,7 +4408,7 @@ Demo request section dengan form dan benefit.
 
 ---
 
-### P-218. Landing Page Newsletter Signup
+### P-218. Pendaftaran Newsletter Landing Page
 
 Kapan pakai:
 > Membuat section signup newsletter
@@ -4427,7 +4427,7 @@ Newsletter signup dengan form dan benefit.
 
 ---
 
-### P-219. Landing Page Exit Intent Popup
+### P-219. Popup Exit Intent Landing Page
 
 Kapan pakai:
 > Membuat popup exit intent
@@ -4446,7 +4446,7 @@ Exit intent popup dengan penawaran dan CTA.
 
 ---
 
-### P-220. Landing Page Live Chat Widget
+### P-220. Widget Live Chat Landing Page
 
 Kapan pakai:
 > Membuat widget live chat
@@ -4469,15 +4469,15 @@ Live chat widget dengan sapaan dan FAQ.
 
 | No | Jenis Halaman | Prompt |
 |----|---------------|--------|
-| P-171 s/d P-185 | Landing Page | Hero, problem, solution, social proof, feature, pricing, FAQ, testimonial, CTA, about, homepage |
-| P-186 s/d P-189 | Pricing Page | Header, package card, comparison table, FAQ |
-| P-190 s/d P-193 | Feature Page | Hero, benefits, how it works, use cases |
-| P-194 s/d P-197 | About Page | Hero, story, team, values |
-| P-198 s/d P-200 | Contact Page | Hero, form, map |
-| P-201 s/d P-203 | Blog Post | Hero, introduction, conclusion |
-| P-204 s/d P-207 | Product Page | Hero, description, gallery, reviews |
-| P-208 s/d P-210 | Checkout Page | Header, form, summary |
-| P-211 s/d P-220 | Special Pages | 404, thank you, comparison, guarantee, urgency, video, demo, newsletter, popup, chat |
+| P-171 s/d P-185 | Landing Page | Hero, masalah, solusi, social proof, fitur, harga, FAQ, testimoni, CTA, tentang kami, homepage |
+| P-186 s/d P-189 | Halaman Harga | Header, kartu paket, tabel perbandingan, FAQ |
+| P-190 s/d P-193 | Halaman Fitur | Hero, manfaat, cara kerja, studi penggunaan |
+| P-194 s/d P-197 | Halaman Tentang Kami | Hero, kisah, tim, nilai |
+| P-198 s/d P-200 | Halaman Kontak | Hero, formulir, peta |
+| P-201 s/d P-203 | Artikel Blog | Hero, pendahuluan, kesimpulan |
+| P-204 s/d P-207 | Halaman Produk | Hero, deskripsi, galeri, ulasan |
+| P-208 s/d P-210 | Halaman Checkout | Header, formulir, ringkasan |
+| P-211 s/d P-220 | Halaman Khusus | 404, ucapan terima kasih, perbandingan, jaminan, urgensi, video, demo, newsletter, popup, chat |
 
 ---
 
@@ -4512,7 +4512,7 @@ Bagian ini berisi 40 prompt untuk konten video dan podcast: script YouTube, TikT
 
 ---
 
-### P-221. YouTube Video Script Structure
+### P-221. Struktur Naskah Video YouTube
 
 Kapan pakai:
 > Membuat script video YouTube lengkap
@@ -4532,7 +4532,7 @@ Script lengkap dengan timing per section dan total kata sesuai durasi.
 
 ---
 
-### P-222. YouTube Hook Variations
+### P-222. Variasi Hook YouTube
 
 Kapan pakai:
 > Membuat variasi hook 15 detik pertama video YouTube
@@ -4550,7 +4550,7 @@ Sepuluh hook 30-50 kata dengan saran visual.
 
 ---
 
-### P-223. YouTube Intro Script
+### P-223. Naskah Intro YouTube
 
 Kapan pakai:
 > Membuat intro video YouTube yang konsisten
@@ -4569,7 +4569,7 @@ Lima variasi intro 50-80 kata.
 
 ---
 
-### P-224. YouTube Outro Script
+### P-224. Naskah Outro YouTube
 
 Kapan pakai:
 > Membuat outro video YouTube
@@ -4588,7 +4588,7 @@ Lima variasi outro 80-120 kata.
 
 ---
 
-### P-225. YouTube Video Title
+### P-225. Judul Video YouTube
 
 Kapan pakai:
 > Membuat judul video YouTube yang SEO-friendly
@@ -4607,7 +4607,7 @@ Sepuluh judul maksimal 60 karakter yang SEO-friendly.
 
 ---
 
-### P-226. YouTube Video Description
+### P-226. Deskripsi Video YouTube
 
 Kapan pakai:
 > Membuat deskripsi video YouTube yang optimal
@@ -4627,7 +4627,7 @@ Deskripsi 200-300 kata dengan struktur lengkap.
 
 ---
 
-### P-227. YouTube Shorts Script
+### P-227. Naskah YouTube Shorts
 
 Kapan pakai:
 > Membuat script YouTube Shorts (video vertikal pendek)
@@ -4647,7 +4647,7 @@ Script 30-80 kata dengan timing per bagian.
 
 ---
 
-### P-228. Podcast Episode Outline
+### P-228. Kerangka Episode Podcast
 
 Kapan pakai:
 > Membuat outline episode podcast
@@ -4667,7 +4667,7 @@ Outline dengan timing per segment.
 
 ---
 
-### P-229. Podcast Intro Script
+### P-229. Naskah Intro Podcast
 
 Kapan pakai:
 > Membuat script intro podcast
@@ -4687,7 +4687,7 @@ Tiga variasi intro 150-200 kata.
 
 ---
 
-### P-230. Podcast Outro Script
+### P-230. Naskah Outro Podcast
 
 Kapan pakai:
 > Membuat script outro podcast
@@ -4707,7 +4707,7 @@ Tiga variasi outro 150-200 kata.
 
 ---
 
-### P-231. Podcast Interview Questions
+### P-231. Pertanyaan Wawancara Podcast
 
 Kapan pakai:
 > Membuat daftar pertanyaan untuk interview podcast
@@ -4727,7 +4727,7 @@ Daftar pertanyaan terstruktur dengan timing.
 
 ---
 
-### P-232. Podcast Solo Episode Script
+### P-232. Naskah Episode Solo Podcast
 
 Kapan pakai:
 > Membuat script untuk episode podcast solo
@@ -4747,7 +4747,7 @@ Script lengkap dengan talking points per section.
 
 ---
 
-### P-233. Webinar Script Structure
+### P-233. Struktur Naskah Webinar
 
 Kapan pakai:
 > Membuat script webinar lengkap
@@ -4767,7 +4767,7 @@ Script lengkap dengan timing dan transition.
 
 ---
 
-### P-234. Webinar Opening Hook
+### P-234. Hook Pembuka Webinar
 
 Kapan pakai:
 > Membuat opening hook untuk webinar
@@ -4786,7 +4786,7 @@ Lima variasi hook 80-120 kata.
 
 ---
 
-### P-235. Webinar Pitch Script
+### P-235. Naskah Pitch Webinar
 
 Kapan pakai:
 > Membuat script pitch produk di webinar
@@ -4808,7 +4808,7 @@ Pitch script lengkap dengan transition dan objection handling.
 
 ---
 
-### P-236. Live Streaming Script
+### P-236. Naskah Live Streaming
 
 Kapan pakai:
 > Membuat script untuk live streaming
@@ -4828,7 +4828,7 @@ Script live dengan talking points dan interaction prompts.
 
 ---
 
-### P-237. Video Tutorial Script
+### P-237. Naskah Video Tutorial
 
 Kapan pakai:
 > Membuat script video tutorial
@@ -4848,7 +4848,7 @@ Script tutorial step-by-step yang jelas.
 
 ---
 
-### P-238. Product Demo Video Script
+### P-238. Naskah Video Demo Produk
 
 Kapan pakai:
 > Membuat script video demo produk
@@ -4861,14 +4861,14 @@ Variabel:
 - [CTA]: call-to-action
 
 Prompt:
-> Buat script product demo video untuk [NAMA_PRODUK] yang mendemokan [FITUR_YANG_DIDEMOKAN] dalam [USE_CASE] untuk [TARGET_AUDIENCE] dengan [CTA]. Struktur: (1) Intro: masalah yang dihadapi target audiens, (2) Perkenalan produk sebagai solusi, (3) Demo fitur 1 dengan use case, (4) Demo fitur 2 dengan use case, (5) Demo fitur 3 dengan use case, (6) Recap benefit, (7) CTA. Total 400-800 kata. Fokus pada "how it helps" bukan hanya "what it does".
+> Buat naskah video demo produk untuk [NAMA_PRODUK] yang mendemokan [FITUR_YANG_DIDEMOKAN] dalam [USE_CASE] untuk [TARGET_AUDIENCE] dengan [CTA]. Struktur: (1) Intro: masalah yang dihadapi target audiens, (2) Perkenalan produk sebagai solusi, (3) Demo fitur 1 dengan use case, (4) Demo fitur 2 dengan use case, (5) Demo fitur 3 dengan use case, (6) Rekap manfaat, (7) CTA. Total 400-800 kata. Fokus pada "bagaimana ini membantu", bukan hanya "apa yang dilakukan".
 
 Hasil yang diharapkan:
 Script demo dengan use case dan benefit.
 
 ---
 
-### P-239. Testimonial Video Script
+### P-239. Naskah Video Testimoni
 
 Kapan pakai:
 > Membuat script video testimoni pelanggan
@@ -4889,7 +4889,7 @@ Script interview testimoni dengan pertanyaan terbuka.
 
 ---
 
-### P-240. Case Study Video Script
+### P-240. Naskah Video Studi Kasus
 
 Kapan pakai:
 > Membuat script video case study
@@ -4910,7 +4910,7 @@ Script case study dengan storytelling dan data.
 
 ---
 
-### P-241. Explainer Video Script
+### P-241. Naskah Explainer Video
 
 Kapan pakai:
 > Membuat script explainer video
@@ -4930,7 +4930,7 @@ Script explainer yang simple dan visual.
 
 ---
 
-### P-242. Video Ad Script (15 detik)
+### P-242. Naskah Iklan Video (15 detik)
 
 Kapan pakai:
 > Membuat script iklan video 15 detik
@@ -4949,7 +4949,7 @@ Lima script 30-40 kata yang impactful.
 
 ---
 
-### P-243. Video Ad Script (30 detik)
+### P-243. Naskah Iklan Video (30 detik)
 
 Kapan pakai:
 > Membuat script iklan video 30 detik
@@ -4969,7 +4969,7 @@ Lima script 60-80 kata.
 
 ---
 
-### P-244. Video Ad Script (60 detik)
+### P-244. Naskah Iklan Video (60 detik)
 
 Kapan pakai:
 > Membuat script iklan video 60 detik
@@ -4990,7 +4990,7 @@ Tiga script 120-150 kata dengan storytelling.
 
 ---
 
-### P-245. Podcast Show Notes
+### P-245. Show Notes Podcast
 
 Kapan pakai:
 > Membuat show notes untuk episode podcast
@@ -5031,7 +5031,7 @@ Lima caption 80-120 kata.
 
 ---
 
-### P-247. Podcast Teaser Script
+### P-247. Naskah Teaser Podcast
 
 Kapan pakai:
 > Membuat teaser untuk episode podcast yang akan datang
@@ -5051,7 +5051,7 @@ Tiga teaser 80-120 kata.
 
 ---
 
-### P-248. Video Script untuk Testimoni Text
+### P-248. Naskah Video untuk Testimoni Teks
 
 Kapan pakai:
 > Membuat script untuk video yang menampilkan testimoni teks
@@ -5071,7 +5071,7 @@ Script video testimoni dengan timing.
 
 ---
 
-### P-249. Podcast Ad Read Script
+### P-249. Naskah Bacaan Iklan Podcast
 
 Kapan pakai:
 > Membuat script iklan di dalam podcast
@@ -5093,7 +5093,7 @@ Ad read script yang natural dan personal.
 
 ---
 
-### P-250. Video B-Roll Narration
+### P-250. Narasi B-Roll Video
 
 Kapan pakai:
 > Membuat narasi untuk B-roll footage
@@ -5112,7 +5112,7 @@ Narasi 30-60 kata yang melengkapi visual.
 
 ---
 
-### P-251. Podcast Episode Title
+### P-251. Judul Episode Podcast
 
 Kapan pakai:
 > Membuat judul episode podcast
@@ -5131,7 +5131,7 @@ Sepuluh judul maksimal 60 karakter.
 
 ---
 
-### P-252. Video Thumbnail Text
+### P-252. Teks Thumbnail Video
 
 Kapan pakai:
 > Membuat teks untuk thumbnail video
@@ -5150,7 +5150,7 @@ Sepuluh teks 5-7 kata yang eye-catching.
 
 ---
 
-### P-253. Podcast Guest Introduction
+### P-253. Perkenalan Tamu Podcast
 
 Kapan pakai:
 > Membuat script perkenalan tamu podcast
@@ -5170,7 +5170,7 @@ Tiga variasi intro 150-200 kata.
 
 ---
 
-### P-254. Video Call-to-Action Variations
+### P-254. Variasi Call-to-Action Video
 
 Kapan pakai:
 > Membuat variasi CTA untuk video
@@ -5188,7 +5188,7 @@ Sepuluh CTA 10-20 kata.
 
 ---
 
-### P-255. Podcast Listener Engagement
+### P-255. Interaksi Pendengar Podcast
 
 Kapan pakai:
 > Membuat script untuk mengajak pendengar berinteraksi
@@ -5207,7 +5207,7 @@ Lima script 80-120 kata.
 
 ---
 
-### P-256. Video Series Introduction
+### P-256. Pengantar Seri Video
 
 Kapan pakai:
 > Membuat intro untuk video series
@@ -5227,7 +5227,7 @@ Tiga variasi intro 150-200 kata.
 
 ---
 
-### P-257. Podcast Season Preview
+### P-257. Pratinjau Musim Podcast
 
 Kapan pakai:
 > Membuat preview untuk season podcast baru
@@ -5247,7 +5247,7 @@ Season preview 200-250 kata.
 
 ---
 
-### P-258. Video Recap Montage Script
+### P-258. Naskah Montase Rekap Video
 
 Kapan pakai:
 > Membuat script untuk video recap atau montage
@@ -5260,14 +5260,14 @@ Variabel:
 - [DURASI]: durasi video
 
 Prompt:
-> Buat script video recap [DURASI] detik untuk [PERIODE] dengan [HIGHLIGHT], [MOOD], dan [MUSIC]. Struktur: (1) Opening text: "Best of [periode]", (2) Highlight 1 dengan caption, (3) Highlight 2, (4) Highlight 3, (5) dst, (6) Closing dengan thank you atau CTA. Setiap highlight ditampilkan 3-5 detik dengan caption 10-15 kata. Total 50-100 kata. Gunakan musik yang sesuai mood.
+> Buat script video recap [DURASI] detik untuk [PERIODE] dengan [HIGHLIGHT], [MOOD], dan [MUSIC]. Struktur: (1) Teks pembuka: "Best of [periode]", (2) Highlight 1 dengan caption, (3) Highlight 2, (4) Highlight 3, (5) dst, (6) Penutup dengan ucapan terima kasih atau CTA. Setiap highlight ditampilkan 3-5 detik dengan caption 10-15 kata. Total 50-100 kata. Gunakan musik yang sesuai mood.
 
 Hasil yang diharapkan:
 Script recap dengan caption per highlight.
 
 ---
 
-### P-259. Podcast Q&A Segment Script
+### P-259. Naskah Segmen Tanya Jawab Podcast
 
 Kapan pakai:
 > Membuat script untuk segment Q&A podcast
@@ -5286,7 +5286,7 @@ Script Q&A dengan pertanyaan dan jawaban.
 
 ---
 
-### P-260. Video End Screen Script
+### P-260. Naskah Layar Akhir Video
 
 Kapan pakai:
 > Membuat script untuk end screen video
@@ -5310,13 +5310,13 @@ Lima script 50-80 kata.
 
 | No | Jenis Konten | Prompt |
 |----|--------------|--------|
-| P-221 s/d P-227 | YouTube | Script, hook, intro, outro, title, description, Shorts |
-| P-228 s/d P-232 | Podcast | Episode outline, intro, outro, interview, solo |
-| P-233 s/d P-235 | Webinar | Script, opening, pitch |
-| P-236 s/d P-240 | Live & Tutorial | Live streaming, tutorial, demo, testimonial, case study |
-| P-241 s/d P-244 | Video Ads | Explainer, 15s, 30s, 60s |
-| P-245 s/d P-250 | Support | Show notes, caption, teaser, B-roll, ad read |
-| P-251 s/d P-260 | Optimization | Title, thumbnail, CTA, engagement, series, recap, Q&A, end screen |
+| P-221 s/d P-227 | YouTube | Naskah, hook, intro, outro, judul, deskripsi, Shorts |
+| P-228 s/d P-232 | Podcast | Kerangka episode, intro, outro, wawancara, solo |
+| P-233 s/d P-235 | Webinar | Naskah, pembukaan, pitch |
+| P-236 s/d P-240 | Live & Tutorial | Live streaming, tutorial, demo, testimoni, studi kasus |
+| P-241 s/d P-244 | Iklan Video | Penjelasan, 15 detik, 30 detik, 60 detik |
+| P-245 s/d P-250 | Pendukung | Show notes, caption, teaser, B-roll, pembacaan iklan |
+| P-251 s/d P-260 | Optimasi | Judul, thumbnail, CTA, interaksi, seri, rekap, tanya jawab, layar akhir |
 
 ---
 
@@ -5346,13 +5346,13 @@ Solusi: Audio yang buruk akan membuat penonton pergi. Investasikan di microphone
 
 **Kesalahan 5: Tidak konsisten dengan upload schedule**
 Solusi: Buat content calendar dan stick to it. Konsistensi lebih penting dari perfection.
-## Bagian 6: Advanced Copywriting
+## Bagian 6: Copywriting Tingkat Lanjut
 
 Bagian ini berisi 40 prompt untuk teknik copywriting tingkat lanjut: A/B testing, psychological triggers, brand voice, persuasion frameworks, dan optimization. Prompt-prompt ini dirancang untuk copywriter yang sudah menguasai dasar dan ingin meningkatkan keterampilan mereka.
 
 ---
 
-### P-261. A/B Testing Headline Variations
+### P-261. Variasi Headline untuk Pengujian A/B
 
 Kapan pakai:
 > Membuat variasi headline untuk A/B testing
@@ -5370,7 +5370,7 @@ Tabel variasi headline dengan hipotesis dan metrik pengukuran.
 
 ---
 
-### P-262. A/B Testing CTA Variations
+### P-262. Variasi CTA untuk Pengujian A/B
 
 Kapan pakai:
 > Membuat variasi CTA untuk A/B testing
@@ -5388,7 +5388,7 @@ Tabel variasi CTA dengan hipotesis dan metrik.
 
 ---
 
-### P-263. Scarcity Copy yang Etis
+### P-263. Copy Kelangkaan yang Etis
 
 Kapan pakai:
 > Membuat copy scarcity yang legitimate
@@ -5406,7 +5406,7 @@ Lima variasi scarcity copy yang etis dan legitimate.
 
 ---
 
-### P-264. Urgency Copy yang Etis
+### P-264. Copy Urgensi yang Etis
 
 Kapan pakai:
 > Membuat copy urgency yang legitimate
@@ -5442,7 +5442,7 @@ Lima variasi social proof yang spesifik dan meyakinkan.
 
 ---
 
-### P-266. Authority Building Copy
+### P-266. Copy Membangun Otoritas
 
 Kapan pakai:
 > Membuat copy yang membangun otoritas
@@ -5461,7 +5461,7 @@ Lima variasi authority copy yang percaya diri namun humble.
 
 ---
 
-### P-267. Reciprocity Trigger Copy
+### P-267. Copy Pemicu Resiprositas
 
 Kapan pakai:
 > Membuat copy yang memanfaatkan prinsip timbal balik
@@ -5479,7 +5479,7 @@ Lima variasi reciprocity copy yang memberikan nilai.
 
 ---
 
-### P-268. Commitment and Consistency Copy
+### P-268. Copy Komitmen dan Konsistensi
 
 Kapan pakai:
 > Membuat copy yang memanfaatkan prinsip komitmen dan konsistensi
@@ -5497,7 +5497,7 @@ Lima variasi commitment copy yang natural.
 
 ---
 
-### P-269. Liking Trigger Copy
+### P-269. Copy Pemicu Rasa Suka
 
 Kapan pakai:
 > Membuat copy yang memanfaatkan prinsip kesukaan
@@ -5516,7 +5516,7 @@ Lima variasi liking copy yang tulus.
 
 ---
 
-### P-270. Consistency Framework Copy
+### P-270. Copy Kerangka Konsistensi
 
 Kapan pakai:
 > Membuat copy dengan framework konsistensi
@@ -5534,7 +5534,7 @@ Framework copy yang konsisten lintas channel.
 
 ---
 
-### P-271. Brand Voice Guideline
+### P-271. Panduan Gaya Bahasa Merek
 
 Kapan pakai:
 > Membuat guideline brand voice
@@ -5553,7 +5553,7 @@ Brand voice guideline lengkap dengan contoh.
 
 ---
 
-### P-272. Emotional Appeal Copy
+### P-272. Copy Daya Tarik Emosi
 
 Kapan pakai:
 > Membuat copy yang menyentuh emosi
@@ -5572,7 +5572,7 @@ Lima variasi emotional copy yang subtil.
 
 ---
 
-### P-273. Logical Appeal Copy
+### P-273. Copy Daya Tarik Logis
 
 Kapan pakai:
 > Membuat copy yang berfokus pada logika
@@ -5591,7 +5591,7 @@ Lima variasi logical copy yang faktual.
 
 ---
 
-### P-274. Storytelling Framework
+### P-274. Kerangka Storytelling
 
 Kapan pakai:
 > Membuat framework storytelling untuk copy
@@ -5609,7 +5609,7 @@ Storytelling framework dengan template per bagian.
 
 ---
 
-### P-275. Persuasion Sequence
+### P-275. Sekuens Persuasi
 
 Kapan pakai:
 > Membuat sequence persuasi bertahap
@@ -5627,7 +5627,7 @@ Persuasion sequence dengan detail per langkah.
 
 ---
 
-### P-276. Objection Handling Matrix
+### P-276. Matriks Penanganan Keberatan
 
 Kapan pakai:
 > Membuat matriks penanganan keberatan
@@ -5645,7 +5645,7 @@ Matriks objection handling lengkap.
 
 ---
 
-### P-277. Value Proposition Canvas
+### P-277. Kanvas Proposisi Nilai
 
 Kapan pakai:
 > Membuat value proposition canvas
@@ -5663,7 +5663,7 @@ Value proposition canvas lengkap.
 
 ---
 
-### P-278. Customer Journey Map Copy
+### P-278. Copy Peta Perjalanan Pelanggan
 
 Kapan pakai:
 > Membuat copy untuk setiap tahap customer journey
@@ -5681,7 +5681,7 @@ Customer journey map dengan copy per tahap.
 
 ---
 
-### P-279. Conversion Copy Optimization
+### P-279. Optimasi Copy Konversi
 
 Kapan pakai:
 > Mengoptimalkan copy untuk konversi
@@ -5700,7 +5700,7 @@ Optimization plan dengan hipotesis dan variasi.
 
 ---
 
-### P-280. Headline Formula Master List
+### P-280. Daftar Induk Formula Headline
 
 Kapan pakai:
 > Membuat daftar master formula headline
@@ -5717,7 +5717,7 @@ Master list formula headline lengkap.
 
 ---
 
-### P-281. Power Words Dictionary
+### P-281. Kamus Power Words
 
 Kapan pakai:
 > Membuat kamus power words
@@ -5734,7 +5734,7 @@ Power words dictionary lengkap.
 
 ---
 
-### P-282. Copy Editing Checklist
+### P-282. Checklist Penyuntingan Copy
 
 Kapan pakai:
 > Membuat checklist editing copy
@@ -5751,7 +5751,7 @@ Editing checklist lengkap.
 
 ---
 
-### P-283. Copy Swipe File Organizer
+### P-283. Pengelola Arsip Swipe File
 
 Kapan pakai:
 > Membuat sistem organisasi swipe file
@@ -5769,7 +5769,7 @@ Swipe file organizer system.
 
 ---
 
-### P-284. Copy Performance Analysis
+### P-284. Analisis Performa Copy
 
 Kapan pakai:
 > Menganalisis performa copy
@@ -5787,7 +5787,7 @@ Performance analysis dengan rekomendasi.
 
 ---
 
-### P-285. Competitor Copy Analysis
+### P-285. Analisis Copy Kompetitor
 
 Kapan pakai:
 > Menganalisis copy kompetitor
@@ -5806,7 +5806,7 @@ Competitor analysis dengan rekomendasi.
 
 ---
 
-### P-286. Copy Localization Guide
+### P-286. Panduan Lokalisasi Copy
 
 Kapan pakai:
 > Membuat panduan lokalisasi copy
@@ -5824,7 +5824,7 @@ Localization guide lengkap.
 
 ---
 
-### P-287. Accessibility Copy Guidelines
+### P-287. Pedoman Copy Aksesibilitas
 
 Kapan pakai:
 > Membuat panduan copy yang accessible
@@ -5842,7 +5842,7 @@ Accessibility guidelines lengkap.
 
 ---
 
-### P-288. Multilingual Copy Strategy
+### P-288. Strategi Copy Multibahasa
 
 Kapan pakai:
 > Membuat strategi copy multibahasa
@@ -5860,7 +5860,7 @@ Multilingual strategy lengkap.
 
 ---
 
-### P-289. Copy Testing Framework
+### P-289. Kerangka Pengujian Copy
 
 Kapan pakai:
 > Membuat framework testing copy
@@ -5879,7 +5879,7 @@ Testing framework lengkap.
 
 ---
 
-### P-290. Copy ROI Calculator
+### P-290. Kalkulator ROI Copy
 
 Kapan pakai:
 > Membuat calculator ROI copy
@@ -5897,7 +5897,7 @@ ROI calculator dengan formula dan contoh.
 
 ---
 
-### P-291. Copy Persona Development
+### P-291. Pengembangan Persona Copy
 
 Kapan pakai:
 > Membuat persona untuk copy
@@ -5917,7 +5917,7 @@ Copy persona lengkap dengan contoh copy.
 
 ---
 
-### P-292. Copy Messaging Hierarchy
+### P-292. Hierarki Pesan Copy
 
 Kapan pakai:
 > Membuat hierarki messaging
@@ -5935,7 +5935,7 @@ Messaging hierarchy lengkap.
 
 ---
 
-### P-293. Copy Tone Variation Guide
+### P-293. Panduan Variasi Nada Copy
 
 Kapan pakai:
 > Membuat panduan variasi tone
@@ -5953,7 +5953,7 @@ Tone variation guide lengkap.
 
 ---
 
-### P-294. Copy Framework Selection Guide
+### P-294. Panduan Memilih Kerangka Copy
 
 Kapan pakai:
 > Membuat panduan pemilihan framework copy
@@ -5972,7 +5972,7 @@ Framework selection guide lengkap.
 
 ---
 
-### P-295. Copy Optimization Playbook
+### P-295. Buku Panduan Optimasi Copy
 
 Kapan pakai:
 > Membuat playbook optimasi copy
@@ -5990,7 +5990,7 @@ Optimization playbook lengkap.
 
 ---
 
-### P-296. Copy Quality Assurance Checklist
+### P-296. Checklist Jaminan Mutu Copy
 
 Kapan pakai:
 > Membuat checklist quality assurance
@@ -6008,7 +6008,7 @@ QA checklist lengkap.
 
 ---
 
-### P-297. Copy Handoff Document
+### P-297. Dokumen Serah Terima Copy
 
 Kapan pakai:
 > Membuat dokumen handoff copy
@@ -6027,7 +6027,7 @@ Handoff document lengkap.
 
 ---
 
-### P-298. Copy Style Guide
+### P-298. Panduan Gaya Copy
 
 Kapan pakai:
 > Membuat style guide copy
@@ -6045,7 +6045,7 @@ Style guide lengkap.
 
 ---
 
-### P-299. Copy Performance Dashboard
+### P-299. Dasbor Performa Copy
 
 Kapan pakai:
 > Membuat dashboard performa copy
@@ -6063,7 +6063,7 @@ Performance dashboard template.
 
 ---
 
-### P-300. Copy Portfolio Presentation
+### P-300. Presentasi Portofolio Copy
 
 Kapan pakai:
 > Membuat presentasi portfolio copy
@@ -6086,14 +6086,14 @@ Portfolio presentation lengkap.
 
 | No | Kategori | Prompt |
 |----|----------|--------|
-| P-261 s/d P-264 | Testing | A/B testing headline, CTA, scarcity, urgency |
-| P-265 s/d P-269 | Psychological Triggers | Social proof, authority, reciprocity, commitment, liking |
-| P-270 s/d P-274 | Frameworks | Consistency, brand voice, emotional, logical, storytelling |
-| P-275 s/d P-279 | Strategy | Persuasion sequence, objection handling, value prop, journey, optimization |
-| P-280 s/d P-284 | Tools | Headline formulas, power words, editing checklist, swipe file, analysis |
-| P-285 s/d P-289 | Specialized | Competitor, localization, accessibility, multilingual, testing |
-| P-290 s/d P-294 | Advanced | ROI calculator, persona, messaging hierarchy, tone variation, framework selection |
-| P-295 s/d P-300 | Management | Optimization playbook, QA, handoff, style guide, dashboard, portfolio |
+| P-261 s/d P-264 | Pengujian | A/B testing headline, CTA, kelangkaan, urgensi |
+| P-265 s/d P-269 | Pemicu Psikologis | Social proof, otoritas, resiprositas, komitmen, kesukaan |
+| P-270 s/d P-274 | Kerangka | Konsistensi, gaya bahasa merek, emosional, logis, storytelling |
+| P-275 s/d P-279 | Strategi | Sekuens persuasi, penanganan keberatan, proposisi nilai, perjalanan pelanggan, optimasi |
+| P-280 s/d P-284 | Peralatan | Rumus headline, power words, checklist penyuntingan, swipe file, analisis |
+| P-285 s/d P-289 | Terkhusus | Kompetitor, lokalisasi, aksesibilitas, multibahasa, pengujian |
+| P-290 s/d P-294 | Tingkat Lanjut | Kalkulator ROI, persona, hierarki pesan, variasi nada, pemilihan kerangka |
+| P-295 s/d P-300 | Manajemen | Playbook optimasi, QA, serah terima, panduan gaya bahasa, dasbor, portofolio |
 
 ---
 
@@ -6127,9 +6127,9 @@ Solusi: Catat setiap test, hasil, dan pembelajaran untuk referensi masa depan.
 
 ### Lampiran A: Cara Memakai Workbook Excel Pendamping
 
-Workbook Excel yang accompanies buku ini berisi 4 sheet yang dirancang untuk membantu Anda mengimplementasikan 300 prompt secara praktis.
+Workbook Excel yang menyertai buku ini berisi 4 sheet yang dirancang untuk membantu Anda mengimplementasikan 300 prompt secara praktis.
 
-**Sheet 1: Library Prompt**
+**Sheet 1: Perpustakaan Prompt**
 
 Sheet ini berisi database lengkap 300 prompt dengan kolom:
 - Kode (P-001 hingga P-300)
@@ -6145,7 +6145,7 @@ Cara menggunakan:
 2. Copy prompt yang diinginkan
 3. Ganti variabel dalam kurung siku [...] dengan konteks bisnis Anda
 4. Paste ke AI tool pilihan Anda (ChatGPT, Claude, Gemini, dll)
-5. Refine hasil sesuai kebutuhan
+5. Perbaiki hasil sesuai kebutuhan
 
 **Sheet 2: Indeks Bab**
 
@@ -6591,17 +6591,17 @@ Selamat, Anda telah menyelesaikan "300 Prompt AI untuk Copywriting dan Iklan Dig
 **Apa yang sudah Anda pelajari:**
 
 1. **Copywriting Dasar (Bagian 1):** Fondasi copywriting yang solid, dari headline hingga storytelling
-2. **Iklan Media Sosial (Bagian 2):** Cara membuat konten yang engaging untuk setiap platform
+2. **Iklan Media Sosial (Bagian 2):** Cara membuat konten yang mengundang interaksi untuk setiap platform
 3. **Email Marketing (Bagian 3):** Strategi email yang meningkatkan open rate dan konversi
-4. **Landing Page dan Website (Bagian 4):** Copy yang mengoptimalkan user experience dan conversion
-5. **Konten Video dan Podcast (Bagian 5):** Script dan struktur untuk konten audio-visual
-6. **Advanced Copywriting (Bagian 6):** Teknik tingkat lanjut untuk copywriter profesional
+4. **Landing Page dan Website (Bagian 4):** Copy yang mengoptimalkan pengalaman pengguna dan konversi
+5. **Konten Video dan Podcast (Bagian 5):** Naskah dan struktur untuk konten audio-visual
+6. **Copywriting Tingkat Lanjut (Bagian 6):** Teknik tingkat lanjut untuk copywriter profesional
 
 **Langkah selanjutnya:**
 
 1. **Implementasi:** Pilih 5-10 prompt yang paling relevan dengan bisnis Anda dan mulai gunakan
-2. **Eksperimen:** Test berbagai variasi dan track hasilnya
-3. **Iterasi:** Refine prompt berdasarkan hasil yang Anda dapatkan
+2. **Eksperimen:** Uji berbagai variasi dan catat hasilnya
+3. **Iterasi:** Perbaiki prompt berdasarkan hasil yang Anda dapatkan
 4. **Dokumentasi:** Catat prompt mana yang paling efektif untuk bisnis Anda
 5. **Scale:** Bangun library prompt Anda sendiri berdasarkan pola yang berhasil
 
