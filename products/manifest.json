@@ -175,6 +175,84 @@
       "pages": 30,
       "producedAt": "2026-10-22T17:39:44.528Z",
       "status": "produced"
+    },
+    {
+      "slug": "200-template-sosmed-basic-basic",
+      "title": "200 Template AI untuk Social Media Management [BASIC]",
+      "tier": "basic",
+      "pricing": {
+        "normal": 49000,
+        "launch": 19000,
+        "flash": 10000
+      },
+      "outputs": [
+        {
+          "file": "products\\200-template-sosmed-basic-basic.pdf",
+          "kind": "pdf",
+          "bytes": 443765
+        },
+        {
+          "file": "products\\200-template-sosmed-basic-basic-flyer.pdf",
+          "kind": "flyer",
+          "bytes": 1032097
+        }
+      ],
+      "wordCount": 4230,
+      "pages": 24,
+      "producedAt": "2026-10-22T17:43:33.764Z",
+      "status": "produced"
+    },
+    {
+      "slug": "200-template-sosmed-premium-premium",
+      "title": "200 Template AI untuk Social Media Management [PREMIUM]",
+      "tier": "premium",
+      "pricing": {
+        "normal": 149000,
+        "launch": 69000,
+        "flash": 49000
+      },
+      "outputs": [
+        {
+          "file": "products\\200-template-sosmed-premium-premium.pdf",
+          "kind": "pdf",
+          "bytes": 477195
+        },
+        {
+          "file": "products\\200-template-sosmed-premium-premium-flyer.pdf",
+          "kind": "flyer",
+          "bytes": 1161759
+        }
+      ],
+      "wordCount": 4599,
+      "pages": 23,
+      "producedAt": "2026-10-22T17:46:09.373Z",
+      "status": "produced"
+    },
+    {
+      "slug": "200-template-sosmed-ultimate-ultimate",
+      "title": "200 Template AI untuk Social Media Management [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\200-template-sosmed-ultimate-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 374302
+        },
+        {
+          "file": "products\\200-template-sosmed-ultimate-ultimate-flyer.pdf",
+          "kind": "flyer",
+          "bytes": 1164472
+        }
+      ],
+      "wordCount": 3849,
+      "pages": 33,
+      "producedAt": "2026-10-22T17:48:48.650Z",
+      "status": "produced"
     }
   ]
 }
