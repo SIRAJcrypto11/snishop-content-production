@@ -107,48 +107,71 @@ class PDFGenerator {
   <meta charset="UTF-8" />
   <title>${title}</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
       background: #ffffff;
-      font-size: 12pt;
-      line-height: 1.7;
+      font-size: 11pt;
+      line-height: 1.6;
       color: #1f2937;
       padding: 0 10mm;
+      text-align: justify;
+      hyphens: auto;
     }
 
     h1 {
       color: #1E40AF;
       font-size: 24pt;
-      font-weight: 700;
+      font-weight: 800;
       margin-bottom: 16pt;
-      border-bottom: 2px solid #1E40AF;
+      border-bottom: 3px solid #1E40AF;
       padding-bottom: 8pt;
+      text-align: left;
+      page-break-after: avoid;
     }
 
     h2 {
       color: #7C3AED;
       font-size: 18pt;
-      font-weight: 600;
-      margin-top: 20pt;
+      font-weight: 700;
+      margin-top: 24pt;
       margin-bottom: 10pt;
+      text-align: left;
+      page-break-after: avoid;
     }
 
     h3 {
       color: #7C3AED;
       font-size: 14pt;
       font-weight: 600;
-      margin-top: 14pt;
+      margin-top: 16pt;
       margin-bottom: 8pt;
+      text-align: left;
+      page-break-after: avoid;
     }
 
-    p { margin-bottom: 10pt; }
+    h4 {
+      color: #1E40AF;
+      font-size: 12pt;
+      font-weight: 700;
+      margin-top: 12pt;
+      margin-bottom: 6pt;
+      text-align: left;
+      page-break-after: avoid;
+    }
+
+    p {
+      margin-bottom: 10pt;
+      text-align: justify;
+      orphans: 2;
+      widows: 2;
+    }
 
     ul, ol { margin-bottom: 10pt; padding-left: 20pt; }
-    li { margin-bottom: 4pt; }
+    li { margin-bottom: 4pt; text-align: justify; }
 
     code {
       font-family: 'Courier New', monospace;
@@ -168,6 +191,7 @@ class PDFGenerator {
       margin-bottom: 12pt;
       font-size: 10pt;
       line-height: 1.5;
+      page-break-inside: avoid;
     }
 
     pre code {
@@ -181,6 +205,7 @@ class PDFGenerator {
       border: 1px solid #d1d5db;
       border-radius: 4pt;
       margin: 10pt 0;
+      page-break-inside: avoid;
     }
 
     blockquote {
@@ -209,6 +234,7 @@ class PDFGenerator {
       width: 100%;
       border-collapse: collapse;
       margin-bottom: 12pt;
+      page-break-inside: avoid;
     }
 
     th, td {
@@ -221,6 +247,51 @@ class PDFGenerator {
       background: #1E40AF;
       color: #ffffff;
       font-weight: 600;
+    }
+
+    .section-divider {
+      page-break-before: always;
+      text-align: center;
+      padding: 40pt 0;
+    }
+
+    .section-divider h2 {
+      font-size: 28pt;
+      color: #1E40AF;
+      border: none;
+      margin: 0;
+    }
+
+    .prompt-block {
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 6pt;
+      padding: 10pt 12pt;
+      margin-bottom: 12pt;
+      page-break-inside: avoid;
+    }
+
+    .prompt-block h4 {
+      margin-top: 0;
+      color: #7C3AED;
+    }
+
+    .output-block {
+      background: #f0fdf4;
+      border-left: 3px solid #10B981;
+      padding: 8pt 12pt;
+      margin: 8pt 0 12pt 0;
+      border-radius: 0 4pt 4pt 0;
+      page-break-inside: avoid;
+    }
+
+    .output-block .label {
+      font-size: 9pt;
+      font-weight: 700;
+      color: #065F46;
+      text-transform: uppercase;
+      letter-spacing: 0.5pt;
+      margin-bottom: 4pt;
     }
   </style>
 </head>
@@ -244,8 +315,10 @@ class PDFGenerator {
    */
   getHeaderTemplate(content) {
     const title = content.title || 'SNISHOP Document';
-    return `<div style="font-family: 'Inter', sans-serif; font-size: 9pt; color: #6b7280; width: 100%; padding: 0 15mm; text-align: left;">
-      <span>${title}</span>
+    const tier = content.tier ? ` [${content.tier.toUpperCase()}]` : '';
+    return `<div style="font-family: 'Inter', sans-serif; font-size: 8pt; color: #9ca3af; width: 100%; padding: 0 15mm; display: flex; justify-content: space-between;">
+      <span>${title}${tier}</span>
+      <span>SNISHOP Digital Products</span>
     </div>`;
   }
 

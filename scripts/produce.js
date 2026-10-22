@@ -1,15 +1,19 @@
 #!/usr/bin/env node
 /**
- * Offline content production runner.
+ * Offline content production runner with multi-tier support.
  *
  * Takes a finished Markdown manuscript plus an optional companion-data JSON
- * and emits a sellable product folder: PDF, Excel, and a manifest entry.
+ * and emits sellable product folders: PDF, Excel, and flyer per tier.
  *
- * Deliberately avoids PostgreSQL / Redis / external LLM APIs so a product can
- * be produced on a machine that only has Node and the npm dependencies.
+ * Tiers:
+ *   basic     - Prompts only (Rp 19.000)
+ *   premium   - Prompts + real AI outputs + Excel workbook (Rp 69.000)
+ *   ultimate  - All premium + screenshots + automation guides (Rp 149.000)
  *
  * Usage:
- *   node scripts/produce.js --manuscript drafts/foo.md --data drafts/foo.xlsx.json
+ *   node scripts/produce.js --manuscript drafts/foo.md --tier premium --slug foo
+ *   node scripts/produce.js --manuscript drafts/foo.md --tier basic --flyer
+ *   node scripts/produce.js --manuscript drafts/foo.md --data foo.xlsx.json --tier premium
  */
 
 const fs = require('fs');
@@ -17,10 +21,18 @@ const path = require('path');
 const zlib = require('zlib');
 const PDFGenerator = require('../src/agents/design/PDFGenerator');
 const ExcelGenerator = require('../src/agents/design/ExcelGenerator');
+const FlyerGenerator = require('./generate-flyer');
 
 const ROOT = path.join(__dirname, '..');
 const PRODUCTS_DIR = path.join(ROOT, 'products');
 const MANIFEST_PATH = path.join(PRODUCTS_DIR, 'manifest.json');
+
+const VALID_TIERS = ['basic', 'premium', 'ultimate'];
+const TIER_PRICING = {
+  basic: { normal: 49000, launch: 19000, flash: 10000 },
+  premium: { normal: 149000, launch: 69000, flash: 49000 },
+  ultimate: { normal: 299000, launch: 149000, flash: 99000 },
+};
 
 function parseArgs(argv) {
   const args = {};
@@ -156,7 +168,13 @@ async function main() {
   const args = parseArgs(process.argv.slice(2));
 
   if (!args.manuscript) {
-    console.error('Usage: node scripts/produce.js --manuscript <file.md> [--data <file.json>] [--slug <name>]');
+    console.error('Usage: node scripts/produce.js --manuscript <file.md> [--data <file.json>] [--slug <name>] [--tier basic|premium|ultimate] [--flyer]');
+    process.exit(1);
+  }
+
+  const tier = args.tier || 'basic';
+  if (!VALID_TIERS.includes(tier)) {
+    console.error(`Invalid tier "${tier}". Must be one of: ${VALID_TIERS.join(', ')}`);
     process.exit(1);
   }
 
@@ -170,15 +188,16 @@ async function main() {
   const titleLine = markdown.match(/^#\s+(.+)$/m);
   const title = titleLine ? titleLine[1].trim() : path.basename(manuscriptPath, '.md');
   const slug = args.slug || title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const tierSlug = `${slug}-${tier}`;
 
   const violations = lintManuscript(markdown);
   if (violations.length > 0) {
-    console.error(`Lint failed for "${title}":`);
+    console.error(`Lint failed for "${title}" (${tier}):`);
     violations.forEach((v) => console.error(`  - ${v}`));
     process.exit(1);
   }
 
-  const pdfPath = path.join(PRODUCTS_DIR, `${slug}.pdf`);
+  const pdfPath = path.join(PRODUCTS_DIR, `${tierSlug}.pdf`);
   if (pdfPath.length > 240) {
     console.error(`Slug too long for a Windows-safe output path (${pdfPath.length} chars). Pass --slug with 40 characters or fewer.`);
     process.exit(1);
@@ -188,13 +207,13 @@ async function main() {
   const pdf = new PDFGenerator();
   const bodyMarkdown = markdown.replace(/^#\s+.+$/m, '');
   const renderSource = inlineImages(bodyMarkdown, path.dirname(manuscriptPath));
-  const pdfBuffer = await pdf.generate({ title, markdown: renderSource });
+  const pdfBuffer = await pdf.generate({ title: `${title} [${tier.toUpperCase()}]`, markdown: renderSource, tier });
   fs.writeFileSync(pdfPath, pdfBuffer);
 
   const outputs = [{ file: path.relative(ROOT, pdfPath), kind: 'pdf', bytes: pdfBuffer.length }];
   const pdfPages = countPdfPages(pdfBuffer);
 
-  if (args.data) {
+  if (args.data && (tier === 'premium' || tier === 'ultimate')) {
     const dataPath = path.resolve(args.data);
     if (!fs.existsSync(dataPath)) {
       console.error(`Companion data not found: ${dataPath}`);
@@ -203,16 +222,32 @@ async function main() {
     const workbookSpec = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
     const excel = new ExcelGenerator();
     const xlsxBuffer = await excel.generate(workbookSpec);
-    const xlsxPath = path.join(PRODUCTS_DIR, `${slug}.xlsx`);
+    const xlsxPath = path.join(PRODUCTS_DIR, `${tierSlug}.xlsx`);
     fs.writeFileSync(xlsxPath, xlsxBuffer);
     outputs.push({ file: path.relative(ROOT, xlsxPath), kind: 'excel', bytes: xlsxBuffer.length });
+  }
+
+  if (args.flyer) {
+    const flyerGen = new FlyerGenerator();
+    const pricing = TIER_PRICING[tier];
+    const flyerBuffer = await flyerGen.generate({
+      title,
+      tier,
+      pricing,
+      slug: tierSlug,
+    });
+    const flyerPath = path.join(PRODUCTS_DIR, `${tierSlug}-flyer.pdf`);
+    fs.writeFileSync(flyerPath, flyerBuffer);
+    outputs.push({ file: path.relative(ROOT, flyerPath), kind: 'flyer', bytes: flyerBuffer.length });
   }
 
   const wordCount = markdown.split(/\s+/).filter(Boolean).length;
   const manifest = readManifest();
   const entry = {
-    slug,
-    title,
+    slug: tierSlug,
+    title: `${title} [${tier.toUpperCase()}]`,
+    tier,
+    pricing: TIER_PRICING[tier],
     outputs,
     wordCount,
     pages: pdfPages,
@@ -220,12 +255,12 @@ async function main() {
     status: 'produced',
   };
 
-  const existingIndex = manifest.products.findIndex((p) => p.slug === slug);
+  const existingIndex = manifest.products.findIndex((p) => p.slug === tierSlug);
   if (existingIndex >= 0) manifest.products[existingIndex] = entry;
   else manifest.products.push(entry);
   writeManifest(manifest);
 
-  console.log(`Produced "${title}"`);
+  console.log(`Produced "${title}" [${tier.toUpperCase()}]`);
   outputs.forEach((o) => console.log(`  ${o.kind}: ${o.file} (${(o.bytes / 1024).toFixed(1)} KB)`));
   console.log(`  words: ${wordCount}, pages: ${pdfPages}`);
 }
