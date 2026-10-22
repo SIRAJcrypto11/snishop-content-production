@@ -31,7 +31,7 @@ Yang Anda dapatkan di edisi Ultimate:
 - Contoh output Gemini untuk prompt yang sama
 - Perbandingan kualitas antara kedua alat agar tahu kapan memakai yang mana
 - Berkas Excel pendamping dengan 150 baris prompt
-- Panduan otomasi 10 workflow bisnis langkah demi langkah
+- Panduan otomasi 10 alur kerja bisnis langkah demi langkah
 - Studi kasus 4 bisnis yang sudah menjalankan otomasi dengan prompt dari buku ini
 - Panduan penyelesaian 5 masalah otomasi yang paling sering muncul
 - Kode contoh Node.js, Python, dan PHP untuk integrasi khusus
@@ -77,9 +77,9 @@ Semua prompt dalam buku ini mengikuti standar kualitas ketat:
 const automation = `
 ## Panduan Otomasi Bisnis dengan AI
 
-Sepuluh workflow yang menghubungkan prompt dari buku ini ke alat kerja harian. Semua bisa dipasang dengan alat gratis atau murah. Untuk pemula, mulai dari workflow 1 dan 3.
+Sepuluh alur kerja yang menghubungkan prompt dari buku ini ke alat kerja harian. Semua bisa dipasang dengan alat gratis atau murah. Untuk pemula, mulai dari alur kerja 1 dan 3.
 
-### Workflow 1: Laporan Penjualan Mingguan dari Catatan Kas
+### Alur Kerja 1: Laporan Penjualan Mingguan dari Catatan Kas
 
 Alat yang dibutuhkan: Google Sheets, ChatGPT.
 
@@ -98,7 +98,7 @@ Berikut angka penjualan mingguan warung saya: pemasukan total {angka}, pengeluar
 
 Hasil yang diharapkan: laporan mingguan konsisten, tren terlihat sebelum masalah membesar.
 
-### Workflow 2: Pengingat Pesanan Ulang Bahan
+### Alur Kerja 2: Pengingat Pesanan Ulang Bahan
 
 Alat yang dibutuhkan: Google Sheets, pengingat HP.
 
@@ -117,7 +117,7 @@ Buatkan pesan WhatsApp singkat dan sopan ke pemasok {nama} untuk memesan bahan b
 
 Hasil yang diharapkan: tidak ada lagi kehabisan bahan mendadak, dan pemesanan terjadi pada angka, bukan pada perasaan.
 
-### Workflow 3: Tindak Lanjut Prospek Tertunda Otomatis
+### Alur Kerja 3: Tindak Lanjut Prospek Tertunda Otomatis
 
 Alat yang dibutuhkan: spreadsheet prospek, pengingat kalender.
 
@@ -132,7 +132,7 @@ Langkah pemasangan:
 
 Hasil yang diharapkan: prospek tidak pernah hilang karena lupa, dan Anda tahu berapa persen prospek yang bisa dihidupkan kembali.
 
-### Workflow 4: Draf Balasan Komplain dalam 2 Menit
+### Alur Kerja 4: Draf Balasan Komplain dalam 2 Menit
 
 Alat yang dibutuhkan: template dari P-092, catatan HP.
 
@@ -147,7 +147,7 @@ Langkah pemasangan:
 
 Hasil yang diharapkan: komplain tertangani dengan nada yang selalu sama baiknya, bahkan di hari yang melelahkan.
 
-### Workflow 5: Kalender Konten Bulanan Sekali Duduk
+### Alur Kerja 5: Kalender Konten Bulanan Sekali Duduk
 
 Alat yang dibutuhkan: Google Sheets, prompt P-062.
 
@@ -162,7 +162,7 @@ Langkah pemasangan:
 
 Hasil yang diharapkan: tidak ada lagi pertanyaan hari ini posting apa, pertanyaan yang paling melelahkan pemilik usaha.
 
-### Workflow 6: Pantauan Harga Pesaing Mingguan
+### Alur Kerja 6: Pantauan Harga Pesaing Mingguan
 
 Alat yang dibutuhkan: spreadsheet, prompt P-003.
 
@@ -176,7 +176,7 @@ Langkah pemasangan:
 
 Hasil yang diharapkan: keputusan harga berbasis data dua mingguan, bukan berbasis keluhan pelanggan terakhir.
 
-### Workflow 7: Rekap Pembukuan Bulanan Tanpa Akuntan
+### Alur Kerja 7: Rekap Pembukuan Bulanan Tanpa Akuntan
 
 Alat yang dibutuhkan: Google Sheets, prompt P-106 dan P-107.
 
@@ -191,7 +191,7 @@ Langkah pemasangan:
 
 Hasil yang diharapkan: pemilik tahu kondisi kas 3 bulan ke depan, bukan baru tahu saat kas menipis.
 
-### Workflow 8: Bank Ide Produk dari Keluhan Pelanggan
+### Alur Kerja 8: Bank Ide Produk dari Keluhan Pelanggan
 
 Alat yang dibutuhkan: spreadsheet ide, prompt P-016.
 
@@ -206,7 +206,7 @@ Langkah pemasangan:
 
 Hasil yang diharapkan: produk baru lahir dari kebutuhan nyata, bukan dari selera pribadi pemilik.
 
-### Workflow 9: Ringkasan Performa Karyawan Mingguan
+### Alur Kerja 9: Ringkasan Performa Karyawan Mingguan
 
 Alat yang dibutuhkan: spreadsheet tugas, prompt dari Bab 14.
 
@@ -221,9 +221,9 @@ Langkah pemasangan:
 
 Hasil yang diharapkan: tim kecil terkelola adil, dan kelelahan terlihat sebelum jadi resign.
 
-### Workflow 10: Persiapan Rapat Diri Sendiri Bulanan
+### Alur Kerja 10: Persiapan Rapat Diri Sendiri Bulanan
 
-Alat yang dibutuhkan: semua laporan dari workflow sebelumnya, prompt P-136.
+Alat yang dibutuhkan: semua laporan dari alur kerja sebelumnya, prompt P-136.
 
 Alur: sekali sebulan, semua angka dikumpulkan, dan satu rapat 30 menit dengan diri sendiri menghasilkan keputusan tertulis.
 
@@ -242,7 +242,7 @@ Hasil yang diharapkan: bisnis dipandu keputusan tertulis bulanan, bukan oleh urg
 
 Kondisi awal: pemilik mengerjakan pembukuan di akhir bulan dengan ingatan, sering kehabisan bahan tepung di hari ramai, dan konten hanya tayang saat mood baik.
 
-Yang dipasang: workflow 2 (pengingat bahan) di minggu pertama, workflow 5 (kalender konten) di minggu kedua, workflow 1 (laporan mingguan) di bulan kedua.
+Yang dipasang: alur kerja 2 (pengingat bahan) di minggu pertama, alur kerja 5 (kalender konten) di minggu kedua, alur kerja 1 (laporan mingguan) di bulan kedua.
 
 Hasil setelah 3 bulan:
 - Kehabisan bahan turun dari 4 kali sebulan menjadi nol.
@@ -255,7 +255,7 @@ Pelajaran: mulai dari otomasi yang menutup kebocoran uang (bahan), baru ke otoma
 
 Kondisi awal: prospek yang bertanya harga sering menghilang tanpa tindak lanjut, pemilik menyangka mereka sudah pilih pesaing.
 
-Yang dipasang: workflow 3 (tindak lanjut prospek) di minggu pertama, workflow 4 (draf komplain) di minggu kedua.
+Yang dipasang: alur kerja 3 (tindak lanjut prospek) di minggu pertama, alur kerja 4 (draf komplain) di minggu kedua.
 
 Hasil setelah 3 bulan:
 - Dari 96 prospek yang sempat menghilang, 31 kembali setelah pesan hari ke-3 dan ke-7.
@@ -268,7 +268,7 @@ Pelajaran: uang paling murah adalah uang yang sudah mengetuk pintu. Tindak lanju
 
 Kondisi awal: produk baru selalu lahir dari selera pemilik, dua produk terakhir gagal dijual, stok bahan sering lebih.
 
-Yang dipasang: workflow 8 (bank ide dari keluhan) di bulan pertama, workflow 6 (pantauan harga pesaing) di bulan kedua.
+Yang dipasang: alur kerja 8 (bank ide dari keluhan) di bulan pertama, alur kerja 6 (pantauan harga pesaing) di bulan kedua.
 
 Hasil setelah 3 bulan:
 - Dari 41 catatan keluhan, terkumpul 6 kandidat produk, satu diuji: paket makan siang keluarga.
@@ -281,7 +281,7 @@ Pelajaran: pelanggan sudah memberi tahu produk apa yang mereka mau, bisnis hanya
 
 Kondisi awal: uang warung dan uang rumah bercampur selama 4 tahun, pemilik tidak pernah tahu laba sebenarnya, harga menu belum pernah dihitung ulang.
 
-Yang dipasang: pemisahan rekening dari P-106 di minggu pertama, workflow 7 (pembukuan dan arus kas) di bulan pertama, workflow 10 (rapat bulanan) di bulan kedua.
+Yang dipasang: pemisahan rekening dari P-106 di minggu pertama, alur kerja 7 (pembukuan dan arus kas) di bulan pertama, alur kerja 10 (rapat bulanan) di bulan kedua.
 
 Hasil setelah 3 bulan:
 - Laba bersih yang terungkap: sebenarnya warung merugi tipis karena harga dua menu tidak menutup kenaikan harga bahan.
@@ -300,9 +300,9 @@ Solusi: kunci konteks. Simpan versi prompt yang sudah terbukti bersama nilai var
 
 ### Masalah 2: Otomasi Berjalan, Tetapi Tidak Ada yang Memakai Hasilnya
 
-Penyebab: workflow dibangun karena terdengar canggih, bukan karena menjawab masalah nyata.
+Penyebab: alur kerja dibangun karena terdengar canggih, bukan karena menjawab masalah nyata.
 
-Solusi: satu aturan, satu pemakai. Setiap workflow harus punya satu orang yang memakai hasilnya setiap minggu dengan nama jelas. Bila setelah 3 minggu tidak ada yang membuka hasilnya, matikan workflow. Otomasi mati yang tak dipakai hanya menumpuk tab di browser.
+Solusi: satu aturan, satu pemakai. Setiap alur kerja harus punya satu orang yang memakai hasilnya setiap minggu dengan nama jelas. Bila setelah 3 minggu tidak ada yang membuka hasilnya, matikan alur kerja. Otomasi mati yang tak dipakai hanya menumpuk tab di browser.
 
 ### Masalah 3: Data di Spreadsheet Berantakan dan Rumus Gagal
 
@@ -318,9 +318,9 @@ Solusi: audit kurung. Sebelum menekan kirim, cari tanda kurung kurawal di prompt
 
 ### Masalah 5: Semangat Otomasi Padam Setelah Bulan Pertama
 
-Penyebab: terlalu banyak workflow dipasang sekaligus, semuanya setengah jalan.
+Penyebab: terlalu banyak alur kerja dipasang sekaligus, semuanya setengah jalan.
 
-Solusi: satu workflow per dua minggu, maksimal 20 menit kerja per minggu, dan satu pemilik yang jelas. Rutinitas otomasi yang baik terasa seperti menyapu lantai: ringan, terjadwal, dan hasilnya terlihat. Bila terasa seperti proyek besar, kecilkan sampai terasa ringan.
+Solusi: satu alur kerja per dua minggu, maksimal 20 menit kerja per minggu, dan satu pemilik yang jelas. Rutinitas otomasi yang baik terasa seperti menyapu lantai: ringan, terjadwal, dan hasilnya terlihat. Bila terasa seperti proyek besar, kecilkan sampai terasa ringan.
 
 ## Integrasi Khusus dengan Kode
 
@@ -466,29 +466,29 @@ Peringatan keamanan: kunci API hanya disimpan di variabel lingkungan server Anda
 Tandai tiap langkah yang selesai. Satu blok per minggu bila waktu terbatas.
 
 MINGGU 1: KEUNTUNGAN PERTAMA
-- [ ] Laporan penjualan mingguan (workflow 1) berjalan dua kali
-- [ ] Spreadsheet stok dengan titik pesan (workflow 2) terisi lengkap
+- [ ] Laporan penjualan mingguan (alur kerja 1) berjalan dua kali
+- [ ] Spreadsheet stok dengan titik pesan (alur kerja 2) terisi lengkap
 - [ ] Satu pesanan bahan dilakukan karena baris merah, bukan karena kehabisan
 
 MINGGU 2: PENJUALAN
-- [ ] Spreadsheet prospek (workflow 3) berjalan, status tiap prospek terisi
+- [ ] Spreadsheet prospek (alur kerja 3) berjalan, status tiap prospek terisi
 - [ ] Pesan tindak lanjut hari ke-3 terkirim untuk semua prospek yang menghilang minggu lalu
-- [ ] Template komplain (workflow 4) tersimpan di catatan HP
+- [ ] Template komplain (alur kerja 4) tersimpan di catatan HP
 
 MINGGU 3: KONTEN DAN HARGA
-- [ ] Kalender konten 30 hari (workflow 5) tersusun dan terisi
-- [ ] Sheet harga pesaing (workflow 6) terisi minggu pertama
+- [ ] Kalender konten 30 hari (alur kerja 5) tersusun dan terisi
+- [ ] Sheet harga pesaing (alur kerja 6) terisi minggu pertama
 - [ ] Satu konten tayang dari kalender, bukan dari mood
 
 MINGGU 4: KEPUTUSAN
-- [ ] Pembukuan bulan pertama (workflow 7) selesai dengan dua rekening yang benar
-- [ ] Bank ide dari keluhan (workflow 8) berisi minimal 10 catatan
-- [ ] Rapat diri sendiri pertama (workflow 10) menghasilkan 3 keputusan tertulis
+- [ ] Pembukuan bulan pertama (alur kerja 7) selesai dengan dua rekening yang benar
+- [ ] Bank ide dari keluhan (alur kerja 8) berisi minimal 10 catatan
+- [ ] Rapat diri sendiri pertama (alur kerja 10) menghasilkan 3 keputusan tertulis
 
 MASA DEPAN
-- [ ] Workflow 9 dipakai bila tim mulai lebih dari satu orang
+- [ ] Alur Kerja 9 dipakai bila tim mulai lebih dari satu orang
 - [ ] Integrasi kode dipertimbangkan bila volume laporan melebihi 20 lembar per bulan
-- [ ] Workflow yang tidak dipakai 3 minggu dimatikan tanpa penyesalan
+- [ ] Alur Kerja yang tidak dipakai 3 minggu dimatikan tanpa penyesalan
 
 `;
 
@@ -502,7 +502,7 @@ const ultimate = frontMatter + bodyBefore + automation.trimStart() + bodyAfter;
 fs.writeFileSync(ultimatePath, ultimate);
 
 const prompts = (ultimate.match(/^### P-\d+\./gm) || []).length;
-const workflows = (ultimate.match(/^### Workflow \d+/gm) || []).length;
+const workflows = (ultimate.match(/^### Alur Kerja \d+/gm) || []).length;
 console.log(`Ultimate rebuilt: ${prompts} prompt headers, ${workflows} workflows, ${ultimate.length} chars`);
 
 const lint = [];

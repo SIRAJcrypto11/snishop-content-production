@@ -13,12 +13,12 @@
         {
           "file": "products\\150-prompt-umkm-basic-basic.pdf",
           "kind": "pdf",
-          "bytes": 1688410
+          "bytes": 1688413
         }
       ],
-      "wordCount": 25118,
+      "wordCount": 25119,
       "pages": 82,
-      "producedAt": "2026-10-22T21:13:57.204Z",
+      "producedAt": "2026-10-22T21:36:57.659Z",
       "status": "produced"
     },
     {
@@ -34,7 +34,7 @@
         {
           "file": "products\\150-prompt-umkm-premium-premium.pdf",
           "kind": "pdf",
-          "bytes": 1971636
+          "bytes": 1971637
         },
         {
           "file": "products\\150-prompt-umkm-premium-premium.xlsx",
@@ -42,9 +42,9 @@
           "bytes": 53397
         }
       ],
-      "wordCount": 32916,
+      "wordCount": 32917,
       "pages": 110,
-      "producedAt": "2026-10-22T21:14:05.541Z",
+      "producedAt": "2026-10-22T21:37:49.431Z",
       "status": "produced"
     },
     {
@@ -60,7 +60,7 @@
         {
           "file": "products\\150-prompt-umkm-ultimate-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 2106085
+          "bytes": 2105779
         },
         {
           "file": "products\\150-prompt-umkm-ultimate-ultimate.xlsx",
@@ -68,9 +68,9 @@
           "bytes": 53397
         }
       ],
-      "wordCount": 35706,
+      "wordCount": 35746,
       "pages": 120,
-      "producedAt": "2026-10-22T21:14:13.740Z",
+      "producedAt": "2026-10-22T21:37:59.417Z",
       "status": "produced"
     },
     {
@@ -86,12 +86,12 @@
         {
           "file": "products\\300-prompt-copywriting-basic-basic.pdf",
           "kind": "pdf",
-          "bytes": 3257822
+          "bytes": 3261477
         }
       ],
-      "wordCount": 37819,
+      "wordCount": 37864,
       "pages": 197,
-      "producedAt": "2026-10-22T21:14:30.166Z",
+      "producedAt": "2026-10-22T21:38:18.355Z",
       "status": "produced"
     },
     {
@@ -107,7 +107,7 @@
         {
           "file": "products\\300-prompt-copywriting-premium-premium.pdf",
           "kind": "pdf",
-          "bytes": 3360103
+          "bytes": 3363907
         },
         {
           "file": "products\\300-prompt-copywriting-premium-premium.xlsx",
@@ -115,9 +115,9 @@
           "bytes": 66465
         }
       ],
-      "wordCount": 40434,
+      "wordCount": 40479,
       "pages": 209,
-      "producedAt": "2026-10-22T21:14:38.867Z",
+      "producedAt": "2026-10-22T21:38:27.785Z",
       "status": "produced"
     },
     {
@@ -133,17 +133,17 @@
         {
           "file": "products\\300-prompt-copywriting-ultimate-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 3518677
+          "bytes": 3522037
         },
         {
           "file": "products\\300-prompt-copywriting-ultimate-ultimate.xlsx",
           "kind": "excel",
-          "bytes": 66466
+          "bytes": 66465
         }
       ],
-      "wordCount": 42647,
+      "wordCount": 42720,
       "pages": 220,
-      "producedAt": "2026-10-22T21:14:48.552Z",
+      "producedAt": "2026-10-22T21:38:39.276Z",
       "status": "produced"
     },
     {
@@ -159,12 +159,12 @@
         {
           "file": "products\\200-template-sosmed-basic-basic.pdf",
           "kind": "pdf",
-          "bytes": 2311631
+          "bytes": 2311019
         }
       ],
-      "wordCount": 25847,
+      "wordCount": 25882,
       "pages": 130,
-      "producedAt": "2026-10-22T21:15:01.602Z",
+      "producedAt": "2026-10-22T21:38:54.061Z",
       "status": "produced"
     },
     {
@@ -180,17 +180,17 @@
         {
           "file": "products\\200-template-sosmed-premium-premium.pdf",
           "kind": "pdf",
-          "bytes": 2474723
+          "bytes": 2474407
         },
         {
           "file": "products\\200-template-sosmed-premium-premium.xlsx",
           "kind": "excel",
-          "bytes": 73666
+          "bytes": 73523
         }
       ],
-      "wordCount": 32284,
+      "wordCount": 32319,
       "pages": 152,
-      "producedAt": "2026-10-22T21:15:11.333Z",
+      "producedAt": "2026-10-22T21:39:02.754Z",
       "status": "produced"
     },
     {
@@ -206,17 +206,17 @@
         {
           "file": "products\\200-template-sosmed-ultimate-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 2617492
+          "bytes": 2616906
         },
         {
           "file": "products\\200-template-sosmed-ultimate-ultimate.xlsx",
           "kind": "excel",
-          "bytes": 73666
+          "bytes": 73523
         }
       ],
-      "wordCount": 35267,
+      "wordCount": 35344,
       "pages": 163,
-      "producedAt": "2026-10-22T21:15:20.344Z",
+      "producedAt": "2026-10-22T21:39:12.108Z",
       "status": "produced"
     }
   ]

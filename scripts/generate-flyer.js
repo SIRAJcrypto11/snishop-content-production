@@ -69,10 +69,10 @@ function getTierWhatsInside(tier, title) {
   const { n, kind } = getProductShape(title);
   const kindLower = kind.toLowerCase();
   const workflowClaim = /Copywriting|Iklan/i.test(title)
-    ? '10 workflow otomasi konten dengan Make.com, Zapier, dan n8n'
+    ? '10 alur kerja otomasi konten dengan Make.com, Zapier, dan n8n'
     : /Template|Social Media/i.test(title)
-      ? '10 workflow otomasi media sosial dari bank caption sampai laporan performa'
-      : '10 workflow otomasi pekerjaan bisnis harian berbasis Google Sheets';
+      ? '10 alur kerja otomasi media sosial dari bank caption sampai laporan performa'
+      : '10 alur kerja otomasi pekerjaan bisnis harian berbasis Google Sheets';
   const contents = {
     basic: [
       `${n} ${kindLower} AI siap pakai, terorganisir per kategori`,

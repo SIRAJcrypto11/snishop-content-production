@@ -110,7 +110,7 @@ Empat alat di bawah ini yang paling sering dipakai pelaku usaha di Indonesia. Ka
 
 | Alat | Kuat untuk | Kurang kuat untuk | Kebiasaan pakai yang disarankan |
 |---|---|---|---|
-| ChatGPT | Perencanaan harian, copywriting pendek, brainstorming nama dan penawaran | Verifikasi angka panjang tanpa Anda cek ulang | Kirim satu tugas per sesi, simpan sesi per kasus |
+| ChatGPT | Perencanaan harian, copywriting pendek, curah gagasan nama dan penawaran | Verifikasi angka panjang tanpa Anda cek ulang | Kirim satu tugas per sesi, simpan sesi per kasus |
 | Claude | Dokumen panjang, merapikan standar operasional, menganalisis laporan yang Anda tempel | Tugas sangat pendek dan cepat | Tempel dokumen utuh, minta tabel ringkasan |
 | Gemini | Riset yang butuh data terkini, terhubung ke Sheets dan Docs | Nuansa bahasa Indonesia yang sangat lokal | Minta sumber, lalu cek sendiri angkanya |
 | Copilot | Ringkasan email dan dokumen kantor, pekerjaan di dalam Microsoft 365 | Perencanaan strategis yang dalam | Pakai untuk pekerjaan administratif berulang |

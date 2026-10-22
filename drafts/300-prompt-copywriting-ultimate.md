@@ -9,7 +9,7 @@ Pendamping: Berkas Excel 300 baris prompt siap saring dan kolom pelacakan pemaka
 
 ## Tentang Edisi Ultimate
 
-Edisi Ultimate berisi semua 300 prompt dari edisi Basic, contoh output nyata dari ChatGPT dan Gemini, plus panduan otomasi untuk mengintegrasikan AI ke dalam workflow bisnis Anda. Anda tidak hanya mendapat prompt, tapi juga cara mengotomasi produksi konten dengan Make.com, Zapier, dan n8n.
+Edisi Ultimate berisi semua 300 prompt dari edisi Basic, contoh output nyata dari ChatGPT dan Gemini, plus panduan otomasi untuk mengintegrasikan AI ke dalam alur kerja bisnis Anda. Anda tidak hanya mendapat prompt, tapi juga cara mengotomasi produksi konten dengan Make.com, Zapier, dan n8n.
 
 Yang Anda dapatkan di edisi Ultimate:
 - Semua 300 prompt dengan teks lengkap
@@ -18,9 +18,9 @@ Yang Anda dapatkan di edisi Ultimate:
 - Perbandingan kualitas antara kedua alat
 - Catatan kapan harus pakai ChatGPT vs Gemini
 - Berkas Excel pendamping dengan 300 baris prompt
-- Panduan otomasi Make.com untuk 10 workflow konten
-- Panduan otomasi Zapier untuk 10 workflow konten
-- Panduan otomasi n8n untuk 10 workflow konten
+- Panduan otomasi Make.com untuk 10 alur kerja konten
+- Panduan otomasi Zapier untuk 10 alur kerja konten
+- Panduan otomasi n8n untuk 10 alur kerja konten
 - Template kode Node.js, Python, dan PHP untuk custom integration
 - Studi kasus 4 bisnis yang sudah mengotomasi konten mereka
 - Troubleshooting guide untuk integrasi AI
@@ -151,7 +151,7 @@ Kapan pakai:
 Variabel:
 - [PRODUK]: nama produk atau layanan
 - [DISKON]: penawaran khusus jika ada
-- [BATAS_WAKTU]: deadline penawaran
+- [BATAS_WAKTU]: batas waktu penawaran
 
 Prompt:
 > Buat 10 variasi call-to-action untuk [PRODUK] dengan [DISKON] yang berlaku hingga [BATAS_WAKTU]. Lima variasi menggunakan kata kerja imperatif (Beli, Dapatkan, Pesan). Lima variasi menggunakan pertanyaan retoris atau pernyataan manfaat. Setiap CTA maksimal 8 kata. Hindari kata "sekarang" yang berlebihan.
@@ -373,7 +373,7 @@ Kapan pakai:
 > Mengubah spesifikasi teknis menjadi bahasa manfaat
 
 Variabel:
-- [FITUR_TEKNIS]: spesifikasi atau fitur teknis produk
+- [FITUR_TEKNIS_1] sampai [FITUR_TEKNIS_5]: lima spesifikasi atau fitur teknis produk yang akan diterjemahkan
 - [TARGET_AUDIENCE]: siapa yang membaca (teknis atau awam)
 
 Prompt:
@@ -435,7 +435,7 @@ Kapan pakai:
 Variabel:
 - [PRODUK]: nama produk
 - [DISKON]: besaran diskon atau penawaran
-- [BATAS_WAKTU]: deadline penawaran
+- [BATAS_WAKTU]: batas waktu penawaran
 - [ALASAN_PENAWARAN]: mengapa penawaran ini diberikan
 
 Prompt:
@@ -813,10 +813,10 @@ Variabel:
 - [ALASAN_DEADLINE]: mengapa ada batas waktu
 
 Prompt:
-> Tulis konten 120-150 kata untuk [PENAWARAN] dengan [DEADLINE]. Jelaskan [ALASAN_DEADLINE] secara transparan. Hitung waktu tersisa atau langkah yang harus diambil. Berikan call-to-action yang jelas. Hindari tekanan berlebihan atau deadline palsu. Gunakan bahasa yang mendesak namun tetap profesional.
+> Tulis konten 120-150 kata untuk [PENAWARAN] dengan [DEADLINE]. Jelaskan [ALASAN_DEADLINE] secara transparan. Hitung waktu tersisa atau langkah yang harus diambil. Berikan call-to-action yang jelas. Hindari tekanan berlebihan atau batas waktu palsu. Gunakan bahasa yang mendesak namun tetap profesional.
 
 Hasil yang diharapkan:
-Konten 120-150 kata yang menciptakan urgensi melalui deadline legitimate dan transparan.
+Konten 120-150 kata yang menciptakan urgensi melalui batas waktu yang sah dan transparan.
 
 ---
 
@@ -979,10 +979,10 @@ Variabel:
 - [REKOMENDASI]: rekomendasi atau kesimpulan
 
 Prompt:
-> Tulis executive summary untuk [DOKUMEN] dengan [TUJUAN_DOKUMEN]. Soroti [POIN_PENTING] sebagai informasi kunci. Sertakan [REKOMENDASI] sebagai kesimpulan. Gunakan bahasa yang ringkas dan langsung pada inti. Struktur: (1) Tujuan dan latar belakang (2 kalimat), (2) Poin-poin penting (3-5 bullet), (3) Rekomendasi atau kesimpulan (2-3 kalimat). Total 250-300 kata.
+> Tulis ringkasan eksekutif untuk [DOKUMEN] dengan [TUJUAN_DOKUMEN]. Soroti [POIN_PENTING] sebagai informasi kunci. Sertakan [REKOMENDASI] sebagai kesimpulan. Gunakan bahasa yang ringkas dan langsung pada inti. Struktur: (1) Tujuan dan latar belakang (2 kalimat), (2) Poin-poin penting (3-5 bullet), (3) Rekomendasi atau kesimpulan (2-3 kalimat). Total 250-300 kata.
 
 Hasil yang diharapkan:
-Executive summary 250-300 kata dengan struktur tujuan-poin-rekomendasi yang ringkas.
+Ringkasan eksekutif 250-300 kata dengan struktur tujuan-poin-rekomendasi yang ringkas.
 
 ---
 
@@ -1493,7 +1493,7 @@ Variabel:
 - [PRODUK_LAYANAN]: produk atau layanan
 - [PENAWARAN]: penawaran khusus
 - [TARGET_AUDIENCE]: siapa target penerima
-- [BATAS_WAKTU]: deadline penawaran
+- [BATAS_WAKTU]: batas waktu penawaran
 
 Prompt:
 > Buat 3 variasi pesan broadcast WhatsApp untuk [PRODUK_LAYANAN] dengan [PENAWARAN] untuk [TARGET_AUDIENCE] hingga [BATAS_WAKTU]. Setiap pesan harus: (1) Pembuka yang personal (gunakan sapaan), (2) Isi 2-3 kalimat yang menjelaskan penawaran, (3) CTA yang jelas (balas pesan, klik link, atau hubungi nomor), (4) Penutup yang sopan. Total 50-80 kata per pesan. Hindari bahasa yang terlalu formal atau salesy. WhatsApp butuh pendekatan personal.
@@ -1630,7 +1630,7 @@ Prompt:
 > Buat pengumuman Instagram Live untuk [TOPIK_LIVE] dengan [NARASUMBER] pada [WAKTU_LIVE] yang akan memberikan [MANFAAT]. Buat 3 variasi: (1) Postingan feed dengan caption 100-120 kata, (2) Story 3 slide dengan teks total 60-80 kata, (3) Reminder H-1 dengan caption 80-100 kata. Setiap variasi harus: (a) Menjelaskan topik dan narasumber, (b) Menyebutkan waktu dengan jelas, (c) Memberikan alasan mengapa harus menonton, (d) CTA untuk set reminder atau share. Gunakan countdown sticker untuk story.
 
 Hasil yang diharapkan:
-Tiga variasi pengumuman (feed, story, reminder) dengan informasi lengkap.
+Tiga variasi pengumuman (feed, story, pengingat) dengan informasi lengkap.
 
 ---
 
@@ -1647,10 +1647,10 @@ Variabel:
 - [PLATFORM]: platform yang digunakan
 
 Prompt:
-> Buat pengumuman kontes [JENIS_KONTES] di [PLATFORM] dengan [HADIAH] dan [SYARAT] hingga [DEADLINE]. Struktur: (1) Headline yang menarik perhatian ("GIVEAWAY!", "KONTES BERBAUANG!", dll), (2) Penjelasan hadiah dengan detail, (3) Syarat mengikuti dalam format numbered list, (4) Deadline dan cara pengumuman pemenang, (5) CTA untuk mengikuti dan share. Total 150-200 kata. Pastikan syarat jelas dan tidak ambigu. Gunakan emoji untuk membuat postingan lebih menarik.
+> Buat pengumuman kontes [JENIS_KONTES] di [PLATFORM] dengan [HADIAH] dan [SYARAT] hingga [DEADLINE]. Struktur: (1) Headline yang menarik perhatian ("GIVEAWAY!", "KONTES BERBAUANG!", dll), (2) Penjelasan hadiah dengan detail, (3) Syarat mengikuti dalam format numbered list, (4) Batas waktu dan cara pengumuman pemenang, (5) CTA untuk mengikuti dan share. Total 150-200 kata. Pastikan syarat jelas dan tidak ambigu. Gunakan emoji untuk membuat postingan lebih menarik.
 
 Hasil yang diharapkan:
-Pengumuman 150-200 kata dengan headline, hadiah, syarat, deadline, dan CTA.
+Pengumuman 150-200 kata dengan headline, hadiah, syarat, batas waktu, dan CTA.
 
 ---
 
@@ -1666,7 +1666,7 @@ Variabel:
 - [HASHTAG_BRAND]: hashtag brand yang harus digunakan
 
 Prompt:
-> Buat permintaan UGC untuk [PRODUK] dengan meminta [JENIS_KONTEN] dan memberikan [INSENTIF] menggunakan [HASHTAG_BRAND]. Struktur: (1) Pembuka yang menjelaskan mengapa brand menghargai pelanggan, (2) Penjelasan jenis konten yang diminta dengan contoh, (3) Insentif yang akan didapat, (4) Cara berpartisipasi (tag, hashtag, kirim DM), (5) Deadline jika ada. Total 120-150 kata. Gunakan bahasa yang apresiatif dan tidak memaksa.
+> Buat permintaan UGC untuk [PRODUK] dengan meminta [JENIS_KONTEN] dan memberikan [INSENTIF] menggunakan [HASHTAG_BRAND]. Struktur: (1) Pembuka yang menjelaskan mengapa brand menghargai pelanggan, (2) Penjelasan jenis konten yang diminta dengan contoh, (3) Insentif yang akan didapat, (4) Cara berpartisipasi (tag, hashtag, kirim DM), (5) Batas waktu jika ada. Total 120-150 kata. Gunakan bahasa yang apresiatif dan tidak memaksa.
 
 Hasil yang diharapkan:
 Permintaan 120-150 kata yang jelas dan apresiatif.
@@ -1742,10 +1742,10 @@ Variabel:
 - [INSIGHT]: insight atau pelajaran dari data
 
 Prompt:
-> Buat ringkasan laporan analitik [PERIODE] dengan [METRIK_UTAMA], [PERUBAHAN], dan [INSIGHT]. Struktur: (1) Overview performa keseluruhan dalam 2-3 kalimat, (2) Highlight metrik terbaik dengan angka spesifik, (3) Area yang perlu perbaikan dengan data pendukung, (4) Insight utama dan pelajaran yang didapat, (5) Rekomendasi untuk periode berikutnya. Total 250-300 kata. Gunakan bahasa yang jelas dan actionable.
+> Buat ringkasan laporan analitik [PERIODE] dengan [METRIK_UTAMA], [PERUBAHAN], dan [INSIGHT]. Struktur: (1) Ringkasan performa keseluruhan dalam 2-3 kalimat, (2) Sorotan metrik terbaik dengan angka spesifik, (3) Area yang perlu perbaikan dengan data pendukung, (4) Insight utama dan pelajaran yang didapat, (5) Rekomendasi untuk periode berikutnya. Total 250-300 kata. Gunakan bahasa yang jelas dan bisa langsung ditindaklanjuti.
 
 Hasil yang diharapkan:
-Ringkasan 250-300 kata dengan overview, highlight, area perbaikan, insight, dan rekomendasi.
+Ringkasan 250-300 kata dengan gambaran umum, sorotan, area perbaikan, insight, dan rekomendasi.
 
 ---
 
@@ -1782,7 +1782,7 @@ Prompt:
 > Buat 3 variasi copy retargeting ad untuk [PRODUK] dengan asumsi [ALASAN_TIDAK_KONVERSI], menawarkan [INSENTIF], dan menambahkan [URGENCY]. Setiap copy harus: (1) Mengingatkan tentang produk yang dilihat, (2) Menawarkan insentif atau solusi atas keraguan, (3) Menciptakan urgensi untuk bertindak sekarang, (4) CTA yang jelas. Total 80-100 kata per variasi. Gunakan bahasa yang personal dan tidak agresif.
 
 Hasil yang diharapkan:
-Tiga variasi 80-100 kata dengan reminder, insentif, urgency, dan CTA.
+Tiga variasi 80-100 kata dengan pengingat, insentif, urgensi, dan CTA.
 
 ---
 
@@ -1797,10 +1797,10 @@ Variabel:
 - [VALUE_PROPOSITION]: nilai utama yang ditawarkan
 
 Prompt:
-> Buat copy iklan untuk lookalike audience yang mirip dengan [CUSTOMER_PROFILE] untuk [PRODUK_LAYANAN] dengan [VALUE_PROPOSITION]. Pesan harus: (1) Berasumsi bahwa audiens sudah memiliki karakteristik serupa dengan pelanggan terbaik, (2) Menyoroti value proposition yang paling relevan dengan profil tersebut, (3) Menggunakan bahasa dan tone yang sesuai dengan demografis target, (4) Social proof yang relevan. Total 120-150 kata.
+> Buat copy iklan untuk audiens lookalike yang mirip dengan [CUSTOMER_PROFILE] untuk [PRODUK_LAYANAN] dengan [VALUE_PROPOSITION]. Pesan harus: (1) Berasumsi bahwa audiens sudah memiliki karakteristik serupa dengan pelanggan terbaik, (2) Menyoroti value proposition yang paling relevan dengan profil tersebut, (3) Menggunakan bahasa dan tone yang sesuai dengan demografis target, (4) Social proof yang relevan. Total 120-150 kata.
 
 Hasil yang diharapkan:
-Copy 120-150 kata yang ditargetkan untuk lookalike audience.
+Copy 120-150 kata yang ditargetkan untuk audiens lookalike.
 
 ---
 
@@ -1852,7 +1852,7 @@ Variabel:
 - [JUMLAH_VARIASI]: berapa banyak konten turunan yang diinginkan
 
 Prompt:
-> Buat rencana repurposing [KONTEN_ASAL] untuk [PLATFORM_TUJUAN] dengan [JUMLAH_VARIASI] konten turunan. Untuk setiap platform, tentukan: (1) Format konten (carousel, reel, thread, dll), (2) Bagian mana dari konten asal yang akan digunakan, (3) Penyesuaian yang perlu dilakukan (panjang, tone, format), (4) Timeline posting. Buat tabel yang memudahkan eksekusi.
+> Buat rencana repurposing [KONTEN_ASAL] untuk [PLATFORM_TUJUAN] dengan [JUMLAH_VARIASI] konten turunan. Untuk setiap platform, tentukan: (1) Format konten (carousel, reel, thread, dll), (2) Bagian mana dari konten asal yang akan digunakan, (3) Penyesuaian yang perlu dilakukan (panjang, tone, format), (4) Linimasa posting. Buat tabel yang memudahkan eksekusi.
 
 Hasil yang diharapkan:
 Tabel repurposing plan dengan detail per platform.
@@ -2042,7 +2042,7 @@ Variabel:
 - [TUJUAN]: tujuan campaign
 
 Prompt:
-> Buat strategi promosi lintas platform untuk [CAMPAIGN] di [PLATFORM] yang menargetkan [TARGET_AUDIENCE] dengan tujuan [TUJUAN]. Untuk setiap platform: (1) Peran platform dalam strategi, (2) Jenis konten yang sesuai, (3) Frekuensi posting, (4) Caption atau naskah singkat (50-80 kata), (5) Hashtag atau kata kunci, (6) Timeline posting. Pastikan pesan konsisten namun disesuaikan dengan karakteristik setiap platform.
+> Buat strategi promosi lintas platform untuk [CAMPAIGN] di [PLATFORM] yang menargetkan [TARGET_AUDIENCE] dengan tujuan [TUJUAN]. Untuk setiap platform: (1) Peran platform dalam strategi, (2) Jenis konten yang sesuai, (3) Frekuensi posting, (4) Caption atau naskah singkat (50-80 kata), (5) Hashtag atau kata kunci, (6) Linimasa posting. Pastikan pesan konsisten namun disesuaikan dengan karakteristik setiap platform.
 
 Hasil yang diharapkan:
 Strategi lintas platform dengan detail per platform.
@@ -2336,19 +2336,19 @@ Auto-response 60-80 kata yang helpful dan friendly.
 ### P-116. Pilar Konten Media Sosial
 
 Kapan pakai:
-> Merencanakan content pillar untuk media sosial
+> Merencanakan pilar konten untuk media sosial
 
 Variabel:
 - [BRAND]: nama brand
 - [INDUSTRI]: industri bisnis
 - [TARGET_AUDIENCE]: siapa target audiens
-- [TUJUAN]: tujuan content marketing
+- [TUJUAN]: tujuan pemasaran konten
 
 Prompt:
-> Buat 5 content pillar untuk [BRAND] di [INDUSTRI] yang menargetkan [TARGET_AUDIENCE] dengan tujuan [TUJUAN]. Untuk setiap pillar: (1) Nama pillar, (2) Deskripsi 1-2 kalimat, (3) Jenis konten yang sesuai (edukasi, promosi, engagement, BTS, UGC), (4) Frekuensi posting per minggu, (5) Contoh 3 ide konten. Pastikan pillar seimbang dan mencakup seluruh funnel (awareness, consideration, conversion).
+> Buat 5 pilar konten untuk [BRAND] di [INDUSTRI] yang menargetkan [TARGET_AUDIENCE] dengan tujuan [TUJUAN]. Untuk setiap pillar: (1) Nama pillar, (2) Deskripsi 1-2 kalimat, (3) Jenis konten yang sesuai (edukasi, promosi, engagement, BTS, UGC), (4) Frekuensi posting per minggu, (5) Contoh 3 ide konten. Pastikan pillar seimbang dan mencakup seluruh funnel (awareness, consideration, conversion).
 
 Hasil yang diharapkan:
-Lima content pillar dengan detail lengkap.
+Lima pilar konten dengan detail lengkap.
 
 ---
 
@@ -2423,7 +2423,7 @@ Variabel:
 - [BUDGET]: anggaran (opsional)
 
 Prompt:
-> Buat brief campaign [NAMA_CAMPAIGN] dengan tujuan [TUJUAN] untuk [TARGET_AUDIENCE] di [PLATFORM] selama [DURASI] dengan [BUDGET]. Struktur brief: (1) Executive summary 2-3 kalimat, (2) Target audience profile, (3) Key message dan value proposition, (4) Platform strategy (peran masing-masing platform), (5) Kalender konten singkat, (6) KPI dan metrik keberhasilan, (7) Budget allocation jika ada. Total 400-500 kata. Brief harus jelas dan actionable.
+> Buat brief kampanye [NAMA_CAMPAIGN] dengan tujuan [TUJUAN] untuk [TARGET_AUDIENCE] di [PLATFORM] selama [DURASI] dengan [BUDGET]. Struktur brief: (1) Ringkasan eksekutif 2-3 kalimat, (2) Profil target audiens, (3) Pesan utama dan value proposition, (4) Strategi platform (peran masing-masing platform), (5) Kalender konten singkat, (6) KPI dan metrik keberhasilan, (7) Budget allocation jika ada. Total 400-500 kata. Brief harus jelas dan bisa langsung ditindaklanjuti.
 
 Hasil yang diharapkan:
 Brief 400-500 kata dengan struktur lengkap.
@@ -2586,7 +2586,7 @@ Variabel:
 - [CTA_UTAMA]: call-to-action utama
 
 Prompt:
-> Buat email promosi untuk [PRODUK_LAYANAN] dengan [PENAWARAN] untuk [TARGET_AUDIENCE] hingga [DEADLINE] dengan [CTA_UTAMA]. Struktur: (1) Subjek email yang urgent dan menarik (5-8 kata), (2) Preview text yang melengkapi subjek (8-10 kata), (3) Pembuka 2-3 kalimat yang langsung pada penawaran, (4) Body 150-200 kata yang menjelaskan nilai produk dan penawaran, (5) CTA yang jelas dan menonjol, (6) P.S. dengan reminder deadline atau bonus tambahan. Gunakan bahasa yang antusias namun tidak spammy.
+> Buat email promosi untuk [PRODUK_LAYANAN] dengan [PENAWARAN] untuk [TARGET_AUDIENCE] hingga [DEADLINE] dengan [CTA_UTAMA]. Struktur: (1) Subjek email yang urgent dan menarik (5-8 kata), (2) Preview text yang melengkapi subjek (8-10 kata), (3) Pembuka 2-3 kalimat yang langsung pada penawaran, (4) Body 150-200 kata yang menjelaskan nilai produk dan penawaran, (5) CTA yang jelas dan menonjol, (6) P.S. dengan pengingat batas waktu atau bonus tambahan. Gunakan bahasa yang antusias namun tidak spammy.
 
 Hasil yang diharapkan:
 Email lengkap dengan subjek, preview, body, CTA, dan P.S.
@@ -2623,13 +2623,13 @@ Variabel:
 - [PRODUK_DIKERANJANG]: produk yang ada di keranjang
 - [NILAI_KERANJANG]: total nilai keranjang
 - [INSENTIF]: insentif untuk menyelesaikan pembelian (diskon, gratis ongkir)
-- [BATAS_WAKTU]: deadline insentif
+- [BATAS_WAKTU]: batas waktu insentif
 
 Prompt:
 > Buat 3 variasi abandoned cart email untuk [NAMA_PELANGGAN] yang meninggalkan [PRODUK_DIKERANJANG] senilai [NILAI_KERANJANG] dengan [INSENTIF] hingga [BATAS_WAKTU]. Setiap email: (1) Subjek yang personal dan urgent (5-8 kata), (2) Preview text (8-10 kata), (3) Pembuka yang mengingatkan tentang keranjang, (4) Body 100-150 kata yang menjelaskan produk dan insentif, (5) CTA yang jelas "Selesaikan Pembelian", (6) P.S. dengan reminder batas waktu. Variasikan pendekatan: email 1 reminder lembut, email 2 insentif, email 3 urgency.
 
 Hasil yang diharapkan:
-Tiga email dengan pendekatan berbeda (reminder, insentif, urgency).
+Tiga email dengan pendekatan berbeda (pengingat, insentif, urgensi).
 
 ---
 
@@ -2665,7 +2665,7 @@ Variabel:
 - [CROSS_SELL]: produk pelengkap yang disarankan
 
 Prompt:
-> Buat post-purchase follow-up email untuk [NAMA_PELANGGAN] yang membeli [PRODUK_YANG_DIBELI] setelah [DURASI_PENGGUNAAN] dengan [REQUEST_REVIEW] dan [CROSS_SELL]. Struktur: (1) Subjek yang personal ("Bagaimana [produk] Anda?" atau "Terima kasih telah membeli..."), (2) Preview text (8-10 kata), (3) Ucapan terima kasih dan konfirmasi pembelian, (4) Tips penggunaan produk 100-150 kata, (5) Permintaan review jika [REQUEST_REVIEW] dengan link, (6) Saran [CROSS_SELL] yang relevan, (7) CTA untuk kontak jika ada pertanyaan. Total 250-300 kata.
+> Buat email tindak lanjut pasca pembelian untuk [NAMA_PELANGGAN] yang membeli [PRODUK_YANG_DIBELI] setelah [DURASI_PENGGUNAAN] dengan [REQUEST_REVIEW] dan [CROSS_SELL]. Struktur: (1) Subjek yang personal ("Bagaimana [produk] Anda?" atau "Terima kasih telah membeli..."), (2) Preview text (8-10 kata), (3) Ucapan terima kasih dan konfirmasi pembelian, (4) Tips penggunaan produk 100-150 kata, (5) Permintaan review jika [REQUEST_REVIEW] dengan link, (6) Saran [CROSS_SELL] yang relevan, (7) CTA untuk kontak jika ada pertanyaan. Total 250-300 kata.
 
 Hasil yang diharapkan:
 Email 250-300 kata dengan tips, review request, dan cross-sell.
@@ -2705,7 +2705,7 @@ Variabel:
 - [SYARAT_KETENTUAN]: syarat dan ketentuan jika ada
 
 Prompt:
-> Buat flash sale email untuk [JENIS_PRODUK] dengan [DISKON] selama [DURASI_FLASH_SALE] dengan [SYARAT_KETENTUAN]. Struktur: (1) Subjek yang urgent ("FLASH SALE 24 JAM!" atau "Diskon [X]% Hanya Hari Ini"), (2) Preview text yang memperkuat urgency, (3) Pembuka langsung ke penawaran, (4) Body 100-150 kata dengan detail produk dan diskon, (5) Countdown timer atau jam jika memungkinkan, (6) CTA besar dan menonjol "Belanja Sekarang", (7) P.S. dengan reminder durasi. Gunakan bahasa yang energik dan menciptakan FOMO. Total 150-200 kata.
+> Buat flash sale email untuk [JENIS_PRODUK] dengan [DISKON] selama [DURASI_FLASH_SALE] dengan [SYARAT_KETENTUAN]. Struktur: (1) Subjek yang urgent ("FLASH SALE 24 JAM!" atau "Diskon [DISKON]% Hanya Hari Ini"), (2) Preview text yang memperkuat urgency, (3) Pembuka langsung ke penawaran, (4) Body 100-150 kata dengan detail produk dan diskon, (5) Countdown timer atau jam jika memungkinkan, (6) CTA besar dan menonjol "Belanja Sekarang", (7) P.S. dengan reminder durasi. Gunakan bahasa yang energik dan menciptakan FOMO. Total 150-200 kata.
 
 Hasil yang diharapkan:
 Email 150-200 kata dengan urgency tinggi dan CTA yang jelas.
@@ -2868,16 +2868,16 @@ Email 150-200 kata yang personal dan hangat.
 ### P-137. Email Perayaan Tonggak Capaian
 
 Kapan pakai:
-> Merayakan milestone pelanggan (1 tahun, 100 pembelian, dll)
+> Merayakan pencapaian pelanggan (1 tahun, 100 pembelian, dll)
 
 Variabel:
 - [NAMA_PELANGGAN]: nama pelanggan
-- [MILESTONE]: milestone yang dicapai
-- [PENGHARGAAN]: penghargaan atau hadiah untuk milestone
+- [MILESTONE]: pencapaian yang dicapai
+- [PENGHARGAAN]: penghargaan atau hadiah untuk pencapaian
 - [STATISTIK]: statistik pencapaian pelanggan
 
 Prompt:
-> Buat milestone celebration email untuk [NAMA_PELANGGAN] yang mencapai [MILESTONE] dengan [PENGHARGAAN] dan [STATISTIK]. Struktur: (1) Subjek yang celebratif ("Anda mencapai [milestone]!" atau "Terima kasih telah bersama kami"), (2) Preview text, (3) Ucapan selamat dan apresiasi, (4) Statistik pencapaian mereka dalam format visual atau list, (5) Penghargaan atau hadiah yang ditawarkan, (6) Cara mengklaim hadiah, (7) CTA "Lihat Pencapaian Anda" atau "Klaim Hadiah", (8) Penutup yang tulus. Total 200-250 kata.
+> Buat email perayaan pencapaian untuk [NAMA_PELANGGAN] yang mencapai [MILESTONE] dengan [PENGHARGAAN] dan [STATISTIK]. Struktur: (1) Subjek yang celebratif ("Anda mencapai [pencapaian]!" atau "Terima kasih telah bersama kami"), (2) Preview text, (3) Ucapan selamat dan apresiasi, (4) Statistik pencapaian mereka dalam format visual atau list, (5) Penghargaan atau hadiah yang ditawarkan, (6) Cara mengklaim hadiah, (7) CTA "Lihat Pencapaian Anda" atau "Klaim Hadiah", (8) Penutup yang tulus. Total 200-250 kata.
 
 Hasil yang diharapkan:
 Email 200-250 kata yang celebratif dan apresiatif.
@@ -2896,7 +2896,7 @@ Variabel:
 - [INSENTIF_SURVEY]: insentif untuk mengisi survei
 
 Prompt:
-> Buat survey request email untuk [NAMA_PELANGGAN] tentang [PRODUK_LAYANAN] dengan [DURASI_SURVEY] dan [INSENTIF_SURVEY]. Struktur: (1) Subjek yang personal ("Pendapat Anda penting bagi kami" atau "Bantu kami menjadi lebih baik"), (2) Preview text, (3) Pembuka yang menjelaskan mengapa feedback mereka berharga, (4) Body 100-150 kata tentang survei dan [DURASI_SURVEY], (5) Informasi [INSENTIF_SURVEY], (6) CTA besar "Isi Survei Sekarang", (7) Penutup yang berterima kasih. Total 150-200 kata. Gunakan bahasa yang menghargai waktu mereka.
+> Buat email permintaan survei untuk [NAMA_PELANGGAN] tentang [PRODUK_LAYANAN] dengan [DURASI_SURVEY] dan [INSENTIF_SURVEY]. Struktur: (1) Subjek yang personal ("Pendapat Anda penting bagi kami" atau "Bantu kami menjadi lebih baik"), (2) Preview text, (3) Pembuka yang menjelaskan mengapa masukan mereka berharga, (4) Body 100-150 kata tentang survei dan [DURASI_SURVEY], (5) Informasi [INSENTIF_SURVEY], (6) CTA besar "Isi Survei Sekarang", (7) Penutup yang berterima kasih. Total 150-200 kata. Gunakan bahasa yang menghargai waktu mereka.
 
 Hasil yang diharapkan:
 Email 150-200 kata yang menghargai waktu pelanggan.
@@ -2999,7 +2999,7 @@ Variabel:
 - [KONTAK_KEUANGAN]: kontak untuk pertanyaan tentang tagihan
 
 Prompt:
-> Buat invoice email untuk [NAMA_PELANGGAN] dengan [NOMOR_INVOICE] sebesar [JUMLAH_TAGIHAN] jatuh tempo [TANGGAL_JATUH_TEMPO] dengan [METODE_PEMBAYARAN] dan [KONTAK_KEUANGAN]. Struktur: (1) Subjek yang jelas ("Invoice #[Nomor] - [Jumlah]" atau "Tagihan Anda dari [Brand]"), (2) Preview text, (3) Pembuka profesional, (4) Detail invoice: nomor, jumlah, deskripsi layanan/produk, tanggal jatuh tempo, (5) Instruksi pembayaran dengan metode yang tersedia, (6) Link untuk download invoice PDF, (7) Kontak untuk pertanyaan, (8) Penutup yang profesional. Total 150-200 kata. Gunakan bahasa yang profesional dan jelas.
+> Buat invoice email untuk [NAMA_PELANGGAN] dengan [NOMOR_INVOICE] sebesar [JUMLAH_TAGIHAN] jatuh tempo [TANGGAL_JATUH_TEMPO] dengan [METODE_PEMBAYARAN] dan [KONTAK_KEUANGAN]. Struktur: (1) Subjek yang jelas ("Invoice #[Nomor] - [Jumlah]" atau "Tagihan Anda dari [Brand]"), (2) Preview text, (3) Pembuka profesional, (4) Detail invoice: nomor, jumlah, deskripsi layanan/produk, tanggal jatuh tempo, (5) Instruksi pembayaran dengan metode yang tersedia, (6) Tautan untuk mengunduh invoice PDF, (7) Kontak untuk pertanyaan, (8) Penutup yang profesional. Total 150-200 kata. Gunakan bahasa yang profesional dan jelas.
 
 Hasil yang diharapkan:
 Email 150-200 kata yang profesional dengan detail lengkap.
@@ -3021,7 +3021,7 @@ Variabel:
 - [KONTAK_KEUANGAN]: kontak untuk pertanyaan
 
 Prompt:
-> Buat payment reminder email untuk [NAMA_PELANGGAN] dengan [NOMOR_INVOICE] sebesar [JUMLAH_TERTUNGGAK] yang jatuh tempo pada [TANGGAL_JATUH_TEMPO] ([HARI_TERLAMBAT] hari terlambat) dengan [METODE_PEMBAYARAN] dan [KONTAK_KEUANGAN]. Struktur: (1) Subjek yang sopan namun firm ("Reminder: Invoice #[Nomor] Jatuh Tempo" atau "Pembayaran Tertunggak"), (2) Preview text, (3) Pembuka yang sopan dan memahami mungkin lupa, (4) Detail invoice dan jumlah tertunggak, (5) Instruksi pembayaran, (6) Tawaran bantuan jika ada masalah, (7) CTA "Bayar Sekarang", (8) Penutup yang profesional. Total 150-200 kata. Gunakan bahasa yang sopan namun jelas.
+> Buat email pengingat pembayaran untuk [NAMA_PELANGGAN] dengan [NOMOR_INVOICE] sebesar [JUMLAH_TERTUNGGAK] yang jatuh tempo pada [TANGGAL_JATUH_TEMPO] ([HARI_TERLAMBAT] hari terlambat) dengan [METODE_PEMBAYARAN] dan [KONTAK_KEUANGAN]. Struktur: (1) Subjek yang sopan namun firm ("Reminder: Invoice #[Nomor] Jatuh Tempo" atau "Pembayaran Tertunggak"), (2) Preview text, (3) Pembuka yang sopan dan memahami mungkin lupa, (4) Detail invoice dan jumlah tertunggak, (5) Instruksi pembayaran, (6) Tawaran bantuan jika ada masalah, (7) CTA "Bayar Sekarang", (8) Penutup yang profesional. Total 150-200 kata. Gunakan bahasa yang sopan namun jelas.
 
 Hasil yang diharapkan:
 Email 150-200 kata yang sopan namun firm.
@@ -3059,11 +3059,11 @@ Variabel:
 - [JENIS_PEMBATARAN]: jenis pembatalan (langganan, pesanan)
 - [TANGGAL_EFEKTIF]: kapan pembatalan berlaku
 - [AKSES_HINGGA]: hingga kapan masih bisa akses
-- [ALASAN_MEMINTA]: apakah meminta feedback alasan
+- [ALASAN_MEMINTA]: alasan mengapa meminta masukan
 - [PENAWARAN_KEMBALI]: penawaran untuk kembali
 
 Prompt:
-> Buat cancellation confirmation email untuk [NAMA_PELANGGAN] yang membatalkan [JENIS_PEMBATARAN] efektif [TANGGAL_EFEKTIF] dengan akses hingga [AKSES_HINGGA], [ALASAN_MEMINTA], dan [PENAWARAN_KEMBALI]. Struktur: (1) Subjek yang jelas ("Konfirmasi Pembatalan" atau "Langganan Anda telah dibatalkan"), (2) Preview text, (3) Konfirmasi pembatalan dengan empati, (4) Detail: tanggal efektif, akses hingga kapan, (5) Permintaan feedback jika [ALASAN_MEMINTA] dengan link survei singkat, (6) Penawaran kembali jika [PENAWARAN_KEMBALI], (7) Cara mengaktifkan kembali jika berubah pikiran, (8) Penutup yang menghargai keputusan mereka. Total 200-250 kata.
+> Buat email konfirmasi pembatalan untuk [NAMA_PELANGGAN] yang membatalkan [JENIS_PEMBATARAN] efektif [TANGGAL_EFEKTIF] dengan akses hingga [AKSES_HINGGA], [ALASAN_MEMINTA], dan [PENAWARAN_KEMBALI]. Struktur: (1) Subjek yang jelas ("Konfirmasi Pembatalan" atau "Langganan Anda telah dibatalkan"), (2) Preview text, (3) Konfirmasi pembatalan dengan empati, (4) Detail: tanggal efektif, akses hingga kapan, (5) Permintaan masukan jika [ALASAN_MEMINTA] dengan link survei singkat, (6) Penawaran kembali jika [PENAWARAN_KEMBALI], (7) Cara mengaktifkan kembali jika berubah pikiran, (8) Penutup yang menghargai keputusan mereka. Total 200-250 kata.
 
 Hasil yang diharapkan:
 Email 200-250 kata yang empatik dan profesional.
@@ -3083,7 +3083,7 @@ Variabel:
 - [REWARD_TERSEDIA]: reward yang bisa ditukar
 
 Prompt:
-> Buat loyalty program email untuk [NAMA_PROGRAM] dengan [BENEFIT_PROGRAM], [CARA_BERGABUNG], [POIN_Saat_INI], dan [REWARD_TERSEDIA]. Struktur: (1) Subjek yang menarik ("Anda punya [poin] poin!" atau "Bergabung dengan program loyalitas kami"), (2) Preview text, (3) Pembuka yang mengumumkan program atau poin mereka, (4) Penjelasan benefit program, (5) Status poin mereka jika [POIN_Saat_INI], (6) Reward yang bisa ditukar, (7) Cara bergabung atau menukar poin, (8) CTA "Bergabung Sekarang" atau "Tukar Poin", (9) P.S. dengan deadline atau reward terbatas. Total 200-250 kata.
+> Buat loyalty program email untuk [NAMA_PROGRAM] dengan [BENEFIT_PROGRAM], [CARA_BERGABUNG], [POIN_Saat_INI], dan [REWARD_TERSEDIA]. Struktur: (1) Subjek yang menarik ("Anda punya [poin] poin!" atau "Bergabung dengan program loyalitas kami"), (2) Preview text, (3) Pembuka yang mengumumkan program atau poin mereka, (4) Penjelasan manfaat program, (5) Status poin mereka jika [POIN_Saat_INI], (6) Reward yang bisa ditukar, (7) Cara bergabung atau menukar poin, (8) CTA "Bergabung Sekarang" atau "Tukar Poin", (9) P.S. dengan batas waktu atau reward terbatas. Total 200-250 kata.
 
 Hasil yang diharapkan:
 Email 200-250 kata yang memotivasi partisipasi.
@@ -3103,7 +3103,7 @@ Variabel:
 - [BENEFIT_TAMBAHAN]: benefit tambahan untuk VIP
 
 Prompt:
-> Buat VIP early access email untuk [NAMA_PELANGGAN] dengan [STATUS_VIP] untuk [PRODUK_AKSES_AWAL] selama [PERIODE_AKES_AWAL] dengan [BENEFIT_TAMBAHAN]. Struktur: (1) Subjek yang eksklusif ("Akses awal eksklusif untuk Anda" atau "VIP Early Access: [Produk]"), (2) Preview text, (3) Pembuka yang membuat mereka merasa spesial, (4) Detail produk dan akses awal, (5) Periode akses awal, (6) Benefit tambahan sebagai VIP, (7) CTA "Akses Sekarang", (8) Penutup yang apresiatif. Total 150-200 kata. Gunakan bahasa yang eksklusif dan apresiatif.
+> Buat VIP early access email untuk [NAMA_PELANGGAN] dengan [STATUS_VIP] untuk [PRODUK_AKSES_AWAL] selama [PERIODE_AKSES_AWAL] dengan [BENEFIT_TAMBAHAN]. Struktur: (1) Subjek yang eksklusif ("Akses awal eksklusif untuk Anda" atau "VIP Early Access: [Produk]"), (2) Preview text, (3) Pembuka yang membuat mereka merasa spesial, (4) Detail produk dan akses awal, (5) Periode akses awal, (6) Benefit tambahan sebagai VIP, (7) CTA "Akses Sekarang", (8) Penutup yang apresiatif. Total 150-200 kata. Gunakan bahasa yang eksklusif dan apresiatif.
 
 Hasil yang diharapkan:
 Email 150-200 kata yang eksklusif.
@@ -3113,17 +3113,17 @@ Email 150-200 kata yang eksklusif.
 ### P-149. Email Permintaan Masukan
 
 Kapan pakai:
-> Meminta feedback tentang produk atau layanan
+> Meminta masukan tentang produk atau layanan
 
 Variabel:
 - [NAMA_PELANGGAN]: nama pelanggan
 - [PRODUK_LAYANAN]: produk atau layanan yang dinilai
 - [DURASI_PENGGUNAAN]: berapa lama menggunakan
 - [ASPEK_YANG_DINILAI]: aspek spesifik yang ingin diketahui feedbacknya
-- [INSENTIF_FEEDBACK]: insentif untuk memberikan feedback
+- [INSENTIF_FEEDBACK]: insentif untuk memberikan masukan
 
 Prompt:
-> Buat feedback request email untuk [NAMA_PELANGGAN] tentang [PRODUK_LAYANAN] yang digunakan selama [DURASI_PENGGUNAAN] dengan fokus pada [ASPEK_YANG_DINILAI] dan [INSENTIF_FEEDBACK]. Struktur: (1) Subjek yang personal ("Pendapat Anda tentang [produk]?" atau "Bantu kami menjadi lebih baik"), (2) Preview text, (3) Pembuka yang menjelaskan mengapa feedback mereka berharga, (4) Body 100-150 kata dengan 3-5 pertanyaan spesifik tentang [ASPEK_YANG_DINILAI], (5) Informasi [INSENTIF_FEEDBACK], (6) CTA "Berikan Feedback", (7) Penutup yang berterima kasih. Total 150-200 kata.
+> Buat email permintaan masukan untuk [NAMA_PELANGGAN] tentang [PRODUK_LAYANAN] yang digunakan selama [DURASI_PENGGUNAAN] dengan fokus pada [ASPEK_YANG_DINILAI] dan [INSENTIF_FEEDBACK]. Struktur: (1) Subjek yang personal ("Pendapat Anda tentang [produk]?" atau "Bantu kami menjadi lebih baik"), (2) Preview text, (3) Pembuka yang menjelaskan mengapa masukan mereka berharga, (4) Body 100-150 kata dengan 3-5 pertanyaan spesifik tentang [ASPEK_YANG_DINILAI], (5) Informasi [INSENTIF_FEEDBACK], (6) CTA "Berikan Masukan", (7) Penutup yang berterima kasih. Total 150-200 kata.
 
 Hasil yang diharapkan:
 Email 150-200 kata dengan pertanyaan spesifik.
@@ -3177,11 +3177,11 @@ Kapan pakai:
 Variabel:
 - [NAMA_PELANGGAN]: nama pelanggan
 - [STATISTIK_PENGGUNAAN]: statistik penggunaan mereka
-- [PENCAPAIAN]: pencapaian atau milestone mereka
+- [PENCAPAIAN]: pencapaian mereka
 - [REKOMENDASI]: rekomendasi untuk tahun depan
 
 Prompt:
-> Buat year-in-review email untuk [NAMA_PELANGGAN] dengan [STATISTIK_PENGGUNAAN], [PENCAPAIAN], dan [REKOMENDASI]. Struktur: (1) Subjek yang celebratif ("Tahun Anda di [Brand]" atau "2025: Pencapaian Anda"), (2) Preview text, (3) Pembuka yang appreciative, (4) Statistik penggunaan dalam format visual atau list, (5) Pencapaian atau milestone mereka, (6) Rekomendasi untuk tahun depan, (7) CTA untuk melihat detail atau melanjutkan, (8) Penutup yang inspiratif. Total 250-300 kata. Gunakan data yang personal dan celebratif.
+> Buat email telaah tahunan untuk [NAMA_PELANGGAN] dengan [STATISTIK_PENGGUNAAN], [PENCAPAIAN], dan [REKOMENDASI]. Struktur: (1) Subjek yang celebratif ("Tahun Anda di [Brand]" atau "2025: Pencapaian Anda"), (2) Preview text, (3) Pembuka yang penuh apresiasi, (4) Statistik penggunaan dalam format visual atau list, (5) Pencapaian mereka, (6) Rekomendasi untuk tahun depan, (7) CTA untuk melihat detail atau melanjutkan, (8) Penutup yang inspiratif. Total 250-300 kata. Gunakan data yang personal dan celebratif.
 
 Hasil yang diharapkan:
 Email 250-300 kata yang personal dan celebratif.
@@ -3257,11 +3257,11 @@ Variabel:
 - [NAMA_PELANGGAN]: nama pelanggan
 - [FITUR_YANG_DIMINTA]: fitur yang diminta
 - [STATUS]: status permintaan (dipertimbangkan, akan dikembangkan, ditolak)
-- [TIMELINE]: timeline jika akan dikembangkan
+- [TIMELINE]: linimasa jika akan dikembangkan
 - [ALTERNATIF]: alternatif jika ditolak
 
 Prompt:
-> Buat feature request follow-up email untuk [NAMA_PELANGGAN] tentang [FITUR_YANG_DIMINTA] dengan status [STATUS], [TIMELINE], dan [ALTERNATIF]. Struktur: (1) Subjek yang personal ("Update tentang permintaan fitur Anda" atau "Terima kasih atas saran Anda"), (2) Preview text, (3) Ucapan terima kasih atas feedback, (4) Status permintaan, (5) Timeline jika akan dikembangkan, (6) Alternatif atau work-around jika ditolak, (7) Cara memberikan feedback lebih lanjut, (8) Penutup yang appreciative. Total 150-200 kata. Gunakan bahasa yang appreciative dan transparan.
+> Buat email tindak lanjut permintaan fitur untuk [NAMA_PELANGGAN] tentang [FITUR_YANG_DIMINTA] dengan status [STATUS], [TIMELINE], dan [ALTERNATIF]. Struktur: (1) Subjek yang personal ("Update tentang permintaan fitur Anda" atau "Terima kasih atas saran Anda"), (2) Preview text, (3) Ucapan terima kasih atas masukan, (4) Status permintaan, (5) Linimasa jika akan dikembangkan, (6) Alternatif atau work-around jika ditolak, (7) Cara memberikan masukan lebih lanjut, (8) Penutup yang penuh apresiasi. Total 150-200 kata. Gunakan bahasa yang penuh apresiasi dan transparan.
 
 Hasil yang diharapkan:
 Email 150-200 kata yang appreciative.
@@ -3280,7 +3280,7 @@ Variabel:
 - [CARA_UPDATE]: cara mendapatkan update
 
 Prompt:
-> Buat bug fix notification email untuk [NAMA_PELANGGAN] tentang [BUG_YANG_DIPERBAIKI] dengan [DAMPAK_PERBAIKAN] dan [CARA_UPDATE]. Struktur: (1) Subjek yang informatif ("Bug yang Anda laporkan telah diperbaiki" atau "Update: Perbaikan [bug]"), (2) Preview text, (3) Ucapan terima kasih atas laporan, (4) Detail bug yang diperbaiki, (5) Dampak perbaikan, (6) Cara mendapatkan update, (7) Kontak jika masih mengalami masalah, (8) Penutup yang appreciative. Total 120-150 kata.
+> Buat bug fix notification email untuk [NAMA_PELANGGAN] tentang [BUG_YANG_DIPERBAIKI] dengan [DAMPAK_PERBAIKAN] dan [CARA_UPDATE]. Struktur: (1) Subjek yang informatif ("Bug yang Anda laporkan telah diperbaiki" atau "Update: Perbaikan [bug]"), (2) Preview text, (3) Ucapan terima kasih atas laporan, (4) Detail bug yang diperbaiki, (5) Dampak perbaikan, (6) Cara mendapatkan update, (7) Kontak jika masih mengalami masalah, (8) Penutup yang penuh apresiasi. Total 120-150 kata.
 
 Hasil yang diharapkan:
 Email 120-150 kata yang appreciative.
@@ -3377,7 +3377,7 @@ Variabel:
 - [BATAS_WAKTU]: berapa lama link berlaku
 
 Prompt:
-> Buat email tautan unduh data untuk [NAMA_PENGGUNA] dengan [JENIS_DATA] dalam format [FORMAT], [LINK_DOWNLOAD], dan [BATAS_WAKTU]. Struktur: (1) Subjek yang jelas ("Ekspor data Anda siap" atau "[Jenis data] siap diunduh"), (2) Preview text, (3) Konfirmasi ekspor selesai, (4) Detail: jenis data, format, ukuran file, (5) Tombol download yang menonjol, (6) Informasi batas waktu, (7) Instruksi jika link tidak bekerja, (8) Kontak support. Total 80-120 kata.
+> Buat email tautan unduh data untuk [NAMA_PENGGUNA] dengan [JENIS_DATA] dalam format [FORMAT], [LINK_DOWNLOAD], dan [BATAS_WAKTU]. Struktur: (1) Subjek yang jelas ("Ekspor data Anda siap" atau "[Jenis data] siap diunduh"), (2) Preview text, (3) Konfirmasi ekspor selesai, (4) Detail: jenis data, format, ukuran file, (5) Tombol unduh yang menonjol, (6) Informasi batas waktu, (7) Instruksi jika link tidak bekerja, (8) Kontak support. Total 80-120 kata.
 
 Hasil yang diharapkan:
 Email 80-120 kata yang jelas.
@@ -3398,7 +3398,7 @@ Variabel:
 - [BENEFIT_UPGRADE]: benefit jika upgrade
 
 Prompt:
-> Buat trial expiration reminder email untuk [NAMA_PENGGUNA] dengan [PRODUK_TRIAL] berakhir [TANGGAL_KEDALUWARSA] ([HARI_TERSISA] hari lagi), [OPSI_UPGRADE], dan [BENEFIT_UPGRADE]. Struktur: (1) Subjek yang urgent ("Trial Anda berakhir dalam [jumlah] hari" atau "Jangan kehilangan akses ke [produk]"), (2) Preview text, (3) Reminder tanggal kedaluwarsa, (4) Ringkasan apa yang sudah mereka coba, (5) Benefit jika upgrade, (6) Opsi upgrade dan harga, (7) CTA "Upgrade Sekarang", (8) P.S. dengan urgency. Total 150-200 kata.
+> Buat email pengingat kedaluwarsa uji coba untuk [NAMA_PENGGUNA] dengan [PRODUK_TRIAL] berakhir [TANGGAL_KEDALUWARSA] ([HARI_TERSISA] hari lagi), [OPSI_UPGRADE], dan [BENEFIT_UPGRADE]. Struktur: (1) Subjek yang urgent ("Trial Anda berakhir dalam [jumlah] hari" atau "Jangan kehilangan akses ke [produk]"), (2) Preview text, (3) Reminder tanggal kedaluwarsa, (4) Ringkasan apa yang sudah mereka coba, (5) Benefit jika upgrade, (6) Opsi upgrade dan harga, (7) CTA "Upgrade Sekarang", (8) P.S. dengan urgency. Total 150-200 kata.
 
 Hasil yang diharapkan:
 Email 150-200 kata yang urgent.
@@ -3460,7 +3460,7 @@ Variabel:
 - [LANGKAH_SELANJUTNYA]: tantangan berikutnya
 
 Prompt:
-> Buat milestone achievement email untuk [NAMA_PENGGUNA] yang mencapai [PENCAPAIAN] dengan [STATISTIK], [BADGE_REWARD], dan [LANGKAH_SELANJUTNYA]. Struktur: (1) Subjek yang celebratif ("Selamat! Anda mencapai [pencapaian]!" atau "Milestone baru: [pencapaian]"), (2) Preview text, (3) Ucapan selamat yang tulus, (4) Detail pencapaian dengan statistik, (5) Badge atau reward yang didapat, (6) Tantangan berikutnya, (7) CTA untuk melihat pencapaian atau mulai tantangan baru, (8) Penutup yang inspiratif. Total 150-200 kata.
+> Buat email pencapaian untuk [NAMA_PENGGUNA] yang mencapai [PENCAPAIAN] dengan [STATISTIK], [BADGE_REWARD], dan [LANGKAH_SELANJUTNYA]. Struktur: (1) Subjek yang celebratif ("Selamat! Anda mencapai [pencapaian]!" atau "Pencapaian baru: [pencapaian]"), (2) Preview text, (3) Ucapan selamat yang tulus, (4) Detail pencapaian dengan statistik, (5) Badge atau reward yang didapat, (6) Tantangan berikutnya, (7) CTA untuk melihat pencapaian atau mulai tantangan baru, (8) Penutup yang inspiratif. Total 150-200 kata.
 
 Hasil yang diharapkan:
 Email 150-200 kata yang celebratif.
@@ -3540,7 +3540,7 @@ Variabel:
 - [TESTIMONI]: testimoni pelanggan
 
 Prompt:
-> Buat customer success story email tentang [NAMA_PELANGGAN_SUCCES] dari [INDUSTRI_PELANGGAN] yang menghadapi [MASALAH_AWAL], menggunakan [SOLUSI_YANG_DIGUNAKAN], mencapai [HASIL_KONKRET], dengan [TESTIMONI]. Struktur: (1) Subjek yang menarik ("Cerita sukses: [Nama] mencapai [hasil]" atau "Bagaimana [nama] menyelesaikan [masalah]"), (2) Preview text, (3) Pembuka yang memperkenalkan pelanggan, (4) Latar belakang dan masalah awal, (5) Solusi yang digunakan, (6) Hasil konkret dengan angka, (7) Testimoni langsung, (8) CTA untuk melihat studi kasus lengkap atau mencoba solusi, (9) Penutup yang inspiratif. Total 250-300 kata.
+> Buat email cerita sukses pelanggan tentang [NAMA_PELANGGAN_SUCCES] dari [INDUSTRI_PELANGGAN] yang menghadapi [MASALAH_AWAL], menggunakan [SOLUSI_YANG_DIGUNAKAN], mencapai [HASIL_KONKRET], dengan [TESTIMONI]. Struktur: (1) Subjek yang menarik ("Cerita sukses: [Nama] mencapai [hasil]" atau "Bagaimana [nama] menyelesaikan [masalah]"), (2) Preview text, (3) Pembuka yang memperkenalkan pelanggan, (4) Latar belakang dan masalah awal, (5) Solusi yang digunakan, (6) Hasil konkret dengan angka, (7) Testimoni langsung, (8) CTA untuk melihat studi kasus lengkap atau mencoba solusi, (9) Penutup yang inspiratif. Total 250-300 kata.
 
 Hasil yang diharapkan:
 Email 250-300 kata yang inspiratif.
@@ -3877,10 +3877,10 @@ Variabel:
 - [MISI]: misi perusahaan
 - [NILAI]: nilai-nilai perusahaan
 - [TIM]: informasi tentang tim
-- [PENCAPAIAN]: pencapaian atau milestone
+- [PENCAPAIAN]: pencapaian
 
 Prompt:
-> Buat about section landing page untuk [NAMA_PERUSAHAAN] dengan [MISI], [NILAI], [TIM], dan [PENCAPAIAN]. Struktur: (1) Headline yang personal ("Tentang [Perusahaan]" atau "Cerita kami"), (2) Paragraf pembuka 80-100 kata tentang misi dan visi, (3) 3-5 nilai inti dengan penjelasan singkat masing-masing, (4) Informasi tim (jumlah anggota, latar belakang, foto jika ada), (5) Pencapaian atau milestone dalam format timeline atau angka, (6) CTA untuk menghubungi atau bergabung. Total 300-400 kata. Gunakan bahasa yang personal dan autentik.
+> Buat about section landing page untuk [NAMA_PERUSAHAAN] dengan [MISI], [NILAI], [TIM], dan [PENCAPAIAN]. Struktur: (1) Headline yang personal ("Tentang [Perusahaan]" atau "Cerita kami"), (2) Paragraf pembuka 80-100 kata tentang misi dan visi, (3) 3-5 nilai inti dengan penjelasan singkat masing-masing, (4) Informasi tim (jumlah anggota, latar belakang, foto jika ada), (5) Pencapaian dalam format linimasa atau angka, (6) CTA untuk menghubungi atau bergabung. Total 300-400 kata. Gunakan bahasa yang personal dan autentik.
 
 Hasil yang diharapkan:
 About section dengan misi, nilai, tim, dan pencapaian.
@@ -3910,7 +3910,7 @@ Hero section dengan headline, subheadline, dual CTA, dan saran visual.
 ### P-182. Ringkasan Fitur Beranda
 
 Kapan pakai:
-> Membuat overview fitur untuk homepage
+> Membuat ringkasan fitur untuk homepage
 
 Variabel:
 - [JUMLAH_FITUR]: berapa banyak fitur yang ditampilkan
@@ -3919,10 +3919,10 @@ Variabel:
 - [ICON]: saran icon untuk setiap fitur
 
 Prompt:
-> Buat feature overview section homepage dengan [JUMLAH_FITUR] fitur: [NAMA_FITUR] dengan [DESKRIPSI_SINGKAT] dan [ICON]. Struktur: (1) Headline section ("Fitur unggulan kami" atau "Semua yang Anda butuhkan"), (2) Subheadline 20-30 kata, (3) Grid atau list fitur dengan: icon, nama fitur (3-5 kata), deskripsi (20-30 kata), (4) Visual layout yang konsisten, (5) CTA untuk melihat semua fitur. Total 200-300 kata. Setiap fitur harus mudah di-scan dalam 2-3 detik.
+> Buat bagian ringkasan fitur homepage dengan [JUMLAH_FITUR] fitur: [NAMA_FITUR] dengan [DESKRIPSI_SINGKAT] dan [ICON]. Struktur: (1) Headline section ("Fitur unggulan kami" atau "Semua yang Anda butuhkan"), (2) Subheadline 20-30 kata, (3) Grid atau daftar fitur dengan: ikon, nama fitur (3-5 kata), deskripsi (20-30 kata), (4) Tata letak visual yang konsisten, (5) CTA untuk melihat semua fitur. Total 200-300 kata. Setiap fitur harus mudah dibaca sekilas dalam 2-3 detik.
 
 Hasil yang diharapkan:
-Feature overview dengan grid fitur dan deskripsi singkat.
+Ringkasan fitur dengan grid dan deskripsi singkat.
 
 ---
 
@@ -4165,10 +4165,10 @@ Variabel:
 - [VISI]: visi ke depan
 
 Prompt:
-> Buat about page story untuk [NAMA_PERUSAHAAN] yang berdiri [TAHUN_BERDIRI] oleh [PENDIRI] dengan [MOMEN_INSPIRASI], [PERKEMBANGAN], dan [VISI]. Struktur: (1) Headline "Cerita kami" atau "Perjalanan [Perusahaan]", (2) Paragraf pembuka tentang momen inspirasi, (3) Timeline perkembangan dengan tahun dan milestone, (4) Paragraf tentang visi ke depan, (5) Visual suggestion untuk timeline. Total 300-400 kata. Cerita harus autentik dan inspiratif.
+> Buat about page story untuk [NAMA_PERUSAHAAN] yang berdiri [TAHUN_BERDIRI] oleh [PENDIRI] dengan [MOMEN_INSPIRASI], [PERKEMBANGAN], dan [VISI]. Struktur: (1) Headline "Cerita kami" atau "Perjalanan [Perusahaan]", (2) Paragraf pembuka tentang momen inspirasi, (3) Linimasa perkembangan dengan tahun dan tonggak capaian, (4) Paragraf tentang visi ke depan, (5) Saran visual untuk linimasa. Total 300-400 kata. Cerita harus autentik dan inspiratif.
 
 Hasil yang diharapkan:
-About story dengan cerita, timeline, dan visi.
+Cerita tentang perusahaan dengan linimasa dan visi.
 
 ---
 
@@ -4299,10 +4299,10 @@ Variabel:
 - [HOOK]: cara membuka yang menarik
 
 Prompt:
-> Buat blog post introduction untuk [TOPIK] yang membahas [MASALAH] dengan janji [JANJI] menggunakan [HOOK]. Struktur: (1) Hook pembuka 1-2 kalimat yang menangkap perhatian, (2) Konteks masalah 2-3 kalimat, (3) Janji apa yang akan didapat pembaca 1-2 kalimat, (4) Overview struktur post 1 kalimat. Total 100-150 kata. Introduction harus membuat pembaca ingin terus membaca.
+> Buat pembuka artikel blog untuk [TOPIK] yang membahas [MASALAH] dengan janji [JANJI] menggunakan [HOOK]. Struktur: (1) Hook pembuka 1-2 kalimat yang menangkap perhatian, (2) Konteks masalah 2-3 kalimat, (3) Janji apa yang akan didapat pembaca 1-2 kalimat, (4) Ringkasan struktur artikel 1 kalimat. Total 100-150 kata. Pembuka harus membuat pembaca ingin terus membaca.
 
 Hasil yang diharapkan:
-Introduction dengan hook, konteks, janji, dan overview.
+Pembuka dengan hook, konteks, janji, dan ringkasan.
 
 ---
 
@@ -4454,10 +4454,10 @@ Variabel:
 - [TOTAL]: total harga
 
 Prompt:
-> Buat checkout page summary dengan [DAFTAR_PRODUK], [SUBTOTAL], [DISKON], [ONGKIR], [PAJAK], dan [TOTAL]. Struktur: (1) Daftar produk dengan: nama, jumlah, harga, (2) Subtotal, (3) Diskon (jika ada), (4) Ongkos kirim, (5) Pajak, (6) Total harga besar dan menonjol, (7) Tombol "Place Order" atau "Bayar". Total 80-120 kata. Summary harus jelas dan transparan.
+> Buat ringkasan halaman checkout dengan [DAFTAR_PRODUK], [SUBTOTAL], [DISKON], [ONGKIR], [PAJAK], dan [TOTAL]. Struktur: (1) Daftar produk dengan: nama, jumlah, harga, (2) Subtotal, (3) Diskon (jika ada), (4) Ongkos kirim, (5) Pajak, (6) Total harga besar dan menonjol, (7) Tombol "Place Order" atau "Bayar". Total 80-120 kata. Summary harus jelas dan transparan.
 
 Hasil yang diharapkan:
-Checkout summary dengan daftar produk dan total.
+Ringkasan checkout dengan daftar produk dan total.
 
 ---
 
@@ -4473,7 +4473,7 @@ Variabel:
 - [SEARCH]: fitur pencarian
 
 Prompt:
-> Buat 404 page content untuk [NAMA_BRAND] dengan [TONE], [CTA], dan [SEARCH]. Struktur: (1) Headline yang sesuai tone ("Oops! Halaman tidak ditemukan" atau "404: Halaman yang Anda cari tidak ada"), (2) Pesan 30-50 kata yang menjelaskan error, (3) Tombol CTA kembali ke homepage, (4) Link ke halaman populer, (5) Form pencarian, (6) Ilustrasi atau visual yang sesuai tone. Total 80-120 kata. 404 page harus helpful dan tidak frustrating.
+> Buat konten halaman 404 untuk [NAMA_BRAND] dengan [TONE], [CTA], dan [SEARCH]. Struktur: (1) Headline yang sesuai tone ("Oops! Halaman tidak ditemukan" atau "404: Halaman yang Anda cari tidak ada"), (2) Pesan 30-50 kata yang menjelaskan error, (3) Tombol CTA kembali ke homepage, (4) Link ke halaman populer, (5) Form pencarian, (6) Ilustrasi atau visual yang sesuai tone. Total 80-120 kata. 404 page harus helpful dan tidak frustrating.
 
 Hasil yang diharapkan:
 404 page dengan headline, pesan, CTA, dan search.
@@ -4496,7 +4496,7 @@ Prompt:
 > Buat konten halaman ucapan terima kasih (thank you page) untuk [NAMA_PELANGGAN] dengan [NOMOR_PESANAN], [NEXT_STEP], [RECOMMENDATION], dan [SOCIAL_SHARE]. Struktur: (1) Headline "Terima kasih!" atau "Pesanan Anda berhasil", (2) Pesan personal 30-50 kata, (3) Nomor pesanan dan detail, (4) Langkah selanjutnya (konfirmasi email, pengiriman, dll), (5) Rekomendasi produk atau konten, (6) Tombol share ke sosial media. Total 150-200 kata. Halaman ini harus celebratif dan informatif.
 
 Hasil yang diharapkan:
-Thank you page dengan pesan personal dan next step.
+Halaman ucapan terima kasih dengan pesan personal dan langkah berikutnya.
 
 ---
 
@@ -4815,11 +4815,11 @@ Kapan pakai:
 Variabel:
 - [NAMA_CHANNEL]: nama channel
 - [TOPIK_CHANNEL]: topik utama channel
-- [FREKUENSI_UPLOAD]: berapa sering upload
+- [FREKUENSI_UPLOAD]: berapa sering mengunggah konten
 - [CTA_SUBSCRIBE]: ajakan subscribe
 
 Prompt:
-> Buat 5 variasi naskah intro YouTube untuk [NAMA_CHANNEL] tentang [TOPIK_CHANNEL] yang upload [FREKUENSI_UPLOAD] dengan [CTA_SUBSCRIBE]. Setiap intro harus: (1) Sapaan personal, (2) Perkenalan channel singkat, (3) Preview apa yang akan dibahas di video ini, (4) CTA subscribe, (5) Total 15-30 detik (50-80 kata). Gunakan energi dan enthusiasm yang konsisten dengan brand channel.
+> Buat 5 variasi naskah intro YouTube untuk [NAMA_CHANNEL] tentang [TOPIK_CHANNEL] yang mengunggah [FREKUENSI_UPLOAD] dengan [CTA_SUBSCRIBE]. Setiap intro harus: (1) Sapaan personal, (2) Perkenalan channel singkat, (3) Preview apa yang akan dibahas di video ini, (4) CTA subscribe, (5) Total 15-30 detik (50-80 kata). Gunakan energi dan enthusiasm yang konsisten dengan brand channel.
 
 Hasil yang diharapkan:
 Lima variasi intro 50-80 kata.
@@ -4913,7 +4913,7 @@ Variabel:
 - [NAMA_PODCAST]: nama podcast
 - [TOPIK_EPISODE]: topik episode
 - [DURASI_TARGET]: durasi episode (20-60 menit)
-- [FORMAT]: format (solo, interview, panel)
+- [FORMAT]: format (solo, wawancara, panel)
 - [TARGET_AUDIENCE]: siapa target pendengar
 
 Prompt:
@@ -4967,17 +4967,17 @@ Tiga variasi outro 150-200 kata.
 ### P-231. Pertanyaan Wawancara Podcast
 
 Kapan pakai:
-> Membuat daftar pertanyaan untuk interview podcast
+> Membuat daftar pertanyaan untuk wawancara podcast
 
 Variabel:
 - [NAMA_TAMU]: nama tamu
 - [LATAR_BELAKANG_TAMU]: latar belakang tamu
 - [TOPIK_INTERVIEW]: topik yang akan dibahas
 - [JUMLAH_PERTANYAAN]: berapa banyak pertanyaan
-- [DURASI_INTERVIEW]: durasi segment interview
+- [DURASI_INTERVIEW]: durasi segmen wawancara
 
 Prompt:
-> Buat [JUMLAH_PERTANYAAN] pertanyaan interview podcast untuk [NAMA_TAMU] dengan [LATAR_BELAKANG_TAMU] tentang [TOPIK_INTERVIEW] dengan [DURASI_INTERVIEW]. Struktur pertanyaan: (1) 2-3 pertanyaan pembuka untuk membangun rapport, (2) 5-7 pertanyaan inti tentang topik, (3) 2-3 pertanyaan deep dive atau follow-up, (4) 1-2 pertanyaan reflektif atau pelajaran, (5) 1 pertanyaan rapid fire atau fun. Setiap pertanyaan harus: (a) Terbuka dan mendorong cerita, (b) Relevan dengan audiens, (c) Tidak terlalu umum. Total 300-400 kata.
+> Buat [JUMLAH_PERTANYAAN] pertanyaan wawancara podcast untuk [NAMA_TAMU] dengan [LATAR_BELAKANG_TAMU] tentang [TOPIK_INTERVIEW] dengan [DURASI_INTERVIEW]. Struktur pertanyaan: (1) 2-3 pertanyaan pembuka untuk membangun rapport, (2) 5-7 pertanyaan inti tentang topik, (3) 2-3 pertanyaan deep dive atau follow-up, (4) 1-2 pertanyaan reflektif atau pelajaran, (5) 1 pertanyaan rapid fire atau fun. Setiap pertanyaan harus: (a) Terbuka dan mendorong cerita, (b) Relevan dengan audiens, (c) Tidak terlalu umum. Total 300-400 kata.
 
 Hasil yang diharapkan:
 Daftar pertanyaan terstruktur dengan timing.
@@ -5160,7 +5160,7 @@ Variabel:
 - [DURASI]: durasi video
 
 Prompt:
-> Buat naskah video case study [DURASI] menit tentang [NAMA_KLIEN] dari [INDUSTRI] yang menghadapi [TANTANGAN], menerapkan [SOLUSI], dan mencapai [HASIL]. Struktur: (1) Intro: overview klien dan industri, (2) Tantangan: masalah yang dihadapi dengan data, (3) Solusi: pendekatan yang diterapkan, (4) Implementasi: bagaimana solusi dijalankan, (5) Hasil: outcome dengan angka konkret, (6) Testimoni dari klien, (7) Kesimpulan dan pelajaran. Total 500-1000 kata. Gunakan pendekatan storytelling.
+> Buat naskah video case study [DURASI] menit tentang [NAMA_KLIEN] dari [INDUSTRI] yang menghadapi [TANTANGAN], menerapkan [SOLUSI], dan mencapai [HASIL]. Struktur: (1) Pembuka: ringkasan klien dan industri, (2) Tantangan: masalah yang dihadapi dengan data, (3) Solusi: pendekatan yang diterapkan, (4) Implementasi: bagaimana solusi dijalankan, (5) Hasil: dampak dengan angka konkret, (6) Testimoni dari klien, (7) Kesimpulan dan pelajaran. Total 500-1000 kata. Gunakan pendekatan storytelling.
 
 Hasil yang diharapkan:
 Naskah studi kasus dengan storytelling dan data.
@@ -5702,7 +5702,7 @@ Checklist 7 hari pertama: hari 1 daftar, hari 2 foto produk, hari 3 posting, dst
 2. Buat outline lengkap menggunakan prompt yang sesuai.
 3. Rekam atau tulis naskah lengkap.
 4. Publish dan ukur engagement.
-5. Iterasi berdasarkan feedback.
+5. Iterasi berdasarkan masukan.
 
 ---
 
@@ -5720,7 +5720,7 @@ Solusi: Setiap video/podcast harus memiliki minimal 1 CTA yang spesifik.
 **Kesalahan 4: Mengabaikan audio quality**
 Solusi: Audio yang buruk akan membuat penonton pergi. Investasikan di microphone yang baik.
 
-**Kesalahan 5: Tidak konsisten dengan upload schedule**
+**Kesalahan 5: Tidak konsisten dengan jadwal unggah**
 Solusi: Buat kalender konten dan patuhi jadwalnya. Konsistensi lebih penting daripada kesempurnaan.
 ## Bagian 6: Copywriting Tingkat Lanjut
 
@@ -5793,7 +5793,7 @@ Variabel:
 - [ALASAN_DEADLINE]: mengapa ada batas waktu
 
 Prompt:
-> Buat 5 variasi urgency copy untuk [PENAWARAN] dengan [DEADLINE] dan [ALASAN_DEADLINE]. Setiap copy harus: (1) Menggunakan deadline yang nyata, (2) Menjelaskan alasan deadline, (3) Tidak menggunakan tekanan berlebihan, (4) Memberikan cukup waktu untuk keputusan. Total 60-80 kata per variasi.
+> Buat 5 variasi urgency copy untuk [PENAWARAN] dengan [DEADLINE] dan [ALASAN_DEADLINE]. Setiap copy harus: (1) Menggunakan batas waktu yang nyata, (2) Menjelaskan alasan batas waktunya, (3) Tidak menggunakan tekanan berlebihan, (4) Memberikan cukup waktu untuk keputusan. Total 60-80 kata per variasi.
 
 Hasil yang diharapkan:
 Lima variasi urgency copy yang etis.
@@ -5973,7 +5973,7 @@ Kapan pakai:
 > Membuat framework storytelling untuk copy
 
 Variabel:
-- [JENIS_STORY]: jenis cerita (origin, customer, product journey)
+- [JENIS_STORY]: jenis cerita (asal-usul, pelanggan, perjalanan produk)
 - [STRUKTUR]: struktur cerita (hero's journey, three-act, dll)
 - [TUJUAN]: tujuan cerita
 
@@ -6042,7 +6042,7 @@ Value proposition canvas lengkap.
 ### P-278. Copy Peta Perjalanan Pelanggan
 
 Kapan pakai:
-> Membuat copy untuk setiap tahap customer journey
+> Membuat copy untuk setiap tahap perjalanan pelanggan
 
 Variabel:
 - [TAHAP_JOURNEY]: tahap perjalanan pelanggan (awareness, pertimbangan, keputusan, retensi)
@@ -6050,10 +6050,10 @@ Variabel:
 - [TOUCHPOINT]: touchpoint di setiap tahap
 
 Prompt:
-> Buat customer journey map copy untuk [TAHAP_JOURNEY] dengan [TUJUAN_PER_TAHP] dan [TOUCHPOINT]. Untuk setiap tahap: (1) Tujuan tahap, (2) Pesan utama, (3) Jenis konten, (4) CTA, (5) Metrik keberhasilan. Total 400-500 kata.
+> Buat copy peta perjalanan pelanggan untuk [TAHAP_JOURNEY] dengan [TUJUAN_PER_TAHP] dan [TOUCHPOINT]. Untuk setiap tahap: (1) Tujuan tahap, (2) Pesan utama, (3) Jenis konten, (4) CTA, (5) Metrik keberhasilan. Total 400-500 kata.
 
 Hasil yang diharapkan:
-Customer journey map dengan copy per tahap.
+Peta perjalanan pelanggan dengan copy per tahap.
 
 ---
 
@@ -6069,7 +6069,7 @@ Variabel:
 - [VARIASI]: variasi yang akan di-test
 
 Prompt:
-> Buat optimization plan untuk [HALAMAN] dengan [METRIK_SAAT_INI], tujuan [TUJUAN_OPTIMASI], dan [VARIASI]. Struktur: (1) Analisis masalah saat ini, (2) Hipotesis optimasi, (3) Variasi copy yang akan di-test, (4) Metrik keberhasilan, (5) Timeline testing. Total 300-400 kata.
+> Buat rencana optimasi untuk [HALAMAN] dengan [METRIK_SAAT_INI], tujuan [TUJUAN_OPTIMASI], dan [VARIASI]. Struktur: (1) Analisis masalah saat ini, (2) Hipotesis optimasi, (3) Variasi copy yang akan diuji, (4) Metrik keberhasilan, (5) Linimasa pengujian. Total 300-400 kata.
 
 Hasil yang diharapkan:
 Optimization plan dengan hipotesis dan variasi.
@@ -6156,7 +6156,7 @@ Variabel:
 - [TUJUAN_ANALISIS]: tujuan analisis
 
 Prompt:
-> Buat performance analysis untuk copy dengan [METRIK_PERFORMA], [DATA], dan tujuan [TUJUAN_ANALISIS]. Struktur: (1) Overview performa, (2) Highlight kekuatan, (3) Area perbaikan, (4) Rekomendasi optimasi, (5) Action plan. Total 300-400 kata.
+> Buat performance analysis untuk copy dengan [METRIK_PERFORMA], [DATA], dan tujuan [TUJUAN_ANALISIS]. Struktur: (1) Ringkasan performa, (2) Sorotan kekuatan, (3) Area perbaikan, (4) Rekomendasi optimasi, (5) Rencana tindakan. Total 300-400 kata.
 
 Hasil yang diharapkan:
 Performance analysis dengan rekomendasi.
@@ -6175,7 +6175,7 @@ Variabel:
 - [KELEMAHAN_KOMPETITOR]: kelemahan copy kompetitor
 
 Prompt:
-> Buat competitor copy analysis untuk [KOMPETITOR] dengan menganalisis [ELEMEN_YANG_DIANALISIS], [KEKUATAN_KOMPETITOR], dan [KELEMAHAN_KOMPETITOR]. Struktur: (1) Overview messaging kompetitor, (2) Analisis kekuatan, (3) Analisis kelemahan, (4) Peluang diferensiasi, (5) Rekomendasi untuk copy kita. Total 400-500 kata.
+> Buat competitor copy analysis untuk [KOMPETITOR] dengan menganalisis [ELEMEN_YANG_DIANALISIS], [KEKUATAN_KOMPETITOR], dan [KELEMAHAN_KOMPETITOR]. Struktur: (1) Ringkasan pesan kompetitor, (2) Analisis kekuatan, (3) Analisis kelemahan, (4) Peluang diferensiasi, (5) Rekomendasi untuk copy kita. Total 400-500 kata.
 
 Hasil yang diharapkan:
 Competitor analysis dengan rekomendasi.
@@ -6208,10 +6208,10 @@ Kapan pakai:
 Variabel:
 - [STANDAR_ACCESSIBILITY]: standar accessibility (WCAG, dll)
 - [JENIS_KONTEN]: jenis konten (web, email, dokumen)
-- [AUDIENCE]: audience dengan kebutuhan khusus
+- [AUDIENCE]: audiens dengan kebutuhan khusus
 
 Prompt:
-> Buat accessibility copy guidelines untuk [JENIS_KONTEN] dengan [STANDAR_ACCESSIBILITY] untuk [AUDIENCE]. Struktur: (1) Prinsip dasar, (2) Language guidelines, (3) Formatting guidelines, (4) Alt text guidelines, (5) Testing checklist. Total 400-500 kata.
+> Buat accessibility copy guidelines untuk [JENIS_KONTEN] dengan [STANDAR_ACCESSIBILITY] untuk [AUDIENCE]. Struktur: (1) Prinsip dasar, (2) Panduan bahasa, (3) Panduan pemformatan, (4) Panduan alt text, (5) Checklist pengujian. Total 400-500 kata.
 
 Hasil yang diharapkan:
 Accessibility guidelines lengkap.
@@ -6229,10 +6229,10 @@ Variabel:
 - [KONSISTENSI_BRAND]: bagaimana menjaga konsistensi brand
 
 Prompt:
-> Buat multilingual copy strategy untuk [BAHASA] di [MARKET] dengan menjaga [KONSISTENSI_BRAND]. Struktur: (1) Core message dalam bahasa utama, (2) Adaptasi per bahasa, (3) Tone consistency, (4) Translation workflow, (5) Quality assurance. Total 400-500 kata.
+> Buat strategi copy multibahasa untuk [BAHASA] di [MARKET] dengan menjaga [KONSISTENSI_BRAND]. Struktur: (1) Pesan utama dalam bahasa utama, (2) Adaptasi per bahasa, (3) Konsistensi tone, (4) Alur kerja penerjemahan, (5) Penjaminan mutu. Total 400-500 kata.
 
 Hasil yang diharapkan:
-Multilingual strategy lengkap.
+Strategi multibahasa lengkap.
 
 ---
 
@@ -6322,7 +6322,7 @@ Variabel:
 - [VARIASI_TONE]: variasi tone yang diperlukan
 
 Prompt:
-> Buat copy tone variation guide dengan [BASE_TONE] untuk [SITUASI] dengan [VARIASI_TONE]. Struktur: (1) Base tone description, (2) Situation-based variations (5-7 situasi), (3) Contoh copy untuk setiap variasi, (4) Do dan don't, (5) Transition guidelines. Total 400-500 kata.
+> Buat copy tone variation guide dengan [BASE_TONE] untuk [SITUASI] dengan [VARIASI_TONE]. Struktur: (1) Deskripsi tone dasar, (2) Variasi per situasi (5-7 situasi), (3) Contoh copy untuk setiap variasi, (4) Do dan don't, (5) Panduan transisi. Total 400-500 kata.
 
 Hasil yang diharapkan:
 Tone variation guide lengkap.
@@ -6336,12 +6336,12 @@ Kapan pakai:
 
 Variabel:
 - [TUJUAN]: tujuan copy
-- [AUDIENCE]: audience
+- [AUDIENCE]: audiens
 - [CHANNEL]: channel
 - [FRAMEWORK_TERSEDIA]: framework yang tersedia
 
 Prompt:
-> Buat copy framework selection guide untuk [TUJUAN], [AUDIENCE], [CHANNEL] dengan [FRAMEWORK_TERSEDIA]. Struktur: (1) Framework overview (AIDA, PAS, BAB, dll), (2) Decision matrix berdasarkan tujuan, (3) Decision matrix berdasarkan audience, (4) Decision matrix berdasarkan channel, (5) Contoh penggunaan setiap framework. Total 500-600 kata.
+> Buat panduan pemilihan framework copy untuk [TUJUAN], [AUDIENCE], [CHANNEL] dengan [FRAMEWORK_TERSEDIA]. Struktur: (1) Ringkasan framework (AIDA, PAS, BAB, dll), (2) Matriks keputusan berdasarkan tujuan, (3) Matriks keputusan berdasarkan audiens, (4) Matriks keputusan berdasarkan kanal, (5) Contoh penggunaan setiap framework. Total 500-600 kata.
 
 Hasil yang diharapkan:
 Framework selection guide lengkap.
@@ -6359,7 +6359,7 @@ Variabel:
 - [METRIK]: metrik keberhasilan
 
 Prompt:
-> Buat copy optimization playbook untuk [AREA_OPTIMASI] dengan [TEKNIK_OPTIMASI] dan [METRIK]. Struktur: (1) Overview area, (2) 5-7 teknik optimasi, (3) Step-by-step implementation, (4) Testing plan, (5) Success metrics, (6) Case study atau contoh. Total 500-600 kata.
+> Buat copy optimization playbook untuk [AREA_OPTIMASI] dengan [TEKNIK_OPTIMASI] dan [METRIK]. Struktur: (1) Ringkasan area, (2) 5-7 teknik optimasi, (3) Implementasi langkah demi langkah, (4) Rencana pengujian, (5) Metrik keberhasilan, (6) Studi kasus atau contoh. Total 500-600 kata.
 
 Hasil yang diharapkan:
 Optimization playbook lengkap.
@@ -6393,10 +6393,10 @@ Variabel:
 - [PROJEK]: projek copy
 - [STAKEHOLDERS]: stakeholders
 - [DELIVERABLES]: deliverables
-- [TIMELINE]: timeline
+- [TIMELINE]: linimasa
 
 Prompt:
-> Buat copy handoff document untuk [PROJEK] dengan [STAKEHOLDERS], [DELIVERABLES], dan [TIMELINE]. Struktur: (1) Project overview, (2) Scope dan deliverables, (3) Stakeholder roles, (4) Timeline dan milestones, (5) Approval process, (6) Handoff checklist. Total 400-500 kata.
+> Buat dokumen serah terima copy untuk [PROJEK] dengan [STAKEHOLDERS], [DELIVERABLES], dan [TIMELINE]. Struktur: (1) Ringkasan proyek, (2) Ruang lingkup dan deliverables, (3) Peran pemangku kepentingan, (4) Linimasa dan tonggak capaian, (5) Proses persetujuan, (6) Checklist serah terima. Total 400-500 kata.
 
 Hasil yang diharapkan:
 Handoff document lengkap.
@@ -6432,7 +6432,7 @@ Variabel:
 - [FREKUENSI_REPORTING]: frekuensi reporting
 
 Prompt:
-> Buat copy performance dashboard dengan [METRIK], [CHANNELS], dan [FREKUENSI_REPORTING]. Struktur: (1) Key metrics overview, (2) Channel breakdown, (3) Trend analysis, (4) Top performing copy, (5) Underperforming copy, (6) Action items. Total 400-500 kata.
+> Buat copy performance dashboard dengan [METRIK], [CHANNELS], dan [FREKUENSI_REPORTING]. Struktur: (1) Ringkasan metrik utama, (2) Rincian per kanal, (3) Analisis tren, (4) Copy dengan performa terbaik, (5) Copy dengan performa di bawah standar, (6) Daftar tindakan. Total 400-500 kata.
 
 Hasil yang diharapkan:
 Performance dashboard template.
@@ -6451,7 +6451,7 @@ Variabel:
 - [TARGET_AUDIENCE_PRESENTASI]: siapa yang melihat portfolio
 
 Prompt:
-> Buat copy presentasi portofolio dengan [JUMLAH_PROJEK] projek ([JENIS_PROJEK]), [HASIL], untuk [TARGET_AUDIENCE_PRESENTASI]. Struktur: (1) Introduction dan background, (2) Project overview (untuk setiap projek: brief, approach, result), (3) Case study mendalam untuk 2-3 projek terbaik, (4) Skills dan expertise, (5) Testimonials, (6) Contact information. Total 600-800 kata.
+> Buat copy presentasi portofolio dengan [JUMLAH_PROJEK] projek ([JENIS_PROJEK]), [HASIL], untuk [TARGET_AUDIENCE_PRESENTASI]. Struktur: (1) Pengenalan dan latar belakang, (2) Ringkasan proyek (untuk setiap projek: brief, pendekatan, hasil), (3) Studi kasus mendalam untuk 2-3 projek terbaik, (4) Keahlian dan spesialisasi, (5) Testimoni, (6) Informasi kontak. Total 600-800 kata.
 
 Hasil yang diharapkan:
 Portfolio presentation lengkap.
@@ -6593,9 +6593,9 @@ Solusi: Selalu gunakan data untuk menginformasikan keputusan optimasi.
 Solusi: Catat setiap test, hasil, dan pembelajaran untuk referensi masa depan.
 ## Panduan Otomasi Konten dengan AI
 
-Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten menggunakan AI. Setiap workflow bisa diimplementasikan dalam 1-2 jam tanpa coding.
+Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten menggunakan AI. Setiap alur kerja bisa diimplementasikan dalam 1-2 jam tanpa coding.
 
-### Workflow 1: Auto-Generate Instagram Caption dari Produk Baru
+### Alur Kerja 1: Auto-Generate Instagram Caption dari Produk Baru
 
 **Tools:** Make.com + ChatGPT API + Google Sheets + Instagram Business
 
@@ -6621,7 +6621,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 ---
 
-### Workflow 2: Auto-Generate Email Newsletter Mingguan
+### Alur Kerja 2: Auto-Generate Email Newsletter Mingguan
 
 **Tools:** Zapier + ChatGPT API + Mailchimp
 
@@ -6649,7 +6649,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 ---
 
-### Workflow 3: Auto-Generate Konten Blog dari Keyword
+### Alur Kerja 3: Auto-Generate Konten Blog dari Keyword
 
 **Tools:** n8n + OpenAI API + WordPress
 
@@ -6657,7 +6657,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 **Steps:**
 1. Install n8n (self-hosted atau cloud)
-2. Buat workflow dengan trigger "Google Sheets: New Row"
+2. Buat alur kerja dengan trigger "Google Sheets: New Row"
 3. Tambahkan node "OpenAI: Chat Completion" dengan prompt:
    ```
    Buatkan artikel blog 800-1000 kata untuk keyword: {{keyword}}
@@ -6671,13 +6671,13 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
    Tone: edukatif, contoh konkret, bahasa Indonesia natural.
    ```
 4. Tambahkan node "WordPress: Create Post"
-5. Aktifkan workflow
+5. Aktifkan alur kerja
 
 **Hasil:** Artikel blog otomatis tergenerate dan dipublish ke WordPress.
 
 ---
 
-### Workflow 4: Auto-Generate Facebook Ads dari Landing Page
+### Alur Kerja 4: Auto-Generate Facebook Ads dari Landing Page
 
 **Tools:** Make.com + ChatGPT API + Facebook Ads Manager
 
@@ -6705,7 +6705,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 ---
 
-### Workflow 5: Auto-Generate Konten TikTok dari Blog Post
+### Alur Kerja 5: Auto-Generate Konten TikTok dari Blog Post
 
 **Tools:** Zapier + ChatGPT API + TikTok for Business
 
@@ -6731,7 +6731,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 ---
 
-### Workflow 6: Auto-Generate Email Follow-Up dari Form Submission
+### Alur Kerja 6: Auto-Generate Email Follow-Up dari Form Submission
 
 **Tools:** Make.com + ChatGPT API + Email Service (Gmail/SendGrid)
 
@@ -6761,7 +6761,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 ---
 
-### Workflow 7: Auto-Generate Konten LinkedIn dari Achievement
+### Alur Kerja 7: Auto-Generate Konten LinkedIn dari Achievement
 
 **Tools:** Zapier + ChatGPT API + LinkedIn
 
@@ -6792,14 +6792,14 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 ---
 
-### Workflow 8: Auto-Generate Konten Twitter Thread dari Blog Post
+### Alur Kerja 8: Auto-Generate Konten Twitter Thread dari Blog Post
 
 **Tools:** n8n + OpenAI API + Twitter API
 
 **Trigger:** Blog post baru dipublish
 
 **Steps:**
-1. Buat workflow n8n dengan trigger "WordPress: New Post"
+1. Buat alur kerja n8n dengan trigger "WordPress: New Post"
 2. Tambahkan node "OpenAI: Chat Completion" dengan prompt:
    ```
    Buatkan Twitter thread 7-10 tweet dari artikel blog berikut:
@@ -6814,13 +6814,13 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
    - Tone: informative, engaging, tidak terlalu formal
    ```
 3. Tambahkan node "Twitter: Create Tweet" (loop untuk setiap tweet)
-4. Aktifkan workflow
+4. Aktifkan alur kerja
 
 **Hasil:** Twitter thread otomatis tergenerate dan dipublish dari setiap blog post baru.
 
 ---
 
-### Workflow 9: Auto-Generate Konten YouTube Shorts dari Video Panjang
+### Alur Kerja 9: Auto-Generate Konten YouTube Shorts dari Video Panjang
 
 **Tools:** Make.com + ChatGPT API + YouTube API
 
@@ -6847,7 +6847,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 ---
 
-### Workflow 10: Auto-Generate Konten Podcast Show Notes
+### Alur Kerja 10: Auto-Generate Konten Podcast Show Notes
 
 **Tools:** Zapier + ChatGPT API + Podcast Hosting
 
@@ -6881,7 +6881,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 **Tantangan:** Pemilik Kopi Nusantara, Pak Andi, harus posting 3x per minggu di Instagram tapi kewalahan bikin caption.
 
-**Solusi:** Implementasi Workflow 1 (Auto-Generate Instagram Caption)
+**Solusi:** Implementasi Alur Kerja 1 (Auto-Generate Instagram Caption)
 
 **Hasil:**
 - Waktu bikin caption: dari 2 jam per minggu jadi 15 menit (cuma review dan edit)
@@ -6897,7 +6897,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 **Tantangan:** Tim marketing Batik Serasi harus bikin email newsletter mingguan tapi sering telat kirim.
 
-**Solusi:** Implementasi Workflow 2 (Auto-Generate Email Newsletter)
+**Solusi:** Implementasi Alur Kerja 2 (Auto-Generate Email Newsletter)
 
 **Hasil:**
 - Konsistensi kirim: dari 70% jadi 100% (tidak pernah telat lagi)
@@ -6913,7 +6913,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 **Tantangan:** TechSolusi harus publish 2 blog post per minggu untuk SEO tapi tim content kecil.
 
-**Solusi:** Implementasi Workflow 3 (Auto-Generate Konten Blog)
+**Solusi:** Implementasi Alur Kerja 3 (Auto-Generate Konten Blog)
 
 **Hasil:**
 - Output blog: dari 2 per minggu jadi 4 per minggu
@@ -6929,7 +6929,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 **Tantangan:** Fashionista Shop dapat 50+ form submission per hari tapi follow-up email manual dan lambat.
 
-**Solusi:** Implementasi Workflow 6 (Auto-Generate Email Follow-Up)
+**Solusi:** Implementasi Alur Kerja 6 (Auto-Generate Email Follow-Up)
 
 **Hasil:**
 - Response time: dari 4 jam jadi 5 menit
@@ -6981,7 +6981,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 ### Masalah 4: Integrasi Gagal di Tengah Jalan
 
-**Gejala:** Workflow berhenti di step tertentu.
+**Gejala:** Alur Kerja berhenti di step tertentu.
 
 **Solusi:**
 1. Check error log di Make.com/Zapier/n8n
@@ -7103,18 +7103,18 @@ echo $post;
 
 ## Checklist Implementasi Otomasi
 
-Gunakan checklist ini sebelum deploy workflow otomasi:
+Gunakan checklist ini sebelum deploy alur kerja otomasi:
 
 - [ ] Prompt sudah ditest dengan 10 input berbeda
 - [ ] Output AI sudah di-review dan sesuai standar kualitas
 - [ ] API key sudah disimpan di environment variable (bukan hardcode)
 - [ ] Rate limit sudah dikonfigurasi
 - [ ] Error handling sudah ditambahkan
-- [ ] Monitoring sudah disetup (alert jika workflow gagal)
+- [ ] Monitoring sudah disetup (alert jika alur kerja gagal)
 - [ ] Backup manual process masih ada (jika AI gagal)
 - [ ] Biaya sudah dihitung dan sesuai budget
-- [ ] Tim sudah dilatih cara pakai workflow
-- [ ] Dokumentasi workflow sudah dibuat
+- [ ] Tim sudah dilatih cara pakai alur kerja
+- [ ] Dokumentasi alur kerja sudah dibuat
 
 ---
 

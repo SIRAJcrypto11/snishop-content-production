@@ -28,7 +28,7 @@ Yang Anda dapatkan di edisi Ultimate:
 - Contoh output Gemini untuk template yang sama
 - Perbandingan kualitas antara kedua alat agar Anda tahu kapan memakai yang mana
 - Berkas Excel pendamping dengan 200 baris template siap salin
-- Panduan otomasi 10 workflow social media langkah demi langkah
+- Panduan otomasi 10 alur kerja social media langkah demi langkah
 - Studi kasus 3 bisnis nyata yang sudah mengotomasi social media mereka
 - Panduan penyelesaian 5 masalah otomasi yang paling sering muncul
 - Kode contoh Node.js, Python, dan PHP untuk integrasi khusus
@@ -68,9 +68,9 @@ Semua template dalam buku ini mengikuti standar kualitas ketat:
 const automation = `
 ## Panduan Otomasi Social Media dengan AI
 
-Sepuluh workflow otomasi yang bisa dipasang dengan alat gratis atau murah. Setiap workflow memakai format sama: alat yang dibutuhkan, alur kerjanya, langkah pemasangan, dan prompt AI yang dipakai. Untuk pemula, mulai dari workflow 1 dan 4 yang paling mudah.
+Sepuluh alur kerja otomasi yang bisa dipasang dengan alat gratis atau murah. Setiap alur kerja memakai format sama: alat yang dibutuhkan, alur kerjanya, langkah pemasangan, dan prompt AI yang dipakai. Untuk pemula, mulai dari alur kerja 1 dan 4 yang paling mudah.
 
-### Workflow 1: Bank Caption Mingguan dari Daftar Produk
+### Alur Kerja 1: Bank Caption Mingguan dari Daftar Produk
 
 Alat yang dibutuhkan: Google Sheets (gratis), ChatGPT (gratis).
 
@@ -90,22 +90,22 @@ Saya punya 5 produk berikut dari sheet bank konten saya: [tempel 5 baris]. Buatk
 
 Hasil yang diharapkan: 5 caption siap posting setiap Senin, total kerja 20 menit per minggu.
 
-### Workflow 2: Penjadwalan Konten Otomatis dengan Metricool
+### Alur Kerja 2: Penjadwalan Konten Otomatis dengan Metricool
 
-Alat yang dibutuhkan: Metricool akun gratis (menjadwalkan Instagram, Facebook, TikTok, LinkedIn), caption dari workflow 1.
+Alat yang dibutuhkan: Metricool akun gratis (menjadwalkan Instagram, Facebook, TikTok, LinkedIn), caption dari alur kerja 1.
 
 Alur: caption yang sudah jadi langsung masuk antrean penjadwalan, tidak ada lagi lupa posting.
 
 Langkah pemasangan:
 1. Daftar Metricool gratis, hubungkan akun Instagram dan Facebook Anda.
 2. Buat kalender mingguan tetap: Senin konten edukasi jam 07.30, Rabu konten dapur jam 12.00, Jumat promo jam 17.00, Sabtu konten pelanggan jam 10.00.
-3. Setiap hasil caption dari workflow 1 langsung diunggah ke slot yang cocok.
+3. Setiap hasil caption dari alur kerja 1 langsung diunggah ke slot yang cocok.
 4. Siapkan foto atau video stok: rekam 15 klip sekali sebulan, simpan di folder Google Drive, gunakan bergiliran.
 5. Setiap Minggu malam: cek kalender minggu depan, lengkapi slot yang kosong.
 
 Hasil yang diharapkan: konten terjadwal 4 minggu ke depan hanya dengan satu sesi kerja 90 menit per minggu.
 
-### Workflow 3: Triage Komentar dengan Aturan Waktu Balas
+### Alur Kerja 3: Triage Komentar dengan Aturan Waktu Balas
 
 Alat yang dibutuhkan: pemberitahuan aplikasi Instagram, spreadsheet triase sederhana.
 
@@ -120,7 +120,7 @@ Langkah pemasangan:
 
 Hasil yang diharapkan: tidak ada komentar pertanyaan yang terlewat lebih dari 2 jam, dan pola pertanyaan langsung jadi bahan konten.
 
-### Workflow 4: Quick Replies Instagram untuk Pertanyaan Berulang
+### Alur Kerja 4: Quick Replies Instagram untuk Pertanyaan Berulang
 
 Alat yang dibutuhkan: fitur quick replies Instagram (gratis, bawaan).
 
@@ -135,7 +135,7 @@ Langkah pemasangan:
 
 Hasil yang diharapkan: waktu membalas DM turun dari 3 menit menjadi 30 detik per pesan untuk pertanyaan umum.
 
-### Workflow 5: Laporan Performa Mingguan Otomatis ke Email
+### Alur Kerja 5: Laporan Performa Mingguan Otomatis ke Email
 
 Alat yang dibutuhkan: Metricool (data), Google Sheets, template dari T-166 di Bagian 5.
 
@@ -150,7 +150,7 @@ Langkah pemasangan:
 
 Hasil yang diharapkan: laporan mingguan 10 menit, laporan bulanan 30 menit, dan data tren yang tidak pernah putus.
 
-### Workflow 6: Mesin Daur Ulang Konten Satu Arah
+### Alur Kerja 6: Mesin Daur Ulang Konten Satu Arah
 
 Alat yang dibutuhkan: template T-009 di Bagian 1, Metricool, folder Google Drive.
 
@@ -161,11 +161,11 @@ Langkah pemasangan:
 2. Jalankan template T-009: tempel deskripsi konten asal dan angka performanya, minta rencana daur ulang 6 format.
 3. Simpan hasilnya sebagai checklist di Google Drive, satu dokumen per konten asal.
 4. Kerjakan 2 format daur ulang setiap akhir pekan, jadwalkan ke minggu berikutnya lewat Metricool.
-5. Catat performa tiap versi daur ulang di spreadsheet yang sama dengan workflow 5.
+5. Catat performa tiap versi daur ulang di spreadsheet yang sama dengan alur kerja 5.
 
 Hasil yang diharapkan: satu konten bagus menghasilkan 6 konten dalam 3 minggu tanpa menambah jam produksi baru.
 
-### Workflow 7: Pemantauan Penyebutan Merek dengan Google Alerts dan Pencarian Manual
+### Alur Kerja 7: Pemantauan Penyebutan Merek dengan Google Alerts dan Pencarian Manual
 
 Alat yang dibutuhkan: Google Alerts (gratis), pencarian tag Instagram, spreadsheet pemantauan.
 
@@ -176,11 +176,11 @@ Langkah pemasangan:
 2. Simpan pencarian tag merek Anda di Instagram, buka setiap hari sekali.
 3. Semua penyebutan dicatat di spreadsheet: tanggal, siapa, di mana, isi, tindakan (repost, balas, atau simpan).
 4. Penyebutan positif: minta izin repost lewat DM, lalu jadwalkan konten repost.
-5. Penyebutan keluhan: masuk ke alur triase workflow 3 dengan prioritas tertinggi.
+5. Penyebutan keluhan: masuk ke alur triase alur kerja 3 dengan prioritas tertinggi.
 
 Hasil yang diharapkan: tidak ada pembicaraan tentang merek Anda yang lewat tanpa respons, dan stok konten repost bertambah tanpa produksi.
 
-### Workflow 8: Bank Ide Konten dari Pertanyaan Pelanggan
+### Alur Kerja 8: Bank Ide Konten dari Pertanyaan Pelanggan
 
 Alat yang dibutuhkan: spreadsheet ide, template T-034 di Bagian 1.
 
@@ -195,7 +195,7 @@ Langkah pemasangan:
 
 Hasil yang diharapkan: tidak pernah kehabisan ide konten, dan konten Anda selalu menjawab yang benar benar ditanyakan.
 
-### Workflow 9: Pengingat Tugas Konten Harian ke WhatsApp
+### Alur Kerja 9: Pengingat Tugas Konten Harian ke WhatsApp
 
 Alat yang dibutuhkan: Google Sheets, pengingat HP atau aplikasi jadwal seperti Trello gratis.
 
@@ -206,11 +206,11 @@ Langkah pemasangan:
 2. Masukkan daftar itu ke Trello sebagai kartu harian atau pasang pengingat berulang di aplikasi kalender HP.
 3. Jam pengingat: pagi 08.30 dan sore 16.30, sesuai puncak aktivitas audiens kebanyakan UMKM.
 4. Setiap tugas selesai, centang. Bila tiga hari berturut terlewat, kecilkan daftar, rutinitas yang terlalu berat pasti gagal.
-5. Catat kepatuhan mingguan di spreadsheet workflow 5.
+5. Catat kepatuhan mingguan di spreadsheet alur kerja 5.
 
 Hasil yang diharapkan: rutinitas 20 menit benar benar terjadi setiap hari, bukan cuma di minggu pertama.
 
-### Workflow 10: Draf Caption Flash Sale dalam 5 Menit
+### Alur Kerja 10: Draf Caption Flash Sale dalam 5 Menit
 
 Alat yang dipakai: template T-058 di Bagian 2, Google Form.
 
@@ -231,7 +231,7 @@ Hasil yang diharapkan: caption flash sale jadi dalam 5 menit dengan semua elemen
 
 Kondisi awal: pemilik mengerjakan sendiri semua konten di malam hari setelah tutup dapur. Posting tidak teratur, rata rata 5 posting per bulan, engagement stagnan di 2,1 persen.
 
-Yang dipasang: workflow 1 dan 2 di minggu pertama, workflow 4 di minggu kedua, workflow 8 di bulan kedua.
+Yang dipasang: alur kerja 1 dan 2 di minggu pertama, alur kerja 4 di minggu kedua, alur kerja 8 di bulan kedua.
 
 Hasil setelah 3 bulan:
 - Frekuensi posting naik dari 5 menjadi 16 posting per bulan.
@@ -239,13 +239,13 @@ Hasil setelah 3 bulan:
 - Engagement rate naik dari 2,1 ke 3,6 persen.
 - Chat masuk naik dari 12 menjadi 31 per bulan, penjualan naik sekitar 22 persen.
 
-Pelajaran terpenting: penjadwalan tetap mingguan (workflow 2) adalah fondasi. Tanpa itu, semua hasil AI hanya menumpuk di catatan tanpa pernah tayang.
+Pelajaran terpenting: penjadwalan tetap mingguan (alur kerja 2) adalah fondasi. Tanpa itu, semua hasil AI hanya menumpuk di catatan tanpa pernah tayang.
 
 ### Studi Kasus 2: Laundry Premium, Yogyakarta
 
 Kondisi awal: konten bagus tapi hanya tayang saat pemilik selesaikan pekerjaan laundry. Reel terbaik 12 ribu views tidak pernah ditindaklanjuti.
 
-Yang dipasang: workflow 6 (daur ulang) dan workflow 9 (rutinitas harian) di minggu pertama, workflow 7 (pemantauan penyebutan) di minggu ketiga.
+Yang dipasang: alur kerja 6 (daur ulang) dan alur kerja 9 (rutinitas harian) di minggu pertama, alur kerja 7 (pemantauan penyebutan) di minggu ketiga.
 
 Hasil setelah 3 bulan:
 - Satu reel bagus kini menghasilkan 5 konten susulan secara rutin.
@@ -259,11 +259,11 @@ Pelajaran terpenting: daur ulang mengubah matematika produksi. Bisnis solo tidak
 
 Kondisi awal: pemilik punya admin 1 orang, tapi admin menghabiskan 2 jam setiap hari membalas pertanyaan yang sama soal harga, menu, dan pengiriman.
 
-Yang dipasang: workflow 3 (triase) dan workflow 4 (quick replies) di minggu pertama, workflow 5 (laporan mingguan) di minggu kedua.
+Yang dipasang: alur kerja 3 (triase) dan alur kerja 4 (quick replies) di minggu pertama, alur kerja 5 (laporan mingguan) di minggu kedua.
 
 Hasil setelah 3 bulan:
 - Waktu membalas DM turun dari 2 jam menjadi 45 menit per hari.
-- Tidak ada satu pun pertanyaan harga yang terlewat lebih dari 2 jam sejak workflow 3 berjalan.
+- Tidak ada satu pun pertanyaan harga yang terlewat lebih dari 2 jam sejak alur kerja 3 berjalan.
 - Laporan mingguan kini selalu terisi, yang dulu tidak pernah jadi.
 - Dari data laporan, ditemukan bahwa paket keluarga paling sering ditanyakan, lalu konten paket keluarga dibuat dan menjadi konten konversi terbaik bulan itu.
 
@@ -281,7 +281,7 @@ Solusi: selalu tambahkan satu contoh tulisan asli Anda di akhir prompt beserta i
 
 Penyebab: quick reply atau bot membalas komentar sarkas atau keluhan dengan jawaban promosi, yang memperburuk suasana.
 
-Solusi: aturan berlapis. Pertanyaan umum boleh pakai balasan cepat. Keluhan dan komentar sarkas wajib dibalas manusia. Di workflow triase, tandai kata kunci yang wajib lolos ke manusia: rusak, kecewa, refund, tipu, bohong.
+Solusi: aturan berlapis. Pertanyaan umum boleh pakai balasan cepat. Keluhan dan komentar sarkas wajib dibalas manusia. Di alur kerja triase, tandai kata kunci yang wajib lolos ke manusia: rusak, kecewa, refund, tipu, bohong.
 
 ### Masalah 3: Penjadwalan Gagal atau Posting Tidak Muncul
 
@@ -297,9 +297,9 @@ Solusi: satu sumber, satu waktu. Pilih satu alat untuk semua angka mingguan dan 
 
 ### Masalah 5: Otomasi Berhenti Setelah Semangat Awal Reda
 
-Penyebab: rutinitas terlalu berat, terlalu banyak workflow dipasang sekaligus, tidak ada pemilik yang jelas.
+Penyebab: rutinitas terlalu berat, terlalu banyak alur kerja dipasang sekaligus, tidak ada pemilik yang jelas.
 
-Solusi: satu workflow baru per dua minggu, dan setiap workflow harus punya waktu kerja maksimal 20 menit per minggu. Bila satu workflow butuh lebih, pecah atau sederhanakan. Otomasi yang baik terasa seperti kebiasaan ringan, bukan proyek tambahan.
+Solusi: satu alur kerja baru per dua minggu, dan setiap alur kerja harus punya waktu kerja maksimal 20 menit per minggu. Bila satu alur kerja butuh lebih, pecah atau sederhanakan. Otomasi yang baik terasa seperti kebiasaan ringan, bukan proyek tambahan.
 
 ## Integrasi Khusus dengan Kode
 
@@ -443,9 +443,9 @@ Tandai tiap langkah yang selesai. Selesaikan dalam urutan, satu blok per minggu 
 
 MINGGU 1: FONDASI
 - [ ] Spreadsheet bank konten dibuat dan terisi minimal 10 produk
-- [ ] Prompt bank caption (workflow 1) tersimpan dan teruji menghasilkan 5 caption
-- [ ] 5 balasan cepat Instagram (workflow 4) dipasang dan diuji di DM sendiri
-- [ ] Rutinitas harian 20 menit (workflow 9) dipasang pengingatnya
+- [ ] Prompt bank caption (alur kerja 1) tersimpan dan teruji menghasilkan 5 caption
+- [ ] 5 balasan cepat Instagram (alur kerja 4) dipasang dan diuji di DM sendiri
+- [ ] Rutinitas harian 20 menit (alur kerja 9) dipasang pengingatnya
 
 MINGGU 2: PENJADWALAN
 - [ ] Akun Metricool terhubung ke semua platform yang dipakai
@@ -463,12 +463,12 @@ MINGGU 4: DATA DAN PERBAIKAN
 - [ ] Spreadsheet laporan mingguan terisi 4 minggu data
 - [ ] Laporan bulanan pertama disusun dengan template T-161
 - [ ] Satu keputusan konten diambil dari data laporan
-- [ ] Workflow yang terasa lebih dari 20 menit per minggu disederhanakan atau dihentikan
+- [ ] Alur Kerja yang terasa lebih dari 20 menit per minggu disederhanakan atau dihentikan
 
 MASA DEPAN (HANYA SETELAH SEMUA DI ATAS STABIL)
-- [ ] Workflow 6 daur ulang berjalan untuk konten terbaik tiap minggu
-- [ ] Workflow 8 bank ide diisi dari pertanyaan pelanggan
-- [ ] Workflow 10 dipakai untuk flash sale pertama
+- [ ] Alur Kerja 6 daur ulang berjalan untuk konten terbaik tiap minggu
+- [ ] Alur Kerja 8 bank ide diisi dari pertanyaan pelanggan
+- [ ] Alur Kerja 10 dipakai untuk flash sale pertama
 - [ ] Integrasi kode dipertimbangkan hanya bila volume konten melebihi 20 posting per bulan
 
 `;
@@ -481,7 +481,7 @@ ultimate = ultimate.slice(0, lampiranIndex) + automation.trimStart() + ultimate.
 
 fs.writeFileSync(ultimatePath, ultimate);
 const templates = (ultimate.match(/^### T-\d+\./gm) || []).length;
-const workflows = (ultimate.match(/^### Workflow \d+/gm) || []).length;
+const workflows = (ultimate.match(/^### Alur Kerja \d+/gm) || []).length;
 console.log(`Ultimate rebuilt: ${templates} templates, ${workflows} workflows, ${ultimate.length} chars`);
 
 const lint = [];

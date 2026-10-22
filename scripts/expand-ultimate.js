@@ -22,7 +22,7 @@ md = md.replace(
 
 md = md.replace(
   'Edisi Premium berisi semua 300 prompt dari edisi Basic, ditambah contoh output nyata dari ChatGPT dan Gemini untuk setiap bagian. Anda bisa melihat langsung bagaimana AI menjawab prompt ini, sehingga Anda tahu apa yang diharapkan sebelum mencobanya sendiri.',
-  'Edisi Ultimate berisi semua 300 prompt dari edisi Basic, contoh output nyata dari ChatGPT dan Gemini, plus panduan otomasi untuk mengintegrasikan AI ke dalam workflow bisnis Anda. Anda tidak hanya mendapat prompt, tapi juga cara mengotomasi produksi konten dengan Make.com, Zapier, dan n8n.'
+  'Edisi Ultimate berisi semua 300 prompt dari edisi Basic, contoh output nyata dari ChatGPT dan Gemini, plus panduan otomasi untuk mengintegrasikan AI ke dalam alur kerja bisnis Anda. Anda tidak hanya mendapat prompt, tapi juga cara mengotomasi produksi konten dengan Make.com, Zapier, dan n8n.'
 );
 
 md = md.replace(
@@ -33,9 +33,9 @@ md = md.replace(
 // Add Ultimate-specific items after the Premium list
 const premiumListEnd = '- Berkas Excel pendamping dengan 300 baris prompt';
 const ultimateAdditions = `
-- Panduan otomasi Make.com untuk 10 workflow konten
-- Panduan otomasi Zapier untuk 10 workflow konten
-- Panduan otomasi n8n untuk 10 workflow konten
+- Panduan otomasi Make.com untuk 10 alur kerja konten
+- Panduan otomasi Zapier untuk 10 alur kerja konten
+- Panduan otomasi n8n untuk 10 alur kerja konten
 - Template kode Node.js, Python, dan PHP untuk custom integration
 - Studi kasus 4 bisnis yang sudah mengotomasi konten mereka
 - Troubleshooting guide untuk integrasi AI`;
@@ -47,9 +47,9 @@ const automationSections = `
 
 ## Panduan Otomasi Konten dengan AI
 
-Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten menggunakan AI. Setiap workflow bisa diimplementasikan dalam 1-2 jam tanpa coding.
+Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten menggunakan AI. Setiap alur kerja bisa diimplementasikan dalam 1-2 jam tanpa coding.
 
-### Workflow 1: Auto-Generate Instagram Caption dari Produk Baru
+### Alur Kerja 1: Auto-Generate Instagram Caption dari Produk Baru
 
 **Tools:** Make.com + ChatGPT API + Google Sheets + Instagram Business
 
@@ -75,7 +75,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 ---
 
-### Workflow 2: Auto-Generate Email Newsletter Mingguan
+### Alur Kerja 2: Auto-Generate Email Newsletter Mingguan
 
 **Tools:** Zapier + ChatGPT API + Mailchimp
 
@@ -103,7 +103,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 ---
 
-### Workflow 3: Auto-Generate Konten Blog dari Keyword
+### Alur Kerja 3: Auto-Generate Konten Blog dari Keyword
 
 **Tools:** n8n + OpenAI API + WordPress
 
@@ -111,7 +111,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 **Steps:**
 1. Install n8n (self-hosted atau cloud)
-2. Buat workflow dengan trigger "Google Sheets: New Row"
+2. Buat alur kerja dengan trigger "Google Sheets: New Row"
 3. Tambahkan node "OpenAI: Chat Completion" dengan prompt:
    \`\`\`
    Buatkan artikel blog 800-1000 kata untuk keyword: {{keyword}}
@@ -125,13 +125,13 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
    Tone: edukatif, contoh konkret, bahasa Indonesia natural.
    \`\`\`
 4. Tambahkan node "WordPress: Create Post"
-5. Aktifkan workflow
+5. Aktifkan alur kerja
 
 **Hasil:** Artikel blog otomatis tergenerate dan dipublish ke WordPress.
 
 ---
 
-### Workflow 4: Auto-Generate Facebook Ads dari Landing Page
+### Alur Kerja 4: Auto-Generate Facebook Ads dari Landing Page
 
 **Tools:** Make.com + ChatGPT API + Facebook Ads Manager
 
@@ -159,7 +159,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 ---
 
-### Workflow 5: Auto-Generate Konten TikTok dari Blog Post
+### Alur Kerja 5: Auto-Generate Konten TikTok dari Blog Post
 
 **Tools:** Zapier + ChatGPT API + TikTok for Business
 
@@ -185,7 +185,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 ---
 
-### Workflow 6: Auto-Generate Email Follow-Up dari Form Submission
+### Alur Kerja 6: Auto-Generate Email Follow-Up dari Form Submission
 
 **Tools:** Make.com + ChatGPT API + Email Service (Gmail/SendGrid)
 
@@ -215,7 +215,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 ---
 
-### Workflow 7: Auto-Generate Konten LinkedIn dari Achievement
+### Alur Kerja 7: Auto-Generate Konten LinkedIn dari Achievement
 
 **Tools:** Zapier + ChatGPT API + LinkedIn
 
@@ -246,14 +246,14 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 ---
 
-### Workflow 8: Auto-Generate Konten Twitter Thread dari Blog Post
+### Alur Kerja 8: Auto-Generate Konten Twitter Thread dari Blog Post
 
 **Tools:** n8n + OpenAI API + Twitter API
 
 **Trigger:** Blog post baru dipublish
 
 **Steps:**
-1. Buat workflow n8n dengan trigger "WordPress: New Post"
+1. Buat alur kerja n8n dengan trigger "WordPress: New Post"
 2. Tambahkan node "OpenAI: Chat Completion" dengan prompt:
    \`\`\`
    Buatkan Twitter thread 7-10 tweet dari artikel blog berikut:
@@ -268,13 +268,13 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
    - Tone: informative, engaging, tidak terlalu formal
    \`\`\`
 3. Tambahkan node "Twitter: Create Tweet" (loop untuk setiap tweet)
-4. Aktifkan workflow
+4. Aktifkan alur kerja
 
 **Hasil:** Twitter thread otomatis tergenerate dan dipublish dari setiap blog post baru.
 
 ---
 
-### Workflow 9: Auto-Generate Konten YouTube Shorts dari Video Panjang
+### Alur Kerja 9: Auto-Generate Konten YouTube Shorts dari Video Panjang
 
 **Tools:** Make.com + ChatGPT API + YouTube API
 
@@ -301,7 +301,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 ---
 
-### Workflow 10: Auto-Generate Konten Podcast Show Notes
+### Alur Kerja 10: Auto-Generate Konten Podcast Show Notes
 
 **Tools:** Zapier + ChatGPT API + Podcast Hosting
 
@@ -335,7 +335,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 **Tantangan:** Pemilik Kopi Nusantara, Pak Andi, harus posting 3x per minggu di Instagram tapi kewalahan bikin caption.
 
-**Solusi:** Implementasi Workflow 1 (Auto-Generate Instagram Caption)
+**Solusi:** Implementasi Alur Kerja 1 (Auto-Generate Instagram Caption)
 
 **Hasil:**
 - Waktu bikin caption: dari 2 jam per minggu jadi 15 menit (cuma review dan edit)
@@ -351,7 +351,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 **Tantangan:** Tim marketing Batik Serasi harus bikin email newsletter mingguan tapi sering telat kirim.
 
-**Solusi:** Implementasi Workflow 2 (Auto-Generate Email Newsletter)
+**Solusi:** Implementasi Alur Kerja 2 (Auto-Generate Email Newsletter)
 
 **Hasil:**
 - Konsistensi kirim: dari 70% jadi 100% (tidak pernah telat lagi)
@@ -367,7 +367,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 **Tantangan:** TechSolusi harus publish 2 blog post per minggu untuk SEO tapi tim content kecil.
 
-**Solusi:** Implementasi Workflow 3 (Auto-Generate Konten Blog)
+**Solusi:** Implementasi Alur Kerja 3 (Auto-Generate Konten Blog)
 
 **Hasil:**
 - Output blog: dari 2 per minggu jadi 4 per minggu
@@ -383,7 +383,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 **Tantangan:** Fashionista Shop dapat 50+ form submission per hari tapi follow-up email manual dan lambat.
 
-**Solusi:** Implementasi Workflow 6 (Auto-Generate Email Follow-Up)
+**Solusi:** Implementasi Alur Kerja 6 (Auto-Generate Email Follow-Up)
 
 **Hasil:**
 - Response time: dari 4 jam jadi 5 menit
@@ -435,7 +435,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 
 ### Masalah 4: Integrasi Gagal di Tengah Jalan
 
-**Gejala:** Workflow berhenti di step tertentu.
+**Gejala:** Alur Kerja berhenti di step tertentu.
 
 **Solusi:**
 1. Check error log di Make.com/Zapier/n8n
@@ -557,18 +557,18 @@ echo $post;
 
 ## Checklist Implementasi Otomasi
 
-Gunakan checklist ini sebelum deploy workflow otomasi:
+Gunakan checklist ini sebelum deploy alur kerja otomasi:
 
 - [ ] Prompt sudah ditest dengan 10 input berbeda
 - [ ] Output AI sudah di-review dan sesuai standar kualitas
 - [ ] API key sudah disimpan di environment variable (bukan hardcode)
 - [ ] Rate limit sudah dikonfigurasi
 - [ ] Error handling sudah ditambahkan
-- [ ] Monitoring sudah disetup (alert jika workflow gagal)
+- [ ] Monitoring sudah disetup (alert jika alur kerja gagal)
 - [ ] Backup manual process masih ada (jika AI gagal)
 - [ ] Biaya sudah dihitung dan sesuai budget
-- [ ] Tim sudah dilatih cara pakai workflow
-- [ ] Dokumentasi workflow sudah dibuat
+- [ ] Tim sudah dilatih cara pakai alur kerja
+- [ ] Dokumentasi alur kerja sudah dibuat
 
 ---
 `;
