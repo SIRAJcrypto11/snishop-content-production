@@ -1,0 +1,51 @@
+{
+  "name": "snishop-content-production-system",
+  "version": "1.0.0",
+  "description": "SNISHOP Digital Content Production System - Automated content creation for 10,000+ products",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "migrate": "node src/database/migrate.js",
+    "seed": "node src/database/seed.js",
+    "setup": "node scripts/setup.js"
+  },
+  "keywords": [
+    "snishop",
+    "content-production",
+    "automation",
+    "digital-content"
+  ],
+  "author": "SNISHOP",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bullmq": "^6.4.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "exceljs": "^4.4.0",
+    "express": "^5.3.0",
+    "helmet": "^8.3.0",
+    "ioredis": "^6.0.0",
+    "morgan": "^1.12.1",
+    "pg": "^8.23.1",
+    "playwright": "^1.64.1",
+    "puppeteer": "^25.15.0",
+    "redis": "^6.3.0",
+    "sharp": "^0.35.5",
+    "uuid": "^14.0.3",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-s3": "^3.1155.0",
+    "canvas": "^3.2.3",
+    "eslint": "^10.13.0",
+    "jest": "^30.5.2",
+    "marked": "^18.1.1",
+    "nodemon": "^3.1.14",
+    "openai": "^7.42.0",
+    "prettier": "^3.9.10"
+  }
+}
