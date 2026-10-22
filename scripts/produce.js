@@ -44,7 +44,8 @@ function lintManuscript(markdown) {
     violations.push('contains em-dash or spaced en-dash');
   }
 
-  const strayAsterisks = prose.match(/\*/g);
+  const proseWithoutBold = prose.replace(/\*\*[^*]+\*\*/g, '');
+  const strayAsterisks = proseWithoutBold.match(/\*/g);
   if (strayAsterisks) {
     violations.push(`contains ${strayAsterisks.length} asterisk marker(s) outside code blocks`);
   }
@@ -177,14 +178,17 @@ async function main() {
     process.exit(1);
   }
 
-  const pageDir = path.join(PRODUCTS_DIR, slug);
-  fs.mkdirSync(pageDir, { recursive: true });
+  const pdfPath = path.join(PRODUCTS_DIR, `${slug}.pdf`);
+  if (pdfPath.length > 240) {
+    console.error(`Slug too long for a Windows-safe output path (${pdfPath.length} chars). Pass --slug with 40 characters or fewer.`);
+    process.exit(1);
+  }
+  fs.mkdirSync(PRODUCTS_DIR, { recursive: true });
 
   const pdf = new PDFGenerator();
   const bodyMarkdown = markdown.replace(/^#\s+.+$/m, '');
   const renderSource = inlineImages(bodyMarkdown, path.dirname(manuscriptPath));
   const pdfBuffer = await pdf.generate({ title, markdown: renderSource });
-  const pdfPath = path.join(pageDir, `${slug}.pdf`);
   fs.writeFileSync(pdfPath, pdfBuffer);
 
   const outputs = [{ file: path.relative(ROOT, pdfPath), kind: 'pdf', bytes: pdfBuffer.length }];
@@ -199,7 +203,7 @@ async function main() {
     const workbookSpec = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
     const excel = new ExcelGenerator();
     const xlsxBuffer = await excel.generate(workbookSpec);
-    const xlsxPath = path.join(pageDir, `${slug}.xlsx`);
+    const xlsxPath = path.join(PRODUCTS_DIR, `${slug}.xlsx`);
     fs.writeFileSync(xlsxPath, xlsxBuffer);
     outputs.push({ file: path.relative(ROOT, xlsxPath), kind: 'excel', bytes: xlsxBuffer.length });
   }

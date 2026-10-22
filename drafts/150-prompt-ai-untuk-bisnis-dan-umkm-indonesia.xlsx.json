@@ -1,0 +1,1525 @@
+{
+  "title": "150 Prompt AI untuk Bisnis dan UMKM Indonesia",
+  "sheets": [
+    {
+      "name": "Library",
+      "headers": [
+        "Kode",
+        "Bab",
+        "Judul",
+        "Kapan Pakai",
+        "Isi Prompt",
+        "Variabel",
+        "Hasil yang Diharapkan"
+      ],
+      "rows": [
+        [
+          "P-001",
+          "6. Riset pasar dan kompetitor",
+          "Memetakan kompetitor dalam tiga lapis",
+          "Anda baru tahu dua atau tiga nama pesaing dan ingin melihat medan secara utuh.",
+          "Anda analis pasar untuk UMKM Indonesia. Usaha saya: {produk} dengan harga jual {harga_jual}, dikirim dari {kota}, penjualan utama lewat {kanal}. Susun peta kompetitor tiga lapis: lapis satu pesaing langsung yang menjual produk serupa ke pembeli yang sama, lapis dua pesaing tidak langsung yang menyelesaikan kebutuhan yang sama dengan cara berbeda, lapis tiga ancaman pendatang yang bisa masuk dalam 12 bulan. Untuk tiap lapis sebutkan 5 nama tipe usahanya, ciri harga mereka, kekuatan yang membuat mereka menang, dan celah yang biasanya mereka abaikan. Sajikan sebagai tabel per lapis dengan kolom: tipe kompetitor, ciri harga, kekuatan, celah, dan cara saya memanfaatkan celah itu. Jangan menyebut nama merek spesifik kalau Anda tidak punya datanya, cukup tipe usahanya.",
+          "{produk}, {harga_jual}, {kota}, {kanal}",
+          "tiga tabel berisi 15 tipe kompetitor beserta celah yang bisa Anda garap."
+        ],
+        [
+          "P-002",
+          "6. Riset pasar dan kompetitor",
+          "Membedah penawaran kompetitor dari data halaman penjualannya",
+          "Anda sudah menyalin isi halaman penjualan satu kompetitor dan ingin tahu logika di baliknya.",
+          "Anda penulis iklan direct response. Berikut saya tempel teks halaman penjualan kompetitor saya apa adanya: [tempel teks]. Bedah tulisannya menjadi enam bagian: janji utama, alasan percaya, bukti yang dipakai, penanganan keberatan, desakan, dan penawaran. Untuk tiap bagian tulis apa yang mereka lakukan, apakah kuat atau lemah, dan apa yang hilang. Lalu tutup dengan daftar lima keberatan pembeli yang belum mereka jawab sama sekali. Gunakan bahasa Indonesia. Jangan menambah asumsi tentang produk mereka di luar teks yang saya tempel.",
+          "teks halaman penjualan yang Anda salin",
+          "bedahan enam bagian plus daftar celah pesan yang bisa Anda pakai."
+        ],
+        [
+          "P-003",
+          "6. Riset pasar dan kompetitor",
+          "Menyusun tabel perbandingan harga yang jujur",
+          "Anda ingin menaikkan atau menurunkan harga dan butuh dasar pembanding.",
+          "Anda ahli penetapan harga untuk ritel kecil. Ini data harga yang saya catat sendiri dari {jumlah_kompetitor} penjual {produk} di {kanal}: [tempel daftar harga]. Hitung rentang terendah sampai tertinggi, rata-rata, dan median. Lalu tempatkan posisi harga saya {harga_jual} di antara mereka dan jelaskan tiga skenario: saya di bawah median, saya di median, saya di atas median. Untuk tiap skenario tulis siapa pembeli yang cocok, apa yang harus saya buktikan ke pembeli itu, dan risiko terbesarnya. Sajikan sebagai tabel 4 kolom: skenario, pembeli yang cocok, bukti yang harus disiapkan, risiko utama.",
+          "{jumlah_kompetitor}, daftar harga hasil pencatatan Anda, {harga_jual}, {kanal}",
+          "satu tabel tiga skenario harga beserta konsekuensinya."
+        ],
+        [
+          "P-004",
+          "6. Riset pasar dan kompetitor",
+          "Mengolah ulasan pelanggan kompetitor jadi daftar peluang",
+          "Anda punya banyak salinan ulasan bintang satu sampai tiga dari penjual lain.",
+          "Anda peneliti konsumen. Berikut ulasan pelanggan yang saya kumpulkan sendiri dari halaman penjual kompetitor: [tempel ulasan]. Kelompokkan keluhan menjadi maksimal 7 tema. Untuk tiap tema hitung berapa ulasan yang menyentuhnya, tulis kalimat keluhan paling khas dalam bentuk yang sudah saya samarkan tanpa menyebut nama pembeli, lalu usulkan satu perubahan konkret pada usaha {produk} saya yang bisa menutup tema itu beserta biaya relatifnya rendah, sedang, atau tinggi. Urutkan tabel dari tema yang paling sering muncul. Bahasa Indonesia, tanpa istilah riset yang tidak dijelaskan.",
+          "kumpulan ulasan mentah, {produk}",
+          "tabel tema keluhan, frekuensi, dan perbaikan yang bisa dieksekusi."
+        ],
+        [
+          "P-005",
+          "6. Riset pasar dan kompetitor",
+          "Menguji asumsi sebelum menghabiskan uang iklan",
+          "Anda yakin produk akan laku dan ingin bukti penolakan lebih dulu.",
+          "Anda penasihat strategi yang bertugas membantah saya. Keyakinan saya tentang usaha {produk} saya: [tulis 3 sampai 5 keyakinan]. Untuk tiap keyakinan, tulis tiga alasan keyakinan itu bisa salah, satu uji murah yang biayanya di bawah Rp 500.000 dan bisa selesai dalam 7 hari, serta angka apa yang membuat keyakinan itu gugur. Sajikan sebagai tabel 4 kolom: keyakinan, alasan bisa salah, uji murah, angka gugur. Akhiri dengan urutan pengerjaan uji dari yang paling menentukan.",
+          "{produk}, daftar keyakinan Anda",
+          "daftar uji murah berurutan beserta kriteria gagal."
+        ],
+        [
+          "P-006",
+          "6. Riset pasar dan kompetitor",
+          "Memecah pasar jadi segmen yang bisa dikirim pesan berbeda",
+          "satu pesan promosi Anda terasa hambar untuk semua orang.",
+          "Anda spesialis segmentasi pasar untuk usaha kecil dengan anggaran terbatas. Usaha saya menjual {produk} seharga {harga_jual} di {kota} lewat {kanal}. Bagi pasar saya menjadi 4 segmen berdasarkan alasan membeli, bukan berdasarkan usia dan jenis kelamin saja. Untuk tiap segmen tulis: situasi hidup mereka, pemicu yang membuat mereka mencari produk seperti saya, kalimat pembuka pesan yang cocok, keberatan nomor satu mereka, dan bukti yang paling mereka percaya. Sajikan sebagai tabel. Batasi tiap sel maksimal 25 kata supaya bisa langsung saya pakai.",
+          "{produk}, {harga_jual}, {kota}, {kanal}",
+          "empat segmen dengan kalimat pembuka dan bukti yang berbeda."
+        ],
+        [
+          "P-007",
+          "6. Riset pasar dan kompetitor",
+          "Menilai kejenuhan sebuah ceruk",
+          "Anda ingin menambah produk baru dan curiga pasarnya sudah penuh.",
+          "Anda penganalisis kelayakan usaha. Saya mempertimbangkan menjual {produk_baru} di {kota} dengan perkiraan harga {harga_jual}. Nilai kejenuhan ceruk ini dengan enam tanda: jumlah penjual yang Anda perkirakan, sebaran harga, ketergantungan pada diskon, umur produk, ketersediaan pasokan, dan kekuatan merek yang sudah ada. Untuk tiap tanda beri penilaian longgar, sedang, atau padat beserta alasannya, lalu simpulkan apakah saya sebaiknya masuk, masuk dengan posisi berbeda, atau tidak masuk. Sajikan sebagai tabel 4 kolom: tanda, penilaian, alasan, akibatnya untuk saya. Akhiri dengan tiga posisi berbeda yang masih terbuka kalau saya tetap ingin masuk.",
+          "{produk_baru}, {kota}, {harga_jual}",
+          "penilaian enam tanda dan kesimpulan masuk atau tidak masuk."
+        ],
+        [
+          "P-008",
+          "6. Riset pasar dan kompetitor",
+          "Menyusun daftar pertanyaan wawancara pelanggan",
+          "Anda akan menghubungi 10 pembeli dan tidak ingin bertanya hal yang salah.",
+          "Anda peneliti kualitatif. Saya akan mewawancarai 10 pembeli {produk} saya. Susun 12 pertanyaan wawancara yang semuanya tentang perilaku mereka di masa lalu, bukan tentang niat mereka di masa depan. Hindari pertanyaan apakah kamu suka, apakah kamu akan beli lagi, dan apa yang kamu inginkan. Untuk tiap pertanyaan tulis apa yang ingin saya ketahui darinya dan tanda bahaya jawaban yang membuat saya harus curiga data saya bias. Sajikan sebagai tabel 3 kolom: pertanyaan, tujuan, tanda bahaya. Urutkan dari pertanyaan pembuka yang paling nyaman dijawab lewat telepon. Batas tiap pertanyaan 20 kata.",
+          "{produk}",
+          "panduan wawancara 12 pertanyaan siap pakai lewat telepon atau chat."
+        ],
+        [
+          "P-009",
+          "6. Riset pasar dan kompetitor",
+          "Mengolah hasil wawancara jadi pola",
+          "catatan wawancara sudah menumpuk dan belum menjadi keputusan.",
+          "Anda analis riset konsumen. Berikut catatan hasil wawancara saya dengan pembeli, sudah saya samarkan namanya: [tempel catatan]. Ekstrak 6 pola yang muncul di lebih dari separuh responden. Untuk tiap pola tulis berapa responden yang mendukung, kutipan pendek yang mewakili, dan keputusan usaha apa yang logis diambil dari pola itu. Lalu sebutkan tiga hal yang hanya muncul pada satu responden dan harus saya perlakukan sebagai anomali, bukan arahan. Sajikan sebagai dua tabel terpisah: pola kuat dan anomali. Bahasa Indonesia, tanpa jargon riset.",
+          "catatan wawancara yang sudah disamarkan",
+          "enam pola siap jadi keputusan dan tiga anomali yang diabaikan dulu."
+        ],
+        [
+          "P-010",
+          "6. Riset pasar dan kompetitor",
+          "Membandingkan dua kanal penjualan secara adil",
+          "Anda harus memilih membesarkan marketplace atau kanal sendiri.",
+          "Anda analis kanal penjualan. Usaha saya {nama_usaha} menjual {produk} dengan {harga_jual} dan {modal_unit} modal per unit. Data kanal saya: [tempel angka biaya admin, ongkos, retur, dan jumlah pesanan per kanal]. Bandingkan kanal-kanal tersebut pada lima dimensi: biaya efektif per pesanan, kendali atas hubungan pelanggan, kecepatan kas masuk, kerentanan terhadap perubahan aturan kanal, dan potensi pertumbuhan. Hitung margin per pesanan untuk tiap kanal kalau datanya tersedia, tunjukkan rumusnya, dan tandai angka yang Anda perkirakan karena datanya tidak saya berikan. Sajikan sebagai tabel perbandingan dan satu rekomendasi urutan prioritas.",
+          "{nama_usaha}, {produk}, {harga_jual}, {modal_unit}, angka per kanal",
+          "tabel lima dimensi, margin per pesanan, dan prioritas kanal."
+        ],
+        [
+          "P-011",
+          "6. Riset pasar dan kompetitor",
+          "Membaca tren musiman dari data penjualan sendiri",
+          "Anda punya catatan penjualan 12 bulan dan bingung pola mana yang nyata.",
+          "Anda analis data ritel. Berikut penjualan bulanan saya untuk {produk} selama 12 bulan terakhir dalam format bulan dan nilai: [tempel data]. Identifikasi tiga pola musiman yang paling kuat, tiga bulan paling lemah, dan apakah ada tren naik yang murni pertumbuhan bukan musim. Untuk tiap temuan tulis bukti angkanya dan satu tindakan yang sebaiknya saya siapkan 6 minggu sebelum bulan itu tiba. Kalau datanya terlalu sedikit untuk menarik kesimpulan, katakan langsung dan jelaskan data tambahan apa yang saya butuhkan. Jangan memaksakan pola.",
+          "{produk}, data penjualan 12 bulan",
+          "temuan musiman berbasis angka beserta tindakan persiapan."
+        ],
+        [
+          "P-012",
+          "6. Riset pasar dan kompetitor",
+          "Menyusun profil pembeli ideal yang bisa dipakai tim",
+          "karyawan baru Anda salah sasaran saat menghubungi calon pembeli.",
+          "Anda manajer penjualan. Susun profil pembeli ideal untuk {produk} saya dalam format satu halaman yang bisa dipakai karyawan. Isi: situasi yang membuat mereka mencari solusi, tiga kriteria mereka memilih penjual, tiga hal yang membuat mereka membatalkan, harga psikologis yang nyaman untuk mereka, kanal yang paling mereka percaya, dan kalimat penutup yang efektif untuk mereka. Akhiri dengan daftar 8 pertanyaan penyaring yang harus diajukan karyawan sebelum melanjutkan penawaran. Sajikan sebagai daftar bernomor, tiap poin maksimal 25 kata, bahasa Indonesia yang bisa dibaca orang tanpa latar belakang pemasaran.",
+          "{produk}",
+          "satu halaman profil pembeli plus daftar pertanyaan penyaring."
+        ],
+        [
+          "P-013",
+          "6. Riset pasar dan kompetitor",
+          "Menilai kekuatan merek sendiri dibanding pesaing terdekat",
+          "Anda merasa produk lebih bagus tapi kalah penjualan.",
+          "Anda konsultan merek untuk usaha kecil. Merek saya {nama_usaha} menjual {produk}. Pesaing terdekat saya: [tulis nama atau ciri pesaing]. Bandingkan kami pada tujuh titik sentuh: halaman penjualan, foto produk, ulasan, kecepatan balas chat, kemasan, layanan purnajual, dan harga. Untuk tiap titik beri skor 1 sampai 5 untuk kami dan untuk mereka, lalu tulis satu perbaikan yang hasilnya paling besar dengan usaha paling kecil. Sajikan sebagai tabel 5 kolom: titik sentuh, skor kami, skor mereka, selisih, perbaikan prioritas. Akhiri dengan urutan pengerjaan 30 hari.",
+          "{nama_usaha}, {produk}, data pesaing",
+          "tabel skor tujuh titik sentuh dan rencana perbaikan 30 hari."
+        ],
+        [
+          "P-014",
+          "6. Riset pasar dan kompetitor",
+          "Mencari celah produk dari kombinasi yang belum ada",
+          "pasar terasa penuh tapi Anda yakin ada kombinasi yang belum dijual.",
+          "Anda perancang penawaran. Produk saya {produk} dengan {harga_jual}. Daftar isi yang saya jual sekarang: [tulis isi produk atau layanan]. Daftar kebutuhan pembeli yang sering saya dengar: [tulis 5 sampai 8 kebutuhan]. Cari kombinasi isi produk yang menutup kebutuhan tersebut tapi belum tersedia di pasar {kanal}. Hasilkan 6 ide penawaran, masing-masing dengan isi, untuk siapa, harga yang masuk akal berdasarkan {harga_jual}, dan alasan pembeli beralih dari pilihan yang ada. Sajikan sebagai tabel 5 kolom. Tandai ide yang paling berisiko dari sisi stok.",
+          "{produk}, {harga_jual}, isi produk, daftar kebutuhan, {kanal}",
+          "enam penawaran baru dengan harga dan alasan pembeli beralih."
+        ],
+        [
+          "P-015",
+          "6. Riset pasar dan kompetitor",
+          "Membuat ringkasan riset satu halaman untuk keputusan",
+          "riset sudah menumpuk dan Anda butuh satu halaman untuk memutuskan.",
+          "Anda kepala strategi. Berikut catatan riset saya tentang {produk} di {kota}: [tempel ringkasan riset]. Susun memo satu halaman berisi: kesimpulan utama tiga kalimat, angka paling penting beserta sumbernya, tiga peluang yang bisa jalan bulan ini, tiga risiko yang bisa menggagalkan, dan satu keputusan yang saya harus ambil minggu ini beserta alternatifnya. Tulis untuk pembaca pemilik usaha, bukan untuk investor. Maksimal 400 kata, tanpa pembuka basa-basi, tanpa kalimat penutup yang mengulang isi.",
+          "{produk}, {kota}, catatan riset",
+          "memo satu halaman yang berakhir pada satu keputusan."
+        ],
+        [
+          "P-016",
+          "7. Produk dan pengembangan",
+          "Mengurutkan ide produk dengan skor yang bisa dipertahankan",
+          "Anda punya banyak ide dan hanya modal untuk satu.",
+          "Anda manajer produk untuk usaha kecil. Ini daftar ide produk saya untuk {nama_usaha}: [tulis 5 sampai 10 ide]. Nilai tiap ide pada empat kriteria dengan bobot: potensi pendapatan 40 persen, kecepatan jadi 25 persen, kesesuaian dengan kemampuan produksi saya saat ini 20 persen, dan risiko stok 15 persen. Untuk kriteria kemampuan produksi, anggap saya punya [tulis alat, tenaga, dan jam kerja yang tersedia]. Hitung skor 0 sampai 100, tunjukkan perhitungan untuk dua ide teratas, lalu urutkan. Akhiri dengan satu ide yang sebaiknya saya hentikan total dan alasannya. Sajikan sebagai tabel dan jangan memberi semua ide skor tinggi.",
+          "{nama_usaha}, daftar ide, kapasitas produksi",
+          "peringkat ide dengan skor dan satu penghentian yang disarankan."
+        ],
+        [
+          "P-017",
+          "7. Produk dan pengembangan",
+          "Menyusun spesifikasi produk yang bisa dipegang tukang atau vendor",
+          "hasil produksi selalu berbeda dari yang Anda bayangkan.",
+          "Anda insinyur manufaktur sekaligus pembuat standar operasional. Saya ingin memproduksi {produk} dengan target harga jual {harga_jual} dan modal produksi maksimal {modal_unit}. Tulis lembar spesifikasi yang bisa saya serahkan ke vendor atau tukang tanpa penjelasan lisan. Isi: dimensi atau takaran, bahan dan substitusi yang boleh, toleransi yang masih diterima, kriteria lulus dan gagal per unit, cara pemeriksaan sebelum kirim, dan catatan pengemasan. Untuk tiap kriteria tulis cara mengukur memakai alat yang ada di rumah atau workshop biasa. Sajikan sebagai tabel per bagian, bahasa Indonesia, tanpa istilah teknis tanpa penjelasan.",
+          "{produk}, {harga_jual}, {modal_unit}",
+          "lembar spesifikasi dengan cara uji yang bisa dilakukan sendiri."
+        ],
+        [
+          "P-018",
+          "7. Produk dan pengembangan",
+          "Menghitung harga pokok produksi dari resep atau bill of material",
+          "Anda merasa marginnya tipis tapi tidak tahu bocor di mana.",
+          "Anda akuntan biaya untuk usaha kuliner dan kerajinan. Berikut daftar bahan atau komponen {produk} beserta jumlah pemakaian dan harga belinya: [tempel daftar]. Hitung biaya bahan per unit, lalu tambahkan estimasi biaya tenaga kerja untuk [tulis menit kerja dan upah per jam], biaya kemasan, dan alokasi overhead [tulis biaya sewa, listrik, dan gas per bulan dibagi perkiraan {jumlah_produksi} unit per bulan]. Sajikan sebagai tabel per komponen dengan kolom: komponen, jumlah, harga satuan, biaya per unit, dan cara menekan tanpa menurunkan mutu. Tunjukkan rumusnya. Tandai komponen yang menyumbang lebih dari 20 persen total biaya. Kalau saya belum memberi angka, jangan mengarang, tanyakan angka yang kurang.",
+          "{produk}, daftar bahan, jam kerja, upah, overhead, {jumlah_produksi}",
+          "rincian biaya per unit dan daftar penekan biaya prioritas."
+        ],
+        [
+          "P-019",
+          "7. Produk dan pengembangan",
+          "Merancang uji rasa atau uji pakai yang sah",
+          "teman dan keluarga bilang bagus, tapi orang asing tidak membeli.",
+          "Anda perancang uji konsumen. Saya akan menguji {produk} dengan 12 orang yang bukan keluarga saya. Susun protokol uji satu halaman: kriteria peserta, urutan penyajian atau pemakaian, cara menyamarkan merek supaya tidak ada bias, skala penilaian yang dipakai beserta definisi tiap angka, tiga pertanyaan wajib setelah uji, dan ambang keputusan. Untuk ambang, tulis angka konkret misalnya minimal 8 dari 12 memberi skor 4 atau lebih pada dimensi tertentu. Sajikan sebagai daftar bernomor, lalu satu tabel lembar penilaian yang bisa saya cetak. Bahasa Indonesia, maksimal 450 kata.",
+          "{produk}",
+          "protokol uji dan lembar penilaian siap cetak dengan ambang keputusan."
+        ],
+        [
+          "P-020",
+          "7. Produk dan pengembangan",
+          "Menentukan varian mana yang dihentikan",
+          "katalog Anda terlalu lebar dan stok mati menumpuk.",
+          "Anda analis kategori ritel. Ini data varian {produk} saya: [tempel daftar varian beserta jumlah terjual per bulan, margin, dan sisa stok]. Hitung kontribusi tiap varian terhadap total penjualan dan total laba. Identifikasi varian yang masuk kategori: laku dan untung, laku tapi tipis, tidak laku tapi untung besar, tidak laku dan rugi. Untuk tiap kategori tulis tindakan yang benar, misalnya naikkan harga, kecilkan kemasan, gabungkan dengan varian lain, atau hentikan, beserta cara memberitahu pelanggan tanpa membuat mereka merasa kehilangan. Sajikan sebagai tabel per varian. Tunjukkan perhitungan untuk dua varian terburuk.",
+          "{produk}, data varian",
+          "klasifikasi varian beserta tindakan dan cara komunikasi ke pembeli."
+        ],
+        [
+          "P-021",
+          "7. Produk dan pengembangan",
+          "Menyusun rencana pengembangan 90 hari yang realistis",
+          "Anda ingin berkembang tapi selalu berhenti di tengah jalan.",
+          "Anda penasihat operasional usaha kecil. Kapasitas saya per minggu: [tulis jam yang benar-benar tersedia dan siapa yang membantu]. Target 90 hari saya untuk {produk}: {target}. Susun rencana 12 minggu dengan aturan: maksimal dua pekerjaan besar per minggu, tiap minggu punya satu hasil yang bisa dilihat, dan ada satu minggu penyangga untuk hal yang meleset. Sajikan sebagai tabel 4 kolom: minggu, pekerjaan, hasil yang terlihat, dan tanda saya harus berhenti atau ganti arah. Akhiri dengan tiga godaan yang paling mungkin membuat saya menyimpang dari rencana ini.",
+          "kapasitas mingguan, {produk}, {target}",
+          "tabel 12 minggu dengan hasil yang terlihat dan penanda berhenti."
+        ],
+        [
+          "P-022",
+          "7. Produk dan pengembangan",
+          "Menulis kebutuhan untuk developer atau freelancer",
+          "Anda butuh aplikasi, sistem, atau situs tapi hasil kerja selalu melenceng.",
+          "Anda analis bisnis yang menulis dokumen kebutuhan untuk pengembang lepas. Saya ingin membuat [tulis yang ingin dibuat, misalnya aplikasi kasir untuk satu toko dengan dua karyawan]. Tulis dokumen kebutuhan dengan bagian: tujuan dalam satu kalimat, daftar pengguna beserta hak aksesnya, alur utama langkah demi langkah, daftar layar beserta isinya, aturan bisnis yang tidak boleh dilanggar, data yang harus disimpan beserta formatnya, kasus tepi yang harus ditangani seperti sinyal putus dan input salah, kriteria penerimaan yang bisa diuji, dan di luar lingkaran versi pertama. Sajikan sebagai daftar bernomor. Untuk tiap kriteria penerimaan tulis kondisi dan hasil yang diharapkan. Jangan menyebut teknologi atau bahasa pemrograman.",
+          "deskripsi sistem yang ingin dibuat",
+          "dokumen kebutuhan yang bisa langsung dihargai pengembang."
+        ],
+        [
+          "P-023",
+          "7. Produk dan pengembangan",
+          "Menilai penawaran harga dari jasa pembuatan aplikasi",
+          "Anda menerima penawaran dan tidak tahu mana yang wajar.",
+          "Anda pengawas proyek teknologi untuk pembeli non-teknis. Ini penawaran yang saya terima untuk membuat [tulis yang ingin dibuat]: [tempel rincian penawaran beserta harga dan jangka waktu]. Bantu saya memeriksa enam hal: apakah lingkernya cukup jelas untuk dihargai, apakah ada pekerjaan yang dihitung dua kali, apakah jangka waktu masuk akal untuk isinya, apa yang tidak tercakup tapi pasti saya butuhkan, pertanyaan apa yang harus saya ajukan sebelum tanda tangan, dan tiga klausul yang harus ada di perjanjian. Sajikan sebagai tabel: temuan, bukti dari penawaran, dan pertanyaan untuk vendor. Kalau ada bagian yang tidak bisa dinilai karena datanya kurang, sebutkan datanya.",
+          "rincian penawaran dari vendor",
+          "daftar temuan dan pertanyaan sebelum menandatangani."
+        ],
+        [
+          "P-024",
+          "7. Produk dan pengembangan",
+          "Menyusun standar operasional satu pekerjaan berulang",
+          "hanya Anda yang bisa mengerjakan sesuatu dan itu menghambat.",
+          "Anda penyusun standar operasional untuk usaha kecil. Pekerjaan yang perlu saya bakukan: [tulis pekerjaan beserta cara Anda melakukannya sekarang]. Tulis standar operasional yang bisa dijalankan karyawan baru tanpa bertanya, dengan bagian: tujuan pekerjaan, pemicu dikerjakan, langkah bernomor beserta hasil tiap langkah, titik yang paling sering salah beserta cara mencegahnya, batas waktu tiap langkah, siapa yang memeriksa, dan apa yang dilakukan kalau terjadi penyimpangan. Sertakan daftar periksa satu layar yang bisa dicetak. Jangan memakai kata yang Anda definisikan sendiri tanpa penjelasan.",
+          "deskripsi pekerjaan dan cara Anda mengerjakannya",
+          "standar operasional lengkap dengan daftar periksa cetak."
+        ],
+        [
+          "P-025",
+          "7. Produk dan pengembangan",
+          "Mencari penyebab produk banyak dikembalikan",
+          "tingkat retur naik dan Anda tidak tahu sumbernya.",
+          "Anda analis mutu. Data retur saya untuk {produk} selama [tulis jumlah bulan]: [tempel jumlah unit, alasan yang tercatat, dan tanggal]. Pisahkan penyebab menjadi empat kelompok: ketidaksesuaian ekspektasi dari halaman penjualan, kerusakan saat pengiriman, mutu produksi, dan kesalahan pembeli sendiri. Untuk tiap kelompok tulis bukti dari data saya, perkiraan kontribusi dalam persen, dan satu perbaikan yang bisa diuji dalam dua minggu beserta cara mengukur keberhasilannya. Kalau data saya tidak cukup untuk memisahkan kelompok, jelaskan data tambahan apa yang harus saya catat mulai besok. Sajikan sebagai tabel.",
+          "{produk}, data retur",
+          "pengelompokan penyebab, kontribusi, dan perbaikan terukur."
+        ],
+        [
+          "P-026",
+          "7. Produk dan pengembangan",
+          "Merancang kemasan yang melindungi dan menjual",
+          "barang sampai dalam kondisi kurang bagus, atau terlihat biasa saja saat dibuka.",
+          "Anda perancang kemasan untuk usaha pengiriman. Produk saya {produk}, berat sekitar [tulis berat], rapuh pada bagian [tulis bagian], dikirim lewat [tulis jasa kirim], dan harga jual {harga_jual}. Susun rancangan kemasan tiga lapis: pelindung produk, penahan benturan, dan pembungkus luar. Untuk tiap lapis tulis bahan, ketebalan atau ukuran, perkiraan biaya per unit, dan cara melipat atau merakitnya. Lalu usulkan tiga elemen pada kemasan luar yang membuat pembeli ingin memotret dan mengunggah, tanpa menambah biaya lebih dari Rp 1.500 per unit. Akhiri dengan daftar lima pengujian sederhana yang harus saya lakukan sebelum kirim massal.",
+          "{produk}, berat, jasa kirim, {harga_jual}",
+          "rancangan tiga lapis dengan biaya dan uji sebelum produksi."
+        ],
+        [
+          "P-027",
+          "7. Produk dan pengembangan",
+          "Menguji kelayakan produk sebelum produksi massal",
+          "vendor meminta pemesanan minimum yang besar dan Anda ragu.",
+          "Anda penasihat risiko usaha kecil. Saya ditawari {produk} dengan pemesanan minimum [tulis jumlah] dan harga pokok [tulis harga]. Rencana jual saya {harga_jual} lewat {kanal} dengan rata-rata [tulis jumlah] terjual per bulan. Hitung berapa bulan stok itu habis pada tiga kecepatan jual, tentukan berapa kas yang tertahan, dan tunjukkan titik di mana pemesanan minimum itu merugikan saya. Lalu rancang tiga cara mengurangi risiko sebelum menyetujui: pemesanan bertahap, uji pasar lewat pre-order, dan negosiasi syarat retur atau tukar. Untuk tiap cara tulis apa yang saya minta ke vendor dengan kalimat yang bisa langsung saya kirim lewat chat.",
+          "{produk}, jumlah minimum, harga pokok, {harga_jual}, {kanal}, kecepatan jual",
+          "hitungan bulan habis, kas tertahan, dan tiga cara penurunan risiko."
+        ],
+        [
+          "P-028",
+          "7. Produk dan pengembangan",
+          "Menyusun daftar periksa peluncuran produk baru",
+          "peluncuran sebelumnya berantakan karena hal kecil terlewat.",
+          "Anda manajer peluncuran. Saya akan meluncurkan {produk} pada [tulis tanggal] lewat {kanal}. Susun daftar periksa dari 30 hari sebelum sampai 14 hari sesudah, dibagi menjadi enam kelompok: stok dan pasokan, harga dan margin, materi penjualan, layanan pelanggan, pengiriman, dan pengukuran hasil. Tiap butir ditulis sebagai tindakan yang selesai atau belum, bukan sebagai topik. Untuk kelompok layanan pelanggan, sertakan daftar pertanyaan yang harus sudah ada jawabannya sebelum produk tayang. Sajikan sebagai tabel per kelompok dengan kolom: kelompok, butir, penanggung jawab, tenggat, status.",
+          "{produk}, tanggal rilis, {kanal}",
+          "daftar periksa harian dengan penanggung jawab dan status."
+        ],
+        [
+          "P-029",
+          "7. Produk dan pengembangan",
+          "Meminta umpan balik yang jujur dari pembeli lama",
+          "pelanggan diam dan Anda tidak tahu apakah mereka puas atau hanya malas komplain.",
+          "Anda penulis pesan pelanggan. Saya ingin mengirim pesan ke {jumlah_pelanggan} pembeli lama {produk} untuk meminta umpan balik yang benar-benar jujur, bukan basa-basi. Tulis pesan WhatsApp maksimal 90 kata dengan tiga pertanyaan tertutup yang bisa dijawab dengan angka dan satu pertanyaan terbuka. Jangan memakai kalimat yang memancing jawaban positif seperti kami berharap Anda puas. Sertakan insentif yang tidak terasa seperti suap, misalnya akses lebih dulu ke varian baru. Lalu tulis dua versi tindak lanjut: untuk yang menjawab dan untuk yang diam setelah 5 hari.",
+          "{jumlah_pelanggan}, {produk}",
+          "tiga pesan siap kirim, yaitu pesan utama dan dua tindak lanjut."
+        ],
+        [
+          "P-030",
+          "7. Produk dan pengembangan",
+          "Memutuskan membuat sendiri atau membeli jadi",
+          "Anda bisa mengerjakan sendiri, tapi ada jasa yang menawarkan lebih murah.",
+          "Anda analis make or buy untuk usaha kecil. Kebutuhan saya: [tulis yang dibutuhkan]. Opsi membuat sendiri: modal awal [tulis], biaya bulanan [tulis], waktu pengerjaan [tulis], dan siapa yang harus saya sediakan. Opsi membeli jasa: harga [tulis], apa yang termasuk, dan apa yang tidak. Hitung total biaya kepemilikan 12 bulan untuk kedua opsi, tunjukkan rumusnya, lalu bandingkan pada tiga dimensi selain biaya: kecepatan, kendali atas mutu, dan ketergantungan pada satu orang. Akhiri dengan rekomendasi dan dua kondisi yang akan mengubah rekomendasi itu.",
+          "kebutuhan, biaya membuat, biaya membeli",
+          "perbandingan biaya 12 bulan plus rekomendasi bersyarat."
+        ],
+        [
+          "P-031",
+          "8. Harga, penawaran, dan promo",
+          "Menghitung titik impas sebelum menambah biaya iklan",
+          "Anda ingin beriklan tapi tidak tahu batas biaya per pesanan yang masih aman.",
+          "Anda akuntan manajemen untuk usaha kecil. Data saya: harga jual {harga_jual}, biaya variabel per unit {modal_unit}, biaya tetap bulanan [tulis rincian sewa, gaji, dan langganan], dan rata-rata [tulis jumlah] pesanan per bulan. Hitung margin kontribusi per unit, titik impas dalam unit dan dalam rupiah, lalu tentukan biaya iklan maksimal per pesanan yang masih menyisakan laba [tulis persen] dari margin kontribusi. Tunjukkan tiap langkah perhitungan. Setelah itu sajikan tabel tiga skenario: biaya per pesanan di bawah batas, tepat di batas, dan 30 persen di atas batas, beserta akibatnya untuk laba bulanan. Jangan memperkirakan angka yang tidak saya berikan.",
+          "{harga_jual}, {modal_unit}, biaya tetap, jumlah pesanan, target laba",
+          "titik impas, batas biaya iklan, dan tiga skenario akibat."
+        ],
+        [
+          "P-032",
+          "8. Harga, penawaran, dan promo",
+          "Menentukan harga jual dari nilai, bukan dari biaya",
+          "produk Anda jelas menghasilkan penghematan atau keuntungan bagi pembeli.",
+          "Anda penasihat penetapan harga berbasis nilai. Produk saya {produk} dengan {harga_jual} saat ini dan {modal_unit} biaya. Bagi pembeli, produk ini menghasilkan [tulis manfaat yang bisa diukur, misalnya menghemat 6 jam kerja per minggu atau menurunkan biaya bahan 15 persen]. Susun tiga tingkat harga: masuk, wajar, dan tinggi. Untuk tiap tingkat tulis bukti yang harus ada di halaman penjualan supaya harga itu diterima, kalimat penjelasan harga, dan tipe pembeli yang cocok. Lalu hitung pada tingkat wajar berapa kali lipat manfaat pembeli dibanding harga yang ia bayar. Sajikan sebagai tabel dan akhiri dengan rekomendasi satu tingkat beserta alasan memilihnya.",
+          "{produk}, {harga_jual}, {modal_unit}, manfaat terukur",
+          "tiga tingkat harga dengan bukti pendukung dan rasio manfaat."
+        ],
+        [
+          "P-033",
+          "8. Harga, penawaran, dan promo",
+          "Menguji apakah diskon akan merusak margin",
+          "marketplace atau tim penjualan meminta diskon besar.",
+          "Anda analis margin. Saya diminta memberi diskon [tulis persen] untuk {produk} dengan {harga_jual} dan {modal_unit}. Hitung harga setelah diskon, margin sebelum dan sesudah, dan berapa tambahan unit yang harus terjual supaya laba total tidak turun. Tunjukkan rumusnya. Lalu sajikan tabel empat kolom: tingkat diskon 5, 10, 20, dan 30 persen, dengan kolom harga baru, laba per unit, unit tambahan yang dibutuhkan, dan penilaian aman, berisiko, atau merugikan. Akhiri dengan dua alternatif selain diskon yang mempertahankan nilai, misalnya bonus biaya kirim atau hadiah kecil, beserta hitungan biayanya.",
+          "{produk}, {harga_jual}, {modal_unit}, tingkat diskon",
+          "tabel empat tingkat diskon dan dua alternatif non-diskon."
+        ],
+        [
+          "P-034",
+          "8. Harga, penawaran, dan promo",
+          "Merancang bundel yang menaikkan nilai pesanan",
+          "rata-rata belanja pelanggan terlalu kecil dan ongkos kirim memakan laba.",
+          "Anda perancang penawaran. Katalog saya: [tempel daftar produk beserta harga dan margin]. Rata-rata nilai pesanan saya sekarang [tulis nilai] dan biaya penanganan per pesanan [tulis nilai]. Susun tiga bundel yang menaikkan nilai pesanan minimal 40 persen tanpa memberi diskon total lebih dari [tulis persen]. Untuk tiap bundel tulis isi, harga bundel, harga kalau dibeli terpisah, margin bundel, alasan pembeli merasa untung, dan kalimat penawaran satu baris. Utamakan bundel yang menghabiskan stok yang perputarannya lambat. Sajikan sebagai tabel dan tunjukkan perhitungan margin.",
+          "katalog, rata-rata nilai pesanan, biaya penanganan, batas diskon",
+          "tiga bundel dengan margin dan kalimat penawaran."
+        ],
+        [
+          "P-035",
+          "8. Harga, penawaran, dan promo",
+          "Menyusun tingkatan harga untuk pelanggan grosir dan reseller",
+          "permintaan beli dalam jumlah besar datang dan Anda belum punya aturan.",
+          "Anda manajer saluran penjualan. Saya menjual {produk} dengan {harga_jual} ke pembeli akhir dan {modal_unit} biaya. Susun skema tingkatan untuk empat kelompok: pembeli eceran, reseller, grosir, dan distributor. Untuk tiap tingkat tentukan jumlah pembelian minimum, harga per unit, syarat pembayaran, hak wilayah, dan larangan yang menjaga harga eceran saya tidak rusak. Hitung margin saya per tingkat dan tunjukkan bahwa tiap tingkat tetap menguntungkan. Lalu tulis tiga aturan yang membuat reseller tidak saling membanting harga, beserta sanksi yang proporsional. Sajikan sebagai tabel plus daftar aturan.",
+          "{produk}, {harga_jual}, {modal_unit}",
+          "skema empat tingkat dengan margin dan aturan pengendalian harga."
+        ],
+        [
+          "P-036",
+          "8. Harga, penawaran, dan promo",
+          "Menetapkan ongkos kirim dan strategi gratis kirim",
+          "ongkos kirim membuat calon pembeli berhenti di halaman pembayaran.",
+          "Anda analis logistik ritel. Data saya: rata-rata berat paket [tulis gram], tarif jasa kirim ke kota saya [tulis tarif], rata-rata nilai pesanan [tulis nilai], dan margin [tulis persen]. Bandingkan empat kebijakan: ongkos kirim dibayar pembeli, subsidi sebagian, gratis kirim di atas ambang tertentu, dan gratis kirim selalu dengan harga dinaikkan. Untuk tiap kebijakan hitung perkiraan dampaknya pada nilai pesanan rata-rata, jumlah pesanan, dan laba per pesanan, dengan asumsi yang Anda nyatakan terang-terangan. Rekomendasikan satu kebijakan beserta ambang angkanya dan tulis kalimat pengumumannya untuk halaman produk.",
+          "berat, tarif kirim, nilai pesanan, margin",
+          "perbandingan empat kebijakan dan satu rekomendasi dengan ambang."
+        ],
+        [
+          "P-037",
+          "8. Harga, penawaran, dan promo",
+          "Menegosiasikan harga beli dari pemasok",
+          "Anda ingin naikkan volume dan butuh harga masuk yang lebih baik.",
+          "Anda manajer pengadaan. Saya akan membeli {produk} dari pemasok dengan harga sekarang [tulis harga] untuk [tulis jumlah] unit. Target saya turun [tulis persen] tanpa menurunkan mutu. Susun naskah negosiasi lewat chat WhatsApp yang sopan dan tidak mengancam, berisi: pembuka yang menunjukkan kesetiaan, permintaan konkret, tiga imbalan yang bisa saya tawarkan selain volume, misalnya pembayaran lebih cepat atau pengambilan sekaligus, dan satu batas yang saya pegang kalau ia menolak. Lalu tulis dua balasan yang mungkin datang dari pemasok beserta jawaban saya. Hindari kalimat yang terdengar seperti ancaman pindah.",
+          "{produk}, harga sekarang, jumlah, target penurunan",
+          "naskah negosiasi dan dua cabang tanggapan."
+        ],
+        [
+          "P-038",
+          "8. Harga, penawaran, dan promo",
+          "Menyusun kalender promo 12 bulan",
+          "promo Anda terjadi karena panik, bukan karena rencana.",
+          "Anda perencana promosi untuk UMKM Indonesia. Usaha saya {nama_usaha} menjual {produk} dengan {harga_jual} di {kota} lewat {kanal}. Susun kalender promo 12 bulan yang memanfaatkan momen lokal: tahun baru Imlek, Ramadhan dan Lebaran, tahun ajaran baru, hari belanja online kembar, Natal dan tahun baru, serta momen spesifik daerah saya kalau relevan. Untuk tiap bulan tulis: momen, tema promo, mekanik yang menjaga nilai, target nilai penjualan, dan persiapan yang harus dimulai enam minggu sebelumnya beserta biayanya. Sajikan sebagai tabel 12 baris. Tandai bulan yang sebaiknya tidak promo sama sekali dan jelaskan alasannya.",
+          "{nama_usaha}, {produk}, {harga_jual}, {kota}, {kanal}",
+          "tabel kalender 12 bulan dengan mekanik dan persiapan."
+        ],
+        [
+          "P-039",
+          "8. Harga, penawaran, dan promo",
+          "Merancang promo yang tidak menurunkan harga",
+          "Anda ingin mendorong pembelian tanpa membuka preseden harga murah.",
+          "Anda perancang penawaran. Produk saya {produk} dengan {harga_jual}. Susun tujuh mekanik promo yang tidak mengubah harga inti, misalnya hadiah pendamping, perpanjangan garansi, layanan pasang, akses komunitas, atau prioritas antrean produksi. Untuk tiap mekanik tulis biaya nyata bagi saya per pesanan, nilai yang dirasakan pembeli, tipe pembeli yang paling bereaksi, dan kalimat pengumuman maksimal 15 kata. Urutkan dari yang paling murah bagi saya. Sajikan sebagai tabel dan akhiri dengan dua mekanik yang paling tidak disarankan untuk usaha dengan margin tipis.",
+          "{produk}, {harga_jual}",
+          "tujuh mekanik dengan biaya nyata dan nilai yang dirasakan."
+        ],
+        [
+          "P-040",
+          "8. Harga, penawaran, dan promo",
+          "Menghitung harga untuk pesanan khusus",
+          "pelanggan minta produk custom dan Anda tidak berani menyebut angka.",
+          "Anda penaksir harga untuk pekerjaan kustom. Permintaan masuk: [tulis permintaan beserta jumlah, ukuran, bahan, dan tenggat]. Data saya: biaya bahan {modal_unit}, upah kerja [tulis upah per jam], waktu pengerjaan [tulis jam], biaya setup [tulis], dan margin yang saya inginkan [tulis persen]. Susun tabel penawaran biaya per komponen, lalu tunjukkan total harga, harga per unit, dan margin yang tersisa. Setelah itu tulis tiga asumsi yang paling membuat taksiran ini meleset beserta cara mengamankannya di kalimat penawaran, misalnya uang muka atau batas jumlah revisi. Sertakan masa berlaku penawaran.",
+          "permintaan, {modal_unit}, upah, jam, setup, target margin",
+          "tabel penawaran, total harga, dan tiga pengaman asumsi."
+        ],
+        [
+          "P-041",
+          "8. Harga, penawaran, dan promo",
+          "Menentukan harga langganan bulanan",
+          "Anda ingin pendapatan yang berulang, bukan transaksi sekali.",
+          "Anda perancang model langganan. Layanan saya [tulis layanan], biaya penyediaan per pelanggan per bulan [tulis], harga sekali beli {harga_jual}. Susun tiga paket langganan dengan perbedaan yang jelas pada volume, kecepatan respons, dan akses orang. Untuk tiap paket tulis harga bulanan, harga tahunan dengan potongan wajar, perkiraan laba per pelanggan per tahun, dan alasan pelanggan tidak membatalkan. Lalu tentukan tingkat berhenti bulanan maksimal yang masih membuat model ini sehat dan tunjukkan perhitungannya. Akhiri dengan dua hal yang tidak boleh masuk paket murah supaya Anda tidak rugi melayani.",
+          "layanan, biaya bulanan, {harga_jual}",
+          "tiga paket dengan laba tahunan dan batas tingkat berhenti."
+        ],
+        [
+          "P-042",
+          "8. Harga, penawaran, dan promo",
+          "Menaikkan harga tanpa kehilangan pelanggan lama",
+          "biaya naik dan harga Anda belum berubah sejak lama.",
+          "Anda penasihat komunikasi harga. Saya akan menaikkan harga {produk} dari {harga_jual} menjadi [tulis harga baru] karena [tulis penyebab kenaikan]. {jumlah_pelanggan} pelanggan lama saya beli lewat {kanal}. Susun rencana tiga bagian: pengumuman untuk pelanggan lama yang berisi alasan, tanggal berlaku, dan satu pilihan untuk mereka; halaman penjualan baru yang menjelaskan nilai pada harga baru; dan jawaban untuk tiga penolakan yang paling mungkin, yaitu mahal, saya bisa dapat lebih murah di tempat lain, dan saya pindah penjual. Tulis tiap bagian sebagai pesan siap kirim, bahasa Indonesia, tanpa nada minta maaf berlebihan.",
+          "{produk}, {harga_jual}, harga baru, penyebab, {jumlah_pelanggan}, {kanal}",
+          "tiga paket komunikasi beserta penanganan penolakan."
+        ],
+        [
+          "P-043",
+          "8. Harga, penawaran, dan promo",
+          "Menyusun syarat pembayaran yang menjaga arus kas",
+          "pelanggan minta tempo dan kas Anda menipis.",
+          "Anda manajer piutang usaha kecil. Rata-rata nilai pesanan saya [tulis], biaya operasional bulanan [tulis], dan kas tersedia [tulis]. Susun kebijakan pembayaran untuk tiga kelompok: pembeli baru, pelanggan lama yang lancar, dan pelanggan dengan riwayat telat. Untuk tiap kelompok tulis uang muka, tempo, batas kredit, denda atau penundaan pengiriman, dan siapa yang boleh menyetujui penyimpangan. Lalu tulis tiga kalimat penolakan sopan untuk permintaan tempo yang melanggar kebijakan, dan satu pesan pengingat jatuh tempo yang tidak merusak hubungan. Sajikan sebagai tabel kebijakan plus daftar pesan.",
+          "nilai pesanan, biaya bulanan, kas tersedia",
+          "kebijakan tiga kelompok beserta pesan penagihan."
+        ],
+        [
+          "P-044",
+          "8. Harga, penawaran, dan promo",
+          "Membandingkan dua penawaran pemasok secara sistematis",
+          "dua pemasok sama-sama menarik dengan syarat berbeda.",
+          "Anda analis pengadaan. Pemasok A: [tulis harga, jumlah minimum, waktu kirim, mutu, dan syarat bayar]. Pemasok B: [tulis hal yang sama]. Saya butuh {jumlah_produksi} unit per bulan dengan kas terbatas. Bandingkan pada tujuh dimensi: harga efektif per unit setelah minimum order, biaya karena keterlambatan, risiko kehabisan stok, syarat pembayaran terhadap arus kas, konsistensi mutu, fleksibilitas jumlah, dan biaya berpindah kalau nanti saya ganti. Beri skor berbobot, tunjukkan bobot yang Anda pakai, dan nyatakan pemenang beserta dua kondisi yang akan membalikkan keputusan. Sajikan sebagai tabel.",
+          "data dua pemasok, {jumlah_produksi}",
+          "tabel skor berbobot dan keputusan bersyarat."
+        ],
+        [
+          "P-045",
+          "8. Harga, penawaran, dan promo",
+          "Membuat kalkulator harga sederhana untuk tim penjualan",
+          "karyawan Anda memberi harga berbeda ke pembeli yang mirip.",
+          "Anda perancang alat bantu penjualan. Produk saya {produk} dengan {modal_unit} biaya dan {harga_jual} harga normal. Susun aturan kalkulator harga satu halaman yang bisa dijalankan karyawan dengan kalkulator biasa: harga dasar, diskon maksimum per kelompok pembeli, syarat untuk memberi diskon, batas bawah yang tidak boleh dilewati beserta alasannya, dan tiga pertanyaan yang harus dijawab karyawan sebelum meminta persetujuan atasan. Sajikan sebagai tabel ambang harga beserta akibatnya, lalu satu contoh perhitungan untuk pesanan [tulis jumlah] unit. Akhiri dengan kalimat yang boleh dipakai karyawan untuk menolak permintaan diskon di bawah batas.",
+          "{produk}, {modal_unit}, {harga_jual}, contoh jumlah",
+          "aturan harga satu halaman dengan contoh dan kalimat penolakan."
+        ],
+        [
+          "P-046",
+          "9. Copywriting iklan dan halaman penjualan",
+          "Membuat 12 sudut pandang iklan sebelum menulis satu kata pun",
+          "iklan Anda selalu bicara hal yang sama dan mulai diabaikan.",
+          "Anda penulis iklan direct response. Produk saya {produk}, harga {harga_jual}, pembeli utama [tulis siapa], manfaat utama yang sudah terbukti [tulis bukti]. Hasilkan 12 sudut pandang iklan yang berbeda, yaitu 12 alasan berbeda orang membeli produk yang sama. Untuk tiap sudut tulis: nama sudut dalam tiga kata, kalimat pembuka iklan, dan bukti yang harus saya siapkan. Kelompokkan menjadi sudut rasional, emosional, dan sosial. Jangan memakai klaim yang belum ada di bukti saya. Sajikan sebagai tabel 3 kolom dan akhiri dengan tiga sudut yang paling layak diuji lebih dulu beserta alasannya.",
+          "{produk}, {harga_jual}, pembeli utama, bukti",
+          "dua belas sudut pandang dengan kebutuhan bukti."
+        ],
+        [
+          "P-047",
+          "9. Copywriting iklan dan halaman penjualan",
+          "Menulis judul halaman produk yang menahan pembaca",
+          "pengunjung datang lalu pergi sebelum membaca paragraf pertama.",
+          "Anda penulis halaman penjualan. Produk saya {produk} dengan {harga_jual} untuk pembeli [tulis siapa]. Masalah terbesar mereka sebelum membeli: [tulis]. Hasil yang mereka dapat setelah memakai: [tulis]. Tulis 15 judul halaman produk maksimal 14 kata dengan lima pola berbeda: hasil spesifik, perbandingan, pertanyaan yang menyentak, larangan yang dilanggar, dan angka. Untuk tiap judul beri tanda pola yang dipakai dan satu kalimat alasan kenapa judul itu cocok untuk pasar Indonesia. Jangan memakai tanda seru, jangan memakai kata superlatif tanpa bukti, dan jangan menjanjikan waktu atau hasil yang tidak bisa saya pastikan.",
+          "{produk}, {harga_jual}, pembeli, masalah, hasil",
+          "lima belas judul berlabel pola beserta alasannya."
+        ],
+        [
+          "P-048",
+          "9. Copywriting iklan dan halaman penjualan",
+          "Menyusun halaman penjualan lengkap",
+          "Anda butuh satu halaman yang menjual dan bisa diperbaiki bagian per bagian.",
+          "Anda penulis halaman penjualan untuk usaha kecil Indonesia. Data: produk {produk}, harga {harga_jual}, pembeli utama [tulis], masalah [tulis], solusi [tulis], bukti yang saya punya [tulis ulasan, foto, angka, atau sertifikasi], keberatan umum [tulis tiga], dan penawaran khusus [tulis]. Susun halaman dengan susunan: judul, subjudul, paragraf masalah, paragraf solusi, tiga manfaat dengan bukti, cara pakai tiga langkah, bagian penanganan keberatan, daftar isi paket, harga beserta alasan nilainya, jaminan yang jujur, ajakan bertindak, dan pertanyaan yang sering diajukan sebanyak enam butir. Tandai bagian yang butuh foto atau tangkapan layar beserta apa yang harus ditampilkan di foto itu. Jangan mengarang testimoni, angka, atau sertifikasi.",
+          "data produk lengkap",
+          "halaman utuh dengan penanda kebutuhan visual."
+        ],
+        [
+          "P-049",
+          "9. Copywriting iklan dan halaman penjualan",
+          "Menulis iklan video pendek 20 detik",
+          "Anda butuh iklan yang ditonton sampai habis di ponsel.",
+          "Anda penulis skrip iklan video pendek. Produk {produk}, harga {harga_jual}, tayang di {kanal}, target [tulis siapa]. Tulis tiga skrip 20 detik dalam format tabel tiga kolom: detik, visual, dan ucapan. Aturan: tiga detik pertama harus menampilkan hasil atau masalah secara visual, bukan logo; maksimal 12 kata per kalimat; satu ajakan bertindak di akhir; tanpa klaim penyembuhan, tanpa janji penghasilan, dan tanpa menyebut merek lain. Untuk tiap skrip tulis juga teks overlay yang muncul di layar dan durasi total tiap adegan. Akhiri dengan daftar properti sederhana yang harus saya siapkan supaya syuting selesai dalam satu sesi.",
+          "{produk}, {harga_jual}, {kanal}, target",
+          "tiga skrip berformat tabel beserta daftar properti."
+        ],
+        [
+          "P-050",
+          "9. Copywriting iklan dan halaman penjualan",
+          "Menulis deskripsi produk untuk marketplace",
+          "halaman produk Anda di marketplace kalah di pencarian dan tidak menutup penjualan.",
+          "Anda penulis daftar produk marketplace Indonesia. Produk saya {produk} dengan spesifikasi [tulis ukuran, bahan, warna, berat] dan harga {harga_jual}. Tulis judul maksimal 100 karakter yang memuat kata kunci yang benar-benar dicari pembeli, lalu 5 butir poin singkat, lalu deskripsi 180 sampai 250 kata. Setelah itu berikan 10 kata kunci turunan yang saya sisipkan secara wajar di teks, bukan ditumpuk. Jelaskan di kalimat mana setiap kata kunci dipakai. Jangan memakai kata yang tidak bisa dibuktikan seperti terbaik, termurah, atau nomor satu.",
+          "{produk}, spesifikasi, {harga_jual}",
+          "judul, poin, deskripsi, dan daftar kata kunci beserta penempatannya."
+        ],
+        [
+          "P-051",
+          "9. Copywriting iklan dan halaman penjualan",
+          "Menulis pesan penawaran pertama ke calon pembeli baru",
+          "Anda punya daftar nomor tapi tidak tahu kalimat pembuka yang tidak dianggap spam.",
+          "Anda penulis pesan penjualan lewat chat. Saya akan menghubungi calon pembeli yang [tulis dari mana Anda mendapat kontaknya] untuk menawarkan {produk} seharga {harga_jual}. Tulis lima versi pesan pembuka maksimal 60 kata. Aturan wajib: menyebut konteks kenapa saya menghubunginya, tidak meminta waktu panjang, tidak mengirim gambar di pesan pertama, memberi satu jalan keluar sopan berupa kata tidak berminat, dan tidak memakai kalimat yang terdengar seperti broadcast. Untuk tiap versi tulis di situasi mana versi itu paling cocok. Akhiri dengan satu kalimat tindak lanjut untuk yang membaca tanpa membalas setelah 3 hari.",
+          "sumber kontak, {produk}, {harga_jual}",
+          "lima pesan pembuka dan satu tindak lanjut."
+        ],
+        [
+          "P-052",
+          "9. Copywriting iklan dan halaman penjualan",
+          "Menulis email atau pesan newsletter yang dibaca",
+          "Anda mengirim pengumuman tapi tidak ada yang membalas atau mengklik.",
+          "Anda penulis newsletter untuk usaha kecil. Tema edisi ini: [tulis satu hal yang terjadi di usaha Anda minggu ini]. Pembaca: {jumlah_pelanggan} pelanggan lama {produk}. Tulis email dengan subjek maksimal 45 karakter, teks pembuka yang langsung ke cerita, satu pelajaran atau informasi berguna, dan satu ajakan bertindak yang masuk akal. Panjang total maksimal 220 kata. Jangan memakai kalimat pembuka seperti dengan hormat atau kami dengan bangga mengumumkan. Sertakan tiga alternatif subjek dan satu kalimat penutup P.S. yang menambah nilai, bukan mengulang.",
+          "tema, {jumlah_pelanggan}, {produk}",
+          "satu email utuh dengan tiga alternatif subjek."
+        ],
+        [
+          "P-053",
+          "9. Copywriting iklan dan halaman penjualan",
+          "Menulis penanganan keberatan yang tidak terdengar membantah",
+          "calon pembeli menyebut alasan dan Anda kehilangan penjualan di titik itu.",
+          "Anda pelatih penjualan. Keberatan yang paling sering saya dengar untuk {produk}: [tulis lima keberatan]. Untuk tiap keberatan tulis: maksud sebenarnya di balik kalimat itu, jawaban maksimal 45 kata yang mengakui kebenaran kecil di dalamnya lalu mengarahkan ke keputusan, satu pertanyaan balik yang membuat percakapan berlanjut, dan bukti apa yang harus saya siapkan supaya jawaban itu kredibel. Sajikan sebagai tabel 4 kolom. Jangan memakai kalimat yang membantah pelanggan, dan jangan memakai skrip yang terdengar hafalan.",
+          "{produk}, daftar keberatan",
+          "tabel keberatan, maksud sebenarnya, jawaban, dan bukti."
+        ],
+        [
+          "P-054",
+          "9. Copywriting iklan dan halaman penjualan",
+          "Membuat tiga versi halaman untuk diuji",
+          "Anda ingin menguji tapi tidak tahu bagian mana yang mengubah hasil.",
+          "Anda penguji halaman penjualan. Halaman saya saat ini: [tempel teks halaman]. Produk {produk} dengan {harga_jual}. Buat tiga versi halaman yang hanya berbeda pada satu variabel supaya hasilnya bisa dibaca: versi A berbeda di judul, versi B berbeda di urutan bukti, versi C berbeda di kalimat ajakan bertindak. Untuk tiap versi tulis bagian yang diubah, hipotesis kenapa perubahan itu menaikkan penjualan, dan angka yang harus saya pantau untuk memutuskan pemenang. Sajikan sebagai tabel dan akhiri dengan peringatan tentang kesalahan umum saat menguji halaman dengan trafik kecil.",
+          "teks halaman, {produk}, {harga_jual}",
+          "tiga versi terkontrol dengan hipotesis dan metrik keputusan."
+        ],
+        [
+          "P-055",
+          "9. Copywriting iklan dan halaman penjualan",
+          "Menulis naskah siaran langsung penjualan",
+          "Anda live selling tapi penonton pergi di sepuluh menit pertama.",
+          "Anda penyiar live commerce. Produk yang saya jual: [tulis tiga produk beserta harga dan stok]. Susun naskah live 45 menit dalam tabel: menit, segmen, ucapan pembuka, tindakan yang saya lakukan di depan kamera, dan pancingan komentar. Segmen wajib: pembuka dan janji isi, demo produk pertama, sesi tanya jawab terkendali, penawaran terbatas pertama, demo kedua, penutup dengan daftar tunggu produk berikutnya. Untuk tiap penawaran tulis kalimat pembatas yang jujur, misalnya stok atau batas waktu, dan larang kalimat yang memalsukan kelangkaan. Akhiri dengan sepuluh kalimat cadangan untuk mengisi saat penonton sepi.",
+          "daftar produk live",
+          "naskah 45 menit dan sepuluh kalimat cadangan."
+        ],
+        [
+          "P-056",
+          "9. Copywriting iklan dan halaman penjualan",
+          "Menulis testimoni pembeli menjadi bahan penjualan",
+          "Anda punya ulasan bagus tapi menyalinnya mentah terasa lemah.",
+          "Anda editor konten pelanggan. Berikut ulasan asli pembeli {produk}: [tempel ulasan, nama sudah disamarkan]. Tugas saya adalah memakai ulasan ini di halaman penjualan. Untuk tiap ulasan tulis: kalimat inti yang paling kuat, versi pendek maksimal 20 kata untuk dipasang di halaman, versi panjang untuk halaman cerita, dan bagian mana yang tidak boleh saya pakai karena terdengar seperti klaim kesehatan atau jaminan hasil. Sajikan sebagai tabel. Jangan mengubah makna ulasan, jangan menambah kata yang tidak ada di ulasan, dan jangan menyusun ulang sampai maknanya berubah.",
+          "ulasan mentah, {produk}",
+          "tiga panjang kutipan per ulasan beserta larangan pemakaiannya."
+        ],
+        [
+          "P-057",
+          "9. Copywriting iklan dan halaman penjualan",
+          "Menyusun cerita merek yang membuat harga terasa wajar",
+          "produk Anda lebih mahal dan pembeli bertanya kenapa.",
+          "Anda penulis cerita merek. Usaha saya {nama_usaha} menjual {produk} dengan {harga_jual}, sementara pesaing menjual di [tulis harga pasar]. Fakta yang saya punya: [tulis asal bahan, siapa yang membuat, berapa lama proses, apa yang saya tolak lakukan demi mutu]. Tulis cerita 250 kata untuk halaman tentang kami, dengan struktur: keadaan awal, keputusan yang sulit, harga yang harus dibayar atas keputusan itu, dan apa yang diterima pembeli karenanya. Lalu tulis versi 60 kata untuk caption dan versi satu kalimat untuk halaman produk. Jangan memakai kata yang tidak bisa saya buktikan dan jangan membuat cerita yang dramatis tanpa fakta.",
+          "{nama_usaha}, {produk}, {harga_jual}, harga pasar, fakta produksi",
+          "tiga panjang cerita dengan batas fakta."
+        ],
+        [
+          "P-058",
+          "9. Copywriting iklan dan halaman penjualan",
+          "Menulis ajakan bertindak yang sesuai tahap pembeli",
+          "Anda meminta pembeli langsung bayar padahal mereka baru berkenalan.",
+          "Anda perancang alur pembeli. Usaha saya menjual {produk} dengan {harga_jual} dan siklus keputusan [tulis berapa hari biasanya pembeli mempertimbangkan]. Susun ajakan bertindak untuk empat tahap: baru tahu, sedang membandingkan, siap membeli tapi ragu, dan sudah membeli. Untuk tiap tahap tulis tiga kalimat ajakan yang cocok, kanal penyampaiannya, dan kesalahan yang membuat pembeli mundur kalau ajakan itu dipakai di tahap yang salah. Sajikan sebagai tabel. Tambahkan satu daftar periksa isi percakapan WhatsApp yang menunjukkan pembeli sudah pindah ke tahap siap membeli.",
+          "{produk}, {harga_jual}, siklus keputusan",
+          "dua belas ajakan bertahap beserta penanda kesiapan."
+        ],
+        [
+          "P-059",
+          "9. Copywriting iklan dan halaman penjualan",
+          "Merapikan teks yang Anda tulis sendiri menjadi lebih tajam",
+          "tulisan Anda benar isinya tapi terlalu panjang dan lembut.",
+          "Anda penyunting naskah penjualan. Berikut teks saya: [tempel teks]. Sunting dengan empat aturan: potong 30 persen jumlah kata tanpa menghapus fakta, ubah kalimat pasif menjadi aktif, ganti kata sifat yang tidak terukur dengan angka atau contoh, dan pindahkan kalimat terpenting ke posisi paling depan di tiap paragraf. Sajikan dalam tiga bagian: teks hasil suntingan, tabel perubahan penting beserta alasannya, dan dua kalimat yang masih Anda sarankan saya hapus total. Jangan mengubah makna dan jangan menambah klaim baru yang tidak ada di teks saya.",
+          "teks Anda sendiri",
+          "naskah lebih pendek, tabel alasan, dan dua usulan penghapusan."
+        ],
+        [
+          "P-060",
+          "9. Copywriting iklan dan halaman penjualan",
+          "Membuat kerangka iklan untuk produk yang belum punya materi",
+          "produk baru akan tayang dan Anda belum punya foto atau angka apa pun.",
+          "Anda direktur kreatif untuk usaha dengan materi seadanya. Produk baru saya {produk} dengan {harga_jual}, target [tulis siapa], dan materi yang saya punya sekarang hanya [tulis apa yang tersedia, misalnya tiga foto ponsel]. Susun rencana materi minimal: daftar tujuh foto yang harus saya ambil beserta cara memotret dan alasannya, tiga video pendek yang bisa direkam sekali duduk, satu tabel perbandingan yang bisa saya buat dari data yang sudah ada, dan urutan pengerjaan supaya iklan pertama bisa tayang dalam 72 jam. Sajikan sebagai daftar periksa dengan kolom selesai atau belum. Jangan menyarankan desain yang butuh fotografer atau studio.",
+          "{produk}, {harga_jual}, target, materi tersedia",
+          "daftar periksa materi dan urutan pengerjaan 72 jam."
+        ],
+        [
+          "P-061",
+          "10. Konten media sosial dan video pendek",
+          "Menentukan tiga pilar konten yang menjual",
+          "unggahan Anda berubah-ubah tema dan followers tidak tahu Anda jual apa.",
+          "Anda perencana konten untuk usaha kecil. Usaha saya {nama_usaha} menjual {produk} dengan {harga_jual}, target pembeli [tulis siapa], kanal utama {kanal}. Susun tiga pilar konten dengan proporsi persen yang jelas: pilar yang menunjukkan keahlian, pilar yang menunjukkan bukti dan proses, pilar yang mendorong penjualan langsung. Untuk tiap pilar tulis definisi, lima contoh ide konkret, format yang cocok, dan tanda bahwa pilar itu berhasil selain jumlah suka. Jangan memasukkan pilar motivasi atau kutipan kecuali ada alasan penjualan yang bisa saya jelaskan. Sajikan sebagai tabel dan akhiri dengan satu hal yang harus saya berhenti unggah.",
+          "{nama_usaha}, {produk}, {harga_jual}, target, {kanal}",
+          "tiga pilar dengan proporsi, contoh, dan metrik."
+        ],
+        [
+          "P-062",
+          "10. Konten media sosial dan video pendek",
+          "Membuat kalender konten 30 hari yang realistis",
+          "Anda punya pilar tapi tidak punya jadwal.",
+          "Anda penyusun kalender konten. Kapasitas saya: [tulis berapa jam per minggu dan siapa yang bisa merekam]. Pilar saya: [tulis tiga pilar]. Kanal saya {kanal}. Susun kalender 30 hari dalam tabel: tanggal, pilar, judul konten, format, bahan yang harus disiapkan, dan waktu produksi dalam menit. Atur supaya hari yang berat di operasional tidak mendapat konten yang butuh syuting. Kelompokkan produksi: konten yang butuh rekaman sama dikerjakan di satu sesi. Tandai enam hari sebagai penyangga untuk momen nyata di usaha saya. Batasi total waktu produksi mingguan sesuai kapasitas yang saya tulis.",
+          "kapasitas, pilar, {kanal}",
+          "kalender 30 hari dengan estimasi waktu dan hari penyangga."
+        ],
+        [
+          "P-063",
+          "10. Konten media sosial dan video pendek",
+          "Merancang hook tiga detik untuk video pendek",
+          "video Anda bagus isinya tapi ditinggalkan di awal.",
+          "Anda editor video pendek untuk pasar Indonesia. Topik konten saya: [tulis topik dan produk {produk}]. Tulis sepuluh hook tiga detik yang terdiri dari apa yang terlihat di layar, apa yang diucapkan, dan teks yang muncul. Variasikan tipe hook: hasil yang mengejutkan, kesalahan yang dibantah, pertanyaan yang mengganggu, perbandingan langsung, dan proses cepat. Untuk tiap hook tulis kenapa penonton bertahan dan risiko kalau hook itu dipakai untuk topik lain. Larangan: jangan memakai kalimat yang menjanjikan hal yang tidak ada di isi video, dan jangan memakai kata yang memicu klaim kesehatan atau penghasilan.",
+          "topik, {produk}",
+          "sepuluh hook lengkap dengan alasan dan risikonya."
+        ],
+        [
+          "P-064",
+          "10. Konten media sosial dan video pendek",
+          "Menyusun skrip konten edukasi 60 detik",
+          "Anda ingin dikenal sebagai yang paling paham di bidang Anda.",
+          "Anda penulis skrip edukasi pendek. Topik: [tulis satu hal yang sering ditanyakan pembeli {produk}]. Tulis skrip 60 detik dengan susunan: masalah dalam satu kalimat, tiga langkah solusi, satu kesalahan yang paling sering dibuat, dan penutup yang mengajak menyimpan konten. Format tabel tiga kolom: detik, ucapan, visual. Aturan: kalimat maksimal 12 kata, satu ide per kalimat, tidak ada pembuka perkenalan panjang, dan setiap istilah teknis dijelaskan dalam kurung maksimal empat kata. Sertakan teks overlay untuk tiap langkah dan tiga ide judul yang memuat kata yang dicari orang.",
+          "topik, {produk}",
+          "skrip bertabel dengan overlay dan ide judul."
+        ],
+        [
+          "P-065",
+          "10. Konten media sosial dan video pendek",
+          "Mengubah satu konten panjang menjadi sepuluh potongan",
+          "Anda sudah punya materi bagus dan tidak perlu membuat dari nol.",
+          "Anda pengolah ulang konten. Berikut materi saya: [tempel transkrip video, artikel, atau catatan webinar]. Bagi menjadi sepuluh potongan untuk kanal berbeda dengan ketentuan: tiga potong berupa satu ide penting dalam maksimal 80 kata untuk caption, tiga potong berupa daftar langkah untuk gambar geser, dua potong berupa pertanyaan pemantik komentar, dua potong berupa pernyataan yang memancing pendapat. Untuk tiap potongan tulis kanal yang cocok, format, dan kalimat pembuka. Jangan mengulang kalimat yang sama di dua potongan. Sajikan sebagai tabel bernomor.",
+          "materi panjang Anda",
+          "sepuluh potongan siap unggah beserta kanal dan formatnya."
+        ],
+        [
+          "P-066",
+          "10. Konten media sosial dan video pendek",
+          "Merancang seri konten yang membuat orang kembali",
+          "penonton naik turun dan tidak ada yang menunggu episode berikutnya.",
+          "Anda perancang seri konten. Usaha saya {nama_usaha} menjual {produk}. Susun seri enam episode yang saling menyambung dengan tema [tulis tema besar]. Untuk tiap episode tulis: judul, satu hal yang pemirsa bisa lakukan setelah menonton, kalimat penutup yang mengait ke episode berikutnya, dan bahan visual yang harus saya siapkan. Seri harus berakhir pada ajakan yang wajar menuju {produk} tanpa membuat lima episode pertama terasa seperti iklan. Sajikan sebagai tabel dan akhiri dengan tiga tanda bahwa seri ini gagal dan harus saya ganti arah.",
+          "{nama_usaha}, {produk}, tema",
+          "enam episode bersambung dengan penanda kegagalan."
+        ],
+        [
+          "P-067",
+          "10. Konten media sosial dan video pendek",
+          "Menulis caption yang memancing komentar relevan",
+          "kolom komentar Anda kosong atau isinya hanya emoji.",
+          "Anda penulis caption media sosial. Konten ini menampilkan [tulis isi visual] untuk produk {produk}. Tulis lima caption maksimal 120 kata dengan tiga pertanyaan penutup yang berbeda jenisnya: pertanyaan pengalaman pribadi, pertanyaan pilihan antara dua opsi, dan pertanyaan yang meminta pendapat yang berbeda. Untuk tiap caption tulis tipe komentar yang diharapkan dan satu kalimat balasan yang akan saya pakai untuk membalas komentar pertama. Larangan: jangan memakai pertanyaan yang jawabannya ya atau tidak, dan jangan memakai hashtag lebih dari lima. Sebutkan lima hashtag yang relevan untuk {kota} dan kategori usaha saya.",
+          "isi visual, {produk}, {kota}",
+          "lima caption, kalimat balasan, dan lima hashtag."
+        ],
+        [
+          "P-068",
+          "10. Konten media sosial dan video pendek",
+          "Menyusun rencana konten musiman enam minggu ke depan",
+          "momen besar datang dan Anda baru siap setelahnya.",
+          "Anda perencana konten musiman. Momen yang datang: {musim}. Usaha saya {nama_usaha} menjual {produk} dengan {harga_jual} di {kota}. Susun rencana enam minggu dengan empat fase: pemanasan tanpa jualan, edukasi manfaat, pembukaan pemesanan, dan pengingat batas waktu. Untuk tiap minggu tulis: tema, tiga ide konten, satu ajakan yang boleh dipakai, dan angka yang harus saya siapkan seperti stok dan kapasitas produksi. Tandai titik di mana promosi berlebihan justru merusak kepercayaan. Sajikan sebagai tabel dan akhiri dengan daftar hal yang harus disiapkan di minggu pertama supaya minggu keempat tidak panik.",
+          "{musim}, {nama_usaha}, {produk}, {harga_jual}, {kota}",
+          "rencana empat fase dengan kebutuhan stok per minggu."
+        ],
+        [
+          "P-069",
+          "10. Konten media sosial dan video pendek",
+          "Menilai performa konten tanpa terjebak angka semu",
+          "Anda punya banyak angka tapi tidak tahu mana yang berarti.",
+          "Anda analis media sosial. Ini data 12 unggahan saya: [tempel tanggal, format, jangkauan, simpan, bagikan, komentar, dan pesanan yang masuk jika ada]. Hitung rasio simpan per jangkauan dan rasio komentar per jangkauan untuk tiap unggahan, lalu kelompokkan menjadi empat kotak: jangkau tinggi dan tindakan rendah, jangkau tinggi dan tindakan tinggi, jangkau rendah dan tindakan tinggi, jangkau rendah dan tindakan rendah. Untuk tiap kotak tulis apa artinya dan tindakan apa yang saya ambil. Kalau data pesanan tidak ada, katakan bahwa kesimpulan saya terbatas dan usulkan cara mencatat pesanan yang datang dari konten mulai besok. Sajikan sebagai tabel.",
+          "data 12 unggahan",
+          "klasifikasi empat kotak dan cara menautkan konten ke pesanan."
+        ],
+        [
+          "P-070",
+          "10. Konten media sosial dan video pendek",
+          "Membuat daftar shot yang bisa direkam sendiri",
+          "Anda punya ponsel dan sepuluh menit, bukan kru.",
+          "Anda sutradara konten usaha kecil. Produk saya {produk}. Saya bisa merekam di [tulis lokasi yang tersedia, misalnya dapur rumah atau meja kerja]. Susun daftar 20 shot yang bisa saya rekam sendiri dengan ponsel, dibagi menjadi: proses pembuatan, hasil akhir, detail tekstur atau bagian, pemakaian oleh orang, dan perbandingan sebelum sesudah. Untuk tiap shot tulis cara memegang atau menaruh ponsel, pencahayaan yang cukup, durasi rekaman, dan konten mana yang bisa memakai shot itu. Utamakan shot yang bisa dipakai ulang minimal tiga kali. Sajikan sebagai tabel per kelompok.",
+          "{produk}, lokasi rekam",
+          "dua puluh shot siap rekam beserta kegunaannya."
+        ],
+        [
+          "P-071",
+          "10. Konten media sosial dan video pendek",
+          "Merancang kerja sama dengan kreator kecil",
+          "Anda ingin endorse tapi anggaran terbatas dan takut salah pilih.",
+          "Anda manajer kemitraan kreator untuk usaha kecil. Anggaran saya [tulis anggaran], produk {produk} dengan {harga_jual}, target pembeli [tulis siapa]. Susun rencana kerja sama: lima kriteria memilih kreator yang bukan dari jumlah pengikut, pertanyaan penyaring yang saya kirim di chat pertama, dua skema kompensasi yang masuk akal untuk anggaran kecil yaitu fee dan titip jual dengan komisi, isi brief satu halaman yang saya kirim ke kreator, dan tiga hal yang dilarang di konten mereka. Lalu tulis metrik yang saya pakai untuk memutuskan memperpanjang atau berhenti setelah tiga kerja sama. Sajikan sebagai daftar dan brief dalam satu blok terpisah.",
+          "anggaran, {produk}, {harga_jual}, target",
+          "kriteria, pesan penyaring, brief, dan metrik keputusan."
+        ],
+        [
+          "P-072",
+          "10. Konten media sosial dan video pendek",
+          "Menulis balasan komentar yang menjaga reputasi",
+          "ada komentar negatif yang dilihat ratusan calon pembeli.",
+          "Anda pengelola reputasi media sosial. Komentar yang masuk: [tempel komentar]. Fakta dari sisi saya: [tulis apa yang terjadi]. Tulis tiga versi balasan: versi untuk publik yang singkat dan tidak membela diri berlebihan, versi untuk pesan pribadi yang mengajak penyelesaian, dan versi lanjutan kalau yang bersangkutan muncul lagi dengan nada lebih keras. Aturan: maksimal 60 kata untuk balasan publik, tidak menyalahkan pelanggan di depan umum, tidak mengungkap data pribadi, dan tidak menjanjikan ganti rugi sebelum saya menyetujui. Sertakan satu kalimat yang tidak boleh saya tulis sama sekali beserta alasannya.",
+          "komentar, fakta",
+          "tiga versi balasan dan satu larangan kalimat."
+        ],
+        [
+          "P-073",
+          "10. Konten media sosial dan video pendek",
+          "Menyusun ulang profil kanal supaya menjual",
+          "orang mengunjungi profil Anda lalu pergi tanpa mengirim pesan.",
+          "Anda penata profil bisnis media sosial. Usaha saya {nama_usaha} menjual {produk} dengan {harga_jual} di {kota}, dan pembeli menghubungi lewat [tulis kanal kontak]. Tulis: nama tampilan yang mudah dicari, username alternatif, bio maksimal 150 kata yang berisi siapa dilayani, hasil yang didapat, bukti, dan ajakan bertindak, serta daftar tiga sorutan yang harus ada beserta isi tiap sorutan. Setelah itu susun urutan sembilan unggahan teratas supaya profil terlihat meyakinkan dalam 20 detik pertama. Hindari kata yang tidak bisa dibuktikan. Sajikan sebagai bagian terpisah agar saya bisa menyalin satu per satu.",
+          "{nama_usaha}, {produk}, {harga_jual}, {kota}, kanal kontak",
+          "elemen profil lengkap dan urutan unggahan penyambut."
+        ],
+        [
+          "P-074",
+          "10. Konten media sosial dan video pendek",
+          "Membuat konten dari pertanyaan pelanggan",
+          "Anda kehabisan ide padahal pertanyaan datang tiap hari.",
+          "Anda perencana konten dari riset percakapan. Berikut pertanyaan yang saya terima dari pelanggan dalam dua minggu: [tempel daftar pertanyaan]. Ubah menjadi dua puluh ide konten dengan ketentuan: tiap ide memakai satu pertanyaan, diberi label pilar yaitu edukasi, bukti, atau penjualan, diberi format yaitu video, carousel, atau teks, dan diberi satu kalimat pembuka. Urutkan dari pertanyaan yang paling sering muncul. Tandai lima ide yang bisa saya kerjakan hari ini tanpa alat tambahan. Sajikan sebagai tabel 5 kolom: pertanyaan asal, ide, pilar, format, pembuka.",
+          "daftar pertanyaan pelanggan",
+          "dua puluh ide berlabel beserta lima yang bisa dikerjakan hari ini."
+        ],
+        [
+          "P-075",
+          "10. Konten media sosial dan video pendek",
+          "Menutup bulan dengan tinjauan konten satu halaman",
+          "Anda perlu tahu apa yang dilanjutkan bulan depan.",
+          "Anda pemimpin rapat tinjauan bulanan. Data konten saya bulan ini: [tempel angka utama dan tiga unggahan terbaik beserta tiga terburuk]. Susun tinjauan satu halaman berisi: tiga hal yang terbukti berhasil beserta bukti angkanya, dua hal yang gagal beserta dugaan penyebabnya, satu asumsi saya tentang audiens yang ternyata salah, tiga hal yang saya lanjutkan bulan depan, dan satu hal yang saya hentikan. Tulis untuk pembaca pemilik usaha, maksimal 350 kata, tanpa kalimat pembuka dan tanpa pujian. Kalau datanya tidak cukup untuk menyimpulkan, tulis apa yang perlu dicatat bulan depan.",
+          "data bulanan",
+          "tinjauan satu halaman dengan keputusan lanjut dan berhenti."
+        ],
+        [
+          "P-076",
+          "11. Penjualan, tindak lanjut, dan negosiasi",
+          "Menyusun alur percakapan dari pertanyaan sampai penutupan",
+          "karyawan Anda menjawab chat apa adanya dan kehilangan kesempatan.",
+          "Anda pelatih penjualan chat. Produk saya {produk} dengan {harga_jual}, pembeli umum [tulis siapa], dan pertanyaan pertama yang paling sering masuk adalah [tulis pertanyaan]. Susun alur percakapan tujuh langkah: balasan pertama, penggalian kebutuhan, penawaran yang cocok, penanganan satu keberatan utama, pembuktian, permintaan keputusan, dan penanganan penundaan. Untuk tiap langkah tulis kalimat yang boleh dipakai persis, kalimat yang dilarang, dan tanda pembeli siap lanjut ke langkah berikutnya. Sajikan sebagai tabel dua kolom ucapan dan satu kolom tanda kesiapan. Bahasa Indonesia yang wajar dipakai di WhatsApp, bukan bahasa surat resmi.",
+          "{produk}, {harga_jual}, pembeli, pertanyaan pembuka",
+          "alur tujuh langkah berisi kalimat siap tempel."
+        ],
+        [
+          "P-077",
+          "11. Penjualan, tindak lanjut, dan negosiasi",
+          "Menindaklanjuti pembeli yang menghilang setelah tanya harga",
+          "calon pembeli membaca harga lalu tidak membalas.",
+          "Anda penulis tindak lanjut penjualan. Produk {produk} dengan {harga_jual}, pembeli berhenti setelah [tulis titik percakapan terakhir]. Tulis lima pesan tindak lanjut yang dikirim pada hari ke 1, 3, 7, 14, dan 30. Aturan: tiap pesan maksimal 45 kata, tidak mengulang penawaran yang sama dengan kata berbeda, tiap pesan membawa satu informasi baru seperti stok, cara pakai, atau jawaban atas keberatan, dan pesan terakhir menutup pintu dengan sopan tanpa mengancam. Sertakan satu kalimat yang membuat mereka mudah menjawab singkat. Akhiri dengan catatan kapan saya harus berhenti menghubungi.",
+          "{produk}, {harga_jual}, titik berhenti",
+          "lima pesan bertahap beserta kriteria berhenti."
+        ],
+        [
+          "P-078",
+          "11. Penjualan, tindak lanjut, dan negosiasi",
+          "Menyiapkan negosiasi harga dengan pembeli korporat",
+          "kantor atau instansi minta penawaran besar dan minta potongan.",
+          "Anda manajer penjualan bisnis ke bisnis untuk usaha kecil. Pembeli potensial: [tulis jenis institusi], permintaan [tulis jumlah dan produk], anggaran yang mereka sebutkan [tulis angka], harga normal saya {harga_jual}, dan {modal_unit} biaya saya. Susun lembar persiapan: nilai yang saya bawa selain produk, tiga konsesi yang boleh saya berikan selain harga beserta imbalan yang saya minta untuk tiap konsesi, batas bawah harga beserta perhitungan marginnya, tiga pertanyaan untuk menggali siapa pengambil keputusan sebenarnya, dan kalimat penutup yang meminta keputusan tanpa terdengar mendesak. Sajikan sebagai tabel dan tunjukkan perhitungan pada batas bawah.",
+          "pembeli, permintaan, anggaran, {harga_jual}, {modal_unit}",
+          "lembar persiapan dengan konsesi bersyarat dan batas bawah berhitung."
+        ],
+        [
+          "P-079",
+          "11. Penjualan, tindak lanjut, dan negosiasi",
+          "Membuat proposal penawaran satu halaman",
+          "calon klien minta proposal dan Anda tidak punya format.",
+          "Anda penulis proposal untuk usaha kecil. Klien: [tulis nama institusi dan jenis usahanya]. Kebutuhan yang mereka sampaikan: [tulis]. Solusi saya {produk} dengan harga [tulis penawaran], jangka waktu [tulis], dan tim saya [tulis siapa yang mengerjakan]. Susun proposal satu halaman dengan bagian: situasi klien dalam dua kalimat yang memakai kata-kata mereka sendiri, apa yang saya kerjakan dalam daftar butir, hasil yang bisa mereka periksa beserta tenggat, harga dan cara pembayaran, apa yang tidak termasuk, syarat dan masa berlaku, dan dua baris tentang kami yang faktual. Jangan memakai kalimat pembuka basa-basi. Sajikan sebagai teks rapi yang bisa saya tempel ke dokumen.",
+          "klien, kebutuhan, solusi, harga, jangka waktu, tim",
+          "proposal satu halaman dengan lingkup dan pengecualian."
+        ],
+        [
+          "P-080",
+          "11. Penjualan, tindak lanjut, dan negosiasi",
+          "Menangani permintaan diskon dari pelanggan lama",
+          "pelanggan setia minta harga khusus dan Anda tidak ingin merusak harga.",
+          "Anda penasihat hubungan pelanggan. Pelanggan lama saya meminta diskon untuk {produk} dengan alasan [tulis alasan]. {harga_jual} harga normal dan {modal_unit} biaya saya. Tulis tiga respons: pertama yang memberi nilai tanpa menurunkan harga, kedua yang memberi diskon terbatas dengan syarat yang jelas seperti pembelian sejumlah atau pembayaran di muka, ketiga yang menolak dengan hormat dan menjaga hubungan. Untuk tiap respons tulis kalimatnya maksimal 70 kata, apa yang saya janjikan, dan apa yang harus saya catat di berkas pelanggan. Tandai respons mana yang membuat saya wajib konsisten di permintaan berikutnya.",
+          "{produk}, alasan, {harga_jual}, {modal_unit}",
+          "tiga respons beserta konsekuensi konsistensinya."
+        ],
+        [
+          "P-081",
+          "11. Penjualan, tindak lanjut, dan negosiasi",
+          "Menyusun skrip penagihan yang menjaga hubungan",
+          "tagihan jatuh tempo dan Anda takut menagih terdengar kasar.",
+          "Anda manajer penagihan piutang. Pelanggan menunggak [tulis jumlah hari] untuk nilai [tulis nominal], dengan riwayat pembayaran sebelumnya [tulis baik atau sering telat]. Tulis empat pesan bertahap: pengingat ramah sebelum jatuh tempo, tagihan pertama setelah lewat 3 hari, pemberitahuan penundaan pengiriman setelah 14 hari, dan opsi penyelesaian setelah 30 hari yang memberi jalan keluar seperti pembayaran bertahap. Untuk tiap pesan tulis subjek, isi maksimal 80 kata, dan apa yang tidak boleh saya tulis supaya tidak mengancam atau mempermalukan. Akhiri dengan tiga alasan penundaan yang paling umum beserta jawaban yang tetap menjaga batas.",
+          "hari tunggakan, nominal, riwayat",
+          "empat pesan bertahap dan penanganan tiga alasan penundaan."
+        ],
+        [
+          "P-082",
+          "11. Penjualan, tindak lanjut, dan negosiasi",
+          "Menjual ke pelanggan yang sudah ada lebih dulu",
+          "biaya mencari pelanggan baru lebih besar daripada menjual ke yang lama.",
+          "Anda analis penjualan berulang. Basis pelanggan saya {jumlah_pelanggan} pembeli {produk}. Data pembelian mereka: [tempel tanggal beli, produk, dan nilai bila ada]. Produk lain yang saya jual: [tulis daftar]. Susun tiga kampanye tindak jual yang masing-masing menyasar kelompok berbeda berdasarkan apa yang sudah mereka beli dan berapa lama sejak pembelian terakhir. Untuk tiap kampanye tulis: definisi kelompok, produk yang ditawarkan, alasan penawaran masuk akal bagi mereka, kalimat pesan maksimal 60 kata, dan waktu kirim yang tepat. Akhiri dengan dua kelompok yang tidak boleh saya kirimi pesan dan alasannya.",
+          "{jumlah_pelanggan}, {produk}, data pembelian, katalog",
+          "tiga kampanye beserta dua kelompok yang dikecualikan."
+        ],
+        [
+          "P-083",
+          "11. Penjualan, tindak lanjut, dan negosiasi",
+          "Menyusun daftar periksa penawaran sebelum dikirim",
+          "Anda pernah mengirim penawaran dengan harga yang salah ketik.",
+          "Anda pengawas mutu penjualan. Produk saya {produk} dengan {harga_jual} dan masa berlaku penawaran [tulis]. Susun daftar periksa 18 butir untuk meneliti penawaran sebelum dikirim, dibagi menjadi: kebenaran angka dan perhitungan, kejelasan lingkup, syarat pembayaran dan pengiriman, kontak dan nama, serta risiko hukum seperti klaim berlebihan. Tiap butir ditulis sebagai pertanyaan yang jawabannya ya atau tidak, bukan sebagai topik. Tandai empat butir yang paling sering terlewat oleh usaha kecil. Sajikan sebagai tabel dengan kolom butir, cara memeriksa, dan akibat kalau salah.",
+          "{produk}, {harga_jual}, masa berlaku",
+          "daftar periksa delapan belas butir dengan cara periksa."
+        ],
+        [
+          "P-084",
+          "11. Penjualan, tindak lanjut, dan negosiasi",
+          "Membuat kalkulator komisi untuk tim dan reseller",
+          "Anda ingin tim termotivasi tapi tidak mau membayar komisi yang salah.",
+          "Anda perancang skema insentif usaha kecil. Margin per unit saya {harga_jual} dikurangi {modal_unit}. Target penjualan bulanan [tulis jumlah unit]. Susun skema komisi tiga tingkat yang tetap menyisakan laba, dengan bagian: rumus komisi, ambang target, kecepatan bayar, dan aturan untuk pesanan retur atau pembatalan. Hitung berapa total biaya komisi kalau tim mencapai 80, 100, dan 130 persen dari target, dan tunjukkan margin yang tersisa di tiap skenario. Akhiri dengan dua perilaku buruk yang biasanya muncul dari skema komisi dan cara mencegahnya lewat aturan.",
+          "{harga_jual}, {modal_unit}, target unit",
+          "skema komisi berhitung dan pencegahan perilaku menyimpang."
+        ],
+        [
+          "P-085",
+          "11. Penjualan, tindak lanjut, dan negosiasi",
+          "Menulis halaman pertanyaan untuk mengurangi chat berulang",
+          "separuh chat Anda isinya pertanyaan yang sama.",
+          "Anda penulis halaman bantuan untuk usaha kecil. Pertanyaan yang paling sering masuk ke chat saya: [tulis 10 pertanyaan]. Produk {produk} dengan {harga_jual}. Untuk tiap pertanyaan tulis jawaban maksimal 60 kata yang menyelesaikan tanpa membuat pembeli perlu bertanya lagi, dan sebutkan data apa yang harus saya lampirkan supaya jawaban itu dipercaya, misalnya foto ukuran atau tabel ongkos. Urutkan dari yang paling sering. Akhiri dengan tiga pertanyaan yang jawabannya harus saya taruh di halaman produk, bukan di halaman bantuan, beserta alasannya.",
+          "daftar pertanyaan, {produk}, {harga_jual}",
+          "sepuluh jawaban siap tempel dan tiga yang dipromosikan ke halaman produk."
+        ],
+        [
+          "P-086",
+          "11. Penjualan, tindak lanjut, dan negosiasi",
+          "Menyusun rencana penjualan tujuh hari untuk produk lambat",
+          "stok ada, pembeli tidak datang, dan Anda butuh gerak cepat.",
+          "Anda manajer penjualan lapangan. Produk {produk} dengan {harga_jual}, stok [tulis jumlah], penjualan 30 hari terakhir [tulis jumlah], kanal {kanal}, dan waktu yang saya punya minggu ini [tulis jam]. Susun rencana tujuh hari berisi tindakan nyata per hari dengan target angka, misalnya menghubungi 15 pelanggan lama atau mengirim 8 penawaran grosir. Untuk tiap tindakan tulis pesan yang dipakai, ambang keberhasilan, dan apa yang saya lakukan kalau hasilnya nol. Prioritaskan tindakan yang menyentuh orang yang sudah mengenal saya. Akhiri dengan tiga hal yang tidak boleh saya lakukan minggu ini karena hanya menghabiskan waktu.",
+          "{produk}, {harga_jual}, stok, penjualan, {kanal}, jam tersedia",
+          "rencana tujuh hari bertarget beserta rencana cadangan."
+        ],
+        [
+          "P-087",
+          "11. Penjualan, tindak lanjut, dan negosiasi",
+          "Menangani pembeli yang meminta retur di luar kebijakan",
+          "aturannya jelas tapi situasinya manusiawi dan Anda harus memutuskan.",
+          "Anda manajer layanan dan penjualan. Kebijakan saya: [tulis kebijakan retur]. Kasus yang terjadi: [tulis kronologi tanpa nama asli pembeli]. Produk {produk} dengan {harga_jual}. Susun tiga opsi penyelesaian: menolak dengan merujuk kebijakan, memberi pengecualian sekali dengan syarat, dan menukar dengan produk lain. Untuk tiap opsi tulis kalimat yang saya kirim, biaya yang saya tanggung, dampaknya pada hubungan jangka panjang, dan risiko kalau semua pembeli tahu saya memakai opsi itu. Rekomendasikan satu beserta alasan dan tulis aturan baru yang perlu saya tambahkan ke kebijakan setelah kasus ini.",
+          "kebijakan, kronologi, {produk}, {harga_jual}",
+          "tiga opsi berbiaya beserta satu rekomendasi dan perbaikan aturan."
+        ],
+        [
+          "P-088",
+          "11. Penjualan, tindak lanjut, dan negosiasi",
+          "Membuat daftar prioritas calon pembeli harian",
+          "waktu Anda hanya cukup untuk menghubungi sepuluh orang.",
+          "Anda manajer pengembangan bisnis. Ini daftar calon pembeli yang masuk minggu ini: [tempel kolom sumber, apa yang ditanyakan, tanggal, dan nilai potensi]. Produk saya {produk} dengan {harga_jual}. Beri skor 0 sampai 100 untuk tiap calon berdasarkan tiga sinyal: keseriusan yang terlihat dari pertanyaannya, kecocokan dengan profil pembeli saya, dan seberapa baru kontak itu. Urutkan dan ambil sepuluh teratas, lalu untuk tiap satuannya tulis kalimat pembuka yang spesifik mengikuti apa yang ia tanyakan. Tandai calon yang sebaiknya saya simpan untuk bulan depan beserta alasannya. Jangan memakai data pribadi di luar yang saya tempel.",
+          "daftar calon, {produk}, {harga_jual}",
+          "peringkat calon beserta sepuluh kalimat pembuka spesifik."
+        ],
+        [
+          "P-089",
+          "11. Penjualan, tindak lanjut, dan negosiasi",
+          "Menyusun penawaran untuk pelanggan yang hampir berhenti",
+          "pelanggan rutin Anda mulai sepi memesan.",
+          "Anda analis retensi. Pelanggan saya biasanya memesan setiap [tulis rentang hari], dan sekarang sudah lewat [tulis hari] tanpa pesanan. Riwayatnya: [tulis nilai pesanan rata-rata dan produk yang biasa dibeli]. Susun pesan pemulihan maksimal 70 kata yang tidak terdengar seperti promo massal, berisi satu pertanyaan tulus tentang kondisinya, satu informasi berguna, dan satu penawaran yang masuk akal untuk situasinya. Lalu tulis tiga kemungkinan penyebab ia berhenti beserta cara saya memverifikasinya lewat percakapan, dan satu tindakan operasional yang harus saya perbaiki kalau penyebabnya ada di pihak saya.",
+          "rentang beli, hari sepi, riwayat pesanan",
+          "pesan pemulihan, tiga penyebab, dan perbaikan internal."
+        ],
+        [
+          "P-090",
+          "11. Penjualan, tindak lanjut, dan negosiasi",
+          "Menutup penjualan tanpa mendesak berlebihan",
+          "percakapan sudah panjang dan Anda takut merusak suasana dengan meminta keputusan.",
+          "Anda pelatih penjualan konsultatif. Percakapan saya dengan calon pembeli {produk}: [tempel riwayat chat, nama sudah disamarkan]. Harga {harga_jual}. Analisis percakapan itu: di langkah mana saya berhenti menggali kebutuhan, pertanyaan apa yang belum saya ajukan, dan sinyal apa yang sebenarnya sudah menunjukkan kesiapan. Setelah itu tulis tiga kalimat penutup yang meminta keputusan dengan hormat, masing-masing untuk situasi pembeli sudah siap, pembeli masih membandingkan, dan pembeli menunda tanpa alasan. Jangan memakai kalimat yang menciptakan kelangkaan palsu. Sajikan sebagai dua bagian: analisis dan kalimat.",
+          "riwayat chat, {produk}, {harga_jual}",
+          "diagnosis percakapan dan tiga kalimat penutup bertahap."
+        ],
+        [
+          "P-091",
+          "12. Layanan pelanggan dan komunitas",
+          "Menyusun nada bicara layanan yang konsisten",
+          "tiga karyawan Anda membalas chat dengan gaya yang berbeda.",
+          "Anda manajer pengalaman pelanggan. Usaha saya {nama_usaha} menjual {produk} dengan {harga_jual} ke pembeli [tulis siapa]. Susun panduan nada bicara satu halaman: lima kalimat yang selalu kami pakai, lima kalimat yang dilarang beserta alasannya, cara membuka percakapan, cara meminta waktu untuk memeriksa, cara menyampaikan kabar buruk, dan cara menutup percakapan. Untuk tiap butir tulis contoh kalimat persis yang bisa ditempel karyawan. Bahasanya harus wajar dipakai di chat Indonesia, bukan bahasa surat. Akhiri dengan tiga contoh percakapan singkat: pertanyaan harga, komplain terlambat, dan permintaan maaf kami atas kesalahan sendiri.",
+          "{nama_usaha}, {produk}, {harga_jual}, pembeli",
+          "panduan nada bicara dengan contoh kalimat dan tiga percakapan."
+        ],
+        [
+          "P-092",
+          "12. Layanan pelanggan dan komunitas",
+          "Menulis balasan komplain yang meredakan, bukan membela",
+          "pembeli marah dan tulisannya dibaca calon pembeli lain.",
+          "Anda penulis balasan layanan pelanggan. Keluhan yang masuk: [tempel keluhan, nama disamarkan]. Fakta dari sisi kami: [tulis]. Produk {produk}. Tulis balasan dengan struktur: pengakuan atas perasaan dan fakta yang jelas, satu kalimat tanggung jawab tanpa menyalahkan pihak lain, langkah penyelesaian yang konkret beserta tenggat, satu pilihan yang diberikan ke pembeli, dan penutup yang membuka jalan kalau hasilnya belum memuaskan. Maksimal 140 kata. Jangan memakai kalimat kami mohon maaf atas ketidaknyamanannya tanpa isi, jangan menyalahkan jasa kirim sebelum ada bukti, dan jangan menjanjikan ganti rugi yang belum saya setujui.",
+          "keluhan, fakta, {produk}",
+          "satu balasan terstruktur dengan pilihan untuk pembeli."
+        ],
+        [
+          "P-093",
+          "12. Layanan pelanggan dan komunitas",
+          "Membuat pustaka balasan cepat untuk dua puluh kasus",
+          "Anda menulis hal yang sama berkali-kali setiap hari.",
+          "Anda penyusun pustaka balasan layanan. Kasus yang paling sering terjadi di usaha {produk} saya: [tulis 20 kasus singkat]. Untuk tiap kasus tulis: subjek atau baris pertama pesan, isi maksimal 70 kata, data yang wajib saya isi sebelum mengirim seperti nomor pesanan, dan kalimat eskalasi kalau kasus tidak selesai dalam 24 jam. Urutkan dari yang paling sering. Sajikan sebagai tabel tiga kolom yang bisa saya pindahkan ke spreadsheet balasan cepat. Jangan memakai kalimat yang membuat kami terlihat menyalahkan pembeli.",
+          "{produk}, daftar kasus",
+          "dua puluh templat balasan dengan data wajib dan eskalasi."
+        ],
+        [
+          "P-094",
+          "12. Layanan pelanggan dan komunitas",
+          "Menyusun kebijakan layanan yang bisa ditegakkan",
+          "Anda memberi pengecualian terus-menerus dan karyawan bingung.",
+          "Anda penyusun kebijakan layanan untuk usaha kecil. Produk saya {produk} dengan {harga_jual} dan margin [tulis persen]. Susun kebijakan untuk enam hal: batas waktu perubahan pesanan, pengembalian barang tidak rusak, pengembalian barang rusak atau salah, keterlambatan pengiriman, garansi atau jaminan layanan, dan penanganan permintaan di luar jam kerja. Untuk tiap butir tulis aturan baku, pengecualian yang boleh diberikan oleh siapa, batas nilai kerugian yang boleh diputuskan karyawan tanpa bertanya, dan bukti yang harus dicatat. Akhiri dengan tiga kalimat yang bisa dipakai karyawan untuk menolak dengan sopan.",
+          "{produk}, {harga_jual}, margin",
+          "kebijakan enam butir beserta wewenang dan bukti pencatatan."
+        ],
+        [
+          "P-095",
+          "12. Layanan pelanggan dan komunitas",
+          "Menganalisis penyebab keluhan dari catatan tiga bulan",
+          "keluhan berulang dan Anda belum pernah menghitung sumbernya.",
+          "Anda analis mutu layanan. Ini catatan keluhan saya tiga bulan terakhir: [tempel daftar keluhan beserta tanggal, produk, dan keterangan singkat]. Kelompokkan menjadi maksimal delapan penyebab akar, bukan gejala. Untuk tiap kelompok hitung jumlah kejadian, persentase, produk atau kanal yang paling terlibat, dan biaya tersembunyi yang mungkin timbul seperti retur atau waktu karyawan. Lalu usulkan tiga perbaikan yang menghilangkan penyebab, bukan memperbaiki gejala, beserta cara mengukur hasilnya dalam 30 hari. Sajikan sebagai tabel dan tunjukkan perhitungan persentase. Kalau data tidak cukup untuk mengelompokkan, sebutkan kolom apa yang harus saya catat mulai besok.",
+          "catatan keluhan",
+          "penyebab akar berkelompok dengan tiga perbaikan terukur."
+        ],
+        [
+          "P-096",
+          "12. Layanan pelanggan dan komunitas",
+          "Merancang program loyalitas yang tidak merugikan",
+          "Anda ingin pelanggan kembali tapi takut memberi lebih dari yang masuk akal.",
+          "Anda perancang program loyalitas. Rata-rata nilai pesanan saya [tulis], margin per pesanan [tulis], dan pembeli saya {jumlah_pelanggan} orang dengan frekuensi beli [tulis rentang bulan]. Susun dua rancangan program: sistem poin dan sistem tingkatan. Untuk tiap rancangan tulis cara mengumpulkan, cara menukar, nilai efektif yang saya berikan dalam persen, ambang yang membuat program ini tetap untung beserta perhitungan, tiga cara orang menyalahgunakannya beserta penangkalnya, dan kalimat pengumuman untuk pelanggan lama. Rekomendasikan satu beserta alasan memilihnya untuk usaha dengan tim kecil.",
+          "nilai pesanan, margin, {jumlah_pelanggan}, frekuensi",
+          "dua rancangan dengan hitungan untung dan penyalahgunaan."
+        ],
+        [
+          "P-097",
+          "12. Layanan pelanggan dan komunitas",
+          "Menulis prosedur penanganan kasus darurat layanan",
+          "satu kesalahan bisa merugikan banyak pembeli sekaligus, misalnya salah cetak label.",
+          "Anda penyusun prosedur darurat layanan pelanggan. Skenario yang saya takutkan: [tulis skenario, misalnya salah kirim varian ke 40 pembeli]. Produk {produk}. Susun prosedur dengan bagian: tanda kejadian, siapa yang pertama diberi tahu, keputusan yang harus diambil dalam 60 menit, urutan komunikasi ke pelanggan beserta draf pesannya, opsi pemulihan yang tersedia beserta biaya tiap opsi, cara mencatat, dan kriteria kejadian dinyatakan selesai. Sertakan draf pesan pertama untuk pelanggan maksimal 80 kata. Akhiri dengan empat hal yang memperburuk keadaan kalau saya lakukan.",
+          "skenario, {produk}",
+          "prosedur darurat dengan draf pesan dan daftar larangan."
+        ],
+        [
+          "P-098",
+          "12. Layanan pelanggan dan komunitas",
+          "Mengubah keluhan menjadi halaman pertanyaan yang mencegah",
+          "pertanyaan yang sama datang dari orang yang belum membeli.",
+          "Anda penulis konten pencegahan keluhan. Ini keluhan yang paling sering muncul setelah pembelian: [tulis lima keluhan beserta penyebabnya]. Untuk tiap keluhan tulis: informasi apa yang hilang di halaman penjualan sehingga pembeli tidak tahu, kalimat yang harus ditambahkan ke halaman produk sebelum pembeli menekan beli, dan satu gambar atau tabel yang perlu saya lampirkan supaya jelas. Urutkan dari keluhan yang paling mahal. Sajikan sebagai tabel empat kolom: keluhan, informasi yang hilang, kalimat tambahan, dan bukti visual. Jangan memakai kalimat yang hanya melindungi kami tanpa membantu pembeli.",
+          "daftar keluhan",
+          "perbaikan halaman produk yang mencegah keluhan sebelum terjadi."
+        ],
+        [
+          "P-099",
+          "12. Layanan pelanggan dan komunitas",
+          "Menyusun survei kepuasan yang benar-benar dibaca",
+          "Anda mengirim survei panjang dan yang mengisi cuma dua orang.",
+          "Anda perancang survei pelanggan. Usaha saya menjual {produk} ke {jumlah_pelanggan} pembeli lewat {kanal}. Susun survei maksimal lima butir: satu penilaian angka, dua pilihan ganda yang menjelaskan penyebab, satu pertanyaan terbuka maksimal 20 kata, dan satu butir yang memisahkan pelanggan yang siap mereferensikan. Untuk tiap butir tulis apa yang ingin saya simpulkan darinya dan kesalahan penyusunan yang membuat jawabannya bias. Lalu tulis kalimat pengantar survei maksimal 40 kata yang membuat orang mau mengisi, dan jadwal pengiriman yang tidak mengganggu.",
+          "{produk}, {jumlah_pelanggan}, {kanal}",
+          "survei lima butir dengan tujuan tiap butir dan cara kirim."
+        ],
+        [
+          "P-100",
+          "12. Layanan pelanggan dan komunitas",
+          "Menangani permintaan pengembalian dana",
+          "pembeli meminta uang kembali dan Anda harus memutuskan dengan cepat.",
+          "Anda manajer layanan yang bertugas memutuskan pengembalian dana. Permintaan yang masuk: [tulis kronologi tanpa nama asli]. Kebijakan kami: [tulis kebijakan]. Nilai pesanan [tulis], margin produk {produk} [tulis persen], dan pembeli ini [tulis riwayatnya]. Susun analisis singkat: apakah permintaan ini sesuai kebijakan, berapa biaya pengembalian penuh dibanding sebagian dibanding penggantian produk, dan apa dampaknya kalau saya memberi pengecualian. Setelah itu tulis dua balasan: yang menyetujui dengan syarat, dan yang menolak dengan penjelasan yang tetap membuat orang mau beli lagi.",
+          "kronologi, kebijakan, nilai, margin, {produk}, riwayat",
+          "perbandingan biaya penyelesaian dan dua draf balasan."
+        ],
+        [
+          "P-101",
+          "12. Layanan pelanggan dan komunitas",
+          "Membangun komunitas kecil yang menahan pelanggan",
+          "Anda ingin pelanggan saling menahan satu sama lain, bukan hanya diingatkan promo.",
+          "Anda perancang komunitas usaha kecil. Produk saya {produk}, pembeli saya [tulis siapa], dan kanal komunikasi yang mereka pakai [tulis grup atau halaman]. Susun rencana komunitas 90 hari: tujuan komunitas yang bukan penjualan, aturan main maksimal enam butir, bentuk pertemuan atau aktivitas rutin beserta frekuensinya, tiga peran anggota yang bisa saya rekrut, cara saya menjaga kualitas obrolan tanpa menjadi satu-satunya yang bicara, dan tanda bahwa komunitas ini gagal dan harus diubah bentuknya. Sertakan pesan undangan bergabung maksimal 60 kata. Akhiri dengan taksiran waktu pengelolaan per minggu.",
+          "{produk}, pembeli, kanal",
+          "rencana 90 hari beserta aturan, aktivitas, dan taksiran waktu."
+        ],
+        [
+          "P-102",
+          "12. Layanan pelanggan dan komunitas",
+          "Menulis permintaan ulasan yang tidak melanggar aturan kanal",
+          "Anda butuh ulasan tapi tidak boleh membeli atau memaksa.",
+          "Anda penulis permintaan ulasan yang patuh aturan. Saya menjual {produk} lewat {kanal} dan pembeli saya [tulis siapa]. Tulis tiga pesan permintaan ulasan yang hanya meminta pengalaman jujur, tidak mengarahkan bintang, tidak mengimingi imbalan yang dilarang marketplace, dan dikirim pada waktu yang paling mungkin dibalas, misalnya setelah produk dipakai beberapa hari. Untuk tiap pesan tulis waktu pengiriman yang tepat dan satu kalimat tindak lanjut untuk yang tidak membalas setelah 7 hari. Sertakan pula daftar hal yang dilarang di kanal saya beserta konsekuensinya kalau saya melanggar.",
+          "{produk}, {kanal}, pembeli",
+          "tiga pesan permintaan ulasan beserta aturan kanal."
+        ],
+        [
+          "P-103",
+          "12. Layanan pelanggan dan komunitas",
+          "Membuat daftar periksa serah terima pesanan",
+          "kesalahan paling banyak terjadi di titik barang keluar.",
+          "Anda supervisor gudang untuk usaha kecil. Produk saya {produk} dan rata-rata [tulis jumlah] pesanan per hari dengan [tulis jumlah] varian. Susun daftar periksa serah terima yang dikerjakan sebelum paket ditutup: pencocokan varian, jumlah, kondisi, kelengkapan dokumen, alamat dan nomor penerima, catatan khusus dari percakapan, dan tanda tangan atau inisial yang menyiapkan. Tiap butir ditulis sebagai tindakan dengan cara memeriksa, bukan sebagai pengingat umum. Sertakan tabel tiga kolom: butir, cara periksa, dan akibat kalau terlewat. Akhiri dengan dua butir yang bisa diotomatiskan lewat sistem dan dua yang tetap harus diperiksa mata manusia.",
+          "{produk}, jumlah pesanan, jumlah varian",
+          "daftar periksa keluar beserta pemisahan otomatis dan manual."
+        ],
+        [
+          "P-104",
+          "12. Layanan pelanggan dan komunitas",
+          "Menyusun laporan layanan mingguan untuk diri sendiri",
+          "Anda butuh satu halaman untuk tahu minggu ini layanan Anda membaik atau memburuk.",
+          "Anda analis layanan. Data saya minggu ini: [tempel jumlah chat masuk, waktu balas pertama, jumlah komplain, jumlah retur, dan jumlah pesanan]. Susun laporan satu halaman: empat angka utama beserta pembandingnya kalau data minggu lalu saya berikan, dua hal yang memburuk beserta dugaan penyebabnya, dua hal yang membaik, satu keputusan yang harus saya ambil minggu depan, dan satu hal yang tidak perlu saya tanggapai karena hanya kebisingan satu kejadian. Maksimal 350 kata. Kalau data yang saya berikan tidak cukup untuk membandingkan, nyatakan dan sebutkan kolom tambahan yang perlu saya catat.",
+          "data layanan mingguan",
+          "laporan satu halaman dengan satu keputusan tindakan."
+        ],
+        [
+          "P-105",
+          "12. Layanan pelanggan dan komunitas",
+          "Melatih karyawan menangani percakapan sulit",
+          "karyawan baru panik saat pembeli mulai bernada tinggi.",
+          "Anda pelatih layanan pelanggan. Situasi sulit yang paling sering terjadi di usaha {produk} saya: [tulis tiga situasi]. Untuk tiap situasi susun bahan latihan: kalimat pembeli yang memancing emosi, tiga hal yang harus didahulukan sebelum menjawab isi keluhan, dua kalimat yang menenangkan tanpa mengakui kesalahan yang belum jelas, satu kalimat batas yang dipakai kalau pembeli mulai menghina, dan tindakan apa yang boleh dilakukan karyawan tanpa menunggu saya. Sertakan satu latihan peran berupa percakapan enam giliran yang bisa dipakai karyawan untuk berlatih. Bahasanya natural untuk chat Indonesia.",
+          "{produk}, situasi sulit",
+          "bahan latihan tiga situasi beserta latihan peran enam giliran."
+        ],
+        [
+          "P-106",
+          "13. Pembukuan, arus kas, dan pajak UMKM",
+          "Memisahkan uang pribadi dan uang usaha",
+          "Anda tidak bisa menyebutkan omzet bulan lalu dengan pasti.",
+          "Anda penasihat pembukuan usaha kecil. Kondisi saya: usaha {nama_usaha} menjual {produk}, omzet sekitar {omzet_bulanan}, saya masih memakai satu rekening untuk pribadi dan usaha, dan pengambilan uang untuk kebutuhan rumah tangga sekitar [tulis nominal] per bulan. Susun skema pemisahan yang bisa saya jalankan tanpa akuntan penuh waktu: struktur rekening, tanggal dan besaran gaji tetap untuk saya sendiri beserta alasannya, aturan penamaan transaksi, daftar minimal yang harus saya catat per hari dalam bentuk kolom, dan cara menutup buku tiap bulan dalam 30 menit. Sajikan sebagai langkah bernomor dan akhiri dengan tiga kebiasaan lama yang harus saya berhenti lakukan minggu ini.",
+          "{nama_usaha}, {produk}, {omzet_bulanan}, nominal pengambilan",
+          "skema rekening, gaji pemilik, dan rutinitas tutup buku."
+        ],
+        [
+          "P-107",
+          "13. Pembukuan, arus kas, dan pajak UMKM",
+          "Menyusun arus kas proyeksi 13 minggu",
+          "Anda tidak tahu minggu mana kas akan menipis.",
+          "Anda analis arus kas untuk usaha kecil. Data saya: kas awal [tulis], piutang yang akan masuk beserta perkiraan tanggal [tulis daftar], kewajiban yang harus keluar beserta tanggal [tulis daftar gaji, sewa, supplier, listrik], rata-rata penjualan mingguan {omzet_bulanan} dibagi empat dengan pola naik turun [tulis kalau ada musim], dan biaya tetap bulanan [tulis]. Susun proyeksi 13 minggu dalam tabel: minggu, kas masuk, kas keluar, saldo akhir, dan penanda aman atau waspada atau kritis. Tunjukkan rumus saldo. Tandai minggu pertama yang saldo akhirnya negatif dan tulis dua tindakan yang bisa saya ambil 3 minggu sebelumnya. Kalau ada angka yang tidak saya berikan, jangan mengarang, tanyakan.",
+          "kas awal, piutang, kewajiban, {omzet_bulanan}, biaya tetap",
+          "tabel 13 minggu dengan penanda dan tindakan pencegahan."
+        ],
+        [
+          "P-108",
+          "13. Pembukuan, arus kas, dan pajak UMKM",
+          "Menghitung harga pokok penjualan yang benar",
+          "laba di laporan terlihat besar tapi kas tidak bertambah.",
+          "Anda akuntan biaya. Data saya untuk {produk}: pembelian bahan periode ini [tulis], stok bahan awal [tulis], stok bahan akhir [tulis], tenaga kerja langsung [tulis jam dan upah], overhead produksi [tulis rincian], dan unit jadi pada periode yang sama [tulis]. Hitung biaya bahan terpakai, biaya tenaga kerja, overhead teralokasi, total biaya produksi, dan harga pokok per unit. Tunjukkan tiap langkah perhitungan. Lalu bandingkan dengan {harga_jual} dan hitung margin kotor per unit serta dalam persen. Akhiri dengan tiga kemungkinan penyebab kalau margin saya ternyata di bawah 30 persen, dan data apa yang harus saya periksa lebih dulu.",
+          "{produk}, data bahan, tenaga kerja, overhead, unit, {harga_jual}",
+          "perhitungan harga pokok bertahap dan diagnosis margin."
+        ],
+        [
+          "P-109",
+          "13. Pembukuan, arus kas, dan pajak UMKM",
+          "Menyusun laporan laba rugi sederhana bulanan",
+          "Anda butuh satu halaman untuk tahu bulan ini untung atau rugi.",
+          "Anda pembuat laporan keuangan usaha kecil. Transaksi saya bulan ini: [tempel daftar pemasukan dan pengeluaran beserta tanggal dan keterangan singkat]. Susun laporan laba rugi dengan susunan: pendapatan, potongan seperti retur dan voucher, harga pokok penjualan, laba kotor, biaya operasional yang dikelompokkan menjadi pemasaran, gaji, sewa dan utilitas, pengiriman, dan lain-lain, lalu laba bersih. Hitung margin laba kotor dan margin laba bersih dalam persen. Sajikan sebagai tabel dengan angka dan kolom persen dari pendapatan. Tandai kelompok biaya yang porsinya naik tajam kalau saya memberi data bulan sebelumnya. Jangan menggolongkan pembelian aset sebagai biaya operasional.",
+          "daftar transaksi, data pembanding bila ada",
+          "laporan laba rugi bulanan dengan margin dan penanda lonjakan."
+        ],
+        [
+          "P-110",
+          "13. Pembukuan, arus kas, dan pajak UMKM",
+          "Menyiapkan catatan pajak bulanan sendiri",
+          "Anda baru sadar kewajiban pajak mendekati tanggal lapor.",
+          "Anda asisten persiapan pajak untuk UMKM Indonesia. Kondisi saya: {nama_usaha} menjual {produk} dengan {omzet_bulanan} per bulan, status usaha [tulis perorangan atau badan], jumlah pegawai [tulis], dan saya [tulis sudah atau belum punya NPWP dan NIB]. Aturan pajak bisa berubah, jadi jangan memastikan tarif sebagai fakta final. Susun: daftar pertanyaan yang harus saya ajukan ke konsultan pajak atau kantor pelayanan pajak beserta urutannya, rincian data yang perlu saya siapkan agar percakapan itu efisien, bagan alur pencatatan omzet bruto per bulan yang diperlukan untuk perhitungan, dan tiga risiko kalau saya menunda. Sajikan sebagai daftar periksa. Di bagian akhir, tulis kalimat yang bisa saya pakai untuk bertanya tanpa terlihat belum menyiapkan apa pun.",
+          "{nama_usaha}, {produk}, {omzet_bulanan}, status, pegawai, NPWP",
+          "daftar pertanyaan, berkas persiapan, dan alur pencatatan."
+        ],
+        [
+          "P-111",
+          "13. Pembukuan, arus kas, dan pajak UMKM",
+          "Memeriksa kecocokan catatan bank dan catatan internal",
+          "saldo di aplikasi kasir tidak sama dengan saldo rekening.",
+          "Anda auditor internal untuk usaha kecil. Ini catatan penjualan saya per hari: [tempel tanggal dan nilai]. Ini mutasi rekening koran saya: [tempel tanggal dan nilai masuk dan keluar]. Tugas saya adalah menemukan selisih. Cocokkan kedua daftar, tunjukkan selisih per hari dalam tabel: tanggal, catatan internal, catatan bank, selisih, dan kemungkinan penyebab. Kelompokkan kemungkinan penyebab menjadi: potongan biaya admin atau komisi kanal, pembayaran yang belum masuk, transaksi yang tercatat dua kali, dan transaksi pribadi yang tercampur. Akhiri dengan tiga kolom tambahan yang harus saya catat mulai besok supaya rekonsiliasi tidak memakan waktu.",
+          "catatan penjualan, mutasi bank",
+          "tabel selisih harian beserta penyebab dan perbaikan pencatatan."
+        ],
+        [
+          "P-112",
+          "13. Pembukuan, arus kas, dan pajak UMKM",
+          "Menghitung kebutuhan modal kerja",
+          "usaha tumbuh tapi uang selalu habis di tengah bulan.",
+          "Anda analis keuangan usaha kecil. Data saya: rata-rata pembelian per bulan [tulis], rata-rata penagihan yang tertunda [tulis hari], rata-rata stok ditahan [tulis hari penjualan], pembayaran ke pemasok [tulis hari], {omzet_bulanan} omzet, dan margin [tulis persen]. Hitung siklus kas dalam hari, tunjukkan rumusnya, lalu hitung berapa modal kerja yang saya butuhkan untuk menopang pertumbuhan [tulis persen]. Bandingkan dengan kas yang saya punya sekarang [tulis]. Setelah itu susun tiga cara menutup kekurangan dengan urutan dari yang paling murah: mempercepat penagihan, memperlambat pembayaran pemasok, dan menurunkan penahanan stok. Untuk tiap cara tulis tindakan konkret dan risiko hubungannya.",
+          "pembelian, penagihan, stok, pembayaran, {omzet_bulanan}, margin, target tumbuh, kas",
+          "hitungan siklus kas, kebutuhan modal, dan tiga cara menutup."
+        ],
+        [
+          "P-113",
+          "13. Pembukuan, arus kas, dan pajak UMKM",
+          "Menyiapkan berkas pengajuan kredit usaha",
+          "Anda akan mengajukan pinjaman dan ingin berkasnya tidak bolak-balik.",
+          "Anda penasihat pembiayaan UMKM. Usaha saya {nama_usaha} bergerak di {produk} dengan {omzet_bulanan} omzet, berjalan [tulis lama usaha], jumlah pegawai [tulis], dan saya butuh pinjaman [tulis nominal] untuk [tulis penggunaan]. Susun: daftar dokumen yang umumnya diminta beserta cara menyiapkan yang tidak ada, misalnya bukti usaha dan alamat, ringkasan satu halaman yang menjelaskan penggunaan dana dan sumber pengembalian, tiga pertanyaan yang biasanya diajukan analis beserta cara menjawab yang jujur dan tidak melemahkan, dan dua kesalahan yang membuat pengajuan ditolak padahal usahanya sehat. Akhiri dengan tabel rencana penggunaan dana beserta dampak ke pendapatan. Jangan menyarankan memalsukan angka.",
+          "{nama_usaha}, {produk}, {omzet_bulanan}, lama usaha, pegawai, nominal, penggunaan",
+          "daftar berkas, ringkasan, dan persiapan wawancara kredit."
+        ],
+        [
+          "P-114",
+          "13. Pembukuan, arus kas, dan pajak UMKM",
+          "Menganalisis biaya yang bisa dihapus tanpa mengurangi penjualan",
+          "Anda perlu menekan biaya tapi tidak mau merusak yang sedang jalan.",
+          "Anda analis biaya usaha kecil. Rincian biaya bulanan saya: [tempel daftar pos beserta nominal]. Pendapatan {omzet_bulanan}. Untuk tiap pos beri label: penting untuk pendapatan, penting untuk kepatuhan atau keamanan, penunjang, atau bisa dikurangi. Hitung porsinya terhadap pendapatan dan bandingkan dengan ambang wajar yang Anda nyatakan sebagai perkiraan, bukan patokan baku. Lalu susun rencana penghematan tiga langkah yang tidak menyentuh kualitas produk dan layanan pelanggan, beserta cara mengukur bahwa penjualan tidak turun setelahnya. Sajikan sebagai tabel dan akhiri dengan dua pos yang justru berbahaya kalau saya potong.",
+          "daftar biaya, {omzet_bulanan}",
+          "klasifikasi pos biaya dan rencana hemat yang aman."
+        ],
+        [
+          "P-115",
+          "13. Pembukuan, arus kas, dan pajak UMKM",
+          "Menyusun standar operasional penutupan buku bulanan",
+          "laporan Anda selalu telat karena tidak ada rutinitas.",
+          "Anda penyusun prosedur akuntansi untuk usaha kecil dengan satu orang bagian keuangan. Alat yang saya pakai: [tulis aplikasi atau spreadsheet]. Susun prosedur penutupan buku bulanan dalam tabel: hari kerja, pekerjaan, hasil yang harus terlihat, dan pemeriksaan silang yang dilakukan orang lain. Cakup pencocokan kas dan bank, pengakuan pendapatan beserta potongannya, perhitungan stok akhir dan harga pokok, rekonsiliasi piutang dan utang, penyusutan peralatan sederhana, dan penyusunan laporan laba rugi serta arus kas. Total waktu pengerjaan maksimal 6 jam. Akhiri dengan lima butir daftar periksa tanda tangan yang membuktikan prosedur ini benar-benar dijalankan.",
+          "alat yang dipakai",
+          "prosedur harian dengan pemeriksaan silang dan daftar periksa."
+        ],
+        [
+          "P-116",
+          "13. Pembukuan, arus kas, dan pajak UMKM",
+          "Menentukan apakah usaha mampu menambah karyawan",
+          "beban kerja naik dan Anda bingung merekrut atau menambah jam.",
+          "Anda analis kelayakan biaya tenaga kerja. Data saya: {omzet_bulanan} omzet, laba bersih bulanan [tulis], jam kerja saya per minggu [tulis], pekerjaan yang paling menyita waktu [tulis tiga], upah yang wajar di {kota} untuk posisi ini [tulis perkiraan], dan biaya tambahan [tulis BPJS, makan, atau transport kalau ada]. Hitung biaya penuh satu karyawan per bulan, lalu tentukan tambahan pendapatan atau penghematan waktu yang harus dihasilkan supaya posisi ini layak. Bandingkan tiga opsi: karyawan tetap harian, pekerja lepas per proyek, dan alat otomatis untuk pekerjaan berulang. Untuk tiap opsi tulis risiko kalau orang keluar dan cara saya melindungi datanya.",
+          "{omzet_bulanan}, laba, jam kerja, pekerjaan, upah {kota}, biaya tambahan",
+          "biaya penuh tenaga kerja dan perbandingan tiga opsi."
+        ],
+        [
+          "P-117",
+          "13. Pembukuan, arus kas, dan pajak UMKM",
+          "Membaca rasio keuangan usaha sendiri",
+          "Anda punya laporan tapi tidak tahu apa yang harus dikhawatirkan.",
+          "Anda analis rasio keuangan usaha kecil. Angka saya: total aset [tulis], kas [tulis], piutang [tulis], utang jangka pendek [tulis], utang jangka panjang [tulis], pendapatan setahun {omzet_bulanan} dikali dua belas, laba bersih [tulis], dan harga pokok penjualan [tulis]. Hitung rasio lancar, utang terhadap modal, margin laba kotor, margin laba bersih, perputaran persediaan kalau data stok saya berikan, dan hari tunggaku piutang. Tampilkan rumus tiap rasio. Untuk tiap hasil tulis apa yang diungkapkan tentang usaha saya, batas yang biasanya mengkhawatirkan sebagai perkiraan, dan satu tindakan perbaikan. Jangan menyimpulkan tanpa menyebut data yang kurang.",
+          "neraca, laba, {omzet_bulanan}",
+          "tabel rasio berhitung dengan tindakan perbaikan."
+        ],
+        [
+          "P-118",
+          "13. Pembukuan, arus kas, dan pajak UMKM",
+          "Menyusun anggaran tahunan yang bisa dipegang tim",
+          "target Anda hanya berupa angka besar tanpa pembagian bulanan.",
+          "Anda perencana anggaran usaha kecil. Target saya tahun depan untuk {produk}: pendapatan [tulis], dan saya punya kapasitas produksi [tulis]. Data tahun ini: [tulis pendapatan per kuartal, biaya tetap, dan margin]. Susun anggaran tahunan dalam tabel per kuartal: pendapatan target, unit yang harus terjual, harga rata-rata, biaya variabel, biaya tetap, dan laba yang disisakan. Pecah pendapatan kuartal mengikuti pola musiman nyata di {musim} dan bulan lemah, bukan dibagi rata. Setelah itu tulis tiga asumsi yang paling menentukan dan tanda dini bahwa asumsi itu mulai meleset, beserta keputusan yang saya ambil kalau itu terjadi.",
+          "{produk}, target, kapasitas, data tahun ini, {kota}, {musim}",
+          "anggaran kuartalan dengan asumsi dan penanda penyimpangan."
+        ],
+        [
+          "P-119",
+          "13. Pembukuan, arus kas, dan pajak UMKM",
+          "Memeriksa apakah harga jual menutup biaya sebenarnya",
+          "Anda merasa semua penjualan untung tapi kas tetap saja menipis.",
+          "Anda akuntan biaya yang bertugas menemukan biaya tersembunyi. Produk saya {produk} dengan {harga_jual} dan {modal_unit} yang saya anggap sebagai biaya. Pekerjaan tambahan per pesanan yang saya lakukan: [tulis misalnya mengemas, mencetak label, menimbang, mengirim ke titik jemput, membalas chat, menangani retur, dan biaya admin kanal]. Estimasi waktu tiap pekerjaan [tulis menit] dan upah saya per jam [tulis]. Hitung biaya penuh per pesanan, tunjukkan rumusnya, lalu bandingkan dengan {harga_jual}. Setelah itu susun tabel tiga kolom: pos biaya yang selama ini tidak saya hitung, nilai per pesanan, dan cara saya memindahkannya ke harga atau menghilangkannya. Akhiri dengan harga minimum yang membuat pesanan tetap untung.",
+          "{produk}, {harga_jual}, {modal_unit}, daftar pekerjaan, waktu, upah",
+          "biaya penuh per pesanan dan harga minimum yang aman."
+        ],
+        [
+          "P-120",
+          "13. Pembukuan, arus kas, dan pajak UMKM",
+          "Membuat laporan pemilik mingguan satu layar",
+          "Anda tenggelam di pekerjaan harian dan kehilangan pandangan.",
+          "Anda penyusun laporan eksekutif untuk pemilik usaha kecil. Data yang bisa saya catat 10 menit setiap Jumat: [tulis yang tersedia, misalnya pesanan masuk, nilai penjualan, kas akhir, komplain, dan stok kritis]. Susun format laporan satu layar berisi: enam angka utama beserta pembanding minggu lalu, satu pertanyaan yang harus saya jawab sendiri, dua hal yang menyimpang dari rencana, dan satu keputusan untuk minggu depan. Buat maksimal 250 kata. Lalu jelaskan cara mengisinya memakai spreadsheet dengan rumus yang saya tulis sendiri, bukan alat berbayar. Akhiri dengan tiga angka yang paling sering membuat pemilik usaha menipu dirinya sendiri dan cara menghindarinya.",
+          "data mingguan yang tersedia",
+          "format laporan mingguan dan cara pengisian dengan spreadsheet."
+        ],
+        [
+          "P-121",
+          "14. Operasional, stok, dan sumber daya manusia",
+          "Menghitung titik pemesanan ulang stok",
+          "Anda sudah dua kali kehabisan stok di minggu penjualannya paling bagus.",
+          "Anda analis persediaan untuk usaha kecil. Data saya untuk {produk}: penjualan rata-rata [tulis unit] per bulan dengan puncak [tulis unit] di bulan {musim}, waktu tunggu pemasok [tulis hari], stok aman yang ingin saya pegang [tulis hari penjualan], biaya pesan per transaksi [tulis], dan biaya simpan per unit per bulan [tulis]. Hitung permintaan harian, titik pemesanan ulang, dan jumlah pesanan ekonomis, tunjukkan tiap rumus, lalu sajikan tabel dua kolom: skenario bulan biasa dan bulan puncak, dengan kolom titik pesan ulang, jumlah pesan, dan stok maksimum. Akhiri dengan tiga tanda bahwa rumus ini perlu saya hitung ulang dan data apa yang harus saya pantau.",
+          "{produk}, penjualan, puncak, {musim}, waktu tunggu, stok aman, biaya pesan, biaya simpan",
+          "titik pesan ulang dan jumlah ekonomis untuk dua skenario."
+        ],
+        [
+          "P-122",
+          "14. Operasional, stok, dan sumber daya manusia",
+          "Merapikan gudang atau ruang produksi kecil",
+          "Anda kehilangan 20 menit setiap kali mencari satu bahan.",
+          "Anda konsultan tata letak untuk ruang usaha kecil berukuran [tulis ukuran ruangan]. Barang yang saya simpan: [tulis kelompok bahan, kemasan, barang jadi, dan peralatan]. Alur kerja saya: [tulis urutan dari terima barang sampai barang keluar]. Susun rencana penataan: zona penyimpanan beserta alasan penempatannya, urutan rak berdasarkan frekuensi ambil, lebar jalur yang harus tersisa, penandaan lokasi yang bisa dibuat sendiri, dan aturan satu barang satu tempat. Sajikan sebagai daftar tindakan yang bisa saya kerjakan dalam satu akhir pekan beserta urutan dan bahan yang dibeli. Akhiri dengan tiga kebiasaan yang membuat tata letak kembali berantakan dan cara mencegahnya.",
+          "ukuran ruangan, kelompok barang, alur kerja",
+          "rencana penataan akhir pekan beserta pencegahan kekacauan ulang."
+        ],
+        [
+          "P-123",
+          "14. Operasional, stok, dan sumber daya manusia",
+          "Menyusun jadwal produksi harian yang realistis",
+          "janji tenggat Anda sering meleset karena antrean kerja tidak dihitung.",
+          "Anda perencana produksi untuk usaha dengan [tulis jumlah] pekerja. Pekerjaan yang harus saya selesaikan hari ini: [tulis daftar beserta perkiraan menit tiap pekerjaan]. Kapasitas tersedia: [tulis jam kerja tiap orang dan jam mesin kalau ada]. Susun jadwal jam per jam dalam tabel: waktu, orang, pekerjaan, hasil yang selesai, dan penyangga. Masukkan jeda dan waktu bersih-bersih yang nyata. Tandai pekerjaan yang bisa dikerjakan paralel dan yang harus menunggu. Kalau total pekerjaan melebihi kapasitas, tunjukkan berapa yang harus digeser ke besok beserta akibat tenggatnya, dan minta saya memutuskan mana yang dikorbankan.",
+          "jumlah pekerja, daftar pekerjaan, kapasitas",
+          "jadwal jam per jam dengan keputusan penggeseran."
+        ],
+        [
+          "P-124",
+          "14. Operasional, stok, dan sumber daya manusia",
+          "Menulis uraian pekerjaan yang jelas untuk karyawan baru",
+          "karyawan Anda bertanya terus karena tidak tahu batas tanggung jawabnya.",
+          "Anda penyusun uraian pekerjaan untuk usaha kecil dengan tim [tulis jumlah] orang. Posisi yang saya butuhkan: [tulis posisi dan pekerjaan utamanya]. Susun dokumen berisi: tujuan posisi dalam dua kalimat, enam tanggung jawab utama beserta hasil yang dinilai, wewenang memutuskan tanpa bertanya, batas wewenang beserta siapa yang bertanya, pekerjaan yang bukan tanggung jawabnya, indikator kinerja yang bisa diukur mingguan, jam kerja dan aturan pengganti, serta tiga keterampilan yang bisa dilatih dan satu yang tidak bisa dilatih. Sajikan sebagai dokumen rapi yang bisa langsung saya serahkan. Hindari kata yang tidak terukur seperti rajin, teliti, atau bertanggung jawab tanpa contoh perilaku.",
+          "jumlah tim, posisi",
+          "uraian pekerjaan dengan wewenang dan indikator terukur."
+        ],
+        [
+          "P-125",
+          "14. Operasional, stok, dan sumber daya manusia",
+          "Merancang masa percobaan 30 hari yang adil",
+          "Anda pernah merekrut dan baru tahu tidak cocok setelah tiga bulan.",
+          "Anda manajer sumber daya manusia untuk usaha kecil. Posisi: [tulis posisi]. Kriteria keberhasilan pekerjaan ini: [tulis tiga hasil yang benar-benar penting]. Susun rencana 30 hari dalam tabel: minggu, yang dipelajari, yang dikerjakan sendiri, pendamping, dan penilaian di akhir minggu beserta ambang lulus. Minggu pertama harus berisi pengenalan yang tidak membebani. Sertakan sepuluh pertanyaan yang saya ajukan di hari ketujuh dan hari ketiga puluh, tiga tanda bahaya yang membuat saya harus bicara lebih awal, dan cara menyampaikan hasil penilaian yang tetap membuat orang tahu posisinya. Akhiri dengan daftar hal yang harus saya siapkan sebelum hari pertama.",
+          "posisi, kriteria keberhasilan",
+          "rencana empat minggu dengan ambang lulus dan pertanyaan penilaian."
+        ],
+        [
+          "P-126",
+          "14. Operasional, stok, dan sumber daya manusia",
+          "Menyusun upah dan insentif yang patuh dan masuk akal",
+          "Anda ingin memberi bonus tapi takut salah hitung dan salah janji.",
+          "Anda penasihat pengupahan usaha kecil. Kondisi saya: tim [tulis jumlah] orang di {kota}, Upah Minimum regional atau sektoral yang berlaku saya belum memastikan angkanya, struktur sekarang [tulis misalnya gaji pokok saja], dan target bisnis saya [tulis]. Susun rancangan struktur penghasilan: komponen gaji pokok, tunjangan tetap, tunjangan tidak tetap, dan insentif kinerja beserta rumus perhitungannya. Untuk tiap komponen tulis alasan bisnisnya dan dampak kalau saya menurunkannya. Sertakan daftar pertanyaan yang harus saya konfirmasi ke dinas atau konsultan ketenagakerjaan beserta contoh perhitungan untuk satu karyawan dengan [tulis jam] kerja. Jangan memastikan angka regulasi sebagai fakta final.",
+          "tim, {kota}, struktur sekarang, target, jam kerja",
+          "struktur penghasilan dengan rumus dan daftar konfirmasi regulasi."
+        ],
+        [
+          "P-127",
+          "14. Operasional, stok, dan sumber daya manusia",
+          "Membuat daftar pekerjaan mingguan yang tidak boleh terlewat",
+          "ada pekerjaan penting yang baru Anda ingat saat sudah menjadi masalah.",
+          "Anda penyusun rutinitas operasional. Usaha saya {nama_usaha} bergerak di {produk} dengan [tulis jumlah] karyawan dan [tulis jumlah] pesanan per hari. Susun daftar pekerjaan rutin dalam tiga kelompok: harian memakai waktu kurang dari 15 menit, mingguan kurang dari 60 menit, dan bulanan kurang dari 4 jam. Untuk tiap butir tulis: pekerjaan, kapan dikerjakan, siapa yang bertanggung jawab, hasil yang membuktikan sudah dikerjakan, dan akibat kalau dilewatkan sekali. Akhiri dengan tujuh butir yang sebaiknya saya pindahkan ke checklist cetak di dinding dan dua butir yang bisa diotomatiskan lewat sistem kasir atau pengingat.",
+          "{nama_usaha}, {produk}, karyawan, pesanan",
+          "daftar rutin tiga kelompok beserta penanggung jawab dan bukti."
+        ],
+        [
+          "P-128",
+          "14. Operasional, stok, dan sumber daya manusia",
+          "Menangani pemasok yang sering terlambat",
+          "keterlambatan satu pemasok membuat seluruh pengiriman Anda mundur.",
+          "Anda manajer rantai pasok usaha kecil. Pemasok saya [tulis siapa] untuk {produk} seharusnya mengirim [tulis jadwal], dan dalam [tulis jumlah] bulan terakhir terlambat [tulis jumlah] kali dengan alasan [tulis alasan yang diberikan]. Dampaknya pada saya: [tulis]. Susun: analisis singkat apakah masalahnya kapasitas, mutu, atau komunikasi, tiga pertanyaan yang harus saya ajukan dalam pertemuan, dua syarat perbaikan yang bisa saya minta beserta tenggat, satu rencana cadangan termasuk pemasok alternatif dan stok penyangga beserta biayanya, dan kalimat pesan yang tegas tapi tetap menjaga hubungan untuk mengirim syarat itu. Sajikan sebagai bagian terpisah supaya bisa saya pakai langsung.",
+          "pemasok, {produk}, jadwal, riwayat, dampak",
+          "diagnosis, pertanyaan, syarat, rencana cadangan, dan pesan."
+        ],
+        [
+          "P-129",
+          "14. Operasional, stok, dan sumber daya manusia",
+          "Menghitung kapasitas maksimum sebelum kualitas turun",
+          "pesanan naik dan Anda tergoda menerima semua.",
+          "Anda analis kapasitas operasi. Data saya: [tulis jumlah] orang, jam kerja efektif per orang [tulis], waktu pengerjaan satu unit {produk} [tulis menit], tingkat cacat sekarang [tulis persen], kapasitas alat [tulis kalau ada], dan waktu pengiriman yang saya janjikan [tulis hari]. Hitung kapasitas harian dan bulanan, tunjukkan rumusnya, lalu tentukan titik di mana penambahan pesanan mulai menurunkan mutu atau melanggar tenggat. Setelah itu susun tiga pilihan ketika pesanan melewati titik itu: menolak dengan sopan, menaikkan harga, atau menambah kapasitas, beserta perhitungan untung rugi singkat tiap pilihan. Sertakan kalimat penolakan yang menjaga pelanggan tetap kembali.",
+          "tim, jam, waktu unit, cacat, alat, tenggat",
+          "kapasitas berhitung dan tiga keputusan saat kelebihan pesanan."
+        ],
+        [
+          "P-130",
+          "14. Operasional, stok, dan sumber daya manusia",
+          "Menyusun rencana suksesi pekerjaan yang menumpuk di Anda",
+          "Anda tidak bisa cuti tiga hari tanpa usaha berhenti.",
+          "Anda konsultan delegasi untuk pemilik usaha kecil. Pekerjaan yang hanya bisa saya lakukan: [tulis daftar beserta waktu per minggu]. Dari daftar itu, pilih dan susun rencana pelepasan empat tahap untuk tiga pekerjaan yang paling menyita waktu: dokumentasikan, latih dengan pendampingan, jalankan sendiri dengan pemeriksaan, lalu lepas penuh. Untuk tiap tahap tulis hasil yang harus ada, siapa yang cocok memegang, cara menilai apakah sudah layak dilepas, dan risiko yang masih tersisa. Sajikan sebagai tabel per pekerjaan. Akhiri dengan dua pekerjaan yang memang sebaiknya tetap Anda pegang beserta alasannya.",
+          "daftar pekerjaan pribadi",
+          "rencana pelepasan empat tahap beserta kriteria penilaian."
+        ],
+        [
+          "P-131",
+          "14. Operasional, stok, dan sumber daya manusia",
+          "Merancang sistem pencatatan pesanan sederhana",
+          "pesanan Anda tercatat di chat, buku, dan kepala secara bersamaan.",
+          "Anda analis proses untuk usaha kecil. Cara pesanan masuk sekarang: [tulis kanal misalnya WhatsApp, marketplace, dan tamu langsung]. Data yang saya butuhkan per pesanan: [tulis]. Alat yang saya punya: [tulis spreadsheet, aplikasi kasir, atau buku]. Susun rancangan satu alur pencatatan: status pesanan dari masuk sampai selesai beserta definisi tiap status, kolom wajib tiap pesanan, aturan penomoran, siapa yang mencatat di titik mana, cara menandai pesanan bermasalah, dan laporan apa yang otomatis bisa dibaca dari struktur itu. Sajikan sebagai tabel struktur data beserta daftar status. Akhiri dengan tiga kebiasaan yang membuat sistem sederhana kembali kacau.",
+          "kanal masuk, data dibutuhkan, alat tersedia",
+          "rancangan status, kolom wajib, dan aturan pencatatan."
+        ],
+        [
+          "P-132",
+          "14. Operasional, stok, dan sumber daya manusia",
+          "Menangani konflik antar karyawan dengan cepat",
+          "dua orang di tim Anda berhenti bicara dan pelanggan merasakannya.",
+          "Anda mediator tempat kerja untuk tim kecil. Situasi: [tulis fakta yang terlihat, tanpa vonis], melibatkan dua orang di posisi [tulis]. Dampak ke pekerjaan: [tulis]. Susun rencana: tiga pertanyaan yang saya ajukan ke masing-masing secara terpisah, cara membedakan masalah pekerjaan dan masalah pribadi, kalimat pembuka percakapan bersama yang tidak memihak, dua kesepakatan konkret yang bisa saya minta beserta cara memantau, dan tindakan kalau tidak ada perbaikan setelah dua minggu. Sertakan hal yang tidak boleh saya lakukan sebagai pemilik, misalnya memihak di depan tim. Maksimal 500 kata, bahasa Indonesia.",
+          "situasi, posisi, dampak",
+          "rencana mediasi dengan pertanyaan, kesepakatan, dan larangan."
+        ],
+        [
+          "P-133",
+          "14. Operasional, stok, dan sumber daya manusia",
+          "Menyusun daftar periksa pembukaan dan penutupan hari",
+          "setiap pagi ada saja yang terlupa dan baru ketahuan siang.",
+          "Anda penyusun daftar periksa operasional harian. Usaha saya {nama_usaha} dengan jam buka [tulis], peralatan [tulis], uang tunai [tulis], dan stok [tulis]. Susun dua daftar: pembukaan 20 menit dan penutupan 25 menit. Tiap butir berupa tindakan yang hasilnya bisa dilihat, misalnya menghitung uang dengan nominal tertentu, bukan memeriksa keuangan. Untuk tiap butir tulis cara membuktikan sudah dikerjakan dan siapa yang menanggung. Sertakan kolom tanda tangan atau inisial, dan tiga butir yang harus dilaporkan ke saya di luar jam kerja kalau gagal. Sajikan sebagai dua tabel siap cetak.",
+          "{nama_usaha}, jam, peralatan, uang, stok",
+          "dua daftar siap cetak dengan pembuktian dan penanggung jawab."
+        ],
+        [
+          "P-134",
+          "14. Operasional, stok, dan sumber daya manusia",
+          "Menentukan alat atau sistem yang perlu dibeli",
+          "banyak aplikasi menawarkan solusi dan Anda punya anggaran terbatas.",
+          "Anda penasihat teknologi usaha kecil. Pekerjaan saya yang paling menyakitkan: [tulis tiga pekerjaan beserta waktu yang terbuang per minggu]. Anggaran alat per bulan [tulis]. Tim saya [tulis jumlah] orang dengan kemampuan [tulis]. Susun: daftar kebutuhan dalam bentuk kemampuan, bukan nama aplikasi, lalu nilai tiga kategori solusi yaitu aplikasi siap pakai, modul di dalam sistem yang sudah saya punya, dan otomasi sederhana memakai spreadsheet. Untuk tiap kategori tulis biaya masuk, biaya bulanan, waktu sampai berguna, siapa yang harus merawat, dan kegagalan yang mungkin. Akhiri dengan rekomendasi satu langkah paling kecil yang hasilnya terlihat dalam dua minggu. Jangan menyebut merek tertentu sebagai keharusan.",
+          "pekerjaan menyakitkan, anggaran, tim",
+          "penilaian tiga kategori solusi dan satu langkah awal."
+        ],
+        [
+          "P-135",
+          "14. Operasional, stok, dan sumber daya manusia",
+          "Menyiapkan usaha menghadapi gangguan besar",
+          "satu kejadian seperti banjir, kebakaran kecil, atau akun dibekukan bisa menghentikan pendapatan.",
+          "Anda perancang kelangsungan usaha untuk UMKM. Usaha saya {nama_usaha} bergantung pada [tulis aset utama misalnya satu mesin, satu akun marketplace, satu gudang, dan satu pemasok]. Susun rencana menghadapi empat gangguan: kehilangan kanal penjualan utama, kehabisan stok karena pemasok berhenti, tidak bisa beroperasi di lokasi selama dua minggu, dan kehilangan data pelanggan. Untuk tiap gangguan tulis: tanda awal, tindakan dalam 24 jam, tindakan dalam 7 hari, cadangan yang harus sudah ada sebelum kejadian beserta biayanya, dan angka yang harus saya jaga seperti cadangan kas dalam bulan. Sajikan sebagai tabel. Akhiri dengan tiga cadangan yang paling sering diabaikan pemilik usaha.",
+          "{nama_usaha}, aset utama",
+          "tabel empat gangguan dengan tindakan dan biaya cadangan."
+        ],
+        [
+          "P-136",
+          "15. Analisis data dan laporan pemilik",
+          "Menulis pertanyaan analisis sebelum menyentuh data",
+          "Anda membuka laporan dan hanya melihat angka tanpa arah.",
+          "Anda analis data bisnis. Keputusan yang harus saya ambil minggu ini: [tulis keputusan]. Data yang saya punya: [tulis tabel atau kolom beserta rentang tanggal]. Susun: empat pertanyaan analisis yang jawabannya bisa mengubah keputusan itu, untuk tiap pertanyaan tulis kolom yang dipakai, cara menghitung, dan bentuk keluaran berupa angka tunggal atau tabel. Lalu tunjukkan dua pertanyaan yang tampak menarik tapi tidak bisa dijawab dengan data saya dan data tambahan apa yang diperlukan. Akhiri dengan satu pertanyaan yang paling menentukan, beserta ambang angka yang membuat saya mengambil arah berbeda. Jangan menyusun pertanyaan yang jawabannya berupa opini.",
+          "keputusan, daftar data",
+          "pertanyaan analisis dengan cara hitung dan ambang keputusan."
+        ],
+        [
+          "P-137",
+          "15. Analisis data dan laporan pemilik",
+          "Membuat rumus spreadsheet untuk ringkasan penjualan",
+          "Anda butuh laporan mingguan tanpa mengulang kerja manual.",
+          "Anda ahli spreadsheet yang menulis rumus untuk pengguna tingkat menengah. Struktur data saya di satu lembar: kolom A tanggal, B nama produk, C kategori, D unit, E nilai penjualan, F kanal, G biaya. Rentang baris 2 sampai 500. Tulis rumus untuk: penjualan per kategori dalam rentang tanggal tertentu, penjualan per kanal per bulan, rata-rata nilai pesanan, margin per baris, kontribusi persen tiap produk terhadap total, dan jumlah hari tanpa penjualan. Untuk tiap rumus tulis dalam bentuk yang bisa saya tempel memakai nama kolom bukan alamat sel absolut, jelaskan asumsi yang dipakai, dan tandai rumus yang perlu versi berbeda kalau saya memakai Google Sheets. Sajikan sebagai daftar bernomor dengan blok rumus terpisah.",
+          "struktur kolom",
+          "enam rumus siap tempel beserta asumsi dan catatan platform."
+        ],
+        [
+          "P-138",
+          "15. Analisis data dan laporan pemilik",
+          "Menulis kueri untuk laporan dari basis data pesanan",
+          "usaha Anda memakai aplikasi yang punya basis data dan Anda bisa meminta akses baca.",
+          "Anda analis data yang menulis SQL untuk laporan usaha kecil. Skema saya: tabel orders dengan kolom id, customer_id, created_at, status, subtotal, discount, final_price; tabel order_items dengan kolom id, order_id, product_id, qty, price; tabel products dengan kolom id, name, category, cost. Tulis kueri untuk: penjualan harian 30 hari terakhir, sepuluh produk terlaris berdasarkan margin bukan berdasarkan jumlah, rata-rata nilai pesanan per kanal kalau kolom kanal saya tambahkan, pelanggan yang tidak kembali setelah 60 hari, dan produk dengan perputaran stok lambat. Untuk tiap kueri beri judul, tulis dalam blok kode, jelaskan tiga baris tersulitnya, dan sebutkan indeks yang sebaiknya ada. Gunakan sintaks PostgreSQL. Jangan memakai fungsi yang tidak ada di PostgreSQL.",
+          "skema tabel",
+          "lima kueri beserta penjelasan dan saran indeks."
+        ],
+        [
+          "P-139",
+          "15. Analisis data dan laporan pemilik",
+          "Memeriksa apakah sebuah kenaikan benar-benar berarti",
+          "penjualan naik minggu ini dan Anda ingin tahu itu pola atau kebetulan.",
+          "Anda statistikawan yang menjelaskan dengan bahasa sederhana. Data penjualan harian saya 12 minggu terakhir: [tempel angka]. Rata-rata mingguan sebelumnya [tulis], dan minggu ini [tulis]. Tugas saya adalah memutuskan apakah ini kenaikan nyata. Jelaskan: berapa banyak hari dan minggu yang dibutuhkan sebelum perbedaan ini bisa dianggap bukan fluktuasi biasa, cara memeriksa dengan membandingkan ke rentang mingguan saya sendiri tanpa istilah statistik yang berat, dan tiga penjelasan alternatif selain keberhasilan promosi saya yang harus saya cek lebih dulu, misalnya satu pembeli grosir, musiman, atau pembelian berulang satu orang. Sajikan sebagai daftar dan akhiri dengan satu pertanyaan yang menentukan arah kesimpulan saya.",
+          "data harian, rata-rata pembanding",
+          "kriteria kenaikan nyata dan tiga penjelasan alternatif."
+        ],
+        [
+          "P-140",
+          "15. Analisis data dan laporan pemilik",
+          "Menyusun dasbor pemilik dalam satu layar",
+          "Anda punya banyak grafik tapi tidak melihat kesehatan usaha.",
+          "Anda perancang dasbor bisnis. Usaha saya menjual {produk} dengan {omzet_bulanan} omzet dan [tulis jumlah] karyawan. Sumber data saya: [tulis aplikasi atau spreadsheet]. Susun dasbor satu layar berisi maksimal tujuh metrik: nama metrik, definisi perhitungan yang tidak ambigu, frekuensi pembaruan, ambang hijau kuning merah beserta alasannya, dan apa yang saya lakukan saat metrik itu merah. Pilih metrik yang saling menyeimbangkan antara pertumbuhan, kas, dan mutu layanan, bukan tujuh angka penjualan. Setelah itu tulis urutan pengerjaan menyiapkan dasbor ini dalam tiga hari beserta bagian mana yang bisa memakai pencatatan manual lebih dulu.",
+          "{produk}, {omzet_bulanan}, karyawan, sumber data",
+          "tujuh metrik berambang dan rencana pembuatan tiga hari."
+        ],
+        [
+          "P-141",
+          "15. Analisis data dan laporan pemilik",
+          "Menganalisis alasan pembeli berhenti membeli",
+          "basis pelanggan Anda tumbuh tapi pembeli lama menghilang.",
+          "Anda analis perilaku pembeli. Data saya: [tempel daftar pembeli beserta tanggal beli pertama, tanggal beli terakhir, jumlah pesanan, dan total nilai]. Produk {produk} dan siklus beli wajar [tulis hari]. Tentukan: definisi pembeli yang hilang untuk usaha saya beserta alasannya, kelompok pembeli yang berhenti paling awal dan apa yang mereka beli, kelompok yang bertahan paling lama, dan selisih perilaku keduanya. Setelah itu susun tiga hipotesis penyebab dan cara mengujinya memakai data yang sudah ada sebelum saya menghubungi siapa pun. Sajikan sebagai tabel dan akhiri dengan lima pertanyaan untuk wawancara pemulihan.",
+          "data pembeli, {produk}, siklus beli",
+          "definisi berhenti, dua kelompok pembanding, dan tiga hipotesis."
+        ],
+        [
+          "P-142",
+          "15. Analisis data dan laporan pemilik",
+          "Menghitung nilai seumur hidup pelanggan yang jujur",
+          "Anda ingin tahu berapa boleh dikeluarkan untuk mendapat satu pembeli.",
+          "Anda analis kelayakan akuisisi pelanggan. Data saya: harga rata-rata per pesanan [tulis], margin [tulis persen], rata-rata jumlah pesanan per pelanggan per tahun [tulis], rata-rata pelanggan bertahan [tulis tahun], dan biaya iklan yang saya keluarkan [tulis] menghasilkan [tulis jumlah] pembeli baru. Hitung nilai seumur hidup pelanggan, biaya akuisisi saat ini, dan rasio keduanya, tunjukkan tiap langkah perhitungan. Lalu sajikan tabel tiga skenario: mempertahankan pelanggan lebih lama satu tahun, menaikkan frekuensi beli satu pesanan per tahun, dan menurunkan biaya iklan 20 persen, beserta rasio tiap skenario. Akhiri dengan angka maksimal yang boleh saya bayarkan untuk satu pembeli baru kalau saya ingin rasio minimal tiga banding satu.",
+          "nilai pesanan, margin, frekuensi, retensi, biaya iklan",
+          "hitungan nilai seumur hidup, tiga skenario, dan batas biaya akuisisi."
+        ],
+        [
+          "P-143",
+          "15. Analisis data dan laporan pemilik",
+          "Membersihkan data sebelum dianalisis",
+          "satu kolom berisi tiga format berbeda dan seluruh laporan jadi salah.",
+          "Anda pembersih data untuk berkas spreadsheet usaha kecil. Masalah data saya: [tulis kolom dan contoh nilai yang tidak konsisten]. Susun rencana pembersihan: daftar aturan normalisasi per kolom beserta contoh sebelum dan sesudah, cara menandai baris yang tidak bisa diperbaiki daripada menghapusnya, langkah pemeriksaan setelah pembersihan berupa jumlah baris dan total nilai yang harus tetap sama, dan aturan pencatatan perubahan supaya bulan depan saya tahu apa yang saya lakukan. Sajikan sebagai tabel aturan per kolom. Akhiri dengan tiga kebiasaan input yang menyebabkan kekacauan ini dan cara mencegahnya lewat format sel atau daftar pilihan.",
+          "kolom dan contoh nilai bermasalah",
+          "aturan normalisasi, pemeriksaan, dan pencegahan input."
+        ],
+        [
+          "P-144",
+          "15. Analisis data dan laporan pemilik",
+          "Membuat grafik yang tidak menyesatkan",
+          "laporan Anda akan dibaca karyawan atau calon mitra dan sumbunya bisa menipu.",
+          "Anda perancang visualisasi data untuk pembaca non-teknis. Data saya: [tempel angka]. Pesan yang ingin saya sampaikan: [tulis]. Susun spesifikasi grafik: jenis grafik yang paling jujur untuk pesan ini beserta alasan menolak dua alternatif, rentang sumbu dan alasannya dimulai dari nol atau tidak, jumlah kategori maksimal supaya tidak penuh, warna yang membedakan tanpa menekankan yang salah, judul yang menyatakan kesimpulan bukan topik, dan catatan kaki tentang data yang hilang. Setelah itu tulis tiga cara grafik ini bisa dibaca keliru dan apa yang saya ubah untuk mencegahnya. Jangan menyarankan grafik tiga dimensi atau grafik lingkaran dengan lebih dari lima kategori.",
+          "angka, pesan",
+          "spesifikasi grafik beserta tiga risiko pembacaan keliru."
+        ],
+        [
+          "P-145",
+          "15. Analisis data dan laporan pemilik",
+          "Menganalisis produk mana yang menahan pertumbuhan",
+          "katalog Anda melebar tapi laba tidak bergerak.",
+          "Anda analis portofolio produk. Data per produk: [tempel nama, unit terjual, harga, biaya, dan stok]. Tugas saya adalah memutuskan mana yang dipertahankan. Klasifikasikan tiap produk ke empat kelompok: mesin laba, penarik pembeli yang marginnya tipis, pelengkap yang menaikkan nilai pesanan, dan penahan pertumbuhan. Untuk tiap kelompok tulis ciri angkanya, tindakan yang benar, dan produk yang perlu saya tanyakan datanya karena bukti belum cukup. Sajikan sebagai tabel per produk beserta kelompok dan tindakan. Akhiri dengan dua pertanyaan analisis yang harus saya jawab sebelum menghentikan satu produk apa pun.",
+          "data per produk",
+          "klasifikasi empat kelompok dengan tindakan per produk."
+        ],
+        [
+          "P-146",
+          "15. Analisis data dan laporan pemilik",
+          "Menyusun laporan bulanan untuk dibaca orang lain",
+          "mitra, bank, atau investor kecil minta laporan dan format Anda berubah tiap bulan.",
+          "Anda penulis laporan bisnis. Data bulanan saya: [tempel angka utama beserta pembanding bulan lalu dan tahun lalu bila ada]. Susun laporan satu halaman dengan bagian: ringkasan empat kalimat yang menyebut angka paling penting di kalimat pertama, apa yang berjalan sesuai rencana beserta buktinya, apa yang meleset beserta penyebab yang bisa diverifikasi, tiga keputusan yang saya ambil bulan depan beserta angka sasarannya, dan permintaan dukungan kalau ada. Tulis untuk pembaca yang tidak tahu detail usaha saya. Maksimal 450 kata, tanpa istilah yang tidak dijelaskan, tanpa klaim yang angkanya tidak ada di data saya.",
+          "angka bulanan",
+          "laporan satu halaman dengan keputusan dan sasaran."
+        ],
+        [
+          "P-147",
+          "15. Analisis data dan laporan pemilik",
+          "Menguji dugaan penyebab dengan data sendiri",
+          "Anda yakin penyebabnya satu hal dan bisa jadi salah.",
+          "Anda penguji hipotesis memakai data operasional. Dugaan saya: [tulis dugaan]. Data yang tersedia: [tulis tabel dan kolom beserta rentang]. Susun: tiga cara menguji dugaan ini dengan data yang ada, untuk tiap cara tulis kelompok pembanding yang dipakai, angka yang dibandingkan, dan hasil seperti apa yang mendukung atau membantah dugaan saya. Lalu tunjukkan dua kekeliruan penalaran yang paling mungkin saya lakukan, misalnya menyamakan korelasi dengan sebab atau membandingkan periode yang tidak sebanding, beserta cara menghindarinya. Kalau data tidak cukup, sebutkan data tambahan yang harus saya kumpulkan dan berapa lama.",
+          "dugaan, ketersediaan data",
+          "tiga rancangan uji dan dua kekeliruan yang dihindari."
+        ],
+        [
+          "P-148",
+          "15. Analisis data dan laporan pemilik",
+          "Menyusun daftar pertanyaan untuk akuntan atau konsultan",
+          "Anda akan membayar jasa profesional dan ingin waktunya tidak terbuang.",
+          "Anda asisten persiapan pertemuan profesional. Situasi usaha saya: {nama_usaha} menjual {produk} dengan {omzet_bulanan} omzet, [tulis jumlah] karyawan, alat pencatatan [tulis], dan isu yang saya hadapi [tulis]. Susun: berkas yang harus saya siapkan beserta formatnya, dua puluh pertanyaan yang diurutkan dari yang paling menentukan keputusan, tiga pertanyaan yang sebaiknya tidak saya ajukan lebih dulu karena jawabannya bergantung pada data yang belum rapi, dan ringkasan satu paragraf tentang usaha saya yang bisa saya kirim sebelum pertemuan agar konsultan tidak memulai dari nol. Sajikan sebagai tiga bagian terpisah. Bahasa Indonesia, tanpa istilah akuntansi tanpa penjelasan.",
+          "{nama_usaha}, {produk}, {omzet_bulanan}, karyawan, alat, isu",
+          "daftar berkas, pertanyaan terurut, dan ringkasan pra-pertemuan."
+        ],
+        [
+          "P-149",
+          "15. Analisis data dan laporan pemilik",
+          "Membuat aturan peringatan dini otomatis",
+          "masalah selalu ketahuan setelah biayanya besar.",
+          "Anda perancang sistem peringatan dini usaha kecil. Metrik yang saya catat: [tulis metrik beserta frekuensi dan sumbernya]. Susun delapan aturan peringatan: nama aturan, perhitungan pemicunya, ambang angka beserta cara menentuknya dari data saya sendiri bukan angka umum, frekuensi pemeriksaan, kanal pemberitahuan, dan tindakan wajib dalam 24 jam setelah peringatan muncul. Utamakan peringatan yang membandingkan kondisi terkini dengan riwayat saya sendiri. Sajikan sebagai tabel dan akhiri dengan tiga aturan yang paling mudah memicu kepanikan palsu beserta cara menyaringnya.",
+          "daftar metrik",
+          "delapan aturan peringatan dengan tindakan dan penyaring."
+        ],
+        [
+          "P-150",
+          "15. Analisis data dan laporan pemilik",
+          "Menutup tahun dengan tinjauan yang mengubah keputusan",
+          "Anda perlu memutuskan apa yang dilanjutkan tahun depan.",
+          "Anda pemimpin tinjauan tahunan untuk pemilik usaha kecil. Data saya dua belas bulan: [tempel angka bulanan utama]. Susun tinjauan dalam empat bagian: angka yang membaik dan memburuk beserta pembandingnya, tiga keputusan saya tahun ini yang ternyata benar beserta bukti, tiga keputusan yang salah beserta apa yang menyebabkan saya salah melihat, dan empat hal yang akan saya lakukan berbeda dengan urutan beserta satu hal yang saya hentikan total. Maksimal 600 kata, ditulis untuk diri saya sendiri satu tahun ke depan, tanpa basa-basi dan tanpa kalimat penyemangat. Kalau data saya tidak cukup untuk menyimpulkan satu bagian, sebutkan bagian mana dan data apa yang perlu saya catat mulai bulan depan. Anda [peran yang sesuai, misalnya analis harga atau penulis iklan]. Usaha saya [nama usaha] menjual [produk] dengan harga [angka] dan biaya [angka], berlokasi di [kota], dijual lewat [kanal]. Kondisi saat ini: [fakta berupa angka atau kejadian]. Tugas Anda: [satu kata kerja dan satu hasil]. Sajikan sebagai [bentuk keluaran, misalnya tabel lima kolom dengan judul tertentu]. Batasan: [panjang maksimal, bahasa, hal yang dilarang, dan data yang tidak boleh dikarang]. Kalau ada angka yang Anda butuhkan tapi tidak saya berikan, tanyakan sebelum menjawab.",
+          "data dua belas bulan",
+          "tinjauan empat bagian dengan keputusan berhenti dan lanjut."
+        ]
+      ]
+    },
+    {
+      "name": "Indeks Bab",
+      "headers": [
+        "Bab",
+        "Jumlah Prompt",
+        "Kode"
+      ],
+      "rows": [
+        [
+          "6. Riset pasar dan kompetitor",
+          15,
+          "P-001, P-002, P-003, P-004, P-005, P-006, P-007, P-008, P-009, P-010, P-011, P-012, P-013, P-014, P-015"
+        ],
+        [
+          "7. Produk dan pengembangan",
+          15,
+          "P-016, P-017, P-018, P-019, P-020, P-021, P-022, P-023, P-024, P-025, P-026, P-027, P-028, P-029, P-030"
+        ],
+        [
+          "8. Harga, penawaran, dan promo",
+          15,
+          "P-031, P-032, P-033, P-034, P-035, P-036, P-037, P-038, P-039, P-040, P-041, P-042, P-043, P-044, P-045"
+        ],
+        [
+          "9. Copywriting iklan dan halaman penjualan",
+          15,
+          "P-046, P-047, P-048, P-049, P-050, P-051, P-052, P-053, P-054, P-055, P-056, P-057, P-058, P-059, P-060"
+        ],
+        [
+          "10. Konten media sosial dan video pendek",
+          15,
+          "P-061, P-062, P-063, P-064, P-065, P-066, P-067, P-068, P-069, P-070, P-071, P-072, P-073, P-074, P-075"
+        ],
+        [
+          "11. Penjualan, tindak lanjut, dan negosiasi",
+          15,
+          "P-076, P-077, P-078, P-079, P-080, P-081, P-082, P-083, P-084, P-085, P-086, P-087, P-088, P-089, P-090"
+        ],
+        [
+          "12. Layanan pelanggan dan komunitas",
+          15,
+          "P-091, P-092, P-093, P-094, P-095, P-096, P-097, P-098, P-099, P-100, P-101, P-102, P-103, P-104, P-105"
+        ],
+        [
+          "13. Pembukuan, arus kas, dan pajak UMKM",
+          15,
+          "P-106, P-107, P-108, P-109, P-110, P-111, P-112, P-113, P-114, P-115, P-116, P-117, P-118, P-119, P-120"
+        ],
+        [
+          "14. Operasional, stok, dan sumber daya manusia",
+          15,
+          "P-121, P-122, P-123, P-124, P-125, P-126, P-127, P-128, P-129, P-130, P-131, P-132, P-133, P-134, P-135"
+        ],
+        [
+          "15. Analisis data dan laporan pemilik",
+          15,
+          "P-136, P-137, P-138, P-139, P-140, P-141, P-142, P-143, P-144, P-145, P-146, P-147, P-148, P-149, P-150"
+        ]
+      ]
+    },
+    {
+      "name": "Variabel",
+      "headers": [
+        "Variabel",
+        "Arti",
+        "Contoh"
+      ],
+      "rows": [
+        [
+          "{nama_usaha}",
+          "Nama merek atau badan usaha",
+          "Dapur Raisa"
+        ],
+        [
+          "{produk}",
+          "Produk atau layanan utama",
+          "Nasi karamel ayam crispy"
+        ],
+        [
+          "{produk_baru}",
+          "Kandidat produk yang sedang dipertimbangkan",
+          "Rice bowl frozen"
+        ],
+        [
+          "{harga_jual}",
+          "Harga ke pembeli akhir per unit",
+          "Rp 28.000"
+        ],
+        [
+          "{modal_unit}",
+          "Biaya penuh untuk satu unit",
+          "Rp 15.400"
+        ],
+        [
+          "{omzet_bulanan}",
+          "Rata-rata pendapatan per bulan",
+          "Rp 42.000.000"
+        ],
+        [
+          "{jumlah_produksi}",
+          "Unit yang diproduksi per bulan",
+          "1.500"
+        ],
+        [
+          "{jumlah_pelanggan}",
+          "Pelanggan aktif",
+          "320"
+        ],
+        [
+          "{jumlah_kompetitor}",
+          "Jumlah penjual yang datanya Anda catat",
+          "7"
+        ],
+        [
+          "{kota}",
+          "Lokasi usaha dan pengiriman utama",
+          "Semarang"
+        ],
+        [
+          "{kanal}",
+          "Tempat penjualan atau promosi berlangsung",
+          "WhatsApp, Shopee, TikTok Shop"
+        ],
+        [
+          "{target}",
+          "Sasaran yang ingin dicapai beserta batas waktu",
+          "Naik 25 persen dalam 3 bulan"
+        ],
+        [
+          "{musim}",
+          "Momen yang sedang dihadapi",
+          "Ramadhan, tahun ajaran baru"
+        ]
+      ]
+    },
+    {
+      "name": "Pelacak",
+      "headers": [
+        "Tanggal",
+        "Kode Prompt",
+        "Alat",
+        "Konteks yang Diisi",
+        "Hasil dan Pemakaiannya",
+        "Catatan Perbaikan"
+      ],
+      "rows": [
+        [
+          "2026-10-22",
+          "P-031",
+          "ChatGPT",
+          "Toko kue rumahan, Bandung, omzet Rp 18.000.000",
+          "Dipakai untuk batas biaya iklan November",
+          "Hasil terlalu panjang, tambah batas 250 kata di versi berikutnya"
+        ]
+      ]
+    }
+  ]
+}
