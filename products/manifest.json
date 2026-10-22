@@ -21,28 +21,34 @@
       "status": "produced"
     },
     {
-      "slug": "300-prompt-copywriting-iklan",
-      "title": "300 Prompt AI untuk Copywriting dan Iklan Digital",
+      "slug": "300-prompt-copywriting-basic",
+      "title": "300 Prompt AI untuk Copywriting dan Iklan Digital [BASIC]",
+      "tier": "basic",
+      "pricing": {
+        "normal": 49000,
+        "launch": 19000,
+        "flash": 10000
+      },
       "outputs": [
         {
-          "file": "products\\300-prompt-copywriting-iklan.pdf",
+          "file": "products\\300-prompt-copywriting-basic-basic.pdf",
           "kind": "pdf",
-          "bytes": 2637793
+          "bytes": 3005003
         },
         {
-          "file": "products\\300-prompt-copywriting-iklan.xlsx",
-          "kind": "excel",
-          "bytes": 61894
+          "file": "products\\300-prompt-copywriting-basic-basic-flyer.pdf",
+          "kind": "flyer",
+          "bytes": 1032262
         }
       ],
       "wordCount": 36690,
-      "pages": 243,
-      "producedAt": "2026-10-22T16:24:45.782Z",
+      "pages": 217,
+      "producedAt": "2026-10-22T17:14:21.272Z",
       "status": "produced"
     },
     {
-      "slug": "300-prompt-copywriting-premium-sample-premium",
-      "title": "300 Prompt AI untuk Copywriting dan Iklan Digital - PREMIUM [PREMIUM]",
+      "slug": "300-prompt-copywriting-premium",
+      "title": "300 Prompt AI untuk Copywriting dan Iklan Digital [PREMIUM]",
       "tier": "premium",
       "pricing": {
         "normal": 149000,
@@ -51,40 +57,45 @@
       },
       "outputs": [
         {
-          "file": "products\\300-prompt-copywriting-premium-sample-premium.pdf",
+          "file": "products\\300-prompt-copywriting-premium-premium.pdf",
           "kind": "pdf",
-          "bytes": 201391
-        }
-      ],
-      "wordCount": 1170,
-      "pages": 7,
-      "producedAt": "2026-10-22T17:01:25.908Z",
-      "status": "produced"
-    },
-    {
-      "slug": "test-product-premium",
-      "title": "300 Prompt AI untuk Copywriting dan Iklan Digital - PREMIUM [PREMIUM]",
-      "tier": "premium",
-      "pricing": {
-        "normal": 149000,
-        "launch": 69000,
-        "flash": 49000
-      },
-      "outputs": [
-        {
-          "file": "products\\test-product-premium.pdf",
-          "kind": "pdf",
-          "bytes": 279848
+          "bytes": 1345790
         },
         {
-          "file": "products\\test-product-premium-flyer.pdf",
+          "file": "products\\300-prompt-copywriting-premium-premium-flyer.pdf",
           "kind": "flyer",
-          "bytes": 1035527
+          "bytes": 1163488
         }
       ],
-      "wordCount": 1170,
-      "pages": 7,
-      "producedAt": "2026-10-22T17:02:44.028Z",
+      "wordCount": 11892,
+      "pages": 64,
+      "producedAt": "2026-10-22T17:13:50.321Z",
+      "status": "produced"
+    },
+    {
+      "slug": "300-prompt-copywriting-ultimate",
+      "title": "300 Prompt AI untuk Copywriting dan Iklan Digital [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\300-prompt-copywriting-ultimate-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 776766
+        },
+        {
+          "file": "products\\300-prompt-copywriting-ultimate-ultimate-flyer.pdf",
+          "kind": "flyer",
+          "bytes": 1164771
+        }
+      ],
+      "wordCount": 9271,
+      "pages": 56,
+      "producedAt": "2026-10-22T17:19:26.180Z",
       "status": "produced"
     }
   ]
