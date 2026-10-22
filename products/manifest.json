@@ -39,12 +39,12 @@
         {
           "file": "products\\150-prompt-umkm-premium-premium.pdf",
           "kind": "pdf",
-          "bytes": 403784
+          "bytes": 1734627
         },
         {
           "file": "products\\150-prompt-umkm-premium-premium.xlsx",
           "kind": "excel",
-          "bytes": 53396
+          "bytes": 53395
         },
         {
           "file": "products\\150-prompt-umkm-premium-premium-flyer.pdf",
@@ -52,9 +52,9 @@
           "bytes": 1035247
         }
       ],
-      "wordCount": 3814,
-      "pages": 18,
-      "producedAt": "2026-10-22T18:17:44.400Z",
+      "wordCount": 25474,
+      "pages": 84,
+      "producedAt": "2026-10-22T18:38:44.085Z",
       "status": "produced"
     },
     {
@@ -70,7 +70,7 @@
         {
           "file": "products\\150-prompt-umkm-ultimate-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 413549
+          "bytes": 1545918
         },
         {
           "file": "products\\150-prompt-umkm-ultimate-ultimate.xlsx",
@@ -83,9 +83,9 @@
           "bytes": 1034970
         }
       ],
-      "wordCount": 4217,
-      "pages": 30,
-      "producedAt": "2026-10-22T18:17:58.420Z",
+      "wordCount": 25520,
+      "pages": 80,
+      "producedAt": "2026-10-22T18:39:00.455Z",
       "status": "produced"
     },
     {
@@ -116,7 +116,7 @@
     },
     {
       "slug": "300-prompt-copywriting-premium-premium",
-      "title": "300 Prompt AI untuk Copywriting dan Iklan Digital - PREMIUM [PREMIUM]",
+      "title": "300 Prompt AI untuk Copywriting dan Iklan Digital [PREMIUM]",
       "tier": "premium",
       "pricing": {
         "normal": 149000,
@@ -127,22 +127,22 @@
         {
           "file": "products\\300-prompt-copywriting-premium-premium.pdf",
           "kind": "pdf",
-          "bytes": 1104385
+          "bytes": 2926493
         },
         {
           "file": "products\\300-prompt-copywriting-premium-premium.xlsx",
           "kind": "excel",
-          "bytes": 61893
+          "bytes": 61894
         },
         {
           "file": "products\\300-prompt-copywriting-premium-premium-flyer.pdf",
           "kind": "flyer",
-          "bytes": 1035527
+          "bytes": 1035088
         }
       ],
-      "wordCount": 11892,
-      "pages": 58,
-      "producedAt": "2026-10-22T18:17:17.474Z",
+      "wordCount": 39277,
+      "pages": 202,
+      "producedAt": "2026-10-22T18:35:18.029Z",
       "status": "produced"
     },
     {
@@ -158,12 +158,12 @@
         {
           "file": "products\\300-prompt-copywriting-ultimate-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 768457
+          "bytes": 3069425
         },
         {
           "file": "products\\300-prompt-copywriting-ultimate-ultimate.xlsx",
           "kind": "excel",
-          "bytes": 61894
+          "bytes": 61893
         },
         {
           "file": "products\\300-prompt-copywriting-ultimate-ultimate-flyer.pdf",
@@ -171,9 +171,9 @@
           "bytes": 1034906
         }
       ],
-      "wordCount": 9271,
-      "pages": 51,
-      "producedAt": "2026-10-22T18:17:30.918Z",
+      "wordCount": 41489,
+      "pages": 215,
+      "producedAt": "2026-10-22T18:37:03.863Z",
       "status": "produced"
     },
     {
@@ -215,12 +215,12 @@
         {
           "file": "products\\200-template-sosmed-premium-premium.pdf",
           "kind": "pdf",
-          "bytes": 494213
+          "bytes": 453010
         },
         {
           "file": "products\\200-template-sosmed-premium-premium.xlsx",
           "kind": "excel",
-          "bytes": 18960
+          "bytes": 18959
         },
         {
           "file": "products\\200-template-sosmed-premium-premium-flyer.pdf",
@@ -228,9 +228,9 @@
           "bytes": 1034941
         }
       ],
-      "wordCount": 4599,
-      "pages": 20,
-      "producedAt": "2026-10-22T18:19:07.203Z",
+      "wordCount": 4157,
+      "pages": 23,
+      "producedAt": "2026-10-22T18:39:15.791Z",
       "status": "produced"
     },
     {
@@ -246,7 +246,7 @@
         {
           "file": "products\\200-template-sosmed-ultimate-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 359361
+          "bytes": 456026
         },
         {
           "file": "products\\200-template-sosmed-ultimate-ultimate.xlsx",
@@ -259,9 +259,9 @@
           "bytes": 1034742
         }
       ],
-      "wordCount": 3849,
-      "pages": 28,
-      "producedAt": "2026-10-22T18:19:21.120Z",
+      "wordCount": 4214,
+      "pages": 23,
+      "producedAt": "2026-10-22T18:39:30.450Z",
       "status": "produced"
     }
   ]
