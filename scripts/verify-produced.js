@@ -4,15 +4,15 @@ const path = require('path');
 const { PDFParse } = require('pdf-parse');
 
 const PRODUCTS = [
-  ['150-prompt-umkm-basic-basic.pdf', 150, /P-\d{3}/g],
-  ['150-prompt-umkm-premium-premium.pdf', 150, /P-\d{3}/g],
-  ['150-prompt-umkm-ultimate-ultimate.pdf', 150, /P-\d{3}/g],
-  ['300-prompt-copywriting-basic-basic.pdf', 300, /P-\d{3}/g],
-  ['300-prompt-copywriting-premium-premium.pdf', 300, /P-\d{3}/g],
-  ['300-prompt-copywriting-ultimate-ultimate.pdf', 300, /P-\d{3}/g],
-  ['200-template-sosmed-basic-basic.pdf', 200, /T-\d{3}/g],
-  ['200-template-sosmed-premium-premium.pdf', 200, /T-\d{3}/g],
-  ['200-template-sosmed-ultimate-ultimate.pdf', 200, /T-\d{3}/g],
+  ['150-prompt-umkm-basic-basic.pdf', 150, /P-\d{3}/g, 0],
+  ['150-prompt-umkm-premium-premium.pdf', 150, /P-\d{3}/g, 20],
+  ['150-prompt-umkm-ultimate-ultimate.pdf', 150, /P-\d{3}/g, 20],
+  ['300-prompt-copywriting-basic-basic.pdf', 300, /P-\d{3}/g, 0],
+  ['300-prompt-copywriting-premium-premium.pdf', 300, /P-\d{3}/g, 12],
+  ['300-prompt-copywriting-ultimate-ultimate.pdf', 300, /P-\d{3}/g, 12],
+  ['200-template-sosmed-basic-basic.pdf', 200, /T-\d{3}/g, 0],
+  ['200-template-sosmed-premium-premium.pdf', 200, /T-\d{3}/g, 15],
+  ['200-template-sosmed-ultimate-ultimate.pdf', 200, /T-\d{3}/g, 15],
 ];
 
 const ENGLISH_TELLS = [
@@ -26,7 +26,7 @@ const ENGLISH_TELLS = [
 
 (async () => {
   let failures = 0;
-  for (const [file, expected, counter] of PRODUCTS) {
+  for (const [file, expected, counter, expectedDemos] of PRODUCTS) {
     const p = path.join(__dirname, '..', 'products', file);
     const buf = fs.readFileSync(p);
     const parser = new PDFParse({ data: new Uint8Array(buf) });
@@ -37,6 +37,7 @@ const ENGLISH_TELLS = [
     const codes = new Set();
     let m;
     while ((m = counter.exec(text)) !== null) codes.add(m[0]);
+    const demoCount = (text.match(/\(Contoh\s+Output\)/g) || []).length;
 
     const problems = [];
     for (const tell of ENGLISH_TELLS) {
@@ -45,9 +46,12 @@ const ENGLISH_TELLS = [
     if (codes.size < expected) {
       problems.push(`only ${codes.size}/${expected} unique codes`);
     }
+    if (demoCount !== expectedDemos) {
+      problems.push(`demo markers ${demoCount}/${expectedDemos}`);
+    }
     const status = problems.length === 0 ? 'OK' : 'FAIL';
     if (problems.length) failures++;
-    console.log(`${status}  ${file}  pages=${doc.numpages} codes=${codes.size}/${expected}${problems.length ? '  ' + problems.join('; ') : ''}`);
+    console.log(`${status}  ${file}  pages=${doc.numpages} codes=${codes.size}/${expected} demos=${demoCount}${problems.length ? '  ' + problems.join('; ') : ''}`);
   }
   process.exit(failures ? 1 : 0);
 })();

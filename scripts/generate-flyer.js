@@ -30,56 +30,69 @@ function getTierBadge(tier) {
   return badges[tier] || badges.basic;
 }
 
+function getProductShape(title) {
+  const match = title.match(/(\d+)\s+(Prompt|Template)/i);
+  const n = match ? Number(match[1]) : null;
+  const kind = match ? match[2] : 'Prompt';
+  return { n, kind };
+}
+
 function getTierBenefits(tier, title) {
+  const { n, kind } = getProductShape(title);
+  const kindLower = kind.toLowerCase();
   const benefits = {
     basic: [
-      'Hemat 100+ jam brainstorming prompt dari nol',
-      'Prompt teruji dan terbukti efektif untuk berbagai kebutuhan',
+      `${n} ${kindLower} siap pakai yang teruji untuk kebutuhan usaha nyata`,
+      'Hemat 100+ jam brainstorming dari nol',
       'Cocok untuk pemula maupun profesional',
       'Update gratis selamanya',
     ],
     premium: [
       'Semua keuntungan Basic, plus:',
-      '300 contoh output nyata dari ChatGPT dan Gemini',
-      'Panduan penggunaan spesifik per platform AI',
-      'Workbook Excel interaktif untuk tracking progress',
-      'Template siap copy-paste untuk berbagai skenario',
+      `Contoh output nyata dari ChatGPT dan Gemini untuk ${kindLower} kunci di tiap bagian`,
+      'Perbandingan hasil ChatGPT vs Gemini beserta kapan masing-masing lebih unggul',
+      'Workbook Excel pendamping untuk mencatat pemakaian dan hasil',
+      'Glossary variabel baku agar hasil AI tetap konsisten',
     ],
     ultimate: [
       'Semua keuntungan Premium, plus:',
-      'Screenshot tutorial step-by-step dari 3 platform AI',
-      'Panduan automasi lengkap (Make.com, Zapier, n8n)',
-      'Video tutorial via QR code untuk setiap bab',
-      'Bonus: Template library dan swipe file eksklusif',
-      'Akses komunitas private untuk diskusi dan update',
+      'Panduan otomasi langkah demi langkah dari input sampai konten jadi',
+      'Studi kasus bisnis kecil yang sudah menerapkan alurnya',
+      'Template kode integrasi khusus (Node.js, Python, PHP)',
+      'Checklist implementasi dan panduan troubleshooting sebelum dipakai rutin',
     ],
   };
   return benefits[tier] || benefits.basic;
 }
 
-function getTierWhatsInside(tier) {
+function getTierWhatsInside(tier, title) {
+  const { n, kind } = getProductShape(title);
+  const kindLower = kind.toLowerCase();
+  const workflowClaim = /Copywriting|Iklan/i.test(title)
+    ? '10 workflow otomasi konten dengan Make.com, Zapier, dan n8n'
+    : /Template|Social Media/i.test(title)
+      ? '10 workflow otomasi media sosial dari bank caption sampai laporan performa'
+      : '10 workflow otomasi pekerjaan bisnis harian berbasis Google Sheets';
   const contents = {
     basic: [
-      '300 prompt AI siap pakai, terorganisir per kategori',
-      'Glossary variabel prompt untuk kustomisasi mudah',
-      'Quick reference card untuk akses cepat',
+      `${n} ${kindLower} AI siap pakai, terorganisir per kategori`,
+      'Glossary variabel baku untuk kustomisasi mudah',
+      'Checklist mutu sebelum dipakai di depan pelanggan',
       'Format PDF yang bisa dibaca di semua device',
     ],
     premium: [
       'Semua yang ada di Basic, plus:',
-      '300 contoh output nyata (bukan placeholder)',
-      'Perbandingan hasil ChatGPT vs Gemini per prompt',
-      'Workbook Excel dengan 4 sheet: Library, Indeks, Variabel, Pelacak',
-      'Tips optimasi prompt untuk hasil maksimal',
+      'Contoh output nyata (bukan placeholder)',
+      'Perbandingan hasil ChatGPT vs Gemini per contoh',
+      'Workbook Excel pendamping dengan sheet kerja siap isi',
+      'Tips memilih hasil terbaik untuk disalin ke pelanggan',
     ],
     ultimate: [
       'Semua yang ada di Premium, plus:',
-      'Screenshot real dari ChatGPT, Gemini, dan Claude',
-      '5 workflow Make.com siap import',
-      '5 workflow Zapier siap import',
-      '3 workflow n8n untuk self-hosted automation',
-      'Contoh kode Node.js dan Python untuk custom integration',
-      '50 prompt bonus eksklusif yang tidak ada di tier lain',
+      workflowClaim,
+      'Studi kasus penerapan pada bisnis kecil nyata',
+      'Template kode Node.js, Python, dan PHP untuk integrasi khusus',
+      'Checklist implementasi otomasi dari nol sampai berjalan',
     ],
   };
   return contents[tier] || contents.basic;
@@ -90,7 +103,7 @@ class FlyerGenerator {
     const { title, tier, pricing, slug } = config;
     const badge = getTierBadge(tier);
     const benefits = getTierBenefits(tier, title);
-    const whatsInside = getTierWhatsInside(tier);
+    const whatsInside = getTierWhatsInside(tier, title);
     const savingsPercent = Math.round((1 - pricing.launch / pricing.normal) * 100);
 
     const puppeteer = require('puppeteer');
@@ -99,6 +112,12 @@ class FlyerGenerator {
 
     const html = this.renderHTML({ title, tier, badge, benefits, whatsInside, pricing, savingsPercent, slug });
     await page.setContent(html, { waitUntil: 'domcontentloaded' });
+    try {
+      await page.waitForNetworkIdle({ idleTime: 500, timeout: 8000 });
+    } catch {
+      // offline or slow CDN: proceed with the system font stack
+    }
+    await page.evaluateHandle('document.fonts.ready');
 
     const pdfBuffer = await page.pdf({
       format: 'A4',
@@ -409,14 +428,14 @@ class FlyerGenerator {
 
   <div class="hero">
     <h1>${title}</h1>
-    <p class="subheadline">Kumpulan prompt AI teruji untuk hasil maksimal dalam waktu minimal</p>
+    <p class="subheadline">Kumpulan ${getProductShape(title).kind.toLowerCase()} AI teruji untuk hasil maksimal dalam waktu minimal</p>
   </div>
 
   <div class="pain-points">
     <h2>Apakah Anda mengalami ini?</h2>
     <ul>
       <li>Bingung harus ngetik apa di ChatGPT untuk dapat hasil yang bagus</li>
-      <li>Sudah coba berbagai prompt tapi hasilnya selalu kurang memuaskan</li>
+      <li>Sudah coba berbagai ${getProductShape(title).kind.toLowerCase()} tapi hasilnya selalu kurang memuaskan</li>
       <li>Butuh berjam-jam hanya untuk membuat satu konten yang berkualitas</li>
     </ul>
   </div>
@@ -454,7 +473,7 @@ class FlyerGenerator {
   </div>
 
   <div class="social-proof">
-    <p>"Sudah membantu 500+ creator dan pelaku UMKM Indonesia menghasilkan konten berkualitas dengan AI"</p>
+    <p>Diproduksi langsung oleh tim SNISHOP: semua contoh nyata, tanpa placeholder, dan sudah diperiksa baris demi baris sebelum rilis.</p>
   </div>
 
   <div class="cta-section">

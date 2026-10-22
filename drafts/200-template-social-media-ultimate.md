@@ -871,7 +871,7 @@ Hasil yang diharapkan:
 
 Berikut contoh output nyata dari ChatGPT dan Gemini untuk tiga template kunci di bagian perencanaan.
 
-### T-001. Kalender Konten Bulanan
+### T-001. Kalender Konten Bulanan (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: keripik singkong balado, platform Instagram dan TikTok, posting 4 kali per minggu, goal bulan ini awareness di kota Bandung, pillar: edukasi singkong, dapur produksi, promo, dan pelanggan.
@@ -944,7 +944,7 @@ Prinsip jadwal ini: satu konten edukasi yang layak disimpan, satu konten dapur y
 
 ---
 
-### T-004. Analisis Kompetitor
+### T-004. Analisis Kompetitor (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: katering sehat mingguan di Jakarta Selatan. Kompetitor yang diamati: katering A (harga 45 ribu per box, paling besar di area), katering B (harga 38 ribu, fokus mahasiswa), katering C (harga 60 ribu, premium, dikirim dingin).
@@ -1002,7 +1002,7 @@ Saran diferensiasi: posisikan bisnis Anda sebagai katering mingguan yang jujur s
 
 ---
 
-### T-009. Perencana Daur Ulang Konten
+### T-009. Perencana Daur Ulang Konten (Contoh Output)
 
 **Input yang dipakai:**
 Konten asal: video reel dapur produksi keripik singkong durasi 60 detik yang performanya bagus, 12 ribu views.
@@ -1870,7 +1870,7 @@ Hasil yang diharapkan:
 
 Berikut contoh output nyata dari ChatGPT dan Gemini untuk tiga template kunci penulisan caption.
 
-### T-043. Naskah TikTok yang Berpotensi Viral
+### T-043. Naskah TikTok yang Berpotensi Viral (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: laundry kiloan premium di Yogyakarta. Hook yang dipilih: "kenapa cucian kemeja saya setrika lebih rapi dari laundry lain". Target: mahasiswa dan pekerja muda. CTA: coba paket cuci setrika 5 kilo.
@@ -1914,7 +1914,7 @@ Saran tambahan: buat versi duet dengan pelanggan yang menunjukkan hasil cucian m
 
 ---
 
-### T-047. Caption Promo Diskon
+### T-047. Caption Promo Diskon (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: toko kue basah Malang. Promo: diskon 25 persen untuk semua varian kue basah hanya hari Sabtu, karena stok bahan harus dihabiskan sebelum bahan baru datang Senin. Tanpa kode kupon, langsung di kasir.
@@ -1945,7 +1945,7 @@ Semua varian ikut, dari putu ayu sampai bolu kukus meises. Datang pagi, stok har
 
 ---
 
-### T-052. Caption Transformasi Before-After
+### T-052. Caption Transformasi Before-After (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: jasa poles bodi mobil. Konten: foto sebelum bodi kusam dan sesudah mengkilap. Target: pemilik mobil harian yang malu mengajak naik mobil karena bodi kusam. Harga: paket poles 900 ribu.
@@ -2790,7 +2790,7 @@ Hasil yang diharapkan:
 
 Berikut contoh output nyata dari ChatGPT dan Gemini untuk tiga template kunci konten visual.
 
-### T-082. Generator Konsep Reel
+### T-082. Generator Konsep Reel (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: katering sehat mingguan Jakarta Selatan. Tujuan reel: menunjukkan kejujuran porsi. Aset yang ada: dapur sendiri, timbangan dapur, piring standar 22 cm, box katering.
@@ -2829,7 +2829,7 @@ Tips produksi: rekam ketiganya dalam satu sesi, jaga pencahayaan natural, tampil
 
 ---
 
-### T-086. Konsep Foto Before-After
+### T-086. Konsep Foto Before-After (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: jasa cuci sofa panggilan di Surabaya. Foto sebelum: sofa krem dengan noda di sandaran tangan dan bagian duduk tengah. Foto sesudah: sofa sama, bersih, warna krem kembali merata. Target: ibu rumah tangga dan pemilik rumah kontrakan.
@@ -2868,7 +2868,7 @@ Contoh caption: sebutkan umur sofa, asal noda, alat yang dipakai, slot tersisa, 
 
 ---
 
-### T-094. Naskah Video Proses
+### T-094. Naskah Video Proses (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: pembuat tas kulit handmade Bandung. Proses yang direkam: memotong pola kulit, menjahit tangan dengan jahitan saddler, mengoles edge paint, pembakaran logo. Durasi video target: 45 detik.
@@ -3762,7 +3762,7 @@ Hasil yang diharapkan:
 
 Berikut contoh output nyata dari ChatGPT dan Gemini untuk tiga template kunci engagement.
 
-### T-121. Templat Balasan Komentar
+### T-121. Templat Balasan Komentar (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: keripik singkong balado. Jenis komentar: pertanyaan harga dan ongkir yang berulang, tone brand: hangat dan tidak formal. Produk: keripik balado Rp 150.000 per kotak isi 10. CTA: cek link bio.
@@ -3806,7 +3806,7 @@ Prinsip umum: balas komentar pertanyaan cepat karena jawaban itu dibaca banyak c
 
 ---
 
-### T-133. Naskah Live Shopping
+### T-133. Naskah Live Shopping (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: toko kue basah Malang. Produk di live: 4 varian kue basah. Harga khusus live: bundling 4 varian Rp 60.000 (normal Rp 75.000). Stok promo: 40 bundling.
@@ -3866,7 +3866,7 @@ Kunci: uji rasa di kamera itu wajib, penonton membeli karena melihat reaksi asli
 
 ---
 
-### T-139. Desain Program Referral
+### T-139. Desain Program Referral (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: laundry premium Yogyakarta. Produk: paket cuci setrika 5 kilo. Reward pengundang: saldo cuci Rp 15.000 per teman yang datang pertama kali. Reward tertunduk: potongan Rp 10.000 untuk pesanan pertama temannya.
@@ -4765,7 +4765,7 @@ Hasil yang diharapkan:
 
 Berikut contoh output nyata dari ChatGPT dan Gemini untuk tiga template kunci analitik.
 
-### T-161. Laporan Performa Bulanan
+### T-161. Laporan Performa Bulanan (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: katering sehat Jakarta Selatan. Periode: Oktober. Platform: Instagram. Data: followers 2.140 naik dari 1.980, rata rata reach feed 1.900, engagement rate 4,2 persen naik dari 3,1 persen, 34 chat masuk dari konten, 9 langganan mingguan baru. Goal bulan: 8 langganan baru.
@@ -4824,7 +4824,7 @@ Target: 10 langganan baru, engagement di atas 4 persen, reach tidak turun di baw
 
 ---
 
-### T-172. Analisis Performa Reel dan Video
+### T-172. Analisis Performa Reel dan Video (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: pembuat tas kulit handmade. Data 3 video terbaik dan 3 terlemah bulan ini: video jahitan tangan 52 ribu views, video bakar logo 31 ribu views, video edge coating 18 ribu views; video lomba karya pelanggan 1.400 views, video produk berputar dengan musik 900 views, video sapaan pemilik 700 views.
@@ -4880,7 +4880,7 @@ Aturan berikutnya: suara alat di detik pertama, satu proses per video, narasi se
 
 ---
 
-### T-180. Perencana Alokasi Anggaran Iklan
+### T-180. Perencana Alokasi Anggaran Iklan (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: laundry premium Yogyakarta. Anggaran iklan: Rp 1.000.000 per bulan. Kanal: Instagram ads dan TikTok ads. Goal: penjualan paket cuci setrika 5 kilo.

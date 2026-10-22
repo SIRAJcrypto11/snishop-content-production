@@ -31,6 +31,11 @@ class PDFGenerator {
     const html = this.renderHTML(content, marked);
 
     await page.setContent(html, { waitUntil: 'domcontentloaded' });
+    try {
+      await page.waitForNetworkIdle({ idleTime: 500, timeout: 8000 });
+    } catch {
+      // offline or slow CDN: proceed with the system font stack
+    }
     await this.waitForFonts(page, fontTimeoutMs);
 
     const pdfBuffer = await page.pdf({

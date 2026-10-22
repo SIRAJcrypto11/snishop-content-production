@@ -86,11 +86,11 @@ function parseManuscript(markdown) {
  * first cell that opens a variable name.
  */
 function parseVariableGlossary(markdown) {
-  const section = markdown.split(/^## Lampiran C/m)[1];
+  const section = markdown.split(/^#{2,3}\s*Lampiran C\b/m)[1];
   if (!section) return [];
   const rows = [];
   for (const line of section.split(/\r?\n/)) {
-    if (!line.startsWith('| {')) continue;
+    if (!/^\| [\{[]/.test(line)) continue;
     const cells = line.split('|').slice(1, -1).map((cell) => cell.trim());
     if (cells.length >= 3) rows.push(cells);
   }

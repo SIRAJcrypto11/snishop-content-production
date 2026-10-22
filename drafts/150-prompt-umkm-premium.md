@@ -409,7 +409,7 @@ Meminta AI menyebut nama pesaing dan angkanya tanpa Anda beri data. AI akan meng
 
 Berikut contoh nyata pemakaian prompt riset pasar dengan ChatGPT dan Gemini.
 
-### P-001. Memetakan kompetitor dalam tiga lapis
+### P-001. Memetakan kompetitor dalam tiga lapis (Contoh Output)
 
 **Input yang dipakai:**
 Produk: roti manis dan roti tawar dari toko roti kecil, harga jual roti tawar Rp 15.000, dikirim dari Bandung, penjualan utama lewat WhatsApp dan toko offline.
@@ -455,7 +455,7 @@ Fokus taktik: jadwal kirim tetap dan langganan bulanan. Itu celah yang masih ter
 
 ---
 
-### P-002. Membedah penawaran kompetitor dari data halaman penjualannya
+### P-002. Membedah penawaran kompetitor dari data halaman penjualannya (Contoh Output)
 
 **Input yang dipakai:**
 Teks halaman penjualan kompetitor laundry: "Laundry paling cepat di Yogyakarta! Cuci 6 jam selesai. Kiloan mulai 6 ribu. Gratis antar. Dijamin wangi. Order sekarang sebelum kuota harian penuh!"
@@ -686,7 +686,7 @@ Hasil yang diharapkan: perbandingan biaya 12 bulan plus rekomendasi bersyarat.
 Melompat ke desain produk sebelum angka biaya pokoknya jelas. Urutan yang benar adalah P-018 lebih dulu, baru P-017, baru P-026. Banyak usaha kecil punya produk yang bagus dan tetap rugi karena tidak pernah menghitung overhead ke dalam harga per unit.
 ## Contoh Output AI untuk Bab 7
 
-### P-016. Mengurutkan ide produk dengan skor yang bisa dipertahankan
+### P-016. Mengurutkan ide produk dengan skor yang bisa dipertahankan (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: toko roti. Lima ide produk: roti isi cokelat premium, roti rendah gula untuk diabetik, roti bakar keju pedas, langganan roti tawar mingguan, kelas baking mini untuk ibu rumah tangga.
@@ -730,7 +730,7 @@ Mulai dari langganan, gunakan roti bakar sebagai produk pengantar baru di media 
 
 ---
 
-### P-017. Menyusun spesifikasi produk yang bisa dipegang tukang atau vendor
+### P-017. Menyusun spesifikasi produk yang bisa dipegang tukang atau vendor (Contoh Output)
 
 **Input yang dipakai:**
 Produk: katering box untuk rapat kantor, vendor kemasan kotak, spesifikasi keinginan: muat nasi dan lauk terpisah, tahan minyak, bisa dicetak logo, harga kemasan target di bawah Rp 3.500 per box.
@@ -959,7 +959,7 @@ Hasil yang diharapkan: aturan harga satu halaman dengan contoh dan kalimat penol
 Memakai prompt harga tanpa menyiapkan biaya pokok yang benar. Semua prompt di bab ini bergantung pada {modal_unit}. Kalau angka itu belum memasukkan tenaga kerja dan overhead, seluruh tabel diskon yang Anda hitung akan terlihat aman padahal tidak.
 ## Contoh Output AI untuk Bab 8
 
-### P-031. Menghitung titik impas sebelum menambah biaya iklan
+### P-031. Menghitung titik impas sebelum menambah biaya iklan (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: laundry kiloan. Harga jual rata rata Rp 7.000 per kilo, biaya variabel per kilo Rp 3.200 (air, listrik, deterjen, tenaga harian), biaya tetap bulanan Rp 3.500.000 (sewa, cicilan mesin, gaji tetap). Rencana iklan Rp 500.000 per bulan.
@@ -1002,7 +1002,7 @@ Kalau uji satu bulan hanya menghasilkan 10 pelanggan baru, ubah iklannya, jangan
 
 ---
 
-### P-032. Menentukan harga jual dari nilai, bukan dari biaya
+### P-032. Menentukan harga jual dari nilai, bukan dari biaya (Contoh Output)
 
 **Input yang dipakai:**
 Produk: kotak keripik balado isi 10 untuk hadiah, biaya bahan plus kemasan Rp 22.000, harga pasaran keripik biasa Rp 10.000 sampai 15.000 per kotak, target pembeli: orang yang membawa oleh oleh dari Bandung.
@@ -1228,7 +1228,7 @@ Hasil yang diharapkan: daftar periksa materi dan urutan pengerjaan 72 jam.
 Menerima semua hasil tulisan apa adanya. AI tidak punya tanggung jawab atas klaim yang muncul di halaman Anda. Baca tiap kalimat, hapus yang tidak bisa Anda buktikan, dan ganti dengan angka milik Anda sendiri sebelum tayang.
 ## Contoh Output AI untuk Bab 9
 
-### P-046. Membuat 12 sudut pandang iklan sebelum menulis satu kata pun
+### P-046. Membuat 12 sudut pandang iklan sebelum menulis satu kata pun (Contoh Output)
 
 **Input yang dipakai:**
 Produk: jasa antar bunga online di Bandung, target pembeli: pria 25 sampai 40 tahun yang ingin menyenangkan orang tersayang dari jauh.
@@ -1264,7 +1264,7 @@ Mulai dari sudut bukti dan transparansi, keduanya paling cepat membangun keperca
 
 ---
 
-### P-047. Menulis judul halaman produk yang menahan pembaca
+### P-047. Menulis judul halaman produk yang menahan pembaca (Contoh Output)
 
 **Input yang dipakai:**
 Produk: brownies kukus lumer, harga Rp 65.000 per loyang, dijual lewat halaman produk WhatsApp catalog dan Shopee, target: ibu muda yang memesan snack rapat arisan.
@@ -1483,7 +1483,7 @@ Hasil yang diharapkan: tinjauan satu halaman dengan keputusan lanjut dan berhent
 Membuat kalender 30 hari untuk kapasitas 10 hari. Jalankan P-062 dengan angka jam yang jujur, termasuk waktu menyiapkan barang dan melayani pembeli. Kalender yang meleset setiap minggu akan Anda tinggalkan pada minggu ketiga.
 ## Contoh Output AI untuk Bab 10
 
-### P-061. Menentukan tiga pilar konten yang menjual
+### P-061. Menentukan tiga pilar konten yang menjual (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: kedai kopi kecil di Yogyakarta, produk: kopi susu gula aren Rp 18.000, target: pekerja muda dan mahasiswa akhir yang butuh tempat kerja nyaman.
@@ -1525,7 +1525,7 @@ Promo bukan pilar, ia menempel di akhir konten pilar mana pun.
 
 ---
 
-### P-062. Membuat kalender konten 30 hari yang realistis
+### P-062. Membuat kalender konten 30 hari yang realistis (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: toko roti kecil, platform: Instagram plus WhatsApp status, frekuensi: 3 kali per minggu di Instagram dan 5 kali per minggu di status, goal bulan ini: 20 pelanggan langganan roti tawar baru.
@@ -1758,7 +1758,7 @@ Hasil yang diharapkan: diagnosis percakapan dan tiga kalimat penutup bertahap.
 Memasukkan nama, nomor telepon, dan alamat pembeli ke dalam prompt. Ganti semuanya dengan label seperti Calon A atau Pelanggan B. Isi percakapan bisa dianalisis tanpa identitas, dan data pembeli tidak boleh keluar dari kendali Anda.
 ## Contoh Output AI untuk Bab 11
 
-### P-076. Menyusun alur percakapan dari pertanyaan sampai penutupan
+### P-076. Menyusun alur percakapan dari pertanyaan sampai penutupan (Contoh Output)
 
 **Input yang dipakai:**
 Produk: meja kerja kayu jati custom, harga Rp 3.500.000 sampai Rp 8.000.000, penjualan lewat WhatsApp, keberatan umum: takut ketemu vendor bodong dan takut bahan bukan jati asli.
@@ -1799,7 +1799,7 @@ Hindari: harga tanpa pertanyaan balik, katalog serba dikirim, diskon prematur, d
 
 ---
 
-### P-077. Menindaklanjuti pembeli yang menghilang setelah tanya harga
+### P-077. Menindaklanjuti pembeli yang menghilang setelah tanya harga (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: katering sehat mingguan, pelanggan prospek bertanya harga Senin, sudah dibalas detail, lalu tidak membalas 4 hari.
@@ -2022,7 +2022,7 @@ Hasil yang diharapkan: bahan latihan tiga situasi beserta latihan peran enam gil
 Meminta AI menulis permintaan maaf tanpa Anda memastikan faktanya. Kalimat maaf yang salah pengakuan bisa menjadi bukti bahwa Anda bersalah. Isi bagian fakta pada prompt dengan apa yang benar-benar terjadi, dan hapus kalimat yang tidak bisa Anda pertanggungjawabkan.
 ## Contoh Output AI untuk Bab 12
 
-### P-091. Menyusun nada bicara layanan yang konsisten
+### P-091. Menyusun nada bicara layanan yang konsisten (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: laundry kiloan premium, tim: pemilik plus 1 karyawan, masalah: balasan admin berubah ubah sesuai suasana hati, pelanggan bingung kenapa kadang ramah kadang kaku.
@@ -2067,7 +2067,7 @@ Tempel pedoman di tempat kerja dan bandingkan dengan 5 balasan terakhir setiap b
 
 ---
 
-### P-092. Menulis balasan komplain yang meredakan, bukan membela
+### P-092. Menulis balasan komplain yang meredakan, bukan membela (Contoh Output)
 
 **Input yang dipakai:**
 Komplain: pembeli keripik balado menerima kotak yang separuh isinya remuk karena pengiriman. Pembeli marah dan sudah menulis ulasan bintang 1 di marketplace. Kebijakan bisnis: boleh ganti unit, tidak boleh refund penuh.
@@ -2287,7 +2287,7 @@ Hasil yang diharapkan: format laporan mingguan dan cara pengisian dengan spreads
 Menerima tarif pajak atau ketentuan resmi dari AI sebagai fakta akhir. Aturan perpajakan dan pelaporan berubah, dan sumber yang benar adalah kantor pelayanan pajak atau konsultan berlisensi Anda. Pakai prompt di bab ini untuk menyiapkan pertanyaan dan berkas, bukan untuk memutuskan kewajiban.
 ## Contoh Output AI untuk Bab 13
 
-### P-106. Memisahkan uang pribadi dan uang usaha
+### P-106. Memisahkan uang pribadi dan uang usaha (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: warung makan kecil, masalah: uang warung dan uang rumah campur dalam satu dompet dan satu rekening, pemilik sering ambil uang warung untuk kebutuhan rumah tanpa catatan.
@@ -2325,7 +2325,7 @@ Tinjauan akhir bulan menghasilkan laba bersih yang jujur. Setelah dua bulan, And
 
 ---
 
-### P-107. Menyusun arus kas proyeksi 13 minggu
+### P-107. Menyusun arus kas proyeksi 13 minggu (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: laundry kiloan, data: rata rata pemasukan mingguan Rp 4.200.000 naik stabil 3 persen per bulan, biaya mingguan tetap Rp 950.000, biaya variabel 45 persen dari pemasukan, rencana besar: beli mesin pengering kedua Rp 12.500.000 bulan ke-6.
@@ -2549,7 +2549,7 @@ Hasil yang diharapkan: tabel empat gangguan dengan tindakan dan biaya cadangan.
 Mendelegasikan pekerjaan sebelum hasilnya bisa diperiksa. Setiap butir pendelegasian harus punya bukti yang bisa dilihat orang lain, misalnya foto stok, nominal hitung, atau nomor pesanan yang berubah status. Tanpa bukti, yang Anda dapat bukan delegasi melainkan kekhawatiran yang tertunda.
 ## Contoh Output AI untuk Bab 14
 
-### P-121. Menghitung titik pemesanan ulang stok
+### P-121. Menghitung titik pemesanan ulang stok (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: keripik singkong, bahan utama: singkong mentah. Pemakaian rata rata 180 kilo per minggu, waktu tunggu pemasok 5 hari, stok pengaman ingin 40 persen dari pemakaian mingguan, pemasok datang setiap Senin.
@@ -2593,7 +2593,7 @@ Naikkan stok pengaman ke 60 persen dua minggu sebelum hari raya, dan review sist
 
 ---
 
-### P-122. Merapikan gudang atau ruang produksi kecil
+### P-122. Merapikan gudang atau ruang produksi kecil (Contoh Output)
 
 **Input yang dipakai:**
 Ruang produksi: garasi 3 x 4 meter untuk toko bunga, masalah: kertas bunga lima merek bercampur, pita dan aksesori tersebar, pendingin bunga segar di satu sudut, sering beli bahan yang ternyata sudah ada.
@@ -2840,7 +2840,7 @@ Hasil yang diharapkan: tinjauan empat bagian dengan keputusan berhenti dan lanju
 Meminta AI menyimpulkan dari data yang tidak Anda berikan. Semua prompt di bab ini punya bagian tempat Anda menempel angka. Kalau bagian itu kosong, keluaran terbaik pun hanya tebakan yang terdengar meyakinkan, dan itu justru berbahaya karena Anda akan mengambil keputusan nyata darinya.
 ## Contoh Output AI untuk Bab 15
 
-### P-136. Menulis pertanyaan analisis sebelum menyentuh data
+### P-136. Menulis pertanyaan analisis sebelum menyentuh data (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: kedai kopi, data tersedia: catatan penjualan harian 6 bulan, jam ramai, menu terlaris, ulasan pelanggan, biaya bulanan. Pemilik merasa penjualan stagnan tetapi tidak tahu dari mana mulai menganalisis.
@@ -2887,7 +2887,7 @@ Satu pertanyaan menghasilkan satu tindakan, sisanya tidak layak dihitung.
 
 ---
 
-### P-137. Membuat rumus spreadsheet untuk ringkasan penjualan
+### P-137. Membuat rumus spreadsheet untuk ringkasan penjualan (Contoh Output)
 
 **Input yang dipakai:**
 Spreadsheet penjualan warung makan: kolom A tanggal, kolom B menu, kolom C jumlah porsi, kolom D harga per porsi, kolom E total (sudah diisi rumus C dikali D). Data 3 bulan, sekitar 2.700 baris.
