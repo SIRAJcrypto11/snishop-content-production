@@ -8,11 +8,11 @@ const outPath = path.join(ROOT, 'drafts', '200-template-social-media.xlsx.json')
 const md = fs.readFileSync(basicPath, 'utf8');
 
 const bagianMarkers = [
-  ['## Bagian 1: Content Planning', 'Bagian 1: Content Planning'],
-  ['## Bagian 2: Caption Writing', 'Bagian 2: Caption Writing'],
-  ['## Bagian 3: Visual Content', 'Bagian 3: Visual Content'],
-  ['## Bagian 4: Engagement', 'Bagian 4: Engagement'],
-  ['## Bagian 5: Analytics and Optimization', 'Bagian 5: Analytics and Optimization'],
+  ['## Bagian 1: Perencanaan Konten', 'Bagian 1: Perencanaan Konten'],
+  ['## Bagian 2: Penulisan Caption', 'Bagian 2: Penulisan Caption'],
+  ['## Bagian 3: Konten Visual', 'Bagian 3: Konten Visual'],
+  ['## Bagian 4: Interaksi dan Komunitas', 'Bagian 4: Interaksi dan Komunitas'],
+  ['## Bagian 5: Analitik dan Optimasi', 'Bagian 5: Analitik dan Optimasi'],
 ];
 
 function findBagian(index) {
@@ -109,37 +109,37 @@ const workbook = {
   title: '200 Template AI untuk Social Media Management',
   sheets: [
     {
-      name: 'Template Library',
+      name: 'Perpustakaan Templat',
       headers: ['Kode', 'Bagian', 'Judul', 'Kapan Pakai', 'Template', 'Variabel', 'Hasil yang Diharapkan'],
       rows,
     },
     {
-      name: 'Content Calendar',
+      name: 'Kalender Konten',
       headers: ['Minggu', 'Hari', 'Jenis Konten', 'Kode Template', 'Ide Konten', 'Format', 'Caption Hook', 'CTA'],
       rows: calendar,
     },
     {
-      name: 'Analytics Tracker',
+      name: 'Pelacak Analitik',
       headers: ['Minggu', 'Tanggal', 'Followers', 'Reach', 'Engagement Rate', 'Klik Link', 'Pesan Masuk', 'Vs Minggu Lalu', 'Penyebab', 'Tindakan Minggu Ini'],
       rows: Array.from({ length: 12 }, (_, i) => [`M${i + 1}`, '', '', '', '', '', '', '', '', '']),
     },
     {
-      name: 'Hashtag Bank',
+      name: 'Bank Hashtag',
       headers: ['Industri', 'Hashtag Besar', 'Hashtag Menengah', 'Hashtag Kecil dan Spesifik'],
       rows: hashtags,
     },
     {
-      name: 'Performance Log',
+      name: 'Catatan Performa',
       headers: ['Tanggal', 'Kode Template', 'Judul Konten', 'Format', 'Views', 'Like', 'Komentar', 'Share', 'Save', 'Kesimpulan'],
       rows: Array.from({ length: 30 }, () => ['', '', '', '', '', '', '', '', '', '']),
     },
     {
-      name: 'Platform Best Practices',
+      name: 'Praktik Terbaik Platform',
       headers: ['Platform', 'Waktu Posting Layak Diuji', 'Jenis Konten Prioritas', 'Panjang Caption', 'Strategi Hashtag', 'Tips Engagement'],
       rows: platforms,
     },
     {
-      name: 'Quality Checklist',
+      name: 'Checklist Kualitas',
       headers: ['Butir Periksa', 'Kriteria', 'Status'],
       rows: checklist,
     },
@@ -148,7 +148,7 @@ const workbook = {
 
 fs.writeFileSync(outPath, JSON.stringify(workbook, null, 2));
 console.log(`Workbook written: ${outPath}`);
-console.log(`Template Library rows: ${rows.length} (first: ${rows[0][0]}, last: ${rows[rows.length - 1][0]})`);
+console.log(`Perpustakaan Templat rows: ${rows.length} (first: ${rows[0][0]}, last: ${rows[rows.length - 1][0]})`);
 const bagianCounts = {};
 rows.forEach((r) => { bagianCounts[r[1]] = (bagianCounts[r[1]] || 0) + 1; });
 console.log('Per bagian:', JSON.stringify(bagianCounts));

@@ -6,7 +6,7 @@ const premiumPath = path.join(ROOT, 'drafts', '200-template-social-media-premium
 const ultimatePath = path.join(ROOT, 'drafts', '200-template-social-media-ultimate.md');
 
 const premium = fs.readFileSync(premiumPath, 'utf8');
-const bodyStart = premium.indexOf('## Bagian 1: Content Planning');
+const bodyStart = premium.indexOf('## Bagian 1: Perencanaan Konten');
 const body = premium.slice(bodyStart);
 
 const frontMatter = `# 200 Template AI untuk Social Media Management
@@ -480,22 +480,22 @@ const lampiran = `
 
 Workbook Excel yang disertakan berisi lima sheet:
 
-1. Sheet Template Library: daftar 200 template dengan kode, bagian, judul, dan teks template lengkap. Ini sumber utama untuk mencari template cepat lewat filter.
-2. Sheet Content Calendar: kerangka kalender 30 hari dengan kolom tanggal, hari, jenis konten, kode template yang dipakai, dan status.
-3. Sheet Analytics Tracker: tabel pencatatan mingguan followers, reach, engagement, klik, dan pesan masuk, lengkap dengan kolom perbandingan minggu sebelumnya.
-4. Sheet Hashtag Bank: kumpulan hashtag per industri yang bisa Anda kurasi.
-5. Sheet Performance Log: catatan performa setiap posting dengan kolom views, like, comment, share, save, dan kesimpulan.
+1. Sheet Perpustakaan Templat: daftar 200 template dengan kode, bagian, judul, dan teks template lengkap. Ini sumber utama untuk mencari template cepat lewat filter.
+2. Sheet Kalender Konten: kerangka kalender 30 hari dengan kolom tanggal, hari, jenis konten, kode template yang dipakai, dan status.
+3. Sheet Pelacak Analitik: tabel pencatatan mingguan followers, reach, engagement, klik, dan pesan masuk, lengkap dengan kolom perbandingan minggu sebelumnya.
+4. Sheet Bank Hashtag: kumpulan hashtag per industri yang bisa Anda kurasi.
+5. Sheet Catatan Performa: catatan performa setiap posting dengan kolom views, like, comment, share, save, dan kesimpulan.
 
 Urutan pemakaian yang disarankan:
-1. Mulai dari Template Library. Filter kolom bagian sesuai kebutuhan Anda minggu ini.
-2. Salin teks template ke alat AI, isi variabel, simpan hasilnya ke Content Calendar.
-3. Setiap posting tayang, catat performanya di Performance Log pada akhir hari.
-4. Setiap Senin, isi Analytics Tracker dengan angka mingguan.
-5. Setiap akhir bulan, baca ulang Performance Log dan tandai pola yang berulang.
+1. Mulai dari Perpustakaan Templat. Filter kolom bagian sesuai kebutuhan Anda minggu ini.
+2. Salin teks template ke alat AI, isi variabel, simpan hasilnya ke sheet Kalender Konten.
+3. Setiap posting tayang, catat performanya di Catatan Performa pada akhir hari.
+4. Setiap Senin, isi Pelacak Analitik dengan angka mingguan.
+5. Setiap akhir bulan, baca ulang Catatan Performa dan tandai pola yang berulang.
 
 Aturan penting: jangan mengubah struktur kolom. Kolom yang berpindah membuat perbandingan antar bulan tidak valid. Tambahkan kolom baru di paling kanan bila memang perlu.
 
-### Lampiran B: Contoh Content Calendar 30 Hari Terisi
+### Lampiran B: Contoh Kalender Konten 30 Hari Terisi
 
 Contoh terisi untuk bisnis keripik singkong balado, 4 posting per minggu, goal pen awareness di Bandung:
 
@@ -535,7 +535,7 @@ Kurasi ulang setiap bulan. Aturan campuran: 3 hashtag besar, 5 menengah, 5 kecil
 | Edukasi | #belajar #edukasi | #tipsbelajar #edukasiindonesia #ilmupengetahuan | #belajarbisnisonline #kelasumkm #kursusbisnis |
 | Kesehatan | #sehat #fitness | #gayahidupsehat #fitnessindonesia #olahraga | #trainersurabaya #dietberbudaya #senamrumah |
 
-Catatan: hashtag dengan jarak tidak valid, tulis tanpa jarak saat dipakai. Ganti 30 persen hashtag setiap bulan dan pantau di sheet Hashtag Bank mana yang masih membawa reach.
+Catatan: hashtag dengan jarak tidak valid, tulis tanpa jarak saat dipakai. Ganti 30 persen hashtag setiap bulan dan pantau di sheet Bank Hashtag mana yang masih membawa reach.
 
 ### Lampiran D: Checklist Kualitas Sebelum Posting
 

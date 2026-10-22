@@ -214,7 +214,7 @@ async function main() {
   const pdf = new PDFGenerator();
   const bodyMarkdown = markdown.replace(/^#\s+.+$/m, '');
   const renderSource = inlineImages(bodyMarkdown, path.dirname(manuscriptPath));
-  const pdfBuffer = await pdf.generate({ title: `${title} [${tier.toUpperCase()}]`, markdown: renderSource, tier });
+  const pdfBuffer = await pdf.generate({ title, markdown: renderSource, tier });
   fs.writeFileSync(pdfPath, pdfBuffer);
 
   const outputs = [{ file: path.relative(ROOT, pdfPath), kind: 'pdf', bytes: pdfBuffer.length }];

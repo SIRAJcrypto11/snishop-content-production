@@ -101,11 +101,11 @@ Semua template dalam buku ini mengikuti standar anti-AI-slop:
 
 ---
 
-## Bagian 1: Content Planning
+## Bagian 1: Perencanaan Konten
 
 Bagian ini berisi 40 template untuk perencanaan konten social media. Gunakan template-template ini ketika Anda butuh membuat strategy, calendar, dan ide konten.
 
-### T-001. Content Calendar Bulanan
+### T-001. Kalender Konten Bulanan
 
 Kapan pakai:
 > Membuat planning konten untuk 1 bulan penuh
@@ -119,7 +119,7 @@ Variabel:
 
 Template:
 ```
-Sebagai social media strategist, buatkan content calendar 30 hari untuk [BISNIS] di [PLATFORM]. Posting [FREKUENSI] kali per minggu dengan goal [GOAL]. Content pillar: [PILLAR]. Buat tabel dengan kolom: Tanggal, Hari, Content Pillar, Ide Konten, Format (image/video/carousel/story), Caption Hook, dan CTA. Variasikan format dan pastikan ada minimal 2 konten edukatif, 1 konten promosi, dan 1 konten engagement per minggu.
+Sebagai perencana konten media sosial, buatkan kalender konten 30 hari untuk [BISNIS] di [PLATFORM]. Posting [FREKUENSI] kali per minggu dengan tujuan [GOAL]. Pilar konten: [PILLAR]. Buat tabel dengan kolom: Tanggal, Hari, Pilar Konten, Ide Konten, Format (gambar/video/carousel/story), Kalimat Pembuka Caption, dan CTA. Variasikan format dan pastikan ada minimal 2 konten edukatif, 1 konten promosi, dan 1 konten pemicu interaksi per minggu.
 ```
 
 Hasil yang diharapkan:
@@ -127,7 +127,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-002. Content Pillar Development
+### T-002. Pengembangan Pilar Konten
 
 Kapan pakai:
 > Menentukan 3-5 topik utama untuk konten Anda
@@ -148,7 +148,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-003. Audience Research Summary
+### T-003. Ringkasan Riset Audiens
 
 Kapan pakai:
 > Memahami karakteristik dan kebutuhan audience Anda
@@ -169,7 +169,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-004. Competitor Analysis
+### T-004. Analisis Kompetitor
 
 Kapan pakai:
 > Menganalisis strategi social media kompetitor
@@ -191,7 +191,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-005. Weekly Content Batch
+### T-005. Batch Konten Mingguan
 
 Kapan pakai:
 > Membuat 7 ide konten dalam sekali duduk
@@ -212,7 +212,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-006. Monthly Theme Planner
+### T-006. Perencana Tema Bulanan
 
 Kapan pakai:
 > Menentukan tema besar untuk konten satu bulan penuh
@@ -233,7 +233,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-007. Content Mix Ratio Calculator
+### T-007. Kalkulator Rasio Campuran Konten
 
 Kapan pakai:
 > Menentukan porsi konten edukasi, promosi, dan hiburan
@@ -253,7 +253,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-008. Evergreen Content Bank Builder
+### T-008. Penyusun Bank Konten Evergreen
 
 Kapan pakai:
 > Membangun cadangan konten yang tidak kedaluwarsa
@@ -273,7 +273,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-009. Content Repurposing Planner
+### T-009. Perencana Daur Ulang Konten
 
 Kapan pakai:
 > Mengubah 1 konten besar menjadi banyak konten kecil
@@ -293,7 +293,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-010. Campaign Calendar Builder
+### T-010. Penyusun Kalender Kampanye
 
 Kapan pakai:
 > Merencanakan kampanye marketing dari awal sampai akhir
@@ -315,7 +315,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-011. Product Launch Content Calendar
+### T-011. Kalender Konten Peluncuran Produk
 
 Kapan pakai:
 > Merencanakan konten untuk peluncuran produk baru
@@ -336,7 +336,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-012. Holiday Content Planner
+### T-012. Perencana Konten Hari Besar
 
 Kapan pakai:
 > Menyiapkan konten untuk hari besar nasional dan internasional
@@ -356,7 +356,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-013. Content Production SOP Builder
+### T-013. Penyusun SOP Produksi Konten
 
 Kapan pakai:
 > Menyusun prosedur produksi konten untuk tim
@@ -376,7 +376,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-014. Content Approval Workflow
+### T-014. Alur Kerja Persetujuan Konten
 
 Kapan pakai:
 > Menyusun alur persetujuan konten sebelum tayang
@@ -396,7 +396,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-015. Content Brief Template Builder
+### T-015. Penyusun Templat Brief Konten
 
 Kapan pakai:
 > Membuat brief yang jelas untuk konten kreatif
@@ -416,7 +416,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-016. Brand Voice Guide Generator
+### T-016. Generator Panduan Gaya Bahasa Merek
 
 Kapan pakai:
 > Menyusun pedoman suara brand untuk konsistensi konten
@@ -436,7 +436,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-017. Hashtag Bank Builder
+### T-017. Penyusun Bank Hashtag
 
 Kapan pakai:
 > Menyusun daftar hashtag yang terorganisir per topik
@@ -448,7 +448,7 @@ Variabel:
 
 Template:
 ```
-Sebagai hashtag researcher, bangun bank hashtag untuk [BISNIS] di industri [INDUSTRI], pasar utama [KOTA]. Kelompokkan menjadi 4 set: hashtag brand (3-5 buah), hashtag industri luas (10 buah, jutaan post), hashtag niche (15 buah, ribuan sampai ratusan ribu post), dan hashtag lokal (10 buah). Untuk setiap hashtag perkirakan tingkat persaingannya. Buat 3 kombinasi siap pakai untuk konten edukasi, promosi, dan engagement.
+Sebagai peneliti hashtag, bangun bank hashtag untuk [BISNIS] di industri [INDUSTRI], pasar utama [KOTA]. Kelompokkan menjadi 4 set: hashtag brand (3-5 buah), hashtag industri luas (10 buah, jutaan post), hashtag niche (15 buah, ribuan sampai ratusan ribu post), dan hashtag lokal (10 buah). Untuk setiap hashtag perkirakan tingkat persaingannya. Buat 3 kombinasi siap pakai untuk konten edukasi, promosi, dan engagement.
 ```
 
 Hasil yang diharapkan:
@@ -456,7 +456,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-018. UGC Collection Plan
+### T-018. Rencana Pengumpulan UGC
 
 Kapan pakai:
 > Merencanakan pengumpulan konten dari pelanggan
@@ -476,7 +476,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-019. Influencer Collaboration Planner
+### T-019. Perencana Kolaborasi Influencer
 
 Kapan pakai:
 > Merencanakan kerja sama dengan kreator konten
@@ -496,7 +496,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-020. Cross-Platform Content Planner
+### T-020. Perencana Konten Lintas Platform
 
 Kapan pakai:
 > Merencanakan konten yang sama untuk banyak platform
@@ -516,7 +516,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-021. Engagement Forecast Calculator
+### T-021. Kalkulator Perkiraan Engagement
 
 Kapan pakai:
 > Memperkirakan hasil engagement dari rencana konten
@@ -536,7 +536,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-022. Content Audit Framework
+### T-022. Kerangka Audit Konten
 
 Kapan pakai:
 > Menilai performa konten 3 bulan terakhir
@@ -556,7 +556,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-023. Competitor Content Gap Analysis
+### T-023. Analisis Kesenjangan Konten Kompetitor
 
 Kapan pakai:
 > Menemukan peluang konten yang belum digarap kompetitor
@@ -576,7 +576,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-024. Trending Topic Scanner
+### T-024. Pemindai Topik Tren
 
 Kapan pakai:
 > Menemukan topik sedang naik di industri Anda
@@ -596,7 +596,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-025. Audience Question Mining
+### T-025. Penggalian Pertanyaan Audiens
 
 Kapan pakai:
 > Mengubah pertanyaan audiens menjadi ide konten
@@ -616,7 +616,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-026. Sales Funnel Content Mapping
+### T-026. Pemetaan Konten Sales Funnel
 
 Kapan pakai:
 > Memetakan konten untuk setiap tahap perjalanan pembeli
@@ -636,7 +636,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-027. Retention Content Plan
+### T-027. Rencana Konten Retensi
 
 Kapan pakai:
 > Merencanakan konten untuk pelanggan yang sudah beli
@@ -656,7 +656,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-028. Win-Back Campaign Planner
+### T-028. Perencana Kampanye Win-Back
 
 Kapan pakai:
 > Merencanakan konten untuk mengaktifkan kembali pelanggan lama
@@ -676,7 +676,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-029. Event Content Plan
+### T-029. Rencana Konten Acara
 
 Kapan pakai:
 > Merencanakan konten untuk event online atau offline
@@ -696,7 +696,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-030. Giveaway Campaign Planner
+### T-030. Perencana Kampanye Giveaway
 
 Kapan pakai:
 > Merencanakan giveaway yang menghasilkan, bukan sekadar viral sesaat
@@ -716,7 +716,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-031. Announcement Content Sequence
+### T-031. Beruntun Konten Pengumuman
 
 Kapan pakai:
 > Mengumumkan perubahan besar (harga, lokasi, produk baru)
@@ -736,7 +736,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-032. Crisis Content Plan
+### T-032. Rencana Konten Krisis
 
 Kapan pakai:
 > Menyiapkan konten darurat sebelum masalah terjadi
@@ -756,7 +756,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-033. Content Backlog Builder
+### T-033. Penyusun Cadangan Ide Konten
 
 Kapan pakai:
 > Menyusun cadangan ide konten untuk 3 bulan ke depan
@@ -776,7 +776,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-034. Idea Bank Generator per Pillar
+### T-034. Generator Bank Ide per Pilar
 
 Kapan pakai:
 > Memperdalam satu pillar dengan banyak angle
@@ -796,7 +796,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-035. Weekly Content Review Template
+### T-035. Templat Telaah Konten Mingguan
 
 Kapan pakai:
 > Menilai performa konten tiap akhir pekan
@@ -815,7 +815,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-036. Monthly Content Review Framework
+### T-036. Kerangka Telaah Konten Bulanan
 
 Kapan pakai:
 > Evaluasi menyeluruh strategi konten bulanan
@@ -835,7 +835,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-037. Quarterly Strategy Refresh
+### T-037. Penyegaran Strategi Kuartalan
 
 Kapan pakai:
 > Menyegarkan strategi konten setiap 3 bulan
@@ -855,7 +855,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-038. Annual Content Roadmap
+### T-038. Peta Jalan Konten Tahunan
 
 Kapan pakai:
 > Menyusun peta jalan konten setahun penuh
@@ -875,7 +875,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-039. Team Task Assignment Matrix
+### T-039. Matriks Pembagian Tugas Tim
 
 Kapan pakai:
 > Membagi tugas konten untuk tim kecil
@@ -895,7 +895,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-040. Seasonal Content Planner
+### T-040. Perencana Konten Musiman
 
 Kapan pakai:
 > Merencanakan konten untuk momen spesial sepanjang tahun
@@ -915,11 +915,11 @@ Hasil yang diharapkan:
 
 ---
 
-## Bagian 2: Caption Writing
+## Bagian 2: Penulisan Caption
 
 Bagian ini berisi 40 template untuk menulis caption social media yang engaging.
 
-### T-041. Instagram Caption yang Storytelling
+### T-041. Caption Instagram Bernuansa Storytelling
 
 Kapan pakai:
 > Membuat caption Instagram yang menceritakan kisah brand
@@ -940,7 +940,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-042. Facebook Post yang Shareable
+### T-042. Post Facebook yang Mudah Dibagikan
 
 Kapan pakai:
 > Membuat post Facebook yang mendorong sharing
@@ -953,15 +953,15 @@ Variabel:
 
 Template:
 ```
-Sebagai Facebook content strategist, tulis post 200 kata tentang [TOPIK] dengan insight [INSIGHT] untuk [AUDIENCE]. Goal: [GOAL]. Buat post yang: (1) relatable dengan masalah audience, (2) memberikan value nyata, (3) mudah dipahami, (4) mendorong sharing. Gunakan format: question di awal, story atau contoh di tengah, takeaway di akhir. Tambahkan 1 CTA yang tidak salesy.
+Sebagai perencana konten Facebook, tulis post 200 kata tentang [TOPIK] dengan wawasan [INSIGHT] untuk [AUDIENCE]. Tujuan: [GOAL]. Buat post yang: (1) terasa dekat dengan masalah pembaca, (2) memberikan manfaat nyata, (3) mudah dipahami, (4) mendorong pembaca membagikannya. Gunakan format: pertanyaan di awal, cerita atau contoh di tengah, kesimpulan yang bisa dibawa pulang di akhir. Tambahkan 1 CTA yang tidak memaksa jualan.
 ```
 
 Hasil yang diharapkan:
-> Post Facebook yang engaging dan shareable
+> Post Facebook yang mengundang interaksi dan mudah dibagikan
 
 ---
 
-### T-043. TikTok Script yang Viral
+### T-043. Naskah TikTok yang Berpotensi Viral
 
 Kapan pakai:
 > Membuat script TikTok yang berpotensi viral
@@ -982,7 +982,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-044. Twitter/X Thread yang Informative
+### T-044. Thread Twitter/X yang Informatif
 
 Kapan pakai:
 > Membuat thread Twitter/X yang educational
@@ -1003,7 +1003,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-045. LinkedIn Post yang Professional
+### T-045. Post LinkedIn yang Profesional
 
 Kapan pakai:
 > Membuat post LinkedIn untuk personal branding
@@ -1020,11 +1020,11 @@ Sebagai LinkedIn ghostwriter, tulis post 300 kata tentang [TOPIK] dari perspekti
 ```
 
 Hasil yang diharapkan:
-> Post LinkedIn yang professional dan engaging
+> Post LinkedIn yang profesional dan mengundang interaksi
 
 ---
 
-### T-046. Product Launch Caption
+### T-046. Caption Peluncuran Produk
 
 Kapan pakai:
 > Mengumumkan produk baru dengan caption yang membangun antusiasme
@@ -1045,7 +1045,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-047. Discount Promo Caption
+### T-047. Caption Promo Diskon
 
 Kapan pakai:
 > Mengumumkan diskon tanpa terlihat murahan
@@ -1087,7 +1087,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-049. Testimonial Repost Caption
+### T-049. Caption Repost Testimoni
 
 Kapan pakai:
 > Memposting ulang testimoni pelanggan dengan bingkai cerita
@@ -1107,7 +1107,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-050. How-To Educational Caption
+### T-050. Caption Edukasi Panduan Cara
 
 Kapan pakai:
 > Mengajarkan sesuatu yang berguna dalam satu caption
@@ -1127,7 +1127,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-051. Myth vs Fact Caption
+### T-051. Caption Mitos vs Fakta
 
 Kapan pakai:
 > Meluruskan miskonsepsi di industri Anda
@@ -1147,7 +1147,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-052. Before-After Transformation Caption
+### T-052. Caption Transformasi Before-After
 
 Kapan pakai:
 > Menunjukkan perubahan hasil sebelum dan sesudah
@@ -1168,7 +1168,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-053. Behind the Scenes Caption
+### T-053. Caption Di Balik Layar
 
 Kapan pakai:
 > Menunjukkan proses di balik produk atau jasa
@@ -1188,7 +1188,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-054. FAQ Answer Caption
+### T-054. Caption Jawaban FAQ
 
 Kapan pakai:
 > Menjawab pertanyaan yang sering masuk dalam bentuk konten
@@ -1208,7 +1208,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-055. Question of the Day Caption
+### T-055. Caption Pertanyaan Hari Ini
 
 Kapan pakai:
 > Memicu komentar dengan pertanyaan yang mudah dijawab
@@ -1228,7 +1228,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-056. Motivational Caption yang Tidak Klise
+### T-056. Caption Motivasi yang Tidak Klise
 
 Kapan pakai:
 > Menghibau audiens tanpa kalimat motivasi kosong
@@ -1248,7 +1248,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-057. Weekend Sale Caption
+### T-057. Caption Diskon Akhir Pekan
 
 Kapan pakai:
 > Promo akhir pekan dengan waktu terbatas
@@ -1288,7 +1288,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-059. Restock Announcement Caption
+### T-059. Caption Pengumuman Restock
 
 Kapan pakai:
 > Mengumumkan ketersediaan kembali produk yang lama habis
@@ -1308,7 +1308,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-060. New Arrival Caption
+### T-060. Caption Produk Baru
 
 Kapan pakai:
 > Memperkenalkan produk baru ke katalog
@@ -1328,7 +1328,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-061. Limited Edition Caption
+### T-061. Caption Edisi Terbatas
 
 Kapan pakai:
 > Menjual produk edisi terbatas dengan kelangkaan jujur
@@ -1348,7 +1348,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-062. Bundle Offer Caption
+### T-062. Caption Penawaran Bundling
 
 Kapan pakai:
 > Menjual paket beberapa produk dengan nilai lebih
@@ -1368,7 +1368,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-063. Holiday Greeting Caption
+### T-063. Caption Ucapan Hari Besar
 
 Kapan pakai:
 > Mengucapkan hari besar tanpa terlihat ikut-ikutan
@@ -1388,7 +1388,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-064. National Day Tie-in Caption
+### T-064. Caption Kaitan Hari Nasional
 
 Kapan pakai:
 > Menghubungkan hari nasional dengan bisnis secara wajar
@@ -1408,7 +1408,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-065. Trend Tie-in Caption
+### T-065. Caption Kaitan Tren
 
 Kapan pakai:
 > Mengikuti tren yang sedang viral dengan cara yang tetap relevan
@@ -1428,7 +1428,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-066. Customer Story Feature Caption
+### T-066. Caption Sorotan Cerita Pelanggan
 
 Kapan pakai:
 > Menampilkan perjalanan pelanggan sebagai konten utama
@@ -1448,7 +1448,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-067. Team Introduction Caption
+### T-067. Caption Perkenalan Tim
 
 Kapan pakai:
 > Memperkenalkan anggota tim untuk membangun kepercayaan
@@ -1468,7 +1468,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-068. Problem-Solution Caption
+### T-068. Caption Masalah-Solusi
 
 Kapan pakai:
 > Menyusun masalah dan solusi dalam struktur yang meyakinkan
@@ -1488,7 +1488,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-069. Listicle Caption
+### T-069. Caption Format Daftar
 
 Kapan pakai:
 > Menyajikan daftar tips atau rekomendasi yang mudah dibaca
@@ -1508,7 +1508,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-070. Statistics Share Caption
+### T-070. Caption Berbagi Statistik
 
 Kapan pakai:
 > Membagikan data atau statistik yang mengejutkan
@@ -1528,7 +1528,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-071. Quote Reflection Caption
+### T-071. Caption Renungan Kutipan
 
 Kapan pakai:
 > Mengutip kalimat dan menambahkan refleksi personal
@@ -1548,7 +1548,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-072. Humor Caption yang Tetap On-Brand
+### T-072. Caption Humor yang Tetap Sesuai Merek
 
 Kapan pakai:
 > Membuat audiens tersenyum tanpa keluar dari karakter brand
@@ -1588,7 +1588,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-074. Take a Stand Caption
+### T-074. Caption yang Bersikap
 
 Kapan pakai:
 > Menyatakan pendapat tentang isu industri dengan cara yang terukur
@@ -1608,7 +1608,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-075. Comparison Caption
+### T-075. Caption Perbandingan
 
 Kapan pakai:
 > Membandingkan pilihan secara jujur termasuk kelemahan
@@ -1669,7 +1669,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-078. Countdown Caption
+### T-078. Caption Hitung Mundur
 
 Kapan pakai:
 > Menghitung mundur menuju momen penting
@@ -1689,7 +1689,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-079. User Content Shoutout Caption
+### T-079. Caption Sorotan Konten Pelanggan
 
 Kapan pakai:
 > Mengapresiasi konten pelanggan yang menggunakan produk Anda
@@ -1709,7 +1709,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-080. Multi-Platform Caption Adapter
+### T-080. Adaptor Caption Lintas Platform
 
 Kapan pakai:
 > Mengadaptasi 1 konten untuk berbagai platform
@@ -1721,7 +1721,7 @@ Variabel:
 
 Template:
 ```
-Sebagai multi-platform content strategist, adaptasi konten inti [KONTEN_INTI] untuk [PLATFORMS]. Brand voice: [BRAND_VOICE]. Untuk setiap platform, berikan: (1) panjang optimal caption, (2) format yang sesuai, (3) hashtag strategy, (4) CTA yang platform-specific, (5) best posting time. Pastikan pesan konsisten tapi format disesuaikan dengan karakter setiap platform.
+Sebagai perencana konten multi-platform, adaptasi konten inti [KONTEN_INTI] untuk [PLATFORMS]. Gaya bahasa merek: [BRAND_VOICE]. Untuk setiap platform, berikan: (1) panjang caption yang optimal, (2) format yang sesuai, (3) strategi hashtag, (4) CTA yang khas platform tersebut, (5) waktu posting terbaik. Pastikan pesan konsisten tapi format disesuaikan dengan karakter setiap platform.
 ```
 
 Hasil yang diharapkan:
@@ -1729,20 +1729,20 @@ Hasil yang diharapkan:
 
 ---
 
-## Bagian 3: Visual Content
+## Bagian 3: Konten Visual
 
 Bagian ini berisi 40 template untuk ide konten visual.
 
-### T-081. Instagram Carousel Structure
+### T-081. Struktur Carousel Instagram
 
 Kapan pakai:
-> Membuat struktur carousel yang engaging
+> Membuat struktur carousel yang mengundang interaksi
 
 Variabel:
 - [TOPIK]: topik carousel
 - [SLIDES]: jumlah slide (5-10)
-- [GOAL]: tujuan (educate/entertain/promote)
-- [CTA]: call-to-action di slide terakhir
+- [GOAL]: tujuan (edukasi/hiburan/promosi)
+- [CTA]: ajakan bertindak (CTA) di slide terakhir
 
 Template:
 ```
@@ -1754,10 +1754,10 @@ Hasil yang diharapkan:
 
 ---
 
-### T-082. Reel Concept Generator
+### T-082. Generator Konsep Reel
 
 Kapan pakai:
-> Membuat konsep Reels yang engaging
+> Membuat konsep Reels yang mengundang interaksi
 
 Variabel:
 - [TOPIK]: topik Reels
@@ -1775,7 +1775,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-083. Story Series Planner
+### T-083. Perencana Seri Story
 
 Kapan pakai:
 > Merencanakan series Instagram Stories
@@ -1796,7 +1796,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-084. Infographic Content Structure
+### T-084. Struktur Konten Infografis
 
 Kapan pakai:
 > Membuat struktur infographic yang informative
@@ -1817,10 +1817,10 @@ Hasil yang diharapkan:
 
 ---
 
-### T-085. Meme Concept Generator
+### T-085. Generator Konsep Meme
 
 Kapan pakai:
-> Membuat konsep meme yang relatable dan shareable
+> Membuat konsep meme yang terasa dekat dan mudah dibagikan
 
 Variabel:
 - [SITUASI]: situasi atau masalah yang dihadapi audience
@@ -1838,7 +1838,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-086. Before-After Photo Concept
+### T-086. Konsep Foto Before-After
 
 Kapan pakai:
 > Merencanakan foto perbandingan sebelum dan sesudah yang jujur
@@ -1858,7 +1858,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-087. Flat Lay Layout Guide
+### T-087. Panduan Tata Letak Flat Lay
 
 Kapan pakai:
 > Menyusun foto produk dari atas dengan properti pendukung
@@ -1878,7 +1878,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-088. Tutorial Carousel Structure
+### T-088. Struktur Carousel Tutorial
 
 Kapan pakai:
 > Menyusun carousel yang mengajarkan langkah demi langkah
@@ -1898,7 +1898,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-089. Quote Graphics Series
+### T-089. Seri Grafis Kutipan
 
 Kapan pakai:
 > Membuat rangkaian grafik kutipan yang konsisten
@@ -1918,7 +1918,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-090. Data Visualization Concept
+### T-090. Konsep Visualisasi Data
 
 Kapan pakai:
 > Mengubah data menjadi visual yang mudah dipahami
@@ -1938,7 +1938,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-091. Product in Use Photo Concept
+### T-091. Konsep Foto Produk Sedang Dipakai
 
 Kapan pakai:
 > Menunjukkan produk dipakai dalam situasi nyata
@@ -1958,7 +1958,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-092. Packaging Showcase Plan
+### T-092. Rencana Pameran Kemasan
 
 Kapan pakai:
 > Memperlihatkan kemasan produk sebagai bagian dari pengalaman
@@ -1978,7 +1978,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-093. Day in the Life Video Outline
+### T-093. Kerangka Video Sehari Bersama Kami
 
 Kapan pakai:
 > Mendokumentasikan sehari dalam bisnis Anda
@@ -1994,11 +1994,11 @@ Sebagai documentary content planner, susun outline video sehari dalam bisnis [BI
 ```
 
 Hasil yang diharapkan:
-> Outline video day in the life dengan momen jujur
+> Kerangka video sehari bersama pemilik usaha dengan momen jujur
 
 ---
 
-### T-094. Process Video Script
+### T-094. Naskah Video Proses
 
 Kapan pakai:
 > Merekam proses produksi sebagai konten yang memuaskan ditonton
@@ -2018,7 +2018,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-095. Transformation Video Concept
+### T-095. Konsep Video Transformasi
 
 Kapan pakai:
 > Video perubahan dari kondisi awal ke akhir
@@ -2038,7 +2038,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-096. Duet and Collab Video Idea
+### T-096. Ide Video Duet dan Kolaborasi
 
 Kapan pakai:
 > Merespons atau berkolaborasi dengan konten kreator lain
@@ -2058,7 +2058,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-097. Green Screen Video Script
+### T-097. Naskah Video Green Screen
 
 Kapan pakai:
 > Video dengan latar digital untuk penjelasan atau reaksi
@@ -2078,7 +2078,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-098. Stop Motion Concept
+### T-098. Konsep Stop Motion
 
 Kapan pakai:
 > Video frame-by-frame yang menghibur dan unik
@@ -2098,7 +2098,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-099. Time Lapse Planning
+### T-099. Perencanaan Time Lapse
 
 Kapan pakai:
 > Mempercepat proses panjang menjadi video singkat
@@ -2118,7 +2118,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-100. ASMR Content Concept
+### T-100. Konsep Konten ASMR
 
 Kapan pakai:
 > Konten dengan suara yang memuaskan untuk produk tertentu
@@ -2138,7 +2138,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-101. Behind Counter Series
+### T-101. Seri Di Balik Meja Kasir
 
 Kapan pakai:
 > Serial konten dari sudut pandang pelaksana (barista, kasir, kurir)
@@ -2158,7 +2158,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-102. Office or Store Tour Video
+### T-102. Video Tur Toko atau Kantor
 
 Kapan pakai:
 > Mengajak penonton melihat tempat kerja Anda
@@ -2178,7 +2178,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-103. Team Photo Concept Guide
+### T-103. Panduan Konsep Foto Tim
 
 Kapan pakai:
 > Foto tim yang terlihat profesional dan hangat
@@ -2198,7 +2198,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-104. Customer Photo Feature Plan
+### T-104. Rencana Sorotan Foto Pelanggan
 
 Kapan pakai:
 > Menampilkan foto pelanggan dengan izin dan apresiasi
@@ -2218,7 +2218,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-105. Unboxing Video Script
+### T-105. Naskah Video Unboxing
 
 Kapan pakai:
 > Video membuka paket yang membangun antusiasme
@@ -2238,7 +2238,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-106. Haul Video Concept
+### T-106. Konsep Video Haul
 
 Kapan pakai:
 > Menampilkan beberapa produk sekaligus dalam satu video
@@ -2258,7 +2258,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-107. Side-by-Side Comparison Visual
+### T-107. Visual Perbandingan Berdampingan
 
 Kapan pakai:
 > Visual perbandingan dua produk atau pilihan
@@ -2278,7 +2278,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-108. Myth-Busting Visual Series
+### T-108. Seri Visual Pembongkar Mitos
 
 Kapan pakai:
 > Serial visual yang meluruskan mitos di industri Anda
@@ -2298,7 +2298,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-109. Checklist Graphic Template
+### T-109. Templat Grafis Checklist
 
 Kapan pakai:
 > Grafik daftar periksa yang bisa disimpan pembaca
@@ -2318,7 +2318,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-110. Calendar Graphic Design
+### T-110. Desain Grafis Kalender
 
 Kapan pakai:
 > Grafik kalender konten atau event untuk pembaca
@@ -2338,7 +2338,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-111. Quiz Visual Concept
+### T-111. Konsep Visual Kuis
 
 Kapan pakai:
 > Visual kuis interaktif untuk engagement
@@ -2358,7 +2358,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-112. Challenge Visual Kit
+### T-112. Kit Visual Challenge
 
 Kapan pakai:
 > Materi visual untuk challenge yang diikuti audiens
@@ -2378,7 +2378,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-113. Cover Design System untuk Feed
+### T-113. Sistem Desain Sampul Feed
 
 Kapan pakai:
 > Menyusun sistem sampul agar feed terlihat rapi dan konsisten
@@ -2398,7 +2398,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-114. Thumbnail Formula untuk Video
+### T-114. Formula Thumbnail untuk Video
 
 Kapan pakai:
 > Rumus thumbnail video yang meningkatkan klik
@@ -2418,7 +2418,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-115. B-Roll Shot List Builder
+### T-115. Penyusun Daftar Shot B-Roll
 
 Kapan pakai:
 > Daftar shot pendukung yang perlu direkam
@@ -2438,7 +2438,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-116. Video Storyboard Template
+### T-116. Templat Storyboard Video
 
 Kapan pakai:
 > Menggambar alur video sebelum merekam
@@ -2458,7 +2458,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-117. Lighting Setup Guide untuk Konten Sederhana
+### T-117. Panduan Pencahayaan untuk Konten Sederhana
 
 Kapan pakai:
 > Menyiapkan pencahayaan dengan alat terbatas
@@ -2478,7 +2478,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-118. Prop and Background Checklist
+### T-118. Checklist Properti dan Latar
 
 Kapan pakai:
 > Menyiapkan properti dan latar sebelum merekam
@@ -2498,7 +2498,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-119. Content Styling Consistency Guide
+### T-119. Panduan Konsistensi Gaya Visual Konten
 
 Kapan pakai:
 > Menjaga konsistensi gaya visual antar konten
@@ -2517,7 +2517,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-120. User-Generated Content Campaign
+### T-120. Kampanye UGC
 
 Kapan pakai:
 > Merencanakan campaign yang mendorong UGC
@@ -2538,11 +2538,11 @@ Hasil yang diharapkan:
 
 ---
 
-## Bagian 4: Engagement
+## Bagian 4: Interaksi dan Komunitas
 
 Bagian ini berisi 40 template untuk meningkatkan engagement.
 
-### T-121. Comment Response Templates
+### T-121. Templat Balasan Komentar
 
 Kapan pakai:
 > Membalas komentar followers dengan konsisten
@@ -2563,7 +2563,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-122. DM Response Templates
+### T-122. Templat Balasan DM
 
 Kapan pakai:
 > Membalas direct message dengan professional
@@ -2584,7 +2584,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-123. Poll dan Question Ideas
+### T-123. Ide Polling dan Pertanyaan
 
 Kapan pakai:
 > Membuat interactive content untuk Stories
@@ -2601,11 +2601,11 @@ Sebagai engagement strategist, buatkan 10 ide poll dan question untuk Stories te
 ```
 
 Hasil yang diharapkan:
-> 10 ide interactive content yang engaging
+> 10 ide konten interaktif yang mengundang interaksi
 
 ---
 
-### T-124. Contest dan Giveaway Mechanics
+### T-124. Mekanisme Kontes dan Giveaway
 
 Kapan pakai:
 > Merencanakan contest atau giveaway
@@ -2626,7 +2626,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-125. Community Building Strategy
+### T-125. Strategi Membangun Komunitas
 
 Kapan pakai:
 > Membangun komunitas yang engaged dan loyal
@@ -2639,15 +2639,15 @@ Variabel:
 
 Template:
 ```
-Sebagai community builder, buatkan strategy untuk membangun komunitas [BRAND] di niche [NICHE] menggunakan [PLATFORM]. Goal: [GOAL]. Include: (1) nama komunitas yang memorable, (2) value proposition untuk member, (3) onboarding process untuk member baru, (4) weekly activities dan rituals, (5) moderation guidelines, (6) engagement triggers, (7) growth tactics, (8) metrics untuk track success. Fokus pada building genuine connections, bukan hanya numbers.
+Sebagai pembangun komunitas, buatkan strategi untuk membangun komunitas [BRAND] di bidang [NICHE] menggunakan [PLATFORM]. Tujuan: [GOAL]. Sertakan: (1) nama komunitas yang mudah diingat, (2) manfaat nyata untuk anggota, (3) proses penyambutan anggota baru, (4) kegiatan rutin mingguan dan tradisi komunitas, (5) pedoman moderasi, (6) pemicu interaksi antaranggota, (7) taktik pertumbuhan, (8) metrik untuk mengukur keberhasilan. Fokus pada koneksi yang tulus, bukan sekadar jumlah anggota.
 ```
 
 Hasil yang diharapkan:
-> Strategy komunitas lengkap dengan implementation plan
+> Strategi komunitas lengkap dengan rencana implementasi
 
 ---
 
-### T-126. Question Sticker Strategy
+### T-126. Strategi Stiker Pertanyaan
 
 Kapan pakai:
 > Mengisi Instagram Story dengan pertanyaan interaktif yang mengundang jawaban
@@ -2668,7 +2668,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-127. This or That Content Series
+### T-127. Seri Konten This or That
 
 Kapan pakai:
 > Membuat konten pilihan ganda yang gampang dijawab follower
@@ -2689,7 +2689,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-128. Fill in the Blank Post
+### T-128. Post Isi Titik-Titik
 
 Kapan pakai:
 > Membuat kalimat rumpang yang mengundang komentar kreatif
@@ -2710,7 +2710,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-129. Caption This Challenge
+### T-129. Challenge Tebak Caption
 
 Kapan pakai:
 > Mengubah foto lucu produk jadi konten yang memancing komentar
@@ -2752,7 +2752,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-131. Challenge Campaign Launcher
+### T-131. Peluncur Kampanye Challenge
 
 Kapan pakai:
 > Meluncurkan tantangan multi hari yang membuat audiens ikut berpartisipasi
@@ -2774,7 +2774,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-132. Live Session Planner
+### T-132. Perencana Sesi Live
 
 Kapan pakai:
 > Menyusun alur siaran langsung tanya jawab yang tidak melantur
@@ -2795,7 +2795,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-133. Live Shopping Script
+### T-133. Naskah Live Shopping
 
 Kapan pakai:
 > Menjalankan live shopping yang menjual produk secara terstruktur
@@ -2816,7 +2816,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-134. Feedback Request Campaign
+### T-134. Kampanye Permintaan Masukan
 
 Kapan pakai:
 > Meminta masukan pelanggan dengan cara yang menghasilkan jawaban jujur
@@ -2837,7 +2837,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-135. Customer Survey Design
+### T-135. Desain Survei Pelanggan
 
 Kapan pakai:
 > Menyusun survei pelanggan yang dijawab banyak orang
@@ -2858,7 +2858,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-136. Beta Tester Invitation
+### T-136. Undangan Penguji Beta
 
 Kapan pakai:
 > Mengundang pelanggan setia mencoba produk baru sebelum diluncurkan
@@ -2879,7 +2879,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-137. Ambassador Program Blueprint
+### T-137. Cetak Biru Program Ambassador
 
 Kapan pakai:
 > Membangun program duta merek dari pelanggan yang paling antusias
@@ -2900,7 +2900,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-138. Loyalty Program Announcement
+### T-138. Pengumuman Program Loyalitas
 
 Kapan pakai:
 > Mengumumkan program loyalitas yang membuat pelanggan kembali lagi
@@ -2921,7 +2921,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-139. Referral Program Design
+### T-139. Desain Program Referral
 
 Kapan pakai:
 > Membuat program ajak teman yang saling menguntungkan
@@ -2942,7 +2942,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-140. Birthday dan Anniversary Greeting System
+### T-140. Sistem Ucapan Ulang Tahun dan Hari Jadi
 
 Kapan pakai:
 > Menyapa pelanggan di hari spesial mereka agar merasa dikenal
@@ -2963,7 +2963,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-141. Re-engagement DM Campaign
+### T-141. Kampanye DM Reaktivasi Pelanggan
 
 Kapan pakai:
 > Menghubungi kembali pelanggan yang sudah lama tidak berinteraksi
@@ -2984,7 +2984,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-142. Complaint Handling Response
+### T-142. Balasan Penanganan Komplain
 
 Kapan pakai:
 > Merespons komplain pelanggan dengan cepat dan menjaga reputasi
@@ -3005,7 +3005,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-143. Negative Review Response
+### T-143. Balasan Ulasan Negatif
 
 Kapan pakai:
 > Menjawab ulasan negatif di marketplace atau Google dengan elegan
@@ -3026,7 +3026,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-144. Testimonial Request Message
+### T-144. Pesan Permintaan Testimoni
 
 Kapan pakai:
 > Meminta testimoni dari pelanggan puas tanpa terasa memaksa
@@ -3047,7 +3047,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-145. User Spotlight Series
+### T-145. Seri Sorotan Pengguna
 
 Kapan pakai:
 > Menampilkan cerita pelanggan sebagai konten rutin yang membangun kepercayaan
@@ -3068,7 +3068,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-146. Community Guidelines Document
+### T-146. Dokumen Pedoman Komunitas
 
 Kapan pakai:
 > Menyusun aturan grup atau komunitas agar tetap sehat dan ramah
@@ -3089,7 +3089,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-147. Moderator Handbook
+### T-147. Buku Panduan Moderator
 
 Kapan pakai:
 > Menyiapkan panduan moderator agar pengelolaan komunitas konsisten
@@ -3110,7 +3110,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-148. Welcome Message Series
+### T-148. Seri Pesan Sambutan
 
 Kapan pakai:
 > Menyambut follower atau anggota baru agar segera merasa diterima
@@ -3131,7 +3131,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-149. Ethical Engagement Hooks
+### T-149. Hook Interaksi yang Etis
 
 Kapan pakai:
 > Membuka konten dengan kalimat yang mengundang interaksi tanpa manipulasi
@@ -3152,7 +3152,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-150. Collab Post Strategy
+### T-150. Strategi Post Kolaborasi
 
 Kapan pakai:
 > Memakai fitur kolaborasi Instagram agar konten menjangkau audiens mitra
@@ -3173,7 +3173,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-151. Cross Community Partnership
+### T-151. Kemitraan Antar Komunitas
 
 Kapan pakai:
 > Menjalin kerja sama dengan komunitas lain yang audiensnya cocok
@@ -3194,7 +3194,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-152. Influencer Engagement Outreach
+### T-152. Pendekatan Kolaborasi Influencer
 
 Kapan pakai:
 > Menghubungi kreator konten untuk kerja sama promosi dengan cara yang dibalas
@@ -3215,7 +3215,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-153. Comment Thread Starter
+### T-153. Pemicu Utas Komentar
 
 Kapan pakai:
 > Menulis komentar pembuka di akun besar untuk menarik perhatian audiens baru
@@ -3236,7 +3236,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-154. Story Reply Triage System
+### T-154. Sistem Triage Balasan Story
 
 Kapan pakai:
 > Mengelola balasan story yang masuk banyak agar tidak ada yang terlewat
@@ -3257,7 +3257,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-155. Save dan Share Optimization
+### T-155. Optimasi Simpan dan Bagikan
 
 Kapan pakai:
 > Merancang konten yang memang sengaja disimpan atau dibagikan audiens
@@ -3278,7 +3278,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-156. Response Time SLA Planner
+### T-156. Perencana SLA Waktu Respons
 
 Kapan pakai:
 > Menetapkan standar waktu balas pesan agar pelanggan tidak kabur
@@ -3299,7 +3299,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-157. Engagement Rate Booster Plan
+### T-157. Rencana Peningkatan Engagement Rate
 
 Kapan pakai:
 > Menaikkan engagement rate yang sedang stagnan dalam 30 hari
@@ -3320,7 +3320,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-158. Silent Follower Reactivation
+### T-158. Reaktivasi Pengikut Pasif
 
 Kapan pakai:
 > Membangunkan follower yang tidak pernah berinteraksi sama sekali
@@ -3341,7 +3341,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-159. Post Purchase Follow Up
+### T-159. Tindak Lanjut Setelah Pembelian
 
 Kapan pakai:
 > Menjaga hubungan dengan pembeli setelah transaksi agar repeat order
@@ -3362,7 +3362,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-160. Crisis Communication Templates
+### T-160. Templat Komunikasi Krisis
 
 Kapan pakai:
 > Menangani situasi krisis atau komplain viral
@@ -3383,11 +3383,11 @@ Hasil yang diharapkan:
 
 ---
 
-## Bagian 5: Analytics and Optimization
+## Bagian 5: Analitik dan Optimasi
 
 Bagian ini berisi 40 template untuk analisis dan optimasi.
 
-### T-161. Monthly Performance Report
+### T-161. Laporan Performa Bulanan
 
 Kapan pakai:
 > Membuat laporan performa social media bulanan
@@ -3400,7 +3400,7 @@ Variabel:
 
 Template:
 ```
-Sebagai social media analyst, buatkan template laporan performa [PLATFORM] untuk periode [PERIODE]. Metrics: [METRICS]. Goal: [GOAL]. Include: (1) executive summary (3-5 kalimat), (2) key metrics overview dengan comparison vs bulan lalu, (3) top performing content analysis (5 posts terbaik), (4) underperforming content analysis (3 posts terburuk), (5) audience insights, (6) competitor benchmarking, (7) recommendations untuk bulan depan (5 action items), (8) next month goals. Format dalam bahasa yang mudah dipahami non-technical stakeholders.
+Sebagai analis media sosial, buatkan template laporan performa [PLATFORM] untuk periode [PERIODE]. Metrik: [METRICS]. Tujuan: [GOAL]. Sertakan: (1) ringkasan eksekutif (3-5 kalimat), (2) gambaran umum metrik utama dibanding bulan lalu, (3) analisis konten berperforma terbaik (5 posting teratas), (4) analisis konten berperforma terendah (3 posting terbawah), (5) wawasan tentang audiens, (6) perbandingan dengan kompetitor, (7) rekomendasi untuk bulan depan (5 tindakan), (8) target bulan berikutnya. Gunakan bahasa yang mudah dipahami orang non-teknis.
 ```
 
 Hasil yang diharapkan:
@@ -3408,7 +3408,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-162. A/B Testing Ideas Generator
+### T-162. Generator Ide Pengujian A/B
 
 Kapan pakai:
 > Merencanakan eksperimen untuk optimasi konten
@@ -3425,11 +3425,11 @@ Sebagai growth hacker, buatkan 5 A/B testing ideas untuk [ELEMENT] dengan hypoth
 ```
 
 Hasil yang diharapkan:
-> 5 A/B testing ideas lengkap dengan implementation plan
+> 5 ide pengujian A/B lengkap dengan rencana implementasi
 
 ---
 
-### T-163. Growth Strategy Planner
+### T-163. Perencana Strategi Pertumbuhan
 
 Kapan pakai:
 > Merencanakan strategi pertumbuhan followers
@@ -3442,15 +3442,15 @@ Variabel:
 
 Template:
 ```
-Sebagai growth strategist, buatkan 90-day growth plan untuk [PLATFORM] dari [CURRENT_FOLLOWERS] ke [TARGET_FOLLOWERS]. Resources: [RESOURCES]. Include: (1) current state analysis (strengths/weaknesses/opportunities), (2) growth levers (organic/paid/partnerships), (3) monthly milestones, (4) weekly action items, (5) content strategy adjustments, (6) engagement tactics, (7) collaboration opportunities, (8) budget allocation (jika ada), (9) KPIs untuk track progress, (10) risk mitigation plan. Fokus pada sustainable growth, bukan vanity metrics.
+Sebagai ahli strategi pertumbuhan, buatkan rencana pertumbuhan 90 hari untuk [PLATFORM] dari [CURRENT_FOLLOWERS] ke [TARGET_FOLLOWERS]. Sumber daya: [RESOURCES]. Sertakan: (1) analisis kondisi saat ini (kekuatan/kelemahan/peluang), (2) tuas pertumbuhan (organik/berbayar/kolaborasi), (3) tonggak capaian bulanan, (4) daftar tindakan mingguan, (5) penyesuaian strategi konten, (6) taktik meningkatkan interaksi, (7) peluang kolaborasi, (8) alokasi anggaran (jika ada), (9) KPI untuk memantau kemajuan, (10) rencana mengatasi risiko. Fokus pada pertumbuhan yang berkelanjutan, bukan sekadar angka kosong.
 ```
 
 Hasil yang diharapkan:
-> 90-day growth plan lengkap dengan action items
+> Rencana pertumbuhan 90 hari lengkap dengan daftar tindakan
 
 ---
 
-### T-164. Content Performance Analysis
+### T-164. Analisis Performa Konten
 
 Kapan pakai:
 > Menganalisis kenapa konten tertentu perform baik/buruk
@@ -3463,15 +3463,15 @@ Variabel:
 
 Template:
 ```
-Sebagai content strategist, analisis performa konten [PERIODE]. Top content: [TOP_CONTENT]. Bottom content: [BOTTOM_CONTENT]. Metrics: [METRICS]. Berikan: (1) pattern analysis (apa persamaan top content), (2) anti-pattern analysis (apa persamaan bottom content), (3) audience behavior insights, (4) content format preferences, (5) optimal posting times, (6) hashtag effectiveness, (7) caption length correlation, (8) 5 actionable recommendations untuk improve future content. Gunakan data-driven approach.
+Sebagai perencana konten, analisis performa konten [PERIODE]. Konten terbaik: [TOP_CONTENT]. Konten terlemah: [BOTTOM_CONTENT]. Metrik: [METRICS]. Berikan: (1) analisis pola (apa persamaan konten terbaik), (2) analisis anti-pola (apa persamaan konten terlemah), (3) wawasan perilaku audiens, (4) preferensi format konten, (5) waktu posting paling optimal, (6) efektivitas hashtag, (7) korelasi panjang caption dengan hasil, (8) 5 rekomendasi yang bisa langsung diterapkan untuk konten ke depan. Gunakan pendekatan berbasis data.
 ```
 
 Hasil yang diharapkan:
-> Analisis mendalam dengan actionable insights
+> Analisis mendalam dengan wawasan yang bisa langsung ditindaklanjuti
 
 ---
 
-### T-165. ROI Calculation Template
+### T-165. Templat Perhitungan ROI
 
 Kapan pakai:
 > Menghitung return on investment dari social media efforts
@@ -3484,15 +3484,15 @@ Variabel:
 
 Template:
 ```
-Sebagai marketing analyst, buatkan ROI calculation untuk social media efforts [PERIODE]. Costs: [COSTS]. Revenue: [REVENUE]. Goals: [GOALS]. Include: (1) direct ROI calculation (revenue - costs) / costs x 100%, (2) cost per acquisition (CPA), (3) customer lifetime value (CLV) dari social media, (4) brand value metrics (reach/impressions/mentions), (5) engagement value estimation, (6) comparison vs industry benchmarks, (7) recommendations untuk optimize ROI, (8) projection untuk next period. Present dalam format yang mudah dipahami stakeholders.
+Sebagai analis pemasaran, buatkan perhitungan ROI untuk aktivitas media sosial [PERIODE]. Biaya: [COSTS]. Pendapatan: [REVENUE]. Target: [GOALS]. Sertakan: (1) perhitungan ROI langsung (pendapatan - biaya) / biaya x 100%, (2) biaya per pembelian (CPA), (3) nilai seumur hidup pelanggan (CLV) dari media sosial, (4) metrik nilai merek (jangkauan/tayangan/penyebutan), (5) perkiraan nilai interaksi, (6) perbandingan dengan tolok ukur industri, (7) rekomendasi mengoptimalkan ROI, (8) proyeksi periode berikutnya. Sajikan dalam format yang mudah dipahami pemangku kepentingan.
 ```
 
 Hasil yang diharapkan:
-> ROI report lengkap dengan financial metrics dan recommendations
+> Laporan ROI lengkap dengan metrik keuangan dan rekomendasi
 
 ---
 
-### T-166. Weekly Metrics Tracker
+### T-166. Pelacak Metrik Mingguan
 
 Kapan pakai:
 > Mencatat metrik mingguan agar tren terlihat sejak dini
@@ -3513,7 +3513,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-167. Engagement Rate Calculator
+### T-167. Kalkulator Engagement Rate
 
 Kapan pakai:
 > Menghitung engagement rate dengan benar agar tidak salah banding
@@ -3534,7 +3534,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-168. Follower Growth Analysis
+### T-168. Analisis Pertumbuhan Pengikut
 
 Kapan pakai:
 > Memahami mengapa followers naik atau turun dalam periode tertentu
@@ -3555,7 +3555,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-169. Best Posting Time Analysis
+### T-169. Analisis Waktu Posting Terbaik
 
 Kapan pakai:
 > Menemukan jam posting terbaik dari data sendiri, bukan asumsi umum
@@ -3576,7 +3576,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-170. Hashtag Performance Audit
+### T-170. Audit Performa Hashtag
 
 Kapan pakai:
 > Membersihkan dan mengganti hashtag yang tidak lagi membawa reach
@@ -3589,7 +3589,7 @@ Variabel:
 
 Template:
 ```
-Sebagai hashtag strategist, audit daftar hashtag berikut: [HASHTAG_AKTIF] untuk [BISNIS] di [PLATFORM]. Data hasil: [DATA]. Sertakan: klasifikasi setiap hashtag ke 4 lapis (besar jutaan posting, menengah ratusan ribu, kecil puluhan ribu, sangat kecil atau niche), peran tiap lapis dalam strategi reach, mana yang perlu diganti dan mengapa, 20 usulan hashtag baru yang relevan dengan produk dan target saya, dan aturan pemakaian per posting (berapa hashtag, campuran lapis apa). Ingatkan aturan penggunaan hashtag yang aman dari penalti platform.
+Sebagai ahli strategi hashtag, audit daftar hashtag berikut: [HASHTAG_AKTIF] untuk [BISNIS] di [PLATFORM]. Data hasil: [DATA]. Sertakan: klasifikasi setiap hashtag ke 4 lapis (besar jutaan posting, menengah ratusan ribu, kecil puluhan ribu, sangat kecil atau niche), peran tiap lapis dalam strategi reach, mana yang perlu diganti dan mengapa, 20 usulan hashtag baru yang relevan dengan produk dan target saya, dan aturan pemakaian per posting (berapa hashtag, campuran lapis apa). Ingatkan aturan penggunaan hashtag yang aman dari penalti platform.
 ```
 
 Hasil yang diharapkan:
@@ -3597,7 +3597,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-171. Story Analytics Review
+### T-171. Telaah Analitik Story
 
 Kapan pakai:
 > Mengevaluasi performa story dan memperbaiki urutan konten story
@@ -3618,7 +3618,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-172. Reel dan Video Performance Analysis
+### T-172. Analisis Performa Reel dan Video
 
 Kapan pakai:
 > Mengetahui pola video yang berhasil agar bisa direplikasi
@@ -3639,7 +3639,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-173. Competitor Benchmark Report
+### T-173. Laporan Tolok Ukur Kompetitor
 
 Kapan pakai:
 > Membandingkan posisi Anda dengan pesaing secara jujur
@@ -3660,7 +3660,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-174. Sales Funnel Mapping
+### T-174. Pemetaan Sales Funnel
 
 Kapan pakai:
 > Memetakan perjalanan audiens dari melihat konten sampai membeli
@@ -3681,7 +3681,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-175. CTR Optimization Analysis
+### T-175. Analisis Optimasi CTR
 
 Kapan pakai:
 > Menaikkan jumlah klik dari konten atau iklan dengan memperbaiki elemen pemicu
@@ -3702,7 +3702,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-176. Conversion Tracking Setup
+### T-176. Penyiapan Pelacakan Konversi
 
 Kapan pakai:
 > Menyiapkan pencatatan konversi sederhana tanpa alat mahal
@@ -3723,7 +3723,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-177. UTM Builder dan Tracking Guide
+### T-177. Panduan Pembuat dan Pelacak UTM
 
 Kapan pakai:
 > Memberi tanda pada setiap tautan agar tahu sumber trafik yang benar
@@ -3744,7 +3744,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-178. Customer Acquisition Cost Calculator
+### T-178. Kalkulator Biaya Akuisisi Pelanggan
 
 Kapan pakai:
 > Menghitung biaya mendapatkan satu pembeli agar tidak jual rugi
@@ -3765,7 +3765,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-179. Customer Lifetime Value Estimator
+### T-179. Perkiraan Nilai Seumur Hidup Pelanggan
 
 Kapan pakai:
 > Mengestimasi nilai jangka panjang satu pelanggan untuk keputusan promosi
@@ -3786,7 +3786,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-180. Ads Budget Allocation Planner
+### T-180. Perencana Alokasi Anggaran Iklan
 
 Kapan pakai:
 > Membagi anggaran iklan ke kanal dan tujuan yang tepat
@@ -3807,7 +3807,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-181. Growth Forecast Model
+### T-181. Model Proyeksi Pertumbuhan
 
 Kapan pakai:
 > Membuat proyeksi pertumbuhan yang realistis untuk 3 bulan ke depan
@@ -3828,7 +3828,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-182. KPI Dashboard Setup
+### T-182. Penyiapan Dasbor KPI
 
 Kapan pakai:
 > Menyusun satu halaman pantauan berisi angka yang paling menentukan
@@ -3849,7 +3849,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-183. Sentiment Analysis Report
+### T-183. Laporan Analisis Sentimen
 
 Kapan pakai:
 > Mengetahui kesan publik terhadap merek dari komentar dan pesan
@@ -3870,7 +3870,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-184. Experiment Log System
+### T-184. Sistem Catatan Eksperimen
 
 Kapan pakai:
 > Mencatat uji coba konten agar pembelajaran tidak hilang
@@ -3891,7 +3891,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-185. Quarterly Review Framework
+### T-185. Kerangka Telaah Kuartalan
 
 Kapan pakai:
 > Menilai capaian tiga bulan dan menyusun arah kuartal berikutnya
@@ -3904,15 +3904,15 @@ Variabel:
 
 Template:
 ```
-Sebagai strategy review facilitator, fasilitasi review kuartalan [KUARTAL] untuk [BISNIS]. Goal awal: [GOAL]. Capaian: [CAPAIAN]. Sertakan: skor capaian per goal dengan bukti angka, analisis kenapa tiap goal tercapai atau tidak (faktor internal dan eksternal), pembelajaran yang harus dibawa ke kuartal berikutnya, keputusan berhenti, lanjut, atau ubah untuk tiap inisiatif, draf 3 goal kuartal berikutnya dengan metrik pengukuran, dan daftar pertanyaan hard untuk evaluasi diri yang tidak membolehkan jawaban mengambang.
+Sebagai fasilitator telaah strategi, fasilitasi telaah kuartalan [KUARTAL] untuk [BISNIS]. Goal awal: [GOAL]. Capaian: [CAPAIAN]. Sertakan: skor capaian per goal dengan bukti angka, analisis kenapa tiap goal tercapai atau tidak (faktor internal dan eksternal), pembelajaran yang harus dibawa ke kuartal berikutnya, keputusan berhenti, lanjut, atau ubah untuk tiap inisiatif, draf 3 goal kuartal berikutnya dengan metrik pengukuran, dan daftar pertanyaan berat untuk evaluasi diri yang tidak membolehkan jawaban mengambang.
 ```
 
 Hasil yang diharapkan:
-> Kerangka review kuartalan dengan keputusan per inisiatif dan draf goal baru
+> Kerangka telaah kuartalan dengan keputusan per inisiatif dan draf target baru
 
 ---
 
-### T-186. Content Gap Analysis
+### T-186. Analisis Kesenjangan Konten
 
 Kapan pakai:
 > Menemukan topik yang dicari audiens tetapi belum Anda buat
@@ -3933,7 +3933,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-187. Audience Insights Deep Dive
+### T-187. Bedah Mendalam Wawasan Audiens
 
 Kapan pakai:
 > Memahami siapa yang benar benar mengikuti dan membeli dari Anda
@@ -3954,7 +3954,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-188. Reach Decline Diagnosis
+### T-188. Diagnosis Penurunan Jangkauan
 
 Kapan pakai:
 > Mendiagnosis mengapa reach turun drastis dan cara pulihkannya
@@ -3975,7 +3975,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-189. Baseline Benchmark Builder
+### T-189. Penyusun Tolok Ukur Dasar
 
 Kapan pakai:
 > Menetapkan angka dasar untuk mengukur kemajuan ke depan
@@ -3996,7 +3996,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-190. Traffic Attribution Report
+### T-190. Laporan Atribusi Trafik
 
 Kapan pakai:
 > Mengetahui konten atau kanal mana yang benar benar mendatangkan pembeli
@@ -4017,7 +4017,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-191. Cohort Analysis Guide
+### T-191. Panduan Analisis Kohort
 
 Kapan pakai:
 > Mengelompokkan pelanggan per bulan masuk untuk melihat siapa yang bertahan
@@ -4038,7 +4038,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-192. Conversion Rate Optimization Checklist
+### T-192. Checklist Optimasi Tingkat Konversi
 
 Kapan pakai:
 > Memeriksa titik titik yang menghambat pengunjung menjadi pembeli
@@ -4059,7 +4059,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-193. Monthly Ads Performance Report
+### T-193. Laporan Performa Iklan Bulanan
 
 Kapan pakai:
 > Melaporkan hasil iklan bulanan dengan bahasa yang bisa dipahami pemilik usaha
@@ -4080,7 +4080,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-194. Content ROI Ranking
+### T-194. Peringkat ROI Konten
 
 Kapan pakai:
 > Mengurutkan konten dari yang paling menghasilkan agar bisa direplikasi
@@ -4101,7 +4101,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-195. Dashboard Review Meeting Agenda
+### T-195. Agenda Rapat Telaah Dasbor
 
 Kapan pakai:
 > Menjalankan rapat pantauan angka mingguan yang tidak buang waktu
@@ -4122,7 +4122,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-196. Insights to Action Translator
+### T-196. Penerjemah Wawasan ke Tindakan
 
 Kapan pakai:
 > Mengubah data yang sudah dikumpulkan menjadi keputusan konkret
@@ -4143,7 +4143,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-197. Platform Comparison Report
+### T-197. Laporan Perbandingan Platform
 
 Kapan pakai:
 > Memutuskan platform mana yang layak difokuskan dan mana yang dilepas
@@ -4164,7 +4164,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-198. Data Collection Checklist
+### T-198. Checklist Pengumpulan Data
 
 Kapan pakai:
 > Menyiapkan daftar data yang harus dicatat sejak sekarang agar analisis bisa jalan
@@ -4185,7 +4185,7 @@ Hasil yang diharapkan:
 
 ---
 
-### T-199. Annual Metrics Summary
+### T-199. Rekap Metrik Tahunan
 
 Kapan pakai:
 > Merangkum capaian setahun menjadi dokumen ringkas untuk refleksi
@@ -4220,11 +4220,11 @@ Variabel:
 
 Template:
 ```
-Sebagai marketing director, buatkan annual strategy review untuk social media [TAHUN_INI] dan planning [TAHUN_DEPAN]. Achievements: [ACHIEVEMENTS]. Challenges: [CHALLENGES]. Goals: [GOALS_DEPAN]. Include: (1) year in review (key metrics dan milestones), (2) what worked well (5 success factors), (3) what didn't work (5 lessons learned), (4) competitive landscape changes, (5) industry trends untuk tahun depan, (6) strategic priorities (3-5 focus areas), (7) quarterly goals dan initiatives, (8) resource requirements (budget/team/tools), (9) risk assessment dan mitigation, (10) success metrics dan tracking plan. Make it comprehensive yet actionable.
+Sebagai direktur pemasaran, buatkan telaah strategi tahunan media sosial untuk [TAHUN_INI] dan perencanaan [TAHUN_DEPAN]. Pencapaian: [ACHIEVEMENTS]. Tantangan: [CHALLENGES]. Target: [GOALS_DEPAN]. Sertakan: (1) rekap setahun (metrik utama dan momen penting), (2) apa yang berhasil (5 faktor keberhasilan), (3) apa yang tidak berhasil (5 pelajaran), (4) perubahan lanskap kompetisi, (5) tren industri untuk tahun depan, (6) prioritas strategis (3-5 fokus utama), (7) target per kuartal dan inisiatifnya, (8) kebutuhan sumber daya (anggaran/tim/peralatan), (9) penilaian risiko dan cara menguranginya, (10) metrik keberhasilan dan rencana pemantauan. Buat lengkap tapi tetap bisa langsung dieksekusi.
 ```
 
 Hasil yang diharapkan:
-> Annual review dan strategic plan lengkap
+> Telaah tahunan dan rencana strategis lengkap
 
 ---
 
