@@ -96,7 +96,7 @@ POV: Kamu finally nemu serum vitamin C yang nggak bikin breakout.
 Rp 120.000. Link di bio ya!
 \`\`\`
 
-**Perbandingan:** ChatGPT lebih edukatif dan detail, cocok untuk audience yang suka baca panjang. Gemini lebih casual dan relatable, cocok untuk Gen Z. Pilih sesuai target audience Anda.
+**Perbandingan:** ChatGPT lebih edukatif dan detail, cocok untuk audiens yang suka baca panjang. Gemini lebih casual dan relatable, cocok untuk Gen Z. Pilih sesuai target audiens Anda.
 
 ---
 
@@ -143,7 +143,7 @@ Daftar sekarang sebelum harga naik Jumat malam.
     content: `
 ## Contoh Output AI untuk Bagian 3
 
-### P-101. Welcome Email Sequence (Contoh Output)
+### P-121. Sekuens Email Sambutan (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: Toko online fashion wanita, customer baru dapat diskon 10% untuk pembelian pertama, brand voice friendly dan profesional.
@@ -188,10 +188,10 @@ Tim [Nama Brand]
 
 ---
 
-### P-115. Balasan Otomatis Facebook Messenger (Contoh Output)
+### P-124. Email Keranjang Ditinggalkan (Contoh Output)
 
 **Input yang dipakai:**
-Toko online elektronik, customer meninggalkan keranjang berisi headphone wireless Rp 450.000, email dikirim 2 jam setelah abandonment.
+Toko online elektronik, customer meninggalkan keranjang berisi headphone wireless Rp 450.000, email dikirim 2 jam setelah keranjang ditinggalkan.
 
 **Output ChatGPT:**
 \`\`\`
@@ -233,7 +233,7 @@ Ada pertanyaan? Chat kami sekarang.
 Tim [Nama Toko]
 \`\`\`
 
-**Perbandingan:** ChatGPT lebih persuasif dengan menangani objection secara proaktif. Gemini lebih singkat dan create urgency. Untuk abandoned cart, keduanya efektif, tapi ChatGPT biasanya punya conversion rate lebih tinggi karena lebih lengkap.
+**Perbandingan:** ChatGPT lebih persuasif dengan menangani objection secara proaktif. Gemini lebih singkat dan langsung menciptakan urgensi. Untuk email keranjang ditinggalkan, keduanya efektif, tapi ChatGPT biasanya punya conversion rate lebih tinggi karena lebih lengkap.
 `
   },
   {
@@ -241,7 +241,7 @@ Tim [Nama Toko]
     content: `
 ## Contoh Output AI untuk Bagian 4
 
-### P-151. Email Ucapan Hari Besar (Contoh Output)
+### P-171. Hero Section Landing Page (Contoh Output)
 
 **Input yang dipakai:**
 Produk: Software akuntansi untuk UMKM, harga Rp 99.000/bulan, fitur: invoice otomatis, laporan keuangan, integrasi bank, target pemilik UMKM yang belum pakai software akuntansi.
@@ -268,11 +268,11 @@ CTA: Mulai Coba Gratis
 Social proof: 5.000+ UMKM sudah pakai. Rating 4.8/5.
 \`\`\`
 
-**Perbandingan:** ChatGPT lebih profesional dan detail, cocok untuk B2B. Gemini lebih relatable dan emosional, cocok untuk UMKM yang frustrated dengan pembukuan manual. Pilih sesuai brand voice Anda.
+**Perbandingan:** ChatGPT lebih profesional dan detail, cocok untuk B2B. Gemini lebih relatable dan emosional, cocok untuk UMKM yang frustrasi dengan pembukuan manual. Pilih sesuai brand voice Anda.
 
 ---
 
-### P-165. Email Langkah Onboarding (Contoh Output)
+### P-178. Bagian Testimoni Landing Page (Contoh Output)
 
 **Input yang dipakai:**
 Produk: Kursus online copywriting, 3 testimoni dari alumni yang berhasil dapat klien setelah lulus.
@@ -288,7 +288,7 @@ Produk: Kursus online copywriting, 3 testimoni dari alumni yang berhasil dapat k
 "Saya ikut kursus ini buat nulis iklan produk sendiri. Hasilnya? Conversion rate naik 40% dalam sebulan. ROI-nya luar biasa."
 
 ### Sarah, Content Creator
-"Saya kira copywriting cuma buat iklan. Ternyata skill ini berguna untuk caption Instagram, script YouTube, bahkan proposal klien. Best investment tahun ini."
+"Saya kira copywriting cuma buat iklan. Ternyata skill ini berguna untuk caption Instagram, naskah YouTube, bahkan proposal klien. Investasi terbaik tahun ini."
 \`\`\`
 
 **Output Gemini:**
@@ -302,10 +302,10 @@ Produk: Kursus online copywriting, 3 testimoni dari alumni yang berhasil dapat k
 "Conversion rate toko online saya naik 40% setelah pakai teknik dari modul 3. Kursus ini bayar sendiri dalam seminggu."
 
 **Sarah, 26 tahun, Bandung**
-"Skill copywriting berguna untuk semua konten saya: Instagram, YouTube, proposal klien. Worth every rupiah."
+"Skill copywriting berguna untuk semua konten saya: Instagram, YouTube, proposal klien. Sepadan dengan setiap rupiah."
 \`\`\`
 
-**Perbandingan:** ChatGPT lebih formal dan detail. Gemini lebih personal dengan tambahan info demografis. Untuk testimonial, Gemini biasanya lebih relatable karena formatnya seperti cerita nyata.
+**Perbandingan:** ChatGPT lebih formal dan detail. Gemini lebih personal dengan tambahan info demografis. Untuk testimoni, Gemini biasanya lebih relatable karena formatnya seperti cerita nyata.
 `
   },
   {
@@ -507,7 +507,7 @@ Urutan persuasi untuk landing page membership:
 
 **Output Gemini:**
 \`\`\`
-Urutan persuasi untuk email sequence:
+Urutan persuasi untuk rangkaian email:
 
 Email 1 (Problem):
 "Kenapa copy Anda nggak convert? Bukan karena salah grammar. Bukan karena salah struktur. Tapi karena Anda nulis sendirian tanpa feedback."
@@ -522,7 +522,7 @@ Email 4 (CTA):
 "Rp 199.000 per bulan. Lebih murah dari 1 buku copywriting. Tapi hasilnya? Jauh lebih besar. Join sekarang."
 \`\`\`
 
-**Perbandingan:** ChatGPT lebih cocok untuk landing page dengan struktur AIDA yang jelas. Gemini lebih cocok untuk email sequence dengan storytelling. Pilih sesuai channel yang Anda pakai.
+**Perbandingan:** ChatGPT lebih cocok untuk landing page dengan struktur AIDA yang jelas. Gemini lebih cocok untuk rangkaian email dengan storytelling. Pilih sesuai channel yang Anda pakai.
 `
   }
 ];

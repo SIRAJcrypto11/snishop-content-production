@@ -105,6 +105,16 @@ const hashtags = [
   ['Kesehatan', '#sehat #fitness', '#gayahidupsehat #fitnessindonesia #olahraga', '#trainersurabaya #dietberbudaya #senamrumah'],
 ];
 
+const glossaryStart = md.indexOf('### Lampiran F: Daftar Variabel yang Sering Dipakai');
+if (glossaryStart < 0) throw new Error('Lampiran F not found in basic manuscript');
+const varRows = [];
+for (const m of md.slice(glossaryStart).matchAll(/^\| \[(.+?)\] \| (.+?) \| (.+?) \|$/gm)) {
+  varRows.push([`[${m[1]}]`, m[2], m[3]]);
+}
+if (varRows.length !== 35) {
+  throw new Error(`Expected 35 glossary rows from Lampiran F, parsed ${varRows.length}`);
+}
+
 const workbook = {
   title: '200 Template AI untuk Social Media Management',
   sheets: [
@@ -143,12 +153,18 @@ const workbook = {
       headers: ['Butir Periksa', 'Kriteria', 'Status'],
       rows: checklist,
     },
+    {
+      name: 'Daftar Variabel',
+      headers: ['Variabel', 'Arti', 'Contoh'],
+      rows: varRows,
+    },
   ],
 };
 
 fs.writeFileSync(outPath, JSON.stringify(workbook, null, 2));
 console.log(`Workbook written: ${outPath}`);
 console.log(`Perpustakaan Templat rows: ${rows.length} (first: ${rows[0][0]}, last: ${rows[rows.length - 1][0]})`);
+console.log(`Daftar Variabel rows: ${varRows.length}`);
 const bagianCounts = {};
 rows.forEach((r) => { bagianCounts[r[1]] = (bagianCounts[r[1]] || 0) + 1; });
 console.log('Per bagian:', JSON.stringify(bagianCounts));

@@ -13,17 +13,12 @@
         {
           "file": "products\\150-prompt-umkm-basic-basic.pdf",
           "kind": "pdf",
-          "bytes": 1688184
-        },
-        {
-          "file": "products\\150-prompt-umkm-basic-basic-flyer.pdf",
-          "kind": "flyer",
-          "bytes": 1158402
+          "bytes": 1688410
         }
       ],
-      "wordCount": 25089,
+      "wordCount": 25118,
       "pages": 82,
-      "producedAt": "2026-10-22T20:37:21.736Z",
+      "producedAt": "2026-10-22T21:13:57.204Z",
       "status": "produced"
     },
     {
@@ -39,22 +34,17 @@
         {
           "file": "products\\150-prompt-umkm-premium-premium.pdf",
           "kind": "pdf",
-          "bytes": 1971283
+          "bytes": 1971636
         },
         {
           "file": "products\\150-prompt-umkm-premium-premium.xlsx",
           "kind": "excel",
           "bytes": 53397
-        },
-        {
-          "file": "products\\150-prompt-umkm-premium-premium-flyer.pdf",
-          "kind": "flyer",
-          "bytes": 1160031
         }
       ],
-      "wordCount": 32887,
+      "wordCount": 32916,
       "pages": 110,
-      "producedAt": "2026-10-22T20:35:22.624Z",
+      "producedAt": "2026-10-22T21:14:05.541Z",
       "status": "produced"
     },
     {
@@ -70,22 +60,17 @@
         {
           "file": "products\\150-prompt-umkm-ultimate-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 2105281
+          "bytes": 2106085
         },
         {
           "file": "products\\150-prompt-umkm-ultimate-ultimate.xlsx",
           "kind": "excel",
           "bytes": 53397
-        },
-        {
-          "file": "products\\150-prompt-umkm-ultimate-ultimate-flyer.pdf",
-          "kind": "flyer",
-          "bytes": 1160041
         }
       ],
-      "wordCount": 35677,
+      "wordCount": 35706,
       "pages": 120,
-      "producedAt": "2026-10-22T20:35:36.626Z",
+      "producedAt": "2026-10-22T21:14:13.740Z",
       "status": "produced"
     },
     {
@@ -101,17 +86,12 @@
         {
           "file": "products\\300-prompt-copywriting-basic-basic.pdf",
           "kind": "pdf",
-          "bytes": 3257823
-        },
-        {
-          "file": "products\\300-prompt-copywriting-basic-basic-flyer.pdf",
-          "kind": "flyer",
-          "bytes": 1158574
+          "bytes": 3257822
         }
       ],
-      "wordCount": 37820,
+      "wordCount": 37819,
       "pages": 197,
-      "producedAt": "2026-10-22T20:35:50.554Z",
+      "producedAt": "2026-10-22T21:14:30.166Z",
       "status": "produced"
     },
     {
@@ -127,22 +107,17 @@
         {
           "file": "products\\300-prompt-copywriting-premium-premium.pdf",
           "kind": "pdf",
-          "bytes": 3360654
+          "bytes": 3360103
         },
         {
           "file": "products\\300-prompt-copywriting-premium-premium.xlsx",
           "kind": "excel",
           "bytes": 66465
-        },
-        {
-          "file": "products\\300-prompt-copywriting-premium-premium-flyer.pdf",
-          "kind": "flyer",
-          "bytes": 1159815
         }
       ],
-      "wordCount": 40430,
+      "wordCount": 40434,
       "pages": 209,
-      "producedAt": "2026-10-22T20:36:07.015Z",
+      "producedAt": "2026-10-22T21:14:38.867Z",
       "status": "produced"
     },
     {
@@ -158,22 +133,17 @@
         {
           "file": "products\\300-prompt-copywriting-ultimate-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 3518740
+          "bytes": 3518677
         },
         {
           "file": "products\\300-prompt-copywriting-ultimate-ultimate.xlsx",
           "kind": "excel",
           "bytes": 66466
-        },
-        {
-          "file": "products\\300-prompt-copywriting-ultimate-ultimate-flyer.pdf",
-          "kind": "flyer",
-          "bytes": 1162005
         }
       ],
-      "wordCount": 42643,
+      "wordCount": 42647,
       "pages": 220,
-      "producedAt": "2026-10-22T20:36:22.441Z",
+      "producedAt": "2026-10-22T21:14:48.552Z",
       "status": "produced"
     },
     {
@@ -189,17 +159,12 @@
         {
           "file": "products\\200-template-sosmed-basic-basic.pdf",
           "kind": "pdf",
-          "bytes": 2161527
-        },
-        {
-          "file": "products\\200-template-sosmed-basic-basic-flyer.pdf",
-          "kind": "flyer",
-          "bytes": 1157418
+          "bytes": 2311631
         }
       ],
-      "wordCount": 24255,
-      "pages": 124,
-      "producedAt": "2026-10-22T20:36:35.402Z",
+      "wordCount": 25847,
+      "pages": 130,
+      "producedAt": "2026-10-22T21:15:01.602Z",
       "status": "produced"
     },
     {
@@ -215,22 +180,17 @@
         {
           "file": "products\\200-template-sosmed-premium-premium.pdf",
           "kind": "pdf",
-          "bytes": 2329822
+          "bytes": 2474723
         },
         {
           "file": "products\\200-template-sosmed-premium-premium.xlsx",
           "kind": "excel",
-          "bytes": 71332
-        },
-        {
-          "file": "products\\200-template-sosmed-premium-premium-flyer.pdf",
-          "kind": "flyer",
-          "bytes": 1158978
+          "bytes": 73666
         }
       ],
-      "wordCount": 30702,
-      "pages": 147,
-      "producedAt": "2026-10-22T20:36:47.241Z",
+      "wordCount": 32284,
+      "pages": 152,
+      "producedAt": "2026-10-22T21:15:11.333Z",
       "status": "produced"
     },
     {
@@ -246,22 +206,17 @@
         {
           "file": "products\\200-template-sosmed-ultimate-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 2538271
+          "bytes": 2617492
         },
         {
           "file": "products\\200-template-sosmed-ultimate-ultimate.xlsx",
           "kind": "excel",
-          "bytes": 71332
-        },
-        {
-          "file": "products\\200-template-sosmed-ultimate-ultimate-flyer.pdf",
-          "kind": "flyer",
-          "bytes": 1159171
+          "bytes": 73666
         }
       ],
-      "wordCount": 34372,
-      "pages": 160,
-      "producedAt": "2026-10-22T20:37:01.982Z",
+      "wordCount": 35267,
+      "pages": 163,
+      "producedAt": "2026-10-22T21:15:20.344Z",
       "status": "produced"
     }
   ]

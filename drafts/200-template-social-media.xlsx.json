@@ -17,18 +17,18 @@
           "T-001",
           "Bagian 1: Perencanaan Konten",
           "Kalender Konten Bulanan",
-          "Membuat planning konten untuk 1 bulan penuh",
-          "Sebagai perencana konten media sosial, buatkan kalender konten 30 hari untuk [BISNIS] di [PLATFORM]. Posting [FREKUENSI] kali per minggu dengan tujuan [GOAL]. Pilar konten: [PILLAR]. Buat tabel dengan kolom: Tanggal, Hari, Pilar Konten, Ide Konten, Format (gambar/video/carousel/story), Kalimat Pembuka Caption, dan CTA. Variasikan format dan pastikan ada minimal 2 konten edukatif, 1 konten promosi, dan 1 konten pemicu interaksi per minggu.",
-          "[BISNIS]: jenis bisnis Anda; [PLATFORM]: platform yang digunakan (Instagram/Facebook/TikTok); [FREKUENSI]: berapa kali posting per minggu; [GOAL]: tujuan bulan ini (awareness/sales/engagement); [PILLAR]: 3-5 content pillar bisnis Anda",
-          "Tabel content calendar 30 hari lengkap dengan detail setiap posting"
+          "Membuat perencanaan konten untuk 1 bulan penuh",
+          "Sebagai perencana konten media sosial, buatkan kalender konten 30 hari untuk [BISNIS] di [PLATFORM]. Posting [FREKUENSI] kali per minggu dengan tujuan [TUJUAN]. Pilar konten: [PILLAR]. Buat tabel dengan kolom: Tanggal, Hari, Pilar Konten, Ide Konten, Format (gambar/video/carousel/story), Kalimat Pembuka Caption, dan CTA. Variasikan format dan pastikan ada minimal 2 konten edukatif, 1 konten promosi, dan 1 konten pemicu interaksi per minggu.",
+          "[BISNIS]: jenis bisnis Anda; [PLATFORM]: platform yang digunakan (Instagram/Facebook/TikTok); [FREKUENSI]: berapa kali posting per minggu; [TUJUAN]: tujuan bulan ini (awareness/penjualan/engagement); [PILLAR]: 3-5 pilar konten bisnis Anda",
+          "Tabel kalender konten 30 hari lengkap dengan detail setiap posting"
         ],
         [
           "T-002",
           "Bagian 1: Perencanaan Konten",
           "Pengembangan Pilar Konten",
           "Menentukan 3-5 topik utama untuk konten Anda",
-          "Sebagai brand strategist, tentukan 5 content pillar untuk [BISNIS] yang menjual [PRODUK] kepada [TARGET]. Keahlian kami adalah [KEAHLIAN]. Setiap pillar harus: (1) relevan dengan audience, (2) menunjukkan expertise, (3) mendukung goal bisnis, (4) bisa diproduksi konsisten. Untuk setiap pillar, berikan: nama pillar, deskripsi, contoh 5 ide konten, dan persentase alokasi dari total konten bulanan.",
-          "[BISNIS]: jenis bisnis Anda; [PRODUK]: produk/jasa yang dijual; [TARGET]: target audience; [KEAHLIAN]: keahlian atau unique selling point",
+          "Sebagai brand strategist, tentukan 5 content pillar untuk [BISNIS] yang menjual [PRODUK] kepada [AUDIENS]. Keahlian kami adalah [KEAHLIAN]. Setiap pillar harus: (1) relevan dengan audience, (2) menunjukkan expertise, (3) mendukung goal bisnis, (4) bisa diproduksi konsisten. Untuk setiap pillar, berikan: nama pillar, deskripsi, contoh 5 ide konten, dan persentase alokasi dari total konten bulanan.",
+          "[BISNIS]: jenis bisnis Anda; [PRODUK]: produk/jasa yang dijual; [AUDIENS]: pembeli atau pengikut yang dituju; [KEAHLIAN]: keahlian atau unique selling point",
           "5 content pillar lengkap dengan contoh ide dan alokasi persentase"
         ],
         [
@@ -36,16 +36,16 @@
           "Bagian 1: Perencanaan Konten",
           "Ringkasan Riset Audiens",
           "Memahami karakteristik dan kebutuhan audience Anda",
-          "Sebagai market researcher, buatkan profil audience untuk [BISNIS] yang menjual [PRODUK] kepada usia [USIA] di [LOKASI]. Include: (1) demographic profile, (2) psychographic traits, (3) pain points dan challenges, (4) goals dan aspirations, (5) social media behavior (platform favorit, waktu aktif, jenis konten yang disukai), (6) buying triggers dan objections, (7) 5 persona berbeda dengan nama dan cerita singkat.",
-          "[BISNIS]: jenis bisnis Anda; [PRODUK]: produk/jasa yang dijual; [USIA]: range usia target audience; [LOKASI]: lokasi geografis target",
+          "Sebagai market researcher, buatkan profil audience untuk [BISNIS] yang menjual [PRODUK] kepada usia [USIA] di [LOKASI]. Sertakan: (1) demographic profile, (2) psychographic traits, (3) pain points dan challenges, (4) goals dan aspirations, (5) media sosial behavior (platform favorit, waktu aktif, jenis konten yang disukai), (6) buying triggers dan objections, (7) 5 persona berbeda dengan nama dan cerita singkat.",
+          "[BISNIS]: jenis bisnis Anda; [PRODUK]: produk/jasa yang dijual; [USIA]: rentang usia audiens yang dituju; [LOKASI]: lokasi geografis target",
           "Profil audience lengkap dengan 5 persona berbeda"
         ],
         [
           "T-004",
           "Bagian 1: Perencanaan Konten",
           "Analisis Kompetitor",
-          "Menganalisis strategi social media kompetitor",
-          "Sebagai competitive intelligence analyst, analisis strategi social media [KOMPETITOR_1], [KOMPETITOR_2], dan [KOMPETITOR_3] di [PLATFORM] untuk bisnis [BISNIS]. Buat tabel perbandingan dengan kolom: Nama Kompetitor, Followers, Engagement Rate, Frekuensi Posting, Jenis Konten Dominan, Tone of Voice, Hashtag Strategy, Kekuatan, Kelemahan, dan Peluang untuk [BISNIS]. Berikan 5 rekomendasi strategi yang bisa kita adopsi atau diferensiasi.",
+          "Menganalisis strategi media sosial kompetitor",
+          "Sebagai competitive intelligence analyst, analisis strategi media sosial [KOMPETITOR_1], [KOMPETITOR_2], dan [KOMPETITOR_3] di [PLATFORM] untuk bisnis [BISNIS]. Buat tabel perbandingan dengan kolom: Nama Kompetitor, Followers, Engagement Rate, Frekuensi Posting, Jenis Konten Dominan, Tone of Voice, Hashtag Strategy, Kekuatan, Kelemahan, dan Peluang untuk [BISNIS]. Berikan 5 rekomendasi strategi yang bisa kita adopsi atau diferensiasi.",
           "[BISNIS]: jenis bisnis Anda; [KOMPETITOR_1]: nama kompetitor pertama; [KOMPETITOR_2]: nama kompetitor kedua; [KOMPETITOR_3]: nama kompetitor ketiga; [PLATFORM]: platform yang dianalisis",
           "Tabel analisis kompetitor lengkap dengan rekomendasi strategi"
         ],
@@ -54,8 +54,8 @@
           "Bagian 1: Perencanaan Konten",
           "Batch Konten Mingguan",
           "Membuat 7 ide konten dalam sekali duduk",
-          "Sebagai content creator, buatkan 7 ide konten untuk [BISNIS] minggu ini. Content pillar: [PILLAR]. Goal: [GOAL]. Event: [EVENT]. Untuk setiap ide, berikan: (1) judul/hook, (2) format (image/video/carousel/story), (3) angle unik, (4) CTA yang sesuai, (5) estimasi waktu produksi. Variasikan antara konten edukatif, inspiratif, entertaining, dan promotif.",
-          "[BISNIS]: jenis bisnis Anda; [PILLAR]: content pillar minggu ini; [GOAL]: tujuan minggu ini; [EVENT]: event atau momen spesial (jika ada)",
+          "Sebagai content creator, buatkan 7 ide konten untuk [BISNIS] minggu ini. Content pillar: [PILLAR]. Goal: [TUJUAN]. Event: [EVENT]. Untuk setiap ide, berikan: (1) judul/hook, (2) format (image/video/carousel/story), (3) angle unik, (4) CTA yang sesuai, (5) estimasi waktu produksi. Variasikan antara konten edukatif, inspiratif, entertaining, dan promotif.",
+          "[BISNIS]: jenis bisnis Anda; [PILLAR]: content pillar minggu ini; [TUJUAN]: tujuan minggu ini; [EVENT]: event atau momen spesial (jika ada)",
           "7 ide konten lengkap dengan detail produksi"
         ],
         [
@@ -63,8 +63,8 @@
           "Bagian 1: Perencanaan Konten",
           "Perencana Tema Bulanan",
           "Menentukan tema besar untuk konten satu bulan penuh",
-          "Sebagai social media strategist, tentukan tema konten untuk [BISNIS] sepanjang [BULAN]. Goal bulan ini: [GOAL]. Momen penting: [MOMEN]. Buat 4 tema mingguan yang saling terhubung, untuk setiap tema berikan: nama tema, alasan pemilihan, 5 ide konten, format yang disarankan, dan cara mengukur keberhasilannya. Pastikan tema minggu terakhir mengarah ke konversi penjualan.",
-          "[BISNIS]: jenis bisnis Anda; [BULAN]: bulan yang direncanakan; [GOAL]: target bisnis bulan itu; [MOMEN]: momen penting dalam bulan tersebut",
+          "Sebagai media sosial strategist, tentukan tema konten untuk [BISNIS] sepanjang [BULAN]. Goal bulan ini: [TUJUAN]. Momen penting: [MOMEN]. Buat 4 tema mingguan yang saling terhubung, untuk setiap tema berikan: nama tema, alasan pemilihan, 5 ide konten, format yang disarankan, dan cara mengukur keberhasilannya. Pastikan tema minggu terakhir mengarah ke konversi penjualan.",
+          "[BISNIS]: jenis bisnis Anda; [BULAN]: bulan yang direncanakan; [TUJUAN]: target bisnis bulan itu; [MOMEN]: momen penting dalam bulan tersebut",
           "4 tema mingguan dengan ide konten dan metrik keberhasilan"
         ],
         [
@@ -72,8 +72,8 @@
           "Bagian 1: Perencanaan Konten",
           "Kalkulator Rasio Campuran Konten",
           "Menentukan porsi konten edukasi, promosi, dan hiburan",
-          "Sebagai social media planner, hitung rasio konten ideal untuk [BISNIS] di [PLATFORM] dengan goal [GOAL]. Bagi konten menjadi 4 kategori: edukasi, inspirasi, hiburan, dan promosi. Berikan persentase ideal untuk setiap kategori beserta alasannya, contoh topik untuk masing-masing kategori, dan jadwal seminggu yang menerapkan rasio tersebut. Jelaskan juga tanda-tanda rasio perlu diubah.",
-          "[BISNIS]: jenis bisnis Anda; [PLATFORM]: platform utama; [GOAL]: goal utama (awareness/sales/community)",
+          "Sebagai media sosial planner, hitung rasio konten ideal untuk [BISNIS] di [PLATFORM] dengan goal [TUJUAN]. Bagi konten menjadi 4 kategori: edukasi, inspirasi, hiburan, dan promosi. Berikan persentase ideal untuk setiap kategori beserta alasannya, contoh topik untuk masing-masing kategori, dan jadwal seminggu yang menerapkan rasio tersebut. Jelaskan juga tanda-tanda rasio perlu diubah.",
+          "[BISNIS]: jenis bisnis Anda; [PLATFORM]: platform utama; [TUJUAN]: goal utama (awareness/sales/community)",
           "Rasio konten per kategori dengan jadwal contoh seminggu"
         ],
         [
@@ -108,8 +108,8 @@
           "Bagian 1: Perencanaan Konten",
           "Kalender Konten Peluncuran Produk",
           "Merencanakan konten untuk peluncuran produk baru",
-          "Sebagai launch strategist, buat konten calendar peluncuran [PRODUK] pada [TANGGAL_LAUNCH]. Target: [AUDIENCE], harga: [PRICE_POINT]. Susun konten dari H-14 sampai H+7: fase intrik (H-14 sampai H-8), fase mengungkap (H-7 sampai H-1), fase peluncuran (H-0 sampai H+3), fase testimoni (H+4 sampai H+7). Untuk setiap hari berikan: jenis konten, hook, channel, dan tujuan. Fokuskan konten H-7 ke atas untuk mengumpulkan waitlist.",
-          "[PRODUK]: produk baru yang akan diluncurkan; [TANGGAL_LAUNCH]: tanggal peluncuran; [AUDIENCE]: target pembeli; [PRICE_POINT]: kisaran harga",
+          "Sebagai launch strategist, buat konten calendar peluncuran [PRODUK] pada [TANGGAL_LAUNCH]. Target: [AUDIENS], harga: [PRICE_POINT]. Susun konten dari H-14 sampai H+7: fase intrik (H-14 sampai H-8), fase mengungkap (H-7 sampai H-1), fase peluncuran (H-0 sampai H+3), fase testimoni (H+4 sampai H+7). Untuk setiap hari berikan: jenis konten, hook, channel, dan tujuan. Fokuskan konten H-7 ke atas untuk mengumpulkan waitlist.",
+          "[PRODUK]: produk baru yang akan diluncurkan; [TANGGAL_LAUNCH]: tanggal peluncuran; [AUDIENS]: pembeli atau pengikut yang dituju; [PRICE_POINT]: kisaran harga",
           "Kalender 22 hari konten peluncuran lengkap dengan tujuan per hari"
         ],
         [
@@ -117,7 +117,7 @@
           "Bagian 1: Perencanaan Konten",
           "Perencana Konten Hari Besar",
           "Menyiapkan konten untuk hari besar nasional dan internasional",
-          "Sebagai social media planner, susun konten untuk hari besar berikut: [HARI_BESAR] untuk bisnis [BISNIS]. Untuk setiap hari besar berikan: angle yang menghubungkan hari besar dengan produk (bukan sekadar ucapan), ide konten utama dan pendukung, timing posting, dan apakah perlu promo. Promo yang tersedia: [PROMO]. Hindari konten yang terlihat ikut-ikutan tanpa kaitan nyata dengan bisnis.",
+          "Sebagai media sosial planner, susun konten untuk hari besar berikut: [HARI_BESAR] untuk bisnis [BISNIS]. Untuk setiap hari besar berikan: angle yang menghubungkan hari besar dengan produk (bukan sekadar ucapan), ide konten utama dan pendukung, timing posting, dan apakah perlu promo. Promo yang tersedia: [PROMO]. Hindari konten yang terlihat ikut-ikutan tanpa kaitan nyata dengan bisnis.",
           "[BISNIS]: jenis bisnis Anda; [HARI_BESAR]: daftar hari besar yang relevan; [PROMO]: jenis promo yang tersedia",
           "Rencana konten per hari besar dengan angle yang relevan"
         ],
@@ -144,8 +144,8 @@
           "Bagian 1: Perencanaan Konten",
           "Penyusun Templat Brief Konten",
           "Membuat brief yang jelas untuk konten kreatif",
-          "Sebagai creative director, buat template brief konten untuk proyek [PROYEK]. Tujuan: [OBJECTIVE]. Audiens: [AUDIENCE]. Template harus mencakup: satu kalimat pesan inti, apa yang audiens harus lakukan setelah melihat konten, do dan don't, referensi visual, deadline, dan definisi berhasil. Buat versi satu halaman yang bisa diisi dalam 10 menit.",
-          "[PROYEK]: nama proyek konten; [OBJECTIVE]: tujuan konten; [AUDIENCE]: penerima pesan",
+          "Sebagai creative director, buat template brief konten untuk proyek [PROYEK]. Tujuan: [OBJECTIVE]. Audiens: [AUDIENS]. Template harus mencakup: satu kalimat pesan inti, apa yang audiens harus lakukan setelah melihat konten, do dan don't, referensi visual, deadline, dan definisi berhasil. Buat versi satu halaman yang bisa diisi dalam 10 menit.",
+          "[PROYEK]: nama proyek konten; [OBJECTIVE]: tujuan konten; [AUDIENS]: penerima pesan",
           "Template brief satu halaman siap pakai"
         ],
         [
@@ -153,8 +153,8 @@
           "Bagian 1: Perencanaan Konten",
           "Generator Panduan Gaya Bahasa Merek",
           "Menyusun pedoman suara brand untuk konsistensi konten",
-          "Sebagai brand consultant, buat pedoman suara brand untuk [BISNIS] dengan kepribadian [KEPRIBADIAN] dan audiens [AUDIENCE]. Isi pedoman: 3 kata kepribadian beserta artinya dalam praktik menulis, contoh kalimat yang sesuai dan yang tidak sesuai, cara menyapa audiens, kata yang harus selalu dipakai dan yang dihindari, serta cara menyesuaikan tone di platform berbeda tanpa kehilangan identitas.",
-          "[BISNIS]: jenis bisnis Anda; [KEPRIBADIAN]: 3 kata yang menggambarkan brand; [AUDIENCE]: target audiens",
+          "Sebagai brand consultant, buat pedoman suara brand untuk [BISNIS] dengan kepribadian [KEPRIBADIAN] dan audiens [AUDIENS]. Isi pedoman: 3 kata kepribadian beserta artinya dalam praktik menulis, contoh kalimat yang sesuai dan yang tidak sesuai, cara menyapa audiens, kata yang harus selalu dipakai dan yang dihindari, serta cara menyesuaikan tone di platform berbeda tanpa kehilangan identitas.",
+          "[BISNIS]: jenis bisnis Anda; [KEPRIBADIAN]: 3 kata yang menggambarkan brand; [AUDIENS]: target audiens",
           "Pedoman suara brand dengan contoh konkret"
         ],
         [
@@ -171,8 +171,8 @@
           "Bagian 1: Perencanaan Konten",
           "Rencana Pengumpulan UGC",
           "Merencanakan pengumpulan konten dari pelanggan",
-          "Sebagai UGC strategist, buat rencana pengumpulan konten pelanggan untuk [PRODUK]. Channel yang dipakai: [CHANNEL]. Insentif yang tersedia: [INSENTIF]. Susun: momen yang tepat meminta konten (setelah pembelian, setelah penggunaan 7 hari, dan seterusnya), kalimat permintaan yang tidak memaksa, cara meminta izin pemakaian, dan sistem pencatatan konten yang masuk. Sertakan 3 template pesan permintaan untuk channel berbeda.",
-          "[PRODUK]: produk yang dipakai pelanggan; [INSENTIF]: insentif yang bisa ditawarkan; [CHANNEL]: channel komunikasi dengan pelanggan",
+          "Sebagai UGC strategist, buat rencana pengumpulan konten pelanggan untuk [PRODUK]. Channel yang dipakai: [KANAL]. Insentif yang tersedia: [INSENTIF]. Susun: momen yang tepat meminta konten (setelah pembelian, setelah penggunaan 7 hari, dan seterusnya), kalimat permintaan yang tidak memaksa, cara meminta izin pemakaian, dan sistem pencatatan konten yang masuk. Sertakan 3 template pesan permintaan untuk channel berbeda.",
+          "[PRODUK]: produk yang dipakai pelanggan; [INSENTIF]: insentif yang bisa ditawarkan; [KANAL]: kanal komunikasi dengan pelanggan",
           "Rencana pengumpulan UGC dengan template pesan"
         ],
         [
@@ -198,7 +198,7 @@
           "Bagian 1: Perencanaan Konten",
           "Kalkulator Perkiraan Engagement",
           "Memperkirakan hasil engagement dari rencana konten",
-          "Sebagai social media analyst, perkirakan hasil engagement dari rencana berikut untuk akun dengan [FOLLOWERS] follower dan engagement rate [ENGAGEMENT_RATA]: [RENCANA]. Hitung perkiraan likes, comments, shares, dan saves untuk setiap konten berdasarkan data historis tersebut. Tunjukkan konten mana yang berpotensi perform terbaik dan mengapa. Berikan satu perubahan pada rencana yang bisa menaikkan total engagement 20 persen.",
+          "Sebagai media sosial analyst, perkirakan hasil engagement dari rencana berikut untuk akun dengan [FOLLOWERS] follower dan engagement rate [ENGAGEMENT_RATA]: [RENCANA]. Hitung perkiraan likes, comments, shares, dan saves untuk setiap konten berdasarkan data historis tersebut. Tunjukkan konten mana yang berpotensi perform terbaik dan mengapa. Berikan satu perubahan pada rencana yang bisa menaikkan total engagement 20 persen.",
           "[FOLLOWERS]: jumlah follower saat ini; [ENGAGEMENT_RATA]: engagement rate rata-rata saat ini; [RENCANA]: rencana konten seminggu",
           "Perkiraan engagement per konten dengan saran perbaikan"
         ],
@@ -207,8 +207,8 @@
           "Bagian 1: Perencanaan Konten",
           "Kerangka Audit Konten",
           "Menilai performa konten 3 bulan terakhir",
-          "Sebagai content auditor, analisis performa konten periode [PERIODE] dengan data berikut: [DATA]. Goal akun: [GOAL]. Kelompokkan konten menjadi 4 kuadran: performa tinggi dan mudah dibuat (perbanyak), performa tinggi tapi berat produksi (optimalkan proses), performa rendah tapi mudah (perbaiki angle), performa rendah dan berat (hentikan). Untuk setiap kuadran berikan contoh konten dari data dan rekomendasi tindakan spesifik.",
-          "[PERIODE]: periode audit; [DATA]: ringkasan data performa konten; [GOAL]: goal akun saat ini",
+          "Sebagai content auditor, analisis performa konten periode [PERIODE] dengan data berikut: [DATA]. Goal akun: [TUJUAN]. Kelompokkan konten menjadi 4 kuadran: performa tinggi dan mudah dibuat (perbanyak), performa tinggi tapi berat produksi (optimalkan proses), performa rendah tapi mudah (perbaiki angle), performa rendah dan berat (hentikan). Untuk setiap kuadran berikan contoh konten dari data dan rekomendasi tindakan spesifik.",
+          "[PERIODE]: periode audit; [DATA]: ringkasan data performa konten; [TUJUAN]: goal akun saat ini",
           "Analisis 4 kuadran dengan rekomendasi tindakan"
         ],
         [
@@ -261,8 +261,8 @@
           "Bagian 1: Perencanaan Konten",
           "Perencana Kampanye Win-Back",
           "Merencanakan konten untuk mengaktifkan kembali pelanggan lama",
-          "Sebagai win-back strategist, rancang kampanye untuk mengaktifkan kembali [SEGMENT]. Penawaran tersedia: [PENAWARAN]. Channel: [CHANNEL]. Susun 3 tahap: mengingatkan nilai (kenapa dulu mereka beli), meminta kabar (apakah ada yang berubah di kebutuhan mereka), dan penawaran spesifik dengan batas waktu. Untuk setiap tahap berikan salinan pesan, timing kirim, dan tanda kapan harus berhenti mengirim agar tidak jadi spam.",
-          "[SEGMENT]: pelanggan yang tidak aktif (berapa lama tidak beli); [PENAWARAN]: penawaran khusus yang tersedia; [CHANNEL]: channel untuk menjangkau mereka",
+          "Sebagai win-back strategist, rancang kampanye untuk mengaktifkan kembali [SEGMENT]. Penawaran tersedia: [PENAWARAN]. Channel: [KANAL]. Susun 3 tahap: mengingatkan nilai (kenapa dulu mereka beli), meminta kabar (apakah ada yang berubah di kebutuhan mereka), dan penawaran spesifik dengan batas waktu. Untuk setiap tahap berikan salinan pesan, timing kirim, dan tanda kapan harus berhenti mengirim agar tidak jadi spam.",
+          "[SEGMENT]: pelanggan yang tidak aktif (berapa lama tidak beli); [PENAWARAN]: penawaran khusus yang tersedia; [KANAL]: channel untuk menjangkau mereka",
           "Kampanye win-back 3 tahap dengan batas pengiriman"
         ],
         [
@@ -271,7 +271,7 @@
           "Rencana Konten Acara",
           "Merencanakan konten untuk event online atau offline",
           "Sebagai event content planner, susun konten untuk [EVENT] pada [TANGGAL] dengan tujuan [TUJUAN]. Buat konten 3 fase: sebelum (pembukaan pendaftaran, pengenalan pembicara, countdown), saat (live update, kutipan pembicara, interaksi peserta), dan sesudah (rekapan, materi gratis, testimonial peserta). Untuk setiap konten berikan format, timing, dan CTA. Sertakan rencana darurat jika pendaftaran lambat di tengah fase sebelum.",
-          "[EVENT]: nama dan jenis event; [TANGGAL]: tanggal penyelenggaraan; [TUJUAN]: tujuan event (leads, penjualan, brand)",
+          "[EVENT]: nama dan jenis event; [TANGGAL]: tanggal penyelenggaraan; [TUJUAN]: tujuan acara (calon pembeli, penjualan, mengenalkan merek)",
           "Rencana konten event 3 fase dengan rencana darurat"
         ],
         [
@@ -279,8 +279,8 @@
           "Bagian 1: Perencanaan Konten",
           "Perencana Kampanye Giveaway",
           "Merencanakan giveaway yang menghasilkan, bukan sekadar viral sesaat",
-          "Sebagai giveaway strategist, rancang kampanye giveaway dengan hadiah [HADIAH] untuk tujuan [GOAL]. Budget promosi: [BUDGET_PROMO]. Tentukan: syarat partisipasi yang sejalan dengan goal (jangan minta tag 10 teman jika goal-nya leads), durasi ideal, konten pengumuman dan pengingat, cara memilih pemenang yang transparan, dan konten pasca giveaway untuk mengonversi peserta baru menjadi pengikut yang benar-benar tertarik. Sertakan perhitungan biaya per hasil.",
-          "[HADIAH]: hadiah yang tersedia; [GOAL]: tujuan giveaway (follower, leads, awareness); [BUDGET_PROMO]: anggaran promosi giveaway",
+          "Sebagai giveaway strategist, rancang kampanye giveaway dengan hadiah [HADIAH] untuk tujuan [TUJUAN]. Budget promosi: [BUDGET_PROMO]. Tentukan: syarat partisipasi yang sejalan dengan goal (jangan minta tag 10 teman jika goal-nya leads), durasi ideal, konten pengumuman dan pengingat, cara memilih pemenang yang transparan, dan konten pasca giveaway untuk mengonversi peserta baru menjadi pengikut yang benar-benar tertarik. Sertakan perhitungan biaya per hasil.",
+          "[HADIAH]: hadiah yang tersedia; [TUJUAN]: tujuan giveaway (follower, leads, awareness); [BUDGET_PROMO]: anggaran promosi giveaway",
           "Rencana giveaway lengkap dengan perhitungan biaya per hasil"
         ],
         [
@@ -297,8 +297,8 @@
           "Bagian 1: Perencanaan Konten",
           "Rencana Konten Krisis",
           "Menyiapkan konten darurat sebelum masalah terjadi",
-          "Sebagai crisis communication planner, siapkan rencana konten darurat untuk risiko berikut: [RISIKO]. Tim penanggung jawab: [TIM]. Channel resmi: [CHANNEL]. Buat untuk setiap risiko: template pernyataan awal (mengakui masalah tanpa menyalahkan pihak lain), template update kedua (langkah yang diambil), dan template penutup (pemulihan dan pencegahan). Sertakan aturan timing: seberapa cepat harus merespons dan kapan diam lebih baik.",
-          "[RISIKO]: risiko yang mungkin terjadi di bisnis Anda; [TIM]: siapa yang bertugas saat darurat; [CHANNEL]: channel resmi untuk komunikasi",
+          "Sebagai crisis communication planner, siapkan rencana konten darurat untuk risiko berikut: [RISIKO]. Tim penanggung jawab: [TIM]. Channel resmi: [KANAL]. Buat untuk setiap risiko: template pernyataan awal (mengakui masalah tanpa menyalahkan pihak lain), template update kedua (langkah yang diambil), dan template penutup (pemulihan dan pencegahan). Sertakan aturan timing: seberapa cepat harus merespons dan kapan diam lebih baik.",
+          "[RISIKO]: risiko yang mungkin terjadi di bisnis Anda; [TIM]: siapa yang bertugas saat darurat; [KANAL]: channel resmi untuk komunikasi",
           "Template konten darurat per risiko dengan aturan timing"
         ],
         [
@@ -315,8 +315,8 @@
           "Bagian 1: Perencanaan Konten",
           "Generator Bank Ide per Pilar",
           "Memperdalam satu pillar dengan banyak angle",
-          "Sebagai ideation specialist, hasulkan 20 angle berbeda untuk pillar [PILLAR] yang ditujukan ke [AUDIENCE] dan berkaitan dengan [PRODUK]. Variasikan angle ke dalam 5 jenis: kesalahan umum, rahasia praktisi, perbandingan pilihan, cerita nyata, dan jawaban skeptis. Untuk setiap angle tulis satu kalimat hook. Tandai 5 angle yang paling jarang dipakai kompetitor, itu yang berpotensi menonjol.",
-          "[PILLAR]: satu content pillar yang ingin diperdalam; [AUDIENCE]: audiens pillar ini; [PRODUK]: produk yang berkaitan",
+          "Sebagai ideation specialist, hasulkan 20 angle berbeda untuk pillar [PILLAR] yang ditujukan ke [AUDIENS] dan berkaitan dengan [PRODUK]. Variasikan angle ke dalam 5 jenis: kesalahan umum, rahasia praktisi, perbandingan pilihan, cerita nyata, dan jawaban skeptis. Untuk setiap angle tulis satu kalimat hook. Tandai 5 angle yang paling jarang dipakai kompetitor, itu yang berpotensi menonjol.",
+          "[PILLAR]: satu content pillar yang ingin diperdalam; [AUDIENS]: audiens pillar ini; [PRODUK]: produk yang berkaitan",
           "20 angle terklasifikasi dengan hook dan penanda peluang"
         ],
         [
@@ -324,8 +324,8 @@
           "Bagian 1: Perencanaan Konten",
           "Templat Telaah Konten Mingguan",
           "Menilai performa konten tiap akhir pekan",
-          "Sebagai social media coach, bantu saya review konten minggu ini dengan data: [DATA_MINGGU_INI] dan target [TARGET]. Jawab 4 pertanyaan: konten mana yang paling berhasil dan kenapa (pola yang bisa diulang), konten mana yang gagal dan kenapa (pola yang harus dihentikan), apakah ritme posting terjaga, dan satu perubahan spesifik untuk minggu depan. Buat jawaban singkat dan bisa dieksekusi, bukan analisis panjang.",
-          "[DATA_MINGGU_INI]: statistik konten minggu ini; [TARGET]: target mingguan yang ditetapkan",
+          "Sebagai media sosial coach, bantu saya review konten minggu ini dengan data: [DATA_MINGGU_INI] dan target [AUDIENS]. Jawab 4 pertanyaan: konten mana yang paling berhasil dan kenapa (pola yang bisa diulang), konten mana yang gagal dan kenapa (pola yang harus dihentikan), apakah ritme posting terjaga, dan satu perubahan spesifik untuk minggu depan. Buat jawaban singkat dan bisa dieksekusi, bukan analisis panjang.",
+          "[DATA_MINGGU_INI]: statistik konten minggu ini; [AUDIENS]: target mingguan yang ditetapkan",
           "Review 4 pertanyaan dengan satu tindakan minggu depan"
         ],
         [
@@ -333,7 +333,7 @@
           "Bagian 1: Perencanaan Konten",
           "Kerangka Telaah Konten Bulanan",
           "Evaluasi menyeluruh strategi konten bulanan",
-          "Sebagai social media strategist, evaluasi bulan ini dengan data [DATA_BULAN] terhadap goal [GOAL_BULAN]. Jawab: apakah goal tercapai dan seberapa jauh, kontribusi tiap jenis konten terhadap goal, keputusan bulan ini yang terbukti tepat dan yang keliru. Lalu tinjau draft rencana bulan depan: [RENCANA_BULAN_DEPAN]. Sarankan perubahan konkret berdasarkan temuan, jangan ubah yang sudah terbukti bekerja.",
+          "Sebagai media sosial strategist, evaluasi bulan ini dengan data [DATA_BULAN] terhadap goal [GOAL_BULAN]. Jawab: apakah goal tercapai dan seberapa jauh, kontribusi tiap jenis konten terhadap goal, keputusan bulan ini yang terbukti tepat dan yang keliru. Lalu tinjau draft rencana bulan depan: [RENCANA_BULAN_DEPAN]. Sarankan perubahan konkret berdasarkan temuan, jangan ubah yang sudah terbukti bekerja.",
           "[DATA_BULAN]: data performa sebulan penuh; [GOAL_BULAN]: goal yang ditetapkan awal bulan; [RENCANA_BULAN_DEPAN]: draft rencana bulan depan",
           "Evaluasi bulanan dengan perubahan rencana yang berbasis data"
         ],
@@ -342,8 +342,8 @@
           "Bagian 1: Perencanaan Konten",
           "Penyegaran Strategi Kuartalan",
           "Menyegarkan strategi konten setiap 3 bulan",
-          "Sebagai strategy consultant, lakukan refresh strategi kuartalan. Hasil kuartal lalu: [HASIL_KUARTAL]. Perubahan pasar: [PERUBAHAN_PASAR]. Goal kuartal depan: [GOAL_KUARTAL_DEPAN]. Tentukan: apa yang dipertahankan (yang sudah terbukti), apa yang dihentikan (yang tidak menyumbang goal), dan apa yang dicoba baru (maksimal 2 eksperimen). Untuk setiap eksperimen tentukan ukuran keberhasilan dan tanggal evaluasi.",
-          "[HASIL_KUARTAL]: hasil 3 bulan terakhir; [PERUBAHAN_PASAR]: perubahan di pasar atau platform; [GOAL_KUARTAL_DEPAN]: goal 3 bulan ke depan",
+          "Sebagai konsultan strategi, lakukan penyegaran strategi kuartalan. Hasil kuartal lalu: [HASIL_KUARTAL]. Perubahan pasar: [PERUBAHAN_PASAR]. Goal kuartal depan: [TUJUAN_KUARTAL_DEPAN]. Tentukan: apa yang dipertahankan (yang sudah terbukti), apa yang dihentikan (yang tidak menyumbang tujuan), dan apa yang dicoba baru (maksimal 2 eksperimen). Untuk setiap eksperimen tentukan ukuran keberhasilan dan tanggal evaluasi.",
+          "[HASIL_KUARTAL]: hasil 3 bulan terakhir; [PERUBAHAN_PASAR]: perubahan di pasar atau platform; [TUJUAN_KUARTAL_DEPAN]: goal 3 bulan ke depan",
           "Keputusan pertahankan-hentikan-coba dengan kriteria evaluasi"
         ],
         [
@@ -369,7 +369,7 @@
           "Bagian 1: Perencanaan Konten",
           "Perencana Konten Musiman",
           "Merencanakan konten untuk momen spesial sepanjang tahun",
-          "Sebagai marketing strategist, buatkan seasonal content calendar untuk [BISNIS] di industri [INDUSTRI] tahun [TAHUN]. Include: (1) hari besar nasional dan internasional, (2) momen industri spesifik, (3) season belanja (Ramadhan, Lebaran, Natal, Tahun Baru, dll), (4) event olahraga atau entertainment besar. Untuk setiap momen, berikan: tanggal, nama event, ide konten 7 hari sebelum-sesudah, rekomendasi format, dan estimated engagement boost.",
+          "Sebagai perancang strategi pemasaran, buatkan kalender konten musiman untuk [BISNIS] di industri [INDUSTRI] tahun [TAHUN]. Sertakan: (1) hari besar nasional dan internasional, (2) momen industri spesifik, (3) season belanja (Ramadhan, Lebaran, Natal, Tahun Baru, dll), (4) acara olahraga atau hiburan besar. Untuk setiap momen, berikan: tanggal, nama event, ide konten 7 hari sebelum-sesudah, rekomendasi format, dan perkiraan tambahan engagement.",
           "[BISNIS]: jenis bisnis Anda; [INDUSTRI]: industri bisnis Anda; [TAHUN]: tahun yang direncanakan",
           "Calendar lengkap dengan 50+ momen dan strategi konten"
         ],
@@ -387,26 +387,26 @@
           "Bagian 2: Penulisan Caption",
           "Post Facebook yang Mudah Dibagikan",
           "Membuat post Facebook yang mendorong sharing",
-          "Sebagai perencana konten Facebook, tulis post 200 kata tentang [TOPIK] dengan wawasan [INSIGHT] untuk [AUDIENCE]. Tujuan: [GOAL]. Buat post yang: (1) terasa dekat dengan masalah pembaca, (2) memberikan manfaat nyata, (3) mudah dipahami, (4) mendorong pembaca membagikannya. Gunakan format: pertanyaan di awal, cerita atau contoh di tengah, kesimpulan yang bisa dibawa pulang di akhir. Tambahkan 1 CTA yang tidak memaksa jualan.",
-          "[TOPIK]: topik post; [INSIGHT]: insight atau tips yang dibagikan; [AUDIENCE]: target audience; [GOAL]: goal post (awareness/engagement/traffic)",
+          "Sebagai perencana konten Facebook, tulis post 200 kata tentang [TOPIK] dengan wawasan [INSIGHT] untuk [AUDIENS]. Tujuan: [TUJUAN]. Buat post yang: (1) terasa dekat dengan masalah pembaca, (2) memberikan manfaat nyata, (3) mudah dipahami, (4) mendorong pembaca membagikannya. Gunakan format: pertanyaan di awal, cerita atau contoh di tengah, kesimpulan yang bisa dibawa pulang di akhir. Tambahkan 1 CTA yang tidak memaksa jualan.",
+          "[TOPIK]: topik post; [INSIGHT]: insight atau tips yang dibagikan; [AUDIENS]: pembeli atau pengikut yang dituju; [TUJUAN]: goal post (awareness/engagement/traffic)",
           "Post Facebook yang mengundang interaksi dan mudah dibagikan"
         ],
         [
           "T-043",
           "Bagian 2: Penulisan Caption",
           "Naskah TikTok yang Berpotensi Viral",
-          "Membuat script TikTok yang berpotensi viral",
-          "Sebagai TikTok content creator, buatkan script video [DURASI] detik tentang [TOPIK] yang incorporate trend [TREND]. Jika ada produk [PRODUCT], integrate secara natural. Struktur: (1) hook 3 detik pertama yang stop scroll, (2) setup 5 detik, (3) main content, (4) plot twist atau surprise, (5) CTA. Sertakan: text overlay untuk setiap scene, rekomendasi music/sound, camera angles, dan transition ideas.",
-          "[TOPIK]: topik video; [DURASI]: durasi video (15/30/60 detik); [TREND]: trend yang sedang viral; [PRODUCT]: produk yang ingin dipromosikan (opsional)",
-          "Script TikTok lengkap dengan visual directions"
+          "Membuat naskah TikTok yang berpotensi viral",
+          "Sebagai TikTok content creator, buatkan naskah video [DURASI] detik tentang [TOPIK] yang incorporate trend [TREND]. Jika ada produk [PRODUK], integrate secara natural. Struktur: (1) hook 3 detik pertama yang stop scroll, (2) setup 5 detik, (3) main content, (4) plot twist atau surprise, (5) CTA. Sertakan: text overlay untuk setiap scene, rekomendasi music/sound, camera angles, dan transition ideas.",
+          "[TOPIK]: topik video; [DURASI]: durasi video (15/30/60 detik); [TREND]: trend yang sedang viral; [PRODUK]: produk yang ingin dipromosikan (jika ada)",
+          "Naskah TikTok lengkap dengan petunjuk visual"
         ],
         [
           "T-044",
           "Bagian 2: Penulisan Caption",
           "Thread Twitter/X yang Informatif",
           "Membuat thread Twitter/X yang educational",
-          "Sebagai Twitter/X strategist, buatkan thread 7 tweets tentang [TOPIK]. Poin utama: [POINTS]. Target: [AUDIENCE]. Akhiri dengan [CTA]. Setiap tweet harus: (1) standalone yang bisa dipahami, (2) max 280 karakter, (3) hook di tweet pertama, (4) numbering (1/7, 2/7, dst), (5) 1-2 hashtag relevan per tweet. Buat flow yang logical dan engaging.",
-          "[TOPIK]: topik thread; [POINTS]: 5-7 poin utama yang ingin disampaikan; [AUDIENCE]: target reader; [CTA]: call-to-action di akhir",
+          "Sebagai Twitter/X strategist, buatkan thread 7 tweets tentang [TOPIK]. Poin utama: [POINTS]. Target: [AUDIENS]. Akhiri dengan [CTA]. Setiap tweet harus: (1) standalone yang bisa dipahami, (2) max 280 karakter, (3) hook di tweet pertama, (4) numbering (1/7, 2/7, dst), (5) 1-2 hashtag relevan per tweet. Buat flow yang logical dan engaging.",
+          "[TOPIK]: topik thread; [POINTS]: 5-7 poin utama yang ingin disampaikan; [AUDIENS]: target reader; [CTA]: call-to-action di akhir",
           "Thread 7 tweets yang cohesive dan informative"
         ],
         [
@@ -414,8 +414,8 @@
           "Bagian 2: Penulisan Caption",
           "Post LinkedIn yang Profesional",
           "Membuat post LinkedIn untuk personal branding",
-          "Sebagai LinkedIn ghostwriter, tulis post 300 kata tentang [TOPIK] dari perspektif [EXPERTISE]. Lesson: [LESSON]. Target: [AUDIENCE]. Tone: professional namun conversational. Struktur: (1) hook yang provocative atau surprising, (2) personal story atau case study, (3) 3-5 key takeaways dalam bullet points, (4) reflection atau forward-looking statement, (5) question untuk mendorong engagement. Hindari jargon berlebihan.",
-          "[TOPIK]: topik post; [EXPERTISE]: bidang keahlian Anda; [LESSON]: pelajaran atau insight yang dibagikan; [AUDIENCE]: target reader (recruiter/client/peer)",
+          "Sebagai LinkedIn ghostwriter, tulis post 300 kata tentang [TOPIK] dari perspektif [EXPERTISE]. Lesson: [LESSON]. Target: [AUDIENS]. Tone: professional namun conversational. Struktur: (1) hook yang provocative atau surprising, (2) personal story atau case study, (3) 3-5 key takeaways dalam bullet points, (4) reflection atau forward-looking statement, (5) question untuk mendorong engagement. Hindari jargon berlebihan.",
+          "[TOPIK]: topik post; [EXPERTISE]: bidang keahlian Anda; [LESSON]: pelajaran atau insight yang dibagikan; [AUDIENS]: target reader (recruiter/client/peer)",
           "Post LinkedIn yang profesional dan mengundang interaksi"
         ],
         [
@@ -504,8 +504,8 @@
           "Bagian 2: Penulisan Caption",
           "Caption Pertanyaan Hari Ini",
           "Memicu komentar dengan pertanyaan yang mudah dijawab",
-          "Sebagai engagement writer, buat pertanyaan hari ini tentang [TOPIK] untuk [AUDIENCE] dengan tujuan [GOAL]. Buat 3 opsi pertanyaan dengan tingkat keterbukaan berbeda: pertanyaan fakta yang mudah dijawab, pertanyaan opini yang memicu perbedaan pendapat sehat, dan pertanyaan cerita yang mengundang berbagi pengalaman. Untuk masing-masing tulis hook singkat dan cara Anda akan merespons jawaban yang masuk agar percakapan berlanjut.",
-          "[TOPIK]: topik pertanyaan; [AUDIENCE]: siapa audiens Anda; [GOAL]: tujuan (memahami audiens, membangun komunitas)",
+          "Sebagai engagement writer, buat pertanyaan hari ini tentang [TOPIK] untuk [AUDIENS] dengan tujuan [TUJUAN]. Buat 3 opsi pertanyaan dengan tingkat keterbukaan berbeda: pertanyaan fakta yang mudah dijawab, pertanyaan opini yang memicu perbedaan pendapat sehat, dan pertanyaan cerita yang mengundang berbagi pengalaman. Untuk masing-masing tulis hook singkat dan cara Anda akan merespons jawaban yang masuk agar percakapan berlanjut.",
+          "[TOPIK]: topik pertanyaan; [AUDIENS]: siapa audiens Anda; [TUJUAN]: tujuan (memahami audiens, membangun komunitas)",
           "3 opsi pertanyaan dengan rencana respons"
         ],
         [
@@ -730,7 +730,7 @@
           "Adaptor Caption Lintas Platform",
           "Mengadaptasi 1 konten untuk berbagai platform",
           "Sebagai perencana konten multi-platform, adaptasi konten inti [KONTEN_INTI] untuk [PLATFORMS]. Gaya bahasa merek: [BRAND_VOICE]. Untuk setiap platform, berikan: (1) panjang caption yang optimal, (2) format yang sesuai, (3) strategi hashtag, (4) CTA yang khas platform tersebut, (5) waktu posting terbaik. Pastikan pesan konsisten tapi format disesuaikan dengan karakter setiap platform.",
-          "[KONTEN_INTI]: pesan utama yang ingin disampaikan; [PLATFORMS]: platform target (Instagram, Facebook, Twitter, LinkedIn, TikTok); [BRAND_VOICE]: tone dan style brand Anda",
+          "[KONTEN_INTI]: pesan utama yang ingin disampaikan; [PLATFORMS]: platform target (Instagram, Facebook, Twitter, LinkedIn, TikTok); [BRAND_VOICE]: gaya bahasa merek Anda",
           "5 variasi caption untuk platform berbeda dengan pesan konsisten"
         ],
         [
@@ -738,8 +738,8 @@
           "Bagian 3: Konten Visual",
           "Struktur Carousel Instagram",
           "Membuat struktur carousel yang mengundang interaksi",
-          "Sebagai visual content designer, buatkan struktur carousel Instagram [SLIDES] slide tentang [TOPIK]. Goal: [GOAL]. Akhiri dengan [CTA]. Untuk setiap slide, berikan: (1) headline/title, (2) 2-3 bullet points atau visual element, (3) design suggestion (warna, layout, imagery). Slide 1 harus hook yang stop scroll. Slide terakhir harus CTA yang clear. Buat flow yang logical dan visually appealing.",
-          "[TOPIK]: topik carousel; [SLIDES]: jumlah slide (5-10); [GOAL]: tujuan (edukasi/hiburan/promosi); [CTA]: ajakan bertindak (CTA) di slide terakhir",
+          "Sebagai visual content designer, buatkan struktur carousel Instagram [SLIDES] slide tentang [TOPIK]. Goal: [TUJUAN]. Akhiri dengan [CTA]. Untuk setiap slide, berikan: (1) headline/title, (2) 2-3 bullet points atau visual element, (3) design suggestion (warna, layout, imagery). Slide 1 harus hook yang stop scroll. Slide terakhir harus CTA yang clear. Buat flow yang logical dan visually appealing.",
+          "[TOPIK]: topik carousel; [SLIDES]: jumlah slide (5-10); [TUJUAN]: tujuan (edukasi/hiburan/promosi); [CTA]: ajakan bertindak (CTA) di slide terakhir",
           "Struktur carousel lengkap dengan design directions"
         ],
         [
@@ -747,8 +747,8 @@
           "Bagian 3: Konten Visual",
           "Generator Konsep Reel",
           "Membuat konsep Reels yang mengundang interaksi",
-          "Sebagai Reels creator, buatkan 5 konsep video [DURASI] detik tentang [TOPIK] dengan style [STYLE]. Jika ada produk [PRODUCT], integrate secara natural. Untuk setiap konsep, berikan: (1) hook 3 detik pertama, (2) main content flow, (3) transition ideas, (4) music/sound recommendation, (5) text overlay suggestions, (6) CTA. Pastikan konsep sesuai dengan trend Reels saat ini.",
-          "[TOPIK]: topik Reels; [DURASI]: durasi (15/30/60 detik); [STYLE]: gaya (tutorial/entertaining/inspirational); [PRODUCT]: produk yang ingin ditampilkan (opsional)",
+          "Sebagai Reels creator, buatkan 5 konsep video [DURASI] detik tentang [TOPIK] dengan style [STYLE]. Jika ada produk [PRODUK], integrate secara natural. Untuk setiap konsep, berikan: (1) hook 3 detik pertama, (2) main content flow, (3) transition ideas, (4) music/sound recommendation, (5) text overlay suggestions, (6) CTA. Pastikan konsep sesuai dengan trend Reels saat ini.",
+          "[TOPIK]: topik Reels; [DURASI]: durasi (15/30/60 detik); [STYLE]: gaya (tutorial/entertaining/inspirational); [PRODUK]: produk yang ingin ditampilkan (opsional)",
           "5 konsep Reels lengkap dengan production details"
         ],
         [
@@ -756,8 +756,8 @@
           "Bagian 3: Konten Visual",
           "Perencana Seri Story",
           "Merencanakan series Instagram Stories",
-          "Sebagai Instagram strategist, buatkan [DURASI] hari Instagram Story series tentang [TOPIK]. Goal: [GOAL]. Include interactive elements: [INTERACTIVE]. Untuk setiap hari, berikan: (1) theme hari itu, (2) 3-5 story slides dengan konten, (3) interactive element (poll/quiz/question slider), (4) CTA untuk ke hari berikutnya atau ke link. Buat narrative arc yang membuat orang follow terus.",
-          "[TOPIK]: topik series; [DURASI]: berapa hari (3-7 hari); [GOAL]: tujuan (engagement/sales/awareness); [INTERACTIVE]: elemen interaktif yang ingin digunakan",
+          "Sebagai Instagram strategist, buatkan [DURASI] hari Instagram Story series tentang [TOPIK]. Goal: [TUJUAN]. Include interactive elements: [INTERACTIVE]. Untuk setiap hari, berikan: (1) theme hari itu, (2) 3-5 story slides dengan konten, (3) interactive element (poll/quiz/question slider), (4) CTA untuk ke hari berikutnya atau ke link. Buat narrative arc yang membuat orang follow terus.",
+          "[TOPIK]: topik series; [DURASI]: berapa hari (3-7 hari); [TUJUAN]: tujuan (engagement/sales/awareness); [INTERACTIVE]: elemen interaktif yang ingin digunakan",
           "Plan series Stories lengkap dengan interactive elements"
         ],
         [
@@ -765,8 +765,8 @@
           "Bagian 3: Konten Visual",
           "Struktur Konten Infografis",
           "Membuat struktur infographic yang informative",
-          "Sebagai infographic designer, buatkan struktur infographic tentang [DATA] untuk [AUDIENCE]. Key message: [KEY_MESSAGE]. Format: [FORMAT]. Include: (1) headline yang catchy, (2) 5-7 section dengan data points, (3) visual hierarchy suggestions, (4) color palette recommendation, (5) icon/imagery ideas. Pastikan informasi mudah dipahami dalam 30 detik.",
-          "[DATA]: data atau informasi yang ingin divisualkan; [AUDIENCE]: target audience; [KEY_MESSAGE]: pesan utama yang ingin disampaikan; [FORMAT]: format (list/comparison/timeline/process)",
+          "Sebagai infographic designer, buatkan struktur infographic tentang [DATA] untuk [AUDIENS]. Key message: [KEY_MESSAGE]. Format: [FORMAT]. Sertakan: (1) headline yang catchy, (2) 5-7 section dengan data points, (3) visual hierarchy suggestions, (4) color palette recommendation, (5) icon/imagery ideas. Pastikan informasi mudah dipahami dalam 30 detik.",
+          "[DATA]: data atau informasi yang ingin divisualkan; [AUDIENS]: pembeli atau pengikut yang dituju; [KEY_MESSAGE]: pesan utama yang ingin disampaikan; [FORMAT]: bentuk penyajian (daftar/perbandingan/garis waktu/langkah)",
           "Struktur infographic lengkap dengan design guidelines"
         ],
         [
@@ -774,8 +774,8 @@
           "Bagian 3: Konten Visual",
           "Generator Konsep Meme",
           "Membuat konsep meme yang terasa dekat dan mudah dibagikan",
-          "Sebagai meme creator, buatkan 5 konsep meme tentang [SITUASI] di industri [INDUSTRI]. Tone: [TONE]. Jika ada produk [PRODUCT], integrate secara subtle tidak hard-sell. Untuk setiap konsep, berikan: (1) meme format (Drake/Distracted Boyfriend/Two Buttons/etc), (2) top text, (3) bottom text, (4) why it's relatable, (5) caption untuk post. Pastikan meme appropriate dan tidak offensive.",
-          "[SITUASI]: situasi atau masalah yang dihadapi audience; [INDUSTRI]: industri bisnis Anda; [TONE]: tone humor (sarcastic/wholesome/self-deprecating); [PRODUCT]: produk yang ingin dipromosikan secara subtle",
+          "Sebagai meme creator, buatkan 5 konsep meme tentang [SITUASI] di industri [INDUSTRI]. Tone: [TONE]. Jika ada produk [PRODUK], integrate secara subtle tidak hard-sell. Untuk setiap konsep, berikan: (1) meme format (Drake/Distracted Boyfriend/Two Buttons/etc), (2) top text, (3) bottom text, (4) why it's relatable, (5) caption untuk post. Pastikan meme appropriate dan tidak offensive.",
+          "[SITUASI]: situasi atau masalah yang dihadapi audience; [INDUSTRI]: industri bisnis Anda; [TONE]: gaya humor (sarkastik/hangat/menggertak diri sendiri); [PRODUK]: produk yang ingin dipromosikan secara subtle",
           "5 konsep meme lengkap dengan caption"
         ],
         [
@@ -855,9 +855,9 @@
           "Bagian 3: Konten Visual",
           "Naskah Video Proses",
           "Merekam proses produksi sebagai konten yang memuaskan ditonton",
-          "Sebagai process video planner, susun script video proses [PROSES] durasi [DURASI]. Momen paling memuaskan: [SAAT_MEMUASKAN]. Struktur: tampilkan bahan atau alat awal dengan cepat, kerjakan proses dengan cut yang menjaga ritme, letakkan momen paling memuaskan di 70 persen durasi, tutup dengan hasil akhir. Tentukan: sudut kamera per bagian, kecepatan (real time atau time lapse) per bagian, dan teks penjelas singkat jika perlu. Ritme penting: tidak ada bagian yang berlarut.",
+          "Sebagai process video planner, susun naskah video proses [PROSES] durasi [DURASI]. Momen paling memuaskan: [SAAT_MEMUASKAN]. Struktur: tampilkan bahan atau alat awal dengan cepat, kerjakan proses dengan cut yang menjaga ritme, letakkan momen paling memuaskan di 70 persen durasi, tutup dengan hasil akhir. Tentukan: sudut kamera per bagian, kecepatan (real time atau time lapse) per bagian, dan teks penjelas singkat jika perlu. Ritme penting: tidak ada bagian yang berlarut.",
           "[PROSES]: proses yang direkam; [DURASI]: durasi video; [SAAT_MEMUASKAN]: momen paling memuaskan dalam proses",
-          "Script proses video dengan ritme dan momen memuaskan"
+          "Naskah proses video dengan ritme dan momen memuaskan"
         ],
         [
           "T-095",
@@ -882,9 +882,9 @@
           "Bagian 3: Konten Visual",
           "Naskah Video Green Screen",
           "Video dengan latar digital untuk penjelasan atau reaksi",
-          "Sebagai green screen script writer, tulis script video tentang [TOPIK] dengan latar [VISUAL_LATAR]. Poin: [POIN]. Struktur: hook 3 detik dengan Anda di frame dan satu visual pendukung, untuk tiap poin tentukan visual latar yang muncul dan kapan, teks besar di layar untuk poin kunci, penutup dengan CTA. Tulis instruksi per segmen: apa yang Anda katakan, apa yang muncul di latar, kapan transisi terjadi.",
+          "Sebagai green screen naskah writer, tulis naskah video tentang [TOPIK] dengan latar [VISUAL_LATAR]. Poin: [POIN]. Struktur: hook 3 detik dengan Anda di frame dan satu visual pendukung, untuk tiap poin tentukan visual latar yang muncul dan kapan, teks besar di layar untuk poin kunci, penutup dengan CTA. Tulis instruksi per segmen: apa yang Anda katakan, apa yang muncul di latar, kapan transisi terjadi.",
           "[TOPIK]: topik yang dibahas; [VISUAL_LATAR]: visual latar yang dibutuhkan; [POIN]: poin-poin yang disampaikan",
-          "Script green screen dengan instruksi visual per segmen"
+          "Naskah green screen dengan instruksi visual per segmen"
         ],
         [
           "T-098",
@@ -954,9 +954,9 @@
           "Bagian 3: Konten Visual",
           "Naskah Video Unboxing",
           "Video membuka paket yang membangun antusiasme",
-          "Sebagai unboxing script writer, susun script unboxing [PRODUK] dengan detail kemasan [DETIL_KEMASAN]. Reaksi harus jujur: [REAKSI]. Struktur: tampilkan paket luar sebelum dibuka, proses membuka tanpa dipotong agar jujur, reaksi pertama saat melihat produk, sorot detail satu per satu, uji coba singkat, kesimpulan jujur termasuk kekurangan jika ada. Unboxing yang hanya memuji terasa iklan; yang jujur lebih dipercaya.",
+          "Sebagai unboxing naskah writer, susun naskah unboxing [PRODUK] dengan detail kemasan [DETIL_KEMASAN]. Reaksi harus jujur: [REAKSI]. Struktur: tampilkan paket luar sebelum dibuka, proses membuka tanpa dipotong agar jujur, reaksi pertama saat melihat produk, sorot detail satu per satu, uji coba singkat, kesimpulan jujur termasuk kekurangan jika ada. Unboxing yang hanya memuji terasa iklan; yang jujur lebih dipercaya.",
           "[PRODUK]: produk yang dibuka; [DETIL_KEMASAN]: detail kemasan yang layak disorot; [REAKSI]: reaksi jujur yang diharapkan",
-          "Script unboxing dengan alur dan reaksi jujur"
+          "Naskah unboxing dengan alur dan reaksi jujur"
         ],
         [
           "T-106",
@@ -1089,8 +1089,8 @@
           "Bagian 3: Konten Visual",
           "Kampanye UGC",
           "Merencanakan campaign yang mendorong UGC",
-          "Sebagai campaign strategist, buatkan UGC campaign untuk [BRAND] yang mempromosikan [PRODUCT]. Goal: [GOAL]. Insentif: [INCENTIVE]. Include: (1) nama campaign yang catchy, (2) hashtag campaign, (3) mekanisme partisipasi, (4) kriteria konten yang diharapkan, (5) timeline campaign (2-4 minggu), (6) cara seleksi pemenang, (7) strategi amplifikasi, (8) template announcement post. Pastikan campaign mudah diikuti dan motivating.",
-          "[BRAND]: nama brand Anda; [PRODUCT]: produk yang ingin dipromosikan; [GOAL]: tujuan campaign (awareness/sales/engagement); [INCENTIVE]: insentif untuk partisipan",
+          "Sebagai campaign strategist, buatkan UGC campaign untuk [BRAND] yang mempromosikan [PRODUK]. Goal: [TUJUAN]. Insentif: [INCENTIVE]. Sertakan: (1) nama campaign yang catchy, (2) hashtag campaign, (3) mekanisme partisipasi, (4) kriteria konten yang diharapkan, (5) timeline campaign (2-4 minggu), (6) cara seleksi pemenang, (7) strategi amplifikasi, (8) template announcement post. Pastikan campaign mudah diikuti dan motivating.",
+          "[BRAND]: nama brand Anda; [PRODUK]: produk yang ingin dipromosikan; [TUJUAN]: tujuan campaign (awareness/sales/engagement); [INCENTIVE]: insentif untuk partisipan",
           "Plan UGC campaign lengkap dengan mekanisme dan timeline"
         ],
         [
@@ -1098,8 +1098,8 @@
           "Bagian 4: Interaksi dan Komunitas",
           "Templat Balasan Komentar",
           "Membalas komentar followers dengan konsisten",
-          "Sebagai community manager, buatkan 5 template balasan untuk komentar [JENIS_KOMENTAR] di social media [BRAND_VOICE]. Jika terkait [PRODUCT], mention secara natural. Akhiri dengan [CTA] jika appropriate. Setiap template harus: (1) personal dan authentic, (2) max 50 kata, (3) sesuai brand voice, (4) mendorong conversation lanjut. Include variasi untuk situasi berbeda.",
-          "[JENIS_KOMENTAR]: jenis komentar (positive/question/complaint/compliment); [BRAND_VOICE]: tone dan style brand Anda; [PRODUCT]: produk yang terkait (jika ada); [CTA]: call-to-action yang ingin disampaikan",
+          "Sebagai community manager, buatkan 5 template balasan untuk komentar [JENIS_KOMENTAR] di media sosial [BRAND_VOICE]. Jika terkait [PRODUK], mention secara natural. Akhiri dengan [CTA] jika appropriate. Setiap template harus: (1) personal dan authentic, (2) max 50 kata, (3) sesuai brand voice, (4) mendorong conversation lanjut. Include variasi untuk situasi berbeda.",
+          "[JENIS_KOMENTAR]: jenis komentar (positif/pertanyaan/keluhan/pujian); [BRAND_VOICE]: gaya bahasa merek Anda; [PRODUK]: produk yang terkait (jika ada); [CTA]: call-to-action yang ingin disampaikan",
           "5 template balasan komentar yang versatile"
         ],
         [
@@ -1107,8 +1107,8 @@
           "Bagian 4: Interaksi dan Komunitas",
           "Templat Balasan DM",
           "Membalas direct message dengan professional",
-          "Sebagai customer service specialist, buatkan 3 template balasan DM [JENIS_DM] untuk [BRAND]. Goal: [GOAL]. Tone: [TONE]. Setiap template harus: (1) acknowledge pesan dengan nama customer, (2) jawab pertanyaan atau address concern, (3) berikan next step yang jelas, (4) akhiri dengan question atau CTA yang mendorong response. Include bagian yang bisa dipersonalisasi.",
-          "[JENIS_DM]: jenis DM (inquiry/complaint/collaboration/general); [BRAND]: nama brand Anda; [GOAL]: tujuan balasan (convert/retain/inform); [TONE]: tone komunikasi (friendly/professional/casual)",
+          "Sebagai customer service specialist, buatkan 3 template balasan DM [JENIS_DM] untuk [BRAND]. Goal: [TUJUAN]. Tone: [TONE]. Setiap template harus: (1) acknowledge pesan dengan nama customer, (2) jawab pertanyaan atau address concern, (3) berikan next step yang jelas, (4) akhiri dengan question atau CTA yang mendorong response. Include bagian yang bisa dipersonalisasi.",
+          "[JENIS_DM]: jenis DM (inquiry/complaint/collaboration/general); [BRAND]: nama brand Anda; [TUJUAN]: tujuan balasan (convert/retain/inform); [TONE]: tone komunikasi (friendly/professional/casual)",
           "3 template DM yang professional dan personal"
         ],
         [
@@ -1116,8 +1116,8 @@
           "Bagian 4: Interaksi dan Komunitas",
           "Ide Polling dan Pertanyaan",
           "Membuat interactive content untuk Stories",
-          "Sebagai engagement strategist, buatkan 10 ide poll dan question untuk Stories tentang [TOPIK] untuk [AUDIENCE]. Goal: [GOAL]. Funnel stage: [FUNNEL]. Untuk setiap ide, berikan: (1) type (poll/quiz/question slider/emoji slider), (2) question text, (3) options (untuk poll/quiz), (4) follow-up action berdasarkan jawaban. Variasikan antara fun, insightful, dan actionable questions.",
-          "[TOPIK]: topik yang ingin didiskusikan; [AUDIENCE]: target audience; [GOAL]: tujuan (engagement/research/feedback); [FUNNEL]: tahap funnel (awareness/consideration/decision)",
+          "Sebagai engagement strategist, buatkan 10 ide poll dan question untuk Stories tentang [TOPIK] untuk [AUDIENS]. Goal: [TUJUAN]. Funnel stage: [FUNNEL]. Untuk setiap ide, berikan: (1) type (poll/quiz/question slider/emoji slider), (2) question text, (3) options (untuk poll/quiz), (4) follow-up action berdasarkan jawaban. Variasikan antara fun, insightful, dan actionable questions.",
+          "[TOPIK]: topik yang ingin didiskusikan; [AUDIENS]: pembeli atau pengikut yang dituju; [TUJUAN]: tujuan (engagement/research/feedback); [FUNNEL]: tahap funnel (awareness/consideration/decision)",
           "10 ide konten interaktif yang mengundang interaksi"
         ],
         [
@@ -1125,8 +1125,8 @@
           "Bagian 4: Interaksi dan Komunitas",
           "Mekanisme Kontes dan Giveaway",
           "Merencanakan contest atau giveaway",
-          "Sebagai campaign manager, buatkan mechanics untuk contest [PRIZE] dengan goal [GOAL]. Durasi: [DURASI]. Mechanics: [MECHANICS]. Include: (1) nama contest yang catchy, (2) rules dan syarat partisipasi (5-7 poin), (3) step-by-step cara ikut, (4) kriteria pemenang, (5) timeline announcement, (6) disclaimer dan legal notes, (7) caption announcement post, (8) reminder posts (3 variasi), (9) winner announcement template. Pastikan mechanics mudah dipahami dan motivating.",
-          "[PRIZE]: hadiah yang diberikan; [GOAL]: tujuan (followers/engagement/UGC/sales); [DURASI]: lama contest (3-14 hari); [MECHANICS]: mekanisme yang diinginkan (like+comment/share/UGC)",
+          "Sebagai campaign manager, buatkan mechanics untuk contest [PRIZE] dengan goal [TUJUAN]. Durasi: [DURASI]. Mechanics: [MECHANICS]. Sertakan: (1) nama contest yang catchy, (2) rules dan syarat partisipasi (5-7 poin), (3) step-by-step cara ikut, (4) kriteria pemenang, (5) timeline announcement, (6) disclaimer dan legal notes, (7) caption announcement post, (8) reminder posts (3 variasi), (9) winner announcement template. Pastikan mechanics mudah dipahami dan motivating.",
+          "[PRIZE]: hadiah yang diberikan; [TUJUAN]: tujuan (followers/engagement/UGC/sales); [DURASI]: lama contest (3-14 hari); [MECHANICS]: mekanisme yang diinginkan (like+comment/share/UGC)",
           "Plan contest lengkap dengan semua template komunikasi"
         ],
         [
@@ -1134,8 +1134,8 @@
           "Bagian 4: Interaksi dan Komunitas",
           "Strategi Membangun Komunitas",
           "Membangun komunitas yang engaged dan loyal",
-          "Sebagai pembangun komunitas, buatkan strategi untuk membangun komunitas [BRAND] di bidang [NICHE] menggunakan [PLATFORM]. Tujuan: [GOAL]. Sertakan: (1) nama komunitas yang mudah diingat, (2) manfaat nyata untuk anggota, (3) proses penyambutan anggota baru, (4) kegiatan rutin mingguan dan tradisi komunitas, (5) pedoman moderasi, (6) pemicu interaksi antaranggota, (7) taktik pertumbuhan, (8) metrik untuk mengukur keberhasilan. Fokus pada koneksi yang tulus, bukan sekadar jumlah anggota.",
-          "[BRAND]: nama brand Anda; [NICHE]: niche atau industri; [PLATFORM]: platform utama (Instagram Group/Facebook Group/Discord/Telegram); [GOAL]: tujuan komunitas (support/feedback/advocacy)",
+          "Sebagai pembangun komunitas, buatkan strategi untuk membangun komunitas [BRAND] di bidang [NICHE] menggunakan [PLATFORM]. Tujuan: [TUJUAN]. Sertakan: (1) nama komunitas yang mudah diingat, (2) manfaat nyata untuk anggota, (3) proses penyambutan anggota baru, (4) kegiatan rutin mingguan dan tradisi komunitas, (5) pedoman moderasi, (6) pemicu interaksi antaranggota, (7) taktik pertumbuhan, (8) metrik untuk mengukur keberhasilan. Fokus pada koneksi yang tulus, bukan sekadar jumlah anggota.",
+          "[BRAND]: nama brand Anda; [NICHE]: niche atau industri; [PLATFORM]: platform utama (Instagram Group/Facebook Group/Discord/Telegram); [TUJUAN]: tujuan komunitas (support/feedback/advocacy)",
           "Strategi komunitas lengkap dengan rencana implementasi"
         ],
         [
@@ -1143,8 +1143,8 @@
           "Bagian 4: Interaksi dan Komunitas",
           "Strategi Stiker Pertanyaan",
           "Mengisi Instagram Story dengan pertanyaan interaktif yang mengundang jawaban",
-          "Sebagai social media strategist, buatkan 10 pertanyaan untuk question sticker Instagram Story [BISNIS] yang menjual [PRODUK]. Konteks kampanye: [MOMEN]. Tujuan: [GOAL]. Untuk setiap pertanyaan berikan: teks pertayaannya, alasan mengapa itu mengundang jawaban, cara memanfaatkan jawaban yang masuk (share ke story, jadi konten baru, atau jadi leads), dan perkiraan tingkat respons (tinggi/sedang/rendah). Campur pertanyaan ringan yang mudah dijawab dengan pertanyaan dalam yang menghasilkan riset pasar.",
-          "[BISNIS]: jenis bisnis Anda; [PRODUK]: produk atau jasa utama; [MOMEN]: momen atau kampanye yang sedang berjalan; [GOAL]: tujuan sesi tanya jawab (riset/engagement/konversi)",
+          "Sebagai media sosial strategist, buatkan 10 pertanyaan untuk question sticker Instagram Story [BISNIS] yang menjual [PRODUK]. Konteks kampanye: [MOMEN]. Tujuan: [TUJUAN]. Untuk setiap pertanyaan berikan: teks pertayaannya, alasan mengapa itu mengundang jawaban, cara memanfaatkan jawaban yang masuk (share ke story, jadi konten baru, atau jadi leads), dan perkiraan tingkat respons (tinggi/sedang/rendah). Campur pertanyaan ringan yang mudah dijawab dengan pertanyaan dalam yang menghasilkan riset pasar.",
+          "[BISNIS]: jenis bisnis Anda; [PRODUK]: produk atau jasa utama; [MOMEN]: momen atau kampanye yang sedang berjalan; [TUJUAN]: tujuan sesi tanya jawab (riset/engagement/konversi)",
           "10 pertanyaan sticker siap pakai dengan rencana pemanfaatan jawaban"
         ],
         [
@@ -1161,8 +1161,8 @@
           "Bagian 4: Interaksi dan Komunitas",
           "Post Isi Titik-Titik",
           "Membuat kalimat rumpang yang mengundang komentar kreatif",
-          "Sebagai copywriter social media, buatkan [JUMLAH] ide konten \"isi bagian kosong\" untuk [BISNIS] dengan tone [TONE]. Target: [TARGET]. Setiap ide berupa satu kalimat rumpang yang mudah dilengkapi, misalnya \"Aku gak bisa mulai pagi tanpa ___\". Untuk setiap ide berikan: kalimat lengkapnya, contoh jawaban yang biasanya muncul, dan cara Anda membalas komentar terbaik agar jadi percakapan panjang. Hindari rumpang yang jawabannya sensitif atau memalukan.",
-          "[BISNIS]: jenis bisnis Anda; [TARGET]: target audience; [JUMLAH]: berapa ide kalimat yang dibuat; [TONE]: tone brand (santai/profesional/lucu)",
+          "Sebagai copywriter media sosial, buatkan [JUMLAH] ide konten \"isi bagian kosong\" untuk [BISNIS] dengan tone [TONE]. Target: [AUDIENS]. Setiap ide berupa satu kalimat rumpang yang mudah dilengkapi, misalnya \"Aku gak bisa mulai pagi tanpa ___\". Untuk setiap ide berikan: kalimat lengkapnya, contoh jawaban yang biasanya muncul, dan cara Anda membalas komentar terbaik agar jadi percakapan panjang. Hindari rumpang yang jawabannya sensitif atau memalukan.",
+          "[BISNIS]: jenis bisnis Anda; [AUDIENS]: pembeli atau pengikut yang dituju; [JUMLAH]: berapa ide kalimat yang dibuat; [TONE]: tone brand (santai/profesional/lucu)",
           "Daftar kalimat rumpang siap pakai dengan contoh jawaban dan strategi balasan"
         ],
         [
@@ -1170,8 +1170,8 @@
           "Bagian 4: Interaksi dan Komunitas",
           "Challenge Tebak Caption",
           "Mengubah foto lucu produk jadi konten yang memancing komentar",
-          "Sebagai community manager, rancang konten \"buatkan caption\" untuk foto berikut: [FOTO]. Bisnis: [BISNIS]. Target: [TARGET]. Sertakan: hook pengumuman tantangan, aturan main dalam 3 poin, hadiah untuk caption terpilih: [HADIAH], batas waktu, dan 3 contoh caption milik Anda sendiri untuk memancing peserta pertama. Tulis juga kalimat pengumuman pemenang supaya momen penutupan jadi konten kedua.",
-          "[BISNIS]: jenis bisnis Anda; [FOTO]: deskripsi foto yang akan dipakai; [TARGET]: target audience; [HADIAH]: hadiah kecil untuk komentar terbaik (opsional)",
+          "Sebagai community manager, rancang konten \"buatkan caption\" untuk foto berikut: [FOTO]. Bisnis: [BISNIS]. Target: [AUDIENS]. Sertakan: hook pengumuman tantangan, aturan main dalam 3 poin, hadiah untuk caption terpilih: [HADIAH], batas waktu, dan 3 contoh caption milik Anda sendiri untuk memancing peserta pertama. Tulis juga kalimat pengumuman pemenang supaya momen penutupan jadi konten kedua.",
+          "[BISNIS]: jenis bisnis Anda; [FOTO]: deskripsi foto yang akan dipakai; [AUDIENS]: pembeli atau pengikut yang dituju; [HADIAH]: hadiah kecil untuk komentar terbaik (opsional)",
           "Paket lengkap tantangan caption dari pengumuman sampai penutupan"
         ],
         [
@@ -1350,8 +1350,8 @@
           "Bagian 4: Interaksi dan Komunitas",
           "Hook Interaksi yang Etis",
           "Membuka konten dengan kalimat yang mengundang interaksi tanpa manipulasi",
-          "Sebagai engagement strategist, buatkan 15 hook pembuka konten yang memancing interaksi jujur untuk [BISNIS] dengan topik [TOPIK]. Target: [TARGET]. Produk: [PRODUK]. Kategori hook: pertanyaan personal, kesepakatan pendapat, kesalahan umum, pengakuan jujur, dan tantangan ringan. Untuk setiap hook tulis kalimatnya dan alasan mengapa orang terdorong merespons. Hindari hook yang meminta like atau follow secara langsung, hook yang mengancam, dan hook yang menipu isi konten. Tandai 3 hook terbaik untuk audiens pemula dan 3 untuk audiens ahli.",
-          "[BISNIS]: jenis bisnis Anda; [PRODUK]: produk atau jasa utama; [TOPIK]: topik konten yang akan diposting; [TARGET]: target audience",
+          "Sebagai engagement strategist, buatkan 15 hook pembuka konten yang memancing interaksi jujur untuk [BISNIS] dengan topik [TOPIK]. Target: [AUDIENS]. Produk: [PRODUK]. Kategori hook: pertanyaan personal, kesepakatan pendapat, kesalahan umum, pengakuan jujur, dan tantangan ringan. Untuk setiap hook tulis kalimatnya dan alasan mengapa orang terdorong merespons. Hindari hook yang meminta like atau follow secara langsung, hook yang mengancam, dan hook yang menipu isi konten. Tandai 3 hook terbaik untuk audiens pemula dan 3 untuk audiens ahli.",
+          "[BISNIS]: jenis bisnis Anda; [PRODUK]: produk atau jasa utama; [TOPIK]: topik konten yang akan diposting; [AUDIENS]: pembeli atau pengikut yang dituju",
           "15 hook interaksi terkategori dengan alasan psikologisnya"
         ],
         [
@@ -1359,8 +1359,8 @@
           "Bagian 4: Interaksi dan Komunitas",
           "Strategi Post Kolaborasi",
           "Memakai fitur kolaborasi Instagram agar konten menjangkau audiens mitra",
-          "Sebagai partnership strategist, susun strategi Instagram Collab dengan [MITRA] untuk [BISNIS]. Topik konten: [TOPIK]. Tujuan: [GOAL]. Sertakan: 5 ide konten kolaborasi yang menguntungkan kedua belah pihak, template pesan pitching kepada mitra yang menjelaskan keuntungan mereka lebih dulu, pembagian tanggung jawab produksi, jadwal posting bersama, cara mengukur keberhasilan dari insight kolab, dan rencana tindak lanjut jika kolab pertama berhasil agar menjadi kerja sama rutin.",
-          "[BISNIS]: jenis bisnis Anda; [MITRA]: mitra kolaborasi yang dituju; [TOPIK]: topik konten kolaborasi; [GOAL]: tujuan kolaborasi (reach/followers/penjualan)",
+          "Sebagai partnership strategist, susun strategi Instagram Collab dengan [MITRA] untuk [BISNIS]. Topik konten: [TOPIK]. Tujuan: [TUJUAN]. Sertakan: 5 ide konten kolaborasi yang menguntungkan kedua belah pihak, template pesan pitching kepada mitra yang menjelaskan keuntungan mereka lebih dulu, pembagian tanggung jawab produksi, jadwal posting bersama, cara mengukur keberhasilan dari insight kolab, dan rencana tindak lanjut jika kolab pertama berhasil agar menjadi kerja sama rutin.",
+          "[BISNIS]: jenis bisnis Anda; [MITRA]: mitra kolaborasi yang dituju; [TOPIK]: topik konten kolaborasi; [TUJUAN]: tujuan kolaborasi (reach/followers/penjualan)",
           "Rencana kolaborasi lengkap dari pitching sampai kerja sama lanjutan"
         ],
         [
@@ -1422,8 +1422,8 @@
           "Bagian 4: Interaksi dan Komunitas",
           "Rencana Peningkatan Engagement Rate",
           "Menaikkan engagement rate yang sedang stagnan dalam 30 hari",
-          "Sebagai social media growth specialist, buatkan rencana 30 hari menaikkan engagement [PLATFORM] dari [ENGAGEMENT_SEKARANG] ke [TARGET] untuk [BISNIS]. Sertakan: diagnosis 5 penyebab umum engagement rendah dan cara mengecek mana yang berlaku, perubahan konten minggu pertama sampai keempat, rutinitas interaksi harian 20 menit (komentar ke akun siapa, story apa, balasan apa), 5 ide konten yang berbasis percakapan, metrik yang dicatat tiap minggu, dan tanda rencana perlu diubah. Pastikan taktiknya sesuai algoritma terkini dan tidak melanggar pedoman platform.",
-          "[BISNIS]: jenis bisnis Anda; [PLATFORM]: platform yang dianalisis; [ENGAGEMENT_SEKARANG]: engagement rate saat ini; [TARGET]: engagement rate yang diinginkan",
+          "Sebagai media sosial growth specialist, buatkan rencana 30 hari menaikkan engagement [PLATFORM] dari [ENGAGEMENT_SEKARANG] ke [AUDIENS] untuk [BISNIS]. Sertakan: diagnosis 5 penyebab umum engagement rendah dan cara mengecek mana yang berlaku, perubahan konten minggu pertama sampai keempat, rutinitas interaksi harian 20 menit (komentar ke akun siapa, story apa, balasan apa), 5 ide konten yang berbasis percakapan, metrik yang dicatat tiap minggu, dan tanda rencana perlu diubah. Pastikan taktiknya sesuai algoritma terkini dan tidak melanggar pedoman platform.",
+          "[BISNIS]: jenis bisnis Anda; [PLATFORM]: platform yang dianalisis; [ENGAGEMENT_SEKARANG]: engagement rate saat ini; [AUDIENS]: engagement rate yang diinginkan",
           "Rencana 30 hari bertahap dengan rutinitas harian dan metrik mingguan"
         ],
         [
@@ -1449,7 +1449,7 @@
           "Bagian 4: Interaksi dan Komunitas",
           "Templat Komunikasi Krisis",
           "Menangani situasi krisis atau komplain viral",
-          "Sebagai PR specialist, buatkan crisis communication plan untuk [SITUASI] dengan severity [SEVERITY] di [PLATFORM]. Stakeholder: [STAKEHOLDER]. Include: (1) holding statement (50 kata) untuk immediate response, (2) detailed apology letter (200 kata), (3) FAQ untuk anticipated questions (5-7 Q&A), (4) internal memo untuk tim, (5) follow-up update template, (6) recovery content ideas. Tone harus empathetic, accountable, dan solution-oriented. Hindari defensive language.",
+          "Sebagai PR specialist, buatkan crisis communication plan untuk [SITUASI] dengan severity [SEVERITY] di [PLATFORM]. Stakeholder: [STAKEHOLDER]. Sertakan: (1) holding statement (50 kata) untuk immediate response, (2) detailed apology letter (200 kata), (3) FAQ untuk anticipated questions (5-7 Q&A), (4) internal memo untuk tim, (5) follow-up update template, (6) recovery content ideas. Tone harus empathetic, accountable, dan solution-oriented. Hindari defensive language.",
           "[SITUASI]: jenis krisis (product issue/service failure/miscommunication/public complaint); [SEVERITY]: tingkat keparahan (minor/moderate/major); [PLATFORM]: platform dimana krisis terjadi; [STAKEHOLDER]: pihak yang terdampak",
           "Crisis communication kit lengkap dengan semua template"
         ],
@@ -1457,9 +1457,9 @@
           "T-161",
           "Bagian 5: Analitik dan Optimasi",
           "Laporan Performa Bulanan",
-          "Membuat laporan performa social media bulanan",
-          "Sebagai analis media sosial, buatkan template laporan performa [PLATFORM] untuk periode [PERIODE]. Metrik: [METRICS]. Tujuan: [GOAL]. Sertakan: (1) ringkasan eksekutif (3-5 kalimat), (2) gambaran umum metrik utama dibanding bulan lalu, (3) analisis konten berperforma terbaik (5 posting teratas), (4) analisis konten berperforma terendah (3 posting terbawah), (5) wawasan tentang audiens, (6) perbandingan dengan kompetitor, (7) rekomendasi untuk bulan depan (5 tindakan), (8) target bulan berikutnya. Gunakan bahasa yang mudah dipahami orang non-teknis.",
-          "[PERIODE]: bulan yang dilaporkan; [PLATFORM]: platform yang dianalisis; [METRICS]: metrics yang di-track (followers/engagement/reach/conversions); [GOAL]: goal bulanan",
+          "Membuat laporan performa media sosial bulanan",
+          "Sebagai analis media sosial, buatkan template laporan performa [PLATFORM] untuk periode [PERIODE]. Metrik: [METRIK]. Tujuan: [TUJUAN]. Sertakan: (1) ringkasan eksekutif (3-5 kalimat), (2) gambaran umum metrik utama dibanding bulan lalu, (3) analisis konten berperforma terbaik (5 posting teratas), (4) analisis konten berperforma terendah (3 posting terbawah), (5) wawasan tentang audiens, (6) perbandingan dengan kompetitor, (7) rekomendasi untuk bulan depan (5 tindakan), (8) target bulan berikutnya. Gunakan bahasa yang mudah dipahami orang non-teknis.",
+          "[PERIODE]: bulan yang dilaporkan; [PLATFORM]: platform yang dianalisis; [METRIK]: metrik yang dicatat (followers/engagement/reach/konversi); [TUJUAN]: tujuan bulan ini",
           "Template laporan bulanan lengkap dengan analisis dan rekomendasi"
         ],
         [
@@ -1467,7 +1467,7 @@
           "Bagian 5: Analitik dan Optimasi",
           "Generator Ide Pengujian A/B",
           "Merencanakan eksperimen untuk optimasi konten",
-          "Sebagai growth hacker, buatkan 5 A/B testing ideas untuk [ELEMENT] dengan hypothesis [HYPOTHESIS]. Success metric: [METRIC]. Durasi: [DURASI]. Untuk setiap test, berikan: (1) test name, (2) variable A description, (3) variable B description, (4) sample size needed, (5) success criteria, (6) implementation steps, (7) potential insights. Prioritaskan tests yang high-impact dan easy-to-implement.",
+          "Sebagai growth hacker, buatkan 5 A/B testing ideas untuk [ELEMENT] dengan hypothesis [HYPOTHESIS]. Success metric: [METRIC]. Durasi: [DURASI]. Untuk setiap test, berikan: (1) test name, (2) variable A denaskahion, (3) variable B denaskahion, (4) sample size needed, (5) success criteria, (6) implementation steps, (7) potential insights. Prioritaskan tests yang high-impact dan easy-to-implement.",
           "[ELEMENT]: element yang ingin di-test (caption/image/timing/hashtag/format); [HYPOTHESIS]: hipotesis yang ingin dibuktikan; [METRIC]: metric sukses (engagement rate/click-through/conversion); [DURASI]: lama test (1-4 minggu)",
           "5 ide pengujian A/B lengkap dengan rencana implementasi"
         ],
@@ -1485,15 +1485,15 @@
           "Bagian 5: Analitik dan Optimasi",
           "Analisis Performa Konten",
           "Menganalisis kenapa konten tertentu perform baik/buruk",
-          "Sebagai perencana konten, analisis performa konten [PERIODE]. Konten terbaik: [TOP_CONTENT]. Konten terlemah: [BOTTOM_CONTENT]. Metrik: [METRICS]. Berikan: (1) analisis pola (apa persamaan konten terbaik), (2) analisis anti-pola (apa persamaan konten terlemah), (3) wawasan perilaku audiens, (4) preferensi format konten, (5) waktu posting paling optimal, (6) efektivitas hashtag, (7) korelasi panjang caption dengan hasil, (8) 5 rekomendasi yang bisa langsung diterapkan untuk konten ke depan. Gunakan pendekatan berbasis data.",
-          "[TOP_CONTENT]: 3-5 konten top performing; [BOTTOM_CONTENT]: 3-5 konten bottom performing; [METRICS]: metrics yang dianalisis (reach/engagement/saves/shares); [PERIODE]: periode analisis",
+          "Sebagai perencana konten, analisis performa konten [PERIODE]. Konten terbaik: [TOP_CONTENT]. Konten terlemah: [BOTTOM_CONTENT]. Metrik: [METRIK]. Berikan: (1) analisis pola (apa persamaan konten terbaik), (2) analisis anti-pola (apa persamaan konten terlemah), (3) wawasan perilaku audiens, (4) preferensi format konten, (5) waktu posting paling optimal, (6) efektivitas hashtag, (7) korelasi panjang caption dengan hasil, (8) 5 rekomendasi yang bisa langsung diterapkan untuk konten ke depan. Gunakan pendekatan berbasis data.",
+          "[TOP_CONTENT]: 3-5 konten top performing; [BOTTOM_CONTENT]: 3-5 konten bottom performing; [METRIK]: metrik yang dianalisis (reach/engagement/simpan/bagikan); [PERIODE]: periode analisis",
           "Analisis mendalam dengan wawasan yang bisa langsung ditindaklanjuti"
         ],
         [
           "T-165",
           "Bagian 5: Analitik dan Optimasi",
           "Templat Perhitungan ROI",
-          "Menghitung return on investment dari social media efforts",
+          "Menghitung return on investment dari media sosial efforts",
           "Sebagai analis pemasaran, buatkan perhitungan ROI untuk aktivitas media sosial [PERIODE]. Biaya: [COSTS]. Pendapatan: [REVENUE]. Target: [GOALS]. Sertakan: (1) perhitungan ROI langsung (pendapatan - biaya) / biaya x 100%, (2) biaya per pembelian (CPA), (3) nilai seumur hidup pelanggan (CLV) dari media sosial, (4) metrik nilai merek (jangkauan/tayangan/penyebutan), (5) perkiraan nilai interaksi, (6) perbandingan dengan tolok ukur industri, (7) rekomendasi mengoptimalkan ROI, (8) proyeksi periode berikutnya. Sajikan dalam format yang mudah dipahami pemangku kepentingan.",
           "[PERIODE]: periode perhitungan (bulanan/kuartalan/tahunan); [COSTS]: biaya yang dikeluarkan (ads/tools/time); [REVENUE]: revenue yang di-generate (sales/leads/valuasi brand); [GOALS]: goal bisnis utama",
           "Laporan ROI lengkap dengan metrik keuangan dan rekomendasi"
@@ -1503,8 +1503,8 @@
           "Bagian 5: Analitik dan Optimasi",
           "Pelacak Metrik Mingguan",
           "Mencatat metrik mingguan agar tren terlihat sejak dini",
-          "Sebagai social media analyst, buatkan format tabel pencatatan metrik mingguan untuk [BISNIS] di [PLATFORM]. Metrik yang dipantau: [METRIK]. Target mingguan: [GOAL]. Tabel harus punya kolom: minggu ke, tanggal, nilai tiap metrik, perbandingan dengan minggu lalu, konten terbaik minggu itu, dan satu catatan penyebab naik atau turun. Tambahkan aturan kapan pencatatan dilakukan (hari apa, jam berapa), ambang batas perubahan yang dianggap normal, dan kondisi apa yang harus memicu analisis mendalam.",
-          "[BISNIS]: jenis bisnis Anda; [PLATFORM]: platform yang dipantau; [METRIK]: metrik yang dicatat (followers/reach/engagement/klik/pesan masuk); [GOAL]: target mingguan",
+          "Sebagai media sosial analyst, buatkan format tabel pencatatan metrik mingguan untuk [BISNIS] di [PLATFORM]. Metrik yang dipantau: [METRIK]. Target mingguan: [TUJUAN]. Tabel harus punya kolom: minggu ke, tanggal, nilai tiap metrik, perbandingan dengan minggu lalu, konten terbaik minggu itu, dan satu catatan penyebab naik atau turun. Tambahkan aturan kapan pencatatan dilakukan (hari apa, jam berapa), ambang batas perubahan yang dianggap normal, dan kondisi apa yang harus memicu analisis mendalam.",
+          "[BISNIS]: jenis bisnis Anda; [PLATFORM]: platform yang dipantau; [METRIK]: metrik yang dicatat (followers/reach/engagement/klik/pesan masuk); [TUJUAN]: target mingguan",
           "Format tabel pencatatan mingguan siap pakai dengan aturan pemicu analisis"
         ],
         [
@@ -1512,8 +1512,8 @@
           "Bagian 5: Analitik dan Optimasi",
           "Kalkulator Engagement Rate",
           "Menghitung engagement rate dengan benar agar tidak salah banding",
-          "Sebagai social media measurement specialist, jelaskan cara menghitung engagement rate untuk [PLATFORM] dengan data berikut: [DATA]. Bisnis: [BISNIS]. Benchmark industri: [BENCHMARK]. Sertakan: rumus engagement per follower, rumus engagement per reach, dan kapan memakai yang mana. Hitung keduanya dari data saya, bandingkan dengan benchmark, dan jelaskan apakah hasil saya sehat, biasa, atau perlu diperbaiki. Tutup dengan 3 faktor yang paling memengaruhi angka saya saat ini dan cara memperbaikinya tanpa konten bayar.",
-          "[BISNIS]: jenis bisnis Anda; [PLATFORM]: platform yang dihitung; [DATA]: tempel data followers, likes, comments, shares, saves, reach; [BENCHMARK]: perkiraan engagement rata-rata industri Anda",
+          "Sebagai media sosial measurement specialist, jelaskan cara menghitung engagement rate untuk [PLATFORM] dengan data berikut: [DATA]. Bisnis: [BISNIS]. Benchmark industri: [BENCHMARK]. Sertakan: rumus engagement per follower, rumus engagement per reach, dan kapan memakai yang mana. Hitung keduanya dari data saya, bandingkan dengan benchmark, dan jelaskan apakah hasil saya sehat, biasa, atau perlu diperbaiki. Tutup dengan 3 faktor yang paling memengaruhi angka saya saat ini dan cara memperbaikinya tanpa konten bayar.",
+          "[BISNIS]: jenis bisnis Anda; [PLATFORM]: platform yang dihitung; [DATA]: tempel data followers, like, komentar, bagikan, simpan, reach; [BENCHMARK]: perkiraan engagement rata-rata industri Anda",
           "Perhitungan engagement rate ganda dengan interpretasi dan rekomendasi"
         ],
         [
@@ -1530,7 +1530,7 @@
           "Bagian 5: Analitik dan Optimasi",
           "Analisis Waktu Posting Terbaik",
           "Menemukan jam posting terbaik dari data sendiri, bukan asumsi umum",
-          "Sebagai social media analyst, bantu saya menemukan jam posting terbaik untuk [BISNIS] di [PLATFORM]. Profil audiens: [AUDIENS]. Data posting dan hasil yang saya catat: [DATA]. Sertakan: cara membaca data insight bawaan platform untuk jam aktif audiens, hipotesis jam terbaik berdasarkan kebiasaan audiens saya, rencana uji coba 2 minggu dengan pembagian jam yang terukur, tabel pencatatan hasil uji, dan keputusan akhir berdasarkan kriteria apa (reach tertinggi, engagement tertinggi, atau klik terbanyak) karena ketiganya bisa menghasilkan jam yang berbeda.",
+          "Sebagai media sosial analyst, bantu saya menemukan jam posting terbaik untuk [BISNIS] di [PLATFORM]. Profil audiens: [AUDIENS]. Data posting dan hasil yang saya catat: [DATA]. Sertakan: cara membaca data insight bawaan platform untuk jam aktif audiens, hipotesis jam terbaik berdasarkan kebiasaan audiens saya, rencana uji coba 2 minggu dengan pembagian jam yang terukur, tabel pencatatan hasil uji, dan keputusan akhir berdasarkan kriteria apa (reach tertinggi, engagement tertinggi, atau klik terbanyak) karena ketiganya bisa menghasilkan jam yang berbeda.",
           "[BISNIS]: jenis bisnis Anda; [PLATFORM]: platform yang dianalisis; [AUDIENS]: deskripsi kebiasaan audiens (pekerja/karyawan/ibu rumah tangga/pelajar); [DATA]: tempel data jam posting dan hasilnya jika ada",
           "Rencana uji jam posting dengan tabel pencatatan dan kriteria keputusan"
         ],
@@ -1558,7 +1558,7 @@
           "Analisis Performa Reel dan Video",
           "Mengetahui pola video yang berhasil agar bisa direplikasi",
           "Sebagai video performance analyst, bandingkan [JUMLAH_VIDEO] video teratas dengan video terbawah untuk [BISNIS] di [PLATFORM]. Data: [DATA]. Sertakan: tabel perbandingan metrik utama, pola yang berulang pada video berhasil (hook, durasi, jenis konten, momen pertama 3 detik), pola yang berulang pada video gagal, poin retention di mana penonton biasa pergi, dan 5 aturan produksi video berikutnya berdasarkan temuan ini. Aturan harus konkret dan bisa dipatuhu saat produksi, bukan saran umum.",
-          "[BISNIS]: jenis bisnis Anda; [PLATFORM]: platform video yang dianalisis; [DATA]: tempel data video (views, watch time, retention, likes, shares, saves); [JUMLAH_VIDEO]: berapa video teratas dan terbawah yang dibandingkan",
+          "[BISNIS]: jenis bisnis Anda; [PLATFORM]: platform video yang dianalisis; [DATA]: tempel data video (views, durasi tonton, retensi, like, bagikan, simpan); [JUMLAH_VIDEO]: berapa video teratas dan terbawah yang dibandingkan",
           "Perbandingan video berhasil dan gagal dengan 5 aturan produksi baru"
         ],
         [
@@ -1602,7 +1602,7 @@
           "Bagian 5: Analitik dan Optimasi",
           "Panduan Pembuat dan Pelacak UTM",
           "Memberi tanda pada setiap tautan agar tahu sumber trafik yang benar",
-          "Sebagai analytics specialist, ajari saya memakai parameter UTM untuk [BISNIS]. Tujuan tautan: [TUJUAN]. Kampanye yang perlu ditandai: [KAMPANYE]. Alat pembaca: [ALAT_ANALITIK]. Sertakan: penjelasan tiap parameter (source, medium, campaign, content) dengan contoh dari bisnis saya, daftar tautan lengkap untuk setiap kampanye yang sudah jadi, aturan penamaan konsisten agar data tidak pecah, kesalahan umum yang merusak data (huruf besar kecil beda, spasi, parameter ganda), dan cara membaca hasilnya di alat analitik yang saya pakai.",
+          "Sebagai analis data, ajari saya memakai parameter UTM untuk [BISNIS]. Tujuan tautan: [TUJUAN]. Kampanye yang perlu ditandai: [KAMPANYE]. Alat pembaca: [ALAT_ANALITIK]. Sertakan: penjelasan tiap parameter (source, medium, campaign, content) dengan contoh dari bisnis saya, daftar tautan lengkap untuk setiap kampanye yang sudah jadi, aturan penamaan konsisten agar data tidak pecah, kesalahan umum yang merusak data (huruf besar kecil beda, spasi, parameter ganda), dan cara membaca hasilnya di alat analitik yang saya pakai.",
           "[BISNIS]: jenis bisnis Anda; [KAMPANYE]: daftar kampanye atau kanal yang akan ditandai; [TUJUAN]: halaman yang menerima trafik; [ALAT_ANALITIK]: alat pembaca data (Google Analytics/log server)",
           "Daftar tautan UTM siap pakai dengan aturan penamaan dan cara membaca data"
         ],
@@ -1629,8 +1629,8 @@
           "Bagian 5: Analitik dan Optimasi",
           "Perencana Alokasi Anggaran Iklan",
           "Membagi anggaran iklan ke kanal dan tujuan yang tepat",
-          "Sebagai media buyer, buatkan rencana alokasi anggaran iklan [ANGGARAN] per bulan untuk [BISNIS] dengan tujuan [GOAL]. Pilihan kanal: [KANAL]. Sertakan: prinsip pembagian anggaran untuk bisnis kecil (seberapa besar untuk penjualan langsung versus mengenalkan merek, berapa cadangan untuk uji coba), tabel alokasi per kanal dengan alasannya, struktur kampanye minimal di tiap kanal (jangan pecah terlalu kecil), aturan kapan anggaran dipindah antar kanal, metrik evaluasi mingguan, dan kesalahan pemborosan yang paling sering terjadi pada anggaran kecil.",
-          "[BISNIS]: jenis bisnis Anda; [ANGGARAN]: total anggaran iklan per bulan; [KANAL]: pilihan kanal beriklan yang dipertimbangkan; [GOAL]: tujuan utama iklan (penjualan/daftar/kenal merek)",
+          "Sebagai media buyer, buatkan rencana alokasi anggaran iklan [ANGGARAN] per bulan untuk [BISNIS] dengan tujuan [TUJUAN]. Pilihan kanal: [KANAL]. Sertakan: prinsip pembagian anggaran untuk bisnis kecil (seberapa besar untuk penjualan langsung versus mengenalkan merek, berapa cadangan untuk uji coba), tabel alokasi per kanal dengan alasannya, struktur kampanye minimal di tiap kanal (jangan pecah terlalu kecil), aturan kapan anggaran dipindah antar kanal, metrik evaluasi mingguan, dan kesalahan pemborosan yang paling sering terjadi pada anggaran kecil.",
+          "[BISNIS]: jenis bisnis Anda; [ANGGARAN]: total anggaran iklan per bulan; [KANAL]: pilihan kanal beriklan yang dipertimbangkan; [TUJUAN]: tujuan utama iklan (penjualan/daftar/kenal merek)",
           "Rencana alokasi anggaran per kanal dengan aturan evaluasi dan pemindahan"
         ],
         [
@@ -1647,8 +1647,8 @@
           "Bagian 5: Analitik dan Optimasi",
           "Penyiapan Dasbor KPI",
           "Menyusun satu halaman pantauan berisi angka yang paling menentukan",
-          "Sebagai performance analyst, rancang dashboard KPI untuk [BISNIS] dengan goal utama [GOAL] menggunakan [ALAT]. Sumber data: [SUMBER_DATA]. Sertakan: pemilihan maksimal 7 KPI yang benar benar terhubung ke goal (tolak metrik yang cuma bagus dilihat), definisi tiap KPI agar semua orang mengerti sama, struktur layout dashboard dari kiri ke kanan (paling penting lebih dulu), frekuensi update tiap KPI, sumber pengambilan angkanya, dan aturan warna sederhana (hijau aman, kuning perlu perhatian, merah butuh tindakan). Dashboard harus bisa dibuat dalam satu hari.",
-          "[BISNIS]: jenis bisnis Anda; [GOAL]: goal bisnis utama saat ini; [SUMBER_DATA]: tempat data berasal (platform/penjualan/iklan); [ALAT]: alat dashboard (spreadsheet/notion/berbayar)",
+          "Sebagai performance analyst, rancang dashboard KPI untuk [BISNIS] dengan goal utama [TUJUAN] menggunakan [ALAT]. Sumber data: [SUMBER_DATA]. Sertakan: pemilihan maksimal 7 KPI yang benar benar terhubung ke goal (tolak metrik yang cuma bagus dilihat), definisi tiap KPI agar semua orang mengerti sama, struktur layout dashboard dari kiri ke kanan (paling penting lebih dulu), frekuensi update tiap KPI, sumber pengambilan angkanya, dan aturan warna sederhana (hijau aman, kuning perlu perhatian, merah butuh tindakan). Dashboard harus bisa dibuat dalam satu hari.",
+          "[BISNIS]: jenis bisnis Anda; [TUJUAN]: goal bisnis utama saat ini; [SUMBER_DATA]: tempat data berasal (platform/penjualan/iklan); [ALAT]: alat dashboard (spreadsheet/notion/berbayar)",
           "Rancangan dashboard KPI maksimal 7 metrik dengan layout dan aturan warna"
         ],
         [
@@ -1674,8 +1674,8 @@
           "Bagian 5: Analitik dan Optimasi",
           "Kerangka Telaah Kuartalan",
           "Menilai capaian tiga bulan dan menyusun arah kuartal berikutnya",
-          "Sebagai fasilitator telaah strategi, fasilitasi telaah kuartalan [KUARTAL] untuk [BISNIS]. Goal awal: [GOAL]. Capaian: [CAPAIAN]. Sertakan: skor capaian per goal dengan bukti angka, analisis kenapa tiap goal tercapai atau tidak (faktor internal dan eksternal), pembelajaran yang harus dibawa ke kuartal berikutnya, keputusan berhenti, lanjut, atau ubah untuk tiap inisiatif, draf 3 goal kuartal berikutnya dengan metrik pengukuran, dan daftar pertanyaan berat untuk evaluasi diri yang tidak membolehkan jawaban mengambang.",
-          "[BISNIS]: jenis bisnis Anda; [KUARTAL]: kuartal yang direview; [CAPAIAN]: data pencapaian kuartal; [GOAL]: goal yang ditetapkan di awal kuartal",
+          "Sebagai fasilitator telaah strategi, fasilitasi telaah kuartalan [KUARTAL] untuk [BISNIS]. Goal awal: [TUJUAN]. Capaian: [CAPAIAN]. Sertakan: skor capaian per goal dengan bukti angka, analisis kenapa tiap goal tercapai atau tidak (faktor internal dan eksternal), pembelajaran yang harus dibawa ke kuartal berikutnya, keputusan berhenti, lanjut, atau ubah untuk tiap inisiatif, draf 3 goal kuartal berikutnya dengan metrik pengukuran, dan daftar pertanyaan berat untuk evaluasi diri yang tidak membolehkan jawaban mengambang.",
+          "[BISNIS]: jenis bisnis Anda; [KUARTAL]: kuartal yang direview; [CAPAIAN]: data pencapaian kuartal; [TUJUAN]: goal yang ditetapkan di awal kuartal",
           "Kerangka telaah kuartalan dengan keputusan per inisiatif dan draf target baru"
         ],
         [
@@ -1710,8 +1710,8 @@
           "Bagian 5: Analitik dan Optimasi",
           "Penyusun Tolok Ukur Dasar",
           "Menetapkan angka dasar untuk mengukur kemajuan ke depan",
-          "Sebagai performance baseline analyst, susun angka dasar untuk [BISNIS] di [PLATFORM] dari data 90 hari berikut: [DATA_90_HARI]. Goal 6 bulan: [GOAL]. Sertakan: perhitungan baseline tiap metrik utama (rata rata, angka terbaik, angka terburuk, tren arah), keputusan metrik mana yang jadi acuan utama dan mana yang hanya dipantau, target pertumbuhan bulanan yang berbasis baseline bukan harapan, tabel sederhana untuk mencatat perkembangan bulanan terhadap baseline, dan aturan review kapan baseline dihitung ulang karena situasi berubah.",
-          "[BISNIS]: jenis bisnis Anda; [PLATFORM]: platform yang diukur; [DATA_90_HARI]: data performa 90 hari terakhir; [GOAL]: goal 6 bulan ke depan",
+          "Sebagai performance baseline analyst, susun angka dasar untuk [BISNIS] di [PLATFORM] dari data 90 hari berikut: [DATA_90_HARI]. Goal 6 bulan: [TUJUAN]. Sertakan: perhitungan baseline tiap metrik utama (rata rata, angka terbaik, angka terburuk, tren arah), keputusan metrik mana yang jadi acuan utama dan mana yang hanya dipantau, target pertumbuhan bulanan yang berbasis baseline bukan harapan, tabel sederhana untuk mencatat perkembangan bulanan terhadap baseline, dan aturan review kapan baseline dihitung ulang karena situasi berubah.",
+          "[BISNIS]: jenis bisnis Anda; [PLATFORM]: platform yang diukur; [DATA_90_HARI]: data performa 90 hari terakhir; [TUJUAN]: goal 6 bulan ke depan",
           "Baseline metrik dengan target pertumbuhan bertahap dan tabel pemantauan"
         ],
         [
@@ -1773,8 +1773,8 @@
           "Bagian 5: Analitik dan Optimasi",
           "Penerjemah Wawasan ke Tindakan",
           "Mengubah data yang sudah dikumpulkan menjadi keputusan konkret",
-          "Sebagai data driven strategist, ubah temuan berikut menjadi tindakan untuk [BISNIS]. Goal saat ini: [GOAL]. Kendala: [KENDALA]. Temuan: [TEMUAN]. Sertakan: interpretasi tiap temuan dalam satu kalimat maknanya, tindakan yang disarankan per temuan dengan tingkat dampak dan biaya, peringatan untuk temuan yang menarik tetapi belum layak ditindak, urutan tiga tindakan pertama yang harus dimulai minggu ini dengan alasan urutannya, dan cara mengukur apakah tindakan itu benar benar menjawab temuan awal.",
-          "[BISNIS]: jenis bisnis Anda; [TEMUAN]: daftar temuan data yang sudah Anda kumpulkan; [GOAL]: goal yang sedang dikejar; [KENDALA]: sumber daya yang tersedia (waktu/anggaran/tim)",
+          "Sebagai data driven strategist, ubah temuan berikut menjadi tindakan untuk [BISNIS]. Goal saat ini: [TUJUAN]. Kendala: [KENDALA]. Temuan: [TEMUAN]. Sertakan: interpretasi tiap temuan dalam satu kalimat maknanya, tindakan yang disarankan per temuan dengan tingkat dampak dan biaya, peringatan untuk temuan yang menarik tetapi belum layak ditindak, urutan tiga tindakan pertama yang harus dimulai minggu ini dengan alasan urutannya, dan cara mengukur apakah tindakan itu benar benar menjawab temuan awal.",
+          "[BISNIS]: jenis bisnis Anda; [TEMUAN]: daftar temuan data yang sudah Anda kumpulkan; [TUJUAN]: goal yang sedang dikejar; [KENDALA]: sumber daya yang tersedia (waktu/anggaran/tim)",
           "Tabel terjemahan temuan ke tindakan dengan urutan minggu pertama"
         ],
         [
@@ -1791,8 +1791,8 @@
           "Bagian 5: Analitik dan Optimasi",
           "Checklist Pengumpulan Data",
           "Menyiapkan daftar data yang harus dicatat sejak sekarang agar analisis bisa jalan",
-          "Sebagai analytics setup specialist, susun daftar data yang harus mulai dicatat untuk [BISNIS] di [PLATFORM] agar goal [GOAL] terukur. Alat: [ALAT]. Sertakan: daftar data wajib per minggu dan per bulan dengan sumber pengambilannya di tiap platform, data penjualan yang harus dicatat manual karena tidak otomatis, struktur spreadsheet per lembar kerja, aturan konsistensi (hari pencatatan, satuan, penamaan), kesalahan pencatatan yang membuat data tidak bisa dibandingkan, dan checklist 10 menit akhir minggu agar pencatatan tidak terlewat.",
-          "[BISNIS]: jenis bisnis Anda; [PLATFORM]: platform yang dijalankan; [GOAL]: goal yang ingin diukur; [ALAT]: alat pencatatan yang dipakai (spreadsheet/notion/manual)",
+          "Sebagai ahli penyiapan analitik, susun daftar data yang harus mulai dicatat untuk [BISNIS] di [PLATFORM] agar goal [TUJUAN] terukur. Alat: [ALAT]. Sertakan: daftar data wajib per minggu dan per bulan dengan sumber pengambilannya di tiap platform, data penjualan yang harus dicatat manual karena tidak otomatis, struktur spreadsheet per lembar kerja, aturan konsistensi (hari pencatatan, satuan, penamaan), kesalahan pencatatan yang membuat data tidak bisa dibandingkan, dan checklist 10 menit akhir minggu agar pencatatan tidak terlewat.",
+          "[BISNIS]: jenis bisnis Anda; [PLATFORM]: platform yang dijalankan; [TUJUAN]: goal yang ingin diukur; [ALAT]: alat pencatatan yang dipakai (spreadsheet/notion/manual)",
           "Daftar data wajib dengan struktur spreadsheet dan checklist mingguan"
         ],
         [
@@ -1808,7 +1808,7 @@
           "T-200",
           "Bagian 5: Analitik dan Optimasi",
           "Annual Strategy Review",
-          "Melakukan review strategi tahunan dan planning tahun depan",
+          "Melakukan review strategi tahunan dan perencanaan tahun depan",
           "Sebagai direktur pemasaran, buatkan telaah strategi tahunan media sosial untuk [TAHUN_INI] dan perencanaan [TAHUN_DEPAN]. Pencapaian: [ACHIEVEMENTS]. Tantangan: [CHALLENGES]. Target: [GOALS_DEPAN]. Sertakan: (1) rekap setahun (metrik utama dan momen penting), (2) apa yang berhasil (5 faktor keberhasilan), (3) apa yang tidak berhasil (5 pelajaran), (4) perubahan lanskap kompetisi, (5) tren industri untuk tahun depan, (6) prioritas strategis (3-5 fokus utama), (7) target per kuartal dan inisiatifnya, (8) kebutuhan sumber daya (anggaran/tim/peralatan), (9) penilaian risiko dan cara menguranginya, (10) metrik keberhasilan dan rencana pemantauan. Buat lengkap tapi tetap bisa langsung dieksekusi.",
           "[TAHUN_INI]: tahun yang di-review; [TAHUN_DEPAN]: tahun yang direncanakan; [ACHIEVEMENTS]: pencapaian tahun ini; [CHALLENGES]: tantangan yang dihadapi; [GOALS_DEPAN]: goal tahun depan",
           "Telaah tahunan dan rencana strategis lengkap"
@@ -2687,6 +2687,191 @@
           "Waktu posting sesuai kalender",
           "Tayang di slot yang direncanakan",
           ""
+        ]
+      ]
+    },
+    {
+      "name": "Daftar Variabel",
+      "headers": [
+        "Variabel",
+        "Arti",
+        "Contoh"
+      ],
+      "rows": [
+        [
+          "[BISNIS]",
+          "Jenis atau nama usaha yang dipromosikan",
+          "Produsen keripik singkong balado Bandung"
+        ],
+        [
+          "[PRODUK]",
+          "Produk atau jasa yang dijual",
+          "Keripik singkong balado 250 gram"
+        ],
+        [
+          "[PLATFORM]",
+          "Platform tempat konten ditayangkan",
+          "Instagram"
+        ],
+        [
+          "[TUJUAN]",
+          "Sasaran yang ingin dicapai dari posting atau kampanye",
+          "Menambah 30 chat masuk dalam satu bulan"
+        ],
+        [
+          "[TOPIK]",
+          "Pokok bahasan konten",
+          "Cara menyimpan keripik agar tetap renyah"
+        ],
+        [
+          "[DATA]",
+          "Ringkasan angka performa yang dilampirkan",
+          "Reach 12.000, 40 komentar, 9 chat masuk"
+        ],
+        [
+          "[DURASI]",
+          "Panjang video yang diinginkan",
+          "30 detik"
+        ],
+        [
+          "[AUDIENS]",
+          "Pembeli atau pengikut yang dituju",
+          "Ibu muda di Bandung yang belanja camilan online"
+        ],
+        [
+          "[KANAL]",
+          "Jalur masuk pesanan atau percakapan",
+          "WhatsApp"
+        ],
+        [
+          "[PERIODE]",
+          "Rentang waktu yang dianalisis atau dijadwalkan",
+          "Oktober 2026"
+        ],
+        [
+          "[CTA]",
+          "Permintaan tindakan di akhir konten",
+          "Pesan sekarang lewat WhatsApp"
+        ],
+        [
+          "[PENAWARAN]",
+          "Promosi atau penawaran khusus yang tersedia",
+          "Beli 2 gratis 1 mini pack"
+        ],
+        [
+          "[SUMBER]",
+          "Asal data yang dipakai",
+          "Laporan Instagram minggu ketiga"
+        ],
+        [
+          "[SITUASI]",
+          "Kejadian lucu yang dialami bisnis atau audiens",
+          "Kesalahan timbang bumbu saat produksi pertama"
+        ],
+        [
+          "[FORMAT]",
+          "Bentuk penyajian konten",
+          "Daftar bernomor"
+        ],
+        [
+          "[TONE]",
+          "Gaya bahasa yang diinginkan",
+          "Santai dan sedikit jenaka"
+        ],
+        [
+          "[FREKUENSI]",
+          "Jumlah posting per periode",
+          "4 kali per minggu"
+        ],
+        [
+          "[PILLAR]",
+          "Pilar konten bisnis",
+          "Edukasi, dapur, promo, pelanggan"
+        ],
+        [
+          "[MOMEN]",
+          "Momen penting dalam bulan tersebut",
+          "Hari Pahlawan"
+        ],
+        [
+          "[BATAS_WAKTU]",
+          "Tenggat yang ditetapkan",
+          "Jumat pukul 17.00"
+        ],
+        [
+          "[INDUSTRI]",
+          "Bidang industri bisnis Anda",
+          "Makanan ringan"
+        ],
+        [
+          "[PROSES]",
+          "Rangkaian pekerjaan yang diceritakan",
+          "Iris, bumbu, goreng, kemas"
+        ],
+        [
+          "[PESAN]",
+          "Inti pesan yang ingin disampaikan",
+          "Keripik tanpa pengawet itu ada"
+        ],
+        [
+          "[ALAT]",
+          "Alat atau bahan yang dibutuhkan",
+          "Wajan, timbangan digital, sealer"
+        ],
+        [
+          "[LOKASI]",
+          "Area atau kota target",
+          "Bandung Raya"
+        ],
+        [
+          "[EVENT]",
+          "Acara atau momen spesial yang terkait",
+          "Bazar UMKM Jakarta"
+        ],
+        [
+          "[TIM]",
+          "Jumlah orang yang mengerjakan konten",
+          "2 orang"
+        ],
+        [
+          "[HADIAH]",
+          "Hadiah untuk giveaway atau kontes",
+          "Satu toples keripik tiga rasa"
+        ],
+        [
+          "[FAKTA]",
+          "Fakta atau angka benar yang dipakai",
+          "Lima ratus toples terjual bulan lalu"
+        ],
+        [
+          "[JUMLAH]",
+          "Kapasitas atau kuantitas yang tersedia",
+          "200 toples per minggu"
+        ],
+        [
+          "[CERITA]",
+          "Perjalanan pelanggan dari awal sampai hasil",
+          "Dari ragu-ragu sampai langganan enam bulan"
+        ],
+        [
+          "[KRITERIA]",
+          "Poin perbandingan yang dipakai",
+          "Harga, rasa, ketahanan renyah"
+        ],
+        [
+          "[BRAND]",
+          "Nama merek bisnis Anda",
+          "Keripik Bu Rina"
+        ],
+        [
+          "[METRIK]",
+          "Metrik yang dicatat atau dianalisis",
+          "Reach, simpan, bagikan, chat masuk"
+        ],
+        [
+          "[PERTANYAAN]",
+          "Daftar pertanyaan yang terkumpul",
+          "Berapa ongkir ke luar kota, ada varian pedas"
         ]
       ]
     }

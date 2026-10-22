@@ -40,7 +40,7 @@ Struktur tiap entri:
 | Hasil yang diharapkan | Bentuk keluaran yang bisa Anda periksa |
 | Contoh output | Hasil nyata dari ChatGPT dan Gemini (hanya di edisi Premium) |
 
-Tiga aturan yang membuat library ini bekerja:
+Tiga aturan yang membuat perpustakaan ini bekerja:
 
 1. Jangan mengirim prompt dengan kurung siku yang masih utuh. Prompt seperti itu hanya akan menghasilkan jawaban generik.
 2. Ganti konteks setiap kali kondisi bisnis berubah. Harga, kota, dan skala omzet adalah bahan bakar utama jawaban AI.
@@ -164,7 +164,7 @@ Sepuluh CTA dengan 5 imperatif dan 5 pertanyaan/pernyataan, masing-masing 5-8 ka
 ### P-006. Call-to-Action Soft Sell
 
 Kapan pakai:
-> Membuat ajakan untuk konten edukatif atau nurturing sequence
+> Membuat ajakan untuk konten edukatif atau rangkaian nurturing
 
 Variabel:
 - [KONTEN]: jenis konten yang ditawarkan (ebook, webinar, konsultasi)
@@ -1057,7 +1057,7 @@ Bayangkan pagi hari dengan aroma kopi yang baru digiling, dari biji yang dipetik
 
 ---
 
-### P-009. Value Proposition Statement (Contoh Output)
+### P-009. Pernyataan Proposisi Nilai (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: Jasa desain logo untuk UMKM, harga mulai Rp 500.000, 3 revisi, selesai 5 hari kerja, sudah 200+ klien UMKM.
@@ -1132,7 +1132,7 @@ Lima caption Instagram 100-150 kata dengan hook, body, harga, CTA, dan hashtag.
 ### P-052. Naskah Instagram Story
 
 Kapan pakai:
-> Membuat script untuk Instagram Story promosi
+> Membuat naskah untuk Instagram Story promosi
 
 Variabel:
 - [PRODUK]: produk yang dipromosikan
@@ -1140,10 +1140,10 @@ Variabel:
 - [PENAWARAN]: penawaran khusus
 
 Prompt:
-> Buat script Instagram Story 5 slide untuk [PRODUK] yang menonjolkan [FITUR_UNIK] dengan [PENAWARAN]. Struktur per slide: (1) Slide 1: Hook visual + teks pembuka yang memancing rasa ingin tahu, (2) Slide 2: Masalah yang dihadapi target audiens, (3) Slide 3: Solusi dengan [PRODUK] dan [FITUR_UNIK], (4) Slide 4: Testimoni atau bukti sosial, (5) Slide 5: [PENAWARAN] + CTA dengan link sticker. Setiap slide 15-25 kata teks. Sertakan saran visual untuk setiap slide.
+> Buat naskah Instagram Story 5 slide untuk [PRODUK] yang menonjolkan [FITUR_UNIK] dengan [PENAWARAN]. Struktur per slide: (1) Slide 1: Hook visual + teks pembuka yang memancing rasa ingin tahu, (2) Slide 2: Masalah yang dihadapi target audiens, (3) Slide 3: Solusi dengan [PRODUK] dan [FITUR_UNIK], (4) Slide 4: Testimoni atau bukti sosial, (5) Slide 5: [PENAWARAN] + CTA dengan link sticker. Setiap slide 15-25 kata teks. Sertakan saran visual untuk setiap slide.
 
 Hasil yang diharapkan:
-Script 5 slide dengan total 75-125 kata, masing-masing slide berisi teks dan saran visual.
+Naskah 5 slide dengan total 75-125 kata, masing-masing slide berisi teks dan saran visual.
 
 ---
 
@@ -1206,7 +1206,7 @@ Lima variasi bio Instagram maksimal 150 karakter dengan struktur nama-deskripsi-
 ### P-056. Naskah Video Pendek TikTok
 
 Kapan pakai:
-> Membuat script video TikTok 15-30 detik
+> Membuat naskah video TikTok 15-30 detik
 
 Variabel:
 - [TOPIK]: topik atau produk yang dibahas
@@ -1215,10 +1215,10 @@ Variabel:
 - [CTA]: call-to-action di akhir video
 
 Prompt:
-> Buat script TikTok 15-30 detik untuk [TOPIK] dengan [HOOK] di 3 detik pertama, [KONTEN_UTAMA] di bagian tengah, dan [CTA] di akhir. Format: (1) Detik 0-3: Hook visual + teks on-screen, (2) Detik 3-15: Konten utama dengan transisi cepat, (3) Detik 15-30: CTA + saran sound atau musik. Script harus: (a) Menggunakan bahasa casual dan relatable, (b) Satu ide per kalimat, (c) Tidak ada basa-basi, (d) Teks on-screen sinkron dengan voiceover. Total 40-60 kata.
+> Buat naskah TikTok 15-30 detik untuk [TOPIK] dengan [HOOK] di 3 detik pertama, [KONTEN_UTAMA] di bagian tengah, dan [CTA] di akhir. Format: (1) Detik 0-3: Hook visual + teks on-screen, (2) Detik 3-15: Konten utama dengan transisi cepat, (3) Detik 15-30: CTA + saran sound atau musik. Naskah harus: (a) Menggunakan bahasa casual dan relatable, (b) Satu ide per kalimat, (c) Tidak ada basa-basi, (d) Teks on-screen sinkron dengan voiceover. Total 40-60 kata.
 
 Hasil yang diharapkan:
-Script 40-60 kata dengan timing per bagian dan saran visual/audio.
+Naskah 40-60 kata dengan timing per bagian dan saran visual/audio.
 
 ---
 
@@ -1233,10 +1233,10 @@ Variabel:
 - [PRODUK_LAYANAN]: produk atau layanan yang dipromosikan
 
 Prompt:
-> Buat 5 ide adaptasi [TREND] untuk [BISNIS] yang mempromosikan [PRODUK_LAYANAN]. Setiap ide harus: (1) Menjelaskan bagaimana tren bisa disesuaikan dengan bisnis, (2) Script atau konsep video 15-30 detik, (3) Teks on-screen yang relevan, (4) Saran sound atau musik yang sesuai tren, (5) Hashtag yang relevan. Pastikan adaptasi tetap autentik dan tidak terkesan memaksa. Hindari tren yang tidak sesuai dengan nilai brand.
+> Buat 5 ide adaptasi [TREND] untuk [BISNIS] yang mempromosikan [PRODUK_LAYANAN]. Setiap ide harus: (1) Menjelaskan bagaimana tren bisa disesuaikan dengan bisnis, (2) Naskah atau konsep video 15-30 detik, (3) Teks on-screen yang relevan, (4) Saran sound atau musik yang sesuai tren, (5) Hashtag yang relevan. Pastikan adaptasi tetap autentik dan tidak terkesan memaksa. Hindari tren yang tidak sesuai dengan nilai brand.
 
 Hasil yang diharapkan:
-Lima ide adaptasi tren dengan konsep, script, teks, sound, dan hashtag.
+Lima ide adaptasi tren dengan konsep, naskah, teks, sound, dan hashtag.
 
 ---
 
@@ -1372,7 +1372,7 @@ Thread dengan hook, isi terstruktur, dan kesimpulan-CTA, masing-masing tweet mak
 ### P-065. Satu Tweet Twitter/X
 
 Kapan pakai:
-> Membuat tweet tunggal yang impactful
+> Membuat tweet tunggal yang berdampak
 
 Variabel:
 - [TOPIK]: topik tweet
@@ -1467,7 +1467,7 @@ Deskripsi 200-300 kata dengan ringkasan, timestamp, link, dan hashtag.
 ### P-070. Naskah YouTube Shorts
 
 Kapan pakai:
-> Membuat script untuk YouTube Shorts (video vertikal pendek)
+> Membuat naskah untuk YouTube Shorts (video vertikal pendek)
 
 Variabel:
 - [TOPIK]: topik video
@@ -1477,10 +1477,10 @@ Variabel:
 - [CTA]: call-to-action
 
 Prompt:
-> Buat script YouTube Shorts [DURASI] detik tentang [TOPIK] dengan [HOOK] di 3 detik pertama, [KONTEN_UTAMA] di tengah, dan [CTA] di akhir. Format: (1) Detik 0-3: Hook visual + teks on-screen yang menangkap perhatian, (2) Detik 3-[DURASI]-5: Konten utama dengan transisi cepat dan visual menarik, (3) Detik terakhir: CTA untuk subscribe atau like. Script harus: (a) Satu ide per kalimat, (b) Bahasa casual dan energik, (c) Teks on-screen sinkron dengan voiceover. Total 30-80 kata tergantung durasi.
+> Buat naskah YouTube Shorts [DURASI] detik tentang [TOPIK] dengan [HOOK] di 3 detik pertama, [KONTEN_UTAMA] di tengah, dan [CTA] di akhir. Format: (1) Detik 0-3: Hook visual + teks on-screen yang menangkap perhatian, (2) Detik 3-[DURASI]-5: Konten utama dengan transisi cepat dan visual menarik, (3) Detik terakhir: CTA untuk subscribe atau like. Naskah harus: (a) Satu ide per kalimat, (b) Bahasa casual dan energik, (c) Teks on-screen sinkron dengan voiceover. Total 30-80 kata tergantung durasi.
 
 Hasil yang diharapkan:
-Script 30-80 kata dengan timing per bagian dan saran visual.
+Naskah 30-80 kata dengan timing per bagian dan saran visual.
 
 ---
 
@@ -1552,10 +1552,10 @@ Variabel:
 - [TUJUAN]: tujuan konten mingguan
 
 Prompt:
-> Buat content calendar [PLATFORM] untuk 7 hari dengan [FREKUENSI] posting per hari dan campuran [JENIS_KONTEN] untuk mencapai [TUJUAN]. Untuk setiap hari, tentukan: (1) Jenis konten (edukasi/promosi/engagement/BTS), (2) Topik atau ide konten, (3) Format (gambar, video, carousel, story, reel), (4) Caption atau script singkat (50-80 kata), (5) Waktu posting optimal, (6) Hashtag atau kata kunci. Pastikan variasi konten seimbang dan tidak monoton.
+> Buat kalender konten [PLATFORM] untuk 7 hari dengan [FREKUENSI] posting per hari dan campuran [JENIS_KONTEN] untuk mencapai [TUJUAN]. Untuk setiap hari, tentukan: (1) Jenis konten (edukasi/promosi/engagement/BTS), (2) Topik atau ide konten, (3) Format (gambar, video, carousel, story, reel), (4) Caption atau naskah singkat (50-80 kata), (5) Waktu posting optimal, (6) Hashtag atau kata kunci. Pastikan variasi konten seimbang dan tidak monoton.
 
 Hasil yang diharapkan:
-Content calendar 7 hari dengan detail per posting.
+Kalender konten 7 hari dengan detail per posting.
 
 ---
 
@@ -1581,7 +1581,7 @@ Konten bio link dengan headline, deskripsi, label link, dan CTA.
 ### P-076. Naskah Reel Edukasi Instagram
 
 Kapan pakai:
-> Membuat script Reel Instagram untuk konten edukasi
+> Membuat naskah Reel Instagram untuk konten edukasi
 
 Variabel:
 - [TOPIK_EDUKASI]: topik yang akan diajarkan
@@ -1590,17 +1590,17 @@ Variabel:
 - [TARGET_AUDIENCE]: siapa target penonton
 
 Prompt:
-> Buat script Reel Instagram [DURASI] detik tentang [TOPIK_EDUKASI] dengan [JUMLAH_TIPS] tips untuk [TARGET_AUDIENCE]. Struktur: (1) Detik 0-3: Hook "Tahukah Anda..." atau "Kesalahan yang sering...", (2) Detik 3-[DURASI]-10: Tips pertama dengan penjelasan singkat, (3) Detik berikutnya: Tips kedua hingga [JUMLAH_TIPS], (4) Detik terakhir: CTA "Save postingan ini" atau "Follow untuk tips lainnya". Setiap tips 10-15 kata. Gunakan transisi visual antar tips. Total script 60-100 kata.
+> Buat naskah Reel Instagram [DURASI] detik tentang [TOPIK_EDUKASI] dengan [JUMLAH_TIPS] tips untuk [TARGET_AUDIENCE]. Struktur: (1) Detik 0-3: Hook "Tahukah Anda..." atau "Kesalahan yang sering...", (2) Detik 3-[DURASI]-10: Tips pertama dengan penjelasan singkat, (3) Detik berikutnya: Tips kedua hingga [JUMLAH_TIPS], (4) Detik terakhir: CTA "Save postingan ini" atau "Follow untuk tips lainnya". Setiap tips 10-15 kata. Gunakan transisi visual antar tips. Total naskah 60-100 kata.
 
 Hasil yang diharapkan:
-Script 60-100 kata dengan hook, tips terstruktur, dan CTA.
+Naskah 60-100 kata dengan hook, tips terstruktur, dan CTA.
 
 ---
 
 ### P-077. Balasan Duet/Stitch TikTok
 
 Kapan pakai:
-> Membuat script untuk duet atau stitch TikTok
+> Membuat naskah untuk duet atau stitch TikTok
 
 Variabel:
 - [VIDEO_ASAL]: video yang akan diduet atau distitch
@@ -1608,10 +1608,10 @@ Variabel:
 - [PRODUK_LAYANAN]: produk atau layanan yang ingin dipromosikan (opsional)
 
 Prompt:
-> Buat script TikTok duet/stitch [DURASI] detik untuk merespons [VIDEO_ASAL] dengan [PESAN_YANG_INGIN_DISAMPAIKAN] dan mempromosikan [PRODUK_LAYANAN] jika relevan. Struktur: (1) Detik 0-3: Reaksi atau komentar terhadap video asal, (2) Detik 3-15: Respons atau tambahan informasi, (3) Detik 15-30: Kesimpulan atau CTA. Script harus: (a) Terhubung natural dengan video asal, (b) Menambahkan nilai atau perspektif baru, (c) Tidak terkesan memotong atau menyinggung pembuat video asal. Total 40-60 kata.
+> Buat naskah TikTok duet/stitch [DURASI] detik untuk merespons [VIDEO_ASAL] dengan [PESAN_YANG_INGIN_DISAMPAIKAN] dan mempromosikan [PRODUK_LAYANAN] jika relevan. Struktur: (1) Detik 0-3: Reaksi atau komentar terhadap video asal, (2) Detik 3-15: Respons atau tambahan informasi, (3) Detik 15-30: Kesimpulan atau CTA. Naskah harus: (a) Terhubung natural dengan video asal, (b) Menambahkan nilai atau perspektif baru, (c) Tidak terkesan memotong atau menyinggung pembuat video asal. Total 40-60 kata.
 
 Hasil yang diharapkan:
-Script 40-60 kata yang responsif dan menambahkan nilai.
+Naskah 40-60 kata yang responsif dan menambahkan nilai.
 
 ---
 
@@ -1723,7 +1723,7 @@ Variabel:
 - [KARAKTERISTIK_PLATFORM]: karakteristik platform target
 
 Prompt:
-> Adaptasi [KONTEN_ASAL] untuk [PLATFORM_TUJUAN] dengan mempertimbangkan [KARAKTERISTIK_PLATFORM]. Sesuaikan: (1) Panjang konten (Instagram 100-150 kata, TikTok 40-60 kata, LinkedIn 200-300 kata, Twitter 280 karakter), (2) Nada bahasa (Instagram visual, TikTok kasual, LinkedIn profesional, Twitter ringkas), (3) Format (caption, script, thread), (4) Hashtag (Instagram 5-8, TikTok 3-5, LinkedIn 3-5, Twitter 1-2), (5) CTA yang sesuai platform. Berikan versi adaptasi lengkap dengan penjelasan perubahan.
+> Adaptasi [KONTEN_ASAL] untuk [PLATFORM_TUJUAN] dengan mempertimbangkan [KARAKTERISTIK_PLATFORM]. Sesuaikan: (1) Panjang konten (Instagram 100-150 kata, TikTok 40-60 kata, LinkedIn 200-300 kata, Twitter 280 karakter), (2) Nada bahasa (Instagram visual, TikTok kasual, LinkedIn profesional, Twitter ringkas), (3) Format (caption, naskah, thread), (4) Hashtag (Instagram 5-8, TikTok 3-5, LinkedIn 3-5, Twitter 1-2), (5) CTA yang sesuai platform. Berikan versi adaptasi lengkap dengan penjelasan perubahan.
 
 Hasil yang diharapkan:
 Versi adaptasi lengkap dengan penjelasan penyesuaian.
@@ -1994,7 +1994,7 @@ Carousel dengan headline, poin-poin terstruktur, dan kesimpulan.
 ### P-098. Naskah Live Shopping
 
 Kapan pakai:
-> Membuat script untuk live shopping di platform e-commerce
+> Membuat naskah untuk live shopping di platform e-commerce
 
 Variabel:
 - [PRODUK]: produk yang akan dijual
@@ -2004,10 +2004,10 @@ Variabel:
 - [DURASI_LIVE]: durasi live (30-60 menit)
 
 Prompt:
-> Buat script live shopping [DURASI_LIVE] menit untuk [PRODUK] dengan [FITUR_UTAMA], [HARGA_NORMAL], dan [HARGA_LIVE]. Struktur: (1) Pembuka 5 menit: sapaan, perkenalan, teaser produk, (2) Segmen 1 (10 menit): Demo produk dan penjelasan fitur, (3) Segmen 2 (10 menit): Testimoni atau review, (4) Segmen 3 (10 menit): Pengumuman harga live dan cara order, (5) Segmen 4 (10 menit): Q&A dan closing. Setiap segmen berisi talking points 50-80 kata. Total script 300-400 kata.
+> Buat naskah live shopping [DURASI_LIVE] menit untuk [PRODUK] dengan [FITUR_UTAMA], [HARGA_NORMAL], dan [HARGA_LIVE]. Struktur: (1) Pembuka 5 menit: sapaan, perkenalan, teaser produk, (2) Segmen 1 (10 menit): Demo produk dan penjelasan fitur, (3) Segmen 2 (10 menit): Testimoni atau ulasan, (4) Segmen 3 (10 menit): Pengumuman harga live dan cara order, (5) Segmen 4 (10 menit): Q&A dan closing. Setiap segmen berisi poin pembicaraan 50-80 kata. Total naskah 300-400 kata.
 
 Hasil yang diharapkan:
-Script 300-400 kata dengan struktur segmen dan talking points.
+Naskah 300-400 kata dengan struktur segmen dan poin pembicaraan.
 
 ---
 
@@ -2042,7 +2042,7 @@ Variabel:
 - [TUJUAN]: tujuan campaign
 
 Prompt:
-> Buat strategi promosi lintas platform untuk [CAMPAIGN] di [PLATFORM] yang menargetkan [TARGET_AUDIENCE] dengan tujuan [TUJUAN]. Untuk setiap platform: (1) Peran platform dalam strategi, (2) Jenis konten yang sesuai, (3) Frekuensi posting, (4) Caption atau script singkat (50-80 kata), (5) Hashtag atau kata kunci, (6) Timeline posting. Pastikan pesan konsisten namun disesuaikan dengan karakteristik setiap platform.
+> Buat strategi promosi lintas platform untuk [CAMPAIGN] di [PLATFORM] yang menargetkan [TARGET_AUDIENCE] dengan tujuan [TUJUAN]. Untuk setiap platform: (1) Peran platform dalam strategi, (2) Jenis konten yang sesuai, (3) Frekuensi posting, (4) Caption atau naskah singkat (50-80 kata), (5) Hashtag atau kata kunci, (6) Timeline posting. Pastikan pesan konsisten namun disesuaikan dengan karakteristik setiap platform.
 
 Hasil yang diharapkan:
 Strategi lintas platform dengan detail per platform.
@@ -2156,10 +2156,10 @@ Variabel:
 - [PRODUK]: produk yang relevan (opsional)
 
 Prompt:
-> Buat [JENIS] Instagram Story tentang [TOPIK] dengan tujuan [TUJUAN] yang relevan dengan [PRODUK]. Untuk poll: (1) Pertanyaan yang menarik, (2) 2-4 pilihan jawaban, (3) Story sequence 3-5 slide dengan konteks. Untuk quiz: (1) 3-5 pertanyaan dengan pilihan ganda, (2) Kunci jawaban di slide berikutnya, (3) Penjelasan singkat untuk setiap jawaban. Total teks 80-120 kata. Gunakan stiker poll/quiz dan slider.
+> Buat [JENIS] Instagram Story tentang [TOPIK] dengan tujuan [TUJUAN] yang relevan dengan [PRODUK]. Untuk poll: (1) Pertanyaan yang menarik, (2) 2-4 pilihan jawaban, (3) Story rangkaian 3-5 slide dengan konteks. Untuk quiz: (1) 3-5 pertanyaan dengan pilihan ganda, (2) Kunci jawaban di slide berikutnya, (3) Penjelasan singkat untuk setiap jawaban. Total teks 80-120 kata. Gunakan stiker poll/quiz dan slider.
 
 Hasil yang diharapkan:
-Poll atau quiz lengkap dengan sequence story.
+Poll atau kuis lengkap dengan rangkaian story.
 
 ---
 
@@ -2175,7 +2175,7 @@ Variabel:
 - [HASHTAG_CHALLENGE]: hashtag untuk challenge
 
 Prompt:
-> Buat konsep TikTok duet challenge [TEMA_CHALLENGE] dengan [ATURAN] untuk mempromosikan [PRODUK_BRAND] menggunakan [HASHTAG_CHALLENGE]. Struktur: (1) Judul challenge yang catchy, (2) Penjelasan aturan 3-5 poin, (3) Contoh script video original 15-30 detik, (4) Saran duet response, (5) Hadiah atau insentif jika ada. Total 150-200 kata. Pastikan challenge mudah diikuti dan viral-worthy.
+> Buat konsep TikTok duet challenge [TEMA_CHALLENGE] dengan [ATURAN] untuk mempromosikan [PRODUK_BRAND] menggunakan [HASHTAG_CHALLENGE]. Struktur: (1) Judul challenge yang catchy, (2) Penjelasan aturan 3-5 poin, (3) Contoh naskah video original 15-30 detik, (4) Saran duet response, (5) Hadiah atau insentif jika ada. Total 150-200 kata. Pastikan challenge mudah diikuti dan viral-worthy.
 
 Hasil yang diharapkan:
 Konsep challenge 150-200 kata yang mudah diikuti.
@@ -2355,7 +2355,7 @@ Lima content pillar dengan detail lengkap.
 ### P-117. Sekuens Instagram Story
 
 Kapan pakai:
-> Membuat sequence story Instagram untuk storytelling
+> Membuat rangkaian story Instagram untuk storytelling
 
 Variabel:
 - [TOPIK]: topik cerita
@@ -2364,10 +2364,10 @@ Variabel:
 - [CTA]: call-to-action di akhir
 
 Prompt:
-> Buat sequence Instagram Story [JUMLAH_SLIDE] slide tentang [TOPIK] dengan tujuan [TUJUAN] dan [CTA] di akhir. Untuk setiap slide: (1) Teks 15-25 kata, (2) Saran visual atau background, (3) Stiker atau fitur interaktif (poll, quiz, question box, link). Pastikan alur cerita mengalir natural dari slide pertama hingga terakhir. Total 80-120 kata untuk seluruh sequence.
+> Buat rangkaian Instagram Story [JUMLAH_SLIDE] slide tentang [TOPIK] dengan tujuan [TUJUAN] dan [CTA] di akhir. Untuk setiap slide: (1) Teks 15-25 kata, (2) Saran visual atau background, (3) Stiker atau fitur interaktif (poll, quiz, question box, link). Pastikan alur cerita mengalir natural dari slide pertama hingga terakhir. Total 80-120 kata untuk seluruh rangkaian.
 
 Hasil yang diharapkan:
-Sequence dengan teks, visual, dan stiker per slide.
+Rangkaian dengan teks, visual, dan stiker per slide.
 
 ---
 
@@ -2423,7 +2423,7 @@ Variabel:
 - [BUDGET]: anggaran (opsional)
 
 Prompt:
-> Buat brief campaign [NAMA_CAMPAIGN] dengan tujuan [TUJUAN] untuk [TARGET_AUDIENCE] di [PLATFORM] selama [DURASI] dengan [BUDGET]. Struktur brief: (1) Executive summary 2-3 kalimat, (2) Target audience profile, (3) Key message dan value proposition, (4) Platform strategy (peran masing-masing platform), (5) Content calendar singkat, (6) KPI dan metrik keberhasilan, (7) Budget allocation jika ada. Total 400-500 kata. Brief harus jelas dan actionable.
+> Buat brief campaign [NAMA_CAMPAIGN] dengan tujuan [TUJUAN] untuk [TARGET_AUDIENCE] di [PLATFORM] selama [DURASI] dengan [BUDGET]. Struktur brief: (1) Executive summary 2-3 kalimat, (2) Target audience profile, (3) Key message dan value proposition, (4) Platform strategy (peran masing-masing platform), (5) Kalender konten singkat, (6) KPI dan metrik keberhasilan, (7) Budget allocation jika ada. Total 400-500 kata. Brief harus jelas dan actionable.
 
 Hasil yang diharapkan:
 Brief 400-500 kata dengan struktur lengkap.
@@ -2481,11 +2481,11 @@ POV: Kamu finally nemu serum vitamin C yang nggak bikin breakout.
 Rp 120.000. Link di bio ya!
 ```
 
-**Perbandingan:** ChatGPT lebih edukatif dan detail, cocok untuk audience yang suka baca panjang. Gemini lebih casual dan relatable, cocok untuk Gen Z. Pilih sesuai target audience Anda.
+**Perbandingan:** ChatGPT lebih edukatif dan detail, cocok untuk audiens yang suka baca panjang. Gemini lebih casual dan relatable, cocok untuk Gen Z. Pilih sesuai target audiens Anda.
 
 ---
 
-### P-060. Facebook Ads Primary Text (Contoh Output)
+### P-060. Teks Utama Facebook Ads (Contoh Output)
 
 **Input yang dipakai:**
 Produk: Kursus online digital marketing untuk pemilik UMKM, harga Rp 299.000 (diskon dari Rp 599.000), 12 modul video, sertifikat, akses selamanya.
@@ -2526,7 +2526,7 @@ Daftar sekarang sebelum harga naik Jumat malam.
 ## Latihan Bagian 2
 
 1. Pilih 1 platform yang paling sering digunakan bisnis Anda.
-2. Buat content calendar 7 hari menggunakan prompt P-074.
+2. Buat kalender konten 7 hari menggunakan prompt P-074.
 3. Terapkan 3 prompt berbeda untuk platform tersebut (misalnya caption, story, dan reel).
 4. Evaluasi hasil dan modifikasi prompt sesuai kebutuhan.
 
@@ -2550,7 +2550,7 @@ Solusi: Setiap postingan harus memiliki satu CTA yang spesifik.
 Solusi: Buat guideline brand voice dan gunakan di semua platform.
 ## Bagian 3: Email Marketing
 
-Bagian ini berisi 50 prompt untuk email marketing: welcome sequence, promotional email, newsletter, re-engagement, dan automation. Setiap prompt dirancang untuk meningkatkan open rate, click-through rate, dan konversi.
+Bagian ini berisi 50 prompt untuk email marketing: rangkaian sambutan, email promosi, newsletter, re-engagement, dan otomasi. Setiap prompt dirancang untuk meningkatkan open rate, click-through rate, dan konversi.
 
 ---
 
@@ -2562,14 +2562,14 @@ Kapan pakai:
 Variabel:
 - [NAMA_BRAND]: nama brand atau perusahaan
 - [JENIS_BUSINESS]: jenis bisnis (e-commerce, SaaS, jasa, dll)
-- [Jumlah_EMAIL]: berapa email dalam sequence (3-7 email)
-- [TUJUAN]: tujuan sequence (edukasi, promosi, onboarding)
+- [JUMLAH_EMAIL]: berapa email dalam rangkaian (3-7 email)
+- [TUJUAN]: tujuan rangkaian (edukasi, promosi, onboarding)
 
 Prompt:
-> Buat welcome email sequence [Jumlah_EMAIL] email untuk [NAMA_BRAND] yang bergerak di [JENIS_BUSINESS] dengan tujuan [TUJUAN]. Untuk setiap email: (1) Subjek email (5-8 kata, memancing open), (2) Preview text (8-10 kata), (3) Body email 150-200 kata, (4) CTA yang jelas, (5) Timing pengiriman (hari ke-berapa setelah subscribe). Sequence harus: (a) Email 1: ucapan terima kasih + nilai instan, (b) Email 2-3: edukasi tentang brand dan produk, (c) Email 4-5: soft sell atau penawaran khusus, (d) Email selanjutnya: engagement atau upsell.
+> Buat rangkaian email sambutan [JUMLAH_EMAIL] email untuk [NAMA_BRAND] yang bergerak di [JENIS_BUSINESS] dengan tujuan [TUJUAN]. Untuk setiap email: (1) Subjek email (5-8 kata, memancing open), (2) Preview text (8-10 kata), (3) Body email 150-200 kata, (4) CTA yang jelas, (5) Timing pengiriman (hari ke-berapa setelah subscribe). Rangkaian harus: (a) Email 1: ucapan terima kasih + nilai instan, (b) Email 2-3: edukasi tentang brand dan produk, (c) Email 4-5: soft sell atau penawaran khusus, (d) Email selanjutnya: engagement atau upsell.
 
 Hasil yang diharapkan:
-Sequence lengkap dengan subjek, preview, body, CTA, dan timing untuk setiap email.
+Rangkaian lengkap dengan subjek, pratinjau, isi, CTA, dan timing untuk setiap email.
 
 ---
 
@@ -2689,7 +2689,7 @@ Prompt:
 > Buat rangkaian 3 email peluncuran [NAMA_PRODUK] yang menyelesaikan [MASALAH_YANG_DISELESAIKAN] dengan [FITUR_UTAMA], [HARGA_PERKENALAN], [BONUS_EARLY_BIRD], dan [TANGGAL_PELUNCURAN]. Email 1 (H-7): Teaser "Sesuatu yang besar akan datang" dengan hint tentang produk. Email 2 (H-3): Pengumuman resmi dengan detail fitur dan harga. Email 3 (Hari-H): "Sekarang tersedia" dengan urgency bonus early bird. Setiap email: subjek 5-8 kata, preview 8-10 kata, body 150-200 kata, CTA jelas.
 
 Hasil yang diharapkan:
-Tiga email dengan pendekatan teaser-announcement-launch.
+Tiga email dengan pendekatan teaser-pengumuman-peluncuran.
 
 ---
 
@@ -2719,15 +2719,15 @@ Kapan pakai:
 
 Variabel:
 - [TOPIK_EDUKASI]: topik yang akan diajarkan
-- [JUMLAH_EMAIL]: berapa email dalam sequence
+- [JUMLAH_EMAIL]: berapa email dalam rangkaian
 - [LEVEL_AUDIENCE]: tingkat pengetahuan audiens (pemula, menengah, advanced)
 - [PRODUK_RELEVAN]: produk yang relevan dengan topik (untuk soft sell)
 
 Prompt:
-> Buat educational email sequence [JUMLAH_EMAIL] email tentang [TOPIK_EDUKASI] untuk [LEVEL_AUDIENCE] yang mengarah pada [PRODUK_RELEVAN]. Untuk setiap email: (1) Subjek yang memancing rasa ingin tahu, (2) Preview text, (3) Body 200-250 kata dengan satu konsep atau tips, (4) Contoh atau studi kasus singkat, (5) CTA untuk membaca email berikutnya atau melihat produk. Sequence harus: (a) Email 1: Konsep dasar, (b) Email 2-3: Tips atau strategi, (c) Email 4-5: Studi kasus atau contoh, (d) Email selanjutnya: Advanced tips + soft sell produk.
+> Buat rangkaian email edukasi [JUMLAH_EMAIL] email tentang [TOPIK_EDUKASI] untuk [LEVEL_AUDIENCE] yang mengarah pada [PRODUK_RELEVAN]. Untuk setiap email: (1) Subjek yang memancing rasa ingin tahu, (2) Preview text, (3) Body 200-250 kata dengan satu konsep atau tips, (4) Contoh atau studi kasus singkat, (5) CTA untuk membaca email berikutnya atau melihat produk. Rangkaian harus: (a) Email 1: Konsep dasar, (b) Email 2-3: Tips atau strategi, (c) Email 4-5: Studi kasus atau contoh, (d) Email selanjutnya: Advanced tips + soft sell produk.
 
 Hasil yang diharapkan:
-Sequence edukasi yang mengalir dari dasar ke advanced dengan soft sell natural.
+Rangkaian edukasi yang mengalir dari dasar ke lanjutan dengan soft sell yang natural.
 
 ---
 
@@ -2794,13 +2794,13 @@ Kapan pakai:
 > Rangkaian email untuk memenangkan kembali pelanggan yang hilang
 
 Variabel:
-- [JUMLAH_EMAIL]: berapa email dalam sequence
+- [JUMLAH_EMAIL]: berapa email dalam rangkaian
 - [DURASI_TIDAK_BELI]: berapa lama tidak membeli
 - [INSENTIF_KEMBALI]: insentif untuk kembali
 - [PRODUK_BARU]: produk baru yang mungkin menarik
 
 Prompt:
-> Buat win-back email sequence [JUMLAH_EMAIL] email untuk pelanggan yang tidak membeli selama [DURASI_TIDAK_BELI] dengan [INSENTIF_KEMBALI] dan [PRODUK_BARU]. Email 1: "Kami rindu Anda" dengan [INSENTIF_KEMBALI]. Email 2: "Lihat apa yang baru" dengan [PRODUK_BARU]. Email 3: "Kesempatan terakhir" dengan urgency insentif berakhir. Setiap email: subjek personal, preview text, body 120-150 kata, CTA jelas. Sequence harus empatik dan tidak menyalahkan.
+> Buat rangkaian email win-back [JUMLAH_EMAIL] email untuk pelanggan yang tidak membeli selama [DURASI_TIDAK_BELI] dengan [INSENTIF_KEMBALI] dan [PRODUK_BARU]. Email 1: "Kami rindu Anda" dengan [INSENTIF_KEMBALI]. Email 2: "Lihat apa yang baru" dengan [PRODUK_BARU]. Email 3: "Kesempatan terakhir" dengan urgency insentif berakhir. Setiap email: subjek personal, preview text, body 120-150 kata, CTA jelas. Rangkaian harus empatik dan tidak menyalahkan.
 
 Hasil yang diharapkan:
 Tiga email dengan pendekatan rindu-update-urgency.
@@ -3377,7 +3377,7 @@ Variabel:
 - [BATAS_WAKTU]: berapa lama link berlaku
 
 Prompt:
-> Buat data export ready email untuk [NAMA_PENGGUNA] dengan [JENIS_DATA] dalam format [FORMAT], [LINK_DOWNLOAD], dan [BATAS_WAKTU]. Struktur: (1) Subjek yang jelas ("Ekspor data Anda siap" atau "[Jenis data] siap diunduh"), (2) Preview text, (3) Konfirmasi ekspor selesai, (4) Detail: jenis data, format, ukuran file, (5) Tombol download yang menonjol, (6) Informasi batas waktu, (7) Instruksi jika link tidak bekerja, (8) Kontak support. Total 80-120 kata.
+> Buat email tautan unduh data untuk [NAMA_PENGGUNA] dengan [JENIS_DATA] dalam format [FORMAT], [LINK_DOWNLOAD], dan [BATAS_WAKTU]. Struktur: (1) Subjek yang jelas ("Ekspor data Anda siap" atau "[Jenis data] siap diunduh"), (2) Preview text, (3) Konfirmasi ekspor selesai, (4) Detail: jenis data, format, ukuran file, (5) Tombol download yang menonjol, (6) Informasi batas waktu, (7) Instruksi jika link tidak bekerja, (8) Kontak support. Total 80-120 kata.
 
 Hasil yang diharapkan:
 Email 80-120 kata yang jelas.
@@ -3566,7 +3566,7 @@ Email 250-300 kata yang inspiratif.
 
 ## Contoh Output AI untuk Bagian 3
 
-### P-101. Welcome Email Sequence (Contoh Output)
+### P-121. Sekuens Email Sambutan (Contoh Output)
 
 **Input yang dipakai:**
 Bisnis: Toko online fashion wanita, customer baru dapat diskon 10% untuk pembelian pertama, brand voice friendly dan profesional.
@@ -3611,10 +3611,10 @@ Tim [Nama Brand]
 
 ---
 
-### P-115. Abandoned Cart Email (Contoh Output)
+### P-124. Email Keranjang Ditinggalkan (Contoh Output)
 
 **Input yang dipakai:**
-Toko online elektronik, customer meninggalkan keranjang berisi headphone wireless Rp 450.000, email dikirim 2 jam setelah abandonment.
+Toko online elektronik, customer meninggalkan keranjang berisi headphone wireless Rp 450.000, email dikirim 2 jam setelah keranjang ditinggalkan.
 
 **Output ChatGPT:**
 ```
@@ -3656,7 +3656,7 @@ Ada pertanyaan? Chat kami sekarang.
 Tim [Nama Toko]
 ```
 
-**Perbandingan:** ChatGPT lebih persuasif dengan menangani objection secara proaktif. Gemini lebih singkat dan create urgency. Untuk abandoned cart, keduanya efektif, tapi ChatGPT biasanya punya conversion rate lebih tinggi karena lebih lengkap.
+**Perbandingan:** ChatGPT lebih persuasif dengan menangani objection secara proaktif. Gemini lebih singkat dan langsung menciptakan urgensi. Untuk email keranjang ditinggalkan, keduanya efektif, tapi ChatGPT biasanya punya conversion rate lebih tinggi karena lebih lengkap.
 
 
 ## Latihan Bagian 3
@@ -3854,13 +3854,13 @@ Kapan pakai:
 > Membuat bagian CTA yang mendorong konversi
 
 Variabel:
-- [TUJUAN_CTA]: tujuan CTA (beli, daftar, download, hubungi)
+- [TUJUAN_CTA]: tujuan CTA (beli, daftar, unduh, hubungi)
 - [INSENTIF]: insentif untuk bertindak sekarang
 - [URGENCY]: elemen urgency (waktu terbatas, stok terbatas)
 - [RISK_REVERSAL]: jaminan untuk mengurangi risiko
 
 Prompt:
-> Buat CTA section landing page dengan tujuan [TUJUAN_CTA], [INSENTIF], [URGENCY], dan [RISK_REVERSAL]. Struktur: (1) Headline yang kuat dan langsung ("Mulai sekarang" atau "Dapatkan [manfaat] hari ini"), (2) Subheadline 20-30 kata yang memperkuat value, (3) Tombol CTA besar dengan teks yang jelas (5-7 kata), (4) Insentif atau bonus jika bertindak sekarang, (5) Elemen urgency (countdown, stok terbatas), (6) Risk reversal (garansi, free trial), (7) Social proof singkat (jumlah pengguna, rating). Total 150-200 kata. CTA harus menonjol dan tidak ambigu.
+> Buat bagian CTA landing page dengan tujuan [TUJUAN_CTA], [INSENTIF], [URGENCY], dan [RISK_REVERSAL]. Struktur: (1) Headline yang kuat dan langsung ("Mulai sekarang" atau "Dapatkan [manfaat] hari ini"), (2) Subheadline 20-30 kata yang memperkuat value, (3) Tombol CTA besar dengan teks yang jelas (5-7 kata), (4) Insentif atau bonus jika bertindak sekarang, (5) Elemen urgency (countdown, stok terbatas), (6) Risk reversal (garansi, free trial), (7) Social proof singkat (jumlah pengguna, rating). Total 150-200 kata. CTA harus menonjol dan tidak ambigu.
 
 Hasil yang diharapkan:
 CTA section dengan headline, tombol, insentif, urgency, dan jaminan.
@@ -4545,15 +4545,15 @@ Kapan pakai:
 
 Variabel:
 - [JENIS_URGENCY]: jenis urgency (waktu terbatas, stok terbatas)
-- [COUNTDOWN]: countdown timer
+- [COUNTDOWN]: penghitung mundur
 - [INSENTIF]: insentif untuk bertindak cepat
 - [CTA]: CTA yang urgent
 
 Prompt:
-> Buat urgency section landing page dengan [JENIS_URGENCY], [COUNTDOWN], [INSENTIF], dan [CTA]. Struktur: (1) Headline yang urgent "Penawaran berakhir dalam..." atau "Stok terbatas!", (2) Countdown timer atau indikator stok, (3) Penjelasan insentif 30-50 kata, (4) Tombol CTA yang menonjol, (5) P.S. dengan reminder urgency. Total 80-120 kata. Urgency harus legitimate dan tidak manipulatif.
+> Buat bagian urgensi landing page dengan [JENIS_URGENCY], [COUNTDOWN], [INSENTIF], dan [CTA]. Struktur: (1) Headline yang urgent "Penawaran berakhir dalam..." atau "Stok terbatas!", (2) Countdown timer atau indikator stok, (3) Penjelasan insentif 30-50 kata, (4) Tombol CTA yang menonjol, (5) P.S. dengan reminder urgency. Total 80-120 kata. Urgency harus legitimate dan tidak manipulatif.
 
 Hasil yang diharapkan:
-Urgency section dengan countdown dan insentif.
+Bagian urgensi dengan countdown dan insentif.
 
 ---
 
@@ -4671,7 +4671,7 @@ Live chat widget dengan sapaan dan FAQ.
 
 ## Contoh Output AI untuk Bagian 4
 
-### P-151. Landing Page Hero Section (Contoh Output)
+### P-171. Hero Section Landing Page (Contoh Output)
 
 **Input yang dipakai:**
 Produk: Software akuntansi untuk UMKM, harga Rp 99.000/bulan, fitur: invoice otomatis, laporan keuangan, integrasi bank, target pemilik UMKM yang belum pakai software akuntansi.
@@ -4698,11 +4698,11 @@ CTA: Mulai Coba Gratis
 Social proof: 5.000+ UMKM sudah pakai. Rating 4.8/5.
 ```
 
-**Perbandingan:** ChatGPT lebih profesional dan detail, cocok untuk B2B. Gemini lebih relatable dan emosional, cocok untuk UMKM yang frustrated dengan pembukuan manual. Pilih sesuai brand voice Anda.
+**Perbandingan:** ChatGPT lebih profesional dan detail, cocok untuk B2B. Gemini lebih relatable dan emosional, cocok untuk UMKM yang frustrasi dengan pembukuan manual. Pilih sesuai brand voice Anda.
 
 ---
 
-### P-165. Landing Page Testimonial Section (Contoh Output)
+### P-178. Bagian Testimoni Landing Page (Contoh Output)
 
 **Input yang dipakai:**
 Produk: Kursus online copywriting, 3 testimoni dari alumni yang berhasil dapat klien setelah lulus.
@@ -4718,7 +4718,7 @@ Produk: Kursus online copywriting, 3 testimoni dari alumni yang berhasil dapat k
 "Saya ikut kursus ini buat nulis iklan produk sendiri. Hasilnya? Conversion rate naik 40% dalam sebulan. ROI-nya luar biasa."
 
 ### Sarah, Content Creator
-"Saya kira copywriting cuma buat iklan. Ternyata skill ini berguna untuk caption Instagram, script YouTube, bahkan proposal klien. Investasi terbaik tahun ini."
+"Saya kira copywriting cuma buat iklan. Ternyata skill ini berguna untuk caption Instagram, naskah YouTube, bahkan proposal klien. Investasi terbaik tahun ini."
 ```
 
 **Output Gemini:**
@@ -4732,10 +4732,10 @@ Produk: Kursus online copywriting, 3 testimoni dari alumni yang berhasil dapat k
 "Conversion rate toko online saya naik 40% setelah pakai teknik dari modul 3. Kursus ini bayar sendiri dalam seminggu."
 
 **Sarah, 26 tahun, Bandung**
-"Skill copywriting berguna untuk semua konten saya: Instagram, YouTube, proposal klien. Worth every rupiah."
+"Skill copywriting berguna untuk semua konten saya: Instagram, YouTube, proposal klien. Sepadan dengan setiap rupiah."
 ```
 
-**Perbandingan:** ChatGPT lebih formal dan detail. Gemini lebih personal dengan tambahan info demografis. Untuk testimonial, Gemini biasanya lebih relatable karena formatnya seperti cerita nyata.
+**Perbandingan:** ChatGPT lebih formal dan detail. Gemini lebih personal dengan tambahan info demografis. Untuk testimoni, Gemini biasanya lebih relatable karena formatnya seperti cerita nyata.
 
 
 ## Latihan Bagian 4
@@ -4765,14 +4765,14 @@ Solusi: Sertakan testimoni, rating, atau logo klien di setiap halaman.
 Solusi: Test semua halaman di mobile dan pastikan responsive.
 ## Bagian 5: Konten Video dan Podcast
 
-Bagian ini berisi 40 prompt untuk konten video dan podcast: script YouTube, TikTok, Reels, podcast episode, webinar, dan konten audio-visual lainnya. Setiap prompt dirancang untuk platform spesifik dengan format yang sesuai.
+Bagian ini berisi 40 prompt untuk konten video dan podcast: naskah YouTube, TikTok, Reels, podcast episode, webinar, dan konten audio-visual lainnya. Setiap prompt dirancang untuk platform spesifik dengan format yang sesuai.
 
 ---
 
 ### P-221. Struktur Naskah Video YouTube
 
 Kapan pakai:
-> Membuat script video YouTube lengkap
+> Membuat naskah video YouTube lengkap
 
 Variabel:
 - [TOPIK_VIDEO]: topik yang akan dibahas
@@ -4782,10 +4782,10 @@ Variabel:
 - [CTA_SEKUNDER]: call-to-action sekunder
 
 Prompt:
-> Buat script video YouTube [DURASI_TARGET] menit tentang [TOPIK_VIDEO] untuk [TARGET_AUDIENCE] dengan [CTA_UTAMA] dan [CTA_SEKUNDER]. Struktur: (1) Hook 0-15 detik yang menangkap perhatian, (2) Intro 15-30 detik menjelaskan apa yang akan dipelajari, (3) Body dengan 3-5 poin utama masing-masing 1-2 menit, (4) Transisi antar poin, (5) Kesimpulan 30-60 detik merangkum poin utama, (6) CTA untuk subscribe, like, dan komentar. Total script 800-1500 kata tergantung durasi. Gunakan bahasa conversational dan energik.
+> Buat naskah video YouTube [DURASI_TARGET] menit tentang [TOPIK_VIDEO] untuk [TARGET_AUDIENCE] dengan [CTA_UTAMA] dan [CTA_SEKUNDER]. Struktur: (1) Hook 0-15 detik yang menangkap perhatian, (2) Intro 15-30 detik menjelaskan apa yang akan dipelajari, (3) Body dengan 3-5 poin utama masing-masing 1-2 menit, (4) Transisi antar poin, (5) Kesimpulan 30-60 detik merangkum poin utama, (6) CTA untuk subscribe, like, dan komentar. Total naskah 800-1500 kata tergantung durasi. Gunakan bahasa conversational dan energik.
 
 Hasil yang diharapkan:
-Script lengkap dengan timing per section dan total kata sesuai durasi.
+Naskah lengkap dengan timing per bagian dan total kata sesuai durasi.
 
 ---
 
@@ -4819,7 +4819,7 @@ Variabel:
 - [CTA_SUBSCRIBE]: ajakan subscribe
 
 Prompt:
-> Buat 5 variasi intro script YouTube untuk [NAMA_CHANNEL] tentang [TOPIK_CHANNEL] yang upload [FREKUENSI_UPLOAD] dengan [CTA_SUBSCRIBE]. Setiap intro harus: (1) Sapaan personal, (2) Perkenalan channel singkat, (3) Preview apa yang akan dibahas di video ini, (4) CTA subscribe, (5) Total 15-30 detik (50-80 kata). Gunakan energi dan enthusiasm yang konsisten dengan brand channel.
+> Buat 5 variasi naskah intro YouTube untuk [NAMA_CHANNEL] tentang [TOPIK_CHANNEL] yang upload [FREKUENSI_UPLOAD] dengan [CTA_SUBSCRIBE]. Setiap intro harus: (1) Sapaan personal, (2) Perkenalan channel singkat, (3) Preview apa yang akan dibahas di video ini, (4) CTA subscribe, (5) Total 15-30 detik (50-80 kata). Gunakan energi dan enthusiasm yang konsisten dengan brand channel.
 
 Hasil yang diharapkan:
 Lima variasi intro 50-80 kata.
@@ -4838,7 +4838,7 @@ Variabel:
 - [CTA_SEKUNDER]: CTA sekunder (check description, visit website)
 
 Prompt:
-> Buat 5 variasi outro script YouTube untuk video tentang [TOPIK_VIDEO] dengan rekomendasi [VIDEO_SELANJUTNYA], [CTA_UTAMA], dan [CTA_SEKUNDER]. Setiap outro harus: (1) Ringkasan singkat apa yang baru dibahas, (2) Teaser untuk video selanjutnya, (3) CTA untuk subscribe, like, dan comment, (4) Reminder untuk check description, (5) Penutup personal. Total 30-60 detik (80-120 kata).
+> Buat 5 variasi naskah outro YouTube untuk video tentang [TOPIK_VIDEO] dengan rekomendasi [VIDEO_SELANJUTNYA], [CTA_UTAMA], dan [CTA_SEKUNDER]. Setiap outro harus: (1) Ringkasan singkat apa yang baru dibahas, (2) Teaser untuk video selanjutnya, (3) CTA untuk subscribe, like, dan comment, (4) Reminder untuk check description, (5) Penutup personal. Total 30-60 detik (80-120 kata).
 
 Hasil yang diharapkan:
 Lima variasi outro 80-120 kata.
@@ -4887,7 +4887,7 @@ Deskripsi 200-300 kata dengan struktur lengkap.
 ### P-227. Naskah YouTube Shorts
 
 Kapan pakai:
-> Membuat script YouTube Shorts (video vertikal pendek)
+> Membuat naskah YouTube Shorts (video vertikal pendek)
 
 Variabel:
 - [TOPIK]: topik video
@@ -4897,10 +4897,10 @@ Variabel:
 - [CTA]: call-to-action
 
 Prompt:
-> Buat script YouTube Shorts [DURASI] detik tentang [TOPIK] dengan [HOOK] di 3 detik pertama, [KONTEN_UTAMA] di tengah, dan [CTA] di akhir. Format: (1) Detik 0-3: Hook visual + teks on-screen, (2) Detik 3-[DURASI]-5: Konten utama dengan transisi cepat, (3) Detik terakhir: CTA untuk subscribe atau like. Script harus: (a) Satu ide per kalimat, (b) Bahasa casual dan energik, (c) Teks on-screen sinkron dengan voiceover. Total 30-80 kata.
+> Buat naskah YouTube Shorts [DURASI] detik tentang [TOPIK] dengan [HOOK] di 3 detik pertama, [KONTEN_UTAMA] di tengah, dan [CTA] di akhir. Format: (1) Detik 0-3: Hook visual + teks on-screen, (2) Detik 3-[DURASI]-5: Konten utama dengan transisi cepat, (3) Detik terakhir: CTA untuk subscribe atau like. Naskah harus: (a) Satu ide per kalimat, (b) Bahasa casual dan energik, (c) Teks on-screen sinkron dengan voiceover. Total 30-80 kata.
 
 Hasil yang diharapkan:
-Script 30-80 kata dengan timing per bagian.
+Naskah 30-80 kata dengan timing per bagian.
 
 ---
 
@@ -4927,7 +4927,7 @@ Outline dengan timing per segment.
 ### P-229. Naskah Intro Podcast
 
 Kapan pakai:
-> Membuat script intro podcast
+> Membuat naskah intro podcast
 
 Variabel:
 - [NAMA_PODCAST]: nama podcast
@@ -4937,7 +4937,7 @@ Variabel:
 - [SPONSOR]: sponsor jika ada
 
 Prompt:
-> Buat 3 variasi intro script podcast untuk [NAMA_PODCAST] dengan [TAGLINE], host [HOST], topik [TOPIK_EPISODE], dan [SPONSOR]. Setiap intro harus: (1) Theme music cue, (2) Sapaan dan perkenalan podcast, (3) Tagline, (4) Perkenalan host, (5) Preview topik episode, (6) Sponsor read jika ada, (7) Transisi ke konten utama. Total 60-90 detik (150-200 kata). Gunakan energi dan tone yang konsisten dengan brand podcast.
+> Buat 3 variasi naskah intro podcast untuk [NAMA_PODCAST] dengan [TAGLINE], host [HOST], topik [TOPIK_EPISODE], dan [SPONSOR]. Setiap intro harus: (1) Theme music cue, (2) Sapaan dan perkenalan podcast, (3) Tagline, (4) Perkenalan host, (5) Preview topik episode, (6) Sponsor read jika ada, (7) Transisi ke konten utama. Total 60-90 detik (150-200 kata). Gunakan energi dan tone yang konsisten dengan brand podcast.
 
 Hasil yang diharapkan:
 Tiga variasi intro 150-200 kata.
@@ -4947,7 +4947,7 @@ Tiga variasi intro 150-200 kata.
 ### P-230. Naskah Outro Podcast
 
 Kapan pakai:
-> Membuat script outro podcast
+> Membuat naskah outro podcast
 
 Variabel:
 - [NAMA_PODCAST]: nama podcast
@@ -4957,7 +4957,7 @@ Variabel:
 - [LINK]: link yang relevan
 
 Prompt:
-> Buat 3 variasi outro script podcast untuk [NAMA_PODCAST] setelah membahas [TOPIK_EPISODE] dengan teaser [EPISODE_SELANJUTNYA], [CTA], dan [LINK]. Setiap outro harus: (1) Ringkasan singkat apa yang baru dibahas, (2) Teaser episode selanjutnya, (3) CTA untuk subscribe, review, dan share, (4) Link ke show notes atau resource, (5) Ucapan terima kasih, (6) Sign-off personal. Total 60-90 detik (150-200 kata).
+> Buat 3 variasi naskah outro podcast untuk [NAMA_PODCAST] setelah membahas [TOPIK_EPISODE] dengan teaser [EPISODE_SELANJUTNYA], [CTA], dan [LINK]. Setiap outro harus: (1) Ringkasan singkat apa yang baru dibahas, (2) Teaser episode selanjutnya, (3) CTA untuk subscribe, review, dan share, (4) Link ke show notes atau resource, (5) Ucapan terima kasih, (6) Sign-off personal. Total 60-90 detik (150-200 kata).
 
 Hasil yang diharapkan:
 Tiga variasi outro 150-200 kata.
@@ -4987,7 +4987,7 @@ Daftar pertanyaan terstruktur dengan timing.
 ### P-232. Naskah Episode Solo Podcast
 
 Kapan pakai:
-> Membuat script untuk episode podcast solo
+> Membuat naskah untuk episode podcast solo
 
 Variabel:
 - [NAMA_PODCAST]: nama podcast
@@ -4997,17 +4997,17 @@ Variabel:
 - [STORY_PERSONAL]: cerita personal yang relevan
 
 Prompt:
-> Buat script podcast solo [DURASI] menit untuk [NAMA_PODCAST] tentang [TOPIK] dengan [POIN_UTAMA] dan [STORY_PERSONAL]. Struktur: (1) Intro 2-3 menit: hook dan preview, (2) Poin 1 dengan durasi dan talking points, (3) Poin 2 dengan durasi dan talking points, (4) Poin 3 dengan durasi dan talking points, (5) Story personal 2-3 menit, (6) Kesimpulan dan CTA 2-3 menit. Total script 1000-2000 kata tergantung durasi. Gunakan bahasa conversational seperti berbicara dengan teman.
+> Buat naskah podcast solo [DURASI] menit untuk [NAMA_PODCAST] tentang [TOPIK] dengan [POIN_UTAMA] dan [STORY_PERSONAL]. Struktur: (1) Intro 2-3 menit: hook dan pratinjau, (2) Poin 1 dengan durasi dan poin pembicaraan, (3) Poin 2 dengan durasi dan poin pembicaraan, (4) Poin 3 dengan durasi dan poin pembicaraan, (5) Story personal 2-3 menit, (6) Kesimpulan dan CTA 2-3 menit. Total naskah 1000-2000 kata tergantung durasi. Gunakan bahasa percakapan santai seperti berbicara dengan teman.
 
 Hasil yang diharapkan:
-Script lengkap dengan talking points per section.
+Naskah lengkap dengan poin pembicaraan per bagian.
 
 ---
 
 ### P-233. Struktur Naskah Webinar
 
 Kapan pakai:
-> Membuat script webinar lengkap
+> Membuat naskah webinar lengkap
 
 Variabel:
 - [TOPIK_WEBINAR]: topik webinar
@@ -5017,10 +5017,10 @@ Variabel:
 - [Q&A]: apakah ada sesi Q&A
 
 Prompt:
-> Buat script webinar [DURASI] menit tentang [TOPIK_WEBINAR] untuk [TARGET_AUDIENCE] yang mempromosikan [PRODUK_YANG_DIPROMOSIKAN] dengan [Q&A]. Struktur: (1) Welcome dan housekeeping 5 menit, (2) Intro host dan credibility 5 menit, (3) Konten utama 20-30 menit dengan 3-5 poin, (4) Transition ke pitch 5 menit, (5) Product pitch 10 menit, (6) Q&A 10 menit jika ada, (7) Closing dan CTA 5 menit. Total script 2000-4000 kata. Gunakan pendekatan edukatif 80% dan promosi 20%.
+> Buat naskah webinar [DURASI] menit tentang [TOPIK_WEBINAR] untuk [TARGET_AUDIENCE] yang mempromosikan [PRODUK_YANG_DIPROMOSIKAN] dengan [Q&A]. Struktur: (1) Sambutan dan pengenalan acara 5 menit, (2) Perkenalan host dan kredibilitas 5 menit, (3) Konten utama 20-30 menit dengan 3-5 poin, (4) Transisi ke pitch 5 menit, (5) Pitch produk 10 menit, (6) Q&A 10 menit jika ada, (7) Closing dan CTA 5 menit. Total naskah 2000-4000 kata. Gunakan pendekatan edukatif 80% dan promosi 20%.
 
 Hasil yang diharapkan:
-Script lengkap dengan timing dan transition.
+Naskah lengkap dengan timing dan transisi.
 
 ---
 
@@ -5046,7 +5046,7 @@ Lima variasi hook 80-120 kata.
 ### P-235. Naskah Pitch Webinar
 
 Kapan pakai:
-> Membuat script pitch produk di webinar
+> Membuat naskah pitch produk di webinar
 
 Variabel:
 - [NAMA_PRODUK]: nama produk
@@ -5058,17 +5058,17 @@ Variabel:
 - [URGENCY]: elemen urgency
 
 Prompt:
-> Buat webinar pitch script untuk [NAMA_PRODUK] yang menyelesaikan [MASALAH_YANG_DISELESAIKAN] dengan [FITUR_UTAMA], [HARGA], [BONUS], [GUARANTEE], dan [URGENCY]. Struktur: (1) Transition dari konten ke pitch, (2) Recap masalah yang sudah dibahas, (3) Perkenalan produk sebagai solusi, (4) Demo atau walkthrough fitur, (5) Testimoni atau case study, (6) Penawaran khusus untuk peserta webinar, (7) Bonus dan guarantee, (8) Urgency dan scarcity, (9) CTA dan cara mendaftar, (10) Handling objections umum. Total 500-800 kata. Gunakan pendekatan consultative selling.
+> Buat naskah pitch webinar untuk [NAMA_PRODUK] yang menyelesaikan [MASALAH_YANG_DISELESAIKAN] dengan [FITUR_UTAMA], [HARGA], [BONUS], [GUARANTEE], dan [URGENCY]. Struktur: (1) Transition dari konten ke pitch, (2) Recap masalah yang sudah dibahas, (3) Perkenalan produk sebagai solusi, (4) Demo atau walkthrough fitur, (5) Testimoni atau case study, (6) Penawaran khusus untuk peserta webinar, (7) Bonus dan guarantee, (8) Urgency dan scarcity, (9) CTA dan cara mendaftar, (10) Handling objections umum. Total 500-800 kata. Gunakan pendekatan consultative selling.
 
 Hasil yang diharapkan:
-Pitch script lengkap dengan transition dan objection handling.
+Naskah pitch lengkap dengan transisi dan penanganan keberatan.
 
 ---
 
 ### P-236. Naskah Live Streaming
 
 Kapan pakai:
-> Membuat script untuk live streaming
+> Membuat naskah untuk live streaming
 
 Variabel:
 - [PLATFORM]: platform live (Instagram, Facebook, YouTube, TikTok)
@@ -5078,17 +5078,17 @@ Variabel:
 - [CTA]: call-to-action
 
 Prompt:
-> Buat script live streaming [PLATFORM] [DURASI] menit tentang [TOPIK] dengan [INTERAKSI] dan [CTA]. Struktur: (1) Pre-live countdown dan waiting room, (2) Opening 5 menit: sapaan, perkenalan, preview topik, (3) Konten utama dengan checkpoint setiap 10 menit untuk interaksi, (4) Q&A session atau respond comments, (5) CTA dan closing. Sertakan: (a) Talking points per section, (b) Prompt untuk interaksi ("Ketik 1 jika...", "Comment di bawah..."), (c) Backup plan jika tidak ada yang comment. Total 800-1500 kata.
+> Buat naskah live streaming [PLATFORM] [DURASI] menit tentang [TOPIK] dengan [INTERAKSI] dan [CTA]. Struktur: (1) Pre-live countdown dan waiting room, (2) Opening 5 menit: sapaan, perkenalan, preview topik, (3) Konten utama dengan checkpoint setiap 10 menit untuk interaksi, (4) Q&A session atau respond comments, (5) CTA dan closing. Sertakan: (a) Talking points per section, (b) Prompt untuk interaksi ("Ketik 1 jika...", "Comment di bawah..."), (c) Backup plan jika tidak ada yang comment. Total 800-1500 kata.
 
 Hasil yang diharapkan:
-Script live dengan talking points dan interaction prompts.
+Naskah live dengan poin pembicaraan dan pemicu interaksi.
 
 ---
 
 ### P-237. Naskah Video Tutorial
 
 Kapan pakai:
-> Membuat script video tutorial
+> Membuat naskah video tutorial
 
 Variabel:
 - [TOPIK_TUTORIAL]: topik yang diajarkan
@@ -5098,17 +5098,17 @@ Variabel:
 - [HASIL_AKHIR]: hasil yang akan dicapai
 
 Prompt:
-> Buat script video tutorial [DURASI] menit tentang [TOPIK_TUTORIAL] level [LEVEL] dengan [TOOLS_YANG_DIBUTUHKAN] dan [HASIL_AKHIR]. Struktur: (1) Intro: apa yang akan dipelajari dan prerequisites, (2) Setup: persiapan tools dan environment, (3) Step-by-step tutorial dengan numbering, (4) Common mistakes dan cara menghindarinya, (5) Final result dan next steps. Setiap step harus: (a) Clear instruction, (b) Visual cue ("Perhatikan layar..."), (c) Checkpoint untuk memastikan penonton mengikuti. Total 600-1200 kata.
+> Buat naskah video tutorial [DURASI] menit tentang [TOPIK_TUTORIAL] level [LEVEL] dengan [TOOLS_YANG_DIBUTUHKAN] dan [HASIL_AKHIR]. Struktur: (1) Intro: apa yang akan dipelajari dan prerequisites, (2) Setup: persiapan tools dan environment, (3) Step-by-step tutorial dengan numbering, (4) Common mistakes dan cara menghindarinya, (5) Final result dan next steps. Setiap step harus: (a) Clear instruction, (b) Visual cue ("Perhatikan layar..."), (c) Checkpoint untuk memastikan penonton mengikuti. Total 600-1200 kata.
 
 Hasil yang diharapkan:
-Script tutorial step-by-step yang jelas.
+Naskah tutorial langkah demi langkah yang jelas.
 
 ---
 
 ### P-238. Naskah Video Demo Produk
 
 Kapan pakai:
-> Membuat script video demo produk
+> Membuat naskah video demo produk
 
 Variabel:
 - [NAMA_PRODUK]: nama produk
@@ -5121,14 +5121,14 @@ Prompt:
 > Buat naskah video demo produk untuk [NAMA_PRODUK] yang mendemokan [FITUR_YANG_DIDEMOKAN] dalam [USE_CASE] untuk [TARGET_AUDIENCE] dengan [CTA]. Struktur: (1) Intro: masalah yang dihadapi target audiens, (2) Perkenalan produk sebagai solusi, (3) Demo fitur 1 dengan use case, (4) Demo fitur 2 dengan use case, (5) Demo fitur 3 dengan use case, (6) Rekap manfaat, (7) CTA. Total 400-800 kata. Fokus pada "bagaimana ini membantu", bukan hanya "apa yang dilakukan".
 
 Hasil yang diharapkan:
-Script demo dengan use case dan benefit.
+Naskah demo dengan use case dan manfaat.
 
 ---
 
 ### P-239. Naskah Video Testimoni
 
 Kapan pakai:
-> Membuat script video testimoni pelanggan
+> Membuat naskah video testimoni pelanggan
 
 Variabel:
 - [NAMA_PELANGGAN]: nama pelanggan
@@ -5139,17 +5139,17 @@ Variabel:
 - [DURASI]: durasi video
 
 Prompt:
-> Buat script video testimoni [DURASI] menit untuk [NAMA_PELANGGAN] yang menggunakan [PRODUK_YANG_DIGUNAKAN], menghadapi [MASALAH_SEBELUM], mendapatkan [SOLUSI], dan mencapai [HASIL_KONKRET]. Struktur pertanyaan: (1) "Bisa ceritakan latar belakang Anda?", (2) "Apa masalah yang Anda hadapi sebelum menggunakan [produk]?", (3) "Bagaimana Anda menemukan [produk]?", (4) "Bagaimana pengalaman Anda menggunakan [produk]?", (5) "Hasil konkret apa yang Anda dapatkan?", (6) "Apakah Anda merekomendasikan [produk] ke orang lain?". Total script 200-400 kata. Gunakan pertanyaan terbuka yang mendorong cerita.
+> Buat naskah video testimoni [DURASI] menit untuk [NAMA_PELANGGAN] yang menggunakan [PRODUK_YANG_DIGUNAKAN], menghadapi [MASALAH_SEBELUM], mendapatkan [SOLUSI], dan mencapai [HASIL_KONKRET]. Struktur pertanyaan: (1) "Bisa ceritakan latar belakang Anda?", (2) "Apa masalah yang Anda hadapi sebelum menggunakan [produk]?", (3) "Bagaimana Anda menemukan [produk]?", (4) "Bagaimana pengalaman Anda menggunakan [produk]?", (5) "Hasil konkret apa yang Anda dapatkan?", (6) "Apakah Anda merekomendasikan [produk] ke orang lain?". Total naskah 200-400 kata. Gunakan pertanyaan terbuka yang mendorong cerita.
 
 Hasil yang diharapkan:
-Script interview testimoni dengan pertanyaan terbuka.
+Naskah wawancara testimoni dengan pertanyaan terbuka.
 
 ---
 
 ### P-240. Naskah Video Studi Kasus
 
 Kapan pakai:
-> Membuat script video case study
+> Membuat naskah video case study
 
 Variabel:
 - [NAMA_KLIEN]: nama klien
@@ -5160,17 +5160,17 @@ Variabel:
 - [DURASI]: durasi video
 
 Prompt:
-> Buat script video case study [DURASI] menit tentang [NAMA_KLIEN] dari [INDUSTRI] yang menghadapi [TANTANGAN], menerapkan [SOLUSI], dan mencapai [HASIL]. Struktur: (1) Intro: overview klien dan industri, (2) Tantangan: masalah yang dihadapi dengan data, (3) Solusi: pendekatan yang diterapkan, (4) Implementasi: bagaimana solusi dijalankan, (5) Hasil: outcome dengan angka konkret, (6) Testimoni dari klien, (7) Kesimpulan dan pelajaran. Total 500-1000 kata. Gunakan pendekatan storytelling.
+> Buat naskah video case study [DURASI] menit tentang [NAMA_KLIEN] dari [INDUSTRI] yang menghadapi [TANTANGAN], menerapkan [SOLUSI], dan mencapai [HASIL]. Struktur: (1) Intro: overview klien dan industri, (2) Tantangan: masalah yang dihadapi dengan data, (3) Solusi: pendekatan yang diterapkan, (4) Implementasi: bagaimana solusi dijalankan, (5) Hasil: outcome dengan angka konkret, (6) Testimoni dari klien, (7) Kesimpulan dan pelajaran. Total 500-1000 kata. Gunakan pendekatan storytelling.
 
 Hasil yang diharapkan:
-Script case study dengan storytelling dan data.
+Naskah studi kasus dengan storytelling dan data.
 
 ---
 
 ### P-241. Naskah Explainer Video
 
 Kapan pakai:
-> Membuat script explainer video
+> Membuat naskah explainer video
 
 Variabel:
 - [KONSEP_YANG_DIJELASKAN]: konsep atau produk yang dijelaskan
@@ -5180,17 +5180,17 @@ Variabel:
 - [CTA]: call-to-action
 
 Prompt:
-> Buat script explainer video [DURASI] detik tentang [KONSEP_YANG_DIJELASKAN] untuk [TARGET_AUDIENCE] menggunakan [ANALOGI] dengan [CTA]. Struktur: (1) Problem statement 10-15 detik, (2) Agitasi masalah 10-15 detik, (3) Solusi diperkenalkan 15-20 detik, (4) Cara kerja dengan analogi 30-60 detik, (5) Benefit 15-20 detik, (6) CTA 10-15 detik. Total 150-300 kata. Gunakan bahasa sederhana dan visual.
+> Buat naskah explainer video [DURASI] detik tentang [KONSEP_YANG_DIJELASKAN] untuk [TARGET_AUDIENCE] menggunakan [ANALOGI] dengan [CTA]. Struktur: (1) Problem statement 10-15 detik, (2) Agitasi masalah 10-15 detik, (3) Solusi diperkenalkan 15-20 detik, (4) Cara kerja dengan analogi 30-60 detik, (5) Benefit 15-20 detik, (6) CTA 10-15 detik. Total 150-300 kata. Gunakan bahasa sederhana dan visual.
 
 Hasil yang diharapkan:
-Script explainer yang simple dan visual.
+Naskah explainer yang sederhana dan visual.
 
 ---
 
 ### P-242. Naskah Iklan Video (15 detik)
 
 Kapan pakai:
-> Membuat script iklan video 15 detik
+> Membuat naskah iklan video 15 detik
 
 Variabel:
 - [PRODUK]: produk yang diiklankan
@@ -5199,17 +5199,17 @@ Variabel:
 - [CTA]: call-to-action
 
 Prompt:
-> Buat 5 variasi script iklan video 15 detik untuk [PRODUK] dengan [MANFAAT_UTAMA] untuk [TARGET_AUDIENCE] dan [CTA]. Setiap script harus: (1) Detik 0-3: Hook yang menangkap perhatian, (2) Detik 3-10: Manfaat utama dengan visual, (3) Detik 10-15: CTA yang jelas. Total 30-40 kata per script. Setiap detik harus impactful.
+> Buat 5 variasi naskah iklan video 15 detik untuk [PRODUK] dengan [MANFAAT_UTAMA] untuk [TARGET_AUDIENCE] dan [CTA]. Setiap naskah harus: (1) Detik 0-3: Hook yang menangkap perhatian, (2) Detik 3-10: Manfaat utama dengan visual, (3) Detik 10-15: CTA yang jelas. Total 30-40 kata per naskah. Setiap detik harus berdampak.
 
 Hasil yang diharapkan:
-Lima script 30-40 kata yang impactful.
+Lima naskah 30-40 kata yang berdampak.
 
 ---
 
 ### P-243. Naskah Iklan Video (30 detik)
 
 Kapan pakai:
-> Membuat script iklan video 30 detik
+> Membuat naskah iklan video 30 detik
 
 Variabel:
 - [PRODUK]: produk yang diiklankan
@@ -5219,17 +5219,17 @@ Variabel:
 - [CTA]: call-to-action
 
 Prompt:
-> Buat 5 variasi script iklan video 30 detik untuk [PRODUK] yang menyelesaikan [MASALAH] dengan [SOLUSI], memberikan [BENEFIT], dan [CTA]. Setiap script harus: (1) Detik 0-5: Hook dengan masalah, (2) Detik 5-15: Solusi diperkenalkan, (3) Detik 15-25: Benefit dengan bukti, (4) Detik 25-30: CTA. Total 60-80 kata per script.
+> Buat 5 variasi naskah iklan video 30 detik untuk [PRODUK] yang menyelesaikan [MASALAH] dengan [SOLUSI], memberikan [BENEFIT], dan [CTA]. Setiap naskah harus: (1) Detik 0-5: Hook dengan masalah, (2) Detik 5-15: Solusi diperkenalkan, (3) Detik 15-25: Benefit dengan bukti, (4) Detik 25-30: CTA. Total 60-80 kata per naskah.
 
 Hasil yang diharapkan:
-Lima script 60-80 kata.
+Lima naskah 60-80 kata.
 
 ---
 
 ### P-244. Naskah Iklan Video (60 detik)
 
 Kapan pakai:
-> Membuat script iklan video 60 detik
+> Membuat naskah iklan video 60 detik
 
 Variabel:
 - [PRODUK]: produk yang diiklankan
@@ -5240,10 +5240,10 @@ Variabel:
 - [CTA]: call-to-action
 
 Prompt:
-> Buat 3 variasi script iklan video 60 detik untuk [PRODUK] dengan [STORY], menyentuh [EMOSI], memberikan [BENEFIT], menggunakan [SOCIAL_PROOF], dan [CTA]. Setiap script harus: (1) Detik 0-10: Hook dengan story atau masalah, (2) Detik 10-30: Pengembangan cerita dan solusi, (3) Detik 30-45: Benefit dan social proof, (4) Detik 45-60: CTA. Total 120-150 kata per script.
+> Buat 3 variasi naskah iklan video 60 detik untuk [PRODUK] dengan [STORY], menyentuh [EMOSI], memberikan [BENEFIT], menggunakan [SOCIAL_PROOF], dan [CTA]. Setiap naskah harus: (1) Detik 0-10: Hook dengan story atau masalah, (2) Detik 10-30: Pengembangan cerita dan solusi, (3) Detik 30-45: Benefit dan social proof, (4) Detik 45-60: CTA. Total 120-150 kata per naskah.
 
 Hasil yang diharapkan:
-Tiga script 120-150 kata dengan storytelling.
+Tiga naskah 120-150 kata dengan storytelling.
 
 ---
 
@@ -5301,7 +5301,7 @@ Variabel:
 - [HOOK]: hook yang menarik
 
 Prompt:
-> Buat 3 variasi teaser script podcast untuk [NAMA_PODCAST] episode tentang [TOPIK_EPISODE] dengan [TAMU] rilis [TANGGAL_RILIS] menggunakan [HOOK]. Setiap teaser harus: (1) Hook yang menarik perhatian, (2) Preview topik tanpa spoiler, (3) Mention tamu jika ada, (4) Tanggal rilis, (5) CTA untuk subscribe agar tidak ketinggalan. Total 30-60 detik (80-120 kata). Gunakan untuk social media promotion.
+> Buat 3 variasi naskah teaser podcast untuk [NAMA_PODCAST] episode tentang [TOPIK_EPISODE] dengan [TAMU] rilis [TANGGAL_RILIS] menggunakan [HOOK]. Setiap teaser harus: (1) Hook yang menarik perhatian, (2) Preview topik tanpa spoiler, (3) Mention tamu jika ada, (4) Tanggal rilis, (5) CTA untuk subscribe agar tidak ketinggalan. Total 30-60 detik (80-120 kata). Gunakan untuk social media promotion.
 
 Hasil yang diharapkan:
 Tiga teaser 80-120 kata.
@@ -5311,7 +5311,7 @@ Tiga teaser 80-120 kata.
 ### P-248. Naskah Video untuk Testimoni Teks
 
 Kapan pakai:
-> Membuat script untuk video yang menampilkan testimoni teks
+> Membuat naskah untuk video yang menampilkan testimoni teks
 
 Variabel:
 - [PRODUK]: produk yang ditestimoni
@@ -5321,17 +5321,17 @@ Variabel:
 - [CTA]: call-to-action
 
 Prompt:
-> Buat script video [DURASI] detik yang menampilkan [JUMLAH_TESTIMONI] testimoni tentang [PRODUK] dengan tema [THEMA], [MUSIC], dan [CTA]. Struktur: (1) Opening text: "Apa kata mereka tentang [produk]?", (2) Testimoni 1 dengan nama dan foto, (3) Testimoni 2, (4) Testimoni 3, (5) Closing dengan CTA. Setiap testimoni ditampilkan 3-5 detik. Total teks 50-80 kata. Gunakan musik yang uplifting.
+> Buat naskah video [DURASI] detik yang menampilkan [JUMLAH_TESTIMONI] testimoni tentang [PRODUK] dengan tema [THEMA], [MUSIC], dan [CTA]. Struktur: (1) Opening text: "Apa kata mereka tentang [produk]?", (2) Testimoni 1 dengan nama dan foto, (3) Testimoni 2, (4) Testimoni 3, (5) Closing dengan CTA. Setiap testimoni ditampilkan 3-5 detik. Total teks 50-80 kata. Gunakan musik yang uplifting.
 
 Hasil yang diharapkan:
-Script video testimoni dengan timing.
+Naskah video testimoni dengan timing.
 
 ---
 
 ### P-249. Naskah Bacaan Iklan Podcast
 
 Kapan pakai:
-> Membuat script iklan di dalam podcast
+> Membuat naskah iklan di dalam podcast
 
 Variabel:
 - [NAMA_PODCAST]: nama podcast
@@ -5343,10 +5343,10 @@ Variabel:
 - [DURASI]: durasi ad read (30-60 detik)
 
 Prompt:
-> Buat [DURASI] detik ad read script untuk [NAMA_PODCAST] yang mensponsori [SPONSOR] dengan [PRODUK_SPONSOR], [MANFAAT], [OFFER], dan [CODE]. Struktur: (1) Transition dari konten, (2) Perkenalan sponsor, (3) Personal story atau pengalaman dengan produk, (4) Manfaat produk, (5) Penawaran khusus dan kode promo, (6) CTA dan link, (7) Transition kembali ke konten. Total 80-150 kata. Gunakan tone yang natural dan personal.
+> Buat [DURASI] detik naskah pembacaan iklan untuk [NAMA_PODCAST] yang mensponsori [SPONSOR] dengan [PRODUK_SPONSOR], [MANFAAT], [OFFER], dan [CODE]. Struktur: (1) Transition dari konten, (2) Perkenalan sponsor, (3) Personal story atau pengalaman dengan produk, (4) Manfaat produk, (5) Penawaran khusus dan kode promo, (6) CTA dan link, (7) Transition kembali ke konten. Total 80-150 kata. Gunakan tone yang natural dan personal.
 
 Hasil yang diharapkan:
-Ad read script yang natural dan personal.
+Naskah pembacaan iklan yang natural dan personal.
 
 ---
 
@@ -5410,7 +5410,7 @@ Sepuluh teks 5-7 kata yang eye-catching.
 ### P-253. Perkenalan Tamu Podcast
 
 Kapan pakai:
-> Membuat script perkenalan tamu podcast
+> Membuat naskah perkenalan tamu podcast
 
 Variabel:
 - [NAMA_TAMU]: nama tamu
@@ -5420,7 +5420,7 @@ Variabel:
 - [TONE]: tone perkenalan
 
 Prompt:
-> Buat 3 variasi guest introduction script untuk [NAMA_TAMU] dengan [LATAR_BELAKANG], [PENCAPAIAN], yang akan membahas [TOPIK_YANG_AKAN_DIBAHAS] dengan [TONE]. Setiap intro harus: (1) Nama dan title, (2) Latar belakang singkat, (3) Pencapaian yang relevan, (4) Mengapa tamu ini penting untuk topik ini, (5) Welcome dan transition ke interview. Total 60-90 detik (150-200 kata).
+> Buat 3 variasi naskah perkenalan tamu untuk [NAMA_TAMU] dengan [LATAR_BELAKANG], [PENCAPAIAN], yang akan membahas [TOPIK_YANG_AKAN_DIBAHAS] dengan [TONE]. Setiap intro harus: (1) Nama dan jabatan, (2) Latar belakang singkat, (3) Pencapaian yang relevan, (4) Mengapa tamu ini penting untuk topik ini, (5) Sambutan dan transisi ke wawancara. Total 60-90 detik (150-200 kata).
 
 Hasil yang diharapkan:
 Tiga variasi intro 150-200 kata.
@@ -5448,7 +5448,7 @@ Sepuluh CTA 10-20 kata.
 ### P-255. Interaksi Pendengar Podcast
 
 Kapan pakai:
-> Membuat script untuk mengajak pendengar berinteraksi
+> Membuat naskah untuk mengajak pendengar berinteraksi
 
 Variabel:
 - [NAMA_PODCAST]: nama podcast
@@ -5457,10 +5457,10 @@ Variabel:
 - [INSENTIF]: insentif untuk berinteraksi
 
 Prompt:
-> Buat 5 variasi listener engagement script untuk [NAMA_PODCAST] yang mengajak [JENIS_ENGAGEMENT] di [PLATFORM] dengan [INSENTIF]. Setiap script harus: (1) Menjelaskan cara berinteraksi, (2) Memberikan alasan mengapa engagement penting, (3) Menyebutkan insentif jika ada, (4) Menggunakan tone yang welcoming. Total 30-60 detik (80-120 kata) per script.
+> Buat 5 variasi naskah engagement pendengar untuk [NAMA_PODCAST] yang mengajak [JENIS_ENGAGEMENT] di [PLATFORM] dengan [INSENTIF]. Setiap naskah harus: (1) Menjelaskan cara berinteraksi, (2) Memberikan alasan mengapa engagement penting, (3) Menyebutkan insentif jika ada, (4) Menggunakan tone yang welcoming. Total 30-60 detik (80-120 kata) per naskah.
 
 Hasil yang diharapkan:
-Lima script 80-120 kata.
+Lima naskah 80-120 kata.
 
 ---
 
@@ -5497,7 +5497,7 @@ Variabel:
 - [TANGGAL_MULAI]: kapan season mulai
 
 Prompt:
-> Buat season preview script untuk [NAMA_PODCAST] season [NOMOR_SEASON] dengan tema [TEMA_SEASON], [JUMLAH_EPISODE], mulai [TANGGAL_MULAI]. Struktur: (1) Recap season sebelumnya, (2) Pengumuman season baru, (3) Tema dan apa yang akan dibahas, (4) Preview episode-episode, (5) Tanggal rilis, (6) CTA untuk subscribe. Total 90-120 detik (200-250 kata).
+> Buat naskah pratinjau season untuk [NAMA_PODCAST] season [NOMOR_SEASON] dengan tema [TEMA_SEASON], [JUMLAH_EPISODE], mulai [TANGGAL_MULAI]. Struktur: (1) Recap season sebelumnya, (2) Pengumuman season baru, (3) Tema dan apa yang akan dibahas, (4) Preview episode-episode, (5) Tanggal rilis, (6) CTA untuk subscribe. Total 90-120 detik (200-250 kata).
 
 Hasil yang diharapkan:
 Season preview 200-250 kata.
@@ -5507,7 +5507,7 @@ Season preview 200-250 kata.
 ### P-258. Naskah Montase Rekap Video
 
 Kapan pakai:
-> Membuat script untuk video recap atau montage
+> Membuat naskah untuk video recap atau montase
 
 Variabel:
 - [PERIODE]: periode yang dirangkum (tahun, kuartal, event)
@@ -5517,17 +5517,17 @@ Variabel:
 - [DURASI]: durasi video
 
 Prompt:
-> Buat script video recap [DURASI] detik untuk [PERIODE] dengan [HIGHLIGHT], [MOOD], dan [MUSIC]. Struktur: (1) Teks pembuka: "Best of [periode]", (2) Highlight 1 dengan caption, (3) Highlight 2, (4) Highlight 3, (5) dst, (6) Penutup dengan ucapan terima kasih atau CTA. Setiap highlight ditampilkan 3-5 detik dengan caption 10-15 kata. Total 50-100 kata. Gunakan musik yang sesuai mood.
+> Buat naskah video recap [DURASI] detik untuk [PERIODE] dengan [HIGHLIGHT], [MOOD], dan [MUSIC]. Struktur: (1) Teks pembuka: "Best of [periode]", (2) Highlight 1 dengan caption, (3) Highlight 2, (4) Highlight 3, (5) dst, (6) Penutup dengan ucapan terima kasih atau CTA. Setiap highlight ditampilkan 3-5 detik dengan caption 10-15 kata. Total 50-100 kata. Gunakan musik yang sesuai mood.
 
 Hasil yang diharapkan:
-Script recap dengan caption per highlight.
+Naskah recap dengan caption per highlight.
 
 ---
 
 ### P-259. Naskah Segmen Tanya Jawab Podcast
 
 Kapan pakai:
-> Membuat script untuk segment Q&A podcast
+> Membuat naskah untuk segmen Q&A podcast
 
 Variabel:
 - [NAMA_PODCAST]: nama podcast
@@ -5536,17 +5536,17 @@ Variabel:
 - [TONE]: tone jawaban
 
 Prompt:
-> Buat Q&A segment script untuk [NAMA_PODCAST] dengan [SUMBER_PERTANYAAN], [JUMLAH_PERTANYAAN], dan [TONE]. Struktur: (1) Intro segment: "Sekarang saatnya menjawab pertanyaan dari pendengar", (2) Pertanyaan 1 dengan nama penanya, (3) Jawaban 60-90 detik, (4) Pertanyaan 2, (5) Jawaban, (6) dst, (7) Closing segment dan CTA untuk mengirim pertanyaan. Total 400-600 kata.
+> Buat naskah segmen Q&A untuk [NAMA_PODCAST] dengan [SUMBER_PERTANYAAN], [JUMLAH_PERTANYAAN], dan [TONE]. Struktur: (1) Intro segment: "Sekarang saatnya menjawab pertanyaan dari pendengar", (2) Pertanyaan 1 dengan nama penanya, (3) Jawaban 60-90 detik, (4) Pertanyaan 2, (5) Jawaban, (6) dst, (7) Closing segment dan CTA untuk mengirim pertanyaan. Total 400-600 kata.
 
 Hasil yang diharapkan:
-Script Q&A dengan pertanyaan dan jawaban.
+Naskah Q&A dengan pertanyaan dan jawaban.
 
 ---
 
 ### P-260. Naskah Layar Akhir Video
 
 Kapan pakai:
-> Membuat script untuk end screen video
+> Membuat naskah untuk end screen video
 
 Variabel:
 - [TOPIK_VIDEO]: topik video yang baru selesai
@@ -5556,10 +5556,10 @@ Variabel:
 - [CTA_SEKUNDER]: CTA sekunder (watch next)
 
 Prompt:
-> Buat 5 variasi end screen script untuk video tentang [TOPIK_VIDEO] dengan rekomendasi [VIDEO_REKOMENDASI], [PLAYLIST], [CTA_UTAMA], dan [CTA_SEKUNDER]. Setiap script harus: (1) Thank you untuk menonton, (2) Quick recap 1 kalimat, (3) Rekomendasi video atau playlist, (4) CTA subscribe, (5) Total 20-30 detik (50-80 kata). Gunakan tone yang appreciative.
+> Buat 5 variasi naskah end screen untuk video tentang [TOPIK_VIDEO] dengan rekomendasi [VIDEO_REKOMENDASI], [PLAYLIST], [CTA_UTAMA], dan [CTA_SEKUNDER]. Setiap naskah harus: (1) Thank you untuk menonton, (2) Quick recap 1 kalimat, (3) Rekomendasi video atau playlist, (4) CTA subscribe, (5) Total 20-30 detik (50-80 kata). Gunakan tone yang appreciative.
 
 Hasil yang diharapkan:
-Lima script 50-80 kata.
+Lima naskah 50-80 kata.
 
 ---
 
@@ -5579,7 +5579,7 @@ Lima script 50-80 kata.
 
 ## Contoh Output AI untuk Bagian 5
 
-### P-221. YouTube Video Script Structure (Contoh Output)
+### P-221. Struktur Naskah Video YouTube (Contoh Output)
 
 **Input yang dipakai:**
 Topik: Cara membuat kopi manual brew yang enak di rumah, durasi target 8 menit, target audience pecinta kopi pemula, tone edukatif tapi santai.
@@ -5630,11 +5630,11 @@ Tasting, bandingkan dengan kopi coffee shop.
 "Kalau mau tutorial kopi lainnya, subscribe ya. Comment mau belajar metode apa selanjutnya."
 ```
 
-**Perbandingan:** ChatGPT lebih terstruktur dengan timestamp detail. Gemini lebih fokus di visual dan pacing. Untuk YouTube script, ChatGPT lebih mudah diikuti saat produksi.
+**Perbandingan:** ChatGPT lebih terstruktur dengan timestamp detail. Gemini lebih fokus di visual dan pacing. Untuk YouTube naskah, ChatGPT lebih mudah diikuti saat produksi.
 
 ---
 
-### P-233. Webinar Script Structure (Contoh Output)
+### P-233. Struktur Naskah Webinar (Contoh Output)
 
 **Input yang dipakai:**
 Topik: Cara mulai bisnis online dari nol untuk ibu rumah tangga, durasi 60 menit, target wanita usia 25-45 tahun yang ingin punya penghasilan tambahan.
@@ -5700,7 +5700,7 @@ Checklist 7 hari pertama: hari 1 daftar, hari 2 foto produk, hari 3 posting, dst
 
 1. Pilih 1 platform video atau podcast yang ingin Anda fokuskan.
 2. Buat outline lengkap menggunakan prompt yang sesuai.
-3. Rekam atau tulis script lengkap.
+3. Rekam atau tulis naskah lengkap.
 4. Publish dan ukur engagement.
 5. Iterasi berdasarkan feedback.
 
@@ -5711,7 +5711,7 @@ Checklist 7 hari pertama: hari 1 daftar, hari 2 foto produk, hari 3 posting, dst
 **Kesalahan 1: Hook yang lemah di 5 detik pertama**
 Solusi: Hook harus langsung menangkap perhatian. Test beberapa variasi.
 
-**Kesalahan 2: Script terlalu panjang untuk durasi**
+**Kesalahan 2: Naskah terlalu panjang untuk durasi**
 Solusi: 1 menit = 150 kata untuk video, 130 kata untuk podcast.
 
 **Kesalahan 3: Tidak ada CTA yang jelas**
@@ -5721,7 +5721,7 @@ Solusi: Setiap video/podcast harus memiliki minimal 1 CTA yang spesifik.
 Solusi: Audio yang buruk akan membuat penonton pergi. Investasikan di microphone yang baik.
 
 **Kesalahan 5: Tidak konsisten dengan upload schedule**
-Solusi: Buat content calendar dan stick to it. Konsistensi lebih penting dari perfection.
+Solusi: Buat kalender konten dan patuhi jadwalnya. Konsistensi lebih penting daripada kesempurnaan.
 ## Bagian 6: Copywriting Tingkat Lanjut
 
 Bagian ini berisi 40 prompt untuk teknik copywriting tingkat lanjut: A/B testing, psychological triggers, brand voice, persuasion frameworks, dan optimization. Prompt-prompt ini dirancang untuk copywriter yang sudah menguasai dasar dan ingin meningkatkan keterampilan mereka.
@@ -5988,18 +5988,18 @@ Storytelling framework dengan template per bagian.
 ### P-275. Sekuens Persuasi
 
 Kapan pakai:
-> Membuat sequence persuasi bertahap
+> Membuat rangkaian persuasi bertahap
 
 Variabel:
-- [JUMLAH_STEP]: berapa langkah dalam sequence
-- [TUJUAN_AKHIR]: tujuan akhir sequence
+- [JUMLAH_STEP]: berapa langkah dalam rangkaian
+- [TUJUAN_AKHIR]: tujuan akhir rangkaian
 - [TARGET_AUDIENCE]: siapa target audiens
 
 Prompt:
-> Buat persuasion sequence [JUMLAH_STEP] langkah menuju [TUJUAN_AKHIR] untuk [TARGET_AUDIENCE]. Setiap langkah: (1) Tujuan langkah, (2) Jenis konten yang sesuai, (3) Pesan utama, (4) CTA, (5) Transisi ke langkah berikutnya. Total 400-500 kata.
+> Buat rangkaian persuasi [JUMLAH_STEP] langkah menuju [TUJUAN_AKHIR] untuk [TARGET_AUDIENCE]. Setiap langkah: (1) Tujuan langkah, (2) Jenis konten yang sesuai, (3) Pesan utama, (4) CTA, (5) Transisi ke langkah berikutnya. Total 400-500 kata.
 
 Hasil yang diharapkan:
-Persuasion sequence dengan detail per langkah.
+Rangkaian persuasi dengan detail per langkah.
 
 ---
 
@@ -6045,7 +6045,7 @@ Kapan pakai:
 > Membuat copy untuk setiap tahap customer journey
 
 Variabel:
-- [TAHAP_JOURNEY]: tahap journey (awareness, consideration, decision, retention)
+- [TAHAP_JOURNEY]: tahap perjalanan pelanggan (awareness, pertimbangan, keputusan, retensi)
 - [TUJUAN_PER_TAHP]: tujuan setiap tahap
 - [TOUCHPOINT]: touchpoint di setiap tahap
 
@@ -6451,7 +6451,7 @@ Variabel:
 - [TARGET_AUDIENCE_PRESENTASI]: siapa yang melihat portfolio
 
 Prompt:
-> Buat copy portfolio presentation dengan [JUMLAH_PROJEK] projek ([JENIS_PROJEK]), [HASIL], untuk [TARGET_AUDIENCE_PRESENTASI]. Struktur: (1) Introduction dan background, (2) Project overview (untuk setiap projek: brief, approach, result), (3) Case study mendalam untuk 2-3 projek terbaik, (4) Skills dan expertise, (5) Testimonials, (6) Contact information. Total 600-800 kata.
+> Buat copy presentasi portofolio dengan [JUMLAH_PROJEK] projek ([JENIS_PROJEK]), [HASIL], untuk [TARGET_AUDIENCE_PRESENTASI]. Struktur: (1) Introduction dan background, (2) Project overview (untuk setiap projek: brief, approach, result), (3) Case study mendalam untuk 2-3 projek terbaik, (4) Skills dan expertise, (5) Testimonials, (6) Contact information. Total 600-800 kata.
 
 Hasil yang diharapkan:
 Portfolio presentation lengkap.
@@ -6475,7 +6475,7 @@ Portfolio presentation lengkap.
 
 ## Contoh Output AI untuk Bagian 6
 
-### P-261. A/B Testing Headline Variations (Contoh Output)
+### P-261. Variasi Headline untuk Pengujian A/B (Contoh Output)
 
 **Input yang dipakai:**
 Produk: Aplikasi budgeting untuk milenial, target usia 22-35 tahun, goal: signup free trial.
@@ -6520,7 +6520,7 @@ Variasi 5:
 
 ---
 
-### P-275. Persuasion Sequence (Contoh Output)
+### P-275. Sekuens Persuasi (Contoh Output)
 
 **Input yang dipakai:**
 Produk: Membership komunitas belajar copywriting, harga Rp 199.000/bulan, benefit: materi mingguan, feedback copy, networking dengan copywriter lain.
@@ -6547,7 +6547,7 @@ Urutan persuasi untuk landing page membership:
 
 **Output Gemini:**
 ```
-Urutan persuasi untuk email sequence:
+Urutan persuasi untuk rangkaian email:
 
 Email 1 (Problem):
 "Kenapa copy Anda nggak convert? Bukan karena salah grammar. Bukan karena salah struktur. Tapi karena Anda nulis sendirian tanpa feedback."
@@ -6562,7 +6562,7 @@ Email 4 (CTA):
 "Rp 199.000 per bulan. Lebih murah dari 1 buku copywriting. Tapi hasilnya? Jauh lebih besar. Join sekarang."
 ```
 
-**Perbandingan:** ChatGPT lebih cocok untuk landing page dengan struktur AIDA yang jelas. Gemini lebih cocok untuk email sequence dengan storytelling. Pilih sesuai channel yang Anda pakai.
+**Perbandingan:** ChatGPT lebih cocok untuk landing page dengan struktur AIDA yang jelas. Gemini lebih cocok untuk rangkaian email dengan storytelling. Pilih sesuai channel yang Anda pakai.
 
 
 ## Latihan Bagian 6
@@ -6715,10 +6715,10 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 1. Buat Zap dengan trigger "WordPress: New Post"
 2. Tambahkan action "OpenAI: Completion" dengan prompt:
    ```
-   Buatkan 3 script TikTok 30-60 detik dari artikel blog berikut:
+   Buatkan 3 naskah TikTok 30-60 detik dari artikel blog berikut:
    [tempel konten blog]
    
-   Setiap script:
+   Setiap naskah:
    - Hook 3 detik pertama yang kuat
    - 3-5 poin utama dari artikel
    - CTA di akhir
@@ -6727,7 +6727,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 3. Tambahkan action "TikTok for Business: Create Video" (atau simpan ke Google Docs untuk review manual)
 4. Aktifkan Zap
 
-**Hasil:** Script TikTok otomatis tergenerate dari setiap blog post baru.
+**Hasil:** Naskah TikTok otomatis tergenerate dari setiap blog post baru.
 
 ---
 
@@ -6831,10 +6831,10 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 2. Tambahkan module "HTTP: Make a Request" untuk get video transcript
 3. Tambahkan module "OpenAI: Create a Completion" dengan prompt:
    ```
-   Buatkan 3 script YouTube Shorts 30-60 detik dari transcript video berikut:
+   Buatkan 3 naskah YouTube Shorts 30-60 detik dari transcript video berikut:
    [tempel transcript]
    
-   Setiap script:
+   Setiap naskah:
    - Hook 3 detik pertama yang kuat
    - 1 ide utama yang bisa dijelaskan dalam 30-60 detik
    - CTA di akhir
@@ -6843,7 +6843,7 @@ Bagian ini berisi panduan langkah demi langkah untuk mengotomasi produksi konten
 4. Simpan ke Google Docs untuk review manual
 5. Aktifkan scenario
 
-**Hasil:** 3 script YouTube Shorts otomatis tergenerate dari setiap video panjang baru.
+**Hasil:** 3 naskah YouTube Shorts otomatis tergenerate dari setiap video panjang baru.
 
 ---
 
@@ -7420,11 +7420,11 @@ Gunakan checklist ini untuk memastikan copy Anda memenuhi standar profesional se
 
 ### Lampiran E: Referensi Framework Copywriting
 
-Berikut adalah framework copywriting yang paling efektif dan kapan menggunakannya.
+Berikut framework copywriting yang paling efektif dan kapan memakainya.
 
 **AIDA (Attention-Interest-Desire-Action)**
 
-Kapan gunakan:
+Kapan dipakai:
 - Konten marketing umum
 - Landing page
 - Email marketing
@@ -7437,11 +7437,11 @@ Struktur:
 4. Action: CTA yang mendorong tindakan
 
 Contoh:
-"Bayangkan bisa membuat konten marketing profesional dalam hitungan menit (Attention). Dengan 300 prompt siap pakai, Anda tidak perlu lagi staring at blank screen (Interest). Setiap prompt sudah diuji untuk menghasilkan copy yang converting (Desire). Download ebook sekarang dan mulai buat copy yang menjual hari ini juga (Action)."
+"Bayangkan bisa membuat konten marketing profesional dalam hitungan menit (Attention). Dengan 300 prompt siap pakai, Anda tidak perlu lagi menatap layar kosong (Interest). Setiap prompt sudah diuji untuk menghasilkan copy yang menjual (Desire). Unduh ebook sekarang dan mulai buat copy yang menjual hari ini juga (Action)."
 
 **PAS (Problem-Agitate-Solve)**
 
-Kapan gunakan:
+Kapan dipakai:
 - Sales page
 - Email promosi
 - Iklan yang menargetkan pain point
@@ -7452,11 +7452,11 @@ Struktur:
 3. Solve: Tawarkan solusi
 
 Contoh:
-"Pernahkah Anda menghabiskan berjam-jam untuk membuat caption Instagram yang tidak mendapatkan engagement? (Problem) Setiap hari Anda melihat kompetitor mendapatkan likes dan comments sementara postingan Anda diabaikan. Ini bukan hanya masalah ego, ini masalah bisnis. Setiap post yang tidak converting adalah uang yang terbuang (Agitate). Dengan 300 prompt copywriting yang sudah terbukti efektif, Anda bisa membuat caption yang engaging dalam 5 menit (Solve)."
+"Pernahkah Anda menghabiskan berjam-jam untuk membuat caption Instagram yang tidak mendapatkan engagement? (Problem) Setiap hari Anda melihat kompetitor mendapatkan like dan komentar sementara postingan Anda diabaikan. Ini bukan hanya masalah ego, ini masalah bisnis. Setiap posting yang tidak menjual adalah uang yang terbuang (Agitate). Dengan 300 prompt copywriting yang sudah terbukti efektif, Anda bisa membuat caption yang menarik dalam 5 menit (Solve)."
 
 **BAB (Before-After-Bridge)**
 
-Kapan gunakan:
+Kapan dipakai:
 - Testimonial
 - Case study
 - Storytelling
@@ -7468,13 +7468,13 @@ Struktur:
 3. Bridge: Jelaskan bagaimana produk membawa dari before ke after
 
 Contoh:
-"Sebelum menggunakan prompt library ini, saya menghabiskan 2 jam untuk membuat satu caption Instagram. Hasilnya? Engagement rate hanya 2% (Before). Sekarang, saya bisa membuat 10 caption berkualitas dalam 30 menit. Engagement rate naik menjadi 8% (After). Rahasianya? 300 prompt yang sudah diuji dan terbukti converting. Anda juga bisa mendapatkan hasil yang sama (Bridge)."
+"Dulu saya butuh dua jam untuk satu caption Instagram, dan engagement rate-nya mentok di 2 persen (Before). Setelah memakai perpustakaan prompt ini, sepuluh caption selesai dalam 30 menit dan engagement rate naik ke 8 persen (After). Yang berubah: saya tidak lagi menulis dari nol, tetapi mengisi kerangka prompt yang strukturnya sudah teruji (Bridge)."
 
 **4U (Urgent-Unique-Ultra-specific-Useful)**
 
-Kapan gunakan:
+Kapan dipakai:
 - Headline
-- Subject line email
+- Baris subjek email
 - Judul konten
 
 Struktur:
@@ -7484,7 +7484,7 @@ Struktur:
 4. Useful: Memberikan nilai yang jelas
 
 Contoh:
-"Download 300 Prompt Copywriting dalam 10 Menit dan Tingkatkan Conversion Rate 47% Hari Ini"
+"Unduh 300 Prompt Copywriting dalam 10 Menit dan Tingkatkan Conversion Rate 47% Hari Ini"
 - Urgent: "Hari Ini"
 - Unique: "300 Prompt Copywriting"
 - Ultra-specific: "10 Menit", "47%"
@@ -7492,9 +7492,9 @@ Contoh:
 
 **FAB (Features-Advantages-Benefits)**
 
-Kapan gunakan:
-- Product description
-- Sales pitch
+Kapan dipakai:
+- Deskripsi produk
+- Pitch penjualan
 - Presentasi produk
 
 Struktur:
@@ -7503,28 +7503,28 @@ Struktur:
 3. Benefits: Apa yang didapat pengguna
 
 Contoh:
-"Fitur: 300 prompt copywriting dalam format PDF dan Excel (Features). Keuntungan: Terorganisir dalam 6 bab berdasarkan kategori, mudah dinavigasi, dan bisa di-filter (Advantages). Manfaat: Anda bisa menemukan prompt yang tepat dalam 30 detik dan langsung membuat copy yang converting tanpa staring at blank screen (Benefits)."
+"Fitur: 300 prompt copywriting dalam format PDF dan Excel (Features). Keuntungan: Terorganisir dalam 6 bab berdasarkan kategori, mudah dinavigasi, dan bisa disaring (Advantages). Manfaat: Anda bisa menemukan prompt yang tepat dalam 30 detik dan langsung membuat copy yang menjual tanpa menatap layar kosong (Benefits)."
 
 **QUEST (Qualify-Understand-Educate-Stimulate-Transition)**
 
-Kapan gunakan:
+Kapan dipakai:
 - Sales page panjang
-- Webinar script
+- Naskah webinar
 - Video sales letter
 
 Struktur:
 1. Qualify: Identifikasi apakah audiens adalah target yang tepat
 2. Understand: Tunjukkan pemahaman atas masalah mereka
-3. Educate: Berikan informasi atau insight baru
-4. Stimulate: Bangun desire untuk solusi
+3. Educate: Berikan informasi atau wawasan baru
+4. Stimulate: Bangun keinginan untuk solusi
 5. Transition: Arahkan ke CTA
 
 **PASP (Problem-Agitate-Solution-Proof)**
 
-Kapan gunakan:
+Kapan dipakai:
 - Sales page
 - Landing page
-- Email sequence
+- Rangkaian email
 
 Struktur:
 1. Problem: Identifikasi masalah
@@ -7534,10 +7534,10 @@ Struktur:
 
 **STAR-Chain (Story-Teach-Apply-Results-Call to Action)**
 
-Kapan gunakan:
+Kapan dipakai:
 - Konten edukasi
-- Blog post
-- Email newsletter
+- Posting blog
+- Buletin email
 
 Struktur:
 1. Story: Ceritakan kisah yang relevan
@@ -7548,8 +7548,8 @@ Struktur:
 
 **4P (Picture-Promise-Prove-Push)**
 
-Kapan gunakan:
-- Sales copy
+Kapan dipakai:
+- Copy penjualan
 - Landing page
 - Email promosi
 
@@ -7561,7 +7561,7 @@ Struktur:
 
 **Slippery Slide**
 
-Kapan gunakan:
+Kapan dipakai:
 - Konten panjang
 - Artikel blog
 - Sales letter
@@ -7570,35 +7570,35 @@ Prinsip:
 Setiap kalimat harus membuat pembaca ingin membaca kalimat berikutnya. Gunakan:
 - Hook yang kuat di awal
 - Kalimat pendek untuk momentum
-- Transition yang smooth antar paragraf
+- Peralihan yang mulus antar paragraf
 - Open loop yang membuat penasaran
-- Cliffhanger di akhir section
+- Cliffhanger di akhir bagian
 
 **Inverted Pyramid**
 
-Kapan gunakan:
-- News writing
-- Press release
+Kapan dipakai:
+- Penulisan berita
+- Siaran pers
 - Konten yang butuh informasi penting di awal
 
 Struktur:
-1. Most important information di awal
-2. Supporting details di tengah
-3. Background information di akhir
+1. Informasi terpenting di awal
+2. Rincian pendukung di tengah
+3. Informasi latar di akhir
 
 Prinsip:
 Jika pembaca hanya membaca paragraf pertama, mereka sudah mendapat informasi paling penting.
 
-**Choosing the Right Framework:**
+**Memilih Framework yang Tepat:**
 
 Untuk memilih framework yang tepat, pertimbangkan:
-1. Tujuan konten (awareness, consideration, conversion)
-2. Target audiens (cold, warm, hot)
-3. Platform (social media, email, landing page)
-4. Length (short, medium, long)
-5. Tone (educational, promotional, storytelling)
+1. Tujuan konten (kesadaran, pertimbangan, pembelian)
+2. Suhu audiens (dingin, hangat, panas)
+3. Platform (media sosial, email, landing page)
+4. Panjang (singkat, sedang, panjang)
+5. Nada (edukatif, promosi, storytelling)
 
-Tidak ada framework yang sempurna untuk semua situasi. Experiment dengan berbagai framework dan track mana yang paling efektif untuk audiens Anda.
+Tidak ada framework yang sempurna untuk semua situasi. Uji berbagai framework dan catat mana yang paling efektif untuk audiens Anda.
 
 ---
 
@@ -7621,15 +7621,15 @@ Selamat, Anda telah menyelesaikan "300 Prompt AI untuk Copywriting dan Iklan Dig
 2. **Eksperimen:** Uji berbagai variasi dan catat hasilnya
 3. **Iterasi:** Perbaiki prompt berdasarkan hasil yang Anda dapatkan
 4. **Dokumentasi:** Catat prompt mana yang paling efektif untuk bisnis Anda
-5. **Scale:** Bangun library prompt Anda sendiri berdasarkan pola yang berhasil
+5. **Kembangkan:** Bangun perpustakaan prompt Anda sendiri berdasarkan pola yang berhasil
 
 **Prinsip utama:**
 
-Prompt adalah alat, bukan pengganti kreativitas. Gunakan prompt sebagai starting point, lalu tambahkan konteks spesifik bisnis Anda, brand voice Anda, dan insight Anda tentang audiens Anda. AI akan membantu Anda bekerja lebih cepat, tapi judgment dan creativity Anda yang akan membuat copy benar-benar outstanding.
+Prompt adalah alat, bukan pengganti kreativitas. Gunakan prompt sebagai titik awal, lalu tambahkan konteks spesifik bisnis Anda, gaya bahasa merek Anda, dan wawasan Anda tentang audiens Anda. AI membantu Anda bekerja lebih cepat, tetapi penilaian dan kreativitas Anda yang membuat copy benar-benar istimewa.
 
 **Terima kasih:**
 
-Terima kasih telah mempercayai buku ini sebagai panduan copywriting Anda. Saya berharap 300 prompt ini akan membantu Anda membuat konten yang lebih efektif, efisien, dan engaging.
+Terima kasih telah mempercayai buku ini sebagai panduan copywriting Anda. Saya berharap 300 prompt ini akan membantu Anda membuat konten yang lebih efektif, efisien, dan menarik.
 
 Sampai jumpa di konten berikutnya.
 

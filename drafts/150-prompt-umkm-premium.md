@@ -34,7 +34,7 @@ Struktur tiap entri:
 | Hasil yang diharapkan | Bentuk keluaran yang bisa Anda periksa |
 | Contoh output | Hasil nyata dari ChatGPT dan Gemini (hanya di edisi Premium) |
 
-Tiga aturan yang membuat library ini bekerja:
+Tiga aturan yang membuat perpustakaan ini bekerja:
 
 1. Jangan mengirim prompt dengan kurung kurawal yang masih utuh. Prompt seperti itu hanya akan menghasilkan jawaban generik.
 2. Ganti konteks setiap kali kondisi bisnis berubah. Harga, kota, dan skala omzet adalah bahan bakar utama jawaban AI.
@@ -66,10 +66,10 @@ Bagian I, Fondasi
 1. Kenapa prompt Anda menghasilkan jawaban yang terasa kosong
 2. Anatomi prompt lima komponen
 3. Memilih alat: ChatGPT, Claude, Gemini, dan Copilot untuk pekerjaan bisnis
-4. Variabel, aturan penamaan, dan cara menyimpan prompt di library internal
+4. Variabel, aturan penamaan, dan cara menyimpan prompt di perpustakaan internal
 5. Latihan fondasi
 
-Bagian II, Library Prompt per Kasus Bisnis
+Bagian II, Perpustakaan Prompt per Kasus Bisnis
 
 6. Riset pasar dan kompetitor (P-001 sampai P-015)
 7. Produk dan pengembangan (P-016 sampai P-030)
@@ -103,7 +103,7 @@ Struktur tiap entri:
 | Variabel | Data yang wajib Anda ganti sebelum mengirim |
 | Hasil yang diharapkan | Bentuk keluaran yang bisa Anda periksa |
 
-Tiga aturan yang membuat library ini bekerja:
+Tiga aturan yang membuat perpustakaan ini bekerja:
 
 1. Jangan mengirim prompt dengan kurung kurawal yang masih utuh. Prompt seperti itu hanya akan menghasilkan jawaban generik.
 2. Ganti konteks setiap kali kondisi bisnis berubah. Harga, kota, dan skala omzet adalah bahan bakar utama jawaban AI.
@@ -190,7 +190,7 @@ Aturan penamaan yang dipakai konsisten di seluruh buku dan di berkas Excel penda
 | {target} | Sasaran yang ingin dicapai | Naik 25 persen dalam 3 bulan |
 | {musim} | Momen yang sedang dihadapi | Ramadhan, tahun ajaran baru, 12.12 |
 
-Cara menyimpan supaya library ini bertambah kuat, bukan menumpuk.
+Cara menyimpan supaya perpustakaan ini bertambah kuat, bukan menumpuk.
 
 1. Salin prompt yang sudah Anda isi ke berkas Excel pendamping, bukan ke catatan chat. Chat akan hilang, berkas akan diwariskan.
 2. Isi kolom Tanggal Uji dan Alat setiap kali mencoba. Setelah tiga puluh baris, Anda akan melihat pola alat mana yang paling cocok untuk kasus Anda.
@@ -199,7 +199,7 @@ Cara menyimpan supaya library ini bertambah kuat, bukan menumpuk.
 
 ## 5. Latihan fondasi
 
-Kerjakan tiga latihan ini sebelum masuk ke library. Semuanya memakai data asli usaha Anda.
+Kerjakan tiga latihan ini sebelum masuk ke perpustakaan. Semuanya memakai data asli usaha Anda.
 
 Latihan 1, menulis konteks.
 
@@ -221,7 +221,7 @@ Gunakan matriks berikut untuk menilai cepat apakah sebuah prompt layak dikirim. 
 
 ![Diagram matriks kualitas prompt dengan empat kuadran](../assets/matriks-kualitas-prompt.png)
 
-Bagian II, Library Prompt per Kasus Bisnis
+Bagian II, Perpustakaan Prompt per Kasus Bisnis
 ## 6. Riset pasar dan kompetitor
 
 Bab ini untuk keputusan yang harus diambil sebelum keluar uang: masuk pasar mana, melawan siapa, dan dengan posisi apa. Semua prompt di sini mengasumsikan Anda punya data mentah dari lapangan, misalnya daftar harga kompetitor yang Anda catat manual dari halaman penjualannya, atau tangkapan ulasan yang Anda salin sendiri. AI bertugas menata dan menimbang, bukan mengarang data.
@@ -2939,10 +2939,10 @@ Empat lembar yang ada di dalamnya.
 
 | Lembar | Isi | Cara pakai |
 |---|---|---|
-| Library | 150 baris berisi kode, bab, judul, kapan pakai, isi prompt utuh, variabel, dan hasil yang diharapkan | Saring kolom bab untuk membuka satu kasus, lalu salin kolom isi prompt |
+| Perpustakaan | 150 baris berisi kode, bab, judul, kapan pakai, isi prompt utuh, variabel, dan hasil yang diharapkan | Saring kolom bab untuk membuka satu kasus, lalu salin kolom isi prompt |
 | Indeks Bab | Rekap jumlah prompt per bab beserta daftar kodenya | Pintasan untuk mencari cepat tanpa menggulir panjang |
 | Variabel | Daftar variabel baku beserta contoh isi | Isi sekali di lembar ini, lalu pakai sebagai acuan penamaan saat menulis prompt sendiri |
-| Pelacak | Kolom kosong untuk mencatat prompt yang sudah dipakai | Isi tanggal, alat, dan catatan hasil. Ini lembar yang membuat library Anda menajam |
+| Pelacak | Kolom kosong untuk mencatat prompt yang sudah dipakai | Isi tanggal, alat, dan catatan hasil. Ini lembar yang membuat perpustakaan Anda menajam |
 
 Tiga kebiasaan yang membuat berkas ini berguna.
 
@@ -2968,6 +2968,8 @@ Enam pemeriksaan sebelum menekan kirim.
 | Kebocoran | Apakah tidak ada nama, nomor telepon, atau alamat pelanggan |
 
 ## Lampiran C. Daftar variabel baku
+
+Tabel di bawah memakai contoh bisnis yang sama supaya terlihat cara mengisi setiap variabel. Variabel lain yang hanya muncul di satu atau dua prompt dijelaskan langsung di dalam promptnya.
 
 | Variabel | Arti | Contoh |
 |---|---|---|
@@ -3003,9 +3005,9 @@ Kalau satu butir gagal, jangan pakai teksnya. Minta ulang dengan prompt yang leb
 
 ## Catatan Penutup
 
-Library prompt bukan pengganti keputusan. Ia mempercepat pekerjaan yang sudah Anda pahami dan memperbesar kesalahan yang belum Anda pahami. Pemilik usaha yang paling diuntungkan dari buku ini adalah yang sudah punya angka: harga pokok, frekuensi beli, waktu tunggu pemasok, dan biaya per pesanan. Kalau angka-angka itu belum Anda punya, kerjakan bab 13 lebih dulu, lalu kembali ke bab lain.
+Perpustakaan prompt bukan pengganti keputusan. Ia mempercepat pekerjaan yang sudah Anda pahami dan memperbesar kesalahan yang belum Anda pahami. Pemilik usaha yang paling diuntungkan dari buku ini adalah yang sudah punya angka: harga pokok, frekuensi beli, waktu tunggu pemasok, dan biaya per pesanan. Kalau angka-angka itu belum Anda punya, kerjakan bab 13 lebih dulu, lalu kembali ke bab lain.
 
-Cara paling cepat memakai 150 prompt ini tanpa kewalahan: pilih satu bab sesuai masalah Anda minggu ini, jalankan tiga prompt dari bab itu, dan catat hasilnya di lembar Pelacak. Setelah satu bulan Anda akan punya sekitar dua belas prompt yang terbukti menghasilkan untuk usaha Anda sendiri. Itulah library yang sebenarnya, dan tidak ada yang bisa menyalinnya dari Anda.
+Cara paling cepat memakai 150 prompt ini tanpa kewalahan: pilih satu bab sesuai masalah Anda minggu ini, jalankan tiga prompt dari bab itu, dan catat hasilnya di lembar Pelacak. Setelah satu bulan Anda akan punya sekitar dua belas prompt yang terbukti menghasilkan untuk usaha Anda sendiri. Itulah perpustakaan yang sebenarnya, dan tidak ada yang bisa menyalinnya dari Anda.
 
 Edisi ini memuat 150 prompt bernomor dari P-001 sampai P-150, disusun Oktober 2026.
 
