@@ -97,6 +97,84 @@
       "pages": 56,
       "producedAt": "2026-10-22T17:19:26.180Z",
       "status": "produced"
+    },
+    {
+      "slug": "150-prompt-umkm-basic-basic",
+      "title": "150 Prompt AI untuk Bisnis dan UMKM Indonesia [BASIC]",
+      "tier": "basic",
+      "pricing": {
+        "normal": 49000,
+        "launch": 19000,
+        "flash": 10000
+      },
+      "outputs": [
+        {
+          "file": "products\\150-prompt-umkm-basic-basic.pdf",
+          "kind": "pdf",
+          "bytes": 1572614
+        },
+        {
+          "file": "products\\150-prompt-umkm-basic-basic-flyer.pdf",
+          "kind": "flyer",
+          "bytes": 1032320
+        }
+      ],
+      "wordCount": 25089,
+      "pages": 95,
+      "producedAt": "2026-10-22T17:36:31.821Z",
+      "status": "produced"
+    },
+    {
+      "slug": "150-prompt-umkm-premium-premium",
+      "title": "150 Prompt AI untuk Bisnis dan UMKM Indonesia [PREMIUM]",
+      "tier": "premium",
+      "pricing": {
+        "normal": 149000,
+        "launch": 69000,
+        "flash": 49000
+      },
+      "outputs": [
+        {
+          "file": "products\\150-prompt-umkm-premium-premium.pdf",
+          "kind": "pdf",
+          "bytes": 513650
+        },
+        {
+          "file": "products\\150-prompt-umkm-premium-premium-flyer.pdf",
+          "kind": "flyer",
+          "bytes": 1035247
+        }
+      ],
+      "wordCount": 3814,
+      "pages": 21,
+      "producedAt": "2026-10-22T17:36:49.334Z",
+      "status": "produced"
+    },
+    {
+      "slug": "150-prompt-umkm-ultimate-ultimate",
+      "title": "150 Prompt AI untuk Bisnis dan UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\150-prompt-umkm-ultimate-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 567008
+        },
+        {
+          "file": "products\\150-prompt-umkm-ultimate-ultimate-flyer.pdf",
+          "kind": "flyer",
+          "bytes": 1034970
+        }
+      ],
+      "wordCount": 4217,
+      "pages": 30,
+      "producedAt": "2026-10-22T17:39:44.528Z",
+      "status": "produced"
     }
   ]
 }
