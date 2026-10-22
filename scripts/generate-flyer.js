@@ -10,8 +10,8 @@ const path = require('path');
 const fs = require('fs');
 const logger = require('../src/utils/logger');
 
-const LOGO_PATH = path.join(ROOT_DIR(), '..', '..', 'LOGO', 'Logo snishop biru panjang.png');
-const QRIS_PATH = path.join(ROOT_DIR(), '..', '..', 'LOGO', 'QRIS SNISHOP.ID.jpeg');
+const LOGO_PATH = path.join(__dirname, '..', '..', '..', '..', '..', 'LOGO', 'Logo snishop biru panjang.png');
+const QRIS_PATH = path.join(__dirname, '..', '..', '..', '..', '..', 'LOGO', 'QRIS SNISHOP.ID.jpeg');
 
 function ROOT_DIR() {
   return path.join(__dirname, '..');

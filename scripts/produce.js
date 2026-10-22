@@ -36,10 +36,17 @@ const TIER_PRICING = {
 
 function parseArgs(argv) {
   const args = {};
-  for (let i = 0; i < argv.length; i += 2) {
+  for (let i = 0; i < argv.length; i++) {
     const key = argv[i];
-    if (!key || !key.startsWith('--')) break;
-    args[key.slice(2)] = argv[i + 1];
+    if (!key || !key.startsWith('--')) continue;
+    const argName = key.slice(2);
+    const nextArg = argv[i + 1];
+    if (nextArg && !nextArg.startsWith('--')) {
+      args[argName] = nextArg;
+      i++;
+    } else {
+      args[argName] = true;
+    }
   }
   return args;
 }
