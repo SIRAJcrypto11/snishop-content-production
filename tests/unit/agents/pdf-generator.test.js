@@ -10,8 +10,10 @@
 const mockPdf = jest.fn().mockResolvedValue(Buffer.from('fake-pdf-buffer'));
 const mockSetContent = jest.fn().mockResolvedValue(undefined);
 const mockClose = jest.fn().mockResolvedValue(undefined);
+const mockEvaluateHandle = jest.fn().mockResolvedValue({});
 const mockNewPage = jest.fn().mockResolvedValue({
   setContent: mockSetContent,
+  evaluateHandle: mockEvaluateHandle,
   pdf: mockPdf,
 });
 const mockLaunch = jest.fn().mockResolvedValue({
@@ -84,8 +86,25 @@ describe('PDFGenerator', () => {
 
       expect(mockSetContent).toHaveBeenCalledWith(
         expect.stringContaining('<h1>Title</h1>'),
-        expect.objectContaining({ waitUntil: 'networkidle0' })
+        expect.objectContaining({ waitUntil: 'domcontentloaded' })
       );
+    });
+
+    test('should wait for webfonts before printing', async () => {
+      await generator.generate({ title: 'Test', markdown: '# Hello' });
+
+      expect(mockEvaluateHandle).toHaveBeenCalledWith('document.fonts.ready');
+      expect(mockEvaluateHandle.mock.invocationCallOrder[0])
+        .toBeLessThan(mockPdf.mock.invocationCallOrder[0]);
+    });
+
+    test('should still print when the font CDN never resolves', async () => {
+      mockEvaluateHandle.mockImplementationOnce(() => new Promise(() => {}));
+
+      const result = await generator.generate({ title: 'Test', markdown: '# Hello' }, 50);
+
+      expect(Buffer.isBuffer(result)).toBe(true);
+      expect(mockPdf).toHaveBeenCalled();
     });
 
     test('should generate PDF with A4 format', async () => {

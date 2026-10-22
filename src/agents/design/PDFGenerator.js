@@ -13,9 +13,11 @@ class PDFGenerator {
    * @param {object} content
    * @param {string} content.title - Document title (used in header)
    * @param {string} content.markdown - Markdown body to render
+   * @param {number} [fontTimeoutMs] - How long to wait for webfonts before
+   *   printing with the system fallback
    * @returns {Promise<Buffer>} PDF buffer
    */
-  async generate(content) {
+  async generate(content, fontTimeoutMs = 5000) {
     if (!content || !content.markdown) {
       throw new Error('PDFGenerator.generate requires content with a markdown property');
     }
@@ -28,7 +30,8 @@ class PDFGenerator {
 
     const html = this.renderHTML(content, marked);
 
-    await page.setContent(html, { waitUntil: 'networkidle0' });
+    await page.setContent(html, { waitUntil: 'domcontentloaded' });
+    await this.waitForFonts(page, fontTimeoutMs);
 
     const pdfBuffer = await page.pdf({
       format: 'A4',
@@ -52,6 +55,30 @@ class PDFGenerator {
     });
 
     return pdfBuffer;
+  }
+
+  // ---------------------------------------------------------------------------
+  // Font Loading
+  // ---------------------------------------------------------------------------
+
+  /**
+   * Gives the brand webfont a chance to load without letting a slow or blocked
+   * font CDN stall production. Rendering falls back to the system stack.
+   *
+   * @param {import('puppeteer').Page} page
+   * @param {number} [timeoutMs]
+   */
+  async waitForFonts(page, timeoutMs = 5000) {
+    let timer;
+    const timeout = new Promise((resolve) => {
+      timer = setTimeout(resolve, timeoutMs);
+    });
+
+    try {
+      await Promise.race([page.evaluateHandle('document.fonts.ready'), timeout]);
+    } finally {
+      clearTimeout(timer);
+    }
   }
 
   // ---------------------------------------------------------------------------
@@ -85,7 +112,8 @@ class PDFGenerator {
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      font-family: 'Inter', sans-serif;
+      font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+      background: #ffffff;
       font-size: 12pt;
       line-height: 1.7;
       color: #1f2937;
@@ -157,9 +185,24 @@ class PDFGenerator {
 
     blockquote {
       border-left: 4px solid #1E40AF;
-      padding-left: 12pt;
-      color: #4b5563;
-      margin-bottom: 10pt;
+      background: #f5f7fb;
+      padding: 10pt 12pt;
+      color: #111827;
+      border-radius: 0 4pt 4pt 0;
+      margin-bottom: 12pt;
+      page-break-inside: avoid;
+    }
+
+    blockquote p { margin-bottom: 6pt; }
+    blockquote p:last-child { margin-bottom: 0; }
+    blockquote ul, blockquote ol { margin-bottom: 6pt; }
+
+    tr:nth-child(even) td { background: #f8fafc; }
+
+    hr {
+      border: none;
+      border-top: 1px solid #d1d5db;
+      margin: 18pt 0;
     }
 
     table {
