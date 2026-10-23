@@ -129,6 +129,35 @@ class PDFGenerator {
       color: #1f2937;
       text-align: justify;
       hyphens: auto;
+      position: relative;
+    }
+
+    /* Watermark overlay */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('file:///C:/Users/Siraj%20Nur%20Ihrom/Documents/SNISHOP.ID/PROJECT%20SNISHOP%202025/ERP%20SNISHOP%20DESEMBER%202025/SNISHOP%20ERP%20SYSTEM%20FINAL%20DESEMBER%202025/content-production-system/assets/snishop-logo.png');
+      background-repeat: repeat;
+      background-size: 150px;
+      background-position: center;
+      opacity: 0.03;
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    /* Copyright notice on first page */
+    .copyright-notice {
+      position: fixed;
+      bottom: 30mm;
+      right: 15mm;
+      font-size: 7pt;
+      color: #9ca3af;
+      text-align: right;
+      font-style: italic;
     }
 
     h1 {
@@ -333,6 +362,11 @@ class PDFGenerator {
 <body>
   <h1>${title}</h1>
   ${body}
+  <div class="copyright-notice">
+    Produk Digital Asli SNISHOP.COM<br/>
+    Dilarang Keras: Copy, Distribusi, Modifikasi<br/>
+    © 2026 Siraj Nur Ihrom - All Rights Reserved
+  </div>
 </body>
 </html>`;
   }
@@ -351,10 +385,13 @@ class PDFGenerator {
   getHeaderTemplate(content) {
     const title = content.title || 'SNISHOP Document';
     const tier = content.tier ? ` [${content.tier.toUpperCase()}]` : '';
-    return `<div style="font-family: 'Inter', sans-serif; font-size: 8pt; color: #9ca3af; width: 100%; padding: 0 15mm;">
+    return `<div style="font-family: 'Inter', sans-serif; font-size: 8pt; color: #9ca3af; width: 100%; padding: 0 15mm; position: relative;">
       <table style="width:100%; border:none;"><tr>
         <td style="border:none; padding:0; text-align:left;">${title}${tier}</td>
-        <td style="border:none; padding:0; text-align:right;">SNISHOP Digital Products</td>
+        <td style="border:none; padding:0; text-align:right; vertical-align: middle;">
+          <img src="file:///C:/Users/Siraj%20Nur%20Ihrom/Documents/SNISHOP.ID/PROJECT%20SNISHOP%202025/ERP%20SNISHOP%20DESEMBER%202025/SNISHOP%20ERP%20SYSTEM%20FINAL%20DESEMBER%202025/content-production-system/assets/snishop-logo.png" style="height: 20px; vertical-align: middle;" />
+          <span style="margin-left: 5px; font-weight: 600; color: #1E40AF;">SNISHOP.COM</span>
+        </td>
       </tr></table>
     </div>`;
   }
@@ -366,8 +403,16 @@ class PDFGenerator {
    * @returns {string} HTML template string
    */
   getFooterTemplate() {
-    return `<div style="font-family: 'Inter', sans-serif; font-size: 9pt; color: #6b7280; width: 100%; padding: 0 15mm; text-align: center;">
-      <span>Halaman <span class="pageNumber"></span> dari <span class="totalPages"></span></span>
+    return `<div style="font-family: 'Inter', sans-serif; font-size: 8pt; color: #6b7280; width: 100%; padding: 0 15mm; text-align: center; border-top: 1px solid #e5e7eb; padding-top: 5mm;">
+      <div style="margin-bottom: 3mm;">
+        <span style="color: #1E40AF; font-weight: 600;">© 2026 SNISHOP.COM</span> - Semua Hak Dilindungi | 
+        <span style="font-style: italic;">Dilarang menggandakan, mendistribusikan, atau memodifikasi tanpa izin tertulis</span>
+      </div>
+      <div>
+        <span>Halaman <span class="pageNumber"></span> dari <span class="totalPages"></span></span> | 
+        <span style="color: #1E40AF;">snishop.com</span> | 
+        <span>CEO: Siraj Nur Ihrom</span>
+      </div>
     </div>`;
   }
 }

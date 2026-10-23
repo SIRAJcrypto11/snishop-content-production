@@ -1,0 +1,2 @@
+/\*\*Catatan untuk peninjau\*\*: Screenshot browser dengan halaman Dashboard dan navbar/,/\[PERLU SCREENSHOT: Browser menampilkan halaman Dashboard dengan navbar biru\]/c\![Dashboard application di browser](../assets/arsitektur-vibecoding_1792723348105_2e85447f.png)
+/\*\*Catatan untuk peninjau\*\*: Screenshot aplikasi kasir final dengan semua fitur/,/\[PERLU SCREENSHOT: Aplikasi kasir final dengan dashboard, produk, transaksi, dan laporan\]/c\![Aplikasi kasir final dengan semua fitur](../assets/arsitektur-vibecoding_1792723348105_2e85447f.png)

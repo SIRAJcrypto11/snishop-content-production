@@ -1,338 +1,141 @@
 # SNISHOP Content Production System
 
-AI-agent-powered digital content production factory. Mass-produces premium digital products (PDF, Excel, flyers) from Markdown manuscripts with multi-tier pricing.
+Sistem produksi konten digital berbahasa Indonesia dari naskah Markdown menjadi PDF, workbook Excel, dan flyer opsional. Fokusnya panduan, modul, referensi prompt, serta templat untuk pembaca dan pelaku usaha Indonesia.
 
-**Author:** Siraj Nur Ihrom (Founder & Lead Developer, SNISHOP)
-**License:** Proprietary - SNISHOP Digital Products
-**Status:** Production Ready
+**Penanggung jawab:** Siraj Nur Ihrom, Founder & Lead Developer SNISHOP.
+**Repositori:** `SIRAJcrypto11/snishop-content-production`.
+**Status:** Pipeline tersedia; sertifikasi produk terhadap SNISHOP-PUBLISHING v2.0 belum selesai.
 
----
+## Acuan dan urutan baca
 
-## Quick Start
+Setelah README ini, baca:
+
+1. [AGENTS.md](AGENTS.md) untuk petunjuk kerja dan batas penugasan.
+2. [Standar kanonis SNISHOP-PUBLISHING v2.0](docs/specs/2026-10-22-multi-tier-content-production-design.md) untuk mutu dan keputusan kelulusan.
+3. Brief produk yang disetujui untuk pembaca, profil, cakupan, keluaran, dan harga.
+4. [Rencana implementasi aktif](docs/plans/2026-10-22-digital-content-production-system.md) untuk urutan pekerjaan, dependensi, dan status.
+5. [Skill produksi konten](.qoder/skills/snishop-content-production/SKILL.md) untuk prosedur pelaksanaan.
+
+Urutan baca bukan urutan otoritas: instruksi runtime dan izin pengguna tetap berlaku, lalu standar v2.0, brief, dan rencana. README, AGENTS, serta skill adalah petunjuk masuk; konflik dengan standar harus dicatat, bukan diabaikan.
+Semua acuan berupa berkas repositori. Runtime selain Qoder dapat membacanya langsung; tidak diperlukan memori percakapan atau pemasangan skill untuk mengetahui aturan.
+
+## Kemampuan dan batas saat ini
+
+Runner lokal menerima naskah, melakukan lint, merender PDF, membentuk Excel jika diminta, membuat flyer opsional, lalu memperbarui manifest.
+Komponen screenshot, anotasi, diagram, orkestrasi, API, dan distribusi juga tersedia sebagai fondasi, bukan bukti alur menyeluruh sudah bekerja.
+Integrasi publikasi dan pemasaran masih membutuhkan validasi nyata yang diotorisasi. Keberadaan konektor tidak membuktikan checkout, hak akses, pengiriman, atau unggahan telah berhasil.
+
+## Peta repositori
+
+- `scripts/produce.js`: runner produksi dan pencatatan hasil.
+- `scripts/generate-flyer.js`, `scripts/build-companion.js`, `scripts/draw-diagrams.js`: alat pendukung.
+- `src/agents/`: komponen konten, desain, orkestrasi, dan pemasaran.
+- `src/screenshot/`, `src/distribution/`, `src/api/`: fondasi pengambilan bukti dan integrasi.
+- `drafts/`: naskah lengkap, bagian naskah dalam `parts/`, serta spesifikasi `*.xlsx.json`.
+- `products/`: artefak, aset, dan registri lama `manifest.json`.
+- `tests/`: pengujian perangkat lunak; `docs/specs/` dan `docs/plans/`: standar dan rencana.
+
+## Katalog lama dan tier
+
+Tiga keluarga tema berikut beserta varian Basic, Premium, dan Ultimate adalah artefak legacy yang menunggu sertifikasi v2.0:
+
+| Keluarga tema lama | Status |
+|---|---|
+| 150 Prompt AI untuk Bisnis dan UMKM Indonesia | Perlu audit sumber, bukti, dan keluaran |
+| 300 Prompt AI untuk Copywriting dan Iklan Digital | Perlu audit sumber, bukti, dan keluaran |
+| 200 Template Social Media | Perlu audit sumber, bukti, dan keluaran |
+
+Angka pada judul adalah identitas katalog lama, bukan jumlah yang sudah diverifikasi. Berkas yang ada tidak membuktikan hasil baru, bukti terkini, atau keluaran AI yang benar-benar dieksekusi.
+Pada v2.0, tier membedakan keluasan dan kedalaman, bukan mutu minimum. Screenshot mengikuti kebutuhan materi layar, termasuk Basic. Excel, video, QR, bonus, dan jumlah prompt tidak otomatis dijanjikan oleh nama tier.
+
+## Menyiapkan dan menjalankan produksi lokal
+
+Gunakan Node.js dan npm yang kompatibel dengan dependensi `package.json`; kode menggunakan CommonJS. Rendering PDF membutuhkan lingkungan Puppeteer/browser yang berfungsi.
+Semua perintah berikut dijalankan dari akar repositori ini, yaitu folder yang memuat `package.json`, tanpa asumsi bahwa repositori berada di dalam ERP.
 
 ```bash
-# Install dependencies
+# Instal dependensi hanya saat akses jaringan dan perubahan lokal diizinkan
 npm install
-
-# Produce a basic tier product (prompts only)
-node scripts/produce.js --manuscript drafts/my-product.md --tier basic --slug my-product
-
-# Produce a premium tier product (prompts + outputs + Excel)
-node scripts/produce.js --manuscript drafts/my-product.md --data drafts/my-product.xlsx.json --tier premium --slug my-product
-
-# Produce with marketing flyer
-node scripts/produce.js --manuscript drafts/my-product.md --tier premium --slug my-product --flyer
-
-# Run all tests
-npm test
 ```
 
----
-
-## What This System Does
-
-This is a **content production factory** that turns Markdown manuscripts into sellable digital products. Each product theme generates 3 tier variants:
-
-| Tier | Price (Launch) | Contents |
-|------|---------------|----------|
-| **Basic** | Rp 19.000 | Prompts only, glossary, quick reference |
-| **Premium** | Rp 69.000 | Prompts + real AI outputs + Excel workbook + usage guides |
-| **Ultimate** | Rp 149.000 | All Premium + AI chat screenshots + automation guides + video QR codes |
-
-Each tier also gets a 2-page marketing flyer PDF with SNISHOP branding, pricing, CTA, and QRIS payment code.
-
----
-
-## Architecture
-
-```
-content-production-system/
-├── scripts/
-│   ├── produce.js          # Main production runner (multi-tier)
-│   ├── generate-flyer.js   # Flyer PDF generator
-│   ├── build-companion.js  # Excel workbook builder
-│   ├── draw-diagrams.js    # Diagram/image generator
-│   ├── seed-topics.js      # Topic seed data
-│   ├── setup.js            # Initial setup script
-│   └── start-agents.js     # Agent orchestrator launcher
-│
-├── src/
-│   ├── agents/
-│   │   ├── orchestrator/   # OrchestratorAgent.js - coordinates all agents
-│   │   ├── content/        # AITechContentAgent, BusinessContentAgent, SNISHOPContentAgent
-│   │   ├── design/         # PDFGenerator.js, ExcelGenerator.js
-│   │   └── marketing/      # MarketingAgent, TikTokPublisher, InstagramPublisher, EmailPublisher, SEOOptimizer
-│   ├── api/                # REST API routes and middleware
-│   ├── config/             # Database, Redis, Queue, Storage config
-│   ├── database/           # Migrations and schema
-│   ├── distribution/       # DistributionManager, SNISHOPAppAPI, LynkAPI, PricingEngine
-│   ├── screenshot/         # ScreenshotCapture, AnnotationEngine
-│   └── utils/              # Logger, helpers, metrics
-│
-├── drafts/                 # Markdown manuscripts (source of truth)
-│   ├── parts/              # Manuscript parts (assembled before production)
-│   └── *.xlsx.json         # Companion workbook specs
-│
-├── products/               # Generated output files
-│   ├── manifest.json       # Product registry (auto-updated)
-│   ├── *-basic.pdf         # Basic tier PDFs
-│   ├── *-premium.pdf       # Premium tier PDFs
-│   ├── *-premium.xlsx      # Premium tier workbooks
-│   ├── *-ultimate.pdf      # Ultimate tier PDFs
-│   ├── *-ultimate.xlsx     # Ultimate tier workbooks
-│   ├── *-flyer.pdf         # Marketing flyers
-│   └── assets/             # Screenshots, diagrams, mockups
-│
-├── tests/                  # Jest test suites (351 tests)
-├── docs/
-│   ── specs/              # Design specifications
-└── package.json
-```
-
----
-
-## Production Pipeline
-
-### Step 1: Write Manuscript
-
-Create a Markdown file in `drafts/` with your content. The manuscript must pass the lint gate:
-
-```markdown
-# 300 Prompt AI untuk Copywriting dan Iklan Digital
-
-## Pendahuluan
-[Your introduction here]
-
-## Bagian 1: Copywriting Dasar (P-001 hingga P-050)
-
-### P-001: Buat Tagline Brand
-
-**Prompt:**
-Buatkan 5 tagline untuk [NAMA_BRAND] dengan tone [TONE] yang menyoroti [KEUNGGULAN].
-
-**Variabel:**
-- NAMA_BRAND: nama brand atau produk
-- TONE: gaya bahasa (friendly, formal, playful, dll)
-- KEUNGGULAN: fitur utama yang ingin disoroti
-
-**Output (ChatGPT GPT-4):**
-1. "Seteguk Cerita Indonesia"
-2. "Dari Kebun Lokal, Untuk Dunia"
-...
-
-**Output (Gemini Pro):**
-1. "Nusantara dalam Setiap Tegukan"
-2. "Kopi Lokal, Rasa Global"
-...
-
-**Tips Penggunaan:**
-- ChatGPT: Lebih baik untuk variasi kreatif
-- Gemini: Lebih baik untuk deskriptif dan informatif
-```
-
-### Step 2: Lint Check
-
-The production runner automatically checks for:
-- No em-dash (—) or spaced en-dash ( – )
-- No stray asterisks (except **bold**)
-- No emoji glyphs
-- No AI filler phrases ("dalam era digital yang...", "penting untuk dicatat bahwa...")
-- No placeholder text ("TBD", "TODO", "lorem ipsum")
-
-### Step 3: Produce
+Contoh berikut memakai berkas input yang tersedia. Ini contoh pemanggilan runner, bukan instruksi untuk merilis ulang katalog lama.
+Slug `contoh-uji-150` sengaja berbeda dari slug produk lama. Pilih slug contoh baru jika sudah pernah dipakai agar tidak menimpa hasil uji sebelumnya.
+Perintah menulis ke `products/` dan mengubah `products/manifest.json`; jalankan hanya dengan izin untuk kedua cakupan tersebut.
 
 ```bash
-# Basic tier
-node scripts/produce.js --manuscript drafts/my-product.md --tier basic --slug my-product
+# Basic: naskah yang sesuai tier
+node scripts/produce.js --manuscript drafts/150-prompt-ai-untuk-bisnis-dan-umkm-indonesia.md --tier basic --slug contoh-uji-150
 
-# Premium tier (with Excel workbook)
-node scripts/produce.js --manuscript drafts/my-product.md --data drafts/my-product.xlsx.json --tier premium --slug my-product
+# Premium: sertakan spesifikasi workbook
+node scripts/produce.js --manuscript drafts/150-prompt-umkm-premium.md --data drafts/150-prompt-ai-untuk-bisnis-dan-umkm-indonesia.xlsx.json --tier premium --slug contoh-uji-150
 
-# With flyer
-node scripts/produce.js --manuscript drafts/my-product.md --tier premium --slug my-product --flyer
+# Ultimate: flyer hanya ditambahkan bila diminta
+node scripts/produce.js --manuscript drafts/150-prompt-umkm-ultimate.md --data drafts/150-prompt-ai-untuk-bisnis-dan-umkm-indonesia.xlsx.json --tier ultimate --slug contoh-uji-150 --flyer
 ```
 
-### Step 4: Output
+Runner tidak mengubah naskah menjadi materi tier lain dan tidak menjalankan prompt AI untuk menghasilkan bukti.
+- `--manuscript` wajib; pilih naskah lengkap yang memang sesuai paket.
+- `--tier` menerima `basic`, `premium`, atau `ultimate`; nilai bawaan adalah `basic`.
+- `--data` opsional; Excel hanya dibuat jika data diberikan pada Premium atau Ultimate.
+- `--flyer` opsional, bukan keluaran otomatis setiap tier. Harga bawaan runner bukan persetujuan harga rilis.
+- `--slug` tidak menyertakan tier karena runner menambahkan `-${tier}` sendiri; gunakan slug pendek.
 
-Generated files appear in `products/`:
-- `my-product-basic.pdf` - Basic tier product
-- `my-product-premium.pdf` - Premium tier product
-- `my-product-premium.xlsx` - Companion workbook
-- `my-product-premium-flyer.pdf` - Marketing flyer
-- `manifest.json` - Updated product registry
+Pola hasil: `products/<slug>-<tier>.pdf`, `.xlsx` bila diminta, dan `<slug>-<tier>-flyer.pdf` bila diminta. Entri manifest dengan slug yang sama akan diganti.
+Penulisan bertahap dapat meninggalkan sebagian berkas jika proses gagal. Status manifest `produced` hanya mencatat produksi, bukan kelulusan atau publikasi.
 
----
+Batas penting runner lama: manifest yang gagal diparse dianggap registri kosong, sehingga produksi berikutnya dapat menimpa daftar produk lain. Sebelum produksi, validasi JSON manifest yang sudah ada dan simpan salinan aman. Jika rusak, hentikan produksi serta pulihkan melalui pemeriksaan sumber; jangan sengaja membuat registri kosong. Perbaikan kode berada pada paket B, belum diterapkan oleh pembaruan dokumentasi ini.
 
-## Multi-Tier Strategy
+## Pemeriksaan otomatis yang sudah ada
 
-### Content Differentiation
+1. Validasi keberadaan naskah, nilai tier, serta lint beberapa pola gaya, emoji, tanda bintang, dan teks pengisi.
+2. Pemeriksaan panjang path PDF, penyisipan aset gambar lokal, dan rendering PDF.
+3. Pembacaan JSON serta pembuatan workbook untuk tier yang sesuai; flyer mengikuti flag.
+4. Pencatatan ukuran berkas, jumlah halaman, waktu produksi, dan keluaran pada manifest.
 
-| Feature | Basic | Premium | Ultimate |
-|---------|-------|---------|----------|
-| Number of prompts | 300 | 300 | 300 |
-| Real AI outputs | - | 300 | 300 |
-| AI chat screenshots | - | - | 30-50 |
-| Usage guides per AI | - | Yes | Detailed |
-| Automation workflows | - | - | Yes |
-| Excel workbook | - | 4 sheets | Enhanced |
-| Video tutorial QR | - | - | Yes |
-| Bonus templates | - | - | Yes |
+Pemeriksaan ini terbatas. Lint bukan pemeriksaan fakta, autentisitas screenshot, kelengkapan isi, atau kesegaran bukti. Runner belum menegakkan seluruh gerbang v2.0 maupun kontrak serah-terima secara otomatis.
 
-### Pricing Strategy
+## Standar v2.0 aktif, pemeriksaan manual wajib
 
-| Tier | Normal | Launch (60-65% off) | Flash Sale (80% off) |
-|------|--------|---------------------|---------------------|
-| Basic | Rp 49.000 | Rp 19.000 | Rp 10.000 |
-| Premium | Rp 149.000 | Rp 69.000 | Rp 49.000 |
-| Ultimate | Rp 299.000 | Rp 149.000 | Rp 99.000 |
-| Bundle All | - | - | Rp 199.000 |
+Tetapkan brief dan profil `tutorial`, `module`, `reference`, atau `hybrid` sebelum menulis. Rentang halaman adalah panduan perencanaan, bukan alasan menambah pengisi.
+Gunakan bahasa Indonesia alami, tanpa em dash, emoji dekoratif, atau klaim tanpa bukti; pertahankan sintaks kode dan identifier teknis.
+Bedakan `executed`, `edited-execution`, dan `illustrative`. Simpan keluaran mentah, konteks eksekusi, sumber aset, hak penggunaan, serta catatan penyuntingan yang relevan.
+Screenshot harus berasal dari aplikasi nyata dengan data yang diizinkan; simpan asli, anotasi terpisah, metadata, dan hash aktual. Jangan merekayasa layar atau hasil.
+PDF memerlukan cover khusus, tema terang, profil awal Times New Roman 11,5-12 pt, navigasi, serta peninjauan detail setiap halaman. Font alternatif harus disetujui dan diperiksa ulang.
+Workbook harus dibuka, dihitung ulang bila berisi rumus, disimpan, dan dibaca kembali pada aplikasi yang disebutkan. Library XLSX saja tidak membuktikan perhitungan berhasil.
+Gunakan path aset relatif repositori atau naskah, bukan lokasi Windows atau folder induk tertentu. Aset/font yang belum tersedia atau belum berizin adalah hambatan; jangan mengasumsikan render sepenuhnya offline.
 
-### Distribution Channels
+Peninjau mencatat bukti untuk delapan gerbang berikut sesuai standar kanonis:
 
-- **Primary:** app.snishop.com (0% commission, 100% revenue)
-- **Secondary:** lynk.id (5% commission)
-- **Tertiary:** Tokopedia Digital, Shopee Digital (2% each)
+| Gerbang | Fokus pemeriksaan |
+|---|---|
+| `SCOPE-01` | Cakupan, ID, jumlah, dan keluaran sesuai brief |
+| `EDITORIAL-01` | Bahasa, kedalaman, definisi, dan konsistensi |
+| `TECH-01` | Eksekusi tutorial, prompt, kode, atau rumus sesuai klaim |
+| `EVIDENCE-01` | Asal bukti, data, screenshot, dan hak penggunaan |
+| `VISUAL-01` | Seluruh halaman atau layar terbaca dan lengkap |
+| `FILES-01` | Berkas, navigasi, tautan, serta fungsi dapat digunakan |
+| `FRESHNESS-01` | Hash dan bukti cocok dengan inventaris terkini |
+| `COMMERCIAL-01` | Klaim, harga, bonus, dan batasan sesuai paket nyata |
 
----
+Setiap gerbang berstatus `PASS`, `FAIL`, atau `BLOCKED`; bukti yang belum tersedia tidak boleh dianggap lulus.
+`READY` memerlukan delapan PASS, bukti lengkap, tidak ada cacat wajib terbuka, dan persetujuan peninjau independen atas inventaris terbaru. Perubahan sumber, aset, bukti, atau keluaran membatalkan persetujuan lama.
+`READY` bukan izin mengunggah. `RELEASED` membutuhkan otorisasi publikasi dan bukti pengiriman/akses untuk versi yang sama.
 
-## Quality Standards
-
-### Anti-AI-Slop Rules
-
-All content must pass these checks before production:
-
-1. **No em-dash** (—) or spaced en-dash ( – )
-2. **No asterisk markers** outside code blocks (except **bold**)
-3. **No emoji** glyphs unless contextually appropriate
-4. **No filler phrases:**
-   - "dalam era digital yang..."
-   - "penting untuk dicatat bahwa..."
-   - "kesimpulannya..."
-   - "di dunia yang semakin cepat..."
-   - "seiring berkembangnya teknologi..."
-   - "tidak dapat dipungkiri bahwa..."
-5. **No placeholder text** ("TBD", "TODO", "lorem ipsum", "placeholder")
-6. **No generic stock photo** references
-7. **No repetitive sentence structures** (3+ similar patterns)
-8. **No AI voice markers** (overly formal, robotic transitions)
-
-### Formatting Standards
-
-- **Font:** Inter (primary), system-ui (fallback)
-- **Body:** 11pt, 1.6 line height, justified alignment
-- **Headings:** H1 24pt bold primary (#1E40AF), H2 18pt, H3 14pt, H4 12pt secondary (#7C3AED)
-- **Spacing:** 12pt after paragraphs, 24pt before major headings
-- **Margins:** 20mm top/bottom, 18mm left/right
-- **Page numbering:** "Halaman X dari Y", bottom center, 8pt gray
-- **Headers:** Product title + tier badge, 8pt gray
-
-### Visual Standards
-
-- **Screenshots:** Min 1920x1080, PNG lossless, annotated with arrows/highlights
-- **Diagrams:** Clean, minimal, SNISHOP brand colors, SVG preferred
-- **Mockups:** Real renders, consistent style, no AI-generated generic
-- **Logo:** SNISHOP blue horizontal version in header + footer
-- **QRIS:** SNISHOP.ID QR code in "Dukung Tim" section
-
----
-
-## Brand Assets
-
-- **Logo:** `../../LOGO/Logo snishop biru panjang.png`
-- **QRIS:** `../../LOGO/QRIS SNISHOP.ID.jpeg`
-- **Brand Colors:**
-  - Primary: #1E40AF (blue)
-  - Secondary: #7C3AED (purple)
-  - Accent: #10B981 (green)
-- **Payment:** QRIS SNISHOP.ID, NMID: ID1024346809782
-
----
-
-## For AI Agents Continuing This Work
-
-### Context
-
-This system was built by Siraj Nur Ihrom, founder of SNISHOP. The goal is to mass-produce premium digital products (prompt libraries, guides, templates) for the Indonesian market. Products are sold via app.snishop.com and lynk.id.
-
-### Key Decisions Made
-
-1. **Multi-tier pricing** (Basic/Premium/Ultimate) to capture different customer segments
-2. **Separate PDF files per tier** (not one PDF with sections) for clear product differentiation
-3. **Real AI outputs** (not placeholders) for Premium and Ultimate tiers
-4. **Screenshot evidence** for Ultimate tier to prove prompts work
-5. **Flat file structure** to avoid Windows MAX_PATH issues
-6. **Anti-AI-slop lint** to maintain human-crafted quality standard
-7. **SNISHOP branding** on all products with QRIS for voluntary tips
-
-### Current Products
-
-1. **150 Prompt AI untuk Bisnis dan UMKM Indonesia** (basic tier produced)
-2. **300 Prompt AI untuk Copywriting dan Iklan Digital** (basic tier produced)
-
-### Next Steps
-
-1. Generate Premium tier outputs for Product 2 (run each prompt in ChatGPT + Gemini)
-2. Capture screenshots for Ultimate tier (30-50 representative prompts)
-3. Write automation guides (Make.com, Zapier, n8n workflows)
-4. Generate flyers for all tiers
-5. Upload to app.snishop.com and lynk.id
-6. Launch marketing campaign
-
-### Testing
+## Pengujian
 
 ```bash
-# Run all tests (351 tests across 18 suites)
 npm test
-
-# Run specific test file
+npm test -- --runInBand
 npm test -- tests/unit/storage.test.js
-
-# Run with coverage
 npm test -- --coverage
 ```
 
-### Git Workflow
+Laporkan hasil dan cakupan dari eksekusi aktual, tanpa jumlah tes tetap. Kelulusan Jest atau lint bukan sertifikasi produk.
+Tes dokumentasi/tata kelola hanya memeriksa aturan dan petunjuk; bukan bukti bahwa PDF, Excel, screenshot, atau integrasi publikasi telah lulus v2.0.
 
-- Repository: `SIRAJcrypto11/snishop-erp-system` (main ERP repo)
-- This system lives in: `content-production-system/` subdirectory
-- Always commit and push after completing work
-- Use conventional commits: `feat:`, `fix:`, `docs:`, `test:`, `refactor:`
+## Rilis dan kelanjutan pekerjaan
 
-### Environment
-
-- Node.js 24.18.0 (CommonJS modules)
-- Windows 10/11 (watch for MAX_PATH issues)
-- Git Bash for shell commands
-- Puppeteer 25.15 for PDF rendering
-- No external APIs required for production (offline-capable)
-
----
-
-## Revenue Projection
-
-### Month 1 (per product family, conservative)
-
-| Tier | Units | Price | Revenue |
-|------|-------|-------|---------|
-| Basic | 200 | Rp 19.000 | Rp 3.800.000 |
-| Premium | 80 | Rp 69.000 | Rp 5.520.000 |
-| Ultimate | 30 | Rp 149.000 | Rp 4.470.000 |
-| **Total** | | | **Rp 13.790.000** |
-
-### At Scale (5 product families active)
-
-**Monthly recurring: ~Rp 34.000.000+**
-
----
-
-## Support
-
-For questions or issues, contact Siraj Nur Ihrom via:
-- Website: snishop.com
-- ERP: erp.snishop.com
-- App: app.snishop.com
-- QRIS: SNISHOP.ID (NMID: ID1024346809782)
-
----
-
-*Built with care by Siraj Nur Ihrom. SNISHOP - Solusi Pembayaran dan Produk Digital.*
+Ikuti rencana aktif: perkuat penegakan otomatis, buat produk percontohan, audit artefak lama, lalu tingkatkan kapasitas berdasarkan hasil terukur. Dokumentasi baru tidak menandakan tahap implementasi selesai.
+Prioritas kanal adalah app.snishop.com dan lynk.id, setelah kemampuan serta akses diuji. Tarif komisi, pendapatan, peringkat SEO, dan penjualan tidak dijamin.
+Materi pemasaran hanya boleh menjanjikan isi, harga, bonus, tautan, dan layanan yang benar-benar tersedia serta disetujui. QRIS sukarela bukan integrasi checkout otomatis.
+Izin rilis terpisah dari izin commit, push, upload, pesan eksternal, eksekusi berbayar, dan perubahan produksi. Jangan melakukan tindakan tersebut otomatis setelah pekerjaan selesai.

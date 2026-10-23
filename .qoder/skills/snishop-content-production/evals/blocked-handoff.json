@@ -1,0 +1,123 @@
+{
+  "status": "BLOCKED",
+  "schemaVersion": 1,
+  "standard": {
+    "id": "SNISHOP-PUBLISHING",
+    "version": "2.0",
+    "sha256": null
+  },
+  "productId": "eval-manual-001",
+  "profile": "reference",
+  "tier": "basic",
+  "taskId": "eval-handoff",
+  "owner": "eval-author",
+  "nextOwner": "eval-reviewer",
+  "allowedWrites": [],
+  "requiredOutputs": [],
+  "sourceRevision": null,
+  "fingerprints": {
+    "sources": [],
+    "assets": [],
+    "outputs": [],
+    "evidence": []
+  },
+  "checks": [
+    {
+      "id": "SCOPE-01",
+      "status": "BLOCKED",
+      "evidenceRefs": [],
+      "reviewer": null,
+      "reviewedAt": null,
+      "subchecks": []
+    },
+    {
+      "id": "EDITORIAL-01",
+      "status": "BLOCKED",
+      "evidenceRefs": [],
+      "reviewer": null,
+      "reviewedAt": null,
+      "subchecks": []
+    },
+    {
+      "id": "TECH-01",
+      "status": "BLOCKED",
+      "evidenceRefs": [],
+      "reviewer": null,
+      "reviewedAt": null,
+      "subchecks": []
+    },
+    {
+      "id": "EVIDENCE-01",
+      "status": "BLOCKED",
+      "evidenceRefs": [],
+      "reviewer": null,
+      "reviewedAt": null,
+      "subchecks": []
+    },
+    {
+      "id": "VISUAL-01",
+      "status": "BLOCKED",
+      "evidenceRefs": [],
+      "reviewer": null,
+      "reviewedAt": null,
+      "subchecks": []
+    },
+    {
+      "id": "FILES-01",
+      "status": "BLOCKED",
+      "evidenceRefs": [],
+      "reviewer": null,
+      "reviewedAt": null,
+      "subchecks": []
+    },
+    {
+      "id": "FRESHNESS-01",
+      "status": "BLOCKED",
+      "evidenceRefs": [],
+      "reviewer": null,
+      "reviewedAt": null,
+      "subchecks": []
+    },
+    {
+      "id": "COMMERCIAL-01",
+      "status": "BLOCKED",
+      "evidenceRefs": [],
+      "reviewer": null,
+      "reviewedAt": null,
+      "subchecks": []
+    }
+  ],
+  "openFindings": [
+    {
+      "id": "EVAL-EVIDENCE-01",
+      "severity": "high",
+      "blocking": true,
+      "description": "Evaluation fixture only, never product evidence. This handoff describes a read-only evaluation, so allowedWrites and requiredOutputs are empty; the separately authorized fixture is not a product output or inventory entry. No product files, brief, assets, outputs, execution records, visual or functional inspection evidence, or commercial substantiation have been obtained or inspected. All eight mandatory gates remain BLOCKED; the reference profile and basic tier do not waive any gate.",
+      "owner": "eval-author"
+    },
+    {
+      "id": "EVAL-FRESHNESS-01",
+      "severity": "high",
+      "blocking": true,
+      "description": "The source revision is unknown. No actual standard, product, evidence, or inventory hashes have been obtained or calculated. standard.sha256, sourceRevision, and approval.inventorySha256 remain null, and all fingerprint inventories are empty. Freshness and inventory completeness cannot be established.",
+      "owner": "eval-author"
+    },
+    {
+      "id": "EVAL-REVIEW-01",
+      "severity": "high",
+      "blocking": true,
+      "description": "eval-author and eval-reviewer are explicitly simulated role labels supplied for this evaluation, not actual review identities or proof of independent review. No independent review or inventory approval has occurred; reviewer identities and review or approval times remain null. No publishing permission, authorization reference, or approved channels have been obtained. The simulated handoff to eval-reviewer grants no review approval or publication authority.",
+      "owner": "eval-reviewer"
+    }
+  ],
+  "approval": {
+    "reviewer": null,
+    "approvedAt": null,
+    "inventorySha256": null
+  },
+  "publication": {
+    "authorized": false,
+    "authorizationRef": null,
+    "channels": []
+  }
+}
