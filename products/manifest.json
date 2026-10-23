@@ -1719,6 +1719,32 @@
       "pages": 136,
       "producedAt": "2026-10-23T19:46:44.013Z",
       "status": "produced"
+    },
+    {
+      "slug": "inventory-management-umkm-ultimate",
+      "title": "Panduan Lengkap Inventory Management untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\inventory-management-umkm-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 21982393
+        },
+        {
+          "file": "products\\inventory-management-umkm-ultimate.docx",
+          "kind": "docx",
+          "bytes": 79864
+        }
+      ],
+      "wordCount": 20418,
+      "pages": 103,
+      "producedAt": "2026-10-23T20:17:05.634Z",
+      "status": "produced"
     }
   ]
 }
