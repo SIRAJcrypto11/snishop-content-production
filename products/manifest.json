@@ -1537,6 +1537,58 @@
       "pages": 77,
       "producedAt": "2026-10-23T18:11:00.702Z",
       "status": "produced"
+    },
+    {
+      "slug": "digital-marketing-analytics-umkm-ultimate",
+      "title": "Panduan Lengkap Digital Marketing Analytics untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\digital-marketing-analytics-umkm-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 20671390
+        },
+        {
+          "file": "products\\digital-marketing-analytics-umkm-ultimate.docx",
+          "kind": "docx",
+          "bytes": 67813
+        }
+      ],
+      "wordCount": 20414,
+      "pages": 77,
+      "producedAt": "2026-10-23T18:22:30.145Z",
+      "status": "produced"
+    },
+    {
+      "slug": "ecommerce-optimization-umkm-ultimate",
+      "title": "Panduan Lengkap E-commerce Optimization untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\ecommerce-optimization-umkm-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 14286711
+        },
+        {
+          "file": "products\\ecommerce-optimization-umkm-ultimate.docx",
+          "kind": "docx",
+          "bytes": 70803
+        }
+      ],
+      "wordCount": 16553,
+      "pages": 74,
+      "producedAt": "2026-10-23T18:45:35.350Z",
+      "status": "produced"
     }
   ]
 }
