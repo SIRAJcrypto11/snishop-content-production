@@ -1291,17 +1291,95 @@
         {
           "file": "products\\panduan-email-automation-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 19787115
+          "bytes": 19915953
         },
         {
           "file": "products\\panduan-email-automation-ultimate.docx",
           "kind": "docx",
-          "bytes": 61936
+          "bytes": 70924
         }
       ],
-      "wordCount": 15186,
-      "pages": 62,
-      "producedAt": "2026-10-23T15:56:49.438Z",
+      "wordCount": 18276,
+      "pages": 72,
+      "producedAt": "2026-10-23T16:02:43.793Z",
+      "status": "produced"
+    },
+    {
+      "slug": "panduan-instagram-reels-ultimate",
+      "title": "Panduan Lengkap Instagram Reels Strategy untuk Bisnis UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-instagram-reels-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 20086593
+        },
+        {
+          "file": "products\\panduan-instagram-reels-ultimate.docx",
+          "kind": "docx",
+          "bytes": 68814
+        }
+      ],
+      "wordCount": 17145,
+      "pages": 76,
+      "producedAt": "2026-10-23T16:03:35.098Z",
+      "status": "produced"
+    },
+    {
+      "slug": "panduan-shopee-affiliate-ultimate",
+      "title": "Panduan Lengkap Shopee Affiliate Marketing untuk Bisnis UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-shopee-affiliate-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 13985666
+        },
+        {
+          "file": "products\\panduan-shopee-affiliate-ultimate.docx",
+          "kind": "docx",
+          "bytes": 62314
+        }
+      ],
+      "wordCount": 17068,
+      "pages": 66,
+      "producedAt": "2026-10-23T16:04:02.444Z",
+      "status": "produced"
+    },
+    {
+      "slug": "panduan-canva-desain-ultimate",
+      "title": "Panduan Lengkap Canva untuk Desain Bisnis UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-canva-desain-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 19078908
+        },
+        {
+          "file": "products\\panduan-canva-desain-ultimate.docx",
+          "kind": "docx",
+          "bytes": 63559
+        }
+      ],
+      "wordCount": 17065,
+      "pages": 71,
+      "producedAt": "2026-10-23T16:05:06.613Z",
       "status": "produced"
     }
   ]
