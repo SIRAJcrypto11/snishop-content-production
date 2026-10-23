@@ -991,6 +991,32 @@
       "pages": 33,
       "producedAt": "2026-10-23T14:43:39.598Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-instagram-shopping-ultimate",
+      "title": "Panduan Lengkap Instagram Shopping untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-instagram-shopping-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 14945990
+        },
+        {
+          "file": "products\\panduan-instagram-shopping-ultimate.docx",
+          "kind": "docx",
+          "bytes": 34757
+        }
+      ],
+      "wordCount": 6533,
+      "pages": 36,
+      "producedAt": "2026-10-23T14:51:58.410Z",
+      "status": "produced"
     }
   ]
 }
