@@ -652,12 +652,17 @@
         {
           "file": "products\\panduan-linkedin-marketing-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 21619310
+          "bytes": 22742256
+        },
+        {
+          "file": "products\\panduan-linkedin-marketing-ultimate.docx",
+          "kind": "docx",
+          "bytes": 74716
         }
       ],
       "wordCount": 17744,
       "pages": 81,
-      "producedAt": "2026-10-23T07:56:03.302Z",
+      "producedAt": "2026-10-23T13:24:47.220Z",
       "status": "produced"
     },
     {
@@ -763,6 +768,32 @@
       "wordCount": 12011,
       "pages": 66,
       "producedAt": "2026-10-23T09:22:49.228Z",
+      "status": "produced"
+    },
+    {
+      "slug": "panduan-content-marketing-ultimate",
+      "title": "Panduan Lengkap Content Marketing Strategy untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-content-marketing-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 20651692
+        },
+        {
+          "file": "products\\panduan-content-marketing-ultimate.docx",
+          "kind": "docx",
+          "bytes": 57461
+        }
+      ],
+      "wordCount": 12745,
+      "pages": 87,
+      "producedAt": "2026-10-23T13:25:56.601Z",
       "status": "produced"
     }
   ]
