@@ -31,6 +31,7 @@ class PDFGenerator {
 
     const browser = await puppeteer.launch({ headless: 'new' });
     const page = await browser.newPage();
+    page.setDefaultTimeout(120000); // 120 seconds for large documents
 
     const html = this.renderHTML(content, marked);
 

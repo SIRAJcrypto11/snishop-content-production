@@ -1381,6 +1381,32 @@
       "pages": 71,
       "producedAt": "2026-10-23T16:05:06.613Z",
       "status": "produced"
+    },
+    {
+      "slug": "chatgpt-productivity-ultimate",
+      "title": "Panduan Lengkap ChatGPT untuk Produktivitas Bisnis UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\chatgpt-productivity-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 25440737
+        },
+        {
+          "file": "products\\chatgpt-productivity-ultimate.docx",
+          "kind": "docx",
+          "bytes": 1287149
+        }
+      ],
+      "wordCount": 17469,
+      "pages": 1317,
+      "producedAt": "2026-10-23T16:38:33.262Z",
+      "status": "produced"
     }
   ]
 }
