@@ -1745,6 +1745,32 @@
       "pages": 103,
       "producedAt": "2026-10-23T20:17:05.634Z",
       "status": "produced"
+    },
+    {
+      "slug": "supply-chain-management-umkm-ultimate",
+      "title": "Panduan Lengkap Supply Chain Management untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\supply-chain-management-umkm-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 20937253
+        },
+        {
+          "file": "products\\supply-chain-management-umkm-ultimate.docx",
+          "kind": "docx",
+          "bytes": 62567
+        }
+      ],
+      "wordCount": 19052,
+      "pages": 66,
+      "producedAt": "2026-10-23T20:33:21.637Z",
+      "status": "produced"
     }
   ]
 }
