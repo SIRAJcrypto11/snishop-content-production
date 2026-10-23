@@ -1641,6 +1641,32 @@
       "pages": 66,
       "producedAt": "2026-10-23T19:11:18.755Z",
       "status": "produced"
+    },
+    {
+      "slug": "business-process-automation-umkm-ultimate",
+      "title": "Panduan Lengkap Business Process Automation untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\business-process-automation-umkm-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 20446971
+        },
+        {
+          "file": "products\\business-process-automation-umkm-ultimate.docx",
+          "kind": "docx",
+          "bytes": 64025
+        }
+      ],
+      "wordCount": 19831,
+      "pages": 71,
+      "producedAt": "2026-10-23T19:22:25.520Z",
+      "status": "produced"
     }
   ]
 }
