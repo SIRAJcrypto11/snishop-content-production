@@ -20,6 +20,7 @@ const fs = require('fs');
 const path = require('path');
 const zlib = require('zlib');
 const PDFGenerator = require('../src/agents/design/PDFGenerator');
+const DOCXGenerator = require('../src/agents/design/DOCXGenerator');
 const ExcelGenerator = require('../src/agents/design/ExcelGenerator');
 const FlyerGenerator = require('./generate-flyer');
 
@@ -217,7 +218,21 @@ async function main() {
   const pdfBuffer = await pdf.generate({ title, markdown: renderSource, tier });
   fs.writeFileSync(pdfPath, pdfBuffer);
 
-  const outputs = [{ file: path.relative(ROOT, pdfPath), kind: 'pdf', bytes: pdfBuffer.length }];
+  // Generate DOCX (editable Word document)
+  const docxPath = path.join(PRODUCTS_DIR, `${tierSlug}.docx`);
+  const docx = new DOCXGenerator();
+  const docxBuffer = await docx.generate({
+    title,
+    markdown: renderSource,
+    tier,
+    assetsDir: path.join(ROOT, 'assets'),
+  });
+  fs.writeFileSync(docxPath, docxBuffer);
+
+  const outputs = [
+    { file: path.relative(ROOT, pdfPath), kind: 'pdf', bytes: pdfBuffer.length },
+    { file: path.relative(ROOT, docxPath), kind: 'docx', bytes: docxBuffer.length },
+  ];
   const pdfPages = countPdfPages(pdfBuffer);
 
   if (args.data && (tier === 'premium' || tier === 'ultimate')) {

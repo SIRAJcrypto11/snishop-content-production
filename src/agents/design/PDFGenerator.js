@@ -1,4 +1,8 @@
+const fs = require('fs');
+const path = require('path');
 const logger = require('../../utils/logger');
+
+const ROOT = path.join(__dirname, '..', '..', '..');
 
 /**
  * PDFGenerator - Generates professional PDF documents from Markdown content
@@ -169,6 +173,7 @@ class PDFGenerator {
       padding-bottom: 8pt;
       text-align: left;
       page-break-after: avoid;
+      page-break-inside: avoid;
     }
 
     h2 {
@@ -179,6 +184,7 @@ class PDFGenerator {
       margin-bottom: 8pt;
       text-align: left;
       page-break-after: avoid;
+      page-break-inside: avoid;
     }
 
     h3 {
@@ -189,6 +195,7 @@ class PDFGenerator {
       margin-bottom: 6pt;
       text-align: left;
       page-break-after: avoid;
+      page-break-inside: avoid;
     }
 
     h4 {
@@ -199,6 +206,7 @@ class PDFGenerator {
       margin-bottom: 5pt;
       text-align: left;
       page-break-after: avoid;
+      page-break-inside: avoid;
     }
 
     p {
@@ -385,11 +393,22 @@ class PDFGenerator {
   getHeaderTemplate(content) {
     const title = content.title || 'SNISHOP Document';
     const tier = content.tier ? ` [${content.tier.toUpperCase()}]` : '';
+    const logoPath = path.join(ROOT, 'assets', 'snishop-logo.png');
+    let logoDataUri = '';
+    try {
+      const logoBuffer = fs.readFileSync(logoPath);
+      logoDataUri = `data:image/png;base64,${logoBuffer.toString('base64')}`;
+    } catch {
+      // Logo not found - use empty string
+    }
+    const logoImg = logoDataUri
+      ? `<img src="${logoDataUri}" style="height: 20px; vertical-align: middle;" />`
+      : '';
     return `<div style="font-family: 'Inter', sans-serif; font-size: 8pt; color: #9ca3af; width: 100%; padding: 0 15mm; position: relative;">
       <table style="width:100%; border:none;"><tr>
         <td style="border:none; padding:0; text-align:left;">${title}${tier}</td>
         <td style="border:none; padding:0; text-align:right; vertical-align: middle;">
-          <img src="file:///C:/Users/Siraj%20Nur%20Ihrom/Documents/SNISHOP.ID/PROJECT%20SNISHOP%202025/ERP%20SNISHOP%20DESEMBER%202025/SNISHOP%20ERP%20SYSTEM%20FINAL%20DESEMBER%202025/content-production-system/assets/snishop-logo.png" style="height: 20px; vertical-align: middle;" />
+          ${logoImg}
           <span style="margin-left: 5px; font-weight: 600; color: #1E40AF;">SNISHOP.COM</span>
         </td>
       </tr></table>
