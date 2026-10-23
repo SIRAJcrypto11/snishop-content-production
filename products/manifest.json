@@ -887,6 +887,32 @@
       "pages": 51,
       "producedAt": "2026-10-23T13:48:35.923Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-influencer-marketing-ultimate-ultimate",
+      "title": "PANDUAN LENGKAP INFLUENCER MARKETING UNTUK UMKM INDONESIA [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-influencer-marketing-ultimate-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 13295999
+        },
+        {
+          "file": "products\\panduan-influencer-marketing-ultimate-ultimate.docx",
+          "kind": "docx",
+          "bytes": 47007
+        }
+      ],
+      "wordCount": 9490,
+      "pages": 58,
+      "producedAt": "2026-10-23T13:58:33.567Z",
+      "status": "produced"
     }
   ]
 }
