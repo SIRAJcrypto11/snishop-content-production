@@ -1121,6 +1121,32 @@
       "pages": 42,
       "producedAt": "2026-10-23T15:13:31.516Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-chatgpt-ai-umkm-ultimate",
+      "title": "Panduan Lengkap ChatGPT dan AI Tools untuk Bisnis UMKM [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-chatgpt-ai-umkm-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 12775530
+        },
+        {
+          "file": "products\\panduan-chatgpt-ai-umkm-ultimate.docx",
+          "kind": "docx",
+          "bytes": 34766
+        }
+      ],
+      "wordCount": 6269,
+      "pages": 47,
+      "producedAt": "2026-10-23T15:17:57.303Z",
+      "status": "produced"
     }
   ]
 }
