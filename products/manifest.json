@@ -1511,6 +1511,32 @@
       "pages": 64,
       "producedAt": "2026-10-23T17:56:30.324Z",
       "status": "produced"
+    },
+    {
+      "slug": "ai-chatbot-umkm-ultimate",
+      "title": "Panduan Lengkap AI Chatbot untuk Bisnis UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\ai-chatbot-umkm-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 20657521
+        },
+        {
+          "file": "products\\ai-chatbot-umkm-ultimate.docx",
+          "kind": "docx",
+          "bytes": 63854
+        }
+      ],
+      "wordCount": 18213,
+      "pages": 77,
+      "producedAt": "2026-10-23T18:11:00.702Z",
+      "status": "produced"
     }
   ]
 }
