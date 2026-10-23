@@ -1147,6 +1147,32 @@
       "pages": 47,
       "producedAt": "2026-10-23T15:17:57.303Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-google-ads-umkm-ultimate",
+      "title": "Panduan Lengkap Google Ads untuk UMKM [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-google-ads-umkm-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 18107201
+        },
+        {
+          "file": "products\\panduan-google-ads-umkm-ultimate.docx",
+          "kind": "docx",
+          "bytes": 44742
+        }
+      ],
+      "wordCount": 8740,
+      "pages": 65,
+      "producedAt": "2026-10-23T15:23:24.801Z",
+      "status": "produced"
     }
   ]
 }
