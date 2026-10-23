@@ -1017,6 +1017,32 @@
       "pages": 36,
       "producedAt": "2026-10-23T14:51:58.410Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-tiktok-shop-ultimate",
+      "title": "Panduan Lengkap TikTok Shop untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-tiktok-shop-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 12792450
+        },
+        {
+          "file": "products\\panduan-tiktok-shop-ultimate.docx",
+          "kind": "docx",
+          "bytes": 36459
+        }
+      ],
+      "wordCount": 6922,
+      "pages": 38,
+      "producedAt": "2026-10-23T14:56:32.062Z",
+      "status": "produced"
     }
   ]
 }
