@@ -83,7 +83,7 @@ Email list yang berkualitas adalah fondasi email marketing sukses. Lebih baik me
 **Strategi Membangun Email List:**
 
 **1. Lead Magnet yang Bernilai**
-Berikan sesuatu yang berharga sebagai换 (exchange) untuk email address:
+Berikan sesuatu yang berharga sebagai pertukaran untuk mendapatkan alamat email:
 - E-book gratis: "10 Strategi Marketing untuk UMKM"
 - Checklist: "Persiapan Menghadapi Lebaran untuk Toko Online"
 - Template: "50 Template Copywriting untuk Instagram"

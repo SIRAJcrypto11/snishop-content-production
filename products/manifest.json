@@ -1251,6 +1251,58 @@
       "pages": 81,
       "producedAt": "2026-10-23T15:41:04.692Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-tiktok-ads-ultimate",
+      "title": "Panduan Lengkap TikTok Ads untuk Bisnis UMKM [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-tiktok-ads-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 19603281
+        },
+        {
+          "file": "products\\panduan-tiktok-ads-ultimate.docx",
+          "kind": "docx",
+          "bytes": 68675
+        }
+      ],
+      "wordCount": 17378,
+      "pages": 80,
+      "producedAt": "2026-10-23T15:49:21.032Z",
+      "status": "produced"
+    },
+    {
+      "slug": "panduan-email-automation-ultimate",
+      "title": "Panduan Lengkap Email Marketing untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-email-automation-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 15983500
+        },
+        {
+          "file": "products\\panduan-email-automation-ultimate.docx",
+          "kind": "docx",
+          "bytes": 37676
+        }
+      ],
+      "wordCount": 6963,
+      "pages": 45,
+      "producedAt": "2026-10-23T15:49:42.538Z",
+      "status": "produced"
     }
   ]
 }
