@@ -659,6 +659,27 @@
       "pages": 81,
       "producedAt": "2026-10-23T07:56:03.302Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-copywriting-ultimate",
+      "title": "PANDUAN LENGKAP COPYWRITING UNTUK UMKM INDONESIA [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-copywriting-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 20283173
+        }
+      ],
+      "wordCount": 10829,
+      "pages": 51,
+      "producedAt": "2026-10-23T08:12:26.592Z",
+      "status": "produced"
     }
   ]
 }
