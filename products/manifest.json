@@ -1733,17 +1733,17 @@
         {
           "file": "products\\inventory-management-umkm-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 21982393
+          "bytes": 21396320
         },
         {
           "file": "products\\inventory-management-umkm-ultimate.docx",
           "kind": "docx",
-          "bytes": 79864
+          "bytes": 56146
         }
       ],
-      "wordCount": 20418,
-      "pages": 103,
-      "producedAt": "2026-10-23T20:17:05.634Z",
+      "wordCount": 13460,
+      "pages": 70,
+      "producedAt": "2026-10-23T20:34:49.685Z",
       "status": "produced"
     },
     {
