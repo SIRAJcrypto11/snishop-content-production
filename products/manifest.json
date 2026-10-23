@@ -722,6 +722,27 @@
       "pages": 60,
       "producedAt": "2026-10-23T08:47:48.843Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-shopee-marketing-ultimate",
+      "title": "Panduan Lengkap Shopee Marketing untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-shopee-marketing-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 17678278
+        }
+      ],
+      "wordCount": 12000,
+      "pages": 61,
+      "producedAt": "2026-10-23T09:07:45.481Z",
+      "status": "produced"
     }
   ]
 }
