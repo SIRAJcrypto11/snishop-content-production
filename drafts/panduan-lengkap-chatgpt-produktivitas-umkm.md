@@ -1,6 +1,6 @@
 # Panduan Lengkap ChatGPT untuk Produktivitas Bisnis UMKM Indonesia
 
-**Maksimalkan Potensi AI untuk Mengembangkan Usaha Anda**
+### Maksimalkan Potensi AI untuk Mengembangkan Usaha Anda
 
 ![Cover](../assets/cg-cover.png)
 
@@ -14,28 +14,28 @@
 
 ## Daftar Isi
 
-**BAGIAN I: MEMAHAMI CHATGPT**
+### BAGIAN I: MEMAHAMI CHATGPT
 
 - Bab 1: Pengenalan ChatGPT dan AI untuk Bisnis
 - Bab 2: Setup dan Navigasi ChatGPT
 - Bab 3: Prompt Engineering, Seni Bertanya pada AI
 
-**BAGIAN II: APLIKASI UNTUK BISNIS**
+### BAGIAN II: APLIKASI UNTUK BISNIS
 
 - Bab 4: Otomatisasi Tugas Harian
 - Bab 5: Pembuatan Konten dan Copywriting
 - Bab 6: Analisis Data dan Research
 - Bab 7: Customer Service dan Sales Support
 
-**BAGIAN III: ADVANCED DAN INTEGRASI**
+### BAGIAN III: ADVANCED DAN INTEGRASI
 
 - Bab 8: Integrasi ChatGPT dengan Tools Bisnis Lainnya
 - Bab 9: Advanced Techniques dan Best Practices
 - Bab 10: Studi Kasus dan Implementation Plan
 
-**PENUTUP**
+### PENUTUP
 
-**TENTANG PENULIS**
+### TENTANG PENULIS
 
 ---
 
@@ -67,7 +67,7 @@ Penting untuk dipahami bahwa ChatGPT tidak "berpikir" seperti manusia. Ia tidak 
 
 OpenAI menyediakan beberapa versi model ChatGPT, dan yang paling umum digunakan adalah GPT-3.5 dan GPT-4. Berikut perbandingan detail keduanya:
 
-**GPT-3.5 (Versi Gratis):**
+GPT-3.5 (Versi Gratis):
 
 - Tersedia gratis untuk semua pengguna
 - Mampu menangani teks hingga sekitar 4.000 token (kira-kira 3.000 kata) dalam satu percakapan
@@ -76,7 +76,7 @@ OpenAI menyediakan beberapa versi model ChatGPT, dan yang paling umum digunakan 
 - Terkadang kurang akurat untuk tugas-tugas kompleks yang memerlukan penalaran mendalam
 - Tidak mendukung analisis gambar atau file
 
-**GPT-4 (Versi Berbayar):**
+GPT-4 (Versi Berbayar):
 
 - Tersedia melalui langganan ChatGPT Plus (USD 20 per bulan, sekitar Rp 300.000)
 - Mampu menangani teks hingga 8.000 token atau lebih (hingga 128.000 token untuk GPT-4 Turbo)
@@ -169,7 +169,7 @@ Sebelum mulai menggunakan ChatGPT untuk bisnis Anda, pastikan Anda telah memenuh
 
 Langkah pertama untuk menggunakan ChatGPT adalah membuat akun. Prosesnya sederhana dan hanya membutuhkan beberapa menit.
 
-**Langkah-langkah Pendaftaran:**
+Langkah-langkah Pendaftaran:
 
 1. Buka browser Anda dan kunjungi chat.openai.com
 2. Klik tombol "Sign Up" di halaman utama
@@ -198,7 +198,7 @@ Antarmuka ChatGPT dirancang agar intuitif dan mudah digunakan. Berikut adalah ko
 
 Memilih paket yang tepat sangat penting untuk memaksimalkan manfaat ChatGPT sesuai kebutuhan bisnis Anda.
 
-**ChatGPT Free (Gratis):**
+ChatGPT Free (Gratis):
 
 - Akses ke model GPT-3.5 atau GPT-4o mini
 - Jumlah pesan terbatas per hari (sekitar 10-15 pesan untuk GPT-4o mini)
@@ -206,7 +206,7 @@ Memilih paket yang tepat sangat penting untuk memaksimalkan manfaat ChatGPT sesu
 - Tidak ada prioritas akses saat traffic tinggi
 - Cocok untuk: UMKM yang baru mulai mengeksplorasi AI dan memiliki kebutuhan dasar
 
-**ChatGPT Plus (Rp 300.000 per bulan):**
+ChatGPT Plus (Rp 300.000 per bulan):
 
 - Akses penuh ke GPT-4 dan GPT-4 Turbo
 - Akses ke DALL-E untuk membuat gambar
@@ -216,7 +216,7 @@ Memilih paket yang tepat sangat penting untuk memaksimalkan manfaat ChatGPT sesu
 - Prioritas akses saat traffic tinggi
 - Cocok untuk: UMKM yang serius memanfaatkan AI untuk operasional harian
 
-**ChatGPT Team (USD 25 per pengguna per bulan, sekitar Rp 375.000):**
+ChatGPT Team (USD 25 per pengguna per bulan, sekitar Rp 375.000):
 
 - Semua fitur Plus
 - Workspace tim dengan manajemen anggota
@@ -269,7 +269,7 @@ Bagian kedua (preferensi respons): "Berikan jawaban yang praktis dan bisa langsu
 
 Berikut template yang bisa Anda gunakan untuk mengoptimalkan setup ChatGPT:
 
-**Template Custom Instructions:**
+Template Custom Instructions:
 
 ```
 Tentang Bisnis Saya:
@@ -340,7 +340,7 @@ Prinsip dasar prompt engineering yang perlu Anda ingat adalah CLASP:
 
 Prompt yang efektif biasanya mengikuti struktur tertentu. Berikut adalah formula yang telah terbukti menghasilkan output berkualitas tinggi:
 
-**Formula RICE:**
+Formula RICE:
 
 **R (Role):** Tetapkan peran untuk ChatGPT. "Bertindaklah sebagai konsultan pemasaran digital dengan pengalaman 10 tahun di industri UMKM Indonesia."
 
@@ -366,7 +366,7 @@ Context setting adalah fondasi dari prompt yang baik. Tanpa konteks yang cukup, 
 
 Menetapkan peran (role assignment) adalah teknik yang sangat efektif untuk meningkatkan kualitas output. Ketika Anda memberikan peran spesifik, ChatGPT akan menyesuaikan gaya, kedalaman, dan perspektif jawabannya.
 
-**Daftar Peran yang Berguna untuk UMKM:**
+Daftar Peran yang Berguna untuk UMKM:
 
 - Konsultan bisnis dan strategi
 - Copywriter profesional
@@ -381,7 +381,7 @@ Menetapkan peran (role assignment) adalah teknik yang sangat efektif untuk menin
 - Email marketing specialist
 - SEO specialist
 
-**Contoh Penerapan Role Assignment:**
+Contoh Penerapan Role Assignment:
 
 Prompt biasa: "Buatkan email untuk pelanggan."
 
@@ -391,11 +391,11 @@ Prompt dengan role: "Bertindaklah sebagai specialist email marketing dengan peng
 
 Chain-of-thought prompting adalah teknik di mana Anda meminta ChatGPT untuk menjelaskan proses berpikirnya secara bertahap. Teknik ini sangat berguna untuk tugas-tugas yang memerlukan analisis atau penalaran kompleks.
 
-**Cara Menerapkan:**
+Cara Menerapkan:
 
 Tambahkan instruksi seperti "Jelaskan langkah demi langkah bagaimana Anda sampai pada kesimpulan tersebut" atau "Pikirkan secara bertahap sebelum memberikan jawaban akhir."
 
-**Contoh untuk Bisnis:**
+Contoh untuk Bisnis:
 
 Prompt: "Saya ingin meningkatkan profit margin bisnis kopi saya yang saat ini sebesar 15 persen menjadi 25 persen dalam enam bulan. Harga jual satu cup kopi adalah Rp 25.000 dengan HPP Rp 21.250. Analisis secara bertahap: (1) Identifikasi komponen HPP, (2) Evaluasi opsi pengurangan biaya, (3) Evaluasi opsi peningkatan harga, (4) Hitungkan dampak setiap skenario terhadap profit margin, (5) Berikan rekomendasi terbaik dengan perhitungan detail."
 
@@ -405,7 +405,7 @@ Dengan pendekatan chain-of-thought, ChatGPT akan menguraikan analisisnya secara 
 
 Few-shot prompting adalah teknik di mana Anda memberikan beberapa contoh output yang diinginkan agar ChatGPT bisa meniru pola dan gaya tersebut. Ini sangat berguna untuk menghasilkan konten yang konsisten dengan brand voice Anda.
 
-**Contoh Penerapan:**
+Contoh Penerapan:
 
 Prompt: "Buatkan caption Instagram untuk produk baru kami (tas rajut handmade) dengan gaya yang sama seperti contoh-contoh berikut:
 
@@ -419,7 +419,7 @@ Sekarang buatkan caption untuk tas rajut model baru dengan harga Rp 550.000, ter
 
 Berikut adalah kumpulan template prompt yang bisa langsung Anda gunakan dan sesuaikan:
 
-**Template Prompt untuk Analisis Kompetitor:**
+Template Prompt untuk Analisis Kompetitor:
 
 ```
 Bertindaklah sebagai analis bisnis berpengalaman. Saya bergerak di bidang [jenis bisnis] di [lokasi].
@@ -436,7 +436,7 @@ Analisis secara detail:
 - Estimasi investasi dan timeline untuk implementasi
 ```
 
-**Template Prompt untuk Business Plan:**
+Template Prompt untuk Business Plan:
 
 ```
 Bertindaklah sebagai konsultan bisnis yang specializing dalam UMKM Indonesia.
@@ -456,7 +456,7 @@ Sertakan:
 - Risiko utama dan mitigasinya
 ```
 
-**Template Prompt untuk Konten Media Sosial:**
+Template Prompt untuk Konten Media Sosial:
 
 ```
 Bertindaklah sebagai social media manager profesional.
@@ -477,25 +477,25 @@ Buatkan content calendar untuk [1 minggu/1 bulan] dengan:
 
 ### 3.8 Common Mistakes dalam Prompt Engineering
 
-**Kesalahan 1: Prompt Terlalu Singkat dan Umum**
+Kesalahan 1: Prompt Terlalu Singkat dan Umum
 
 Buruk: "Buatkan marketing plan."
 Baik: "Buatkan marketing plan 3 bulan untuk toko online sepatu dengan budget Rp 5 juta per bulan, target meningkatkan penjualan 30 persen, menggunakan Instagram dan TikTok sebagai channel utama."
 
-**Kesalahan 2: Tidak Memberikan Konteks yang Cukup**
+Kesalahan 2: Tidak Memberikan Konteks yang Cukup
 
 Buruk: "Buatkan email untuk pelanggan."
 Baik: "Buatkan email promotional untuk pelanggan yang sudah tidak berbelanja selama 3 bulan. Bisnis saya adalah toko skincare natural. Tawarkan diskon 20 persen sebagai insentif. Tone: hangat dan personal, bukan hard selling. Panjang maksimal 200 kata."
 
-**Kesalahan 3: Meminta Terlalu Banyak dalam Satu Prompt**
+Kesalahan 3: Meminta Terlalu Banyak dalam Satu Prompt
 
 Sebaiknya pecah permintaan kompleks menjadi beberapa prompt terpisah. Misalnya, jangan meminta business plan lengkap dalam satu prompt. Mintalah per bagian: pertama ringkasan eksekutif, kemudian analisis pasar, lalu strategi pemasaran, dan seterusnya.
 
-**Kesalahan 4: Tidak Melakukan Iterasi**
+Kesalahan 4: Tidak Melakukan Iterasi
 
 Output pertama ChatGPT jarang sempurna. Gunakan pendekatan iteratif dengan meminta revisi dan perbaikan. Contoh: "Bagus, tetapi bagian strategi pemasaran perlu lebih detail. Tambahkan timeline mingguan dan alokasi budget per channel."
 
-**Kesalahan 5: Tidak Memanfaatkan Custom Instructions**
+Kesalahan 5: Tidak Memanfaatkan Custom Instructions
 
 Jika Anda harus mengulang konteks yang sama di setiap percakapan, berarti Anda belum memanfaatkan Custom Instructions dengan optimal. Isi Custom Instructions sekali, dan konteks bisnis Anda akan diterapkan secara otomatis di semua percakapan.
 
@@ -531,15 +531,15 @@ Jika Anda harus mengulang konteks yang sama di setiap percakapan, berarti Anda b
 
 Email masih menjadi saluran komunikasi bisnis yang paling penting. Namun, menulis email yang profesional dan efektif bisa memakan waktu signifikan, terutama jika Anda membalas puluhan email setiap hari. ChatGPT bisa memangkas waktu ini hingga 70 persen.
 
-**Cara Menggunakan ChatGPT untuk Email:**
+Cara Menggunakan ChatGPT untuk Email:
 
 Langkah pertama adalah memberikan konteks tentang email yang akan ditulis. Siapa penerimanya, apa tujuannya, dan tone apa yang diinginkan. Berikut contoh prompt yang efektif:
 
 Prompt: "Buatkan email balasan untuk klien yang menanyakan status proyek redesign website mereka. Situasi: proyek sedang on-track dan akan selesai sesuai jadwal pada 15 Januari 2026. Tahap saat ini adalah final review. Tone: profesional dan reassuring. Panjang: 3-4 paragraf. Sertakan penawaran untuk meeting progress update minggu depan."
 
-**Template Email Bisnis yang Bisa Anda Gunakan:**
+Template Email Bisnis yang Bisa Anda Gunakan:
 
-**Email Penawaran Produk:**
+Email Penawaran Produk:
 
 ```
 Subject: [Nama Produk] Solusi Tepat untuk [Masalah Klien]
@@ -563,7 +563,7 @@ Salam hormat,
 [Nomor Telepon]
 ```
 
-**Template Email Follow-Up:**
+Template Email Follow-Up:
 
 ```
 Subject: Follow-Up: [Topik Pembahasan Sebelumnya]
@@ -582,11 +582,11 @@ Salam hangat,
 [Nama Anda]
 ```
 
-**Estimasi Penghematan Waktu:**
+Estimasi Penghematan Waktu:
 
 Sebuah UMKM rata-rata mengirim dan membalas 30-50 email per hari. Tanpa ChatGPT, setiap email membutuhkan waktu 5-10 menit untuk ditulis, termasuk memikirkan struktur dan diksi. Total: 150-500 menit per hari (2,5-8,3 jam). Dengan ChatGPT, waktu per email berkurang menjadi 1-3 menit (termasuk review dan editing). Total: 30-150 menit per hari (0,5-2,5 jam). Penghematan: sekitar 2-6 jam per hari, atau 10-30 jam per minggu.
 
-**Contoh Praktis Email Sebelum dan Sesudah ChatGPT:**
+Contoh Praktis Email Sebelum dan Sesudah ChatGPT:
 
 Sebelum menggunakan ChatGPT, Anda mungkin menghabiskan 15 menit untuk menulis email penawaran seperti ini. Anda membaca ulang beberapa kali, memperbaiki diksi, dan memastikan strukturnya tepat. Dengan ChatGPT, Anda cukup memberikan prompt singkat dan dalam 30 detik Anda mendapatkan draft yang bisa langsung direview dan dikirim. Waktu total: 2-3 menit termasuk review.
 
@@ -594,7 +594,7 @@ Prompt: "Buatkan email penawaran kerjasama catering untuk acara corporate kepada
 
 Hasil yang Anda dapatkan adalah email lengkap dengan pembuka yang menarik, tiga opsi paket menu dengan rincian harga, penutup yang persuasif, dan call to action yang jelas. Anda tinggal review, sesuaikan detail spesifik jika perlu, dan kirim.
 
-**Tips Tambahan untuk Email dengan ChatGPT:**
+Tips Tambahan untuk Email dengan ChatGPT:
 
 Simpan email-email terbaik yang pernah Anda buat dengan bantuan ChatGPT dalam folder khusus. Folder ini berfungsi sebagai library yang bisa Anda rujuk di masa depan. Ketika Anda membutuhkan email serupa, Anda bisa menggunakan email lama sebagai referensi dan meminta ChatGPT membuat variasi baru berdasarkan template yang sudah terbukti efektif.
 
@@ -604,11 +604,11 @@ Selain itu, mintalah ChatGPT membuat beberapa variasi email untuk A/B testing. M
 
 Meskipun ChatGPT tidak terintegrasi langsung dengan kalender Anda, ia bisa membantu merencanakan jadwal dan membuat template manajemen waktu yang efektif.
 
-**Cara Menggunakan ChatGPT untuk Penjadwalan:**
+Cara Menggunakan ChatGPT untuk Penjadwalan:
 
 Prompt: "Bantu saya menyusun jadwal mingguan yang optimal. Saya adalah pemilik UMKM kuliner dengan aktivitas berikut: (1) Belanja bahan baku, butuh 2 jam, sebaiknya pagi hari, (2) Produksi makanan, butuh 4 jam, (3) Pengiriman order, butuh 2 jam, (4) Admin dan keuangan, butuh 1,5 jam, (5) Marketing dan media sosial, butuh 1 jam, (6) Istirahat dan sholat. Jam kerja: 07.00-17.00, Senin-Sabtu. Buat jadwal yang efisien dengan waktu buffer yang cukup."
 
-**Template Weekly Planning Prompt:**
+Template Weekly Planning Prompt:
 
 ```
 Saya ingin merencanakan minggu depan dengan detail. Berikut prioritas utama saya:
@@ -631,15 +631,15 @@ dengan mempertimbangkan energi level (tugas berat di pagi hari, tugas ringan di 
 
 ChatGPT bisa membantu mengolah data yang Anda miliki menjadi format yang lebih berguna. Meskipun tidak bisa menggantikan spreadsheet untuk pengolahan data skala besar, ChatGPT sangat berguna untuk tugas-tugas berikut:
 
-**Format Konversi Data:**
+Format Konversi Data:
 
 Prompt: "Ubah data penjualan berikut dari format teks menjadi tabel yang rapi dengan kolom: No, Tanggal, Nama Produk, Jumlah, Harga Satuan, Total. Berikut datanya: [tempel data mentah Anda]."
 
-**Analisis Data Sederhana:**
+Analisis Data Sederhana:
 
 Prompt: "Berikut data penjualan bulanan saya selama 6 bulan terakhir: Januari Rp 45 juta, Februari Rp 52 juta, Maret Rp 48 juta, April Rp 61 juta, Mei Rp 55 juta, Juni Rp 67 juta. Analisis tren penjualan, hitung rata-rata pertumbuhan bulanan, identifikasi bulan terbaik dan terburuk, dan berikan prediksi sederhana untuk 3 bulan ke depan."
 
-**Pembuatan Formula Spreadsheet:**
+Pembuatan Formula Spreadsheet:
 
 Prompt: "Saya memiliki spreadsheet dengan kolom A (Nama Produk), kolom B (Harga Beli), kolom C (Harga Jual), kolom D (Jumlah Terjual). Buatkan formula Google Sheets untuk: (1) menghitung profit per produk, (2) menghitung margin profit persentase, (3) menghitung total revenue, (4) menemukan produk dengan margin tertinggi, (5) membuat ranking produk berdasarkan volume penjualan."
 
@@ -649,11 +649,11 @@ Prompt: "Saya memiliki spreadsheet dengan kolom A (Nama Produk), kolom B (Harga 
 
 Sebagai pemilik UMKM, Anda mungkin harus membaca banyak dokumen, mulai dari laporan keuangan, kontrak, regulasi pemerintah, hingga riset pasar. ChatGPT bisa meringkas dokumen-dokumen ini dalam hitungan detik.
 
-**Cara Menggunakan ChatGPT untuk Meringkas Dokumen:**
+Cara Menggunakan ChatGPT untuk Meringkas Dokumen:
 
 Prompt: "Ringkas dokumen berikut dalam format bullet points yang mencakup: (1) poin-poin kunci, (2) angka dan data penting, (3) tindakan yang perlu saya lakukan, (4) deadline atau tenggat waktu yang disebutkan. Dokumen: [tempel isi dokumen]."
 
-**Template Ringkasan Eksekutif:**
+Template Ringkasan Eksekutif:
 
 ```
 Buatkan ringkasan eksekutif dari dokumen berikut dengan format:
@@ -672,7 +672,7 @@ Bahasa: Indonesia formal.
 
 ChatGPT bisa mengubah catatan meeting yang berantakan menjadi notulensi yang terstruktur dan profesional.
 
-**Prompt Template untuk Notulensi:**
+Prompt Template untuk Notulensi:
 
 ```
 Berikut catatan kasar dari meeting saya hari ini. Ubah menjadi notulensi profesional dengan format:
@@ -705,7 +705,7 @@ Catatan kasar saya:
 
 ChatGPT bisa membantu Anda menyusun dan memprioritaskan tugas-tugas bisnis.
 
-**Prompt untuk Prioritas Tugas:**
+Prompt untuk Prioritas Tugas:
 
 ```
 Berikut daftar tugas saya minggu ini:
@@ -757,7 +757,7 @@ Bantu saya:
 
 Media sosial adalah saluran pemasaran paling efektif dan efisien untuk UMKM. Namun, konsistensi dalam menghasilkan konten berkualitas adalah tantangan terbesar. ChatGPT bisa menjadi mesin produksi konten yang tidak pernah kehabisan ide.
 
-**Strategi Konten Instagram dengan ChatGPT:**
+Strategi Konten Instagram dengan ChatGPT:
 
 Prompt: "Bertindaklah sebagai social media strategist yang memahami algoritma Instagram 2025. Bisnis saya adalah [deskripsi bisnis]. Target audiens: [deskripsi audiens]. Buatkan content plan 30 hari dengan detail:
 
@@ -774,7 +774,7 @@ Untuk setiap hari, sertakan:
 - Best time to post
 - Call to action yang spesifik"
 
-**Template Caption Instagram:**
+Template Caption Instagram:
 
 ```
 [HOOK - Kalimat pertama yang menarik perhatian, maksimal 15 kata]
@@ -787,7 +787,7 @@ Untuk setiap hari, sertakan:
 [Hashtag block: 5 hashtag besar (1jt+ post), 10 hashtag medium (100k-1jt), 5 hashtag niche (10k-100k)]
 ```
 
-**Contoh Caption yang Dihasilkan ChatGPT:**
+Contoh Caption yang Dihasilkan ChatGPT:
 
 Untuk bisnis kopi lokal: "Satu tegukan, seribu cerita. Biji kopi kami dipilih langsung dari petani di dataran tinggi Toraja, disangrai dengan presisi untuk menghasilkan karakter rasa yang unik. Setiap cangkir adalah penghormatan untuk kerja keras mereka. Sudahkah Anda mencoba blend baru kami, Nusantara Sunrise? Kunjungi outlet terdekat atau order online. Kopi terbaik dimulai dari cerita terbaik.
 
@@ -795,7 +795,7 @@ KopiIndonesia #KopiNusantara #SpecialtyCoffeeIndonesia #KopiToraja #CoffeeLovers
 
 **Estimasi Penghematan:** Membuat konten media sosial untuk 1 minggu biasanya membutuhkan waktu 4-6 jam (riset ide, menulis caption, mencari hashtag). Dengan ChatGPT, waktu ini berkurang menjadi 1-2 jam. Penghematan: 2-4 jam per minggu atau 8-16 jam per bulan.
 
-**Strategi Content Pillars untuk UMKM:**
+Strategi Content Pillars untuk UMKM:
 
 Content pillars adalah tema-tema utama yang menjadi fondasi strategi konten Anda. Dengan menentukan 4-5 content pillars, Anda memastikan konten yang dihasilkan konsisten, bervariasi, dan relevan dengan target audiens. ChatGPT bisa membantu Anda merumuskan dan mengisi setiap pillar dengan konten yang berkualitas.
 
@@ -811,7 +811,7 @@ Pillar 4, Social Proof (15 persen konten): Testimoni pelanggan, foto OOTD pelang
 
 Pillar 5, Promosi dan Penawaran (10 persen konten): Flash sale, diskon spesial, bundle offer, gratis ongkir, dan program loyalty. Pillar ini mendorong konversi langsung.
 
-**Workflow Batch Content Creation:**
+Workflow Batch Content Creation:
 
 Alih-alih membuat konten setiap hari, gunakan pendekatan batch creation untuk efisiensi maksimal. Luangkan waktu 2-3 jam di awal minggu untuk menghasilkan seluruh konten selama seminggu. Berikut workflow-nya:
 
@@ -823,7 +823,7 @@ Dengan workflow ini, Anda bisa menyelesaikan konten satu minggu dalam waktu kura
 
 Blog adalah alat SEO yang powerful untuk menarik trafik organik ke website bisnis Anda. ChatGPT bisa membantu menghasilkan artikel berkualitas tinggi yang dioptimasi untuk mesin pencari.
 
-**Prompt Template untuk Blog Post:**
+Prompt Template untuk Blog Post:
 
 ```
 Bertindaklah sebagai content writer profesional yang memahami SEO.
@@ -848,7 +848,7 @@ Struktur artikel:
 - Saran internal link ke halaman lain di website
 ```
 
-**Ide Artikel Blog untuk Berbagai Jenis UMKM:**
+Ide Artikel Blog untuk Berbagai Jenis UMKM:
 
 Untuk toko online fashion: "7 Tren Fashion Muslim 2026 yang Wajib Ada di Lemari Anda", "Cara Merawat Pakaian Agar Tetap Awet dan Seperti Baru", "Panduan Memilih Ukuran Pakaian Online Tanpa Harus Mencoba", "5 Kesalahan Fashion yang Sering Dilakukan Wanita Berhijab".
 
@@ -860,9 +860,9 @@ Untuk jasa konsultasi: "5 Tanda Bisnis Anda Membutuhkan Konsultan Keuangan", "Pa
 
 Email marketing memiliki ROI tertinggi di antara semua channel pemasaran digital, yaitu rata-rata Rp 56.000 untuk setiap Rp 1.000 yang diinvestasikan. ChatGPT bisa membantu Anda membuat kampanye email yang efektif.
 
-**Template Email Sequence:**
+Template Email Sequence:
 
-**Welcome Series (3 Email):**
+Welcome Series (3 Email):
 
 Email 1 (Segera setelah subscribe): "Selamat Datang di [Brand]! Ini Hadiah Khusus untuk Anda". Isi: ucapan terima kasih, perkenalan brand, dan kode diskon 10 persen untuk pembelian pertama.
 
@@ -870,7 +870,7 @@ Email 2 (Hari ke-2): "Cerita di Balik [Brand]: Mengapa Kami Hadir". Isi: brand s
 
 Email 3 (Hari ke-4): "Produk Terlaris Kami yang Wajib Anda Coba". Isi: showcase 3-5 produk terlaris dengan testimoni pelanggan dan link pembelian.
 
-**Prompt untuk Email Marketing:**
+Prompt untuk Email Marketing:
 
 ```
 Buatkan email sequence 5 email untuk kampanye peluncuran produk baru.
@@ -897,7 +897,7 @@ Untuk setiap email sertakan:
 
 Deskripsi produk yang baik bisa meningkatkan konversi penjualan hingga 30 persen. ChatGPT bisa menghasilkan deskripsi produk yang persuasif dan informatif dalam hitungan detik.
 
-**Template Deskripsi Produk:**
+Template Deskripsi Produk:
 
 ```
 Buatkan deskripsi produk untuk marketplace dengan format berikut:
@@ -919,7 +919,7 @@ Tone: [profesional/kasual/mewah/edukatif]
 Platform: [Shopee/Tokopedia/TikTok Shop/website sendiri]
 ```
 
-**Contoh Deskripsi Produk:**
+Contoh Deskripsi Produk:
 
 Untuk tas rajut handmade: "Tas Rajut Premium Artisan Collection. Setiap tas dikerjakan tangan oleh pengrajin berpengalaman selama 3-5 hari kerja, menghasilkan karya unik yang tidak bisa disamai oleh mesin. Terbuat dari benang katun organik berkualitas tinggi yang lembut namun tahan lama. Desain timeless cocok untuk segala kesempatan, dari casual outing hingga acara semi-formal. Dilapisi kain furing premium di bagian dalam untuk menjaga bentuk dan melindungi isi tas Anda. Tersedia dalam 5 pilihan warna earth tone yang elegan. Dimensi 25 cm x 18 cm x 8 cm, cukup untuk membawa dompet, ponsel, kunci, dan kebutuhan harian lainnya."
 
@@ -927,7 +927,7 @@ Untuk tas rajut handmade: "Tas Rajut Premium Artisan Collection. Setiap tas dike
 
 Copy iklan yang efektif adalah kunci keberhasilan kampanye iklan digital. ChatGPT bisa menghasilkan berbagai variasi ad copy untuk A/B testing.
 
-**Template Ad Copy:**
+Template Ad Copy:
 
 ```
 Buatkan 10 variasi ad copy untuk iklan [Facebook/Instagram/TikTok] dengan detail:
@@ -957,7 +957,7 @@ Variasi harus mencakup:
 
 Konsistensi adalah kunci keberhasilan konten marketing. Content calendar membantu Anda merencanakan dan mengorganisir konten dalam jangka waktu tertentu.
 
-**Prompt untuk Content Calendar:**
+Prompt untuk Content Calendar:
 
 ```
 Buatkan content calendar 3 bulan (Januari-Maret 2026) untuk bisnis saya.
@@ -980,7 +980,7 @@ Format calendar:
 
 Selain membuat konten baru, ChatGPT juga bisa membantu mengedit dan memperbaiki konten yang sudah Anda tulis.
 
-**Prompt untuk Editing:**
+Prompt untuk Editing:
 
 ```
 Edit dan perbaiki teks berikut dengan instruksi:
@@ -1030,7 +1030,7 @@ Teks asli:
 
 Riset pasar adalah fondasi dari setiap keputusan bisnis yang baik. ChatGPT bisa membantu Anda melakukan riset pasar awal yang komprehensif tanpa memerlukan budget besar untuk konsultan riset profesional.
 
-**Prompt Template untuk Riset Pasar:**
+Prompt Template untuk Riset Pasar:
 
 ```
 Bertindaklah sebagai market researcher profesional.
@@ -1050,7 +1050,7 @@ Sertakan data dan statistik yang relevan. Jika Anda tidak memiliki data pasti,
 berikan estimasi yang masuk akal berdasarkan pengetahuan Anda dan jelaskan asumsinya.
 ```
 
-**Contoh Hasil Riset Pasar untuk Bisnis Kopi Susu:**
+Contoh Hasil Riset Pasar untuk Bisnis Kopi Susu:
 
 ChatGPT bisa memberikan analisis seperti: pasar kopi Indonesia diperkirakan mencapai Rp 120 triliun pada 2025 dengan pertumbuhan 8-10 persen per tahun. Segmen kopi susu khususnya tumbuh 25-30 persen per tahun didorong oleh preferensi konsumen muda terhadap minuman kopi yang terjangkau dan mudah diakses. Target pasar utama adalah usia 18-35 tahun (65 persen dari total konsumsi kopi), dengan pengeluaran rata-rata Rp 150.000-300.000 per bulan untuk kopi.
 
@@ -1058,7 +1058,7 @@ ChatGPT bisa memberikan analisis seperti: pasar kopi Indonesia diperkirakan menc
 
 Memahami posisi Anda dibandingkan kompetitor adalah kunci untuk mengembangkan strategi yang efektif.
 
-**Prompt Template untuk Analisis Kompetitor:**
+Prompt Template untuk Analisis Kompetitor:
 
 ```
 Lakukan analisis kompetitif mendalam untuk bisnis [jenis bisnis] di [lokasi].
@@ -1087,7 +1087,7 @@ Setelah itu, berikan:
 
 Salah satu kemampuan ChatGPT yang paling berharga adalah kemampuannya untuk menginterpretasi data dan mengubah angka mentah menjadi insight bisnis yang actionable.
 
-**Prompt untuk Interpretasi Data Penjualan:**
+Prompt untuk Interpretasi Data Penjualan:
 
 ```
 Berikut data penjualan saya selama 12 bulan terakhir:
@@ -1112,7 +1112,7 @@ Analisis:
 
 ChatGPT bisa membantu Anda membuat laporan bisnis yang terstruktur dan profesional dalam waktu singkat.
 
-**Template Laporan Bisnis:**
+Template Laporan Bisnis:
 
 ```
 Buatkan laporan [bulanan/kuartalan] bisnis dengan data berikut:
@@ -1141,7 +1141,7 @@ dan berikan rekomendasi yang spesifik dan actionable.
 
 Mengidentifikasi tren sebelum kompetitor Anda melakukannya bisa menjadi keunggulan kompetitif yang signifikan.
 
-**Prompt untuk Analisis Tren:**
+Prompt untuk Analisis Tren:
 
 ```
 Bertindaklah sebagai trend analyst untuk industri [jenis industri] di Indonesia.
@@ -1165,7 +1165,7 @@ Untuk setiap tren:
 
 Umpan balik pelanggan adalah emas bagi bisnis Anda. ChatGPT bisa membantu menganalisis feedback dari berbagai sumber dan mengubahnya menjadi insight yang actionable.
 
-**Prompt untuk Analisis Feedback Pelanggan:**
+Prompt untuk Analisis Feedback Pelanggan:
 
 ```
 Berikut kumpulan review dan feedback dari pelanggan saya dalam 3 bulan terakhir:
@@ -1193,7 +1193,7 @@ Analisis:
 
 ChatGPT bisa membantu Anda memahami kesehatan keuangan bisnis dan memberikan rekomendasi perbaikan.
 
-**Prompt untuk Analisis Keuangan:**
+Prompt untuk Analisis Keuangan:
 
 ```
 Bertindaklah sebagai analis keuangan UMKM. Berikut data keuangan bisnis saya:
@@ -1255,7 +1255,7 @@ Customer service yang responsif adalah kunci kepuasan pelanggan. Namun, bagi UMK
 
 Meskipun ChatGPT tidak bisa langsung dijadikan chatbot di website atau WhatsApp Anda tanpa integrasi API, Anda bisa menggunakan ChatGPT untuk merancang skrip dan respons yang kemudian diimplementasikan di platform chatbot lain.
 
-**Langkah-langkah Merancang Chatbot dengan ChatGPT:**
+Langkah-langkah Merancang Chatbot dengan ChatGPT:
 
 Langkah 1: Identifikasi pertanyaan yang paling sering diajukan pelanggan. Prompt: "Berikut 20 pertanyaan yang paling sering ditanyakan pelanggan saya. Kategorikan mereka ke dalam kelompok: informasi produk, pemesanan, pembayaran, pengiriman, komplain, dan lainnya. Untuk setiap pertanyaan, buatkan jawaban yang informatif dan ramah."
 
@@ -1267,7 +1267,7 @@ Langkah 3: Tulis template respons untuk setiap skenario.
 
 FAQ (Frequently Asked Questions) yang komprehensif bisa mengurangi volume pertanyaan pelanggan hingga 40 persen.
 
-**Prompt Template untuk FAQ:**
+Prompt Template untuk FAQ:
 
 ```
 Buatkan FAQ komprehensif untuk bisnis saya dengan detail:
@@ -1296,9 +1296,9 @@ Tone: ramah, membantu, dan profesional
 
 Memiliki template respons yang siap pakai memungkinkan tim customer service Anda menjawab dengan cepat dan konsisten.
 
-**Kategori Template Respons:**
+Kategori Template Respons:
 
-**Template Respons Pertanyaan Produk:**
+Template Respons Pertanyaan Produk:
 ```
 Halo [Nama]! Terima kasih sudah menghubungi [Nama Bisnis].
 
@@ -1315,7 +1315,7 @@ Salam,
 [Nama CS]
 ```
 
-**Template Respons Komplain:**
+Template Respons Komplain:
 ```
 Halo [Nama], kami sangat menyesal mendengar pengalaman Anda.
 Kami memahami kekecewaan Anda dan ingin segera menyelesaikan masalah ini.
@@ -1338,7 +1338,7 @@ Salam,
 
 Menangani komplain dengan baik bisa mengubah pelanggan yang kecewa menjadi pelanggan setia. ChatGPT bisa membantu Anda menyusun strategi penanganan komplain yang efektif.
 
-**Framework HEART untuk Handling Complaints:**
+Framework HEART untuk Handling Complaints:
 
 Prompt: "Bertindaklah sebagai customer experience specialist. Buatkan panduan penanganan komplain menggunakan framework HEART (Hear, Empathize, Apologize, Resolve, Thank) untuk skenario berikut:
 
@@ -1360,7 +1360,7 @@ Untuk setiap skenario, berikan:
 
 Script penjualan yang baik bisa meningkatkan konversi secara signifikan. ChatGPT bisa membantu Anda membuat script yang persuasif namun tetap terasa natural.
 
-**Template Sales Script untuk WhatsApp:**
+Template Sales Script untuk WhatsApp:
 
 ```
 Buatkan sales script untuk WhatsApp dengan skenario:
@@ -1386,7 +1386,7 @@ Panjang setiap pesan: maksimal 3-4 kalimat (sesuai format chat)
 
 Follow-up adalah kunci dalam penjualan. Banyak transaksi tidak terjadi di kontak pertama, tetapi di follow-up ketiga atau keempat.
 
-**Template Follow-Up Sequence:**
+Template Follow-Up Sequence:
 
 ```
 Buatkan follow-up sequence 5 pesan via WhatsApp untuk pelanggan yang sudah
@@ -1410,7 +1410,7 @@ Setiap pesan: maksimal 4 kalimat
 
 Memahami pelanggan ideal Anda adalah fondasi dari semua strategi bisnis. ChatGPT bisa membantu Anda membuat customer persona yang detail dan actionable.
 
-**Prompt untuk Customer Persona:**
+Prompt untuk Customer Persona:
 
 ```
 Bertindaklah sebagai marketing strategist. Buatkan 3 customer persona untuk bisnis saya.
@@ -1472,11 +1472,11 @@ Untuk setiap persona, sertakan:
 
 Zapier adalah platform otomasi yang menghubungkan berbagai aplikasi bisnis Anda. Dengan mengintegrasikan ChatGPT ke Zapier, Anda bisa membuat workflow otomatis yang menghemat waktu secara signifikan.
 
-**Cara Kerja Zapier dengan ChatGPT:**
+Cara Kerja Zapier dengan ChatGPT:
 
 Zapier bekerja dengan konsep trigger dan action. Trigger adalah event yang memulai workflow, sedangkan action adalah tugas yang dijalankan secara otomatis. Dengan ChatGPT API, Anda bisa menambahkan langkah AI ke dalam workflow Zapier Anda.
 
-**Contoh Workflow Otomatis:**
+Contoh Workflow Otomatis:
 
 Workflow 1, Otomasi Respons Email: Trigger ada email baru masuk yang mengandung kata "harga" atau "promo". Action: ChatGPT membaca isi email dan membuat draft balasan berdasarkan template yang sudah ditentukan. Action selanjutnya: draft balasan dikirim ke Gmail Anda untuk review sebelum dikirim ke pelanggan.
 
@@ -1484,7 +1484,7 @@ Workflow 2, Otomasi Konten Media Sosial: Trigger ada produk baru ditambahkan ke 
 
 Workflow 3, Otomasi Customer Support: Trigger ada pesan baru masuk via WhatsApp Business API. Action: ChatGPT menganalisis pesan dan mengategorikannya (pertanyaan produk, komplain, permintaan informasi). Action selanjutnya: untuk pertanyaan sederhana, ChatGPT membuat respons otomatis. Untuk komplain, pesan diteruskan ke tim CS dengan ringkasan dan saran respons.
 
-**Langkah-Langkah Setup Zapier:**
+Langkah-Langkah Setup Zapier:
 
 1. Daftar akun Zapier di zapier.com (versi gratis mendukung 5 workflow)
 2. Buat Zap baru dan tentukan trigger app (misalnya Gmail)
@@ -1495,7 +1495,7 @@ Workflow 3, Otomasi Customer Support: Trigger ada pesan baru masuk via WhatsApp 
 7. Tambahkan action step selanjutnya untuk mengirim hasil ke app tujuan
 8. Test workflow dan aktifkan
 
-**Estimasi Biaya dan ROI:**
+Estimasi Biaya dan ROI:
 
 Zapier free: 100 tasks per bulan, cukup untuk UMKM kecil. Zapier Starter: USD 19,99 per bulan (Rp 300.000), 750 tasks. Dengan asumsi setiap task menghemat 2 menit waktu manusia, 750 tasks menghemat 25 jam per bulan. Jika nilai waktu Anda Rp 100.000 per jam, ROI-nya adalah Rp 2.500.000 dikurangi Rp 300.000 = Rp 2.200.000 per bulan.
 
@@ -1503,19 +1503,19 @@ Zapier free: 100 tasks per bulan, cukup untuk UMKM kecil. Zapier Starter: USD 19
 
 Google Workspace (Gmail, Google Docs, Google Sheets, Google Calendar) adalah suite produktivitas yang digunakan sebagian besar UMKM Indonesia. Integrasi dengan ChatGPT bisa meningkatkan efisiensi secara dramatis.
 
-**Integrasi dengan Gmail:**
+Integrasi dengan Gmail:
 
 Gunakan ChatGPT untuk membuat template email yang bisa Anda simpan sebagai template di Gmail. Untuk setiap jenis komunikasi rutin (penawaran, follow-up, konfirmasi pesanan, penanganan komplain), buatlah template yang bisa dipanggil dengan beberapa klik.
 
 Prompt: "Buatkan 10 template email Gmail untuk bisnis [jenis bisnis] saya. Kategorikan ke dalam: (1) konfirmasi pesanan, (2) notifikasi pengiriman, (3) follow-up pasca pembelian, (4) penanganan komplain, (5) penawaran ulang. Setiap template harus memiliki variabel yang bisa diganti seperti [nama pelanggan], [nama produk], dan [nomor pesanan]."
 
-**Integrasi dengan Google Sheets:**
+Integrasi dengan Google Sheets:
 
 ChatGPT bisa membantu Anda membuat formula Google Sheets yang kompleks untuk analisis data bisnis.
 
 Prompt: "Buatkan template Google Sheets untuk tracking penjualan harian dengan fitur: (1) input data penjualan (tanggal, produk, jumlah, harga), (2) kalkulasi otomatis total dan profit, (3) dashboard ringkasan bulanan dengan chart, (4) peringatan stok rendah, (5) analisis produk terlaris. Berikan formula lengkap untuk setiap cell dan instruksi setup."
 
-**Integrasi dengan Google Docs:**
+Integrasi dengan Google Docs:
 
 Gunakan ChatGPT untuk membuat draft dokumen bisnis di Google Docs, seperti proposal, kontrak, SOP, dan laporan.
 
@@ -1523,14 +1523,14 @@ Gunakan ChatGPT untuk membuat draft dokumen bisnis di Google Docs, seperti propo
 
 Jika bisnis Anda menggunakan Slack atau platform komunikasi tim lainnya, ChatGPT bisa membantu mengoptimalkan komunikasi internal.
 
-**Penerapan ChatGPT untuk Komunikasi Tim:**
+Penerapan ChatGPT untuk Komunikasi Tim:
 
 - Membuat ringkasan diskusi channel Slack yang panjang
 - Menyusun agenda meeting yang terstruktur
 - Membuat status update otomatis untuk proyek
 - Menulis pengumuman internal yang jelas dan informatif
 
-**Prompt Template:**
+Prompt Template:
 
 ```
 Buatkan template pesan Slack untuk:
@@ -1548,7 +1548,7 @@ Tone: profesional namun hangat
 
 Customer Relationship Management (CRM) adalah tulang punggung pengelolaan hubungan pelanggan. ChatGPT bisa meningkatkan efektivitas CRM Anda.
 
-**Integrasi ChatGPT dengan CRM:**
+Integrasi ChatGPT dengan CRM:
 
 ChatGPT bisa membantu dalam beberapa aspek CRM:
 
@@ -1558,7 +1558,7 @@ Kedua, segmentasi pelanggan. ChatGPT bisa membantu Anda merumuskan kriteria segm
 
 Ketiga, personalisasi komunikasi. Berdasarkan data interaksi di CRM, ChatGPT bisa membuat pesan yang dipersonalisasi untuk setiap segmen pelanggan.
 
-**Prompt untuk CRM Optimization:**
+Prompt untuk CRM Optimization:
 
 ```
 Saya menggunakan [nama CRM] untuk mengelola [jumlah] kontak pelanggan.
@@ -1577,11 +1577,11 @@ Bantu saya:
 
 Tools seperti Trello, Asana, atau Notion bisa diintegrasikan dengan ChatGPT untuk meningkatkan efisiensi manajemen proyek.
 
-**Penerapan ChatGPT untuk Project Management:**
+Penerapan ChatGPT untuk Project Management:
 
 ChatGPT bisa membantu membuat task descriptions yang jelas, menyusun project timeline, membuat status report, dan mengidentifikasi risiko proyek.
 
-**Prompt Template:**
+Prompt Template:
 
 ```
 Buatkan project plan untuk [nama proyek] dengan detail:
@@ -1605,7 +1605,7 @@ Output yang dibutuhkan:
 
 Menggabungkan ChatGPT dengan berbagai tools bisnis Anda bisa menciptakan workflow otomatis yang sangat powerful.
 
-**Contoh Automation Workflow Lengkap:**
+Contoh Automation Workflow Lengkap:
 
 Workflow Penerimaan Pesanan hingga Fulfillment:
 
@@ -1617,19 +1617,19 @@ Step 1: Pesanan masuk via marketplace (trigger otomatis). Step 2: ChatGPT mempro
 
 Meskipun Anda bukan seorang programmer, memahami dasar-dasar API akan membantu Anda memanfaatkan ChatGPT secara lebih mendalam.
 
-**Apa Itu API?**
+Apa Itu API?
 
 API (Application Programming Interface) adalah jembatan yang memungkinkan dua aplikasi berkomunikasi. ChatGPT API memungkinkan Anda mengirim teks ke ChatGPT dan menerima respons secara otomatis dari aplikasi Anda sendiri, tanpa harus membuka website ChatGPT.
 
-**Cara Kerja ChatGPT API:**
+Cara Kerja ChatGPT API:
 
 Konsepnya sederhana. Aplikasi Anda mengirim permintaan (request) berisi teks atau prompt ke server OpenAI. Server OpenAI memproses permintaan tersebut menggunakan model AI. Server mengembalikan respons ke aplikasi Anda. Aplikasi Anda menampilkan atau memproses respons tersebut.
 
-**Kapan Anda Membutuhkan API?**
+Kapan Anda Membutuhkan API?
 
 Anda memerlukan API jika: Anda ingin ChatGPT terintegrasi langsung di website Anda sebagai chatbot. Anda ingin memproses data dalam jumlah besar secara otomatis. Anda ingin membangun aplikasi custom yang menggunakan kemampuan AI. Anda ingin mengotomatisasi workflow yang melibatkan analisis teks.
 
-**Opsi No-Code untuk Mengakses API:**
+Opsi No-Code untuk Mengakses API:
 
 Jika Anda tidak bisa coding, gunakan platform no-code berikut untuk mengakses ChatGPT API: Zapier (seperti yang dijelaskan di bagian sebelumnya), Make.com (alternatif Zapier dengan harga lebih terjangkau), Bubble.io (untuk membangun aplikasi web dengan AI), atau Voiceflow (untuk membangun chatbot tanpa coding).
 
@@ -1664,7 +1664,7 @@ Jika Anda tidak bisa coding, gunakan platform no-code berikut untuk mengakses Ch
 
 Custom Instructions adalah fitur yang memungkinkan Anda mengatur perilaku default ChatGPT. Di tingkat advanced, Anda bisa menggunakan Custom Instructions untuk menciptakan "personalitas AI" yang konsisten dengan brand Anda.
 
-**Struktur Custom Instructions Advanced:**
+Struktur Custom Instructions Advanced:
 
 ```
 IDENTITAS DAN KONTEKS:
@@ -1694,7 +1694,7 @@ Jika tidak yakin tentang suatu fakta, katakan dengan jujur.
 
 Custom GPTs memungkinkan Anda membuat versi ChatGPT yang dikustomisasi untuk tujuan spesifik. System prompt adalah instruksi dasar yang mendefinisikan perilaku Custom GPT Anda.
 
-**Contoh System Prompt untuk Custom GPT Marketing Assistant:**
+Contoh System Prompt untuk Custom GPT Marketing Assistant:
 
 ```
 Kamu adalah Asisten Marketing [Nama Brand], seorang specialist pemasaran digital
@@ -1726,7 +1726,7 @@ ATURAN:
 
 Conversation branching adalah teknik di mana Anda mengembangkan percakapan ke beberapa arah berbeda dari satu titik awal. Ini berguna untuk mengeksplorasi berbagai skenario bisnis.
 
-**Cara Menerapkan Conversation Branching:**
+Cara Menerapkan Conversation Branching:
 
 Mulai dengan satu percakapan yang berisi konteks bisnis Anda. Dari percakapan ini, buat beberapa branch (cabang) untuk mengeksplorasi skenario berbeda.
 
@@ -1738,7 +1738,7 @@ Di ChatGPT, Anda bisa menggunakan fitur "Branching" (pada versi Plus) atau membu
 
 ChatGPT memiliki fitur memory yang memungkinkan ia mengingat informasi penting dari percakapan sebelumnya. Mengelola memory dengan baik akan meningkatkan kualitas interaksi Anda.
 
-**Cara Mengelola Memory:**
+Cara Mengelola Memory:
 
 Tambahkan informasi penting ke memory secara eksplisit. Contoh: "Ingat bahwa bisnis saya berlokasi di Yogyakarta, target pasar kami adalah mahasiswa, dan budget marketing bulanan kami Rp 3 juta."
 
@@ -1746,7 +1746,7 @@ Review memory secara berkala dan hapus informasi yang sudah tidak relevan. Memor
 
 Gunakan memory untuk preferensi yang konsisten, bukan untuk informasi yang berubah-ubah. Contoh yang baik untuk memory: brand voice, target pasar, nilai perusahaan. Contoh yang tidak cocok untuk memory: promo minggu ini, stok barang hari ini.
 
-**Membangun Prompt Library untuk Tim:**
+Membangun Prompt Library untuk Tim:
 
 Salah satu aset paling berharga yang bisa Anda bangun dengan ChatGPT adalah prompt library, yaitu koleksi prompt yang telah teruji dan terbukti menghasilkan output berkualitas tinggi untuk bisnis Anda. Prompt library ini bisa digunakan oleh seluruh tim untuk memastikan konsistensi dan efisiensi.
 
@@ -1762,7 +1762,7 @@ Simpan prompt library dalam dokumen yang bisa diakses seluruh tim, seperti Googl
 
 Menggunakan AI secara etis sangat penting untuk menjaga reputasi bisnis Anda dan mematuhi regulasi yang berlaku.
 
-**Prinsip Etika AI untuk UMKM:**
+Prinsip Etika AI untuk UMKM:
 
 Transparansi: Jika Anda menggunakan AI untuk berkomunikasi dengan pelanggan (misalnya chatbot), beri tahu mereka bahwa mereka sedang berinteraksi dengan AI. Ini membangun kepercayaan dan memenuhi prinsip transparansi.
 
@@ -1778,7 +1778,7 @@ Akuntabilitas: Anda sebagai pemilik bisnis bertanggung jawab penuh atas semua ou
 
 Hallucination adalah fenomena ketika AI menghasilkan informasi yang terdengar meyakinkan tetapi sebenarnya salah atau tidak akurat. Ini adalah salah satu tantangan terbesar dalam menggunakan ChatGPT untuk bisnis.
 
-**Strategi Mengurangi Hallucination:**
+Strategi Mengurangi Hallucination:
 
 Strategi 1, Minta Sumber: Tambahkan instruksi "Hanya sertakan fakta yang kamu yakin kebenarannya. Jika tidak yakin, katakan dengan jelas."
 
@@ -1794,7 +1794,7 @@ Strategi 5, Chain of Verification: Minta ChatGPT untuk memverifikasi jawabannya 
 
 Menerapkan quality control yang ketat terhadap output ChatGPT sangat penting untuk menjaga kualitas bisnis Anda.
 
-**Framework QC 4-Layer:**
+Framework QC 4-Layer:
 
 Layer 1, Akurasi Fakta: Verifikasi semua data, angka, dan fakta yang disebutkan. Cross-reference dengan sumber terpercaya.
 
@@ -1804,7 +1804,7 @@ Layer 3, Brand Consistency: Periksa apakah tone, gaya bahasa, dan pesan konsiste
 
 Layer 4, Actionability: Evaluasi apakah output memberikan langkah-langkah konkret yang bisa langsung diterapkan.
 
-**Checklist QC untuk Setiap Output:**
+Checklist QC untuk Setiap Output:
 
 1. Apakah informasi faktual sudah diverifikasi?
 2. Apakah output relevan dengan konteks bisnis saya?
@@ -1822,7 +1822,7 @@ Berikut adalah beberapa teknik prompting advanced yang bisa meningkatkan kualita
 
 **Socratic Method:** Minta ChatGPT mengajukan pertanyaan balik untuk memperdalam analisis. Prompt: "Saya ingin mengembangkan bisnis saya ke [arah]. Sebelum memberikan saran, ajukan 10 pertanyaan kritis kepada saya untuk memahami kesiapan dan konteks bisnis saya secara lebih mendalam."
 
-**Reverse Engineering: Minta ChatGPT memulai dari hasil yang diinginkan dan bekerja mundur. Prompt: "Saya ingin mencapai revenue Rp 1 miliar per bulan dalam 12 bulan. Saat ini revenue saya Rp 100 juta per bulan. Bekerja mundur dari target tersebut, identifikasi milestone bulanan, strategi yang diperlukan, dan sumber daya yang dibutuhkan."
+Reverse Engineering: Minta ChatGPT memulai dari hasil yang diinginkan dan bekerja mundur. Prompt: "Saya ingin mencapai revenue Rp 1 miliar per bulan dalam 12 bulan. Saat ini revenue saya Rp 100 juta per bulan. Bekerja mundur dari target tersebut, identifikasi milestone bulanan, strategi yang diperlukan, dan sumber daya yang dibutuhkan."
 
 ### 9.9 Tips dan Best Practices Bab 9
 
@@ -1848,15 +1848,15 @@ Berikut adalah beberapa teknik prompting advanced yang bisa meningkatkan kualita
 
 ### 10.1 Studi Kasus 1: Toko Online Fashion "HijabCantik"
 
-**Latar Belakang:**
+Latar Belakang:
 
 HijabCantik adalah toko online fashion muslim yang berbasis di Bandung, Jawa Barat. Didirikan pada 2022 oleh Rina Agustina (28 tahun), bisnis ini menjual hijab, gamis, dan aksesori muslim untuk wanita usia 18 sampai 35 tahun. Sebelum mengadopsi ChatGPT, Rina mengerjakan semuanya sendiri, mulai dari fotografi produk, upload ke marketplace, membalas chat pelanggan, membuat konten Instagram, hingga mengelola keuangan.
 
-**Tantangan Sebelum ChatGPT:**
+Tantangan Sebelum ChatGPT:
 
 Rina menghabiskan 12-14 jam per hari untuk operasional bisnis. Customer service menyita 4 jam per hari (membalas 80-100 chat via WhatsApp dan marketplace). Pembuatan konten media sosial membutuhkan 8-10 jam per minggu. Administrasi dan pembukuan memakan waktu 2 jam per hari. Rina tidak memiliki waktu untuk strategi pertumbuhan bisnis. Revenue stagnan di Rp 35 juta per bulan dengan profit margin 20 persen (Rp 7 juta per bulan).
 
-**Penerapan ChatGPT:**
+Penerapan ChatGPT:
 
 Bulan 1: Rina mulai menggunakan ChatGPT untuk customer service. Ia membuat 50 template respons untuk pertanyaan yang paling sering ditanyakan. Hasil: waktu balas chat berkurang dari rata-rata 5 menit menjadi 30 detik. Waktu yang dihabiskan untuk CS turun dari 4 jam menjadi 1,5 jam per hari.
 
@@ -1866,7 +1866,7 @@ Bulan 3: Rina menggunakan ChatGPT untuk analisis data penjualan dan optimasi lis
 
 Bulan 4-6: Rina menambahkan email marketing, otomatisasi follow-up, dan perencanaan ekspansi produk dengan bantuan ChatGPT.
 
-**Hasil Setelah 6 Bulan:**
+Hasil Setelah 6 Bulan:
 
 - Waktu kerja Rina turun dari 14 jam menjadi 8 jam per hari (penghematan 6 jam per hari, 30 jam per minggu)
 - Revenue meningkat dari Rp 35 juta menjadi Rp 98 juta per bulan (naik 180 persen)
@@ -1876,7 +1876,7 @@ Bulan 4-6: Rina menambahkan email marketing, otomatisasi follow-up, dan perencan
 - Rating toko di marketplace meningkat dari 4.6 menjadi 4.9
 - Rina bisa merekrut 2 karyawan baru untuk menangani pengiriman dan packing
 
-**Breakdown Penghematan Waktu:**
+Breakdown Penghematan Waktu:
 
 | Aktivitas | Sebelum (jam/minggu) | Sesudah (jam/minggu) | Penghematan |
 |---|---|---|---|
@@ -1884,19 +1884,19 @@ Bulan 4-6: Rina menambahkan email marketing, otomatisasi follow-up, dan perencan
 | Konten Media Sosial | 10 | 3 | 7 |
 | Administrasi | 14 | 7 | 7 |
 | Analisis dan Strategi | 0 | 3 | -3 (tambahan) |
-| **Total** | **52** | **20,5** | **31,5** |
+| Total | 52 | 20,5 | 31,5 |
 
 ### 10.2 Studi Kasus 2: Konsultan Keuangan "Financia Consulting"
 
-**Latar Belakang:**
+Latar Belakang:
 
 Financia Consulting adalah firma konsultan keuangan kecil di Jakarta yang didirikan oleh Budi Hartono (35 tahun). Klien utamanya adalah UMKM yang membutuhkan bantuan dalam perencanaan keuangan, pengurusan kredit bank, dan pelaporan pajak. Tim terdiri dari Budi sendiri dan dua konsultan junior.
 
-**Tantangan Sebelum ChatGPT:**
+Tantangan Sebelum ChatGPT:
 
 Budi menghabiskan 60 persen waktunya untuk riset dan penyusunan laporan. Setiap proposal konsultasi membutuhkan 4-6 jam untuk ditulis. Laporan analisis keuangan klien membutuhkan 8-12 jam per klien. Riset regulasi pajak terbaru membutuhkan 3-4 jam per minggu. Budi hanya bisa menangani 8 klien aktif per bulan karena keterbatasan waktu. Revenue: Rp 40 juta per bulan dari 8 klien (rata-rata Rp 5 juta per klien).
 
-**Penerapan ChatGPT:**
+Penerapan ChatGPT:
 
 Bulan 1: Budi menggunakan ChatGPT untuk mempercepat penyusunan proposal dan laporan. Ia membuat template proposal yang disesuaikan dengan jenis klien. ChatGPT digunakan untuk menghasilkan draft awal yang kemudian ia review dan sempurnakan. Hasil: waktu penyusunan proposal turun dari 5 jam menjadi 1,5 jam.
 
@@ -1906,7 +1906,7 @@ Bulan 3: Budi mengembangkan Custom GPT khusus untuk analisis keuangan UMKM. Ia m
 
 Bulan 4-6: Budi menggunakan ChatGPT untuk membuat konten edukasi keuangan di LinkedIn dan Instagram sebagai strategi personal branding. Ia juga mengotomatisasi follow-up dengan calon klien dan pembuatan materi presentasi.
 
-**Hasil Setelah 6 Bulan:**
+Hasil Setelah 6 Bulan:
 
 - Kapasitas klien meningkat dari 8 menjadi 20 klien aktif per bulan (naik 150 persen)
 - Revenue meningkat dari Rp 40 juta menjadi Rp 100 juta per bulan (naik 150 persen)
@@ -1916,7 +1916,7 @@ Bulan 4-6: Budi menggunakan ChatGPT untuk membuat konten edukasi keuangan di Lin
 - Budi berhasil mendapatkan 2 kontrak retainer dengan perusahaan menengah (Rp 15 juta per bulan per kontrak)
 - LinkedIn followers tumbuh dari 500 menjadi 3.500
 
-**Breakdown Penghematan Waktu per Aktivitas:**
+Breakdown Penghematan Waktu per Aktivitas:
 
 | Aktivitas | Sebelum (jam/minggu) | Sesudah (jam/minggu) | Penghematan |
 |---|---|---|---|
@@ -1924,19 +1924,19 @@ Bulan 4-6: Budi menggunakan ChatGPT untuk membuat konten edukasi keuangan di Lin
 | Penyusunan Laporan | 20 | 7 | 13 |
 | Proposal Writing | 10 | 4 | 6 |
 | Konten dan Personal Branding | 0 | 5 | -5 (tambahan) |
-| **Total** | **55** | **24** | **31** |
+| Total | 55 | 24 | 31 |
 
 ### 10.3 Studi Kasus 3: Startup F&B "KopiKita"
 
-**Latar Belakang:**
+Latar Belakang:
 
 KopiKita adalah startup F&B yang mengelola tiga outlet kopi di Surabaya. Didirikan oleh Dimas Prasetyo (30 tahun) dan istrinya pada 2023, KopiKita menawarkan kopi specialty dengan konsep grab-and-go. Tim terdiri dari Dimas (strategi dan keuangan), istrinya (operasional), dan 8 barista.
 
-**Tantangan Sebelum ChatGPT:**
+Tantangan Sebelum ChatGPT:
 
 Dimas dan istrinya mengerjakan 80 persen tugas operasional dan administratif sendiri. Mereka kewalahan dengan tugas repetitif: membuat jadwal shift barista, menghitung HPP per menu, merespons review online, membuat laporan harian ke investor, meriset supplier, dan merencanakan promo. Dimas tidak memiliki waktu untuk memikirkan strategi ekspansi yang sudah ia rencanakan. Revenue total tiga outlet: Rp 120 juta per bulan. Net profit margin: 12 persen (Rp 14,4 juta per bulan).
 
-**Penerapan ChatGPT:**
+Penerapan ChatGPT:
 
 Bulan 1: Dimas mengotomatisasi tugas-tugas administratif. ChatGPT digunakan untuk membuat jadwal shift mingguan berdasarkan ketersediaan karyawan dan prediksi traffic. Template laporan harian dan mingguan dibuat dengan bantuan ChatGPT. Hasil: waktu admin turun dari 3 jam menjadi 45 menit per hari.
 
@@ -1946,7 +1946,7 @@ Bulan 3: Dimas mengotomatisasi manajemen reputasi online. ChatGPT membuat respon
 
 Bulan 4-6: Dimas menggunakan ChatGPT untuk menyusun business plan ekspansi, menganalisis lokasi potensial untuk outlet keempat, dan mempersiapkan pitch deck untuk investor. Ia juga mengotomatisasi 80 persen tugas repetitif yang sebelumnya menyita waktunya.
 
-**Hasil Setelah 6 Bulan:**
+Hasil Setelah 6 Bulan:
 
 - Dimas bisa mengalokasikan 60 persen waktunya untuk strategi (sebelumnya hanya 10 persen)
 - Revenue meningkat dari Rp 120 juta menjadi Rp 180 juta per bulan (naik 50 persen)
@@ -1955,7 +1955,7 @@ Bulan 4-6: Dimas menggunakan ChatGPT untuk menyusun business plan ekspansi, meng
 - Employee satisfaction meningkat karena jadwal kerja yang lebih terstruktur
 - Program loyalty berhasil meningkatkan repeat order rate dari 35 persen menjadi 58 persen
 
-**Breakdown Penghematan Waktu:**
+Breakdown Penghematan Waktu:
 
 | Aktivitas | Sebelum (jam/minggu) | Sesudah (jam/minggu) | Penghematan |
 |---|---|---|---|
@@ -1963,13 +1963,13 @@ Bulan 4-6: Dimas menggunakan ChatGPT untuk menyusun business plan ekspansi, meng
 | Analisis HPP dan Pricing | 8 | 2 | 6 |
 | Manajemen Reputasi Online | 7 | 1,5 | 5,5 |
 | Scheduling dan HR | 5 | 1 | 4 |
-| **Total** | **41** | **9,5** | **31,5** |
+| Total | 41 | 9,5 | 31,5 |
 
 ### 10.4 ROI Calculator
 
 Berikut adalah kalkulator ROI untuk mengukur manfaat ChatGPT bagi bisnis UMKM Anda. Tiga skenario disajikan untuk memberikan gambaran yang realistis.
 
-**Skenario 1: Konservatif (ChatGPT Free)**
+Skenario 1: Konservatif (ChatGPT Free)
 
 Asumsi: Anda menggunakan ChatGPT versi gratis. Anda meluangkan waktu 30 menit per hari untuk belajar dan menggunakan ChatGPT. Anda berhasil mengotomatisasi tugas-tugas dasar seperti menulis email dan membuat caption media sosial.
 
@@ -1980,11 +1980,11 @@ Perhitungan:
 - Nilai penghematan bruto: 20 jam x Rp 100.000 = Rp 2.000.000 per bulan
 - Biaya ChatGPT: Rp 0 (gratis)
 - Biaya Zapier free: Rp 0
-- **Nilai penghematan neto: Rp 2.000.000 per bulan**
-- **Nilai penghematan tahunan: Rp 24.000.000**
+- Nilai penghematan neto: Rp 2.000.000 per bulan
+- Nilai penghematan tahunan: Rp 24.000.000
 - ROI: infinite (karena tidak ada investasi finansial, hanya waktu belajar)
 
-**Skenario 2: Moderat (ChatGPT Plus)**
+Skenario 2: Moderat (ChatGPT Plus)
 
 Asumsi: Anda berlangganan ChatGPT Plus (Rp 300.000 per bulan). Anda menggunakan GPT-4 untuk tugas-tugas yang lebih kompleks seperti analisis data, pembuatan business plan, dan konten berkualitas tinggi. Anda juga menggunakan Zapier Starter untuk otomasi dasar.
 
@@ -1998,11 +1998,11 @@ Perhitungan:
 - Biaya ChatGPT Plus: Rp 300.000 per bulan
 - Biaya Zapier Starter: Rp 300.000 per bulan
 - Total biaya: Rp 600.000 per bulan
-- **Nilai penghematan neto: Rp 6.900.000 per bulan**
-- **Nilai penghematan tahunan: Rp 82.800.000**
-- **ROI: (Rp 6.900.000 / Rp 600.000) x 100% = 1.150%**
+- Nilai penghematan neto: Rp 6.900.000 per bulan
+- Nilai penghematan tahunan: Rp 82.800.000
+- ROI: (Rp 6.900.000 / Rp 600.000) x 100% = 1.150%
 
-**Skenario 3: Optimis (ChatGPT Plus + Integrasi Penuh)**
+Skenario 3: Optimis (ChatGPT Plus + Integrasi Penuh)
 
 Asumsi: Anda berlangganan ChatGPT Plus dan menggunakan integrasi penuh dengan Zapier, CRM, dan tools otomasi lainnya. Anda mengotomatisasi 80 persen tugas repetitif. Tim Anda (3-5 orang) juga menggunakan ChatGPT secara aktif.
 
@@ -2020,11 +2020,11 @@ Perhitungan:
 - Biaya Zapier: Rp 500.000 per bulan
 - Biaya tools tambahan: Rp 200.000 per bulan
 - Total biaya: Rp 1.000.000 per bulan
-- **Nilai penghematan neto: Rp 21.000.000 per bulan**
-- **Nilai penghematan tahunan: Rp 252.000.000**
-- **ROI: (Rp 21.000.000 / Rp 1.000.000) x 100% = 2.100%**
+- Nilai penghematan neto: Rp 21.000.000 per bulan
+- Nilai penghematan tahunan: Rp 252.000.000
+- ROI: (Rp 21.000.000 / Rp 1.000.000) x 100% = 2.100%
 
-**Ringkasan Perbandingan Tiga Skenario:**
+Ringkasan Perbandingan Tiga Skenario:
 
 | Metrik | Konservatif | Moderat | Optimis |
 |---|---|---|---|
@@ -2039,7 +2039,7 @@ Perhitungan:
 
 Berikut adalah rencana implementasi ChatGPT untuk bisnis Anda selama 30 hari. Rencana ini dirancang agar Anda bisa mulai melihat hasil dalam minggu pertama dan terus membangun momentum.
 
-**Minggu 1: Fondasi (Hari 1-7)**
+Minggu 1: Fondasi (Hari 1-7)
 
 Hari 1: Daftar akun ChatGPT dan jelajahi interface. Luangkan 1 jam untuk mencoba berbagai percakapan dasar. Isi Custom Instructions dengan informasi bisnis Anda.
 
@@ -2055,7 +2055,7 @@ Hari 6: Terapkan ChatGPT untuk tugas ketiga (misalnya, analisis data atau pembua
 
 Hari 7: Evaluasi minggu pertama. Hitung total waktu yang dihemat. Catat tantangan yang dihadapi dan solusinya. Refine template prompt berdasarkan pengalaman.
 
-**Minggu 2: Ekspansi (Hari 8-14)**
+Minggu 2: Ekspansi (Hari 8-14)
 
 Hari 8-9: Pelajari teknik prompt engineering yang lebih advanced (role assignment, chain-of-thought, few-shot). Terapkan pada tugas-tugas bisnis Anda.
 
@@ -2065,7 +2065,7 @@ Hari 12-13: Mulai gunakan ChatGPT untuk tugas-tugas strategis seperti analisis k
 
 Hari 14: Evaluasi minggu kedua. Hitung total penghematan waktu untuk 2 minggu. Identifikasi area baru yang bisa dioptimalkan.
 
-**Minggu 3: Integrasi (Hari 15-21)**
+Minggu 3: Integrasi (Hari 15-21)
 
 Hari 15-16: Pelajari dasar-dasar Zapier dan buat akun. Identifikasi workflow yang bisa diotomatisasi dengan Zapier + ChatGPT.
 
@@ -2075,7 +2075,7 @@ Hari 19-20: Implementasikan workflow otomatis dan monitor hasilnya. Buat workflo
 
 Hari 21: Evaluasi minggu ketiga. Hitung penghematan waktu dari otomasi. Dokumentasikan semua workflow yang telah dibuat.
 
-**Minggu 4: Optimasi (Hari 22-30)**
+Minggu 4: Optimasi (Hari 22-30)
 
 Hari 22-23: Review dan refine semua template prompt dan workflow yang telah dibuat. Hapus yang tidak efektif, perbaiki yang kurang optimal.
 
@@ -2087,7 +2087,7 @@ Hari 28-29: Hitung ROI secara komprehensif. Bandingkan dengan tiga skenario di b
 
 Hari 30: Rayakan pencapaian Anda! Buat rencana untuk bulan kedua dengan target yang lebih ambisius.
 
-**Milestone dan Target:**
+Milestone dan Target:
 
 | Minggu | Target | Metrik Keberhasilan |
 |---|---|---|
@@ -2100,7 +2100,7 @@ Hari 30: Rayakan pencapaian Anda! Buat rencana untuk bulan kedua dengan target y
 
 Berikut adalah kumpulan prompt template yang dikategorikan berdasarkan fungsi bisnis. Setiap template bisa langsung Anda gunakan dengan mengisi bagian yang berada di dalam kurung siku.
 
-**Kategori: Customer Service (15 Prompt)**
+### Kategori: Customer Service (15 Prompt)
 
 1. "Buatkan respons ramah untuk pelanggan yang menanyakan status pesanan nomor [nomor]. Pesanan dikirim via [kurir] pada [tanggal] dengan estimasi sampai [tanggal]."
 
@@ -2132,7 +2132,7 @@ Berikut adalah kumpulan prompt template yang dikategorikan berdasarkan fungsi bi
 
 15. "Buatkan program referral sederhana yang bisa dipromosikan via WhatsApp. Sertakan mekanisme, reward, dan template pesan."
 
-**Kategori: Konten Media Sosial (20 Prompt)**
+### Kategori: Konten Media Sosial (20 Prompt)
 
 16. "Buatkan 30 ide konten Instagram untuk [jenis bisnis] yang mencakup edukasi, hiburan, promosi, dan behind the scene."
 
@@ -2174,7 +2174,7 @@ Berikut adalah kumpulan prompt template yang dikategorikan berdasarkan fungsi bi
 
 35. "Buatkan analisis kompetitor di media sosial: [kompetitor A] vs [kompetitor B]. Bandingkan konten, engagement, dan strategi."
 
-**Kategori: Copywriting dan Penjualan (20 Prompt)**
+### Kategori: Copywriting dan Penjualan (20 Prompt)
 
 36. "Buatkan 5 variasi headline untuk landing page [produk/jasa]. Target: [audiens]. Goal: [konversi/awareness]."
 
@@ -2216,7 +2216,7 @@ Berikut adalah kumpulan prompt template yang dikategorikan berdasarkan fungsi bi
 
 55. "Buatkan 5 email nurture sequence untuk lead yang baru download [lead magnet]. Goal: konversi ke pembeli."
 
-**Kategori: Analisis dan Strategi (20 Prompt)**
+### Kategori: Analisis dan Strategi (20 Prompt)
 
 56. "Lakukan analisis SWOT untuk [bisnis saya] berdasarkan informasi berikut: [deskripsi bisnis, pasar, kompetitor]."
 
@@ -2258,7 +2258,7 @@ Berikut adalah kumpulan prompt template yang dikategorikan berdasarkan fungsi bi
 
 75. "Analisis dampak kenaikan [biaya bahan baku/BBM/regulasi baru] terhadap bisnis saya. Berikan strategi mitigasi."
 
-**Kategori: Operasional dan Produktivitas (15 Prompt)**
+### Kategori: Operasional dan Produktivitas (15 Prompt)
 
 76. "Buatkan SOP standar untuk [proses bisnis: penerimaan pesanan/pengiriman/penanganan komplain]. Format step-by-step."
 
@@ -2290,7 +2290,7 @@ Berikut adalah kumpulan prompt template yang dikategorikan berdasarkan fungsi bi
 
 90. "Buatkan sistem reward dan punishment untuk karyawan [jenis bisnis]. Adil, transparan, dan memotivasi."
 
-**Kategori: Pengembangan Diri dan Leadership (10 Prompt)**
+### Kategori: Pengembangan Diri dan Leadership (10 Prompt)
 
 91. "Buatkan rencana pengembangan diri 90 hari untuk pemilik UMKM yang ingin meningkatkan keterampilan [leadership/financial/marketing]."
 
@@ -2312,7 +2312,7 @@ Berikut adalah kumpulan prompt template yang dikategorikan berdasarkan fungsi bi
 
 100. "Buatkan daftar 10 mentor atau role model bisnis Indonesia yang bisa dipelajari, dengan pelajaran kunci dari masing-masing."
 
-**Kategori: Bonus dan Spesial (10 Prompt)**
+### Kategori: Bonus dan Spesial (10 Prompt)
 
 101. "Buatkan pitch deck 10 slide untuk [startup/bisnis] yang akan presentasi ke investor. Struktur: problem, solution, market, traction, team, financials, ask."
 
@@ -2368,7 +2368,7 @@ Terima kasih telah membaca buku ini. Semoga menjadi awal dari transformasi digit
 
 ![Tentang Penulis](../assets/cg-ch9-case.png)
 
-**Siraj Nur Ihrom** adalah CEO dan Founder SNISHOP.COM, platform solusi bisnis digital untuk UMKM Indonesia. Dengan pengalaman lebih dari satu dekade di bidang teknologi dan bisnis digital, Siraj memiliki visi untuk mendemokratisasi akses terhadap tools dan pengetahuan bisnis berkualitas tinggi bagi jutaan pelaku UMKM di Indonesia.
+Siraj Nur Ihrom adalah CEO dan Founder SNISHOP.COM, platform solusi bisnis digital untuk UMKM Indonesia. Dengan pengalaman lebih dari satu dekade di bidang teknologi dan bisnis digital, Siraj memiliki visi untuk mendemokratisasi akses terhadap tools dan pengetahuan bisnis berkualitas tinggi bagi jutaan pelaku UMKM di Indonesia.
 
 Melalui SNISHOP.COM, Siraj telah membantu ribuan UMKM Indonesia mengadopsi teknologi digital untuk meningkatkan produktivitas, memperluas jangkauan pasar, dan meningkatkan profitabilitas. Pemahaman mendalamnya tentang tantangan unik yang dihadapi UMKM Indonesia menjadi fondasi dari setiap produk dan konten yang dihasilkan.
 
