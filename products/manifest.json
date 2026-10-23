@@ -1173,6 +1173,32 @@
       "pages": 65,
       "producedAt": "2026-10-23T15:23:24.801Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-wordpress-blogging-umkm-ultimate",
+      "title": "Panduan Lengkap WordPress dan Blogging untuk Bisnis UMKM [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-wordpress-blogging-umkm-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 16706297
+        },
+        {
+          "file": "products\\panduan-wordpress-blogging-umkm-ultimate.docx",
+          "kind": "docx",
+          "bytes": 29791
+        }
+      ],
+      "wordCount": 4479,
+      "pages": 38,
+      "producedAt": "2026-10-23T15:27:11.578Z",
+      "status": "produced"
     }
   ]
 }
