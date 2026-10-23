@@ -589,12 +589,17 @@
         {
           "file": "products\\panduan-email-marketing-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 15199776
+          "bytes": 16323090
+        },
+        {
+          "file": "products\\panduan-email-marketing-ultimate.docx",
+          "kind": "docx",
+          "bytes": 37678
         }
       ],
       "wordCount": 6962,
       "pages": 45,
-      "producedAt": "2026-10-23T04:06:36.154Z",
+      "producedAt": "2026-10-23T13:27:32.835Z",
       "status": "produced"
     },
     {
@@ -610,12 +615,17 @@
         {
           "file": "products\\panduan-seo-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 11982802
+          "bytes": 13105760
+        },
+        {
+          "file": "products\\panduan-seo-ultimate.docx",
+          "kind": "docx",
+          "bytes": 52779
         }
       ],
       "wordCount": 11088,
       "pages": 69,
-      "producedAt": "2026-10-23T04:17:05.562Z",
+      "producedAt": "2026-10-23T13:27:55.755Z",
       "status": "produced"
     },
     {
@@ -631,12 +641,17 @@
         {
           "file": "products\\panduan-youtube-marketing-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 20349058
+          "bytes": 21472291
+        },
+        {
+          "file": "products\\panduan-youtube-marketing-ultimate.docx",
+          "kind": "docx",
+          "bytes": 50961
         }
       ],
       "wordCount": 11742,
       "pages": 52,
-      "producedAt": "2026-10-23T07:37:55.540Z",
+      "producedAt": "2026-10-23T13:28:20.893Z",
       "status": "produced"
     },
     {
@@ -678,12 +693,17 @@
         {
           "file": "products\\panduan-copywriting-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 20283173
+          "bytes": 21406403
+        },
+        {
+          "file": "products\\panduan-copywriting-ultimate.docx",
+          "kind": "docx",
+          "bytes": 50093
         }
       ],
       "wordCount": 10829,
       "pages": 51,
-      "producedAt": "2026-10-23T08:12:26.592Z",
+      "producedAt": "2026-10-23T13:28:42.530Z",
       "status": "produced"
     },
     {
@@ -699,12 +719,17 @@
         {
           "file": "products\\panduan-twitter-x-marketing-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 16640685
+          "bytes": 17763627
+        },
+        {
+          "file": "products\\panduan-twitter-x-marketing-ultimate.docx",
+          "kind": "docx",
+          "bytes": 54470
         }
       ],
       "wordCount": 12122,
       "pages": 73,
-      "producedAt": "2026-10-23T08:33:00.195Z",
+      "producedAt": "2026-10-23T13:29:10.535Z",
       "status": "produced"
     },
     {
@@ -720,12 +745,17 @@
         {
           "file": "products\\panduan-pinterest-marketing-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 18501328
+          "bytes": 19624438
+        },
+        {
+          "file": "products\\panduan-pinterest-marketing-ultimate.docx",
+          "kind": "docx",
+          "bytes": 53234
         }
       ],
       "wordCount": 12033,
       "pages": 60,
-      "producedAt": "2026-10-23T08:47:48.843Z",
+      "producedAt": "2026-10-23T13:29:33.330Z",
       "status": "produced"
     },
     {
@@ -741,12 +771,17 @@
         {
           "file": "products\\panduan-shopee-marketing-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 17678278
+          "bytes": 18801442
+        },
+        {
+          "file": "products\\panduan-shopee-marketing-ultimate.docx",
+          "kind": "docx",
+          "bytes": 53315
         }
       ],
       "wordCount": 12000,
       "pages": 61,
-      "producedAt": "2026-10-23T09:07:45.481Z",
+      "producedAt": "2026-10-23T13:29:57.747Z",
       "status": "produced"
     },
     {
@@ -762,12 +797,17 @@
         {
           "file": "products\\panduan-tokopedia-marketing-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 19635614
+          "bytes": 20758620
+        },
+        {
+          "file": "products\\panduan-tokopedia-marketing-ultimate.docx",
+          "kind": "docx",
+          "bytes": 53660
         }
       ],
       "wordCount": 12011,
       "pages": 66,
-      "producedAt": "2026-10-23T09:22:49.228Z",
+      "producedAt": "2026-10-23T13:30:22.402Z",
       "status": "produced"
     },
     {
@@ -794,6 +834,32 @@
       "wordCount": 12745,
       "pages": 87,
       "producedAt": "2026-10-23T13:25:56.601Z",
+      "status": "produced"
+    },
+    {
+      "slug": "panduan-google-my-business-ultimate-ultimate",
+      "title": "Panduan Lengkap Google My Business untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-google-my-business-ultimate-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 7269198
+        },
+        {
+          "file": "products\\panduan-google-my-business-ultimate-ultimate.docx",
+          "kind": "docx",
+          "bytes": 27142
+        }
+      ],
+      "wordCount": 4330,
+      "pages": 31,
+      "producedAt": "2026-10-23T13:32:01.262Z",
       "status": "produced"
     }
   ]
