@@ -680,6 +680,27 @@
       "pages": 51,
       "producedAt": "2026-10-23T08:12:26.592Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-twitter-x-marketing-ultimate",
+      "title": "Panduan Lengkap Twitter/X Marketing untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-twitter-x-marketing-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 16640685
+        }
+      ],
+      "wordCount": 12122,
+      "pages": 73,
+      "producedAt": "2026-10-23T08:33:00.195Z",
+      "status": "produced"
     }
   ]
 }
