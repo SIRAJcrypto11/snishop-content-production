@@ -965,6 +965,32 @@
       "pages": 41,
       "producedAt": "2026-10-23T14:23:51.374Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-whatsapp-business-ultimate",
+      "title": "Panduan Lengkap WhatsApp Business untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-whatsapp-business-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 15756042
+        },
+        {
+          "file": "products\\panduan-whatsapp-business-ultimate.docx",
+          "kind": "docx",
+          "bytes": 32622
+        }
+      ],
+      "wordCount": 5830,
+      "pages": 33,
+      "producedAt": "2026-10-23T14:43:39.598Z",
+      "status": "produced"
     }
   ]
 }
