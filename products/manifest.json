@@ -1095,6 +1095,32 @@
       "pages": 66,
       "producedAt": "2026-10-23T15:06:34.536Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-canva-umkm-ultimate",
+      "title": "Panduan Lengkap Canva untuk UMKM [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-canva-umkm-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 18873729
+        },
+        {
+          "file": "products\\panduan-canva-umkm-ultimate.docx",
+          "kind": "docx",
+          "bytes": 34235
+        }
+      ],
+      "wordCount": 5842,
+      "pages": 42,
+      "producedAt": "2026-10-23T15:13:31.516Z",
+      "status": "produced"
     }
   ]
 }
