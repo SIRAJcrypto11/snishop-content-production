@@ -939,6 +939,32 @@
       "pages": 44,
       "producedAt": "2026-10-23T14:11:13.594Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-personal-branding-ultimate-ultimate",
+      "title": "PANDUAN LENGKAP PERSONAL BRANDING UNTUK UMKM INDONESIA [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-personal-branding-ultimate-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 12562099
+        },
+        {
+          "file": "products\\panduan-personal-branding-ultimate-ultimate.docx",
+          "kind": "docx",
+          "bytes": 44771
+        }
+      ],
+      "wordCount": 10157,
+      "pages": 41,
+      "producedAt": "2026-10-23T14:23:51.374Z",
+      "status": "produced"
     }
   ]
 }
