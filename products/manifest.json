@@ -1927,6 +1927,32 @@
       "pages": 71,
       "producedAt": "2026-10-23T21:56:57.269Z",
       "status": "produced"
+    },
+    {
+      "slug": "data-analytics-umkm-ultimate",
+      "title": "Panduan Lengkap Data Analytics untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\data-analytics-umkm-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 22744463
+        },
+        {
+          "file": "products\\data-analytics-umkm-ultimate.docx",
+          "kind": "docx",
+          "bytes": 57345
+        }
+      ],
+      "wordCount": 15812,
+      "pages": 62,
+      "producedAt": "2026-10-23T22:08:01.515Z",
+      "status": "produced"
     }
   ]
 }
