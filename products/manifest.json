@@ -1291,17 +1291,17 @@
         {
           "file": "products\\panduan-email-automation-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 15983500
+          "bytes": 19787115
         },
         {
           "file": "products\\panduan-email-automation-ultimate.docx",
           "kind": "docx",
-          "bytes": 37676
+          "bytes": 61936
         }
       ],
-      "wordCount": 6963,
-      "pages": 45,
-      "producedAt": "2026-10-23T15:49:42.538Z",
+      "wordCount": 15186,
+      "pages": 62,
+      "producedAt": "2026-10-23T15:56:49.438Z",
       "status": "produced"
     }
   ]
