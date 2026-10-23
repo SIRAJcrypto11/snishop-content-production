@@ -638,6 +638,27 @@
       "pages": 52,
       "producedAt": "2026-10-23T07:37:55.540Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-linkedin-marketing-ultimate",
+      "title": "PANDUAN LENGKAP LINKEDIN MARKETING UNTUK UMKM INDONESIA [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-linkedin-marketing-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 21619310
+        }
+      ],
+      "wordCount": 17744,
+      "pages": 81,
+      "producedAt": "2026-10-23T07:56:03.302Z",
+      "status": "produced"
     }
   ]
 }
