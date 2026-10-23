@@ -1199,6 +1199,58 @@
       "pages": 38,
       "producedAt": "2026-10-23T15:27:11.578Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-podcasting-bisnis-ultimate",
+      "title": "Panduan Lengkap Podcasting untuk Bisnis UMKM [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-podcasting-bisnis-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 19441787
+        },
+        {
+          "file": "products\\panduan-podcasting-bisnis-ultimate.docx",
+          "kind": "docx",
+          "bytes": 53474
+        }
+      ],
+      "wordCount": 12682,
+      "pages": 59,
+      "producedAt": "2026-10-23T15:38:14.008Z",
+      "status": "produced"
+    },
+    {
+      "slug": "panduan-landing-page-cro-ultimate",
+      "title": "Panduan Lengkap Landing Page dan Conversion Optimization [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-landing-page-cro-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 18782482
+        },
+        {
+          "file": "products\\panduan-landing-page-cro-ultimate.docx",
+          "kind": "docx",
+          "bytes": 39938
+        }
+      ],
+      "wordCount": 9801,
+      "pages": 38,
+      "producedAt": "2026-10-23T15:35:11.216Z",
+      "status": "produced"
     }
   ]
 }
