@@ -533,6 +533,27 @@
       "pages": 60,
       "producedAt": "2026-10-23T03:42:29.082Z",
       "status": "produced"
+    },
+    {
+      "slug": "100-ide-konten-tiktok-ultimate",
+      "title": "100 Ide Konten TikTok untuk Bisnis UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\100-ide-konten-tiktok-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 7027161
+        }
+      ],
+      "wordCount": 3672,
+      "pages": 28,
+      "producedAt": "2026-10-23T03:49:58.947Z",
+      "status": "produced"
     }
   ]
 }
