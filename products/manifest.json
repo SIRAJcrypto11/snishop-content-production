@@ -1823,6 +1823,32 @@
       "pages": 62,
       "producedAt": "2026-10-23T21:01:52.742Z",
       "status": "produced"
+    },
+    {
+      "slug": "project-management-umkm-ultimate",
+      "title": "Panduan Lengkap Project Management untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\project-management-umkm-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 22889009
+        },
+        {
+          "file": "products\\project-management-umkm-ultimate.docx",
+          "kind": "docx",
+          "bytes": 56089
+        }
+      ],
+      "wordCount": 15001,
+      "pages": 66,
+      "producedAt": "2026-10-23T21:17:07.858Z",
+      "status": "produced"
     }
   ]
 }
