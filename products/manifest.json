@@ -1043,6 +1043,32 @@
       "pages": 38,
       "producedAt": "2026-10-23T14:56:32.062Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-facebook-marketplace-ultimate",
+      "title": "Panduan Lengkap Facebook Marketplace untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-facebook-marketplace-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 10820985
+        },
+        {
+          "file": "products\\panduan-facebook-marketplace-ultimate.docx",
+          "kind": "docx",
+          "bytes": 34450
+        }
+      ],
+      "wordCount": 6573,
+      "pages": 38,
+      "producedAt": "2026-10-23T15:00:25.168Z",
+      "status": "produced"
     }
   ]
 }
