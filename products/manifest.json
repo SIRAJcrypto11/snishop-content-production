@@ -1433,6 +1433,58 @@
       "pages": 78,
       "producedAt": "2026-10-23T16:47:22.213Z",
       "status": "produced"
+    },
+    {
+      "slug": "vibe-coding-umkm-ultimate",
+      "title": "Panduan Lengkap Vibe Coding untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\vibe-coding-umkm-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 21283077
+        },
+        {
+          "file": "products\\vibe-coding-umkm-ultimate.docx",
+          "kind": "docx",
+          "bytes": 72487
+        }
+      ],
+      "wordCount": 16978,
+      "pages": 91,
+      "producedAt": "2026-10-23T17:31:39.438Z",
+      "status": "produced"
+    },
+    {
+      "slug": "scale-up-apps-umkm-ultimate",
+      "title": "Panduan Lengkap Scale Up Apps untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\scale-up-apps-umkm-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 21124377
+        },
+        {
+          "file": "products\\scale-up-apps-umkm-ultimate.docx",
+          "kind": "docx",
+          "bytes": 69994
+        }
+      ],
+      "wordCount": 17223,
+      "pages": 85,
+      "producedAt": "2026-10-23T17:32:59.188Z",
+      "status": "produced"
     }
   ]
 }
