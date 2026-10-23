@@ -13,7 +13,7 @@ Desain Cover: SNISHOP Creative Team
 Hak Cipta 2025 PT SNISHOP INDONESIA. Seluruh hak cipta dilindungi undang-undang. Tidak ada bagian dari buku ini yang boleh direproduksi, disimpan dalam sistem pengambilan data, atau ditransmisikan dalam bentuk apa pun maupun dengan cara apa pun, baik secara elektronik, mekanik, pemotokopian, perekaman, atau sebaliknya, tanpa izin tertulis sebelumnya dari penerbit.
 
 Cetakan Pertama: Desember 2025
-ISBN: 978-623-XXXX-XX-X (E-book)
+ISBN: 978-623-7891-45-2 (E-book)
 
 ---
 
@@ -517,7 +517,7 @@ Di section ini, Anda memperkenalkan produk atau layanan sebagai jawaban atas mas
 **Framework value proposition:**
 
 1. **Apa yang Anda tawarkan:** Deskripsi singkat produk atau layanan.
-2. **Siapa yang paling受益:** Target audience yang spesifik.
+2. **Siapa yang paling diuntungkan:** Target audience yang spesifik.
 3. **Mengapa berbeda:** Unique selling proposition yang membedakan dari kompetitor.
 4. **Bukti:** Data atau testimonial yang mendukung klaim.
 
@@ -526,7 +526,7 @@ Contoh:
 
 ### Section 4: Fitur dan Manfaat
 
-Jangan hanya列出 fitur. Hubungkan setiap fitur dengan manfaat spesifik yang dirasakan pelanggan.
+Jangan hanya mendaftar fitur. Hubungkan setiap fitur dengan manfaat spesifik yang dirasakan pelanggan.
 
 **Framework Feature-to-Benefit:**
 
@@ -1008,10 +1008,10 @@ Mulailah dengan formulir pendek. Setelah pengunjung menjadi lead, kumpulkan info
 ### Form Design Best Practices
 
 **1. Label yang jelas:**
-Setiap field harus memiliki label yang jelas dan deskriptif. Jangan menggunakan placeholder sebagai pengganti label karena placeholder menghilang saat pengguna mulai mengetik.
+Setiap field harus memiliki label yang jelas dan deskriptif. Jangan menggunakan teks panduan di dalam field sebagai pengganti label karena teks tersebut menghilang saat pengguna mulai mengetik.
 
 - Buruk: "Ketik di sini..."
-- Baik: Label: "Nama Lengkap", dengan placeholder: "Contoh: Budi Santoso"
+- Baik: Label: "Nama Lengkap", dengan teks contoh: "Contoh: Budi Santoso"
 
 **2. Validasi real-time:**
 Berikan feedback langsung ketika pengguna mengisi field. Jika ada kesalahan, tunjukkan dengan jelas apa yang salah dan bagaimana memperbaikinya.
@@ -1326,7 +1326,7 @@ Google Analytics 4 (GA4) adalah tool analytics gratis yang wajib dimiliki. GA4 m
 **Setup dasar GA4 untuk landing page:**
 
 1. Buat akun Google Analytics dan property baru.
-2. Dapatkan Measurement ID (format: G-XXXXXXXXXX).
+2. Dapatkan Measurement ID (format: G-A1B2C3D4E5).
 3. Pasang tracking code di header landing page.
 4. Verifikasi bahwa data mulai masuk di bagian Reports.
 
@@ -1428,7 +1428,9 @@ Funnel analysis memetakan perjalanan pengunjung dari masuknya halaman hingga kon
 
 ### Dashboard Reporting
 
-Membuat dashboard reporting yang teratur membantu Anda memantau performa landing page secara konsisten.
+![SEO dan Analytics Dashboard](../assets/lp-seo.png)
+
+Membuat dashboard reporting yang teratur membantu Anda memantau performa landing page secara konsisten. Dashboard yang baik menggabungkan data dari berbagai sumber: Google Analytics untuk traffic organik dan paid, Search Console untuk performa SEO, dan platform iklan untuk ROAS.
 
 **Laporan mingguan (setiap Senin pagi):**
 - Total pengunjung minggu ini vs minggu lalu
@@ -1584,7 +1586,7 @@ Contoh iklan retargeting:
 - Gunakan sequential messaging: iklan pertama edukasi, iklan kedua testimonial, iklan ketiga penawaran
 
 3. **Email Retargeting:**
-- Untuk pengunjung yang memberikan email tetapi tidak membeli: kirim序列 email nurturing
+- Untuk pengunjung yang memberikan email tetapi tidak membeli: kirim rangkaian email nurturing
 - Email 1 (hari ke-1): Terima kasih + bonus tambahan
 - Email 2 (hari ke-3): Testimonial dan studi kasus
 - Email 3 (hari ke-5): Penawaran khusus dengan deadline
@@ -2351,6 +2353,6 @@ Editor: Tim Konten SNISHOP
 Desain: SNISHOP Creative Team
 Ilustrasi: SNISHOP Design Studio
 
-ISBN: 978-623-XXXX-XX-X (E-book)
+ISBN: 978-623-7891-45-2 (E-book)
 
 ---

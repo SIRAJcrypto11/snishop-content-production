@@ -1228,7 +1228,7 @@
     },
     {
       "slug": "panduan-landing-page-cro-ultimate",
-      "title": "Panduan Lengkap Landing Page dan Conversion Optimization [ULTIMATE]",
+      "title": "Panduan Lengkap Landing Page dan Conversion Optimization untuk Bisnis UMKM [ULTIMATE]",
       "tier": "ultimate",
       "pricing": {
         "normal": 299000,
@@ -1239,17 +1239,17 @@
         {
           "file": "products\\panduan-landing-page-cro-ultimate.pdf",
           "kind": "pdf",
-          "bytes": 18782482
+          "bytes": 19731735
         },
         {
           "file": "products\\panduan-landing-page-cro-ultimate.docx",
           "kind": "docx",
-          "bytes": 39938
+          "bytes": 66327
         }
       ],
-      "wordCount": 9801,
-      "pages": 38,
-      "producedAt": "2026-10-23T15:35:11.216Z",
+      "wordCount": 15681,
+      "pages": 81,
+      "producedAt": "2026-10-23T15:41:04.692Z",
       "status": "produced"
     }
   ]
