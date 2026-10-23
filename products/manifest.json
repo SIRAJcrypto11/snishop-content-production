@@ -861,6 +861,32 @@
       "pages": 31,
       "producedAt": "2026-10-23T13:32:01.262Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-affiliate-marketing-ultimate-ultimate",
+      "title": "PANDUAN LENGKAP AFFILIATE MARKETING UNTUK UMKM INDONESIA [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-affiliate-marketing-ultimate-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 15560598
+        },
+        {
+          "file": "products\\panduan-affiliate-marketing-ultimate-ultimate.docx",
+          "kind": "docx",
+          "bytes": 44750
+        }
+      ],
+      "wordCount": 9084,
+      "pages": 51,
+      "producedAt": "2026-10-23T13:48:35.923Z",
+      "status": "produced"
     }
   ]
 }
