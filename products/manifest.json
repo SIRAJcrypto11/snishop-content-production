@@ -1693,6 +1693,32 @@
       "pages": 88,
       "producedAt": "2026-10-23T19:34:22.187Z",
       "status": "produced"
+    },
+    {
+      "slug": "crm-umkm-ultimate",
+      "title": "Panduan Lengkap Customer Relationship Management (CRM) untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\crm-umkm-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 21770975
+        },
+        {
+          "file": "products\\crm-umkm-ultimate.docx",
+          "kind": "docx",
+          "bytes": 72848
+        }
+      ],
+      "wordCount": 16268,
+      "pages": 136,
+      "producedAt": "2026-10-23T19:46:44.013Z",
+      "status": "produced"
     }
   ]
 }
