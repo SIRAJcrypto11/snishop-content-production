@@ -913,6 +913,32 @@
       "pages": 58,
       "producedAt": "2026-10-23T13:58:33.567Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-dropshipping-ultimate-ultimate",
+      "title": "PANDUAN LENGKAP DROPSHIPPING UNTUK UMKM INDONESIA [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-dropshipping-ultimate-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 13916503
+        },
+        {
+          "file": "products\\panduan-dropshipping-ultimate-ultimate.docx",
+          "kind": "docx",
+          "bytes": 43528
+        }
+      ],
+      "wordCount": 9023,
+      "pages": 44,
+      "producedAt": "2026-10-23T14:11:13.594Z",
+      "status": "produced"
     }
   ]
 }
