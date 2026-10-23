@@ -491,6 +491,27 @@
       "pages": 59,
       "producedAt": "2026-10-23T03:25:42.955Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-instagram-marketing-ultimate",
+      "title": "Panduan Lengkap Instagram Marketing untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-instagram-marketing-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 8125964
+        }
+      ],
+      "wordCount": 5166,
+      "pages": 37,
+      "producedAt": "2026-10-23T03:33:58.067Z",
+      "status": "produced"
     }
   ]
 }
