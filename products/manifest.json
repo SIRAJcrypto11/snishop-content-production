@@ -617,6 +617,27 @@
       "pages": 69,
       "producedAt": "2026-10-23T04:17:05.562Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-youtube-marketing-ultimate",
+      "title": "Panduan Lengkap YouTube Marketing untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-youtube-marketing-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 20349058
+        }
+      ],
+      "wordCount": 11742,
+      "pages": 52,
+      "producedAt": "2026-10-23T07:37:55.540Z",
+      "status": "produced"
     }
   ]
 }
