@@ -874,7 +874,7 @@ Berikut contoh output nyata dari ChatGPT dan Gemini untuk tiga template kunci di
 ### T-001. Kalender Konten Bulanan (Contoh Output)
 
 **Input yang dipakai:**
-Bisnis: keripik singkong balado, platform Instagram dan TikTok, posting 4 kali per minggu, goal bulan ini awareness di kota Bandung, pillar: edukasi singkong, dapur produksi, promo, dan pelanggan.
+Bisnis: keripik singkong balado, platform Instagram dan TikTok, posting 4 kali per minggu, tujuan bulan ini awareness di kota Bandung, pillar: edukasi singkong, dapur produksi, promo, dan pelanggan.
 
 **Output ChatGPT:**
 ```
@@ -940,7 +940,7 @@ Sabtu: Story rekap ulasan dan pengumuman pemenang kuis minggu 2.
 Prinsip jadwal ini: satu konten edukasi yang layak disimpan, satu konten dapur yang manusiawi, satu konten penjualan yang jelas ajakannya, dan satu konten yang membuat pelanggan tampil setiap minggunya.
 ```
 
-**Perbandingan:** ChatGPT menghasilkan kalimat hook yang lebih spesifik dan bisa langsung dipakai. Gemini lebih ringkas dan rapi sebagai kerangka, tetapi butuh pengembangan hook sendiri. Untuk calendar bulanan, minta ChatGPT untuk detail lalu gunakan Gemini untuk memperpendek bila perlu.
+**Perbandingan:** ChatGPT menghasilkan kalimat hook yang lebih spesifik dan bisa langsung dipakai. Gemini lebih ringkas dan rapi sebagai kerangka, tetapi butuh pengembangan hook sendiri. Untuk kalender bulanan, minta ChatGPT untuk detail lalu gunakan Gemini untuk memperpendek bila perlu.
 
 ---
 
@@ -2767,12 +2767,12 @@ Hasil yang diharapkan:
 ### T-120. Kampanye UGC
 
 Kapan pakai:
-> Merencanakan campaign yang mendorong UGC
+> Merencanakan kampanye yang mendorong UGC
 
 Variabel:
 - [BRAND]: nama brand Anda
 - [PRODUK]: produk yang ingin dipromosikan
-- [TUJUAN]: tujuan campaign (awareness/sales/engagement)
+- [TUJUAN]: tujuan kampanye (awareness/sales/engagement)
 - [INCENTIVE]: insentif untuk partisipan
 
 Template:
@@ -4768,7 +4768,7 @@ Berikut contoh output nyata dari ChatGPT dan Gemini untuk tiga template kunci an
 ### T-161. Laporan Performa Bulanan (Contoh Output)
 
 **Input yang dipakai:**
-Bisnis: katering sehat Jakarta Selatan. Periode: Oktober. Platform: Instagram. Data: followers 2.140 naik dari 1.980, rata rata reach feed 1.900, engagement rate 4,2 persen naik dari 3,1 persen, 34 chat masuk dari konten, 9 langganan mingguan baru. Goal bulan: 8 langganan baru.
+Bisnis: katering sehat Jakarta Selatan. Periode: Oktober. Platform: Instagram. Data: followers 2.140 naik dari 1.980, rata rata reach feed 1.900, engagement rate 4,2 persen naik dari 3,1 persen, 34 chat masuk dari konten, 9 langganan mingguan baru. Tujuan bulan: 8 langganan baru.
 
 **Output ChatGPT:**
 ```
@@ -4883,7 +4883,7 @@ Aturan berikutnya: suara alat di detik pertama, satu proses per video, narasi se
 ### T-180. Perencana Alokasi Anggaran Iklan (Contoh Output)
 
 **Input yang dipakai:**
-Bisnis: laundry premium Yogyakarta. Anggaran iklan: Rp 1.000.000 per bulan. Kanal: Instagram ads dan TikTok ads. Goal: penjualan paket cuci setrika 5 kilo.
+Bisnis: laundry premium Yogyakarta. Anggaran iklan: Rp 1.000.000 per bulan. Kanal: Instagram ads dan TikTok ads. Tujuan: penjualan paket cuci setrika 5 kilo.
 
 **Output ChatGPT:**
 ```

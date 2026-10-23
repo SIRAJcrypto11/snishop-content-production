@@ -1528,7 +1528,7 @@ Promo bukan pilar, ia menempel di akhir konten pilar mana pun.
 ### P-062. Membuat kalender konten 30 hari yang realistis (Contoh Output)
 
 **Input yang dipakai:**
-Bisnis: toko roti kecil, platform: Instagram plus WhatsApp status, frekuensi: 3 kali per minggu di Instagram dan 5 kali per minggu di status, goal bulan ini: 20 pelanggan langganan roti tawar baru.
+Bisnis: toko roti kecil, platform: Instagram plus WhatsApp status, frekuensi: 3 kali per minggu di Instagram dan 5 kali per minggu di status, tujuan bulan ini: 20 pelanggan langganan roti tawar baru.
 
 **Output ChatGPT:**
 ```

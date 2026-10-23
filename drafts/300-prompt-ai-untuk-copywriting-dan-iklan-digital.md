@@ -17,7 +17,7 @@ Prompt-prompt ini cocok untuk:
 - Pemilik UMKM yang ingin membuat konten marketing sendiri
 - Kreator konten yang butuh referensi cepat
 - Tim marketing yang ingin meningkatkan produktivitas
-- Freelancer copywriter yang mencari template siap pakai
+- Freelancer penulis naskah iklan yang mencari template siap pakai
 
 ## Cara Menggunakan Buku Ini
 
@@ -1817,7 +1817,7 @@ Variabel:
 - [TUJUAN]: tujuan penggunaan hashtag (reach, engagement, branding)
 
 Prompt:
-> Buat strategi hashtag [PLATFORM] untuk [INDUSTRI] yang menargetkan [TARGET_AUDIENCE] dengan tujuan [TUJUAN]. Struktur: (1) 5 hashtag branded (nama brand atau campaign), (2) 10 hashtag industri (relevan dengan niche), (3) 10 hashtag trending (sedang populer), (4) 5 hashtag komunitas (komunitas target), (5) Panduan penggunaan (berapa per posting, kombinasi optimal). Jelaskan mengapa setiap kategori penting.
+> Buat strategi hashtag [PLATFORM] untuk [INDUSTRI] yang menargetkan [TARGET_AUDIENCE] dengan tujuan [TUJUAN]. Struktur: (1) 5 hashtag branded (nama brand atau kampanye), (2) 10 hashtag industri (relevan dengan niche), (3) 10 hashtag trending (sedang populer), (4) 5 hashtag komunitas (komunitas target), (5) Panduan penggunaan (berapa per posting, kombinasi optimal). Jelaskan mengapa setiap kategori penting.
 
 Hasil yang diharapkan:
 Strategi hashtag dengan 30 hashtag dalam 5 kategori dan panduan penggunaan.
@@ -1997,16 +1997,16 @@ Naskah 300-400 kata dengan struktur segmen dan poin pembicaraan.
 ### P-099. Pembaruan Bio Media Sosial
 
 Kapan pakai:
-> Memperbarui bio media sosial untuk campaign tertentu
+> Memperbarui bio media sosial untuk kampanye tertentu
 
 Variabel:
 - [PLATFORM]: platform yang akan diupdate
-- [CAMPAIGN]: campaign atau promosi yang sedang berjalan
+- [CAMPAIGN]: kampanye atau promosi yang sedang berjalan
 - [LINK_TUJUAN]: link yang ingin ditonjolkan
 - [CTA_UTAMA]: call-to-action utama
 
 Prompt:
-> Buat 3 variasi bio [PLATFORM] untuk [CAMPAIGN] dengan [LINK_TUJUAN] dan [CTA_UTAMA]. Setiap bio harus: (1) Nama: mengandung kata kunci campaign, (2) Deskripsi: 1-2 kalimat tentang campaign (20-30 kata), (3) CTA: ajakan untuk klik link, (4) Emoji: 1-2 emoji relevan. Total bio maksimal 150 karakter. Pastikan bio tetap profesional dan sesuai dengan brand identity.
+> Buat 3 variasi bio [PLATFORM] untuk [CAMPAIGN] dengan [LINK_TUJUAN] dan [CTA_UTAMA]. Setiap bio harus: (1) Nama: mengandung kata kunci kampanye, (2) Deskripsi: 1-2 kalimat tentang kampanye (20-30 kata), (3) CTA: ajakan untuk klik link, (4) Emoji: 1-2 emoji relevan. Total bio maksimal 150 karakter. Pastikan bio tetap profesional dan sesuai dengan brand identity.
 
 Hasil yang diharapkan:
 Tiga variasi bio maksimal 150 karakter.
@@ -2019,10 +2019,10 @@ Kapan pakai:
 > Merencanakan promosi lintas platform
 
 Variabel:
-- [CAMPAIGN]: campaign atau produk yang dipromosikan
+- [CAMPAIGN]: kampanye atau produk yang dipromosikan
 - [PLATFORM]: platform yang akan digunakan (minimal 3)
 - [TARGET_AUDIENCE]: target audiens
-- [TUJUAN]: tujuan campaign
+- [TUJUAN]: tujuan kampanye
 
 Prompt:
 > Buat strategi promosi lintas platform untuk [CAMPAIGN] di [PLATFORM] yang menargetkan [TARGET_AUDIENCE] dengan tujuan [TUJUAN]. Untuk setiap platform: (1) Peran platform dalam strategi, (2) Jenis konten yang sesuai, (3) Frekuensi posting, (4) Caption atau naskah singkat (50-80 kata), (5) Hashtag atau kata kunci, (6) Linimasa posting. Pastikan pesan konsisten namun disesuaikan dengan karakteristik setiap platform.
@@ -2158,7 +2158,7 @@ Variabel:
 - [HASHTAG_CHALLENGE]: hashtag untuk challenge
 
 Prompt:
-> Buat konsep TikTok duet challenge [TEMA_CHALLENGE] dengan [ATURAN] untuk mempromosikan [PRODUK_BRAND] menggunakan [HASHTAG_CHALLENGE]. Struktur: (1) Judul challenge yang catchy, (2) Penjelasan aturan 3-5 poin, (3) Contoh naskah video original 15-30 detik, (4) Saran duet response, (5) Hadiah atau insentif jika ada. Total 150-200 kata. Pastikan challenge mudah diikuti dan viral-worthy.
+> Buat konsep TikTok duet challenge [TEMA_CHALLENGE] dengan [ATURAN] untuk mempromosikan [PRODUK_BRAND] menggunakan [HASHTAG_CHALLENGE]. Struktur: (1) Judul challenge yang menarik, (2) Penjelasan aturan 3-5 poin, (3) Contoh naskah video original 15-30 detik, (4) Saran duet response, (5) Hadiah atau insentif jika ada. Total 150-200 kata. Pastikan challenge mudah diikuti dan viral-worthy.
 
 Hasil yang diharapkan:
 Konsep challenge 150-200 kata yang mudah diikuti.
@@ -2395,14 +2395,14 @@ Lima deskripsi 50-80 kata yang SEO-friendly.
 ### P-120. Brief Kampanye Lintas Platform
 
 Kapan pakai:
-> Membuat brief campaign lintas platform
+> Membuat brief kampanye lintas platform
 
 Variabel:
-- [NAMA_CAMPAIGN]: nama campaign
-- [TUJUAN]: tujuan campaign
+- [NAMA_CAMPAIGN]: nama kampanye
+- [TUJUAN]: tujuan kampanye
 - [TARGET_AUDIENCE]: siapa target audiens
 - [PLATFORM]: platform yang digunakan
-- [DURASI]: berapa lama campaign berjalan
+- [DURASI]: berapa lama kampanye berjalan
 - [BUDGET]: anggaran (opsional)
 
 Prompt:
@@ -2679,7 +2679,7 @@ Email 250-300 kata yang jelas dan memotivasi partisipasi.
 ### P-132. Email Kampanye Musiman
 
 Kapan pakai:
-> Membuat email untuk campaign musiman (Ramadan, Natal, Tahun Baru)
+> Membuat email untuk kampanye musiman (Ramadan, Natal, Tahun Baru)
 
 Variabel:
 - [MOMEN]: momen atau perayaan
@@ -2688,7 +2688,7 @@ Variabel:
 - [TARGET_AUDIENCE]: siapa target email
 
 Prompt:
-> Buat email campaign [MOMEN] untuk [PRODUK_RELEVAN] dengan [PENAWARAN_KHUSUS] untuk [TARGET_AUDIENCE]. Struktur: (1) Subjek yang relevan dengan momen ("Spesial [Momen] untuk Anda" atau "Rayakan [Momen] dengan..."), (2) Preview text yang hangat dan relevan, (3) Pembuka yang menghubungkan momen dengan produk, (4) Body 150-200 kata dengan penawaran khusus dan produk relevan, (5) CTA yang jelas, (6) Penutup yang sesuai dengan semangat momen. Gunakan bahasa yang hangat dan sesuai dengan budaya momen tersebut. Total 200-250 kata.
+> Buat email kampanye [MOMEN] untuk [PRODUK_RELEVAN] dengan [PENAWARAN_KHUSUS] untuk [TARGET_AUDIENCE]. Struktur: (1) Subjek yang relevan dengan momen ("Spesial [Momen] untuk Anda" atau "Rayakan [Momen] dengan..."), (2) Preview text yang hangat dan relevan, (3) Pembuka yang menghubungkan momen dengan produk, (4) Body 150-200 kata dengan penawaran khusus dan produk relevan, (5) CTA yang jelas, (6) Penutup yang sesuai dengan semangat momen. Gunakan bahasa yang hangat dan sesuai dengan budaya momen tersebut. Total 200-250 kata.
 
 Hasil yang diharapkan:
 Email 200-250 kata yang relevan dengan momen dan hangat.
@@ -5348,7 +5348,7 @@ Solusi: Audio yang buruk akan membuat penonton pergi. Investasikan di microphone
 Solusi: Buat kalender konten dan patuhi jadwalnya. Konsistensi lebih penting daripada kesempurnaan.
 ## Bagian 6: Copywriting Tingkat Lanjut
 
-Bagian ini berisi 40 prompt untuk teknik copywriting tingkat lanjut: A/B testing, psychological triggers, brand voice, persuasion frameworks, dan optimization. Prompt-prompt ini dirancang untuk copywriter yang sudah menguasai dasar dan ingin meningkatkan keterampilan mereka.
+Bagian ini berisi 40 prompt untuk teknik copywriting tingkat lanjut: A/B testing, psychological triggers, brand voice, persuasion frameworks, dan optimization. Prompt-prompt ini dirancang untuk penulis naskah iklan yang sudah menguasai dasar dan ingin meningkatkan keterampilan mereka.
 
 ---
 
@@ -5656,7 +5656,7 @@ Variabel:
 - [FIT]: bagaimana produk cocok dengan kebutuhan
 
 Prompt:
-> Buat value proposition canvas untuk [CUSTOMER_PROFILE] dengan [VALUE_MAP] dan [FIT]. Struktur: (1) Customer jobs 3-5 poin, (2) Pains 3-5 poin, (3) Gains 3-5 poin, (4) Products/services 3-5 poin, (5) Pain relievers 3-5 poin, (6) Gain creators 3-5 poin, (7) Fit statement 50-80 kata. Total 400-500 kata.
+> Buat value proposition canvas untuk [CUSTOMER_PROFILE] dengan [VALUE_MAP] dan [FIT]. Struktur: (1) pelanggan jobs 3-5 poin, (2) Pains 3-5 poin, (3) Gains 3-5 poin, (4) Products/services 3-5 poin, (5) Pain relievers 3-5 poin, (6) Gain creators 3-5 poin, (7) Fit statement 50-80 kata. Total 400-500 kata.
 
 Hasil yang diharapkan:
 Value proposition canvas lengkap.
@@ -6618,7 +6618,7 @@ Selamat, Anda telah menyelesaikan "300 Prompt AI untuk Copywriting dan Iklan Dig
 3. **Email Marketing (Bagian 3):** Strategi email yang meningkatkan open rate dan konversi
 4. **Landing Page dan Website (Bagian 4):** Copy yang mengoptimalkan pengalaman pengguna dan konversi
 5. **Konten Video dan Podcast (Bagian 5):** Naskah dan struktur untuk konten audio-visual
-6. **Copywriting Tingkat Lanjut (Bagian 6):** Teknik tingkat lanjut untuk copywriter profesional
+6. **Copywriting Tingkat Lanjut (Bagian 6):** Teknik tingkat lanjut untuk penulis naskah iklan profesional
 
 **Langkah selanjutnya:**
 

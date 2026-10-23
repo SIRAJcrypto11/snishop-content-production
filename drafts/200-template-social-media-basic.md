@@ -2521,12 +2521,12 @@ Hasil yang diharapkan:
 ### T-120. Kampanye UGC
 
 Kapan pakai:
-> Merencanakan campaign yang mendorong UGC
+> Merencanakan kampanye yang mendorong UGC
 
 Variabel:
 - [BRAND]: nama brand Anda
 - [PRODUK]: produk yang ingin dipromosikan
-- [TUJUAN]: tujuan campaign (awareness/sales/engagement)
+- [TUJUAN]: tujuan kampanye (awareness/sales/engagement)
 - [INCENTIVE]: insentif untuk partisipan
 
 Template:
