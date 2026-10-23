@@ -743,6 +743,27 @@
       "pages": 61,
       "producedAt": "2026-10-23T09:07:45.481Z",
       "status": "produced"
+    },
+    {
+      "slug": "panduan-tokopedia-marketing-ultimate",
+      "title": "Panduan Lengkap Tokopedia Marketing untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\panduan-tokopedia-marketing-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 19635614
+        }
+      ],
+      "wordCount": 12011,
+      "pages": 66,
+      "producedAt": "2026-10-23T09:22:49.228Z",
+      "status": "produced"
     }
   ]
 }
