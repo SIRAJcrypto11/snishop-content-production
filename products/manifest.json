@@ -470,6 +470,27 @@
       "pages": 27,
       "producedAt": "2026-10-23T03:12:43.105Z",
       "status": "produced"
+    },
+    {
+      "slug": "100-template-whatsapp-marketing-ultimate",
+      "title": "100 Template WhatsApp Marketing untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\100-template-whatsapp-marketing-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 8444463
+        }
+      ],
+      "wordCount": 6714,
+      "pages": 59,
+      "producedAt": "2026-10-23T03:25:42.955Z",
+      "status": "produced"
     }
   ]
 }
