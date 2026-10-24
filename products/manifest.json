@@ -2005,6 +2005,32 @@
       "pages": 71,
       "producedAt": "2026-10-24T02:14:05.789Z",
       "status": "produced"
+    },
+    {
+      "slug": "strategic-management-umkm-ultimate",
+      "title": "Panduan Lengkap Strategic Management untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\strategic-management-umkm-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 23661111
+        },
+        {
+          "file": "products\\strategic-management-umkm-ultimate.docx",
+          "kind": "docx",
+          "bytes": 55552
+        }
+      ],
+      "wordCount": 15180,
+      "pages": 70,
+      "producedAt": "2026-10-24T02:25:24.908Z",
+      "status": "produced"
     }
   ]
 }
