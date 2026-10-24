@@ -4,7 +4,7 @@ Sistem produksi konten digital berbahasa Indonesia dari naskah Markdown menjadi 
 
 **Penanggung jawab:** Siraj Nur Ihrom, Founder & Lead Developer SNISHOP.
 **Repositori:** `SIRAJcrypto11/snishop-content-production`.
-**Status:** Pipeline tersedia; sertifikasi produk terhadap SNISHOP-PUBLISHING v2.0 belum selesai.
+**Status (2026-10-24):** Pipeline tersedia. Paket A (standar SNISHOP-PUBLISHING v2.0, AGENTS.md, skill produksi) sudah terpasang. Produksi rutin aktif via automation (setiap jam 08:00–22:00 WIB). Sertifikasi produk terhadap 8 gerbang v2.0 masih berlangsung.
 
 ## Acuan dan urutan baca
 
@@ -25,6 +25,8 @@ Runner lokal menerima naskah, melakukan lint, merender PDF, membentuk Excel jika
 Komponen screenshot, anotasi, diagram, orkestrasi, API, dan distribusi juga tersedia sebagai fondasi, bukan bukti alur menyeluruh sudah bekerja.
 Integrasi publikasi dan pemasaran masih membutuhkan validasi nyata yang diotorisasi. Keberadaan konektor tidak membuktikan checkout, hak akses, pengiriman, atau unggahan telah berhasil.
 
+**Produksi rutin:** Automation aktif (task ID `e6469f5c-4396-4dcb-9323-2cf20eb3613a`) menjalankan produksi atau perbaikan minimal 1 produk digital berkualitas tinggi setiap jam antara 08:00–22:00 WIB. Setiap run mengikuti standar v2.0, memeriksa 8 gerbang, dan melaporkan status (READY / BLOCKED / belum sempurna) beserta artefak. Tidak ada push, commit, atau publikasi otomatis tanpa izin eksplisit.
+
 ## Peta repositori
 
 - `scripts/produce.js`: runner produksi dan pencatatan hasil.
@@ -32,20 +34,19 @@ Integrasi publikasi dan pemasaran masih membutuhkan validasi nyata yang diotoris
 - `src/agents/`: komponen konten, desain, orkestrasi, dan pemasaran.
 - `src/screenshot/`, `src/distribution/`, `src/api/`: fondasi pengambilan bukti dan integrasi.
 - `drafts/`: naskah lengkap, bagian naskah dalam `parts/`, serta spesifikasi `*.xlsx.json`.
-- `products/`: artefak, aset, dan registri lama `manifest.json`.
+- `products/`: artefak, aset, dan registri `manifest.json`.
 - `tests/`: pengujian perangkat lunak; `docs/specs/` dan `docs/plans/`: standar dan rencana.
 
-## Katalog lama dan tier
+## Katalog dan status produk
 
-Tiga keluarga tema berikut beserta varian Basic, Premium, dan Ultimate adalah artefak legacy yang menunggu sertifikasi v2.0:
+Tiga keluarga tema lama (150 Prompt AI UMKM, 300 Prompt Copywriting, 200 Template Social Media) beserta varian Basic/Premium/Ultimate masih menunggu audit penuh terhadap v2.0.
 
-| Keluarga tema lama | Status |
-|---|---|
-| 150 Prompt AI untuk Bisnis dan UMKM Indonesia | Perlu audit sumber, bukti, dan keluaran |
-| 300 Prompt AI untuk Copywriting dan Iklan Digital | Perlu audit sumber, bukti, dan keluaran |
-| 200 Template Social Media | Perlu audit sumber, bukti, dan keluaran |
+Produk tambahan yang sudah diproduksi (status "produced", sertifikasi v2.0 belum selesai) mencakup antara lain:
+- Panduan Lengkap Time Management untuk UMKM Indonesia (Product 69)
+- Panduan Lengkap Risk Management untuk UMKM Indonesia (Product 68)
+- Berbagai panduan dan paket prompt lainnya di folder `products/`
 
-Angka pada judul adalah identitas katalog lama, bukan jumlah yang sudah diverifikasi. Berkas yang ada tidak membuktikan hasil baru, bukti terkini, atau keluaran AI yang benar-benar dieksekusi.
+Angka pada judul adalah identitas katalog, bukan jumlah yang sudah diverifikasi. Berkas yang ada tidak otomatis membuktikan hasil baru, bukti terkini, atau keluaran AI yang benar-benar dieksekusi.
 Pada v2.0, tier membedakan keluasan dan kedalaman, bukan mutu minimum. Screenshot mengikuti kebutuhan materi layar, termasuk Basic. Excel, video, QR, bonus, dan jumlah prompt tidak otomatis dijanjikan oleh nama tier.
 
 ## Menyiapkan dan menjalankan produksi lokal
@@ -135,7 +136,9 @@ Tes dokumentasi/tata kelola hanya memeriksa aturan dan petunjuk; bukan bukti bah
 
 ## Rilis dan kelanjutan pekerjaan
 
-Ikuti rencana aktif: perkuat penegakan otomatis, buat produk percontohan, audit artefak lama, lalu tingkatkan kapasitas berdasarkan hasil terukur. Dokumentasi baru tidak menandakan tahap implementasi selesai.
+Ikuti rencana aktif: perkuat penegakan otomatis (Paket B), buat produk percontohan (Paket C), audit artefak lama (Paket D), lalu tingkatkan kapasitas berdasarkan hasil terukur. Dokumentasi baru tidak menandakan tahap implementasi selesai.
 Prioritas kanal adalah app.snishop.com dan lynk.id, setelah kemampuan serta akses diuji. Tarif komisi, pendapatan, peringkat SEO, dan penjualan tidak dijamin.
 Materi pemasaran hanya boleh menjanjikan isi, harga, bonus, tautan, dan layanan yang benar-benar tersedia serta disetujui. QRIS sukarela bukan integrasi checkout otomatis.
 Izin rilis terpisah dari izin commit, push, upload, pesan eksternal, eksekusi berbayar, dan perubahan produksi. Jangan melakukan tindakan tersebut otomatis setelah pekerjaan selesai.
+
+**Terakhir diperbarui:** 2026-10-24 (automation produksi rutin diaktifkan; status sertifikasi v2.0 masih terbuka).
