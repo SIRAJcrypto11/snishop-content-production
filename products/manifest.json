@@ -2057,6 +2057,32 @@
       "pages": 63,
       "producedAt": "2026-10-24T02:37:28.182Z",
       "status": "produced"
+    },
+    {
+      "slug": "change-management-umkm-ultimate",
+      "title": "Panduan Lengkap Change Management untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\change-management-umkm-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 20414328
+        },
+        {
+          "file": "products\\change-management-umkm-ultimate.docx",
+          "kind": "docx",
+          "bytes": 60080
+        }
+      ],
+      "wordCount": 16672,
+      "pages": 73,
+      "producedAt": "2026-10-24T02:56:08.253Z",
+      "status": "produced"
     }
   ]
 }
