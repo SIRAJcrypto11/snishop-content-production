@@ -2135,6 +2135,32 @@
       "pages": 85,
       "producedAt": "2026-10-24T04:20:05.400Z",
       "status": "produced"
+    },
+    {
+      "slug": "time-management-umkm-ultimate",
+      "title": "Panduan Lengkap Time Management untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\time-management-umkm-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 5131284
+        },
+        {
+          "file": "products\\time-management-umkm-ultimate.docx",
+          "kind": "docx",
+          "bytes": 58179
+        }
+      ],
+      "wordCount": 15032,
+      "pages": 96,
+      "producedAt": "2026-10-24T07:41:14.482Z",
+      "status": "produced"
     }
   ]
 }
