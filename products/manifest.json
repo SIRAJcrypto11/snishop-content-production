@@ -2031,6 +2031,32 @@
       "pages": 70,
       "producedAt": "2026-10-24T02:25:24.908Z",
       "status": "produced"
+    },
+    {
+      "slug": "leadership-umkm-ultimate",
+      "title": "Panduan Lengkap Leadership untuk UMKM Indonesia [ULTIMATE]",
+      "tier": "ultimate",
+      "pricing": {
+        "normal": 299000,
+        "launch": 149000,
+        "flash": 99000
+      },
+      "outputs": [
+        {
+          "file": "products\\leadership-umkm-ultimate.pdf",
+          "kind": "pdf",
+          "bytes": 23666797
+        },
+        {
+          "file": "products\\leadership-umkm-ultimate.docx",
+          "kind": "docx",
+          "bytes": 56080
+        }
+      ],
+      "wordCount": 15208,
+      "pages": 63,
+      "producedAt": "2026-10-24T02:37:28.182Z",
+      "status": "produced"
     }
   ]
 }
